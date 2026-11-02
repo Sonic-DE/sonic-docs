@@ -1,0 +1,8 @@
+rootPage: home
+sections:
+  Getting started:
+    pages:
+      home: Introduction
+      getting-started/building: Building Sonic-DE
+      getting-started/dependencies: Dependencies
+      getting-started/troubleshooting: Troubleshooting
