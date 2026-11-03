@@ -41,7 +41,7 @@ per page; don't assume one licence for every page.
 
 The API reference for the Sonic-DE libraries isn't written by hand. `docbook2markdown6`
 generates `api/` from the source code's documentation comments, and the site publishes it
-at `/api`, separately from these guides. Fix mistakes in the comments in the source, not in
+at `/docs/api`, separately from these guides. Fix mistakes in the comments in the source, not in
 `api/`, which is replaced on every generation.
 
 ## Licence

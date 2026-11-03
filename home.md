@@ -1,24 +1,20 @@
 ---
 title: Sonic-DE Documentation
-description: User and developer documentation for Sonic-DE, the KDE-derived desktop with full X11 support.
+description: User, developer and API documentation for Sonic-DE, the KDE-derived desktop with full X11 support.
 ---
 
 # Sonic-DE Documentation
 
-Sonic-DE is a fork of KDE with full X11 compatibility. This documentation covers building,
-using and developing Sonic-DE.
+Sonic-DE is a fork of KDE with full X11 compatibility. Its documentation comes in three tiers,
+each written for a different reader. Start with the one that matches what you want to do.
 
-## Developing Sonic-DE
-
-- [Building Sonic-DE](developer/building.md) explains how to fetch and build the whole
-  desktop from source with sonicde-builder.
-- [Dependencies](developer/dependencies.md) lists what a build host needs.
-- [Troubleshooting](developer/troubleshooting.md) collects known build problems.
-
-## API reference
-
-The [SonicDE API Reference](/api) documents the SonicDE libraries' classes and QML types. It is
-generated from the documentation comments in their source code.
+- [User Documentation](user.md) is for people using Sonic-DE as their desktop: setting it
+  up, finding your way around and getting the most out of its applications.
+- [Developer Documentation](developer.md) is for people building Sonic-DE from source or
+  contributing to it.
+- [API Documentation](/docs/api) is for developers writing applications or plugins against
+  the Sonic-DE libraries. It documents their classes and QML types, and is generated from
+  the documentation comments in their source code.
 
 ## Contributing to these pages
 

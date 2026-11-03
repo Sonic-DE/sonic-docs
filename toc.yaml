@@ -3,8 +3,12 @@ sections:
   Overview:
     pages:
       home: Introduction
+  Using SonicDE:
+    pages:
+      user: User Documentation
   Developing SonicDE:
     pages:
+      developer: Developer Documentation
       developer/building: Building Sonic-DE
       developer/dependencies: Dependencies
       developer/troubleshooting: Troubleshooting
