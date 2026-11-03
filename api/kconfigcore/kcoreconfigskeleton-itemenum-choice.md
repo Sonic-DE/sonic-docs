@@ -5,7 +5,7 @@ description: "Provides strongly typed enum options for use with KConfigXT."
 
 # 
 
-Provides strongly typed enum options for use with KConfigXT.
+Provides strongly typed enum options for use with KConfigXT. [More...](#details)
 
 - Header: Choice
 - CMake: find\_package(KF6 REQUIRED COMPONENTS Config) target\_link\_libraries(mytarget PRIVATE KF6::ConfigCore)

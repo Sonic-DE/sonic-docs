@@ -5,12 +5,14 @@ description: "Class for handling enums."
 
 # KCoreConfigSkeleton::ItemEnum Class
 
-Class for handling enums.
+Class for handling enums. [More...](#details)
 
 - **Header:** `#include <ItemEnum>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KCoreConfigSkeleton::ItemInt](kcoreconfigskeleton-itemint.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itemenum-members.md)
 
 ## Public Functions
 

@@ -5,7 +5,7 @@ description: "Creates a KWindowStateSaver in QML, and assigns it to the window i
 
 # WindowStateSaver QML Type
 
-Creates a [KWindowStateSaver](../kconfiggui/kwindowstatesaver.md) in QML, and assigns it to the window it's parented to. This type was introduced in Qt 6.5.
+Creates a [KWindowStateSaver](../kconfiggui/kwindowstatesaver.md) in QML, and assigns it to the window it's parented to. This type was introduced in Qt 6.5. [More...](#details)
 
 - Import Statement: import org.kde.config
 - Since: Qt 6.5

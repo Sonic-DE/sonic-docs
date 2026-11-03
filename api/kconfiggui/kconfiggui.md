@@ -5,7 +5,7 @@ description: "Interface-related functions."
 
 # KConfigGui Namespace
 
-Interface-related functions.
+Interface-related functions. [More...](#details)
 
 - Header: KConfigGui
 - CMake: find\_package(KF6 REQUIRED COMPONENTS Config) target\_link\_libraries(mytarget PRIVATE KF6::ConfigGui)

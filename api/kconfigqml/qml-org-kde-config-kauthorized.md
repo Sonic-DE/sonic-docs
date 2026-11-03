@@ -5,7 +5,7 @@ description: "Singleton used for checking whether actions are allowed by a user.
 
 # KAuthorized QML Type (Singleton)
 
-Singleton used for checking whether actions are allowed by a user.
+Singleton used for checking whether actions are allowed by a user. [More...](#details)
 
 - Import Statement: import org.kde.config
 - In C++: [KAuthorized](../kconfigcore/kauthorized.md)

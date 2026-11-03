@@ -5,7 +5,7 @@ description: "Convenience methods to access all standard KDE actions. This names
 
 # KStandardActions Namespace
 
-Convenience methods to access all standard KDE actions. This namespace was introduced in Qt 6.3.
+Convenience methods to access all standard KDE actions. This namespace was introduced in Qt 6.3. [More...](#details)
 
 - Header: KStandardActions
 - Since: Qt 6.3

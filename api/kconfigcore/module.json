@@ -1,176 +1,2029 @@
 {
-    "description": "Persistent platform-independent application settings.",
-    "module": "kconfigcore",
-    "modulePage": "kconfigcore/kconfigcore-module",
-    "pages": [
-        [
-            "kconfigcore/kconfigcore-module",
-            "KConfigCore C++ Classes"
-        ],
-        [
-            "kconfigcore/kauthorized",
-            "KAuthorized"
-        ],
-        [
-            "kconfigcore/kconfig",
-            "KConfig"
-        ],
-        [
-            "kconfigcore/kconfigbase",
-            "KConfigBase"
-        ],
-        [
-            "kconfigcore/kconfiggroup",
-            "KConfigGroup"
-        ],
-        [
-            "kconfigcore/kconfigskeletongenericitem",
-            "KConfigSkeletonGenericItem"
-        ],
-        [
-            "kconfigcore/kconfigskeletonitem",
-            "KConfigSkeletonItem"
-        ],
-        [
-            "kconfigcore/kconfigwatcher",
-            "KConfigWatcher"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton",
-            "KCoreConfigSkeleton"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itembool",
-            "KCoreConfigSkeleton::ItemBool"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemdatetime",
-            "KCoreConfigSkeleton::ItemDateTime"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemdouble",
-            "KCoreConfigSkeleton::ItemDouble"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemenum",
-            "KCoreConfigSkeleton::ItemEnum"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemint",
-            "KCoreConfigSkeleton::ItemInt"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemintlist",
-            "KCoreConfigSkeleton::ItemIntList"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemlonglong",
-            "KCoreConfigSkeleton::ItemLongLong"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itempassword",
-            "KCoreConfigSkeleton::ItemPassword"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itempath",
-            "KCoreConfigSkeleton::ItemPath"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itempathlist",
-            "KCoreConfigSkeleton::ItemPathList"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itempoint",
-            "KCoreConfigSkeleton::ItemPoint"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itempointf",
-            "KCoreConfigSkeleton::ItemPointF"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemproperty",
-            "KCoreConfigSkeleton::ItemProperty"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemrect",
-            "KCoreConfigSkeleton::ItemRect"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemrectf",
-            "KCoreConfigSkeleton::ItemRectF"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemsize",
-            "KCoreConfigSkeleton::ItemSize"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemsizef",
-            "KCoreConfigSkeleton::ItemSizeF"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemstring",
-            "KCoreConfigSkeleton::ItemString"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemstringlist",
-            "KCoreConfigSkeleton::ItemStringList"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemtime",
-            "KCoreConfigSkeleton::ItemTime"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemuint",
-            "KCoreConfigSkeleton::ItemUInt"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemulonglong",
-            "KCoreConfigSkeleton::ItemULongLong"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemurl",
-            "KCoreConfigSkeleton::ItemUrl"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemurllist",
-            "KCoreConfigSkeleton::ItemUrlList"
-        ],
-        [
-            "kconfigcore/kdesktopfile",
-            "KDesktopFile"
-        ],
-        [
-            "kconfigcore/kdesktopfileaction",
-            "KDesktopFileAction"
-        ],
-        [
-            "kconfigcore/kemailsettings",
-            "KEMailSettings"
-        ],
-        [
-            "kconfigcore/kpropertyskeletonitem",
-            "KPropertySkeletonItem"
-        ],
-        [
-            "kconfigcore/ksharedconfig",
-            "KSharedConfig"
-        ],
-        [
-            "kconfigcore/kconfig-index",
-            "KConfig"
-        ],
-        [
-            "kconfigcore/kconfigcompiler",
-            "The KDE Configuration Compiler"
-        ],
-        [
-            "kconfigcore/kconfupdate",
-            "kconf_update Tool"
-        ],
-        [
-            "kconfigcore/kcoreconfigskeleton-itemenum-choice",
-            ""
-        ]
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "authorize",
+                    "authorize(const QString &) : bool",
+                    "authorize"
+                ],
+                [
+                    "authorize",
+                    "authorize(KAuthorized::GenericRestriction) : bool",
+                    "authorize-1"
+                ],
+                [
+                    "authorizeAction",
+                    "authorizeAction(const QString &) : bool",
+                    "authorizeAction"
+                ],
+                [
+                    "authorizeAction",
+                    "authorizeAction(KAuthorized::GenericAction) : bool",
+                    "authorizeAction-1"
+                ],
+                [
+                    "authorizeControlModule",
+                    "authorizeControlModule(const QString &) : bool",
+                    "authorizeControlModule"
+                ]
+            ],
+            "name": "KAuthorized",
+            "page": "kconfigcore/kauthorized",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigbase"
+            ],
+            "members": [
+                [
+                    "KConfig",
+                    "KConfig(const std::shared_ptr<QIODevice> &, KConfig::OpenFlags)",
+                    "KConfig"
+                ],
+                [
+                    "KConfig",
+                    "KConfig(const QString &, KConfig::OpenFlags, QStandardPaths::StandardLocation)",
+                    "KConfig-1"
+                ],
+                [
+                    "addConfigSources",
+                    "addConfigSources(const QStringList &)",
+                    "addConfigSources"
+                ],
+                [
+                    "additionalConfigSources",
+                    "additionalConfigSources() const : QStringList",
+                    "additionalConfigSources"
+                ],
+                [
+                    "checkUpdate",
+                    "checkUpdate(const QString &, const QString &)",
+                    "checkUpdate"
+                ],
+                [
+                    "copyFrom",
+                    "copyFrom(const KConfig &) const",
+                    "copyFrom"
+                ],
+                [
+                    "copyTo",
+                    "copyTo(const QString &, KConfig *) const : KConfig *",
+                    "copyTo"
+                ],
+                [
+                    "entryMap",
+                    "entryMap(const QString &) const : QMap<QString, QString>",
+                    "entryMap"
+                ],
+                [
+                    "isConfigWritable",
+                    "isConfigWritable(bool) : bool",
+                    "isConfigWritable"
+                ],
+                [
+                    "isDirty",
+                    "isDirty() const : bool",
+                    "isDirty"
+                ],
+                [
+                    "locale",
+                    "locale() const : QString",
+                    "locale"
+                ],
+                [
+                    "locationType",
+                    "locationType() const : QStandardPaths::StandardLocation",
+                    "locationType"
+                ],
+                [
+                    "mainConfigName",
+                    "mainConfigName() : QString",
+                    "mainConfigName"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "openFlags",
+                    "openFlags() const : KConfig::OpenFlags",
+                    "openFlags"
+                ],
+                [
+                    "readDefaults",
+                    "readDefaults() const : bool",
+                    "readDefaults"
+                ],
+                [
+                    "reparseConfiguration",
+                    "reparseConfiguration()",
+                    "reparseConfiguration"
+                ],
+                [
+                    "setLocale",
+                    "setLocale(const QString &) : bool",
+                    "setLocale"
+                ],
+                [
+                    "setMainConfigName",
+                    "setMainConfigName(const QString &)",
+                    "setMainConfigName"
+                ],
+                [
+                    "setReadDefaults",
+                    "setReadDefaults(bool)",
+                    "setReadDefaults"
+                ]
+            ],
+            "name": "KConfig",
+            "page": "kconfigcore/kconfig",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "accessMode",
+                    "accessMode() const : KConfigBase::AccessMode",
+                    "accessMode"
+                ],
+                [
+                    "deleteGroup",
+                    "deleteGroup(const QString &, KConfigBase::WriteConfigFlags)",
+                    "deleteGroup"
+                ],
+                [
+                    "group",
+                    "group(const QString &) : KConfigGroup",
+                    "group"
+                ],
+                [
+                    "group",
+                    "group(const QString &) const : const KConfigGroup",
+                    "group-1"
+                ],
+                [
+                    "groupList",
+                    "groupList() const : QStringList",
+                    "groupList"
+                ],
+                [
+                    "hasGroup",
+                    "hasGroup(const QString &) const : bool",
+                    "hasGroup"
+                ],
+                [
+                    "isGroupImmutable",
+                    "isGroupImmutable(const QString &) const : bool",
+                    "isGroupImmutable"
+                ],
+                [
+                    "isImmutable",
+                    "isImmutable() const : bool",
+                    "isImmutable"
+                ],
+                [
+                    "markAsClean",
+                    "markAsClean()",
+                    "markAsClean"
+                ],
+                [
+                    "sync",
+                    "sync() : bool",
+                    "sync"
+                ]
+            ],
+            "name": "KConfigBase",
+            "page": "kconfigcore/kconfigbase",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigbase"
+            ],
+            "members": [
+                [
+                    "KConfigGroup",
+                    "KConfigGroup()",
+                    "KConfigGroup"
+                ],
+                [
+                    "KConfigGroup",
+                    "KConfigGroup(KConfigBase *, const QString &)",
+                    "KConfigGroup-1"
+                ],
+                [
+                    "KConfigGroup",
+                    "KConfigGroup(const KConfigBase *, const QString &)",
+                    "KConfigGroup-2"
+                ],
+                [
+                    "KConfigGroup",
+                    "KConfigGroup(const QExplicitlySharedDataPointer<KSharedConfig> &, const QString &)",
+                    "KConfigGroup-3"
+                ],
+                [
+                    "config",
+                    "config() : KConfig *",
+                    "config"
+                ],
+                [
+                    "config",
+                    "config() const : const KConfig *",
+                    "config-1"
+                ],
+                [
+                    "copyTo",
+                    "copyTo(KConfigBase *, KConfigBase::WriteConfigFlags) const",
+                    "copyTo"
+                ],
+                [
+                    "deleteEntry",
+                    "deleteEntry(const QString &, KConfigBase::WriteConfigFlags)",
+                    "deleteEntry"
+                ],
+                [
+                    "deleteEntry",
+                    "deleteEntry(const char *, KConfigBase::WriteConfigFlags)",
+                    "deleteEntry-1"
+                ],
+                [
+                    "deleteGroup",
+                    "deleteGroup(KConfigBase::WriteConfigFlags)",
+                    "deleteGroup"
+                ],
+                [
+                    "entryMap",
+                    "entryMap() const : QMap<QString, QString>",
+                    "entryMap"
+                ],
+                [
+                    "exists",
+                    "exists() const : bool",
+                    "exists"
+                ],
+                [
+                    "hasDefault",
+                    "hasDefault(const QString &) const : bool",
+                    "hasDefault"
+                ],
+                [
+                    "hasDefault",
+                    "hasDefault(const char *) const : bool",
+                    "hasDefault-1"
+                ],
+                [
+                    "hasKey",
+                    "hasKey(const QString &) const : bool",
+                    "hasKey"
+                ],
+                [
+                    "hasKey",
+                    "hasKey(const char *) const : bool",
+                    "hasKey-1"
+                ],
+                [
+                    "isEntryImmutable",
+                    "isEntryImmutable(const QString &) const : bool",
+                    "isEntryImmutable"
+                ],
+                [
+                    "isEntryImmutable",
+                    "isEntryImmutable(const char *) const : bool",
+                    "isEntryImmutable-1"
+                ],
+                [
+                    "isImmutable",
+                    "isImmutable() const : bool",
+                    "isImmutable"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "keyList",
+                    "keyList() const : QStringList",
+                    "keyList"
+                ],
+                [
+                    "moveValuesTo",
+                    "moveValuesTo(KConfigGroup &, KConfigBase::WriteConfigFlags)",
+                    "moveValuesTo"
+                ],
+                [
+                    "moveValuesTo",
+                    "moveValuesTo(const QList<const char *> &, KConfigGroup &, KConfigBase::WriteConfigFlags)",
+                    "moveValuesTo-1"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "parent",
+                    "parent() const : KConfigGroup",
+                    "parent"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const QString &, const QList<T> &) const : template <typename T> QList<T>",
+                    "readEntry"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const QString &, const QString &) const : QString",
+                    "readEntry-1"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const QString &, const QStringList &) const : QStringList",
+                    "readEntry-2"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const QString &, const QVariant &) const : QVariant",
+                    "readEntry-3"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const QString &, const T &) const : template <typename T> T",
+                    "readEntry-4"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const QString &, std::chrono::duration<Rep, Period>) const : template <typename Rep, typename Period> std::chrono::duration<Rep, Period>",
+                    "readEntry-5"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const QString &, const QVariantList &) const : QVariantList",
+                    "readEntry-6"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const QString &, const char *) const : QString",
+                    "readEntry-7"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const char *, const QList<T> &) const : template <typename T> QList<T>",
+                    "readEntry-8"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const char *, const QString &) const : QString",
+                    "readEntry-9"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const char *, const QStringList &) const : QStringList",
+                    "readEntry-10"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const char *, const QVariant &) const : QVariant",
+                    "readEntry-11"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const char *, const QVariantList &) const : QVariantList",
+                    "readEntry-12"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const char *, const T &) const : template <typename T> T",
+                    "readEntry-13"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const char *, const char *) const : QString",
+                    "readEntry-14"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const char *, std::chrono::duration<Rep, Period>) const : template <typename Rep, typename Period> std::chrono::duration<Rep, Period>",
+                    "readEntry-15"
+                ],
+                [
+                    "readEntryUntranslated",
+                    "readEntryUntranslated(const QString &, const QString &) const : QString",
+                    "readEntryUntranslated"
+                ],
+                [
+                    "readEntryUntranslated",
+                    "readEntryUntranslated(const char *, const QString &) const : QString",
+                    "readEntryUntranslated-1"
+                ],
+                [
+                    "readPathEntry",
+                    "readPathEntry(const QString &, const QString &) const : QString",
+                    "readPathEntry"
+                ],
+                [
+                    "readPathEntry",
+                    "readPathEntry(const QString &, const QStringList &) const : QStringList",
+                    "readPathEntry-1"
+                ],
+                [
+                    "readPathEntry",
+                    "readPathEntry(const char *, const QString &) const : QString",
+                    "readPathEntry-2"
+                ],
+                [
+                    "readPathEntry",
+                    "readPathEntry(const char *, const QStringList &) const : QStringList",
+                    "readPathEntry-3"
+                ],
+                [
+                    "readXdgListEntry",
+                    "readXdgListEntry(const QString &, const QStringList &) const : QStringList",
+                    "readXdgListEntry"
+                ],
+                [
+                    "readXdgListEntry",
+                    "readXdgListEntry(const char *, const QStringList &) const : QStringList",
+                    "readXdgListEntry-1"
+                ],
+                [
+                    "reparent",
+                    "reparent(KConfigBase *, KConfigBase::WriteConfigFlags)",
+                    "reparent"
+                ],
+                [
+                    "revertToDefault",
+                    "revertToDefault(const QString &, KConfigBase::WriteConfigFlags)",
+                    "revertToDefault"
+                ],
+                [
+                    "revertToDefault",
+                    "revertToDefault(const char *, KConfigBase::WriteConfigFlags)",
+                    "revertToDefault-1"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const QString &, const QVariant &, KConfigBase::WriteConfigFlags)",
+                    "writeEntry"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const QString &, const QByteArray &, KConfigBase::WriteConfigFlags)",
+                    "writeEntry-1"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const QString &, const QList<T> &, KConfigBase::WriteConfigFlags) : template <typename T> void",
+                    "writeEntry-2"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const QString &, const QString &, KConfigBase::WriteConfigFlags)",
+                    "writeEntry-3"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const QString &, const QStringList &, KConfigBase::WriteConfigFlags)",
+                    "writeEntry-4"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const QString &, const QVariantList &, KConfigBase::WriteConfigFlags)",
+                    "writeEntry-5"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const QString &, const T &, KConfigBase::WriteConfigFlags) : template <typename T> void",
+                    "writeEntry-6"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const QString &, const char *, KConfigBase::WriteConfigFlags)",
+                    "writeEntry-7"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const QString &, std::chrono::duration<Rep, Period>, KConfigBase::WriteConfigFlags) : template <typename Rep, typename Period> void",
+                    "writeEntry-8"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const char *, const QByteArray &, KConfigBase::WriteConfigFlags)",
+                    "writeEntry-9"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const char *, const QList<T> &, KConfigBase::WriteConfigFlags) : template <typename T> void",
+                    "writeEntry-10"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const char *, const QString &, KConfigBase::WriteConfigFlags)",
+                    "writeEntry-11"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const char *, const QStringList &, KConfigBase::WriteConfigFlags)",
+                    "writeEntry-12"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const char *, const QVariant &, KConfigBase::WriteConfigFlags)",
+                    "writeEntry-13"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const char *, const QVariantList &, KConfigBase::WriteConfigFlags)",
+                    "writeEntry-14"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const char *, const T &, KConfigBase::WriteConfigFlags) : template <typename T> void",
+                    "writeEntry-15"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const char *, const char *, KConfigBase::WriteConfigFlags)",
+                    "writeEntry-16"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const char *, std::chrono::duration<Rep, Period>, KConfigBase::WriteConfigFlags) : template <typename Rep, typename Period> void",
+                    "writeEntry-17"
+                ],
+                [
+                    "writePathEntry",
+                    "writePathEntry(const QString &, const QString &, KConfigBase::WriteConfigFlags)",
+                    "writePathEntry"
+                ],
+                [
+                    "writePathEntry",
+                    "writePathEntry(const QString &, const QStringList &, KConfigBase::WriteConfigFlags)",
+                    "writePathEntry-1"
+                ],
+                [
+                    "writePathEntry",
+                    "writePathEntry(const char *, const QString &, KConfigBase::WriteConfigFlags)",
+                    "writePathEntry-2"
+                ],
+                [
+                    "writePathEntry",
+                    "writePathEntry(const char *, const QStringList &, KConfigBase::WriteConfigFlags)",
+                    "writePathEntry-3"
+                ],
+                [
+                    "writeXdgListEntry",
+                    "writeXdgListEntry(const QString &, const QStringList &, KConfigBase::WriteConfigFlags)",
+                    "writeXdgListEntry"
+                ],
+                [
+                    "writeXdgListEntry",
+                    "writeXdgListEntry(const char *, const QStringList &, KConfigBase::WriteConfigFlags)",
+                    "writeXdgListEntry-1"
+                ]
+            ],
+            "name": "KConfigGroup",
+            "page": "kconfigcore/kconfiggroup",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletonitem"
+            ],
+            "members": [
+                [
+                    "KConfigSkeletonGenericItem",
+                    "KConfigSkeletonGenericItem(const QString &, const QString &, T &, T)",
+                    "KConfigSkeletonGenericItem"
+                ],
+                [
+                    "setDefault",
+                    "setDefault()",
+                    "setDefault"
+                ],
+                [
+                    "setDefaultValue",
+                    "setDefaultValue(const T &)",
+                    "setDefaultValue"
+                ],
+                [
+                    "setValue",
+                    "setValue(const T &)",
+                    "setValue"
+                ],
+                [
+                    "value",
+                    "value() : T &",
+                    "value"
+                ],
+                [
+                    "value",
+                    "value() const : const T &",
+                    "value-1"
+                ]
+            ],
+            "name": "KConfigSkeletonGenericItem",
+            "page": "kconfigcore/kconfigskeletongenericitem",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KConfigSkeletonItem",
+                    "KConfigSkeletonItem(const QString &, const QString &)",
+                    "KConfigSkeletonItem"
+                ],
+                [
+                    "configGroup",
+                    "configGroup(KConfig *) const : KConfigGroup",
+                    "configGroup"
+                ],
+                [
+                    "getDefault",
+                    "getDefault() const : QVariant",
+                    "getDefault"
+                ],
+                [
+                    "group",
+                    "group() const : QString",
+                    "group"
+                ],
+                [
+                    "isDefault",
+                    "isDefault() const : bool",
+                    "isDefault"
+                ],
+                [
+                    "isEqual",
+                    "isEqual(const QVariant &) const : bool",
+                    "isEqual"
+                ],
+                [
+                    "isImmutable",
+                    "isImmutable() const : bool",
+                    "isImmutable"
+                ],
+                [
+                    "isSaveNeeded",
+                    "isSaveNeeded() const : bool",
+                    "isSaveNeeded"
+                ],
+                [
+                    "key",
+                    "key() const : QString",
+                    "key"
+                ],
+                [
+                    "label",
+                    "label() const : QString",
+                    "label"
+                ],
+                [
+                    "maxValue",
+                    "maxValue() const : QVariant",
+                    "maxValue"
+                ],
+                [
+                    "minValue",
+                    "minValue() const : QVariant",
+                    "minValue"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "property",
+                    "property() const : QVariant",
+                    "property"
+                ],
+                [
+                    "readConfig",
+                    "readConfig()",
+                    "readConfig"
+                ],
+                [
+                    "readDefault",
+                    "readDefault()",
+                    "readDefault"
+                ],
+                [
+                    "readImmutability",
+                    "readImmutability(const KConfigGroup &)",
+                    "readImmutability"
+                ],
+                [
+                    "setDefault",
+                    "setDefault()",
+                    "setDefault"
+                ],
+                [
+                    "setGroup",
+                    "setGroup(const KConfigGroup &)",
+                    "setGroup"
+                ],
+                [
+                    "setGroup",
+                    "setGroup(const QString &)",
+                    "setGroup-1"
+                ],
+                [
+                    "setKey",
+                    "setKey(const QString &)",
+                    "setKey"
+                ],
+                [
+                    "setLabel",
+                    "setLabel(const QString &)",
+                    "setLabel"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setProperty",
+                    "setProperty(const QVariant &)",
+                    "setProperty"
+                ],
+                [
+                    "setToolTip",
+                    "setToolTip(const QString &)",
+                    "setToolTip"
+                ],
+                [
+                    "setWhatsThis",
+                    "setWhatsThis(const QString &)",
+                    "setWhatsThis"
+                ],
+                [
+                    "setWriteFlags",
+                    "setWriteFlags(KConfigBase::WriteConfigFlags)",
+                    "setWriteFlags"
+                ],
+                [
+                    "swapDefault",
+                    "swapDefault()",
+                    "swapDefault"
+                ],
+                [
+                    "toolTip",
+                    "toolTip() const : QString",
+                    "toolTip"
+                ],
+                [
+                    "whatsThis",
+                    "whatsThis() const : QString",
+                    "whatsThis"
+                ],
+                [
+                    "writeConfig",
+                    "writeConfig()",
+                    "writeConfig"
+                ],
+                [
+                    "writeFlags",
+                    "writeFlags() const : KConfigBase::WriteConfigFlags",
+                    "writeFlags"
+                ]
+            ],
+            "name": "KConfigSkeletonItem",
+            "page": "kconfigcore/kconfigskeletonitem",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "config",
+                    "config() const : KSharedConfig::Ptr",
+                    "config"
+                ],
+                [
+                    "configChanged",
+                    "configChanged(const KConfigGroup &, const QByteArrayList &)",
+                    "configChanged"
+                ],
+                [
+                    "create",
+                    "create(const KSharedConfig::Ptr &) : KConfigWatcher::Ptr",
+                    "create"
+                ]
+            ],
+            "name": "KConfigWatcher",
+            "page": "kconfigcore/kconfigwatcher",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCoreConfigSkeleton",
+                    "KCoreConfigSkeleton(KSharedConfig::Ptr, QObject *)",
+                    "KCoreConfigSkeleton"
+                ],
+                [
+                    "KCoreConfigSkeleton",
+                    "KCoreConfigSkeleton(const QString &, QObject *)",
+                    "KCoreConfigSkeleton-1"
+                ],
+                [
+                    "KCoreConfigSkeleton",
+                    "KCoreConfigSkeleton(std::unique_ptr<KConfig>, KCoreConfigSkeleton::DisambiguateConstructor, QObject *)",
+                    "KCoreConfigSkeleton-2"
+                ],
+                [
+                    "addItem",
+                    "addItem(KConfigSkeletonItem *, const QString &)",
+                    "addItem"
+                ],
+                [
+                    "addItemBool",
+                    "addItemBool(const QString &, bool &, bool, const QString &) : KCoreConfigSkeleton::ItemBool *",
+                    "addItemBool"
+                ],
+                [
+                    "addItemDateTime",
+                    "addItemDateTime(const QString &, QDateTime &, const QDateTime &, const QString &) : KCoreConfigSkeleton::ItemDateTime *",
+                    "addItemDateTime"
+                ],
+                [
+                    "addItemDouble",
+                    "addItemDouble(const QString &, double &, double, const QString &) : KCoreConfigSkeleton::ItemDouble *",
+                    "addItemDouble"
+                ],
+                [
+                    "addItemInt",
+                    "addItemInt(const QString &, qint32 &, qint32, const QString &) : KCoreConfigSkeleton::ItemInt *",
+                    "addItemInt"
+                ],
+                [
+                    "addItemIntList",
+                    "addItemIntList(const QString &, QList<int> &, const QList<int> &, const QString &) : KCoreConfigSkeleton::ItemIntList *",
+                    "addItemIntList"
+                ],
+                [
+                    "addItemLongLong",
+                    "addItemLongLong(const QString &, qint64 &, qint64, const QString &) : KCoreConfigSkeleton::ItemLongLong *",
+                    "addItemLongLong"
+                ],
+                [
+                    "addItemPassword",
+                    "addItemPassword(const QString &, QString &, const QString &, const QString &) : KCoreConfigSkeleton::ItemPassword *",
+                    "addItemPassword"
+                ],
+                [
+                    "addItemPath",
+                    "addItemPath(const QString &, QString &, const QString &, const QString &) : KCoreConfigSkeleton::ItemPath *",
+                    "addItemPath"
+                ],
+                [
+                    "addItemPathList",
+                    "addItemPathList(const QString &, QList<QString> &, const QList<QString> &, const QString &) : KCoreConfigSkeleton::ItemPathList *",
+                    "addItemPathList"
+                ],
+                [
+                    "addItemPoint",
+                    "addItemPoint(const QString &, QPoint &, const QPoint &, const QString &) : KCoreConfigSkeleton::ItemPoint *",
+                    "addItemPoint"
+                ],
+                [
+                    "addItemPointF",
+                    "addItemPointF(const QString &, QPointF &, const QPointF &, const QString &) : KCoreConfigSkeleton::ItemPointF *",
+                    "addItemPointF"
+                ],
+                [
+                    "addItemProperty",
+                    "addItemProperty(const QString &, QVariant &, const QVariant &, const QString &) : KCoreConfigSkeleton::ItemProperty *",
+                    "addItemProperty"
+                ],
+                [
+                    "addItemRect",
+                    "addItemRect(const QString &, QRect &, const QRect &, const QString &) : KCoreConfigSkeleton::ItemRect *",
+                    "addItemRect"
+                ],
+                [
+                    "addItemRectF",
+                    "addItemRectF(const QString &, QRectF &, const QRectF &, const QString &) : KCoreConfigSkeleton::ItemRectF *",
+                    "addItemRectF"
+                ],
+                [
+                    "addItemSize",
+                    "addItemSize(const QString &, QSize &, const QSize &, const QString &) : KCoreConfigSkeleton::ItemSize *",
+                    "addItemSize"
+                ],
+                [
+                    "addItemSizeF",
+                    "addItemSizeF(const QString &, QSizeF &, const QSizeF &, const QString &) : KCoreConfigSkeleton::ItemSizeF *",
+                    "addItemSizeF"
+                ],
+                [
+                    "addItemString",
+                    "addItemString(const QString &, QString &, const QString &, const QString &) : KCoreConfigSkeleton::ItemString *",
+                    "addItemString"
+                ],
+                [
+                    "addItemStringList",
+                    "addItemStringList(const QString &, QStringList &, const QStringList &, const QString &) : KCoreConfigSkeleton::ItemStringList *",
+                    "addItemStringList"
+                ],
+                [
+                    "addItemTime",
+                    "addItemTime(const QString &, QTime &, QTime, const QString &) : KCoreConfigSkeleton::ItemTime *",
+                    "addItemTime"
+                ],
+                [
+                    "addItemUInt",
+                    "addItemUInt(const QString &, quint32 &, quint32, const QString &) : KCoreConfigSkeleton::ItemUInt *",
+                    "addItemUInt"
+                ],
+                [
+                    "addItemULongLong",
+                    "addItemULongLong(const QString &, quint64 &, quint64, const QString &) : KCoreConfigSkeleton::ItemULongLong *",
+                    "addItemULongLong"
+                ],
+                [
+                    "addItemUrlList",
+                    "addItemUrlList(const QString &, QList<QUrl> &, const QList<QUrl> &, const QString &) : KCoreConfigSkeleton::ItemUrlList *",
+                    "addItemUrlList"
+                ],
+                [
+                    "clearItems",
+                    "clearItems()",
+                    "clearItems"
+                ],
+                [
+                    "config",
+                    "config() : KConfig *",
+                    "config"
+                ],
+                [
+                    "config",
+                    "config() const : const KConfig *",
+                    "config-1"
+                ],
+                [
+                    "configChanged",
+                    "configChanged()",
+                    "configChanged"
+                ],
+                [
+                    "currentGroup",
+                    "currentGroup() const : QString",
+                    "currentGroup"
+                ],
+                [
+                    "findItem",
+                    "findItem(const QString &) const : KConfigSkeletonItem *",
+                    "findItem"
+                ],
+                [
+                    "isDefaults",
+                    "isDefaults() const : bool",
+                    "isDefaults"
+                ],
+                [
+                    "isImmutable",
+                    "isImmutable(const QString &) const : bool",
+                    "isImmutable"
+                ],
+                [
+                    "isSaveNeeded",
+                    "isSaveNeeded() const : bool",
+                    "isSaveNeeded"
+                ],
+                [
+                    "items",
+                    "items() const : KConfigSkeletonItem::List",
+                    "items"
+                ],
+                [
+                    "load",
+                    "load()",
+                    "load"
+                ],
+                [
+                    "read",
+                    "read()",
+                    "read"
+                ],
+                [
+                    "removeItem",
+                    "removeItem(const QString &)",
+                    "removeItem"
+                ],
+                [
+                    "save",
+                    "save() : bool",
+                    "save"
+                ],
+                [
+                    "setConfig",
+                    "setConfig(std::unique_ptr<KConfig>)",
+                    "setConfig"
+                ],
+                [
+                    "setCurrentGroup",
+                    "setCurrentGroup(const QString &)",
+                    "setCurrentGroup"
+                ],
+                [
+                    "setDefaults",
+                    "setDefaults()",
+                    "setDefaults"
+                ],
+                [
+                    "setSharedConfig",
+                    "setSharedConfig(KSharedConfig::Ptr)",
+                    "setSharedConfig"
+                ],
+                [
+                    "sharedConfig",
+                    "sharedConfig() const : KSharedConfig::Ptr",
+                    "sharedConfig"
+                ],
+                [
+                    "useDefaults",
+                    "useDefaults(bool) : bool",
+                    "useDefaults"
+                ],
+                [
+                    "usrRead",
+                    "usrRead()",
+                    "usrRead"
+                ],
+                [
+                    "usrSave",
+                    "usrSave() : bool",
+                    "usrSave"
+                ],
+                [
+                    "usrSetDefaults",
+                    "usrSetDefaults()",
+                    "usrSetDefaults"
+                ],
+                [
+                    "usrUseDefaults",
+                    "usrUseDefaults(bool) : bool",
+                    "usrUseDefaults"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton",
+            "page": "kconfigcore/kcoreconfigskeleton",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemBool",
+                    "ItemBool(const QString &, const QString &, bool &, bool)",
+                    "ItemBool"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemBool",
+            "page": "kconfigcore/kcoreconfigskeleton-itembool",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemDateTime",
+                    "ItemDateTime(const QString &, const QString &, QDateTime &, const QDateTime &)",
+                    "ItemDateTime"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemDateTime",
+            "page": "kconfigcore/kcoreconfigskeleton-itemdatetime",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemDouble",
+                    "ItemDouble(const QString &, const QString &, double &, double)",
+                    "ItemDouble"
+                ],
+                [
+                    "setMaxValue",
+                    "setMaxValue()",
+                    "setMaxValue"
+                ],
+                [
+                    "setMinValue",
+                    "setMinValue()",
+                    "setMinValue"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemDouble",
+            "page": "kconfigcore/kcoreconfigskeleton-itemdouble",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kcoreconfigskeleton-itemint"
+            ],
+            "members": [
+                [
+                    "ItemEnum",
+                    "ItemEnum(const QString &, const QString &, qint32 &, const QList<KCoreConfigSkeleton::ItemEnum::Choice> &, qint32)",
+                    "ItemEnum"
+                ],
+                [
+                    "choices",
+                    "choices() const : QList<KCoreConfigSkeleton::ItemEnum::Choice>",
+                    "choices"
+                ],
+                [
+                    "setValueForChoice",
+                    "setValueForChoice(const QString &, const QString &)",
+                    "setValueForChoice"
+                ],
+                [
+                    "valueForChoice",
+                    "valueForChoice(const QString &) const : QString",
+                    "valueForChoice"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemEnum",
+            "page": "kconfigcore/kcoreconfigskeleton-itemenum",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemInt",
+                    "ItemInt(const QString &, const QString &, qint32 &, qint32)",
+                    "ItemInt"
+                ],
+                [
+                    "setMaxValue",
+                    "setMaxValue()",
+                    "setMaxValue"
+                ],
+                [
+                    "setMinValue",
+                    "setMinValue()",
+                    "setMinValue"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemInt",
+            "page": "kconfigcore/kcoreconfigskeleton-itemint",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemIntList",
+                    "ItemIntList(const QString &, const QString &, QList<int> &, const QList<int> &)",
+                    "ItemIntList"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemIntList",
+            "page": "kconfigcore/kcoreconfigskeleton-itemintlist",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemLongLong",
+                    "ItemLongLong(const QString &, const QString &, qint64 &, qint64)",
+                    "ItemLongLong"
+                ],
+                [
+                    "setMaxValue",
+                    "setMaxValue()",
+                    "setMaxValue"
+                ],
+                [
+                    "setMinValue",
+                    "setMinValue()",
+                    "setMinValue"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemLongLong",
+            "page": "kconfigcore/kcoreconfigskeleton-itemlonglong",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kcoreconfigskeleton-itemstring"
+            ],
+            "members": [
+                [
+                    "ItemPassword",
+                    "ItemPassword(const QString &, const QString &, QString &, const QString &)",
+                    "ItemPassword"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemPassword",
+            "page": "kconfigcore/kcoreconfigskeleton-itempassword",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kcoreconfigskeleton-itemstring"
+            ],
+            "members": [
+                [
+                    "ItemPath",
+                    "ItemPath(const QString &, const QString &, QString &, const QString &)",
+                    "ItemPath"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemPath",
+            "page": "kconfigcore/kcoreconfigskeleton-itempath",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kcoreconfigskeleton-itemstringlist"
+            ],
+            "members": [
+                [
+                    "ItemPathList",
+                    "ItemPathList(const QString &, const QString &, QStringList &, const QStringList &)",
+                    "ItemPathList"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemPathList",
+            "page": "kconfigcore/kcoreconfigskeleton-itempathlist",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemPoint",
+                    "ItemPoint(const QString &, const QString &, QPoint &, const QPoint &)",
+                    "ItemPoint"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemPoint",
+            "page": "kconfigcore/kcoreconfigskeleton-itempoint",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemPointF",
+                    "ItemPointF(const QString &, const QString &, QPointF &, const QPointF &)",
+                    "ItemPointF"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemPointF",
+            "page": "kconfigcore/kcoreconfigskeleton-itempointf",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemProperty",
+                    "ItemProperty(const QString &, const QString &, QVariant &, const QVariant &)",
+                    "ItemProperty"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemProperty",
+            "page": "kconfigcore/kcoreconfigskeleton-itemproperty",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemRect",
+                    "ItemRect(const QString &, const QString &, QRect &, const QRect &)",
+                    "ItemRect"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemRect",
+            "page": "kconfigcore/kcoreconfigskeleton-itemrect",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemRectF",
+                    "ItemRectF(const QString &, const QString &, QRectF &, const QRectF &)",
+                    "ItemRectF"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemRectF",
+            "page": "kconfigcore/kcoreconfigskeleton-itemrectf",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemSize",
+                    "ItemSize(const QString &, const QString &, QSize &, const QSize &)",
+                    "ItemSize"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemSize",
+            "page": "kconfigcore/kcoreconfigskeleton-itemsize",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemSizeF",
+                    "ItemSizeF(const QString &, const QString &, QSizeF &, const QSizeF &)",
+                    "ItemSizeF"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemSizeF",
+            "page": "kconfigcore/kcoreconfigskeleton-itemsizef",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemString",
+                    "ItemString(const QString &, const QString &, QString &, const QString &, KCoreConfigSkeleton::ItemString::Type)",
+                    "ItemString"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemString",
+            "page": "kconfigcore/kcoreconfigskeleton-itemstring",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemStringList",
+                    "ItemStringList(const QString &, const QString &, QStringList &, const QStringList &)",
+                    "ItemStringList"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemStringList",
+            "page": "kconfigcore/kcoreconfigskeleton-itemstringlist",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemTime",
+                    "ItemTime(const QString &, const QString &, QTime &, QTime)",
+                    "ItemTime"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemTime",
+            "page": "kconfigcore/kcoreconfigskeleton-itemtime",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemUInt",
+                    "ItemUInt(const QString &, const QString &, quint32 &, quint32)",
+                    "ItemUInt"
+                ],
+                [
+                    "setMaxValue",
+                    "setMaxValue()",
+                    "setMaxValue"
+                ],
+                [
+                    "setMinValue",
+                    "setMinValue()",
+                    "setMinValue"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemUInt",
+            "page": "kconfigcore/kcoreconfigskeleton-itemuint",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemULongLong",
+                    "ItemULongLong(const QString &, const QString &, quint64 &, quint64)",
+                    "ItemULongLong"
+                ],
+                [
+                    "setMaxValue",
+                    "setMaxValue()",
+                    "setMaxValue"
+                ],
+                [
+                    "setMinValue",
+                    "setMinValue()",
+                    "setMinValue"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemULongLong",
+            "page": "kconfigcore/kcoreconfigskeleton-itemulonglong",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemUrl",
+                    "ItemUrl(const QString &, const QString &, QUrl &, const QUrl &)",
+                    "ItemUrl"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemUrl",
+            "page": "kconfigcore/kcoreconfigskeleton-itemurl",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemUrlList",
+                    "ItemUrlList(const QString &, const QString &, QList<QUrl> &, const QList<QUrl> &)",
+                    "ItemUrlList"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemUrlList",
+            "page": "kconfigcore/kcoreconfigskeleton-itemurllist",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfig"
+            ],
+            "members": [
+                [
+                    "KDesktopFile",
+                    "KDesktopFile(const QString &)",
+                    "KDesktopFile"
+                ],
+                [
+                    "KDesktopFile",
+                    "KDesktopFile(QStandardPaths::StandardLocation, const QString &)",
+                    "KDesktopFile-1"
+                ],
+                [
+                    "~KDesktopFile",
+                    "~KDesktopFile()",
+                    "dtor.KDesktopFile"
+                ],
+                [
+                    "actionGroup",
+                    "actionGroup(const QString &) : KConfigGroup",
+                    "actionGroup"
+                ],
+                [
+                    "actionGroup",
+                    "actionGroup(const QString &) const : KConfigGroup",
+                    "actionGroup-1"
+                ],
+                [
+                    "actions",
+                    "actions() const : QList<KDesktopFileAction>",
+                    "actions"
+                ],
+                [
+                    "copyTo",
+                    "copyTo(const QString &) const : KDesktopFile *",
+                    "copyTo"
+                ],
+                [
+                    "desktopGroup",
+                    "desktopGroup() const : KConfigGroup",
+                    "desktopGroup"
+                ],
+                [
+                    "fileName",
+                    "fileName() const : QString",
+                    "fileName"
+                ],
+                [
+                    "hasActionGroup",
+                    "hasActionGroup(const QString &) const : bool",
+                    "hasActionGroup"
+                ],
+                [
+                    "hasApplicationType",
+                    "hasApplicationType() const : bool",
+                    "hasApplicationType"
+                ],
+                [
+                    "hasDeviceType",
+                    "hasDeviceType() const : bool",
+                    "hasDeviceType"
+                ],
+                [
+                    "hasLinkType",
+                    "hasLinkType() const : bool",
+                    "hasLinkType"
+                ],
+                [
+                    "isAuthorizedDesktopFile",
+                    "isAuthorizedDesktopFile(const QString &) : bool",
+                    "isAuthorizedDesktopFile"
+                ],
+                [
+                    "isDesktopFile",
+                    "isDesktopFile(const QString &) : bool",
+                    "isDesktopFile"
+                ],
+                [
+                    "locateLocal",
+                    "locateLocal(const QString &) : QString",
+                    "locateLocal"
+                ],
+                [
+                    "noDisplay",
+                    "noDisplay() const : bool",
+                    "noDisplay"
+                ],
+                [
+                    "readActions",
+                    "readActions() const : QStringList",
+                    "readActions"
+                ],
+                [
+                    "readComment",
+                    "readComment() const : QString",
+                    "readComment"
+                ],
+                [
+                    "readDocPath",
+                    "readDocPath() const : QString",
+                    "readDocPath"
+                ],
+                [
+                    "readGenericName",
+                    "readGenericName() const : QString",
+                    "readGenericName"
+                ],
+                [
+                    "readIcon",
+                    "readIcon() const : QString",
+                    "readIcon"
+                ],
+                [
+                    "readMimeTypes",
+                    "readMimeTypes() const : QStringList",
+                    "readMimeTypes"
+                ],
+                [
+                    "readName",
+                    "readName() const : QString",
+                    "readName"
+                ],
+                [
+                    "readPath",
+                    "readPath() const : QString",
+                    "readPath"
+                ],
+                [
+                    "readType",
+                    "readType() const : QString",
+                    "readType"
+                ],
+                [
+                    "readUrl",
+                    "readUrl() const : QString",
+                    "readUrl"
+                ],
+                [
+                    "tryExec",
+                    "tryExec() const : bool",
+                    "tryExec"
+                ]
+            ],
+            "name": "KDesktopFile",
+            "page": "kconfigcore/kdesktopfile",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KDesktopFileAction",
+                    "KDesktopFileAction()",
+                    "KDesktopFileAction"
+                ],
+                [
+                    "KDesktopFileAction",
+                    "KDesktopFileAction(const QString &, const QString &, const QString &, const QString &, const QString &)",
+                    "KDesktopFileAction-1"
+                ],
+                [
+                    "actionsKey",
+                    "actionsKey() const : QString",
+                    "actionsKey"
+                ],
+                [
+                    "desktopFilePath",
+                    "desktopFilePath() const : QString",
+                    "desktopFilePath"
+                ],
+                [
+                    "exec",
+                    "exec() const : QString",
+                    "exec"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "isSeparator",
+                    "isSeparator() const : bool",
+                    "isSeparator"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ]
+            ],
+            "name": "KDesktopFileAction",
+            "page": "kconfigcore/kdesktopfileaction",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KEMailSettings",
+                    "KEMailSettings()",
+                    "KEMailSettings"
+                ],
+                [
+                    "defaultProfileName",
+                    "defaultProfileName() const : QString",
+                    "defaultProfileName"
+                ],
+                [
+                    "getSetting",
+                    "getSetting(KEMailSettings::Setting) const : QString",
+                    "getSetting"
+                ],
+                [
+                    "profiles",
+                    "profiles() const : QStringList",
+                    "profiles"
+                ],
+                [
+                    "setDefault",
+                    "setDefault(const QString &)",
+                    "setDefault"
+                ],
+                [
+                    "setProfile",
+                    "setProfile(const QString &)",
+                    "setProfile"
+                ],
+                [
+                    "setSetting",
+                    "setSetting(KEMailSettings::Setting, const QString &)",
+                    "setSetting"
+                ]
+            ],
+            "name": "KEMailSettings",
+            "page": "kconfigcore/kemailsettings",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletonitem"
+            ],
+            "members": [
+                [
+                    "KPropertySkeletonItem",
+                    "KPropertySkeletonItem(QObject *, const QByteArray &, const QVariant &)",
+                    "KPropertySkeletonItem"
+                ],
+                [
+                    "setNotifyFunction",
+                    "setNotifyFunction(const std::function<void ()> &)",
+                    "setNotifyFunction"
+                ]
+            ],
+            "name": "KPropertySkeletonItem",
+            "page": "kconfigcore/kpropertyskeletonitem",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfig"
+            ],
+            "members": [
+                [
+                    "openConfig",
+                    "openConfig(const QString &, KConfig::OpenFlags, QStandardPaths::StandardLocation) : KSharedConfig::Ptr",
+                    "openConfig"
+                ],
+                [
+                    "openStateConfig",
+                    "openStateConfig(const QString &) : KSharedConfig::Ptr",
+                    "openStateConfig"
+                ]
+            ],
+            "name": "KSharedConfig",
+            "page": "kconfigcore/ksharedconfig",
+            "qtBases": [
+                [
+                    "QSharedData",
+                    "https://doc.qt.io/qt-6/qshareddata-members.html"
+                ]
+            ]
+        }
     ],
-    "title": "KConfigCore C++ Classes"
+    "module": "kconfigcore",
+    "sections": [
+        {
+            "description": "Persistent platform-independent application settings.",
+            "page": "kconfigcore/kconfigcore-module",
+            "pages": [
+                [
+                    "kconfigcore/kconfigcore-module",
+                    "KConfigCore C++ Classes"
+                ],
+                [
+                    "kconfigcore/kauthorized",
+                    "KAuthorized"
+                ],
+                [
+                    "kconfigcore/kconfig",
+                    "KConfig"
+                ],
+                [
+                    "kconfigcore/kconfigbase",
+                    "KConfigBase"
+                ],
+                [
+                    "kconfigcore/kconfiggroup",
+                    "KConfigGroup"
+                ],
+                [
+                    "kconfigcore/kconfigskeletongenericitem",
+                    "KConfigSkeletonGenericItem"
+                ],
+                [
+                    "kconfigcore/kconfigskeletonitem",
+                    "KConfigSkeletonItem"
+                ],
+                [
+                    "kconfigcore/kconfigwatcher",
+                    "KConfigWatcher"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton",
+                    "KCoreConfigSkeleton"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itembool",
+                    "KCoreConfigSkeleton::ItemBool"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemdatetime",
+                    "KCoreConfigSkeleton::ItemDateTime"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemdouble",
+                    "KCoreConfigSkeleton::ItemDouble"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemenum",
+                    "KCoreConfigSkeleton::ItemEnum"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemint",
+                    "KCoreConfigSkeleton::ItemInt"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemintlist",
+                    "KCoreConfigSkeleton::ItemIntList"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemlonglong",
+                    "KCoreConfigSkeleton::ItemLongLong"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itempassword",
+                    "KCoreConfigSkeleton::ItemPassword"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itempath",
+                    "KCoreConfigSkeleton::ItemPath"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itempathlist",
+                    "KCoreConfigSkeleton::ItemPathList"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itempoint",
+                    "KCoreConfigSkeleton::ItemPoint"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itempointf",
+                    "KCoreConfigSkeleton::ItemPointF"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemproperty",
+                    "KCoreConfigSkeleton::ItemProperty"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemrect",
+                    "KCoreConfigSkeleton::ItemRect"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemrectf",
+                    "KCoreConfigSkeleton::ItemRectF"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemsize",
+                    "KCoreConfigSkeleton::ItemSize"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemsizef",
+                    "KCoreConfigSkeleton::ItemSizeF"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemstring",
+                    "KCoreConfigSkeleton::ItemString"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemstringlist",
+                    "KCoreConfigSkeleton::ItemStringList"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemtime",
+                    "KCoreConfigSkeleton::ItemTime"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemuint",
+                    "KCoreConfigSkeleton::ItemUInt"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemulonglong",
+                    "KCoreConfigSkeleton::ItemULongLong"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemurl",
+                    "KCoreConfigSkeleton::ItemUrl"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemurllist",
+                    "KCoreConfigSkeleton::ItemUrlList"
+                ],
+                [
+                    "kconfigcore/kdesktopfile",
+                    "KDesktopFile"
+                ],
+                [
+                    "kconfigcore/kdesktopfileaction",
+                    "KDesktopFileAction"
+                ],
+                [
+                    "kconfigcore/kemailsettings",
+                    "KEMailSettings"
+                ],
+                [
+                    "kconfigcore/kpropertyskeletonitem",
+                    "KPropertySkeletonItem"
+                ],
+                [
+                    "kconfigcore/ksharedconfig",
+                    "KSharedConfig"
+                ],
+                [
+                    "kconfigcore/kconfig-index",
+                    "KConfig"
+                ],
+                [
+                    "kconfigcore/kconfigcompiler",
+                    "The KDE Configuration Compiler"
+                ],
+                [
+                    "kconfigcore/kconfupdate",
+                    "kconf_update Tool"
+                ],
+                [
+                    "kconfigcore/kcoreconfigskeleton-itemenum-choice",
+                    ""
+                ]
+            ],
+            "qml": false,
+            "title": "KConfigCore C++ Classes"
+        }
+    ]
 }

@@ -5,12 +5,14 @@ description: "An object that (optionally) automatically saves changes in a prope
 
 # KConfigPropertyMap Class
 
-An object that (optionally) automatically saves changes in a property map to a configuration object (such as a [KConfig](../kconfigcore/kconfig.md) file).
+An object that (optionally) automatically saves changes in a property map to a configuration object (such as a [KConfig](../kconfigcore/kconfig.md) file). [More...](#details)
 
 - **Header:** `#include <KConfigPropertyMap>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigQml)`
 - **Inherits:** [QQmlPropertyMap](https://doc.qt.io/qt-6/qqmlpropertymap.html)
+
+[List of all members, including inherited members](kconfigpropertymap-members.md)
 
 ## Public Functions
 

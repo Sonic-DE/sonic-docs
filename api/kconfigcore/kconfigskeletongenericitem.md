@@ -5,13 +5,15 @@ description: "Base class for storing a preferences setting of type T."
 
 # KConfigSkeletonGenericItem Class
 
-Base class for storing a preferences setting of type `T`.
+Base class for storing a preferences setting of type `T`. [More...](#details)
 
 - **Header:** `#include <KCoreConfigSkeleton>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigSkeletonItem](kconfigskeletonitem.md)
 - **Inherited By:** [KCoreConfigSkeleton::ItemBool](kcoreconfigskeleton-itembool.md), [KCoreConfigSkeleton::ItemDateTime](kcoreconfigskeleton-itemdatetime.md), [KCoreConfigSkeleton::ItemDouble](kcoreconfigskeleton-itemdouble.md), [KCoreConfigSkeleton::ItemInt](kcoreconfigskeleton-itemint.md), [KCoreConfigSkeleton::ItemIntList](kcoreconfigskeleton-itemintlist.md), [KCoreConfigSkeleton::ItemLongLong](kcoreconfigskeleton-itemlonglong.md), [KCoreConfigSkeleton::ItemPoint](kcoreconfigskeleton-itempoint.md), [KCoreConfigSkeleton::ItemPointF](kcoreconfigskeleton-itempointf.md), [KCoreConfigSkeleton::ItemProperty](kcoreconfigskeleton-itemproperty.md), [KCoreConfigSkeleton::ItemRect](kcoreconfigskeleton-itemrect.md), [KCoreConfigSkeleton::ItemRectF](kcoreconfigskeleton-itemrectf.md), [KCoreConfigSkeleton::ItemSize](kcoreconfigskeleton-itemsize.md), [KCoreConfigSkeleton::ItemSizeF](kcoreconfigskeleton-itemsizef.md), [KCoreConfigSkeleton::ItemString](kcoreconfigskeleton-itemstring.md), [KCoreConfigSkeleton::ItemStringList](kcoreconfigskeleton-itemstringlist.md), [KCoreConfigSkeleton::ItemTime](kcoreconfigskeleton-itemtime.md), [KCoreConfigSkeleton::ItemUInt](kcoreconfigskeleton-itemuint.md), [KCoreConfigSkeleton::ItemULongLong](kcoreconfigskeleton-itemulonglong.md), [KCoreConfigSkeleton::ItemUrl](kcoreconfigskeleton-itemurl.md), and [KCoreConfigSkeleton::ItemUrlList](kcoreconfigskeleton-itemurllist.md)
+
+[List of all members, including inherited members](kconfigskeletongenericitem-members.md)
 
 ## Public Functions
 

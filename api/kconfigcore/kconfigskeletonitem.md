@@ -5,12 +5,14 @@ description: "Class for storing a preferences setting."
 
 # KConfigSkeletonItem Class
 
-Class for storing a preferences setting.
+Class for storing a preferences setting. [More...](#details)
 
 - **Header:** `#include <KCoreConfigSkeleton>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherited By:** [KConfigSkeletonGenericItem](kconfigskeletongenericitem.md) and [KPropertySkeletonItem](kpropertyskeletonitem.md)
+
+[List of all members, including inherited members](kconfigskeletonitem-members.md)
 
 ## Public Types
 

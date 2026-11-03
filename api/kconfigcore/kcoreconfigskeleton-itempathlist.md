@@ -5,12 +5,14 @@ description: "Class for handling a path list preferences item."
 
 # KCoreConfigSkeleton::ItemPathList Class
 
-Class for handling a path list preferences item.
+Class for handling a path list preferences item. [More...](#details)
 
 - **Header:** `#include <ItemPathList>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KCoreConfigSkeleton::ItemStringList](kcoreconfigskeleton-itemstringlist.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itempathlist-members.md)
 
 ## Public Functions
 

@@ -5,11 +5,13 @@ description: "Access to e-mail settings."
 
 # KEMailSettings Class
 
-Access to e-mail settings.
+Access to e-mail settings. [More...](#details)
 
 - **Header:** `#include <KEMailSettings>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
+
+[List of all members, including inherited members](kemailsettings-members.md)
 
 ## Public Types
 

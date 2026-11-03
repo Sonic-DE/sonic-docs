@@ -5,12 +5,14 @@ description: "Class for handling a floating point preference item."
 
 # KCoreConfigSkeleton::ItemDouble Class
 
-Class for handling a floating point preference item.
+Class for handling a floating point preference item. [More...](#details)
 
 - **Header:** `#include <ItemDouble>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigSkeletonGenericItem](kconfigskeletongenericitem.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itemdouble-members.md)
 
 ## Public Functions
 

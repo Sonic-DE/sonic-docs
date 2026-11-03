@@ -5,13 +5,16 @@ description: "The central class of the KDE configuration data system."
 
 # KConfig Class
 
-The central class of the KDE configuration data system.
+The central class of the KDE configuration data system. [More...](#details)
 
 - **Header:** `#include <KConfig>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigBase](kconfigbase.md)
 - **Inherited By:** [KDesktopFile](kdesktopfile.md) and [KSharedConfig](ksharedconfig.md)
+
+[List of all members, including inherited members](kconfig-members.md)  
+[Deprecated members](kconfig-obsolete.md)
 
 ## Public Types
 
@@ -264,15 +267,3 @@ When `b` is set, all readEntry calls return the system-wide (default) values ins
 This is off by default.
 
 *See also* [readDefaults](kconfig.md#readDefaults)()
-
-## Obsolete Members for KConfig {#obsolete}
-
-**The following members of class [KConfig](kconfig.md) are deprecated.** We strongly advise against using them in new code.
-
-### Obsolete Member Function Documentation {#obsolete-member-function-documentation}
-
-#### \[deprecated in 6.3\] KConfig::KConfig(const QString &*file*, const QString &*backend*, QStandardPaths::StandardLocation *type* = QStandardPaths::GenericConfigLocation) {#KConfig-2}
-
-This function is deprecated since 6.3. We strongly advise against using it in new code.
-
-Creates a [KConfig](kconfig.md) object at the given `file` using the specified `backend`, with an optional `type` of configuration file. If the backend cannot be found or loaded, then the standard configuration parser is used as a fallback. Use other constructor

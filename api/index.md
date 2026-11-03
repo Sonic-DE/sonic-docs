@@ -12,3 +12,7 @@ Reference documentation for the SonicDE libraries, generated from their source c
 - [KConfigCore C++ Classes](kconfigcore/kconfigcore-module.md): Persistent platform-independent application settings.
 - [KConfigGui C++ Classes](kconfiggui/kconfiggui-module.md): Persistent platform-independent application settings.
 - [KConfigQml C++ Classes](kconfigqml/kconfigqml-module.md): Persistent platform-independent application settings.
+
+## QML Modules {#qml-modules}
+
+- [KConfig QML Types](kconfigqml/org-kde-config-qmlmodule.md): Persistent platform-independent application settings.

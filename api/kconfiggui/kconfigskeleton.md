@@ -5,13 +5,15 @@ description: "Class for handling preferences settings for an application."
 
 # KConfigSkeleton Class
 
-Class for handling preferences settings for an application.
+Class for handling preferences settings for an application. [More...](#details)
 
 - **Header:** `#include <KConfigSkeleton>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigGui)`
 - **Inherits:** [KCoreConfigSkeleton](../kconfigcore/kcoreconfigskeleton.md)
 - **Inherited By:** [KConfigLoader](kconfigloader.md)
+
+[List of all members, including inherited members](kconfigskeleton-members.md)
 
 ## Public Functions
 

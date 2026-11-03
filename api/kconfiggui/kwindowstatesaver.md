@@ -5,12 +5,14 @@ description: "Saves and restores a window size and (when possible) position."
 
 # KWindowStateSaver Class
 
-Saves and restores a window size and (when possible) position.
+Saves and restores a window size and (when possible) position. [More...](#details)
 
 - **Header:** `#include <KWindowStateSaver>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigGui)`
 - **Inherits:** [QObject](https://doc.qt.io/qt-6/qobject.html)
+
+[List of all members, including inherited members](kwindowstatesaver-members.md)
 
 ## Public Functions
 

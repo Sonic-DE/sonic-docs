@@ -5,12 +5,14 @@ description: "Class for handling a QDateTime preferences item."
 
 # KCoreConfigSkeleton::ItemDateTime Class
 
-Class for handling a [QDateTime](https://doc.qt.io/qt-6/qdatetime.html) preferences item.
+Class for handling a [QDateTime](https://doc.qt.io/qt-6/qdatetime.html) preferences item. [More...](#details)
 
 - **Header:** `#include <ItemDateTime>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigSkeletonGenericItem](kconfigskeletongenericitem.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itemdatetime-members.md)
 
 ## Public Functions
 

@@ -5,12 +5,14 @@ description: "Class for handling a QPointF preferences item."
 
 # KCoreConfigSkeleton::ItemPointF Class
 
-Class for handling a [QPointF](https://doc.qt.io/qt-6/qpointf.html) preferences item.
+Class for handling a [QPointF](https://doc.qt.io/qt-6/qpointf.html) preferences item. [More...](#details)
 
 - **Header:** `#include <ItemPointF>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigSkeletonGenericItem](kconfigskeletongenericitem.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itempointf-members.md)
 
 ## Public Functions
 

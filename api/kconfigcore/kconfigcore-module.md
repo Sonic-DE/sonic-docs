@@ -5,7 +5,7 @@ description: "Persistent platform-independent application settings."
 
 # KConfigCore C++ Classes
 
-Persistent platform-independent application settings.
+Persistent platform-independent application settings. [More...](#details)
 
 ## Classes {#classes}
 

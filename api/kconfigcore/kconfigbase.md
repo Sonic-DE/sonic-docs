@@ -5,12 +5,14 @@ description: "Interface to interact with configuration."
 
 # KConfigBase Class
 
-Interface to interact with configuration.
+Interface to interact with configuration. [More...](#details)
 
 - **Header:** `#include <KConfigBase>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherited By:** [KConfig](kconfig.md) and [KConfigGroup](kconfiggroup.md)
+
+[List of all members, including inherited members](kconfigbase-members.md)
 
 ## Public Types
 

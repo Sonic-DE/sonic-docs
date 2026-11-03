@@ -5,7 +5,7 @@ description: "Convenient methods for access to the common accelerator keys in th
 
 # KStandardShortcut Namespace
 
-Convenient methods for access to the common accelerator keys in the key configuration.
+Convenient methods for access to the common accelerator keys in the key configuration. [More...](#details)
 
 - Header: KStandardShortcut
 - CMake: find\_package(KF6 REQUIRED COMPONENTS Config) target\_link\_libraries(mytarget PRIVATE KF6::ConfigGui)

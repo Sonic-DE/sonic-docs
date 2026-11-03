@@ -5,12 +5,14 @@ description: "Class for handling a password preferences item."
 
 # KCoreConfigSkeleton::ItemPassword Class
 
-Class for handling a password preferences item.
+Class for handling a password preferences item. [More...](#details)
 
 - **Header:** `#include <ItemPassword>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KCoreConfigSkeleton::ItemString](kcoreconfigskeleton-itemstring.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itempassword-members.md)
 
 ## Public Functions
 

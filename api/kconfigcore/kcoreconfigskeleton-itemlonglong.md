@@ -5,12 +5,14 @@ description: "Class for handling a 64-bit integer preferences item."
 
 # KCoreConfigSkeleton::ItemLongLong Class
 
-Class for handling a 64-bit integer preferences item.
+Class for handling a 64-bit integer preferences item. [More...](#details)
 
 - **Header:** `#include <ItemLongLong>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigSkeletonGenericItem](kconfigskeletongenericitem.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itemlonglong-members.md)
 
 ## Public Functions
 

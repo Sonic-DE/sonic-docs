@@ -5,12 +5,14 @@ description: "Class for handling an unsigned 32-bit integer preferences item."
 
 # KCoreConfigSkeleton::ItemUInt Class
 
-Class for handling an unsigned 32-bit integer preferences item.
+Class for handling an unsigned 32-bit integer preferences item. [More...](#details)
 
 - **Header:** `#include <ItemUInt>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigSkeletonGenericItem](kconfigskeletongenericitem.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itemuint-members.md)
 
 ## Public Functions
 

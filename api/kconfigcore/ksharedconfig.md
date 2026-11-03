@@ -5,12 +5,14 @@ description: "KConfig variant using shared memory."
 
 # KSharedConfig Class
 
-[KConfig](kconfig.md) variant using shared memory.
+[KConfig](kconfig.md) variant using shared memory. [More...](#details)
 
 - **Header:** `#include <KSharedConfig>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfig](kconfig.md) and [QSharedData](https://doc.qt.io/qt-6/qshareddata.html)
+
+[List of all members, including inherited members](ksharedconfig-members.md)
 
 ## Public Types
 

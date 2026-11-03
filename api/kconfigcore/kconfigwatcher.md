@@ -5,12 +5,14 @@ description: "Watches for configuration changes."
 
 # KConfigWatcher Class
 
-Watches for configuration changes.
+Watches for configuration changes. [More...](#details)
 
 - **Header:** `#include <KConfigWatcher>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [QObject](https://doc.qt.io/qt-6/qobject.html)
+
+[List of all members, including inherited members](kconfigwatcher-members.md)
 
 ## Public Types
 

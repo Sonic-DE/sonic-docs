@@ -5,13 +5,15 @@ description: "Class for handling a string preferences item."
 
 # KCoreConfigSkeleton::ItemString Class
 
-Class for handling a string preferences item.
+Class for handling a string preferences item. [More...](#details)
 
 - **Header:** `#include <ItemString>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigSkeletonGenericItem](kconfigskeletongenericitem.md)
 - **Inherited By:** [KCoreConfigSkeleton::ItemPassword](kcoreconfigskeleton-itempassword.md) and [KCoreConfigSkeleton::ItemPath](kcoreconfigskeleton-itempath.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itemstring-members.md)
 
 ## Public Types
 

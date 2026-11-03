@@ -5,12 +5,14 @@ description: "Persistent platform-independent application settings."
 
 # KDesktopFile Class
 
-Persistent platform-independent application settings.
+Persistent platform-independent application settings. [More...](#details)
 
 - **Header:** `#include <KDesktopFile>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfig](kconfig.md)
+
+[List of all members, including inherited members](kdesktopfile-members.md)
 
 ## Public Functions
 

@@ -5,12 +5,14 @@ description: "Persistent platform-independent application settings."
 
 # KStandardShortcut::StandardShortcutWatcher Class
 
-Persistent platform-independent application settings.
+Persistent platform-independent application settings. [More...](#details)
 
 - **Header:** `#include <StandardShortcutWatcher>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigGui)`
 - **Inherits:** [QObject](https://doc.qt.io/qt-6/qobject.html)
+
+[List of all members, including inherited members](kstandardshortcut-standardshortcutwatcher-members.md)
 
 ## Signals
 

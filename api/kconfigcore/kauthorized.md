@@ -5,12 +5,14 @@ description: "Used for checking whether actions are allowed for a user."
 
 # KAuthorized Class
 
-Used for checking whether actions are allowed for a user.
+Used for checking whether actions are allowed for a user. [More...](#details)
 
 - **Header:** `#include <KAuthorized>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [QObject](https://doc.qt.io/qt-6/qobject.html)
+
+[List of all members, including inherited members](kauthorized-members.md)
 
 ## Public Types
 

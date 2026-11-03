@@ -1,28 +1,82 @@
 {
-    "description": "Persistent platform-independent application settings.",
-    "module": "kconfigqml",
-    "modulePage": "kconfigqml/kconfigqml-module",
-    "pages": [
-        [
-            "kconfigqml/kconfigqml-module",
-            "KConfigQml C++ Classes"
-        ],
-        [
-            "kconfigqml/kconfigpropertymap",
-            "KConfigPropertyMap"
-        ],
-        [
-            "kconfigqml/org-kde-config-qmlmodule",
-            "KConfig QML Types"
-        ],
-        [
-            "kconfigqml/qml-org-kde-config-kauthorized",
-            "KAuthorized QML Type (Singleton)"
-        ],
-        [
-            "kconfigqml/qml-org-kde-config-windowstatesaver",
-            "WindowStateSaver QML Type"
-        ]
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KConfigPropertyMap",
+                    "KConfigPropertyMap(KCoreConfigSkeleton *, QObject *)",
+                    "KConfigPropertyMap"
+                ],
+                [
+                    "isImmutable",
+                    "isImmutable(const QString &) const : bool",
+                    "isImmutable"
+                ],
+                [
+                    "isNotify",
+                    "isNotify() const : bool",
+                    "isNotify"
+                ],
+                [
+                    "setNotify",
+                    "setNotify(bool)",
+                    "setNotify"
+                ],
+                [
+                    "writeConfig",
+                    "writeConfig()",
+                    "writeConfig"
+                ]
+            ],
+            "name": "KConfigPropertyMap",
+            "page": "kconfigqml/kconfigpropertymap",
+            "qtBases": [
+                [
+                    "QQmlPropertyMap",
+                    "https://doc.qt.io/qt-6/qqmlpropertymap-members.html"
+                ]
+            ]
+        }
     ],
-    "title": "KConfigQml C++ Classes"
+    "module": "kconfigqml",
+    "sections": [
+        {
+            "description": "Persistent platform-independent application settings.",
+            "page": "kconfigqml/kconfigqml-module",
+            "pages": [
+                [
+                    "kconfigqml/kconfigqml-module",
+                    "KConfigQml C++ Classes"
+                ],
+                [
+                    "kconfigqml/kconfigpropertymap",
+                    "KConfigPropertyMap"
+                ]
+            ],
+            "qml": false,
+            "title": "KConfigQml C++ Classes"
+        },
+        {
+            "description": "Persistent platform-independent application settings.",
+            "page": "kconfigqml/org-kde-config-qmlmodule",
+            "pages": [
+                [
+                    "kconfigqml/org-kde-config-qmlmodule",
+                    "KConfig QML Types"
+                ],
+                [
+                    "kconfigqml/qml-org-kde-config-kauthorized",
+                    "KAuthorized (Singleton)"
+                ],
+                [
+                    "kconfigqml/qml-org-kde-config-windowstatesaver",
+                    "WindowStateSaver"
+                ]
+            ],
+            "qml": true,
+            "title": "KConfig QML Types"
+        }
+    ]
 }

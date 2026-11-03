@@ -1,0 +1,64 @@
+---
+title: "List of All Members for KConfigSkeleton"
+description: "Every member of KConfigSkeleton, including inherited members."
+parent: "kconfiggui/kconfigskeleton"
+---
+
+# List of All Members for KConfigSkeleton
+
+This is the complete list of members for [KConfigSkeleton](kconfigskeleton.md), including inherited members.
+
+- [KConfigSkeleton(KSharedConfig::Ptr, QObject \*)](kconfigskeleton.md#KConfigSkeleton)
+- [KConfigSkeleton(const QString &, QObject \*)](kconfigskeleton.md#KConfigSkeleton-1)
+- [KConfigSkeleton(std::unique\_ptr\<KConfig\>, KCoreConfigSkeleton::DisambiguateConstructor, QObject \*)](kconfigskeleton.md#KConfigSkeleton-2)
+- [addItem(KConfigSkeletonItem \*, const QString &)](../kconfigcore/kcoreconfigskeleton.md#addItem)
+- [addItemBool(const QString &, bool &, bool, const QString &) : KCoreConfigSkeleton::ItemBool \*](../kconfigcore/kcoreconfigskeleton.md#addItemBool)
+- [addItemColor(const QString &, QColor &, const QColor &, const QString &) : KConfigSkeleton::ItemColor \*](kconfigskeleton.md#addItemColor)
+- [addItemDateTime(const QString &, QDateTime &, const QDateTime &, const QString &) : KCoreConfigSkeleton::ItemDateTime \*](../kconfigcore/kcoreconfigskeleton.md#addItemDateTime)
+- [addItemDouble(const QString &, double &, double, const QString &) : KCoreConfigSkeleton::ItemDouble \*](../kconfigcore/kcoreconfigskeleton.md#addItemDouble)
+- [addItemFont(const QString &, QFont &, const QFont &, const QString &) : KConfigSkeleton::ItemFont \*](kconfigskeleton.md#addItemFont)
+- [addItemInt(const QString &, qint32 &, qint32, const QString &) : KCoreConfigSkeleton::ItemInt \*](../kconfigcore/kcoreconfigskeleton.md#addItemInt)
+- [addItemIntList(const QString &, QList\<int\> &, const QList\<int\> &, const QString &) : KCoreConfigSkeleton::ItemIntList \*](../kconfigcore/kcoreconfigskeleton.md#addItemIntList)
+- [addItemLongLong(const QString &, qint64 &, qint64, const QString &) : KCoreConfigSkeleton::ItemLongLong \*](../kconfigcore/kcoreconfigskeleton.md#addItemLongLong)
+- [addItemPassword(const QString &, QString &, const QString &, const QString &) : KCoreConfigSkeleton::ItemPassword \*](../kconfigcore/kcoreconfigskeleton.md#addItemPassword)
+- [addItemPath(const QString &, QString &, const QString &, const QString &) : KCoreConfigSkeleton::ItemPath \*](../kconfigcore/kcoreconfigskeleton.md#addItemPath)
+- [addItemPathList(const QString &, QList\<QString\> &, const QList\<QString\> &, const QString &) : KCoreConfigSkeleton::ItemPathList \*](../kconfigcore/kcoreconfigskeleton.md#addItemPathList)
+- [addItemPoint(const QString &, QPoint &, const QPoint &, const QString &) : KCoreConfigSkeleton::ItemPoint \*](../kconfigcore/kcoreconfigskeleton.md#addItemPoint)
+- [addItemPointF(const QString &, QPointF &, const QPointF &, const QString &) : KCoreConfigSkeleton::ItemPointF \*](../kconfigcore/kcoreconfigskeleton.md#addItemPointF)
+- [addItemProperty(const QString &, QVariant &, const QVariant &, const QString &) : KCoreConfigSkeleton::ItemProperty \*](../kconfigcore/kcoreconfigskeleton.md#addItemProperty)
+- [addItemRect(const QString &, QRect &, const QRect &, const QString &) : KCoreConfigSkeleton::ItemRect \*](../kconfigcore/kcoreconfigskeleton.md#addItemRect)
+- [addItemRectF(const QString &, QRectF &, const QRectF &, const QString &) : KCoreConfigSkeleton::ItemRectF \*](../kconfigcore/kcoreconfigskeleton.md#addItemRectF)
+- [addItemSize(const QString &, QSize &, const QSize &, const QString &) : KCoreConfigSkeleton::ItemSize \*](../kconfigcore/kcoreconfigskeleton.md#addItemSize)
+- [addItemSizeF(const QString &, QSizeF &, const QSizeF &, const QString &) : KCoreConfigSkeleton::ItemSizeF \*](../kconfigcore/kcoreconfigskeleton.md#addItemSizeF)
+- [addItemString(const QString &, QString &, const QString &, const QString &) : KCoreConfigSkeleton::ItemString \*](../kconfigcore/kcoreconfigskeleton.md#addItemString)
+- [addItemStringList(const QString &, QStringList &, const QStringList &, const QString &) : KCoreConfigSkeleton::ItemStringList \*](../kconfigcore/kcoreconfigskeleton.md#addItemStringList)
+- [addItemTime(const QString &, QTime &, QTime, const QString &) : KCoreConfigSkeleton::ItemTime \*](../kconfigcore/kcoreconfigskeleton.md#addItemTime)
+- [addItemUInt(const QString &, quint32 &, quint32, const QString &) : KCoreConfigSkeleton::ItemUInt \*](../kconfigcore/kcoreconfigskeleton.md#addItemUInt)
+- [addItemULongLong(const QString &, quint64 &, quint64, const QString &) : KCoreConfigSkeleton::ItemULongLong \*](../kconfigcore/kcoreconfigskeleton.md#addItemULongLong)
+- [addItemUrlList(const QString &, QList\<QUrl\> &, const QList\<QUrl\> &, const QString &) : KCoreConfigSkeleton::ItemUrlList \*](../kconfigcore/kcoreconfigskeleton.md#addItemUrlList)
+- [clearItems()](../kconfigcore/kcoreconfigskeleton.md#clearItems)
+- [config() : KConfig \*](../kconfigcore/kcoreconfigskeleton.md#config)
+- [config() const : const KConfig \*](../kconfigcore/kcoreconfigskeleton.md#config-1)
+- [configChanged()](../kconfigcore/kcoreconfigskeleton.md#configChanged)
+- [currentGroup() const : QString](../kconfigcore/kcoreconfigskeleton.md#currentGroup)
+- [findItem(const QString &) const : KConfigSkeletonItem \*](../kconfigcore/kcoreconfigskeleton.md#findItem)
+- [isDefaults() const : bool](../kconfigcore/kcoreconfigskeleton.md#isDefaults)
+- [isImmutable(const QString &) const : bool](../kconfigcore/kcoreconfigskeleton.md#isImmutable)
+- [isSaveNeeded() const : bool](../kconfigcore/kcoreconfigskeleton.md#isSaveNeeded)
+- [items() const : KConfigSkeletonItem::List](../kconfigcore/kcoreconfigskeleton.md#items)
+- [load()](../kconfigcore/kcoreconfigskeleton.md#load)
+- [read()](../kconfigcore/kcoreconfigskeleton.md#read)
+- [removeItem(const QString &)](../kconfigcore/kcoreconfigskeleton.md#removeItem)
+- [save() : bool](../kconfigcore/kcoreconfigskeleton.md#save)
+- [setConfig(std::unique\_ptr\<KConfig\>)](../kconfigcore/kcoreconfigskeleton.md#setConfig)
+- [setCurrentGroup(const QString &)](../kconfigcore/kcoreconfigskeleton.md#setCurrentGroup)
+- [setDefaults()](../kconfigcore/kcoreconfigskeleton.md#setDefaults)
+- [setSharedConfig(KSharedConfig::Ptr)](../kconfigcore/kcoreconfigskeleton.md#setSharedConfig)
+- [sharedConfig() const : KSharedConfig::Ptr](../kconfigcore/kcoreconfigskeleton.md#sharedConfig)
+- [useDefaults(bool) : bool](../kconfigcore/kcoreconfigskeleton.md#useDefaults)
+- [usrRead()](../kconfigcore/kcoreconfigskeleton.md#usrRead)
+- [usrSave() : bool](../kconfigcore/kcoreconfigskeleton.md#usrSave)
+- [usrSetDefaults()](../kconfigcore/kcoreconfigskeleton.md#usrSetDefaults)
+- [usrUseDefaults(bool) : bool](../kconfigcore/kcoreconfigskeleton.md#usrUseDefaults)
+
+KConfigSkeleton also inherits the members of [QObject](https://doc.qt.io/qt-6/qobject-members.html).

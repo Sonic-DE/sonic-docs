@@ -5,12 +5,14 @@ description: "A class for one specific group in a KConfig object."
 
 # KConfigGroup Class
 
-A class for one specific group in a [KConfig](kconfig.md) object.
+A class for one specific group in a [KConfig](kconfig.md) object. [More...](#details)
 
 - **Header:** `#include <KConfigGroup>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigBase](kconfigbase.md)
+
+[List of all members, including inherited members](kconfiggroup-members.md)
 
 ## Public Functions
 

@@ -5,12 +5,14 @@ description: "Class for proxying a QObject property as a preferences setting."
 
 # KPropertySkeletonItem Class
 
-Class for proxying a [QObject](https://doc.qt.io/qt-6/qobject.html) property as a preferences setting.
+Class for proxying a [QObject](https://doc.qt.io/qt-6/qobject.html) property as a preferences setting. [More...](#details)
 
 - **Header:** `#include <KCoreConfigSkeleton>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigSkeletonItem](kconfigskeletonitem.md)
+
+[List of all members, including inherited members](kpropertyskeletonitem-members.md)
 
 ## Public Functions
 

@@ -5,12 +5,14 @@ description: "Class for handling a bool preferences item."
 
 # KCoreConfigSkeleton::ItemBool Class
 
-Class for handling a bool preferences item.
+Class for handling a bool preferences item. [More...](#details)
 
 - **Header:** `#include <ItemBool>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigSkeletonGenericItem](kconfigskeletongenericitem.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itembool-members.md)
 
 ## Public Functions
 

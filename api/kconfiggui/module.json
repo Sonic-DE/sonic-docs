@@ -1,52 +1,230 @@
 {
-    "description": "Persistent platform-independent application settings.",
-    "module": "kconfiggui",
-    "modulePage": "kconfiggui/kconfiggui-module",
-    "pages": [
-        [
-            "kconfiggui/kconfiggui-module",
-            "KConfigGui C++ Classes"
-        ],
-        [
-            "kconfiggui/kconfigloader",
-            "KConfigLoader"
-        ],
-        [
-            "kconfiggui/kconfigskeleton",
-            "KConfigSkeleton"
-        ],
-        [
-            "kconfiggui/kconfigskeleton-itemcolor",
-            "KConfigSkeleton::ItemColor"
-        ],
-        [
-            "kconfiggui/kconfigskeleton-itemfont",
-            "KConfigSkeleton::ItemFont"
-        ],
-        [
-            "kconfiggui/kstandardshortcut-standardshortcutwatcher",
-            "KStandardShortcut::StandardShortcutWatcher"
-        ],
-        [
-            "kconfiggui/kwindowstatesaver",
-            "KWindowStateSaver"
-        ],
-        [
-            "kconfiggui/kconfiggui",
-            "KConfigGui Namespace"
-        ],
-        [
-            "kconfiggui/kstandardactions",
-            "KStandardActions Namespace"
-        ],
-        [
-            "kconfiggui/kstandardshortcut",
-            "KStandardShortcut Namespace"
-        ],
-        [
-            "kconfiggui/kwindowconfig",
-            "KWindowConfig Namespace"
-        ]
+    "classes": [
+        {
+            "bases": [
+                "kconfiggui/kconfigskeleton"
+            ],
+            "members": [
+                [
+                    "KConfigLoader",
+                    "KConfigLoader(KSharedConfigPtr, QIODevice *, QObject *)",
+                    "KConfigLoader"
+                ],
+                [
+                    "KConfigLoader",
+                    "KConfigLoader(const KConfigGroup &, QIODevice *, QObject *)",
+                    "KConfigLoader-1"
+                ],
+                [
+                    "KConfigLoader",
+                    "KConfigLoader(const QString &, QIODevice *, QObject *)",
+                    "KConfigLoader-2"
+                ],
+                [
+                    "findItem",
+                    "findItem(const QString &, const QString &) const : KConfigSkeletonItem *",
+                    "findItem"
+                ],
+                [
+                    "findItemByName",
+                    "findItemByName(const QString &) const : KConfigSkeletonItem *",
+                    "findItemByName"
+                ],
+                [
+                    "groupList",
+                    "groupList() const : QStringList",
+                    "groupList"
+                ],
+                [
+                    "hasGroup",
+                    "hasGroup(const QString &) const : bool",
+                    "hasGroup"
+                ],
+                [
+                    "property",
+                    "property(const QString &) const : QVariant",
+                    "property"
+                ]
+            ],
+            "name": "KConfigLoader",
+            "page": "kconfiggui/kconfigloader",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kcoreconfigskeleton"
+            ],
+            "members": [
+                [
+                    "KConfigSkeleton",
+                    "KConfigSkeleton(KSharedConfig::Ptr, QObject *)",
+                    "KConfigSkeleton"
+                ],
+                [
+                    "KConfigSkeleton",
+                    "KConfigSkeleton(const QString &, QObject *)",
+                    "KConfigSkeleton-1"
+                ],
+                [
+                    "KConfigSkeleton",
+                    "KConfigSkeleton(std::unique_ptr<KConfig>, KCoreConfigSkeleton::DisambiguateConstructor, QObject *)",
+                    "KConfigSkeleton-2"
+                ],
+                [
+                    "addItemColor",
+                    "addItemColor(const QString &, QColor &, const QColor &, const QString &) : KConfigSkeleton::ItemColor *",
+                    "addItemColor"
+                ],
+                [
+                    "addItemFont",
+                    "addItemFont(const QString &, QFont &, const QFont &, const QString &) : KConfigSkeleton::ItemFont *",
+                    "addItemFont"
+                ]
+            ],
+            "name": "KConfigSkeleton",
+            "page": "kconfiggui/kconfigskeleton",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kconfigcore/kconfigskeletongenericitem"
+            ],
+            "members": [
+                [
+                    "ItemColor",
+                    "ItemColor(const QString &, const QString &, QColor &, const QColor &)",
+                    "ItemColor"
+                ]
+            ],
+            "name": "KConfigSkeleton::ItemColor",
+            "page": "kconfiggui/kconfigskeleton-itemcolor",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ItemFont",
+                    "ItemFont(const QString &, const QString &, QFont &, const QFont &)",
+                    "ItemFont"
+                ]
+            ],
+            "name": "KConfigSkeleton::ItemFont",
+            "page": "kconfiggui/kconfigskeleton-itemfont",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "shortcutChanged",
+                    "shortcutChanged(KStandardShortcut::StandardShortcut, const QList<QKeySequence> &)",
+                    "shortcutChanged"
+                ]
+            ],
+            "name": "KStandardShortcut::StandardShortcutWatcher",
+            "page": "kconfiggui/kstandardshortcut-standardshortcutwatcher",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KWindowStateSaver",
+                    "KWindowStateSaver(QWindow *, const KConfigGroup &)",
+                    "KWindowStateSaver"
+                ],
+                [
+                    "KWindowStateSaver",
+                    "KWindowStateSaver(QWindow *, const QString &)",
+                    "KWindowStateSaver-1"
+                ],
+                [
+                    "KWindowStateSaver",
+                    "KWindowStateSaver(Widget *, const KConfigGroup &) : template <typename Widget>",
+                    "KWindowStateSaver-2"
+                ],
+                [
+                    "KWindowStateSaver",
+                    "KWindowStateSaver(Widget *, const QString &) : template <typename Widget>",
+                    "KWindowStateSaver-3"
+                ]
+            ],
+            "name": "KWindowStateSaver",
+            "page": "kconfiggui/kwindowstatesaver",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
     ],
-    "title": "KConfigGui C++ Classes"
+    "module": "kconfiggui",
+    "sections": [
+        {
+            "description": "Persistent platform-independent application settings.",
+            "page": "kconfiggui/kconfiggui-module",
+            "pages": [
+                [
+                    "kconfiggui/kconfiggui-module",
+                    "KConfigGui C++ Classes"
+                ],
+                [
+                    "kconfiggui/kconfigloader",
+                    "KConfigLoader"
+                ],
+                [
+                    "kconfiggui/kconfigskeleton",
+                    "KConfigSkeleton"
+                ],
+                [
+                    "kconfiggui/kconfigskeleton-itemcolor",
+                    "KConfigSkeleton::ItemColor"
+                ],
+                [
+                    "kconfiggui/kconfigskeleton-itemfont",
+                    "KConfigSkeleton::ItemFont"
+                ],
+                [
+                    "kconfiggui/kstandardshortcut-standardshortcutwatcher",
+                    "KStandardShortcut::StandardShortcutWatcher"
+                ],
+                [
+                    "kconfiggui/kwindowstatesaver",
+                    "KWindowStateSaver"
+                ],
+                [
+                    "kconfiggui/kconfiggui",
+                    "KConfigGui Namespace"
+                ],
+                [
+                    "kconfiggui/kstandardactions",
+                    "KStandardActions Namespace"
+                ],
+                [
+                    "kconfiggui/kstandardshortcut",
+                    "KStandardShortcut Namespace"
+                ],
+                [
+                    "kconfiggui/kwindowconfig",
+                    "KWindowConfig Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KConfigGui C++ Classes"
+        }
+    ]
 }

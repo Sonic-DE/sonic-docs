@@ -5,12 +5,14 @@ description: "Class for representing an Action of a desktop file. This class was
 
 # KDesktopFileAction Class
 
-Class for representing an Action of a desktop file. This class was introduced in Qt 6.0.
+Class for representing an Action of a desktop file. This class was introduced in Qt 6.0. [More...](#details)
 
 - **Header:** `#include <KDesktopFileAction>`
 - **Since:** Qt 6.0
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
+
+[List of all members, including inherited members](kdesktopfileaction-members.md)
 
 ## Public Functions
 

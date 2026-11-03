@@ -64,6 +64,8 @@ sections:
     pages:
       kconfigqml/kconfigqml-module: "KConfigQml C++ Classes"
       kconfigqml/kconfigpropertymap: "KConfigPropertyMap"
+  "KConfig QML Types":
+    pages:
       kconfigqml/org-kde-config-qmlmodule: "KConfig QML Types"
-      kconfigqml/qml-org-kde-config-kauthorized: "KAuthorized QML Type (Singleton)"
-      kconfigqml/qml-org-kde-config-windowstatesaver: "WindowStateSaver QML Type"
+      kconfigqml/qml-org-kde-config-kauthorized: "KAuthorized (Singleton)"
+      kconfigqml/qml-org-kde-config-windowstatesaver: "WindowStateSaver"

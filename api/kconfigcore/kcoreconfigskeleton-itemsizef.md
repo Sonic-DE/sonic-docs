@@ -5,12 +5,14 @@ description: "Class for handling a QSizeF preferences item."
 
 # KCoreConfigSkeleton::ItemSizeF Class
 
-Class for handling a [QSizeF](https://doc.qt.io/qt-6/qsizef.html) preferences item.
+Class for handling a [QSizeF](https://doc.qt.io/qt-6/qsizef.html) preferences item. [More...](#details)
 
 - **Header:** `#include <ItemSizeF>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigSkeletonGenericItem](kconfigskeletongenericitem.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itemsizef-members.md)
 
 ## Public Functions
 

@@ -5,13 +5,15 @@ description: "Class for handling a 32-bit integer preferences item."
 
 # KCoreConfigSkeleton::ItemInt Class
 
-Class for handling a 32-bit integer preferences item.
+Class for handling a 32-bit integer preferences item. [More...](#details)
 
 - **Header:** `#include <ItemInt>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
   `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
 - **Inherits:** [KConfigSkeletonGenericItem](kconfigskeletongenericitem.md)
 - **Inherited By:** [KCoreConfigSkeleton::ItemEnum](kcoreconfigskeleton-itemenum.md)
+
+[List of all members, including inherited members](kcoreconfigskeleton-itemint-members.md)
 
 ## Public Functions
 
