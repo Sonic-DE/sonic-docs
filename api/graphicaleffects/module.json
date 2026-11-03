@@ -1,0 +1,27 @@
+{
+    "classes": [
+    ],
+    "module": "graphicaleffects",
+    "sections": [
+        {
+            "description": "Graphical Effects.",
+            "page": "graphicaleffects/org-kde-graphicaleffects-qmlmodule",
+            "pages": [
+                [
+                    "graphicaleffects/org-kde-graphicaleffects-qmlmodule",
+                    "GraphicalEffects QML Types"
+                ],
+                [
+                    "graphicaleffects/qml-org-kde-graphicaleffects-badgeeffect",
+                    "BadgeEffect"
+                ],
+                [
+                    "graphicaleffects/qml-org-kde-graphicaleffects-lanczos",
+                    "Lanczos"
+                ]
+            ],
+            "qml": true,
+            "title": "GraphicalEffects QML Types"
+        }
+    ]
+}

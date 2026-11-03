@@ -1,0 +1,281 @@
+{
+    "classes": [
+        {
+            "bases": [
+                "kwidgetsaddons/kactionmenu",
+                "kbookmarks/kbookmarkactioninterface"
+            ],
+            "members": [
+                [
+                    "KBookmarkActionMenu",
+                    "KBookmarkActionMenu(const KBookmark &, QObject *)",
+                    "KBookmarkActionMenu"
+                ],
+                [
+                    "KBookmarkActionMenu",
+                    "KBookmarkActionMenu(const KBookmark &, const QString &, QObject *)",
+                    "KBookmarkActionMenu-1"
+                ]
+            ],
+            "name": "KBookmarkActionMenu",
+            "page": "kbookmarkswidgets/kbookmarkactionmenu",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KBookmarkContextMenu",
+                    "KBookmarkContextMenu(const KBookmark &, KBookmarkManager *, KBookmarkOwner *, QWidget *)",
+                    "KBookmarkContextMenu"
+                ],
+                [
+                    "addActions",
+                    "addActions()",
+                    "addActions"
+                ],
+                [
+                    "addBookmark",
+                    "addBookmark()",
+                    "addBookmark"
+                ],
+                [
+                    "addBookmarkActions",
+                    "addBookmarkActions()",
+                    "addBookmarkActions"
+                ],
+                [
+                    "addFolderActions",
+                    "addFolderActions()",
+                    "addFolderActions"
+                ],
+                [
+                    "addOpenFolderInTabs",
+                    "addOpenFolderInTabs()",
+                    "addOpenFolderInTabs"
+                ],
+                [
+                    "addProperties",
+                    "addProperties()",
+                    "addProperties"
+                ],
+                [
+                    "bookmark",
+                    "bookmark() const : KBookmark",
+                    "bookmark"
+                ],
+                [
+                    "browserMode",
+                    "browserMode() const : bool",
+                    "browserMode"
+                ],
+                [
+                    "manager",
+                    "manager() const : KBookmarkManager *",
+                    "manager"
+                ],
+                [
+                    "owner",
+                    "owner() const : KBookmarkOwner *",
+                    "owner"
+                ],
+                [
+                    "setBrowserMode",
+                    "setBrowserMode(bool)",
+                    "setBrowserMode"
+                ],
+                [
+                    "slotCopyLocation",
+                    "slotCopyLocation()",
+                    "slotCopyLocation"
+                ],
+                [
+                    "slotEditAt",
+                    "slotEditAt()",
+                    "slotEditAt"
+                ],
+                [
+                    "slotInsert",
+                    "slotInsert()",
+                    "slotInsert"
+                ],
+                [
+                    "slotOpenFolderInTabs",
+                    "slotOpenFolderInTabs()",
+                    "slotOpenFolderInTabs"
+                ],
+                [
+                    "slotProperties",
+                    "slotProperties()",
+                    "slotProperties"
+                ],
+                [
+                    "slotRemove",
+                    "slotRemove()",
+                    "slotRemove"
+                ]
+            ],
+            "name": "KBookmarkContextMenu",
+            "page": "kbookmarkswidgets/kbookmarkcontextmenu",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KBookmarkDialog",
+                    "KBookmarkDialog(KBookmarkManager *, QWidget *)",
+                    "KBookmarkDialog"
+                ],
+                [
+                    "addBookmark",
+                    "addBookmark(const QString &, const QUrl &, const QString &, KBookmark) : KBookmark",
+                    "addBookmark"
+                ],
+                [
+                    "addBookmarks",
+                    "addBookmarks(const QList<KBookmarkOwner::FutureBookmark> &, const QString &, KBookmarkGroup) : KBookmarkGroup",
+                    "addBookmarks"
+                ],
+                [
+                    "createNewFolder",
+                    "createNewFolder(const QString &, KBookmark) : KBookmarkGroup",
+                    "createNewFolder"
+                ],
+                [
+                    "editBookmark",
+                    "editBookmark(const KBookmark &) : KBookmark",
+                    "editBookmark"
+                ],
+                [
+                    "newFolderButton",
+                    "newFolderButton()",
+                    "newFolderButton"
+                ],
+                [
+                    "selectFolder",
+                    "selectFolder(KBookmark) : KBookmarkGroup",
+                    "selectFolder"
+                ]
+            ],
+            "name": "KBookmarkDialog",
+            "page": "kbookmarkswidgets/kbookmarkdialog",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KBookmarkMenu",
+                    "KBookmarkMenu(KBookmarkManager *, KBookmarkOwner *, QMenu *)",
+                    "KBookmarkMenu"
+                ],
+                [
+                    "KBookmarkMenu",
+                    "KBookmarkMenu(KBookmarkManager *, KBookmarkOwner *, QMenu *, const QString &)",
+                    "KBookmarkMenu-1"
+                ],
+                [
+                    "addBookmarkAction",
+                    "addBookmarkAction() const : QAction *",
+                    "addBookmarkAction"
+                ],
+                [
+                    "bookmarkTabsAsFolderAction",
+                    "bookmarkTabsAsFolderAction() const : QAction *",
+                    "bookmarkTabsAsFolderAction"
+                ],
+                [
+                    "browserMode",
+                    "browserMode() const : bool",
+                    "browserMode"
+                ],
+                [
+                    "editBookmarksAction",
+                    "editBookmarksAction() const : QAction *",
+                    "editBookmarksAction"
+                ],
+                [
+                    "ensureUpToDate",
+                    "ensureUpToDate()",
+                    "ensureUpToDate"
+                ],
+                [
+                    "manager",
+                    "manager() const : KBookmarkManager *",
+                    "manager"
+                ],
+                [
+                    "newBookmarkFolderAction",
+                    "newBookmarkFolderAction() const : QAction *",
+                    "newBookmarkFolderAction"
+                ],
+                [
+                    "owner",
+                    "owner() const : KBookmarkOwner *",
+                    "owner"
+                ],
+                [
+                    "parentAddress",
+                    "parentAddress() const : QString",
+                    "parentAddress"
+                ],
+                [
+                    "parentMenu",
+                    "parentMenu() const : QMenu *",
+                    "parentMenu"
+                ],
+                [
+                    "setBrowserMode",
+                    "setBrowserMode(bool)",
+                    "setBrowserMode"
+                ]
+            ],
+            "name": "KBookmarkMenu",
+            "page": "kbookmarkswidgets/kbookmarkmenu",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kbookmarkswidgets",
+    "sections": [
+        {
+            "description": "Widgets for Bookmark Handling.",
+            "page": "kbookmarkswidgets/kbookmarkswidgets-module",
+            "pages": [
+                [
+                    "kbookmarkswidgets/kbookmarkswidgets-module",
+                    "KBookmarksWidgets C++ Classes"
+                ],
+                [
+                    "kbookmarkswidgets/kbookmarkactionmenu",
+                    "KBookmarkActionMenu"
+                ],
+                [
+                    "kbookmarkswidgets/kbookmarkcontextmenu",
+                    "KBookmarkContextMenu"
+                ],
+                [
+                    "kbookmarkswidgets/kbookmarkdialog",
+                    "KBookmarkDialog"
+                ],
+                [
+                    "kbookmarkswidgets/kbookmarkmenu",
+                    "KBookmarkMenu"
+                ]
+            ],
+            "qml": false,
+            "title": "KBookmarksWidgets C++ Classes"
+        }
+    ]
+}

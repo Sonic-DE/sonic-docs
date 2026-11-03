@@ -1,0 +1,196 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "disabledPlugins",
+                    "disabledPlugins : QStringList",
+                    "disabledPlugins-prop"
+                ],
+                [
+                    "inputData",
+                    "inputData : QJsonObject",
+                    "inputData-prop"
+                ],
+                [
+                    "pluginType",
+                    "pluginType : QString",
+                    "pluginType-prop"
+                ],
+                [
+                    "AlternativesModel",
+                    "AlternativesModel(QObject *)",
+                    "AlternativesModel"
+                ],
+                [
+                    "configureJob",
+                    "configureJob(int) : Purpose::Configuration *",
+                    "configureJob"
+                ]
+            ],
+            "name": "Purpose::AlternativesModel",
+            "page": "purpose/purpose-alternativesmodel",
+            "qtBases": [
+                [
+                    "QAbstractListModel",
+                    "https://doc.qt.io/qt-6/qabstractlistmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "configSourceCode",
+                    "configSourceCode : const QUrl",
+                    "configSourceCode-prop"
+                ],
+                [
+                    "data",
+                    "data : QJsonObject",
+                    "data-prop"
+                ],
+                [
+                    "isReady",
+                    "isReady : bool",
+                    "isReady-prop"
+                ],
+                [
+                    "neededArguments",
+                    "neededArguments : const QJsonArray",
+                    "neededArguments-prop"
+                ],
+                [
+                    "pluginName",
+                    "pluginName : const QString",
+                    "pluginName-prop"
+                ],
+                [
+                    "pluginTypeName",
+                    "pluginTypeName : const QString",
+                    "pluginTypeName-prop"
+                ],
+                [
+                    "Configuration",
+                    "Configuration(const QJsonObject &, const QString &, const KPluginMetaData &, QObject *)",
+                    "Configuration"
+                ],
+                [
+                    "Configuration",
+                    "Configuration(const QJsonObject &, const QString &, const QJsonObject &, const KPluginMetaData &, QObject *)",
+                    "Configuration-1"
+                ],
+                [
+                    "~Configuration",
+                    "~Configuration()",
+                    "dtor.Configuration"
+                ],
+                [
+                    "createJob",
+                    "createJob() : Purpose::Job *",
+                    "createJob"
+                ],
+                [
+                    "setUseSeparateProcess",
+                    "setUseSeparateProcess(bool)",
+                    "setUseSeparateProcess"
+                ],
+                [
+                    "useSeparateProcess",
+                    "useSeparateProcess() const : bool",
+                    "useSeparateProcess"
+                ]
+            ],
+            "name": "Purpose::Configuration",
+            "page": "purpose/purpose-configuration",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjob"
+            ],
+            "members": [
+                [
+                    "data",
+                    "data : const QJsonObject",
+                    "data-prop"
+                ],
+                [
+                    "output",
+                    "output : QJsonObject",
+                    "output-prop"
+                ]
+            ],
+            "name": "Purpose::Job",
+            "page": "purpose/purpose-job",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "createJob",
+                    "createJob() const : Purpose::Job *",
+                    "createJob"
+                ]
+            ],
+            "name": "Purpose::PluginBase",
+            "page": "purpose/purpose-pluginbase",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "purpose",
+    "sections": [
+        {
+            "description": "Framework for providing abstractions to get the developer's purposes fulfilled.",
+            "page": "purpose/purpose-module",
+            "pages": [
+                [
+                    "purpose/purpose-module",
+                    "Purpose C++ Classes"
+                ],
+                [
+                    "purpose/purpose-alternativesmodel",
+                    "Purpose::AlternativesModel"
+                ],
+                [
+                    "purpose/purpose-configuration",
+                    "Purpose::Configuration"
+                ],
+                [
+                    "purpose/purpose-job",
+                    "Purpose::Job"
+                ],
+                [
+                    "purpose/purpose-pluginbase",
+                    "Purpose::PluginBase"
+                ],
+                [
+                    "purpose/purpose",
+                    "Purpose Namespace"
+                ],
+                [
+                    "purpose/purpose-index",
+                    "Purpose"
+                ]
+            ],
+            "qml": false,
+            "title": "Purpose C++ Classes"
+        }
+    ]
+}

@@ -1,0 +1,626 @@
+---
+title: "KIO::WorkerBase Class"
+description: "WorkerBase is the class to use to implement a worker - simply inherit WorkerBase in your worker."
+---
+
+# KIO::WorkerBase Class
+
+[WorkerBase](kio-workerbase.md) is the class to use to implement a worker - simply inherit [WorkerBase](kio-workerbase.md) in your worker. [More...](#details)
+
+- **Header:** `#include <KIO/WorkerBase>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KIO)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KIOCore)`
+- **Inherited By:** [KIO::ForwardingWorkerBase](kio-forwardingworkerbase.md)
+
+[List of all members, including inherited members](kio-workerbase-members.md)  
+[Deprecated members](kio-workerbase-obsolete.md)
+
+## Public Types
+
+- [enum WorkerBase::ButtonCode](#ButtonCode-enum)
+- [enum WorkerBase::MessageBoxType](#MessageBoxType-enum)
+
+## Public Functions
+
+- [void appConnectionMade()](#appConnectionMade)
+- [bool cacheAuthentication(const KIO::AuthInfo &info)](#cacheAuthentication)
+- [void canResume()](#canResume)
+- [bool canResume(KIO::filesize\_t offset)](#canResume-1)
+- [bool checkCachedAuthentication(KIO::AuthInfo &info)](#checkCachedAuthentication)
+- [KIO::WorkerResult chmod(const QUrl &url, int permissions)](#chmod)
+- [KIO::WorkerResult chown(const QUrl &url, const QString &owner, const QString &group)](#chown)
+- [KIO::WorkerResult close()](#close)
+- [void closeConnection()](#closeConnection)
+- [KConfigGroup \*config()](#config)
+- [bool configValue(const QString &key, bool defaultValue) const](#configValue)
+- [QString configValue(const QString &key, const QString &defaultValue = QString()) const](#configValue-1)
+- [int configValue(const QString &key, int defaultValue) const](#configValue-2)
+- [KIO::WorkerResult copy(const QUrl &src, const QUrl &dest, int permissions, KIO::JobFlags flags)](#copy)
+- [void data(const QByteArray &data)](#data)
+- [void dataReq()](#dataReq)
+- [KIO::WorkerResult del(const QUrl &url, bool isfile)](#del)
+- [KIO::WorkerResult fileSystemFreeSpace(const QUrl &url)](#fileSystemFreeSpace)
+- [KIO::WorkerResult get(const QUrl &url)](#get)
+- [bool hasMetaData(const QString &key) const](#hasMetaData)
+- [void infoMessage(const QString &msg)](#infoMessage)
+- [KIO::WorkerResult listDir(const QUrl &url)](#listDir)
+- [void listEntries(const KIO::UDSEntryList &\_entry)](#listEntries)
+- [void listEntry(const KIO::UDSEntry &entry)](#listEntry)
+- [QMap\<QString, QVariant\> mapConfig() const](#mapConfig)
+- [int messageBox(KIO::WorkerBase::MessageBoxType type, const QString &text, const QString &title = QString(), const QString &primaryActionText = QString(), const QString &secondaryActionText = QString())](#messageBox)
+- [int messageBox(const QString &text, KIO::WorkerBase::MessageBoxType type, const QString &title = QString(), const QString &primaryActionText = QString(), const QString &secondaryActionText = QString(), const QString &dontAskAgainName = QString())](#messageBox-1)
+- [QString metaData(const QString &key) const](#metaData)
+- [void mimeType(const QString &\_type)](#mimeType)
+- [KIO::WorkerResult mimetype(const QUrl &url)](#mimetypex)
+- [KIO::WorkerResult mkdir(const QUrl &url, int permissions)](#mkdir)
+- [KIO::WorkerResult open(const QUrl &url, QIODevice::OpenMode mode)](#open)
+- [KIO::WorkerResult openConnection()](#openConnection)
+- [int openPasswordDialog(KIO::AuthInfo &info, const QString &errorMsg = QString())](#openPasswordDialog)
+- [void position(KIO::filesize\_t \_pos)](#position)
+- [void processedSize(KIO::filesize\_t \_bytes)](#processedSize)
+- [KIO::WorkerResult put(const QUrl &url, int permissions, KIO::JobFlags flags)](#put)
+- [KIO::WorkerResult read(KIO::filesize\_t size)](#read)
+- [int readData(QByteArray &buffer)](#readData)
+- [void redirection(const QUrl &\_url)](#redirection)
+- [KRemoteEncoding \*remoteEncoding()](#remoteEncoding)
+- [KIO::WorkerResult rename(const QUrl &src, const QUrl &dest, KIO::JobFlags flags)](#rename)
+- [void reparseConfiguration()](#reparseConfiguration)
+- [KIO::WorkerResult seek(KIO::filesize\_t offset)](#seek)
+- [void sendAndKeepMetaData()](#sendAndKeepMetaData)
+- [void sendMetaData()](#sendMetaData)
+- [void setHost(const QString &host, quint16 port, const QString &user, const QString &pass)](#setHost)
+- [void setMetaData(const QString &key, const QString &value)](#setMetaData)
+- [KIO::WorkerResult setModificationTime(const QUrl &url, const QDateTime &mtime)](#setModificationTime)
+- [void setTimeoutSpecialCommand(int timeout, const QByteArray &data = QByteArray())](#setTimeoutSpecialCommand)
+- [KIO::WorkerResult special(const QByteArray &data)](#special)
+- [void speed(unsigned long \_bytes\_per\_second)](#speed)
+- [int sslError(const QVariantMap &sslData)](#sslError)
+- [KIO::WorkerResult stat(const QUrl &url)](#stat)
+- [void statEntry(const KIO::UDSEntry &\_entry)](#statEntry)
+- [KIO::WorkerResult symlink(const QString &target, const QUrl &dest, KIO::JobFlags flags)](#symlink)
+- [void totalSize(KIO::filesize\_t \_bytes)](#totalSize)
+- [KIO::WorkerResult truncate(KIO::filesize\_t size)](#truncate)
+- [void truncated(KIO::filesize\_t \_length)](#truncated)
+- [int waitForAnswer(int expected1, int expected2, QByteArray &data, int \*pCmd = nullptr)](#waitForAnswer)
+- [void warning(const QString &msg)](#warning)
+- [bool wasKilled() const](#wasKilled)
+- [KIO::WorkerResult write(const QByteArray &data)](#write)
+- [void written(KIO::filesize\_t \_bytes)](#written)
+
+## Detailed Description {#details}
+
+A call to foo() results in a call to slotFoo() on the other end.
+
+Note that a kioworker doesn't have a Qt event loop. When idle, it's waiting for a command on the socket that connects it to the application. So don't expect a kioworker to react to D-Bus signals for instance. KIOWorkers are short-lived anyway, so any kind of watching or listening for notifications should be done elsewhere, for instance in a kded module (see kio\_desktop's desktopnotifier.cpp for an example).
+
+If a kioworker needs a Qt event loop within the implementation of one method, e.g. to wait for an asynchronous operation to finish, that is possible, using [QEventLoop](https://doc.qt.io/qt-6/qeventloop.html).
+
+## Member Type Documentation {#member-type-documentation}
+
+### enum WorkerBase::ButtonCode {#ButtonCode-enum}
+
+Button codes. Should be kept in sync with KMessageBox::ButtonCode
+
+| Constant |   |
+| --- | --- |
+| `KIO::WorkerBase::Ok` | `1` |
+| `KIO::WorkerBase::Cancel` | `2` |
+| `KIO::WorkerBase::PrimaryAction (since Qt 5.100)` | `3` |
+| `KIO::WorkerBase::SecondaryAction (since Qt 5.100)` | `4` |
+| `KIO::WorkerBase::Continue` | `5` |
+
+### enum WorkerBase::MessageBoxType {#MessageBoxType-enum}
+
+Type of message box. Should be kept in sync with KMessageBox::DialogType.
+
+| Constant | Description |
+| --- | --- |
+| `KIO::WorkerBase::QuestionTwoActions (since Qt 5.100)` | `1` |
+| `KIO::WorkerBase::WarningTwoActions (since Qt 5.100)` | `2` |
+| `KIO::WorkerBase::WarningContinueCancel` | `3` |
+| `KIO::WorkerBase::WarningTwoActionsCancel (since Qt 5.100)` | `4` |
+| `KIO::WorkerBase::Information` | `5` |
+| `KIO::WorkerBase::WarningContinueCancelDetailed` | `10` |
+
+## Member Function Documentation {#member-function-documentation}
+
+### \[virtual\] void WorkerBase::appConnectionMade() {#appConnectionMade}
+
+Application connected to the worker.
+
+Called when an application has connected to the worker. Mostly only useful when you want to e.g. send metadata to the application once it connects.
+
+### bool WorkerBase::cacheAuthentication(const KIO::AuthInfo &*info*) {#cacheAuthentication}
+
+Caches `info` in a persistent storage like KWallet.
+
+Note that calling openPasswordDialogV2 does not store passwords automatically for you (and has not since kdelibs 4.7).
+
+Here is a simple example of how to use cacheAuthentication:
+
+```cpp
+AuthInfo info;
+info.url = QUrl("https://www.foobar.org/foo/bar");
+info.username = "somename";
+info.verifyPath = true;
+if ( !checkCachedAuthentication( info ) ) {
+   int errorCode = openPasswordDialogV2(info);
+   if (!errorCode) {
+       if (info.keepPassword)  {  // user asked password be save/remembered
+            cacheAuthentication(info);
+       }
+   }
+}
+```
+
+`info` See [AuthInfo](kio-authinfo.md). Returns `true` if `info` was successfully cached.
+
+### void WorkerBase::canResume() {#canResume}
+
+Call this at the beginning of [get](kio-workerbase.md#get)(), if the "range-start" metadata was set and returning byte ranges is implemented by this protocol.
+
+### bool WorkerBase::canResume(KIO::filesize\_t *offset*) {#canResume-1}
+
+Call this at the beginning of [put](kio-workerbase.md#put)(), to give the size of the existing partial file, if there is one. The `offset` argument notifies the other job (the one that gets the data) about the offset to use. In this case, the boolean returns whether we can indeed resume or not (we can't if the protocol doing the [get](kio-workerbase.md#get)() doesn't support setting an offset)
+
+### bool WorkerBase::checkCachedAuthentication(KIO::AuthInfo &*info*) {#checkCachedAuthentication}
+
+Checks for cached authentication based on parameters given by `info`.
+
+Use this function to check if any cached password exists for the URL given by `info`. If [AuthInfo::realmValue](kio-authinfo.md#realmValue-var) and/or [AuthInfo::verifyPath](kio-authinfo.md#verifyPath-var) flag is specified, then they will also be factored in determining the presence of a cached password. Note that Auth::url is a required parameter when attempting to check for cached authorization info. Here is a simple example:
+
+```cpp
+AuthInfo info;
+info.url = QUrl("https://www.foobar.org/foo/bar");
+info.username = "somename";
+info.verifyPath = true;
+if ( !checkCachedAuthentication( info ) )
+{
+   int errorCode = openPasswordDialogV2(info);
+    ....
+}
+```
+
+`info` see [AuthInfo](kio-authinfo.md). Returns `true` if cached Authorization is found, false otherwise.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::chmod(const QUrl &*url*, int *permissions*) {#chmod}
+
+Change permissions on `url`. The worker emits ERR\_DOES\_NOT\_EXIST or ERR\_CANNOT\_CHMOD
+
+### \[virtual\] KIO::WorkerResult WorkerBase::chown(const QUrl &*url*, const QString &*owner*, const QString &*group*) {#chown}
+
+Change ownership of `url`. The worker emits ERR\_DOES\_NOT\_EXIST or ERR\_CANNOT\_CHOWN
+
+### \[virtual\] KIO::WorkerResult WorkerBase::close() {#close}
+
+close.
+
+*See also* [KIO::FileJob::close()](kio-index.md)
+
+### \[virtual\] void WorkerBase::closeConnection() {#closeConnection}
+
+Closes the connection (forced). Called when the application disconnects the worker to close any open network connections.
+
+When the worker was operating in connection-oriented mode, it should reset itself to connectionless (default) mode.
+
+### KConfigGroup \*WorkerBase::config() {#config}
+
+Returns a configuration object to query config/meta-data information from.
+
+The application provides the worker with all configuration information relevant for the current protocol and host.
+
+> **Note:** Since 5.64 prefer to use [mapConfig](kio-workerbase.md#mapConfig)() or one of the [configValue](kio-workerbase.md#configValue)(...) overloads.
+
+### bool WorkerBase::configValue(const QString &*key*, bool *defaultValue*) const {#configValue}
+
+Returns a bool from the config/meta-data information.
+
+### QString WorkerBase::configValue(const QString &*key*, const QString &*defaultValue* = QString()) const {#configValue-1}
+
+Returns a [QString](https://doc.qt.io/qt-6/qstring.html) from the config/meta-data information.
+
+### int WorkerBase::configValue(const QString &*key*, int *defaultValue*) const {#configValue-2}
+
+Returns an int from the config/meta-data information.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::copy(const QUrl &*src*, const QUrl &*dest*, int *permissions*, KIO::JobFlags *flags*) {#copy}
+
+Copy `src` into `dest`.
+
+By default, copy() is only called when copying a file from yourproto://host/path to yourproto://host/otherpath.
+
+If you set copyFromFile=true then copy() will also be called when moving a file from file:///path to yourproto://host/otherpath. Otherwise such a copy would have to be done the slow way (get+put). See also [KProtocolManager::canCopyFromFile](kprotocolmanager.md#canCopyFromFile)().
+
+If you set copyToFile=true then copy() will also be called when moving a file from yourproto: to file:. See also [KProtocolManager::canCopyToFile](kprotocolmanager.md#canCopyToFile)().
+
+If the worker returns an error ERR\_UNSUPPORTED\_ACTION, the job will ask for get + put instead.
+
+If the worker returns an error ERR\_FILE\_ALREADY\_EXIST, the job will ask for a different destination filename.
+
+`src` where to copy the file from (decoded)
+
+`dest` where to copy the file to (decoded)
+
+`permissions` may be -1. In this case no special permission mode is set, and the owner and group permissions are not preserved.
+
+`flags` We support Overwrite here
+
+Don't forget to set the modification time of `dest` to be the modification time of `src`.
+
+### void WorkerBase::data(const QByteArray &*data*) {#data}
+
+Sends data in the worker to the job (i.e. in get).
+
+To signal end of data, simply send an empty QByteArray().
+
+`data` the data read by the worker
+
+### void WorkerBase::dataReq() {#dataReq}
+
+Asks for data from the job.
+
+*See also* [readData](kio-workerbase.md#readData)
+
+### \[virtual\] KIO::WorkerResult WorkerBase::del(const QUrl &*url*, bool *isfile*) {#del}
+
+Delete a file or directory.
+
+`url` file/directory to delete
+
+`isfile` if true, a file should be deleted. if false, a directory should be deleted.
+
+By default, del() on a directory should FAIL if the directory is not empty. However, if metadata("recurse") == "true", then the worker can do a recursive deletion. This behavior is only invoked if the worker specifies deleteRecursive=true in its protocol file.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::fileSystemFreeSpace(const QUrl &*url*) {#fileSystemFreeSpace}
+
+Get a filesystem's total and available space.
+
+`url` Url to the filesystem
+
+### \[virtual\] KIO::WorkerResult WorkerBase::get(const QUrl &*url*) {#get}
+
+get, aka read.
+
+`url` the full url for this request. Host, port and user of the URL can be assumed to be the same as in the last [setHost](kio-workerbase.md#setHost)() call.
+
+The worker should first "emit" the MIME type by calling [mimeType](kio-workerbase.md#mimeType)(), and then "emit" the data using the [data](kio-workerbase.md#data)() method.
+
+The reason why we need get() to emit the MIME type is: when pasting a URL in krunner, or konqueror's location bar, we have to find out what is the MIME type of that URL. Rather than doing it with a call to [mimetype](kio-workerbase.md#mimetypex)(), then the app or part would have to do a second request to the same server, this is done like this: get() is called, and when it emits the MIME type, the job is put on hold and the right app or part is launched. When that app or part calls get(), the worker is magically reused, and the download can now happen. All with a single call to get() in the worker. This mechanism is also described in [KIO::get](kio-transferjob.md#get)().
+
+### bool WorkerBase::hasMetaData(const QString &*key*) const {#hasMetaData}
+
+Queries for the existence of a certain config/meta-data entry send by the application to the worker.
+
+### void WorkerBase::infoMessage(const QString &*msg*) {#infoMessage}
+
+Call to signal a message, to be displayed if the application wants to, for instance in a status bar. Usual examples are "connecting to host xyz", etc.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::listDir(const QUrl &*url*) {#listDir}
+
+Lists the contents of `url`. The worker should emit ERR\_CANNOT\_ENTER\_DIRECTORY if it doesn't exist, if we don't have enough permissions. You should not list files if the path in `url` is empty, but redirect to a non-empty path instead.
+
+### void WorkerBase::listEntries(const KIO::UDSEntryList &*\_entry*) {#listEntries}
+
+Call this in [listDir](kio-workerbase.md#listDir), each time you have a bunch of entries to report.
+
+`_entry` The [UDSEntry](kio-udsentry.md) containing all of the object attributes.
+
+### void WorkerBase::listEntry(const KIO::UDSEntry &*entry*) {#listEntry}
+
+It collects entries and emits them via [listEntries](kio-workerbase.md#listEntries) when enough of them are there or a certain time frame exceeded (to make sure the app gets some items in time but not too many items one by one as this will cause a drastic performance penalty).
+
+`entry` The [UDSEntry](kio-udsentry.md) containing all of the object attributes.
+
+### QMap\<QString, QVariant\> WorkerBase::mapConfig() const {#mapConfig}
+
+Returns a map to query config/meta-data information from.
+
+The application provides the worker with all configuration information relevant for the current protocol and host.
+
+Use [configValue](kio-workerbase.md#configValue)() as shortcut.
+
+### int WorkerBase::messageBox(KIO::WorkerBase::MessageBoxType *type*, const QString &*text*, const QString &*title* = QString(), const QString &*primaryActionText* = QString(), const QString &*secondaryActionText* = QString()) {#messageBox}
+
+Call this to show a message box from the worker
+
+`type` type of message box
+
+`text` Message string. May contain newlines.
+
+`title` Message box title.
+
+`primaryActionText` the text for the first button. Ignored for `type` Information.
+
+`secondaryActionText` the text for the second button. Ignored for `type` [WarningContinueCancel](kio-workerbase.md#MessageBoxType-enum), [WarningContinueCancelDetailed](kio-workerbase.md#MessageBoxType-enum), Information.
+
+Returns a button code, as defined in [ButtonCode](kio-workerbase.md#ButtonCode-enum), or 0 on communication error.
+
+### int WorkerBase::messageBox(const QString &*text*, KIO::WorkerBase::MessageBoxType *type*, const QString &*title* = QString(), const QString &*primaryActionText* = QString(), const QString &*secondaryActionText* = QString(), const QString &*dontAskAgainName* = QString()) {#messageBox-1}
+
+Call this to show a message box from the worker
+
+`text` Message string. May contain newlines.
+
+`type` type of message box
+
+`title` Message box title.
+
+`primaryActionText` the text for the first button. Ignored for `type` Information.
+
+`secondaryActionText` the text for the second button. Ignored for `type` [WarningContinueCancel](kio-workerbase.md#MessageBoxType-enum), [WarningContinueCancelDetailed](kio-workerbase.md#MessageBoxType-enum), Information.
+
+`dontAskAgainName` the name used to store result from 'Do not ask again' checkbox. Returns a button code, as defined in [ButtonCode](kio-workerbase.md#ButtonCode-enum), or 0 on communication error.
+
+### QString WorkerBase::metaData(const QString &*key*) const {#metaData}
+
+Queries for config/meta-data send by the application to the worker.
+
+*See also* [setMetaData](kio-workerbase.md#setMetaData)()
+
+### void WorkerBase::mimeType(const QString &*\_type*) {#mimeType}
+
+Call this in [mimetype](kio-workerbase.md#mimetypex)() and in [get](kio-workerbase.md#get)(), when you know the MIME type. See [mimetype](kio-workerbase.md#mimetypex)() about other ways to implement it.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::mimetype(const QUrl &*url*) {#mimetypex}
+
+Finds MIME type for one file or directory.
+
+This method should either emit '[mimeType](kio-workerbase.md#mimeType)' or it should send a block of data big enough to be able to determine the MIME type.
+
+If the worker doesn't reimplement it, a get will be issued, i.e. the whole file will be downloaded before determining the MIME type on it - this is obviously not a good thing in most cases.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::mkdir(const QUrl &*url*, int *permissions*) {#mkdir}
+
+Create a directory
+
+`url` path to the directory to create
+
+`permissions` the permissions to set after creating the directory (-1 if no permissions to be set)
+
+The worker emits ERR\_CANNOT\_MKDIR if failure.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::open(const QUrl &*url*, QIODevice::OpenMode *mode*) {#open}
+
+open.
+
+`url` the full url for this request. Host, port and user of the URL can be assumed to be the same as in the last [setHost](kio-workerbase.md#setHost)() call.
+
+`mode` see QIODevice::OpenMode
+
+### \[virtual\] KIO::WorkerResult WorkerBase::openConnection() {#openConnection}
+
+Opens the connection (forced). When this function gets called the worker is operating in connection-oriented mode. When a connection gets lost while the worker operates in connection oriented mode, the worker should report ERR\_CONNECTION\_BROKEN instead of reconnecting. The user is expected to disconnect the worker in the error handler.
+
+### int WorkerBase::openPasswordDialog(KIO::AuthInfo &*info*, const QString &*errorMsg* = QString()) {#openPasswordDialog}
+
+Prompt the user for Authorization info (login & password).
+
+Use this function to request authorization information from the end user. You can also pass an error message which explains why a previous authorization attempt failed. Here is a very simple example:
+
+```cpp
+KIO::AuthInfo authInfo;
+int errorCode = openPasswordDialogV2(authInfo);
+if (!errorCode) {
+   qDebug() << QLatin1String("User: ") << authInfo.username;
+   qDebug() << QLatin1String("Password: not displayed here!");
+} else {
+   error(errorCode, QString());
+}
+```
+
+You can also preset some values like the username, caption or comment as follows:
+
+```cpp
+KIO::AuthInfo authInfo;
+authInfo.caption = i18n("Acme Password Dialog");
+authInfo.username = "Wile E. Coyote";
+QString errorMsg = i18n("You entered an incorrect password.");
+int errorCode = openPasswordDialogV2(authInfo, errorMsg);
+[...]
+```
+
+> **Note:** You should consider using [checkCachedAuthentication](kio-workerbase.md#checkCachedAuthentication)() to see if the password is available in kpasswdserver before calling this function.
+
+> **Note:** A call to this function can fail and return `false`, if the password server could not be started for whatever reason.
+
+> **Note:** This function does not store the password information automatically (and has not since kdelibs 4.7). If you want to store the password information in a persistent storage like KWallet, then you MUST call [cacheAuthentication](kio-workerbase.md#cacheAuthentication).
+
+`info` See [AuthInfo](kio-authinfo.md).
+
+`errorMsg` Error message to show
+
+Returns a KIO error code: [NoError](https://doc.qt.io/qt-6/qdtls.html#QDtlsError-enum) (0), KIO::USER\_CANCELED, or other error codes.
+
+*See also* [checkCachedAuthentication](kio-workerbase.md#checkCachedAuthentication)
+
+### void WorkerBase::position(KIO::filesize\_t *\_pos*) {#position}
+
+### void WorkerBase::processedSize(KIO::filesize\_t *\_bytes*) {#processedSize}
+
+Call this during get and copy, once in a while, to give some info about the current state. Don't emit it in [listDir](kio-workerbase.md#listDir), [listEntries](kio-workerbase.md#listEntries) speaks for itself.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::put(const QUrl &*url*, int *permissions*, KIO::JobFlags *flags*) {#put}
+
+put, i.e. write data into a file.
+
+`url` where to write the file
+
+`permissions` may be -1. In this case no special permission mode is set.
+
+`flags` We support Overwrite here. Hopefully, we're going to support Resume in the future, too. If the file indeed already exists, the worker should NOT apply the permissions change to it. The support for resuming using .part files is done by calling [canResume](kio-workerbase.md#canResume)().
+
+IMPORTANT: Use the "modified" metadata in order to set the modification time of the file.
+
+*See also* [canResume](kio-workerbase.md#canResume)()
+
+### \[virtual\] KIO::WorkerResult WorkerBase::read(KIO::filesize\_t *size*) {#read}
+
+read.
+
+`size` the requested amount of data to read
+
+*See also* [KIO::FileJob::read()](kio-index.md)
+
+### int WorkerBase::readData(QByteArray &*buffer*) {#readData}
+
+Read data sent by the job, after a [dataReq](kio-workerbase.md#dataReq)
+
+`buffer` buffer where data is stored
+
+Returns 0 on end of data, \> 0 bytes read \< 0 error
+
+### void WorkerBase::redirection(const QUrl &*\_url*) {#redirection}
+
+Call this to signal a redirection. The job will take care of going to that url.
+
+### KRemoteEncoding \*WorkerBase::remoteEncoding() {#remoteEncoding}
+
+Returns an object that can translate remote filenames into proper Unicode forms. This encoding can be set by the user.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::rename(const QUrl &*src*, const QUrl &*dest*, KIO::JobFlags *flags*) {#rename}
+
+Rename `oldname` into `newname`.
+
+If the worker returns an error ERR\_UNSUPPORTED\_ACTION, the job will ask for copy + del instead.
+
+Important: the worker must implement the logic "if the destination already exists, error ERR\_DIR\_ALREADY\_EXIST or ERR\_FILE\_ALREADY\_EXIST". For performance reasons no stat is done in the destination before hand, the worker must do it.
+
+By default, rename() is only called when renaming (moving) from yourproto://host/path to yourproto://host/otherpath.
+
+If you set renameFromFile=true then rename() will also be called when moving a file from file:///path to yourproto://host/otherpath. Otherwise such a move would have to be done the slow way (copy+delete). See [KProtocolManager::canRenameFromFile](kprotocolmanager.md#canRenameFromFile)() for more details.
+
+If you set renameToFile=true then rename() will also be called when moving a file from yourproto: to file:. See [KProtocolManager::canRenameToFile](kprotocolmanager.md#canRenameToFile)() for more details.
+
+`src` where to move the file from
+
+`dest` where to move the file to
+
+`flags` We support Overwrite here
+
+### \[virtual\] void WorkerBase::reparseConfiguration() {#reparseConfiguration}
+
+Called by the scheduler to tell the worker that the configuration changed (i.e. proxy settings) .
+
+### \[virtual\] KIO::WorkerResult WorkerBase::seek(KIO::filesize\_t *offset*) {#seek}
+
+seek.
+
+`offset` the requested amount of data to read
+
+*See also* [KIO::FileJob::read()](kio-index.md)
+
+### void WorkerBase::sendAndKeepMetaData() {#sendAndKeepMetaData}
+
+Internal function to transmit meta data to the application. Like [sendMetaData](kio-workerbase.md#sendMetaData)() but m\_outgoingMetaData will not be cleared. This method is mainly useful in code that runs before the worker is connected to its final job.
+
+### void WorkerBase::sendMetaData() {#sendMetaData}
+
+Internal function to transmit meta data to the application.
+
+m\_outgoingMetaData will be cleared; this means that if the worker is for example put on hold and picked up by a different [KIO::Job](kio-job.md) later the new job will not see the metadata sent before. See kio/DESIGN.krun for an overview of the state progression of a job/worker.
+
+> **Warning:** calling this method may seriously interfere with the operation of KIO which relies on the presence of some metadata at some points in time. You should not use it if you are not familiar with KIO and not before the worker is connected to the last job before returning to idle state.
+
+### \[virtual\] void WorkerBase::setHost(const QString &*host*, quint16 *port*, const QString &*user*, const QString &*pass*) {#setHost}
+
+Set the host
+
+Called directly by createWorker and not via the interface.
+
+This method is called whenever a change in host, port or user occurs.
+
+### void WorkerBase::setMetaData(const QString &*key*, const QString &*value*) {#setMetaData}
+
+Sets meta-data to be send to the application before the first [data](kio-workerbase.md#data)() or finished() signal.
+
+*See also* [metaData](kio-workerbase.md#metaData)()
+
+### \[virtual\] KIO::WorkerResult WorkerBase::setModificationTime(const QUrl &*url*, const QDateTime &*mtime*) {#setModificationTime}
+
+Sets the modification time for url.
+
+For instance this is what [CopyJob](kio-copyjob.md) uses to set mtime on dirs at the end of a copy. It could also be used to set the mtime on any file, in theory. The usual implementation on unix is to call utime(path, &myutimbuf). The worker emits ERR\_DOES\_NOT\_EXIST or ERR\_CANNOT\_SETTIME
+
+### void WorkerBase::setTimeoutSpecialCommand(int *timeout*, const QByteArray &*data* = QByteArray()) {#setTimeoutSpecialCommand}
+
+This function sets a timeout of `timeout` seconds and calls special(data) when the timeout occurs as if it was called by the application.
+
+A timeout can only occur when the worker is waiting for a command from the application.
+
+Specifying a negative timeout cancels a pending timeout.
+
+Only one timeout at a time is supported, setting a timeout cancels any pending timeout.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::special(const QByteArray &*data*) {#special}
+
+Used for any command that is specific to this worker (protocol). Examples are : HTTP POST, mount and unmount (kio\_file)
+
+`data` packed data; the meaning is completely dependent on the worker, but usually starts with an int for the command number.
+
+Document your worker's commands, at least in its header file.
+
+### void WorkerBase::speed(unsigned long *\_bytes\_per\_second*) {#speed}
+
+Call this in get and copy, to give the current transfer speed, but only if it can't be calculated out of the size you passed to [processedSize](kio-workerbase.md#processedSize) (in most cases you don't want to call it)
+
+### int WorkerBase::sslError(const QVariantMap &*sslData*) {#sslError}
+
+### \[virtual\] KIO::WorkerResult WorkerBase::stat(const QUrl &*url*) {#stat}
+
+Finds all details for one file or directory. The information returned is the same as what [listDir](kio-workerbase.md#listDir) returns, but only for one file or directory. Call [statEntry](kio-workerbase.md#statEntry)() after creating the appropriate [UDSEntry](kio-udsentry.md) for this url.
+
+You can use the "details" metadata to optimize this method to only do as much work as needed by the application. By default details is 2 (all details wanted, including modification time, size, etc.), details==1 is used when deleting: we don't need all the information if it takes too much time, no need to follow symlinks etc. details==0 is used for very simple probing: we'll only get the answer "it's a file or a directory (or a symlink), or it doesn't exist".
+
+### void WorkerBase::statEntry(const KIO::UDSEntry &*\_entry*) {#statEntry}
+
+Call this from [stat](kio-workerbase.md#stat)() to express details about an object, the [UDSEntry](kio-udsentry.md) customarily contains the atoms describing file name, size, MIME type, etc.
+
+`_entry` The [UDSEntry](kio-udsentry.md) containing all of the object attributes.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::symlink(const QString &*target*, const QUrl &*dest*, KIO::JobFlags *flags*) {#symlink}
+
+Creates a symbolic link named `dest`, pointing to `target`, which may be a relative or an absolute path.
+
+`target` The string that will become the "target" of the link (can be relative)
+
+`dest` The symlink to create.
+
+`flags` We support Overwrite here
+
+### void WorkerBase::totalSize(KIO::filesize\_t *\_bytes*) {#totalSize}
+
+Call this in get and copy, to give the total size of the file.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::truncate(KIO::filesize\_t *size*) {#truncate}
+
+truncate
+
+`size` size to truncate the file to
+
+*See also* [KIO::FileJob::truncate()](kio-index.md)
+
+### void WorkerBase::truncated(KIO::filesize\_t *\_length*) {#truncated}
+
+### int WorkerBase::waitForAnswer(int *expected1*, int *expected2*, QByteArray &*data*, int \**pCmd* = nullptr) {#waitForAnswer}
+
+Wait for an answer to our request, until we get `expected1` or `expected2`
+
+Returns the result from [readData](kio-workerbase.md#readData), as well as the cmd in \*pCmd if set, and the data in `data`
+
+### void WorkerBase::warning(const QString &*msg*) {#warning}
+
+Call to signal a warning, to be displayed in a dialog box.
+
+### bool WorkerBase::wasKilled() const {#wasKilled}
+
+If your ioworker was killed by a signal, wasKilled() returns true. Check it regularly in lengthy functions (e.g. in [get](kio-workerbase.md#get)();) and return as fast as possible from this function if wasKilled() returns true. This will ensure that your worker destructor will be called correctly.
+
+### \[virtual\] KIO::WorkerResult WorkerBase::write(const QByteArray &*data*) {#write}
+
+write.
+
+`data` the data to write
+
+*See also* [KIO::FileJob::write()](kio-index.md)
+
+### void WorkerBase::written(KIO::filesize\_t *\_bytes*) {#written}

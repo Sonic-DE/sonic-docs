@@ -1,0 +1,47 @@
+{
+    "classes": [
+    ],
+    "module": "kirigamiaddonsdelegates",
+    "sections": [
+        {
+            "description": "Delegates for lists and grids in Kirigami applications.",
+            "page": "kirigamiaddonsdelegates/org-kde-kirigamiaddons-delegates-qmlmodule",
+            "pages": [
+                [
+                    "kirigamiaddonsdelegates/org-kde-kirigamiaddons-delegates-qmlmodule",
+                    "Kirigami Addons Delegates QML Types"
+                ],
+                [
+                    "kirigamiaddonsdelegates/qml-org-kde-kirigamiaddons-delegates-checkdelegate",
+                    "CheckDelegate"
+                ],
+                [
+                    "kirigamiaddonsdelegates/qml-org-kde-kirigamiaddons-delegates-defaultcontentitem",
+                    "DefaultContentItem"
+                ],
+                [
+                    "kirigamiaddonsdelegates/qml-org-kde-kirigamiaddons-delegates-indicatoritemdelegate",
+                    "IndicatorItemDelegate"
+                ],
+                [
+                    "kirigamiaddonsdelegates/qml-org-kde-kirigamiaddons-delegates-radiodelegate",
+                    "RadioDelegate"
+                ],
+                [
+                    "kirigamiaddonsdelegates/qml-org-kde-kirigamiaddons-delegates-roundeditemdelegate",
+                    "RoundedItemDelegate"
+                ],
+                [
+                    "kirigamiaddonsdelegates/qml-org-kde-kirigamiaddons-delegates-roundedtreedelegate",
+                    "RoundedTreeDelegate"
+                ],
+                [
+                    "kirigamiaddonsdelegates/qml-org-kde-kirigamiaddons-delegates-subtitlecontentitem",
+                    "SubtitleContentItem"
+                ]
+            ],
+            "qml": true,
+            "title": "Kirigami Addons Delegates QML Types"
+        }
+    ]
+}

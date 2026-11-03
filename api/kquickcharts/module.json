@@ -1,0 +1,83 @@
+{
+    "classes": [
+    ],
+    "module": "kquickcharts",
+    "sections": [
+        {
+            "description": "",
+            "page": "",
+            "pages": [
+                [
+                    "kquickcharts/kquickcharts-index",
+                    "KQuickCharts"
+                ]
+            ],
+            "qml": false,
+            "title": "kquickcharts"
+        },
+        {
+            "description": "Chart stuff.",
+            "page": "kquickcharts/org-kde-quickcharts-qmlmodule",
+            "pages": [
+                [
+                    "kquickcharts/org-kde-quickcharts-qmlmodule",
+                    "KQuickCharts QML Types"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-arraysource",
+                    "ArraySource"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-barchart",
+                    "BarChart"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-chart",
+                    "Chart"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-chartaxissource",
+                    "ChartAxisSource"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-chartdatasource",
+                    "ChartDataSource"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-colorgradientsource",
+                    "ColorGradientSource"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-historyproxysource",
+                    "HistoryProxySource"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-linechart",
+                    "LineChart"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-mapproxysource",
+                    "MapProxySource"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-modelsource",
+                    "ModelSource"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-piechart",
+                    "PieChart"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-singlevaluesource",
+                    "SingleValueSource"
+                ],
+                [
+                    "kquickcharts/qml-org-kde-quickcharts-xychart",
+                    "XYChart"
+                ]
+            ],
+            "qml": true,
+            "title": "KQuickCharts QML Types"
+        }
+    ]
+}

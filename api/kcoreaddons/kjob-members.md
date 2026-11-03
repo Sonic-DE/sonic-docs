@@ -1,0 +1,66 @@
+---
+title: "List of All Members for KJob"
+description: "Every member of KJob, including inherited members."
+parent: "kcoreaddons/kjob"
+---
+
+# List of All Members for KJob
+
+This is the complete list of members for [KJob](kjob.md), including inherited members.
+
+- [KJob(QObject \*)](kjob.md#KJob)
+- [capabilities : const Capabilities](kjob.md#capabilities-prop)
+- [capabilities() const : KJob::Capabilities](kjob.md#capabilities)
+- [description(KJob \*, const QString &, const QPair\<QString, QString\> &, const QPair\<QString, QString\> &)](kjob.md#description)
+- [doKill() : bool](kjob.md#doKill)
+- [doResume() : bool](kjob.md#doResume)
+- [doSuspend() : bool](kjob.md#doSuspend)
+- [elapsedTime() const : qint64](kjob.md#elapsedTime)
+- [emitPercent(qulonglong, qulonglong)](kjob.md#emitPercent)
+- [emitResult()](kjob.md#emitResult)
+- [emitSpeed(unsigned long)](kjob.md#emitSpeed)
+- [error : int](kjob.md#error-prop)
+- [error() const : int](kjob.md#error)
+- [errorString : QString](kjob.md#errorString-prop)
+- [errorString() const : QString](kjob.md#errorString)
+- [errorText : QString](kjob.md#errorText-prop)
+- [errorText() const : QString](kjob.md#errorText)
+- [exec() : bool](kjob.md#exec)
+- [finished(KJob \*)](kjob.md#finished)
+- [infoMessage(KJob \*, const QString &)](kjob.md#infoMessage)
+- [isAutoDelete() const : bool](kjob.md#isAutoDelete)
+- [isFinishedNotificationHidden() const : bool](kjob.md#isFinishedNotificationHidden)
+- [isStartedWithExec() const : bool](kjob.md#isStartedWithExec)
+- [isSuspended() const : bool](kjob.md#isSuspended)
+- [kill(KJob::KillVerbosity) : bool](kjob.md#kill)
+- [percent : ulong](kjob.md#percent-prop)
+- [percent() const : unsigned long](kjob.md#percent)
+- [percentChanged(KJob \*, unsigned long)](kjob.md#percentChanged)
+- [processedAmount(KJob::Unit) const : qulonglong](kjob.md#processedAmount)
+- [processedAmountChanged(KJob \*, KJob::Unit, qulonglong)](kjob.md#processedAmountChanged)
+- [processedSize(KJob \*, qulonglong)](kjob.md#processedSize)
+- [result(KJob \*)](kjob.md#result)
+- [resume() : bool](kjob.md#resume)
+- [resumed(KJob \*)](kjob.md#resumed)
+- [setAutoDelete(bool)](kjob.md#setAutoDelete)
+- [setCapabilities(KJob::Capabilities)](kjob.md#setCapabilities)
+- [setError(int)](kjob.md#setError)
+- [setErrorText(const QString &)](kjob.md#setErrorText)
+- [setFinishedNotificationHidden(bool)](kjob.md#setFinishedNotificationHidden)
+- [setPercent(unsigned long)](kjob.md#setPercent)
+- [setProcessedAmount(KJob::Unit, qulonglong)](kjob.md#setProcessedAmount)
+- [setProgressUnit(KJob::Unit)](kjob.md#setProgressUnit)
+- [setTotalAmount(KJob::Unit, qulonglong)](kjob.md#setTotalAmount)
+- [setUiDelegate(KJobUiDelegate \*)](kjob.md#setUiDelegate)
+- [speed(KJob \*, unsigned long)](kjob.md#speed)
+- [start()](kjob.md#start)
+- [startElapsedTimer()](kjob.md#startElapsedTimer)
+- [suspend() : bool](kjob.md#suspend)
+- [suspended(KJob \*)](kjob.md#suspended)
+- [totalAmount(KJob::Unit) const : qulonglong](kjob.md#totalAmount)
+- [totalAmountChanged(KJob \*, KJob::Unit, qulonglong)](kjob.md#totalAmountChanged)
+- [totalSize(KJob \*, qulonglong)](kjob.md#totalSize)
+- [uiDelegate() const : KJobUiDelegate \*](kjob.md#uiDelegate)
+- [warning(KJob \*, const QString &)](kjob.md#warning)
+
+KJob also inherits the members of [QObject](https://doc.qt.io/qt-6/qobject-members.html).

@@ -1,0 +1,118 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Action",
+                    "Action(const QString &, const QString &, QObject *)",
+                    "Action"
+                ],
+                [
+                    "dialogFinished",
+                    "dialogFinished(const QList<KNSCore::Entry> &)",
+                    "dialogFinished"
+                ]
+            ],
+            "name": "KNSWidgets::Action",
+            "page": "knewstuffwidgets/knswidgets-action",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Button",
+                    "Button(QWidget *)",
+                    "Button"
+                ],
+                [
+                    "Button",
+                    "Button(const QString &, const QString &, QWidget *)",
+                    "Button-1"
+                ],
+                [
+                    "dialogFinished",
+                    "dialogFinished(const QList<KNSCore::Entry> &)",
+                    "dialogFinished"
+                ],
+                [
+                    "setConfigFile",
+                    "setConfigFile(const QString &)",
+                    "setConfigFile"
+                ]
+            ],
+            "name": "KNSWidgets::Button",
+            "page": "knewstuffwidgets/knswidgets-button",
+            "qtBases": [
+                [
+                    "QPushButton",
+                    "https://doc.qt.io/qt-6/qpushbutton-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Dialog",
+                    "Dialog(const QString &, QWidget *)",
+                    "Dialog"
+                ],
+                [
+                    "changedEntries",
+                    "changedEntries() const : QList<KNSCore::Entry>",
+                    "changedEntries"
+                ],
+                [
+                    "engine",
+                    "engine() : KNSCore::EngineBase *",
+                    "engine"
+                ]
+            ],
+            "name": "KNSWidgets::Dialog",
+            "page": "knewstuffwidgets/knswidgets-dialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "knewstuffwidgets",
+    "sections": [
+        {
+            "description": "Widgets for KNewStuff.",
+            "page": "knewstuffwidgets/knewstuffwidgets-module",
+            "pages": [
+                [
+                    "knewstuffwidgets/knewstuffwidgets-module",
+                    "KNewStuff Widgets C++ Classes"
+                ],
+                [
+                    "knewstuffwidgets/knswidgets-action",
+                    "KNSWidgets::Action"
+                ],
+                [
+                    "knewstuffwidgets/knswidgets-button",
+                    "KNSWidgets::Button"
+                ],
+                [
+                    "knewstuffwidgets/knswidgets-dialog",
+                    "KNSWidgets::Dialog"
+                ],
+                [
+                    "knewstuffwidgets/knswidgets",
+                    "KNSWidgets Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KNewStuff Widgets C++ Classes"
+        }
+    ]
+}

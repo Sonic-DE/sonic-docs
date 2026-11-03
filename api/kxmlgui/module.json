@@ -1,0 +1,1979 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KAboutApplicationDialog",
+                    "KAboutApplicationDialog(const KAboutData &, QWidget *)",
+                    "KAboutApplicationDialog"
+                ],
+                [
+                    "KAboutApplicationDialog",
+                    "KAboutApplicationDialog(const KAboutData &, KAboutApplicationDialog::Options, QWidget *)",
+                    "KAboutApplicationDialog-1"
+                ]
+            ],
+            "name": "KAboutApplicationDialog",
+            "page": "kxmlgui/kaboutapplicationdialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KAboutPluginDialog",
+                    "KAboutPluginDialog(const KPluginMetaData &, QWidget *)",
+                    "KAboutPluginDialog"
+                ],
+                [
+                    "KAboutPluginDialog",
+                    "KAboutPluginDialog(const KPluginMetaData &, KAboutPluginDialog::Options, QWidget *)",
+                    "KAboutPluginDialog-1"
+                ]
+            ],
+            "name": "KAboutPluginDialog",
+            "page": "kxmlgui/kaboutplugindialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "text",
+                    "text : QString",
+                    "text-prop"
+                ],
+                [
+                    "KActionCategory",
+                    "KActionCategory(const QString &, KActionCollection *)",
+                    "KActionCategory"
+                ],
+                [
+                    "~KActionCategory",
+                    "~KActionCategory()",
+                    "dtor.KActionCategory"
+                ],
+                [
+                    "actions",
+                    "actions() const : const QList<QAction *>",
+                    "actions"
+                ],
+                [
+                    "add",
+                    "add(const QString &) : template <typename ActionType> ActionType *",
+                    "add"
+                ],
+                [
+                    "add",
+                    "add(const int *, int) : QAction *",
+                    "add-1"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardActions::StandardAction) : QAction *",
+                    "addAction"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardActions::StandardAction, const QString &) : QAction *",
+                    "addAction-2"
+                ],
+                [
+                    "addAction",
+                    "addAction(const QString &, QAction *) : QAction *",
+                    "addAction-3"
+                ],
+                [
+                    "addAction",
+                    "addAction(const int *, int) : QAction *",
+                    "addAction-4"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardActions::StandardAction, const int *, int) : QAction *",
+                    "addAction-5"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardAction::StandardAction, const QObject *, const char *) : QAction *",
+                    "addAction-6"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardAction::StandardAction, const QString &, const QObject *, const char *) : QAction *",
+                    "addAction-8"
+                ],
+                [
+                    "collection",
+                    "collection() const : KActionCollection *",
+                    "collection"
+                ],
+                [
+                    "setText",
+                    "setText(const QString &)",
+                    "setText"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ]
+            ],
+            "name": "KActionCategory",
+            "page": "kxmlgui/kactioncategory",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "configGroup",
+                    "configGroup : QString",
+                    "configGroup-prop"
+                ],
+                [
+                    "configIsGlobal",
+                    "configIsGlobal : bool",
+                    "configIsGlobal-prop"
+                ],
+                [
+                    "KActionCollection",
+                    "KActionCollection(QObject *, const QString &)",
+                    "KActionCollection"
+                ],
+                [
+                    "~KActionCollection",
+                    "~KActionCollection()",
+                    "dtor.KActionCollection"
+                ],
+                [
+                    "action",
+                    "action(const QString &) const : QAction *",
+                    "action"
+                ],
+                [
+                    "action",
+                    "action(int) const : QAction *",
+                    "action-1"
+                ],
+                [
+                    "actionGroups",
+                    "actionGroups() const : const QList<QActionGroup *>",
+                    "actionGroups"
+                ],
+                [
+                    "actionHovered",
+                    "actionHovered(QAction *)",
+                    "actionHovered"
+                ],
+                [
+                    "actionTriggered",
+                    "actionTriggered(QAction *)",
+                    "actionTriggered"
+                ],
+                [
+                    "actions",
+                    "actions() const : QList<QAction *>",
+                    "actions"
+                ],
+                [
+                    "actionsWithoutGroup",
+                    "actionsWithoutGroup() const : const QList<QAction *>",
+                    "actionsWithoutGroup"
+                ],
+                [
+                    "add",
+                    "add(const QString &, const QObject *, const char *) : template <typename ActionType> ActionType *",
+                    "add"
+                ],
+                [
+                    "add",
+                    "add(const QString &, const Receiver *, Func) : template < typename ActionType, typename Receiver, typename Func > ActionType *",
+                    "add-1"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardActions::StandardAction) : QAction *",
+                    "addAction"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardActions::StandardAction, const QString &) : QAction *",
+                    "addAction-1"
+                ],
+                [
+                    "addAction",
+                    "addAction(const QString &, QAction *) : QAction *",
+                    "addAction-2"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardAction::StandardAction, const QObject *, const char *) : QAction *",
+                    "addAction-3"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardActions::StandardAction, const Receiver *, Func) : template <typename Receiver, typename Func> QAction *",
+                    "addAction-4"
+                ],
+                [
+                    "addAction",
+                    "addAction(const QString &, const QObject *, const char *) : QAction *",
+                    "addAction-5"
+                ],
+                [
+                    "addAction",
+                    "addAction(const QString &, const Receiver *, Func) : template <typename Receiver, typename Func> QAction *",
+                    "addAction-6"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardAction::StandardAction, const QString &, const QObject *, const char *) : QAction *",
+                    "addAction-7"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardAction::StandardAction, const QString &, const Receiver *, Func) : template <typename Receiver, typename Func> QAction *",
+                    "addAction-8"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardActions::StandardAction, const QString &, const Receiver *, Func) : template <typename Receiver, typename Func> QAction *",
+                    "addAction-9"
+                ],
+                [
+                    "addActions",
+                    "addActions(const QList<QAction *> &)",
+                    "addActions"
+                ],
+                [
+                    "addAssociatedWidget",
+                    "addAssociatedWidget(QWidget *)",
+                    "addAssociatedWidget"
+                ],
+                [
+                    "allCollections",
+                    "allCollections() : const QList<KActionCollection *> &",
+                    "allCollections"
+                ],
+                [
+                    "associateWidget",
+                    "associateWidget(QWidget *) const",
+                    "associateWidget"
+                ],
+                [
+                    "associatedWidgets",
+                    "associatedWidgets() const : QList<QWidget *>",
+                    "associatedWidgets"
+                ],
+                [
+                    "changed",
+                    "changed()",
+                    "changed"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "clearAssociatedWidgets",
+                    "clearAssociatedWidgets()",
+                    "clearAssociatedWidgets"
+                ],
+                [
+                    "componentDisplayName",
+                    "componentDisplayName() const : QString",
+                    "componentDisplayName"
+                ],
+                [
+                    "componentName",
+                    "componentName() const : QString",
+                    "componentName"
+                ],
+                [
+                    "configGroup",
+                    "configGroup() const : QString",
+                    "configGroup"
+                ],
+                [
+                    "configIsGlobal",
+                    "configIsGlobal() const : bool",
+                    "configIsGlobal"
+                ],
+                [
+                    "count",
+                    "count() const : int",
+                    "count"
+                ],
+                [
+                    "defaultShortcut",
+                    "defaultShortcut(QAction *) : QKeySequence",
+                    "defaultShortcut"
+                ],
+                [
+                    "defaultShortcuts",
+                    "defaultShortcuts(QAction *) : QList<QKeySequence>",
+                    "defaultShortcuts"
+                ],
+                [
+                    "exportGlobalShortcuts",
+                    "exportGlobalShortcuts(KConfigGroup *, bool) const",
+                    "exportGlobalShortcuts"
+                ],
+                [
+                    "importGlobalShortcuts",
+                    "importGlobalShortcuts(KConfigGroup *)",
+                    "importGlobalShortcuts"
+                ],
+                [
+                    "inserted",
+                    "inserted(QAction *)",
+                    "inserted"
+                ],
+                [
+                    "isEmpty",
+                    "isEmpty() const : bool",
+                    "isEmpty"
+                ],
+                [
+                    "isShortcutsConfigurable",
+                    "isShortcutsConfigurable(QAction *) : bool",
+                    "isShortcutsConfigurable"
+                ],
+                [
+                    "parentGUIClient",
+                    "parentGUIClient() const : const KXMLGUIClient *",
+                    "parentGUIClient"
+                ],
+                [
+                    "readSettings",
+                    "readSettings(KConfigGroup *)",
+                    "readSettings"
+                ],
+                [
+                    "removeAction",
+                    "removeAction(QAction *)",
+                    "removeAction"
+                ],
+                [
+                    "removeAssociatedWidget",
+                    "removeAssociatedWidget(QWidget *)",
+                    "removeAssociatedWidget"
+                ],
+                [
+                    "setComponentDisplayName",
+                    "setComponentDisplayName(const QString &)",
+                    "setComponentDisplayName"
+                ],
+                [
+                    "setComponentName",
+                    "setComponentName(const QString &)",
+                    "setComponentName"
+                ],
+                [
+                    "setConfigGlobal",
+                    "setConfigGlobal(bool)",
+                    "setConfigGlobal"
+                ],
+                [
+                    "setConfigGroup",
+                    "setConfigGroup(const QString &)",
+                    "setConfigGroup"
+                ],
+                [
+                    "setDefaultShortcut",
+                    "setDefaultShortcut(QAction *, const QKeySequence &)",
+                    "setDefaultShortcut"
+                ],
+                [
+                    "setDefaultShortcuts",
+                    "setDefaultShortcuts(QAction *, const QList<QKeySequence> &)",
+                    "setDefaultShortcuts"
+                ],
+                [
+                    "setShortcutsConfigurable",
+                    "setShortcutsConfigurable(QAction *, bool)",
+                    "setShortcutsConfigurable"
+                ],
+                [
+                    "takeAction",
+                    "takeAction(QAction *) : QAction *",
+                    "takeAction"
+                ],
+                [
+                    "writeSettings",
+                    "writeSettings(KConfigGroup *, bool, QAction *) const",
+                    "writeSettings"
+                ]
+            ],
+            "name": "KActionCollection",
+            "page": "kxmlgui/kactioncollection",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KBugReport",
+                    "KBugReport(const KAboutData &, QWidget *)",
+                    "KBugReport"
+                ],
+                [
+                    "~KBugReport",
+                    "~KBugReport()",
+                    "dtor.KBugReport"
+                ],
+                [
+                    "accept",
+                    "accept()",
+                    "accept"
+                ],
+                [
+                    "sendBugReport",
+                    "sendBugReport() : bool",
+                    "sendBugReport"
+                ]
+            ],
+            "name": "KBugReport",
+            "page": "kxmlgui/kbugreport",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KEditToolBar",
+                    "KEditToolBar(KActionCollection *, QWidget *)",
+                    "KEditToolBar"
+                ],
+                [
+                    "KEditToolBar",
+                    "KEditToolBar(KXMLGUIFactory *, QWidget *)",
+                    "KEditToolBar-1"
+                ],
+                [
+                    "~KEditToolBar",
+                    "~KEditToolBar()",
+                    "dtor.KEditToolBar"
+                ],
+                [
+                    "newToolBarConfig",
+                    "newToolBarConfig()",
+                    "newToolBarConfig"
+                ],
+                [
+                    "setDefaultToolBar",
+                    "setDefaultToolBar(const QString &)",
+                    "setDefaultToolBar"
+                ],
+                [
+                    "setGlobalDefaultToolBar",
+                    "setGlobalDefaultToolBar(const QString &)",
+                    "setGlobalDefaultToolBar"
+                ],
+                [
+                    "setResourceFile",
+                    "setResourceFile(const QString &, bool)",
+                    "setResourceFile"
+                ]
+            ],
+            "name": "KEditToolBar",
+            "page": "kxmlgui/kedittoolbar",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KHelpMenu",
+                    "KHelpMenu(QWidget *)",
+                    "KHelpMenu"
+                ],
+                [
+                    "KHelpMenu",
+                    "KHelpMenu(QWidget *, const KAboutData &)",
+                    "KHelpMenu-1"
+                ],
+                [
+                    "~KHelpMenu",
+                    "~KHelpMenu()",
+                    "dtor.KHelpMenu"
+                ],
+                [
+                    "aboutApplication",
+                    "aboutApplication()",
+                    "aboutApplication"
+                ],
+                [
+                    "aboutKDE",
+                    "aboutKDE()",
+                    "aboutKDE"
+                ],
+                [
+                    "action",
+                    "action(KHelpMenu::MenuId) const : QAction *",
+                    "action"
+                ],
+                [
+                    "appHelpActivated",
+                    "appHelpActivated()",
+                    "appHelpActivated"
+                ],
+                [
+                    "contextHelpActivated",
+                    "contextHelpActivated()",
+                    "contextHelpActivated"
+                ],
+                [
+                    "donate",
+                    "donate()",
+                    "donate"
+                ],
+                [
+                    "menu",
+                    "menu() : QMenu *",
+                    "menu"
+                ],
+                [
+                    "reportBug",
+                    "reportBug()",
+                    "reportBug"
+                ],
+                [
+                    "setShowWhatsThis",
+                    "setShowWhatsThis(bool)",
+                    "setShowWhatsThis"
+                ],
+                [
+                    "showAboutApplication",
+                    "showAboutApplication()",
+                    "showAboutApplication"
+                ],
+                [
+                    "switchApplicationLanguage",
+                    "switchApplicationLanguage()",
+                    "switchApplicationLanguage"
+                ]
+            ],
+            "name": "KHelpMenu",
+            "page": "kxmlgui/khelpmenu",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "checkForConflictsAgainst",
+                    "checkForConflictsAgainst : ShortcutTypes",
+                    "checkForConflictsAgainst-prop"
+                ],
+                [
+                    "keySequence",
+                    "keySequence : QKeySequence",
+                    "keySequence-prop"
+                ],
+                [
+                    "modifierOnlyAllowed",
+                    "modifierOnlyAllowed : bool",
+                    "modifierOnlyAllowed-prop"
+                ],
+                [
+                    "multiKeyShortcutsAllowed",
+                    "multiKeyShortcutsAllowed : bool",
+                    "multiKeyShortcutsAllowed-prop"
+                ],
+                [
+                    "patterns",
+                    "patterns : KKeySequenceRecorder::Patterns",
+                    "patterns-prop"
+                ],
+                [
+                    "recording",
+                    "recording : bool",
+                    "recording-prop"
+                ],
+                [
+                    "KKeySequenceWidget",
+                    "KKeySequenceWidget(QWidget *)",
+                    "KKeySequenceWidget"
+                ],
+                [
+                    "applyStealShortcut",
+                    "applyStealShortcut()",
+                    "applyStealShortcut"
+                ],
+                [
+                    "captureKeySequence",
+                    "captureKeySequence()",
+                    "captureKeySequence"
+                ],
+                [
+                    "checkForConflictsAgainst",
+                    "checkForConflictsAgainst() const : KKeySequenceWidget::ShortcutTypes",
+                    "checkForConflictsAgainst"
+                ],
+                [
+                    "clearKeySequence",
+                    "clearKeySequence()",
+                    "clearKeySequence"
+                ],
+                [
+                    "isKeySequenceAvailable",
+                    "isKeySequenceAvailable(const QKeySequence &) const : bool",
+                    "isKeySequenceAvailable"
+                ],
+                [
+                    "isRecording",
+                    "isRecording() const : bool",
+                    "isRecording"
+                ],
+                [
+                    "keySequence",
+                    "keySequence() const : QKeySequence",
+                    "keySequence"
+                ],
+                [
+                    "keySequenceChanged",
+                    "keySequenceChanged(const QKeySequence &)",
+                    "keySequenceChanged"
+                ],
+                [
+                    "multiKeyShortcutsAllowed",
+                    "multiKeyShortcutsAllowed() const : bool",
+                    "multiKeyShortcutsAllowed"
+                ],
+                [
+                    "patterns",
+                    "patterns() const : KKeySequenceRecorder::Patterns",
+                    "patterns"
+                ],
+                [
+                    "recordingChanged",
+                    "recordingChanged()",
+                    "recordingChanged"
+                ],
+                [
+                    "setCheckActionCollections",
+                    "setCheckActionCollections(const QList<KActionCollection *> &)",
+                    "setCheckActionCollections"
+                ],
+                [
+                    "setCheckForConflictsAgainst",
+                    "setCheckForConflictsAgainst(KKeySequenceWidget::ShortcutTypes)",
+                    "setCheckForConflictsAgainst"
+                ],
+                [
+                    "setClearButtonShown",
+                    "setClearButtonShown(bool)",
+                    "setClearButtonShown"
+                ],
+                [
+                    "setComponentName",
+                    "setComponentName(const QString &)",
+                    "setComponentName"
+                ],
+                [
+                    "setKeySequence",
+                    "setKeySequence(const QKeySequence &, KKeySequenceWidget::Validation)",
+                    "setKeySequence"
+                ],
+                [
+                    "setMultiKeyShortcutsAllowed",
+                    "setMultiKeyShortcutsAllowed()",
+                    "setMultiKeyShortcutsAllowed"
+                ],
+                [
+                    "setPatterns",
+                    "setPatterns(KKeySequenceRecorder::Patterns)",
+                    "setPatterns"
+                ],
+                [
+                    "stealShortcut",
+                    "stealShortcut(const QKeySequence &, QAction *)",
+                    "stealShortcut"
+                ]
+            ],
+            "name": "KKeySequenceWidget",
+            "page": "kxmlgui/kkeysequencewidget",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "autoSaveGroup",
+                    "autoSaveGroup : QString",
+                    "autoSaveGroup-prop"
+                ],
+                [
+                    "autoSaveSettings",
+                    "autoSaveSettings : bool",
+                    "autoSaveSettings-prop"
+                ],
+                [
+                    "hasMenuBar",
+                    "hasMenuBar : bool",
+                    "hasMenuBar-prop"
+                ],
+                [
+                    "KMainWindow",
+                    "KMainWindow(QWidget *, Qt::WindowFlags)",
+                    "KMainWindow"
+                ],
+                [
+                    "~KMainWindow",
+                    "~KMainWindow()",
+                    "dtor.KMainWindow"
+                ],
+                [
+                    "appHelpActivated",
+                    "appHelpActivated()",
+                    "appHelpActivated"
+                ],
+                [
+                    "applyMainWindowSettings",
+                    "applyMainWindowSettings(const KConfigGroup &)",
+                    "applyMainWindowSettings"
+                ],
+                [
+                    "autoSaveConfigGroup",
+                    "autoSaveConfigGroup() const : KConfigGroup",
+                    "autoSaveConfigGroup"
+                ],
+                [
+                    "autoSaveGroup",
+                    "autoSaveGroup() const : QString",
+                    "autoSaveGroup"
+                ],
+                [
+                    "autoSaveSettings",
+                    "autoSaveSettings() const : bool",
+                    "autoSaveSettings"
+                ],
+                [
+                    "canBeRestored",
+                    "canBeRestored(int) : bool",
+                    "canBeRestored"
+                ],
+                [
+                    "classNameOfToplevel",
+                    "classNameOfToplevel(int) : const QString",
+                    "classNameOfToplevel"
+                ],
+                [
+                    "closeEvent",
+                    "closeEvent()",
+                    "closeEvent"
+                ],
+                [
+                    "dbusName",
+                    "dbusName() const : QString",
+                    "dbusName"
+                ],
+                [
+                    "event",
+                    "event(QEvent *) : bool",
+                    "event"
+                ],
+                [
+                    "hasMenuBar",
+                    "hasMenuBar() : bool",
+                    "hasMenuBar"
+                ],
+                [
+                    "keyPressEvent",
+                    "keyPressEvent(QKeyEvent *)",
+                    "keyPressEvent"
+                ],
+                [
+                    "memberList",
+                    "memberList() : QList<KMainWindow *>",
+                    "memberList"
+                ],
+                [
+                    "queryClose",
+                    "queryClose() : bool",
+                    "queryClose"
+                ],
+                [
+                    "readGlobalProperties",
+                    "readGlobalProperties(KConfig *)",
+                    "readGlobalProperties"
+                ],
+                [
+                    "readProperties",
+                    "readProperties()",
+                    "readProperties"
+                ],
+                [
+                    "resetAutoSaveSettings",
+                    "resetAutoSaveSettings()",
+                    "resetAutoSaveSettings"
+                ],
+                [
+                    "restore",
+                    "restore(int, bool) : bool",
+                    "restore"
+                ],
+                [
+                    "saveAutoSaveSettings",
+                    "saveAutoSaveSettings()",
+                    "saveAutoSaveSettings"
+                ],
+                [
+                    "saveGlobalProperties",
+                    "saveGlobalProperties(KConfig *)",
+                    "saveGlobalProperties"
+                ],
+                [
+                    "saveMainWindowSettings",
+                    "saveMainWindowSettings(KConfigGroup &)",
+                    "saveMainWindowSettings"
+                ],
+                [
+                    "saveProperties",
+                    "saveProperties()",
+                    "saveProperties"
+                ],
+                [
+                    "setAutoSaveSettings",
+                    "setAutoSaveSettings(const QString &, bool)",
+                    "setAutoSaveSettings"
+                ],
+                [
+                    "setAutoSaveSettings",
+                    "setAutoSaveSettings(const KConfigGroup &, bool)",
+                    "setAutoSaveSettings-1"
+                ],
+                [
+                    "setCaption",
+                    "setCaption(const QString &)",
+                    "setCaption"
+                ],
+                [
+                    "setCaption",
+                    "setCaption(const QString &, bool)",
+                    "setCaption-1"
+                ],
+                [
+                    "setPlainCaption",
+                    "setPlainCaption(const QString &)",
+                    "setPlainCaption"
+                ],
+                [
+                    "setSettingsDirty",
+                    "setSettingsDirty()",
+                    "setSettingsDirty"
+                ],
+                [
+                    "setStateConfigGroup",
+                    "setStateConfigGroup(const QString &)",
+                    "setStateConfigGroup"
+                ],
+                [
+                    "settingsDirty",
+                    "settingsDirty() const : bool",
+                    "settingsDirty"
+                ],
+                [
+                    "stateConfigGroup",
+                    "stateConfigGroup() const : KConfigGroup",
+                    "stateConfigGroup"
+                ],
+                [
+                    "toolBar",
+                    "toolBar(const QString &) : KToolBar *",
+                    "toolBar"
+                ],
+                [
+                    "toolBars",
+                    "toolBars() const : QList<KToolBar *>",
+                    "toolBars"
+                ]
+            ],
+            "name": "KMainWindow",
+            "page": "kxmlgui/kmainwindow",
+            "qtBases": [
+                [
+                    "QMainWindow",
+                    "https://doc.qt.io/qt-6/qmainwindow-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KShortcutsDialog",
+                    "KShortcutsDialog(QWidget *)",
+                    "KShortcutsDialog"
+                ],
+                [
+                    "KShortcutsDialog",
+                    "KShortcutsDialog(KShortcutsEditor::ActionTypes, KShortcutsEditor::LetterShortcuts, QWidget *)",
+                    "KShortcutsDialog-1"
+                ],
+                [
+                    "~KShortcutsDialog",
+                    "~KShortcutsDialog()",
+                    "dtor.KShortcutsDialog"
+                ],
+                [
+                    "accept",
+                    "accept()",
+                    "accept"
+                ],
+                [
+                    "actionCollections",
+                    "actionCollections() const : QList<KActionCollection *>",
+                    "actionCollections"
+                ],
+                [
+                    "addActionToSchemesMoreButton",
+                    "addActionToSchemesMoreButton(QAction *)",
+                    "addActionToSchemesMoreButton"
+                ],
+                [
+                    "addCollection",
+                    "addCollection(KActionCollection *, const QString &)",
+                    "addCollection"
+                ],
+                [
+                    "configure",
+                    "configure(bool) : bool",
+                    "configure"
+                ],
+                [
+                    "exportConfiguration",
+                    "exportConfiguration(const QString &) const",
+                    "exportConfiguration"
+                ],
+                [
+                    "importConfiguration",
+                    "importConfiguration(const QString &)",
+                    "importConfiguration"
+                ],
+                [
+                    "refreshSchemes",
+                    "refreshSchemes()",
+                    "refreshSchemes"
+                ],
+                [
+                    "saved",
+                    "saved()",
+                    "saved"
+                ],
+                [
+                    "showDialog",
+                    "showDialog(KActionCollection *, KShortcutsEditor::LetterShortcuts, QWidget *)",
+                    "showDialog"
+                ],
+                [
+                    "sizeHint",
+                    "sizeHint() const : QSize",
+                    "sizeHint"
+                ]
+            ],
+            "name": "KShortcutsDialog",
+            "page": "kxmlgui/kshortcutsdialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "actionTypes",
+                    "actionTypes : ActionTypes",
+                    "actionTypes-prop"
+                ],
+                [
+                    "KShortcutsEditor",
+                    "KShortcutsEditor(KActionCollection *, QWidget *, KShortcutsEditor::ActionTypes, KShortcutsEditor::LetterShortcuts)",
+                    "KShortcutsEditor"
+                ],
+                [
+                    "KShortcutsEditor",
+                    "KShortcutsEditor(QWidget *, KShortcutsEditor::ActionTypes, KShortcutsEditor::LetterShortcuts)",
+                    "KShortcutsEditor-1"
+                ],
+                [
+                    "~KShortcutsEditor",
+                    "~KShortcutsEditor()",
+                    "dtor.KShortcutsEditor"
+                ],
+                [
+                    "actionTypes",
+                    "actionTypes() const : KShortcutsEditor::ActionTypes",
+                    "actionTypes"
+                ],
+                [
+                    "addCollection",
+                    "addCollection(const QString &)",
+                    "addCollection"
+                ],
+                [
+                    "allDefault",
+                    "allDefault()",
+                    "allDefault"
+                ],
+                [
+                    "clearCollections",
+                    "clearCollections()",
+                    "clearCollections"
+                ],
+                [
+                    "isModified",
+                    "isModified() const : bool",
+                    "isModified"
+                ],
+                [
+                    "keyChange",
+                    "keyChange()",
+                    "keyChange"
+                ],
+                [
+                    "save",
+                    "save()",
+                    "save"
+                ],
+                [
+                    "setActionTypes",
+                    "setActionTypes(KShortcutsEditor::ActionTypes)",
+                    "setActionTypes"
+                ],
+                [
+                    "undo",
+                    "undo()",
+                    "undo"
+                ]
+            ],
+            "name": "KShortcutsEditor",
+            "page": "kxmlgui/kshortcutseditor",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "modifierlessAllowed",
+                    "modifierlessAllowed : bool",
+                    "modifierlessAllowed-prop"
+                ],
+                [
+                    "KShortcutWidget",
+                    "KShortcutWidget(QWidget *)",
+                    "KShortcutWidget"
+                ],
+                [
+                    "~KShortcutWidget",
+                    "~KShortcutWidget()",
+                    "dtor.KShortcutWidget"
+                ],
+                [
+                    "applyStealShortcut",
+                    "applyStealShortcut()",
+                    "applyStealShortcut"
+                ],
+                [
+                    "clearShortcut",
+                    "clearShortcut()",
+                    "clearShortcut"
+                ],
+                [
+                    "isModifierlessAllowed",
+                    "isModifierlessAllowed() : bool",
+                    "isModifierlessAllowed"
+                ],
+                [
+                    "setCheckActionCollections",
+                    "setCheckActionCollections(const QList<KActionCollection *> &)",
+                    "setCheckActionCollections"
+                ],
+                [
+                    "setClearButtonsShown",
+                    "setClearButtonsShown(bool)",
+                    "setClearButtonsShown"
+                ],
+                [
+                    "setModifierlessAllowed",
+                    "setModifierlessAllowed(bool)",
+                    "setModifierlessAllowed"
+                ],
+                [
+                    "setShortcut",
+                    "setShortcut(const QList<QKeySequence> &)",
+                    "setShortcut"
+                ],
+                [
+                    "shortcut",
+                    "shortcut() const : QList<QKeySequence>",
+                    "shortcut"
+                ],
+                [
+                    "shortcutChanged",
+                    "shortcutChanged(const QList<QKeySequence> &)",
+                    "shortcutChanged"
+                ]
+            ],
+            "name": "KShortcutWidget",
+            "page": "kxmlgui/kshortcutwidget",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KToggleToolBarAction",
+                    "KToggleToolBarAction(KToolBar *, const QString &, QObject *)",
+                    "KToggleToolBarAction"
+                ],
+                [
+                    "~KToggleToolBarAction",
+                    "~KToggleToolBarAction()",
+                    "dtor.KToggleToolBarAction"
+                ],
+                [
+                    "eventFilter",
+                    "eventFilter(QObject *, QEvent *) : bool",
+                    "eventFilter"
+                ],
+                [
+                    "toolBar",
+                    "toolBar() : KToolBar *",
+                    "toolBar"
+                ]
+            ],
+            "name": "KToggleToolBarAction",
+            "page": "kxmlgui/ktoggletoolbaraction",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KToolBar",
+                    "KToolBar(QWidget *, bool, bool)",
+                    "KToolBar"
+                ],
+                [
+                    "KToolBar",
+                    "KToolBar(const QString &, QWidget *, bool)",
+                    "KToolBar-1"
+                ],
+                [
+                    "KToolBar",
+                    "KToolBar(const QString &, QMainWindow *, Qt::ToolBarArea, bool, bool, bool)",
+                    "KToolBar-2"
+                ],
+                [
+                    "~KToolBar",
+                    "~KToolBar()",
+                    "dtor.KToolBar"
+                ],
+                [
+                    "addXMLGUIClient",
+                    "addXMLGUIClient(KXMLGUIClient *)",
+                    "addXMLGUIClient"
+                ],
+                [
+                    "applySettings",
+                    "applySettings(const KConfigGroup &)",
+                    "applySettings"
+                ],
+                [
+                    "emitToolbarStyleChanged",
+                    "emitToolbarStyleChanged()",
+                    "emitToolbarStyleChanged"
+                ],
+                [
+                    "eventFilter",
+                    "eventFilter(QObject *, QEvent *) : bool",
+                    "eventFilter"
+                ],
+                [
+                    "iconSizeDefault",
+                    "iconSizeDefault() const : int",
+                    "iconSizeDefault"
+                ],
+                [
+                    "loadState",
+                    "loadState(const QDomElement &)",
+                    "loadState"
+                ],
+                [
+                    "mainWindow",
+                    "mainWindow() const : KMainWindow *",
+                    "mainWindow"
+                ],
+                [
+                    "removeXMLGUIClient",
+                    "removeXMLGUIClient(KXMLGUIClient *)",
+                    "removeXMLGUIClient"
+                ],
+                [
+                    "saveSettings",
+                    "saveSettings(KConfigGroup &)",
+                    "saveSettings"
+                ],
+                [
+                    "saveState",
+                    "saveState(QDomElement &) const",
+                    "saveState"
+                ],
+                [
+                    "setIconDimensions",
+                    "setIconDimensions(int)",
+                    "setIconDimensions"
+                ],
+                [
+                    "setToolBarsEditable",
+                    "setToolBarsEditable(bool)",
+                    "setToolBarsEditable"
+                ],
+                [
+                    "setToolBarsLocked",
+                    "setToolBarsLocked(bool)",
+                    "setToolBarsLocked"
+                ],
+                [
+                    "toolBarsEditable",
+                    "toolBarsEditable() : bool",
+                    "toolBarsEditable"
+                ],
+                [
+                    "toolBarsLocked",
+                    "toolBarsLocked() : bool",
+                    "toolBarsLocked"
+                ]
+            ],
+            "name": "KToolBar",
+            "page": "kxmlgui/ktoolbar",
+            "qtBases": [
+                [
+                    "QToolBar",
+                    "https://doc.qt.io/qt-6/qtoolbar-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "availableActions",
+                    "availableActions : QAbstractItemModel* const",
+                    "availableActions-prop"
+                ],
+                [
+                    "currentActions",
+                    "currentActions : QAbstractItemModel* const",
+                    "currentActions-prop"
+                ],
+                [
+                    "currentToolBar",
+                    "currentToolBar : int",
+                    "currentToolBar-prop"
+                ],
+                [
+                    "toolBars",
+                    "toolBars : QStringList",
+                    "toolBars-prop"
+                ],
+                [
+                    "changed",
+                    "changed()",
+                    "changed"
+                ],
+                [
+                    "insertAction",
+                    "insertAction(int, int, bool) : int",
+                    "insertAction"
+                ],
+                [
+                    "load",
+                    "load(KXMLGUIFactory *, const QString &) : bool",
+                    "load"
+                ],
+                [
+                    "load",
+                    "load(KActionCollection *, const QString &, bool, const QString &) : bool",
+                    "load-1"
+                ],
+                [
+                    "moveAction",
+                    "moveAction(int, int) : int",
+                    "moveAction"
+                ],
+                [
+                    "moveDown",
+                    "moveDown(int) : int",
+                    "moveDown"
+                ],
+                [
+                    "moveUp",
+                    "moveUp(int) : int",
+                    "moveUp"
+                ],
+                [
+                    "rebuildClients",
+                    "rebuildClients()",
+                    "rebuildClients"
+                ],
+                [
+                    "removeAction",
+                    "removeAction(int)",
+                    "removeAction"
+                ],
+                [
+                    "restoreDefaults",
+                    "restoreDefaults()",
+                    "restoreDefaults"
+                ],
+                [
+                    "save",
+                    "save()",
+                    "save"
+                ],
+                [
+                    "setActionIcon",
+                    "setActionIcon(int, const QString &)",
+                    "setActionIcon"
+                ],
+                [
+                    "setActionIconText",
+                    "setActionIconText(int, const QString &, bool)",
+                    "setActionIconText"
+                ],
+                [
+                    "setCurrentToolBar",
+                    "setCurrentToolBar(int)",
+                    "setCurrentToolBar"
+                ]
+            ],
+            "name": "KToolBarEditor",
+            "page": "kxmlgui/ktoolbareditor",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "eventFilter",
+                    "eventFilter(QObject *, QEvent *) : bool",
+                    "eventFilter"
+                ],
+                [
+                    "whatsThisHintOnly",
+                    "whatsThisHintOnly() : const QString",
+                    "whatsThisHintOnly"
+                ]
+            ],
+            "name": "KToolTipHelper",
+            "page": "kxmlgui/ktooltiphelper",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KXMLGUIBuilder",
+                    "KXMLGUIBuilder(QWidget *)",
+                    "KXMLGUIBuilder"
+                ],
+                [
+                    "~KXMLGUIBuilder",
+                    "~KXMLGUIBuilder()",
+                    "dtor.KXMLGUIBuilder"
+                ],
+                [
+                    "createContainer",
+                    "createContainer(QWidget *, int, const QDomElement &, QAction *&) : QWidget *",
+                    "createContainer"
+                ],
+                [
+                    "removeContainer",
+                    "removeContainer(QWidget *, QWidget *, QDomElement &, QAction *)",
+                    "removeContainer"
+                ]
+            ],
+            "name": "KXMLGUIBuilder",
+            "page": "kxmlgui/kxmlguibuilder",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KXMLGUIClient",
+                    "KXMLGUIClient()",
+                    "KXMLGUIClient"
+                ],
+                [
+                    "KXMLGUIClient",
+                    "KXMLGUIClient(KXMLGUIClient *)",
+                    "KXMLGUIClient-1"
+                ],
+                [
+                    "~KXMLGUIClient",
+                    "~KXMLGUIClient()",
+                    "dtor.KXMLGUIClient"
+                ],
+                [
+                    "action",
+                    "action(const QDomElement &) const : QAction *",
+                    "action"
+                ],
+                [
+                    "action",
+                    "action(const QString &) const : QAction *",
+                    "action-1"
+                ],
+                [
+                    "actionCollection",
+                    "actionCollection() const : KActionCollection *",
+                    "actionCollection"
+                ],
+                [
+                    "childClients",
+                    "childClients() : QList<KXMLGUIClient *>",
+                    "childClients"
+                ],
+                [
+                    "clientBuilder",
+                    "clientBuilder() const : KXMLGUIBuilder *",
+                    "clientBuilder"
+                ],
+                [
+                    "componentName",
+                    "componentName() const : QString",
+                    "componentName"
+                ],
+                [
+                    "domDocument",
+                    "domDocument() const : QDomDocument",
+                    "domDocument"
+                ],
+                [
+                    "factory",
+                    "factory() const : KXMLGUIFactory *",
+                    "factory"
+                ],
+                [
+                    "findVersionNumber",
+                    "findVersionNumber(const QString &) : QString",
+                    "findVersionNumber"
+                ],
+                [
+                    "insertChildClient",
+                    "insertChildClient(KXMLGUIClient *)",
+                    "insertChildClient"
+                ],
+                [
+                    "loadStandardsXmlFile",
+                    "loadStandardsXmlFile()",
+                    "loadStandardsXmlFile"
+                ],
+                [
+                    "parentClient",
+                    "parentClient() const : KXMLGUIClient *",
+                    "parentClient"
+                ],
+                [
+                    "plugActionList",
+                    "plugActionList(const QString &, const QList<QAction *> &)",
+                    "plugActionList"
+                ],
+                [
+                    "reloadXML",
+                    "reloadXML()",
+                    "reloadXML"
+                ],
+                [
+                    "removeChildClient",
+                    "removeChildClient(KXMLGUIClient *)",
+                    "removeChildClient"
+                ],
+                [
+                    "replaceXMLFile",
+                    "replaceXMLFile(const QString &, const QString &, bool)",
+                    "replaceXMLFile"
+                ],
+                [
+                    "setClientBuilder",
+                    "setClientBuilder(KXMLGUIBuilder *)",
+                    "setClientBuilder"
+                ],
+                [
+                    "setComponentName",
+                    "setComponentName(const QString &, const QString &)",
+                    "setComponentName"
+                ],
+                [
+                    "setDOMDocument",
+                    "setDOMDocument(const QDomDocument &, bool)",
+                    "setDOMDocument"
+                ],
+                [
+                    "setFactory",
+                    "setFactory(KXMLGUIFactory *)",
+                    "setFactory"
+                ],
+                [
+                    "setLocalXMLFile",
+                    "setLocalXMLFile(const QString &)",
+                    "setLocalXMLFile"
+                ],
+                [
+                    "setXML",
+                    "setXML(const QString &, bool)",
+                    "setXML"
+                ],
+                [
+                    "setXMLFile",
+                    "setXMLFile(const QString &, bool, bool)",
+                    "setXMLFile"
+                ],
+                [
+                    "standardsXmlFileLocation",
+                    "standardsXmlFileLocation() : QString",
+                    "standardsXmlFileLocation"
+                ],
+                [
+                    "stateChanged",
+                    "stateChanged(const QString &, KXMLGUIClient::ReverseStateChange)",
+                    "stateChanged"
+                ],
+                [
+                    "unplugActionList",
+                    "unplugActionList(const QString &)",
+                    "unplugActionList"
+                ],
+                [
+                    "xmlFile",
+                    "xmlFile() const : QString",
+                    "xmlFile"
+                ]
+            ],
+            "name": "KXMLGUIClient",
+            "page": "kxmlgui/kxmlguiclient",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KXMLGUIFactory",
+                    "KXMLGUIFactory(KXMLGUIBuilder *, QObject *)",
+                    "KXMLGUIFactory"
+                ],
+                [
+                    "~KXMLGUIFactory",
+                    "~KXMLGUIFactory()",
+                    "dtor.KXMLGUIFactory"
+                ],
+                [
+                    "addClient",
+                    "addClient(KXMLGUIClient *)",
+                    "addClient"
+                ],
+                [
+                    "clients",
+                    "clients() const : QList<KXMLGUIClient *>",
+                    "clients"
+                ],
+                [
+                    "container",
+                    "container(const QString &, KXMLGUIClient *, bool) : QWidget *",
+                    "container"
+                ],
+                [
+                    "makingChanges",
+                    "makingChanges()",
+                    "makingChanges"
+                ],
+                [
+                    "refreshActionProperties",
+                    "refreshActionProperties()",
+                    "refreshActionProperties"
+                ],
+                [
+                    "removeClient",
+                    "removeClient(KXMLGUIClient *)",
+                    "removeClient"
+                ],
+                [
+                    "reset",
+                    "reset()",
+                    "reset"
+                ],
+                [
+                    "resetContainer",
+                    "resetContainer(const QString &, bool)",
+                    "resetContainer"
+                ],
+                [
+                    "shortcutsSaved",
+                    "shortcutsSaved()",
+                    "shortcutsSaved"
+                ],
+                [
+                    "showConfigureShortcutsDialog",
+                    "showConfigureShortcutsDialog()",
+                    "showConfigureShortcutsDialog"
+                ]
+            ],
+            "name": "KXMLGUIFactory",
+            "page": "kxmlgui/kxmlguifactory",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kxmlgui/kmainwindow",
+                "kxmlgui/kxmlguibuilder",
+                "kxmlgui/kxmlguiclient"
+            ],
+            "members": [
+                [
+                    "autoSaveGroup",
+                    "autoSaveGroup : QString",
+                    "autoSaveGroup-prop"
+                ],
+                [
+                    "autoSaveSettings",
+                    "autoSaveSettings : bool",
+                    "autoSaveSettings-prop"
+                ],
+                [
+                    "hasMenuBar",
+                    "hasMenuBar : bool",
+                    "hasMenuBar-prop"
+                ],
+                [
+                    "standardToolBarMenuEnabled",
+                    "standardToolBarMenuEnabled : bool",
+                    "standardToolBarMenuEnabled-prop"
+                ],
+                [
+                    "KXmlGuiWindow",
+                    "KXmlGuiWindow(QWidget *, Qt::WindowFlags)",
+                    "KXmlGuiWindow"
+                ],
+                [
+                    "~KXmlGuiWindow",
+                    "~KXmlGuiWindow()",
+                    "dtor.KXmlGuiWindow"
+                ],
+                [
+                    "checkAmbiguousShortcuts",
+                    "checkAmbiguousShortcuts()",
+                    "checkAmbiguousShortcuts"
+                ],
+                [
+                    "configureToolbars",
+                    "configureToolbars()",
+                    "configureToolbars"
+                ],
+                [
+                    "createGUI",
+                    "createGUI(const QString &)",
+                    "createGUI"
+                ],
+                [
+                    "createStandardStatusBarAction",
+                    "createStandardStatusBarAction()",
+                    "createStandardStatusBarAction"
+                ],
+                [
+                    "event",
+                    "event(QEvent *) : bool",
+                    "event"
+                ],
+                [
+                    "finalizeGUI",
+                    "finalizeGUI(bool)",
+                    "finalizeGUI"
+                ],
+                [
+                    "guiFactory",
+                    "guiFactory() : KXMLGUIFactory *",
+                    "guiFactory"
+                ],
+                [
+                    "isCommandBarEnabled",
+                    "isCommandBarEnabled() const : bool",
+                    "isCommandBarEnabled"
+                ],
+                [
+                    "isHelpMenuEnabled",
+                    "isHelpMenuEnabled() const : bool",
+                    "isHelpMenuEnabled"
+                ],
+                [
+                    "isStandardToolBarMenuEnabled",
+                    "isStandardToolBarMenuEnabled() const : bool",
+                    "isStandardToolBarMenuEnabled"
+                ],
+                [
+                    "isToolBarVisible",
+                    "isToolBarVisible(const QString &) : bool",
+                    "isToolBarVisible"
+                ],
+                [
+                    "saveNewToolbarConfig",
+                    "saveNewToolbarConfig()",
+                    "saveNewToolbarConfig"
+                ],
+                [
+                    "setCommandBarEnabled",
+                    "setCommandBarEnabled(bool)",
+                    "setCommandBarEnabled"
+                ],
+                [
+                    "setHelpMenuEnabled",
+                    "setHelpMenuEnabled(bool)",
+                    "setHelpMenuEnabled"
+                ],
+                [
+                    "setStandardToolBarMenuEnabled",
+                    "setStandardToolBarMenuEnabled(bool)",
+                    "setStandardToolBarMenuEnabled"
+                ],
+                [
+                    "setToolBarVisible",
+                    "setToolBarVisible(const QString &, bool)",
+                    "setToolBarVisible"
+                ],
+                [
+                    "setupGUI",
+                    "setupGUI(KXmlGuiWindow::StandardWindowOptions, const QString &)",
+                    "setupGUI"
+                ],
+                [
+                    "setupGUI",
+                    "setupGUI(const QSize &, KXmlGuiWindow::StandardWindowOptions, const QString &)",
+                    "setupGUI-1"
+                ],
+                [
+                    "slotStateChanged",
+                    "slotStateChanged(const QString &)",
+                    "slotStateChanged"
+                ],
+                [
+                    "slotStateChanged",
+                    "slotStateChanged(const QString &, bool)",
+                    "slotStateChanged-1"
+                ],
+                [
+                    "toolBarMenuAction",
+                    "toolBarMenuAction() : QAction *",
+                    "toolBarMenuAction"
+                ],
+                [
+                    "toolBarNames",
+                    "toolBarNames() const : QStringList",
+                    "toolBarNames"
+                ]
+            ],
+            "name": "KXmlGuiWindow",
+            "page": "kxmlgui/kxmlguiwindow",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kxmlgui",
+    "sections": [
+        {
+            "description": "KXmlGui is a collection of convenience classes and widgets to manage your own main QtWidgets window.",
+            "page": "kxmlgui/kxmlgui-module",
+            "pages": [
+                [
+                    "kxmlgui/kxmlgui-module",
+                    "KXmlGui C++ Classes"
+                ],
+                [
+                    "kxmlgui/kaboutapplicationdialog",
+                    "KAboutApplicationDialog"
+                ],
+                [
+                    "kxmlgui/kaboutplugindialog",
+                    "KAboutPluginDialog"
+                ],
+                [
+                    "kxmlgui/kactioncategory",
+                    "KActionCategory"
+                ],
+                [
+                    "kxmlgui/kactioncollection",
+                    "KActionCollection"
+                ],
+                [
+                    "kxmlgui/kbugreport",
+                    "KBugReport"
+                ],
+                [
+                    "kxmlgui/kedittoolbar",
+                    "KEditToolBar"
+                ],
+                [
+                    "kxmlgui/khelpmenu",
+                    "KHelpMenu"
+                ],
+                [
+                    "kxmlgui/kkeysequencewidget",
+                    "KKeySequenceWidget"
+                ],
+                [
+                    "kxmlgui/kmainwindow",
+                    "KMainWindow"
+                ],
+                [
+                    "kxmlgui/kshortcutsdialog",
+                    "KShortcutsDialog"
+                ],
+                [
+                    "kxmlgui/kshortcutseditor",
+                    "KShortcutsEditor"
+                ],
+                [
+                    "kxmlgui/kshortcutwidget",
+                    "KShortcutWidget"
+                ],
+                [
+                    "kxmlgui/ktoggletoolbaraction",
+                    "KToggleToolBarAction"
+                ],
+                [
+                    "kxmlgui/ktoolbar",
+                    "KToolBar"
+                ],
+                [
+                    "kxmlgui/ktoolbareditor",
+                    "KToolBarEditor"
+                ],
+                [
+                    "kxmlgui/ktooltiphelper",
+                    "KToolTipHelper"
+                ],
+                [
+                    "kxmlgui/kxmlguibuilder",
+                    "KXMLGUIBuilder"
+                ],
+                [
+                    "kxmlgui/kxmlguiclient",
+                    "KXMLGUIClient"
+                ],
+                [
+                    "kxmlgui/kxmlguifactory",
+                    "KXMLGUIFactory"
+                ],
+                [
+                    "kxmlgui/kxmlguiwindow",
+                    "KXmlGuiWindow"
+                ],
+                [
+                    "kxmlgui/kundoactions",
+                    "KUndoActions Namespace"
+                ],
+                [
+                    "kxmlgui/kxmlgui-index",
+                    "KXmlGui"
+                ]
+            ],
+            "qml": false,
+            "title": "KXmlGui C++ Classes"
+        }
+    ]
+}

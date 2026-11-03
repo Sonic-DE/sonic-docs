@@ -1,0 +1,898 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "buttons",
+                    "buttons : KAbstractConfigModule::Buttons",
+                    "buttons-prop"
+                ],
+                [
+                    "defaultsIndicatorsVisible",
+                    "defaultsIndicatorsVisible : bool",
+                    "defaultsIndicatorsVisible-prop"
+                ],
+                [
+                    "description",
+                    "description : const QString",
+                    "description-prop"
+                ],
+                [
+                    "name",
+                    "name : const QString",
+                    "name-prop"
+                ],
+                [
+                    "needsAuthorization",
+                    "needsAuthorization : bool",
+                    "needsAuthorization-prop"
+                ],
+                [
+                    "needsSave",
+                    "needsSave : bool",
+                    "needsSave-prop"
+                ],
+                [
+                    "representsDefaults",
+                    "representsDefaults : bool",
+                    "representsDefaults-prop"
+                ],
+                [
+                    "supportsInstantApply",
+                    "supportsInstantApply : bool",
+                    "supportsInstantApply-prop"
+                ],
+                [
+                    "KAbstractConfigModule",
+                    "KAbstractConfigModule(QObject *, const KPluginMetaData &)",
+                    "KAbstractConfigModule"
+                ],
+                [
+                    "activationRequested",
+                    "activationRequested(const QVariantList &)",
+                    "activationRequested"
+                ],
+                [
+                    "authActionName",
+                    "authActionName() const : QString",
+                    "authActionName"
+                ],
+                [
+                    "authActionNameChanged",
+                    "authActionNameChanged()",
+                    "authActionNameChanged"
+                ],
+                [
+                    "buttons",
+                    "buttons() const : KAbstractConfigModule::Buttons",
+                    "buttons"
+                ],
+                [
+                    "buttonsChanged",
+                    "buttonsChanged()",
+                    "buttonsChanged"
+                ],
+                [
+                    "defaults",
+                    "defaults()",
+                    "defaults"
+                ],
+                [
+                    "defaultsIndicatorsVisible",
+                    "defaultsIndicatorsVisible() const : bool",
+                    "defaultsIndicatorsVisible"
+                ],
+                [
+                    "defaultsIndicatorsVisibleChanged",
+                    "defaultsIndicatorsVisibleChanged()",
+                    "defaultsIndicatorsVisibleChanged"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "load",
+                    "load()",
+                    "load"
+                ],
+                [
+                    "metaData",
+                    "metaData() const : KPluginMetaData",
+                    "metaData"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "needsAuthorization",
+                    "needsAuthorization() const : bool",
+                    "needsAuthorization"
+                ],
+                [
+                    "needsSave",
+                    "needsSave() const : bool",
+                    "needsSave"
+                ],
+                [
+                    "needsSaveChanged",
+                    "needsSaveChanged()",
+                    "needsSaveChanged"
+                ],
+                [
+                    "representsDefaults",
+                    "representsDefaults() const : bool",
+                    "representsDefaults"
+                ],
+                [
+                    "representsDefaultsChanged",
+                    "representsDefaultsChanged()",
+                    "representsDefaultsChanged"
+                ],
+                [
+                    "save",
+                    "save()",
+                    "save"
+                ],
+                [
+                    "setAuthActionName",
+                    "setAuthActionName(const QString &)",
+                    "setAuthActionName"
+                ],
+                [
+                    "setButtons",
+                    "setButtons(const KAbstractConfigModule::Buttons)",
+                    "setButtons"
+                ],
+                [
+                    "setDefaultsIndicatorsVisible",
+                    "setDefaultsIndicatorsVisible(bool)",
+                    "setDefaultsIndicatorsVisible"
+                ],
+                [
+                    "setNeedsSave",
+                    "setNeedsSave(bool)",
+                    "setNeedsSave"
+                ],
+                [
+                    "setRepresentsDefaults",
+                    "setRepresentsDefaults(bool)",
+                    "setRepresentsDefaults"
+                ],
+                [
+                    "setSupportsInstantApply",
+                    "setSupportsInstantApply(bool)",
+                    "setSupportsInstantApply"
+                ],
+                [
+                    "supportsInstantApply",
+                    "supportsInstantApply() const : bool",
+                    "supportsInstantApply"
+                ],
+                [
+                    "supportsInstantApplyChanged",
+                    "supportsInstantApplyChanged()",
+                    "supportsInstantApplyChanged"
+                ]
+            ],
+            "name": "KAbstractConfigModule",
+            "page": "kcmutils/kabstractconfigmodule",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kcmutils/kabstractconfigmodule"
+            ],
+            "members": [
+                [
+                    "KCModule",
+                    "KCModule(QObject *)",
+                    "KCModule"
+                ],
+                [
+                    "KCModule",
+                    "KCModule(QObject *, const KPluginMetaData &)",
+                    "KCModule-1"
+                ],
+                [
+                    "KCModule",
+                    "KCModule(QWidget *, const KPluginMetaData &)",
+                    "KCModule-2"
+                ],
+                [
+                    "~KCModule",
+                    "~KCModule()",
+                    "dtor.KCModule"
+                ],
+                [
+                    "addConfig",
+                    "addConfig(KCoreConfigSkeleton *, QWidget *) : KConfigDialogManager *",
+                    "addConfig"
+                ],
+                [
+                    "configs",
+                    "configs() const : QList<KConfigDialogManager *>",
+                    "configs"
+                ],
+                [
+                    "managedWidgetChangeState",
+                    "managedWidgetChangeState() const : bool",
+                    "managedWidgetChangeState"
+                ],
+                [
+                    "managedWidgetDefaultState",
+                    "managedWidgetDefaultState() const : bool",
+                    "managedWidgetDefaultState"
+                ],
+                [
+                    "markAsChanged",
+                    "markAsChanged()",
+                    "markAsChanged"
+                ],
+                [
+                    "unmanagedWidgetChangeState",
+                    "unmanagedWidgetChangeState()",
+                    "unmanagedWidgetChangeState"
+                ],
+                [
+                    "unmanagedWidgetDefaultState",
+                    "unmanagedWidgetDefaultState()",
+                    "unmanagedWidgetDefaultState"
+                ],
+                [
+                    "widget",
+                    "widget() : QWidget *",
+                    "widget"
+                ],
+                [
+                    "widgetChanged",
+                    "widgetChanged()",
+                    "widgetChanged"
+                ]
+            ],
+            "name": "KCModule",
+            "page": "kcmutils/kcmodule",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCModuleData",
+                    "KCModuleData(QObject *)",
+                    "KCModuleData"
+                ],
+                [
+                    "autoRegisterSkeletons",
+                    "autoRegisterSkeletons()",
+                    "autoRegisterSkeletons"
+                ],
+                [
+                    "auxiliaryAction",
+                    "auxiliaryAction() const : QAction *",
+                    "auxiliaryAction"
+                ],
+                [
+                    "auxiliaryActionChanged",
+                    "auxiliaryActionChanged(QAction *)",
+                    "auxiliaryActionChanged"
+                ],
+                [
+                    "isDefaults",
+                    "isDefaults() const : bool",
+                    "isDefaults"
+                ],
+                [
+                    "loaded",
+                    "loaded()",
+                    "loaded"
+                ],
+                [
+                    "matchesQuery",
+                    "matchesQuery(const QString &) const : bool",
+                    "matchesQuery"
+                ],
+                [
+                    "registerSkeleton",
+                    "registerSkeleton(KCoreConfigSkeleton *)",
+                    "registerSkeleton"
+                ],
+                [
+                    "relevantChanged",
+                    "relevantChanged(bool)",
+                    "relevantChanged"
+                ],
+                [
+                    "revertToDefaults",
+                    "revertToDefaults()",
+                    "revertToDefaults"
+                ],
+                [
+                    "setAuxiliaryAction",
+                    "setAuxiliaryAction(QAction *)",
+                    "setAuxiliaryAction"
+                ],
+                [
+                    "setRelevant",
+                    "setRelevant(bool)",
+                    "setRelevant"
+                ]
+            ],
+            "name": "KCModuleData",
+            "page": "kcmutils/kcmoduledata",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCMultiDialog",
+                    "KCMultiDialog(QWidget *)",
+                    "KCMultiDialog"
+                ],
+                [
+                    "addModule",
+                    "addModule(const KPluginMetaData &, const QVariantList &) : KPageWidgetItem *",
+                    "addModule"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "configCommitted",
+                    "configCommitted()",
+                    "configCommitted"
+                ],
+                [
+                    "hasError",
+                    "hasError() const : bool",
+                    "hasError"
+                ],
+                [
+                    "setDefaultsIndicatorsVisible",
+                    "setDefaultsIndicatorsVisible(bool)",
+                    "setDefaultsIndicatorsVisible"
+                ],
+                [
+                    "slotApplyClicked",
+                    "slotApplyClicked()",
+                    "slotApplyClicked"
+                ],
+                [
+                    "slotDefaultClicked",
+                    "slotDefaultClicked()",
+                    "slotDefaultClicked"
+                ],
+                [
+                    "slotHelpClicked",
+                    "slotHelpClicked()",
+                    "slotHelpClicked"
+                ],
+                [
+                    "slotOkClicked",
+                    "slotOkClicked()",
+                    "slotOkClicked"
+                ],
+                [
+                    "slotUser1Clicked",
+                    "slotUser1Clicked()",
+                    "slotUser1Clicked"
+                ]
+            ],
+            "name": "KCMultiDialog",
+            "page": "kcmutils/kcmultidialog",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KPluginModel",
+                    "KPluginModel(QObject *)",
+                    "KPluginModel"
+                ],
+                [
+                    "addPlugins",
+                    "addPlugins(const QList<KPluginMetaData> &, const QString &)",
+                    "addPlugins"
+                ],
+                [
+                    "addUnsortablePlugins",
+                    "addUnsortablePlugins(const QList<KPluginMetaData> &, const QString &)",
+                    "addUnsortablePlugins"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "defaulted",
+                    "defaulted(bool)",
+                    "defaulted"
+                ],
+                [
+                    "defaults",
+                    "defaults()",
+                    "defaults"
+                ],
+                [
+                    "findConfigForPluginId",
+                    "findConfigForPluginId(const QString &) const : KPluginMetaData",
+                    "findConfigForPluginId"
+                ],
+                [
+                    "isSaveNeeded",
+                    "isSaveNeeded() : bool",
+                    "isSaveNeeded"
+                ],
+                [
+                    "isSaveNeededChanged",
+                    "isSaveNeededChanged()",
+                    "isSaveNeededChanged"
+                ],
+                [
+                    "load",
+                    "load()",
+                    "load"
+                ],
+                [
+                    "removePlugin",
+                    "removePlugin(const KPluginMetaData &)",
+                    "removePlugin"
+                ],
+                [
+                    "save",
+                    "save()",
+                    "save"
+                ],
+                [
+                    "setConfig",
+                    "setConfig(const KConfigGroup &)",
+                    "setConfig"
+                ]
+            ],
+            "name": "KPluginModel",
+            "page": "kcmutils/kpluginmodel",
+            "qtBases": [
+                [
+                    "QAbstractListModel",
+                    "https://doc.qt.io/qt-6/qabstractlistmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KPluginWidget",
+                    "KPluginWidget(QWidget *)",
+                    "KPluginWidget"
+                ],
+                [
+                    "addPlugins",
+                    "addPlugins(const QList<KPluginMetaData> &, const QString &)",
+                    "addPlugins"
+                ],
+                [
+                    "changed",
+                    "changed(bool)",
+                    "changed"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "configurationArguments",
+                    "configurationArguments() const : QVariantList",
+                    "configurationArguments"
+                ],
+                [
+                    "defaulted",
+                    "defaulted(bool)",
+                    "defaulted"
+                ],
+                [
+                    "defaults",
+                    "defaults()",
+                    "defaults"
+                ],
+                [
+                    "isDefault",
+                    "isDefault() const : bool",
+                    "isDefault"
+                ],
+                [
+                    "isSaveNeeded",
+                    "isSaveNeeded() const : bool",
+                    "isSaveNeeded"
+                ],
+                [
+                    "load",
+                    "load()",
+                    "load"
+                ],
+                [
+                    "pluginConfigSaved",
+                    "pluginConfigSaved(const QString &)",
+                    "pluginConfigSaved"
+                ],
+                [
+                    "pluginEnabledChanged",
+                    "pluginEnabledChanged(const QString &, bool)",
+                    "pluginEnabledChanged"
+                ],
+                [
+                    "save",
+                    "save()",
+                    "save"
+                ],
+                [
+                    "setAdditionalButtonHandler",
+                    "setAdditionalButtonHandler(const std::function<QPushButton *(const KPluginMetaData &)> &)",
+                    "setAdditionalButtonHandler"
+                ],
+                [
+                    "setConfig",
+                    "setConfig(const KConfigGroup &)",
+                    "setConfig"
+                ],
+                [
+                    "setConfigurationArguments",
+                    "setConfigurationArguments(const QVariantList &)",
+                    "setConfigurationArguments"
+                ],
+                [
+                    "setDefaultsIndicatorsVisible",
+                    "setDefaultsIndicatorsVisible(bool)",
+                    "setDefaultsIndicatorsVisible"
+                ],
+                [
+                    "showConfiguration",
+                    "showConfiguration(const QString &)",
+                    "showConfiguration"
+                ]
+            ],
+            "name": "KPluginWidget",
+            "page": "kcmutils/kpluginwidget",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kcmutils/kabstractconfigmodule"
+            ],
+            "members": [
+                [
+                    "columnWidth",
+                    "columnWidth : int",
+                    "columnWidth-prop"
+                ],
+                [
+                    "currentIndex",
+                    "currentIndex : int",
+                    "currentIndex-prop"
+                ],
+                [
+                    "depth",
+                    "depth : int",
+                    "depth-prop"
+                ],
+                [
+                    "mainUi",
+                    "mainUi : QQuickItem* const",
+                    "mainUi-prop"
+                ],
+                [
+                    "KQuickConfigModule",
+                    "KQuickConfigModule(QObject *, const KPluginMetaData &)",
+                    "KQuickConfigModule"
+                ],
+                [
+                    "columnWidth",
+                    "columnWidth() const : int",
+                    "columnWidth"
+                ],
+                [
+                    "columnWidthChanged",
+                    "columnWidthChanged(int)",
+                    "columnWidthChanged"
+                ],
+                [
+                    "currentIndex",
+                    "currentIndex() const : int",
+                    "currentIndex"
+                ],
+                [
+                    "currentIndexChanged",
+                    "currentIndexChanged(int)",
+                    "currentIndexChanged"
+                ],
+                [
+                    "depth",
+                    "depth() const : int",
+                    "depth"
+                ],
+                [
+                    "depthChanged",
+                    "depthChanged(int)",
+                    "depthChanged"
+                ],
+                [
+                    "engine",
+                    "engine() const : std::shared_ptr<QQmlEngine>",
+                    "engine"
+                ],
+                [
+                    "errorString",
+                    "errorString() const : QString",
+                    "errorString"
+                ],
+                [
+                    "mainUi",
+                    "mainUi() : QQuickItem *",
+                    "mainUi"
+                ],
+                [
+                    "mainUiReady",
+                    "mainUiReady()",
+                    "mainUiReady"
+                ],
+                [
+                    "pagePushed",
+                    "pagePushed(QQuickItem *)",
+                    "pagePushed"
+                ],
+                [
+                    "pageRemoved",
+                    "pageRemoved()",
+                    "pageRemoved"
+                ],
+                [
+                    "pop",
+                    "pop()",
+                    "pop"
+                ],
+                [
+                    "push",
+                    "push(const QString &, const QVariantMap &)",
+                    "push"
+                ],
+                [
+                    "push",
+                    "push(QQuickItem *)",
+                    "push-1"
+                ],
+                [
+                    "setColumnWidth",
+                    "setColumnWidth(int)",
+                    "setColumnWidth"
+                ],
+                [
+                    "setCurrentIndex",
+                    "setCurrentIndex(int)",
+                    "setCurrentIndex"
+                ],
+                [
+                    "subPage",
+                    "subPage(int) const : QQuickItem *",
+                    "subPage"
+                ],
+                [
+                    "takeLast",
+                    "takeLast() : QQuickItem *",
+                    "takeLast"
+                ]
+            ],
+            "name": "KQuickConfigModule",
+            "page": "kcmutils/kquickconfigmodule",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcmutils/kquickconfigmodule"
+            ],
+            "members": [
+                [
+                    "KQuickManagedConfigModule",
+                    "KQuickManagedConfigModule(QObject *, const KPluginMetaData &)",
+                    "KQuickManagedConfigModule"
+                ],
+                [
+                    "defaults",
+                    "defaults()",
+                    "defaults"
+                ],
+                [
+                    "load",
+                    "load()",
+                    "load"
+                ],
+                [
+                    "registerSettings",
+                    "registerSettings(KCoreConfigSkeleton *)",
+                    "registerSettings"
+                ],
+                [
+                    "save",
+                    "save()",
+                    "save"
+                ],
+                [
+                    "settingsChanged",
+                    "settingsChanged()",
+                    "settingsChanged"
+                ]
+            ],
+            "name": "KQuickManagedConfigModule",
+            "page": "kcmutils/kquickmanagedconfigmodule",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kcmutils",
+    "sections": [
+        {
+            "description": "KCMUtils provides various classes to work with KCModules.",
+            "page": "kcmutils/kcmutils-module",
+            "pages": [
+                [
+                    "kcmutils/kcmutils-module",
+                    "KCMUtils C++ Classes"
+                ],
+                [
+                    "kcmutils/kabstractconfigmodule",
+                    "KAbstractConfigModule"
+                ],
+                [
+                    "kcmutils/kcmodule",
+                    "KCModule"
+                ],
+                [
+                    "kcmutils/kcmoduledata",
+                    "KCModuleData"
+                ],
+                [
+                    "kcmutils/kcmultidialog",
+                    "KCMultiDialog"
+                ],
+                [
+                    "kcmutils/kpluginmodel",
+                    "KPluginModel"
+                ],
+                [
+                    "kcmutils/kpluginwidget",
+                    "KPluginWidget"
+                ],
+                [
+                    "kcmutils/kquickconfigmodule",
+                    "KQuickConfigModule"
+                ],
+                [
+                    "kcmutils/kquickmanagedconfigmodule",
+                    "KQuickManagedConfigModule"
+                ],
+                [
+                    "kcmutils/kcmoduleloader",
+                    "KCModuleLoader Namespace"
+                ],
+                [
+                    "kcmutils/kcmutils-index",
+                    "KCMUtils"
+                ],
+                [
+                    "kcmutils/kcmutilscore-module",
+                    "KCMUtils Core C++ Classes"
+                ],
+                [
+                    "kcmutils/kcmutilsquick-module",
+                    "KCMUtils Quick C++ Classes"
+                ],
+                [
+                    "kcmutils/kquickconfigmoduleloader",
+                    "KQuickConfigModuleLoader Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KCMUtils C++ Classes"
+        },
+        {
+            "description": "QML types for creating config modules.",
+            "page": "kcmutils/org-kde-kcmutils-qmlmodule",
+            "pages": [
+                [
+                    "kcmutils/org-kde-kcmutils-qmlmodule",
+                    "KCMUtils QML Types"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-abstractkcm",
+                    "AbstractKCM"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-contextualhelpbutton",
+                    "ContextualHelpButton"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-griddelegate",
+                    "GridDelegate"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-gridview",
+                    "GridView"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-gridviewkcm",
+                    "GridViewKCM"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-kcmlauncher",
+                    "KCMLauncher (Singleton)"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-plugindelegate",
+                    "PluginDelegate"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-pluginselector",
+                    "PluginSelector"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-scrollview",
+                    "ScrollView"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-scrollviewkcm",
+                    "ScrollViewKCM"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-settinghighlighter",
+                    "SettingHighlighter"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-settingstatebinding",
+                    "SettingStateBinding"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-settingstateproxy",
+                    "SettingStateProxy"
+                ],
+                [
+                    "kcmutils/qml-org-kde-kcmutils-simplekcm",
+                    "SimpleKCM"
+                ]
+            ],
+            "qml": true,
+            "title": "KCMUtils QML Types"
+        }
+    ]
+}

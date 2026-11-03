@@ -1,0 +1,664 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "autoDelete",
+                    "autoDelete : bool",
+                    "autoDelete-prop"
+                ],
+                [
+                    "componentName",
+                    "componentName : QString",
+                    "componentName-prop"
+                ],
+                [
+                    "eventId",
+                    "eventId : QString",
+                    "eventId-prop"
+                ],
+                [
+                    "flags",
+                    "flags : NotificationFlags",
+                    "flags-prop"
+                ],
+                [
+                    "hints",
+                    "hints : QVariantMap",
+                    "hints-prop"
+                ],
+                [
+                    "iconName",
+                    "iconName : QString",
+                    "iconName-prop"
+                ],
+                [
+                    "text",
+                    "text : QString",
+                    "text-prop"
+                ],
+                [
+                    "title",
+                    "title : QString",
+                    "title-prop"
+                ],
+                [
+                    "urgency",
+                    "urgency : Urgency",
+                    "urgency-prop"
+                ],
+                [
+                    "urls",
+                    "urls : QList<QUrl>",
+                    "urls-prop"
+                ],
+                [
+                    "xdgActivationToken",
+                    "xdgActivationToken : QString",
+                    "xdgActivationToken-prop"
+                ],
+                [
+                    "KNotification",
+                    "KNotification(const QString &, KNotification::NotificationFlags, QObject *)",
+                    "KNotification"
+                ],
+                [
+                    "actionsChanged",
+                    "actionsChanged()",
+                    "actionsChanged"
+                ],
+                [
+                    "addAction",
+                    "addAction(const QString &) : KNotificationAction *",
+                    "addAction"
+                ],
+                [
+                    "addDefaultAction",
+                    "addDefaultAction(const QString &) : KNotificationAction *",
+                    "addDefaultAction"
+                ],
+                [
+                    "autoDeleteChanged",
+                    "autoDeleteChanged()",
+                    "autoDeleteChanged"
+                ],
+                [
+                    "beep",
+                    "beep(const QString &)",
+                    "beep"
+                ],
+                [
+                    "clearActions",
+                    "clearActions()",
+                    "clearActions"
+                ],
+                [
+                    "close",
+                    "close()",
+                    "close"
+                ],
+                [
+                    "closed",
+                    "closed()",
+                    "closed"
+                ],
+                [
+                    "componentName",
+                    "componentName() const : QString",
+                    "componentName"
+                ],
+                [
+                    "componentNameChanged",
+                    "componentNameChanged()",
+                    "componentNameChanged"
+                ],
+                [
+                    "defaultAction",
+                    "defaultAction() const : KNotificationAction *",
+                    "defaultAction"
+                ],
+                [
+                    "defaultActionChanged",
+                    "defaultActionChanged()",
+                    "defaultActionChanged"
+                ],
+                [
+                    "event",
+                    "event(const QString &, const QString &, const QString &, const QPixmap &, const KNotification::NotificationFlags &, const QString &) : KNotification *",
+                    "event"
+                ],
+                [
+                    "event",
+                    "event(KNotification::StandardEvent, const QString &, const QPixmap &, const KNotification::NotificationFlags &) : KNotification *",
+                    "event-1"
+                ],
+                [
+                    "event",
+                    "event(KNotification::StandardEvent, const QString &, const QString &, const KNotification::NotificationFlags &) : KNotification *",
+                    "event-2"
+                ],
+                [
+                    "event",
+                    "event(KNotification::StandardEvent, const QString &, const QString &, const QPixmap &, const KNotification::NotificationFlags &) : KNotification *",
+                    "event-3"
+                ],
+                [
+                    "event",
+                    "event(KNotification::StandardEvent, const QString &, const QString &, const QString &, const KNotification::NotificationFlags &) : KNotification *",
+                    "event-4"
+                ],
+                [
+                    "event",
+                    "event(const QString &, const QString &, const QPixmap &, const KNotification::NotificationFlags &, const QString &) : KNotification *",
+                    "event-5"
+                ],
+                [
+                    "event",
+                    "event(const QString &, const QString &, const QString &, const QString &, const KNotification::NotificationFlags &, const QString &) : KNotification *",
+                    "event-6"
+                ],
+                [
+                    "eventId",
+                    "eventId() const : QString",
+                    "eventId"
+                ],
+                [
+                    "eventIdChanged",
+                    "eventIdChanged()",
+                    "eventIdChanged"
+                ],
+                [
+                    "flags",
+                    "flags() const : KNotification::NotificationFlags",
+                    "flags"
+                ],
+                [
+                    "flagsChanged",
+                    "flagsChanged()",
+                    "flagsChanged"
+                ],
+                [
+                    "hints",
+                    "hints() const : QVariantMap",
+                    "hints"
+                ],
+                [
+                    "hintsChanged",
+                    "hintsChanged()",
+                    "hintsChanged"
+                ],
+                [
+                    "iconName",
+                    "iconName() const : QString",
+                    "iconName"
+                ],
+                [
+                    "iconNameChanged",
+                    "iconNameChanged()",
+                    "iconNameChanged"
+                ],
+                [
+                    "ignored",
+                    "ignored()",
+                    "ignored"
+                ],
+                [
+                    "isAutoDelete",
+                    "isAutoDelete() const : bool",
+                    "isAutoDelete"
+                ],
+                [
+                    "pixmap",
+                    "pixmap() const : QPixmap",
+                    "pixmap"
+                ],
+                [
+                    "replyAction",
+                    "replyAction() const : KNotificationReplyAction *",
+                    "replyAction"
+                ],
+                [
+                    "sendEvent",
+                    "sendEvent()",
+                    "sendEvent"
+                ],
+                [
+                    "setAutoDelete",
+                    "setAutoDelete(bool)",
+                    "setAutoDelete"
+                ],
+                [
+                    "setComponentName",
+                    "setComponentName(const QString &)",
+                    "setComponentName"
+                ],
+                [
+                    "setEventId",
+                    "setEventId(const QString &)",
+                    "setEventId"
+                ],
+                [
+                    "setFlags",
+                    "setFlags(const KNotification::NotificationFlags &)",
+                    "setFlags"
+                ],
+                [
+                    "setHint",
+                    "setHint(const QString &, const QVariant &)",
+                    "setHint"
+                ],
+                [
+                    "setHints",
+                    "setHints(const QVariantMap &)",
+                    "setHints"
+                ],
+                [
+                    "setIconName",
+                    "setIconName(const QString &)",
+                    "setIconName"
+                ],
+                [
+                    "setPixmap",
+                    "setPixmap(const QPixmap &)",
+                    "setPixmap"
+                ],
+                [
+                    "setReplyAction",
+                    "setReplyAction(std::unique_ptr<KNotificationReplyAction>)",
+                    "setReplyAction"
+                ],
+                [
+                    "setText",
+                    "setText(const QString &)",
+                    "setText"
+                ],
+                [
+                    "setTitle",
+                    "setTitle(const QString &)",
+                    "setTitle"
+                ],
+                [
+                    "setUrgency",
+                    "setUrgency(KNotification::Urgency)",
+                    "setUrgency"
+                ],
+                [
+                    "setUrls",
+                    "setUrls(const QList<QUrl> &)",
+                    "setUrls"
+                ],
+                [
+                    "setWindow",
+                    "setWindow(QWindow *)",
+                    "setWindow"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "textChanged",
+                    "textChanged()",
+                    "textChanged"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "titleChanged",
+                    "titleChanged()",
+                    "titleChanged"
+                ],
+                [
+                    "urgency",
+                    "urgency() const : KNotification::Urgency",
+                    "urgency"
+                ],
+                [
+                    "urgencyChanged",
+                    "urgencyChanged()",
+                    "urgencyChanged"
+                ],
+                [
+                    "urls",
+                    "urls() const : QList<QUrl>",
+                    "urls"
+                ],
+                [
+                    "urlsChanged",
+                    "urlsChanged()",
+                    "urlsChanged"
+                ],
+                [
+                    "window",
+                    "window() const : QWindow *",
+                    "window"
+                ],
+                [
+                    "xdgActivationToken",
+                    "xdgActivationToken() const : QString",
+                    "xdgActivationToken"
+                ],
+                [
+                    "xdgActivationTokenChanged",
+                    "xdgActivationTokenChanged()",
+                    "xdgActivationTokenChanged"
+                ]
+            ],
+            "name": "KNotification",
+            "page": "knotifications/knotification",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "label",
+                    "label : QString",
+                    "label-prop"
+                ],
+                [
+                    "KNotificationAction",
+                    "KNotificationAction(const QString &)",
+                    "KNotificationAction"
+                ],
+                [
+                    "activated",
+                    "activated()",
+                    "activated"
+                ],
+                [
+                    "label",
+                    "label() const : QString",
+                    "label"
+                ],
+                [
+                    "labelChanged",
+                    "labelChanged(const QString &)",
+                    "labelChanged"
+                ],
+                [
+                    "setLabel",
+                    "setLabel(const QString &)",
+                    "setLabel"
+                ]
+            ],
+            "name": "KNotificationAction",
+            "page": "knotifications/knotificationaction",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "isAvailable",
+                    "isAvailable : bool",
+                    "isAvailable-prop"
+                ],
+                [
+                    "isAvailable",
+                    "isAvailable() : bool",
+                    "isAvailable"
+                ],
+                [
+                    "show",
+                    "show()",
+                    "show"
+                ]
+            ],
+            "name": "KNotificationConfiguration",
+            "page": "knotifications/knotificationconfiguration",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "fallbackBehavior",
+                    "fallbackBehavior : FallbackBehavior",
+                    "fallbackBehavior-prop"
+                ],
+                [
+                    "label",
+                    "label : QString",
+                    "label-prop"
+                ],
+                [
+                    "placeholderText",
+                    "placeholderText : QString",
+                    "placeholderText-prop"
+                ],
+                [
+                    "submitButtonIconName",
+                    "submitButtonIconName : QString",
+                    "submitButtonIconName-prop"
+                ],
+                [
+                    "submitButtonText",
+                    "submitButtonText : QString",
+                    "submitButtonText-prop"
+                ],
+                [
+                    "KNotificationReplyAction",
+                    "KNotificationReplyAction(const QString &)",
+                    "KNotificationReplyAction"
+                ],
+                [
+                    "activated",
+                    "activated()",
+                    "activated"
+                ],
+                [
+                    "fallbackBehavior",
+                    "fallbackBehavior() const : KNotificationReplyAction::FallbackBehavior",
+                    "fallbackBehavior"
+                ],
+                [
+                    "fallbackBehaviorChanged",
+                    "fallbackBehaviorChanged()",
+                    "fallbackBehaviorChanged"
+                ],
+                [
+                    "label",
+                    "label() const : QString",
+                    "label"
+                ],
+                [
+                    "labelChanged",
+                    "labelChanged()",
+                    "labelChanged"
+                ],
+                [
+                    "placeholderText",
+                    "placeholderText() const : QString",
+                    "placeholderText"
+                ],
+                [
+                    "placeholderTextChanged",
+                    "placeholderTextChanged()",
+                    "placeholderTextChanged"
+                ],
+                [
+                    "replied",
+                    "replied(const QString &)",
+                    "replied"
+                ],
+                [
+                    "setFallbackBehavior",
+                    "setFallbackBehavior(KNotificationReplyAction::FallbackBehavior)",
+                    "setFallbackBehavior"
+                ],
+                [
+                    "setLabel",
+                    "setLabel(const QString &)",
+                    "setLabel"
+                ],
+                [
+                    "setPlaceholderText",
+                    "setPlaceholderText(const QString &)",
+                    "setPlaceholderText"
+                ],
+                [
+                    "setSubmitButtonIconName",
+                    "setSubmitButtonIconName(const QString &)",
+                    "setSubmitButtonIconName"
+                ],
+                [
+                    "setSubmitButtonText",
+                    "setSubmitButtonText(const QString &)",
+                    "setSubmitButtonText"
+                ],
+                [
+                    "submitButtonIconName",
+                    "submitButtonIconName() const : QString",
+                    "submitButtonIconName"
+                ],
+                [
+                    "submitButtonIconNameChanged",
+                    "submitButtonIconNameChanged()",
+                    "submitButtonIconNameChanged"
+                ],
+                [
+                    "submitButtonText",
+                    "submitButtonText() const : QString",
+                    "submitButtonText"
+                ],
+                [
+                    "submitButtonTextChanged",
+                    "submitButtonTextChanged()",
+                    "submitButtonTextChanged"
+                ]
+            ],
+            "name": "KNotificationReplyAction",
+            "page": "knotifications/knotificationreplyaction",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KNotifyConfig",
+                    "KNotifyConfig(const QString &, const QString &)",
+                    "KNotifyConfig"
+                ],
+                [
+                    "actions",
+                    "actions() const : KNotifyConfig::Actions",
+                    "actions"
+                ],
+                [
+                    "applicationName",
+                    "applicationName() const : QString",
+                    "applicationName"
+                ],
+                [
+                    "eventId",
+                    "eventId() const : QString",
+                    "eventId"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const QString &) const : QString",
+                    "readEntry"
+                ],
+                [
+                    "readGlobalEntry",
+                    "readGlobalEntry(const QString &) const : QString",
+                    "readGlobalEntry"
+                ],
+                [
+                    "readPathEntry",
+                    "readPathEntry(const QString &) const : QString",
+                    "readPathEntry"
+                ],
+                [
+                    "reparseConfiguration",
+                    "reparseConfiguration()",
+                    "reparseConfiguration"
+                ],
+                [
+                    "reparseSingleConfiguration",
+                    "reparseSingleConfiguration(const QString &)",
+                    "reparseSingleConfiguration"
+                ]
+            ],
+            "name": "KNotifyConfig",
+            "page": "knotifications/knotifyconfig",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "knotifications",
+    "sections": [
+        {
+            "description": "Cross-platform Notification Library.",
+            "page": "knotifications/knotifications-module",
+            "pages": [
+                [
+                    "knotifications/knotifications-module",
+                    "KNotifications C++ Classes"
+                ],
+                [
+                    "knotifications/knotification",
+                    "KNotification"
+                ],
+                [
+                    "knotifications/knotificationaction",
+                    "KNotificationAction"
+                ],
+                [
+                    "knotifications/knotificationconfiguration",
+                    "KNotificationConfiguration"
+                ],
+                [
+                    "knotifications/knotificationreplyaction",
+                    "KNotificationReplyAction"
+                ],
+                [
+                    "knotifications/knotifyconfig",
+                    "KNotifyConfig"
+                ],
+                [
+                    "knotifications/knotificationpermission",
+                    "KNotificationPermission Namespace"
+                ],
+                [
+                    "knotifications/knotifications-index",
+                    "KNotifications"
+                ]
+            ],
+            "qml": false,
+            "title": "KNotifications C++ Classes"
+        }
+    ]
+}

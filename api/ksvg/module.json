@@ -1,0 +1,588 @@
+{
+    "classes": [
+        {
+            "bases": [
+                "ksvg/ksvg-svg"
+            ],
+            "members": [
+                [
+                    "enabledBorders",
+                    "enabledBorders : EnabledBorders",
+                    "enabledBorders-prop"
+                ],
+                [
+                    "FrameSvg",
+                    "FrameSvg(QObject *)",
+                    "FrameSvg"
+                ],
+                [
+                    "actualPrefix",
+                    "actualPrefix() const : QString",
+                    "actualPrefix"
+                ],
+                [
+                    "alphaMask",
+                    "alphaMask() const : QPixmap",
+                    "alphaMask"
+                ],
+                [
+                    "cacheAllRenderedFrames",
+                    "cacheAllRenderedFrames() const : bool",
+                    "cacheAllRenderedFrames"
+                ],
+                [
+                    "clearCache",
+                    "clearCache()",
+                    "clearCache"
+                ],
+                [
+                    "contentsRect",
+                    "contentsRect() const : QRectF",
+                    "contentsRect"
+                ],
+                [
+                    "enabledBorders",
+                    "enabledBorders() const : KSvg::FrameSvg::EnabledBorders",
+                    "enabledBorders"
+                ],
+                [
+                    "fixedMarginSize",
+                    "fixedMarginSize(const KSvg::FrameSvg::MarginEdge) const : qreal",
+                    "fixedMarginSize"
+                ],
+                [
+                    "fixedMargins",
+                    "fixedMargins() const : QMarginsF",
+                    "fixedMargins"
+                ],
+                [
+                    "framePixmap",
+                    "framePixmap() : QPixmap",
+                    "framePixmap"
+                ],
+                [
+                    "frameSize",
+                    "frameSize() const : QSizeF",
+                    "frameSize"
+                ],
+                [
+                    "getFixedMargins",
+                    "getFixedMargins(qreal &, qreal &, qreal &, qreal &) const",
+                    "getFixedMargins"
+                ],
+                [
+                    "getInset",
+                    "getInset(qreal &, qreal &, qreal &, qreal &) const",
+                    "getInset"
+                ],
+                [
+                    "getMargins",
+                    "getMargins(qreal &, qreal &, qreal &, qreal &) const",
+                    "getMargins"
+                ],
+                [
+                    "hasElementPrefix",
+                    "hasElementPrefix(KSvg::FrameSvg::LocationPrefix) const : bool",
+                    "hasElementPrefix"
+                ],
+                [
+                    "hasElementPrefix",
+                    "hasElementPrefix(const QString &) const : bool",
+                    "hasElementPrefix-1"
+                ],
+                [
+                    "insetSize",
+                    "insetSize(const KSvg::FrameSvg::MarginEdge) const : qreal",
+                    "insetSize"
+                ],
+                [
+                    "insets",
+                    "insets() const : QMarginsF",
+                    "insets"
+                ],
+                [
+                    "isRepaintBlocked",
+                    "isRepaintBlocked() const : bool",
+                    "isRepaintBlocked"
+                ],
+                [
+                    "marginSize",
+                    "marginSize(const KSvg::FrameSvg::MarginEdge) const : qreal",
+                    "marginSize"
+                ],
+                [
+                    "margins",
+                    "margins() const : QMarginsF",
+                    "margins"
+                ],
+                [
+                    "mask",
+                    "mask() const : QRegion",
+                    "mask"
+                ],
+                [
+                    "minimumDrawingHeight",
+                    "minimumDrawingHeight() : int",
+                    "minimumDrawingHeight"
+                ],
+                [
+                    "minimumDrawingWidth",
+                    "minimumDrawingWidth() : int",
+                    "minimumDrawingWidth"
+                ],
+                [
+                    "paintFrame",
+                    "paintFrame(QPainter *, const QPointF &)",
+                    "paintFrame"
+                ],
+                [
+                    "paintFrame",
+                    "paintFrame(QPainter *, const QRectF &, const QRectF &)",
+                    "paintFrame-1"
+                ],
+                [
+                    "prefix",
+                    "prefix() : QString",
+                    "prefix"
+                ],
+                [
+                    "resizeFrame",
+                    "resizeFrame(const QSizeF &)",
+                    "resizeFrame"
+                ],
+                [
+                    "setCacheAllRenderedFrames",
+                    "setCacheAllRenderedFrames(bool)",
+                    "setCacheAllRenderedFrames"
+                ],
+                [
+                    "setElementPrefix",
+                    "setElementPrefix(KSvg::FrameSvg::LocationPrefix)",
+                    "setElementPrefix"
+                ],
+                [
+                    "setElementPrefix",
+                    "setElementPrefix(const QString &)",
+                    "setElementPrefix-1"
+                ],
+                [
+                    "setEnabledBorders",
+                    "setEnabledBorders(const KSvg::FrameSvg::EnabledBorders)",
+                    "setEnabledBorders"
+                ],
+                [
+                    "setImagePath",
+                    "setImagePath(const QString &)",
+                    "setImagePath"
+                ],
+                [
+                    "setRepaintBlocked",
+                    "setRepaintBlocked(bool)",
+                    "setRepaintBlocked"
+                ]
+            ],
+            "name": "KSvg::FrameSvg",
+            "page": "ksvg/ksvg-framesvg",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "basePath",
+                    "basePath : QString",
+                    "basePath-prop"
+                ],
+                [
+                    "imageSetName",
+                    "imageSetName : QString",
+                    "imageSetName-prop"
+                ],
+                [
+                    "ImageSet",
+                    "ImageSet(QObject *)",
+                    "ImageSet"
+                ],
+                [
+                    "ImageSet",
+                    "ImageSet(const QString &, const QString &, QObject *)",
+                    "ImageSet-1"
+                ],
+                [
+                    "basePath",
+                    "basePath() const : QString",
+                    "basePath"
+                ],
+                [
+                    "basePathChanged",
+                    "basePathChanged(const QString &)",
+                    "basePathChanged"
+                ],
+                [
+                    "currentImageSetHasImage",
+                    "currentImageSetHasImage(const QString &) const : bool",
+                    "currentImageSetHasImage"
+                ],
+                [
+                    "filePath",
+                    "filePath(const QString &) const : QString",
+                    "filePath"
+                ],
+                [
+                    "imagePath",
+                    "imagePath(const QString &) const : QString",
+                    "imagePath"
+                ],
+                [
+                    "imageSetChanged",
+                    "imageSetChanged(const QString &)",
+                    "imageSetChanged"
+                ],
+                [
+                    "imageSetName",
+                    "imageSetName() const : QString",
+                    "imageSetName"
+                ],
+                [
+                    "selectors",
+                    "selectors() const : QStringList",
+                    "selectors"
+                ],
+                [
+                    "setBasePath",
+                    "setBasePath(const QString &)",
+                    "setBasePath"
+                ],
+                [
+                    "setImageSetName",
+                    "setImageSetName(const QString &)",
+                    "setImageSetName"
+                ],
+                [
+                    "setSelectors",
+                    "setSelectors(const QStringList &)",
+                    "setSelectors"
+                ]
+            ],
+            "name": "KSvg::ImageSet",
+            "page": "ksvg/ksvg-imageset",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "colorSet",
+                    "colorSet : KSvg::Svg::ColorSet",
+                    "colorSet-prop"
+                ],
+                [
+                    "fromCurrentImageSet",
+                    "fromCurrentImageSet : bool",
+                    "fromCurrentImageSet-prop"
+                ],
+                [
+                    "imagePath",
+                    "imagePath : QString",
+                    "imagePath-prop"
+                ],
+                [
+                    "multipleImages",
+                    "multipleImages : bool",
+                    "multipleImages-prop"
+                ],
+                [
+                    "size",
+                    "size : QSizeF",
+                    "size-prop"
+                ],
+                [
+                    "status",
+                    "status : KSvg::Svg::Status",
+                    "status-prop"
+                ],
+                [
+                    "usingRenderingCache",
+                    "usingRenderingCache : bool",
+                    "usingRenderingCache-prop"
+                ],
+                [
+                    "Svg",
+                    "Svg(QObject *)",
+                    "Svg"
+                ],
+                [
+                    "clearColorOverrides",
+                    "clearColorOverrides()",
+                    "clearColorOverrides"
+                ],
+                [
+                    "color",
+                    "color(KSvg::Svg::StyleSheetColor) const : QColor",
+                    "color"
+                ],
+                [
+                    "colorHintChanged",
+                    "colorHintChanged()",
+                    "colorHintChanged"
+                ],
+                [
+                    "colorOverrides",
+                    "colorOverrides() const : QMap<KSvg::Svg::StyleSheetColor, QColor>",
+                    "colorOverrides"
+                ],
+                [
+                    "colorSet",
+                    "colorSet() const : KSvg::Svg::ColorSet",
+                    "colorSet"
+                ],
+                [
+                    "colorSetChanged",
+                    "colorSetChanged(KSvg::Svg::ColorSet)",
+                    "colorSetChanged"
+                ],
+                [
+                    "containsMultipleImages",
+                    "containsMultipleImages() const : bool",
+                    "containsMultipleImages"
+                ],
+                [
+                    "devicePixelRatio",
+                    "devicePixelRatio() const : qreal",
+                    "devicePixelRatio"
+                ],
+                [
+                    "elementRect",
+                    "elementRect(QStringView) const : QRectF",
+                    "elementRect"
+                ],
+                [
+                    "elementRect",
+                    "elementRect(const QString &) const : QRectF",
+                    "elementRect-1"
+                ],
+                [
+                    "elementSize",
+                    "elementSize(const QString &) const : QSizeF",
+                    "elementSize"
+                ],
+                [
+                    "fromCurrentImageSet",
+                    "fromCurrentImageSet() const : bool",
+                    "fromCurrentImageSet"
+                ],
+                [
+                    "fromCurrentImageSetChanged",
+                    "fromCurrentImageSetChanged(bool)",
+                    "fromCurrentImageSetChanged"
+                ],
+                [
+                    "hasElement",
+                    "hasElement(QStringView) const : bool",
+                    "hasElement"
+                ],
+                [
+                    "hasElement",
+                    "hasElement(const QString &) const : bool",
+                    "hasElement-1"
+                ],
+                [
+                    "image",
+                    "image(const QSize &, const QString &) : QImage",
+                    "image"
+                ],
+                [
+                    "imagePath",
+                    "imagePath() const : QString",
+                    "imagePath"
+                ],
+                [
+                    "imagePathChanged",
+                    "imagePathChanged()",
+                    "imagePathChanged"
+                ],
+                [
+                    "imageSet",
+                    "imageSet() const : KSvg::ImageSet *",
+                    "imageSet"
+                ],
+                [
+                    "imageSetChanged",
+                    "imageSetChanged(KSvg::ImageSet *)",
+                    "imageSetChanged"
+                ],
+                [
+                    "isUsingRenderingCache",
+                    "isUsingRenderingCache() const : bool",
+                    "isUsingRenderingCache"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "paint",
+                    "paint(QPainter *, const QPointF &, const QString &)",
+                    "paint"
+                ],
+                [
+                    "paint",
+                    "paint(QPainter *, const QRectF &, const QString &)",
+                    "paint-1"
+                ],
+                [
+                    "paint",
+                    "paint(QPainter *, int, int, const QString &)",
+                    "paint-2"
+                ],
+                [
+                    "paint",
+                    "paint(QPainter *, int, int, int, int, const QString &)",
+                    "paint-3"
+                ],
+                [
+                    "pixmap",
+                    "pixmap(const QString &) : QPixmap",
+                    "pixmap"
+                ],
+                [
+                    "repaintNeeded",
+                    "repaintNeeded()",
+                    "repaintNeeded"
+                ],
+                [
+                    "resize",
+                    "resize()",
+                    "resize"
+                ],
+                [
+                    "resize",
+                    "resize(const QSizeF &)",
+                    "resize-1"
+                ],
+                [
+                    "resize",
+                    "resize(qreal, qreal)",
+                    "resize-2"
+                ],
+                [
+                    "setColor",
+                    "setColor(KSvg::Svg::StyleSheetColor, const QColor &)",
+                    "setColor"
+                ],
+                [
+                    "setColorSet",
+                    "setColorSet(KSvg::Svg::ColorSet)",
+                    "setColorSet"
+                ],
+                [
+                    "setColors",
+                    "setColors(const QMap<KSvg::Svg::StyleSheetColor, QColor> &)",
+                    "setColors"
+                ],
+                [
+                    "setContainsMultipleImages",
+                    "setContainsMultipleImages(bool)",
+                    "setContainsMultipleImages"
+                ],
+                [
+                    "setDevicePixelRatio",
+                    "setDevicePixelRatio(qreal)",
+                    "setDevicePixelRatio"
+                ],
+                [
+                    "setImagePath",
+                    "setImagePath(const QString &)",
+                    "setImagePath"
+                ],
+                [
+                    "setImageSet",
+                    "setImageSet(KSvg::ImageSet *)",
+                    "setImageSet"
+                ],
+                [
+                    "setStatus",
+                    "setStatus(KSvg::Svg::Status)",
+                    "setStatus"
+                ],
+                [
+                    "setUsingRenderingCache",
+                    "setUsingRenderingCache(bool)",
+                    "setUsingRenderingCache"
+                ],
+                [
+                    "size",
+                    "size() const : QSizeF",
+                    "size"
+                ],
+                [
+                    "sizeChanged",
+                    "sizeChanged()",
+                    "sizeChanged"
+                ],
+                [
+                    "status",
+                    "status() const : KSvg::Svg::Status",
+                    "status"
+                ],
+                [
+                    "statusChanged",
+                    "statusChanged(KSvg::Svg::Status)",
+                    "statusChanged"
+                ]
+            ],
+            "name": "KSvg::Svg",
+            "page": "ksvg/ksvg-svg",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "ksvg",
+    "sections": [
+        {
+            "description": "A library for rendering SVG-based themes with stylesheet re-coloring and on-disk caching.",
+            "page": "ksvg/ksvg-module",
+            "pages": [
+                [
+                    "ksvg/ksvg-module",
+                    "KSvg C++ Classes"
+                ],
+                [
+                    "ksvg/ksvg-framesvg",
+                    "KSvg::FrameSvg"
+                ],
+                [
+                    "ksvg/ksvg-imageset",
+                    "KSvg::ImageSet"
+                ],
+                [
+                    "ksvg/ksvg-svg",
+                    "KSvg::Svg"
+                ],
+                [
+                    "ksvg/ksvg",
+                    "KSvg Namespace"
+                ],
+                [
+                    "ksvg/ksvg-index",
+                    "KSvg"
+                ]
+            ],
+            "qml": false,
+            "title": "KSvg C++ Classes"
+        }
+    ]
+}

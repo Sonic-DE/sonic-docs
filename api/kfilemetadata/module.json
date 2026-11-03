@@ -1,0 +1,640 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "EmbeddedImageData",
+                    "EmbeddedImageData()",
+                    "EmbeddedImageData"
+                ]
+            ],
+            "name": "KFileMetaData::EmbeddedImageData",
+            "page": "kfilemetadata/kfilemetadata-embeddedimagedata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ExtractionResult",
+                    "ExtractionResult(const QString &, const QString &, const KFileMetaData::ExtractionResult::Flags &)",
+                    "ExtractionResult"
+                ],
+                [
+                    "add",
+                    "add(KFileMetaData::Property::Property, const QVariant &)",
+                    "add"
+                ],
+                [
+                    "addImageData",
+                    "addImageData(QMap<KFileMetaData::EmbeddedImageData::ImageType, QByteArray> &&)",
+                    "addImageData"
+                ],
+                [
+                    "addType",
+                    "addType(KFileMetaData::Type::Type)",
+                    "addType"
+                ],
+                [
+                    "append",
+                    "append(const QString &)",
+                    "append"
+                ],
+                [
+                    "imageData",
+                    "imageData() const : QMap<KFileMetaData::EmbeddedImageData::ImageType, QByteArray>",
+                    "imageData"
+                ],
+                [
+                    "inputFlags",
+                    "inputFlags() const : KFileMetaData::ExtractionResult::Flags",
+                    "inputFlags"
+                ],
+                [
+                    "inputMimetype",
+                    "inputMimetype() const : QString",
+                    "inputMimetype"
+                ],
+                [
+                    "inputUrl",
+                    "inputUrl() const : QString",
+                    "inputUrl"
+                ]
+            ],
+            "name": "KFileMetaData::ExtractionResult",
+            "page": "kfilemetadata/kfilemetadata-extractionresult",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "extract",
+                    "extract(KFileMetaData::ExtractionResult *)",
+                    "extract"
+                ],
+                [
+                    "extractorProperties",
+                    "extractorProperties() const : QVariantMap",
+                    "extractorProperties"
+                ],
+                [
+                    "mimetypes",
+                    "mimetypes() const : QStringList",
+                    "mimetypes"
+                ]
+            ],
+            "name": "KFileMetaData::Extractor",
+            "page": "kfilemetadata/kfilemetadata-extractor",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ExtractorCollection",
+                    "ExtractorCollection()",
+                    "ExtractorCollection"
+                ],
+                [
+                    "fetchExtractors",
+                    "fetchExtractors(const QString &) const : QList<KFileMetaData::Extractor *>",
+                    "fetchExtractors"
+                ]
+            ],
+            "name": "KFileMetaData::ExtractorCollection",
+            "page": "kfilemetadata/kfilemetadata-extractorcollection",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ExtractorPlugin",
+                    "ExtractorPlugin(QObject *)",
+                    "ExtractorPlugin"
+                ],
+                [
+                    "extract",
+                    "extract(KFileMetaData::ExtractionResult *)",
+                    "extract"
+                ],
+                [
+                    "getSupportedMimeType",
+                    "getSupportedMimeType(const QString &) const : QString",
+                    "getSupportedMimeType"
+                ],
+                [
+                    "mimetypes",
+                    "mimetypes() const : QStringList",
+                    "mimetypes"
+                ]
+            ],
+            "name": "KFileMetaData::ExtractorPlugin",
+            "page": "kfilemetadata/kfilemetadata-extractorplugin",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "PropertyInfo",
+                    "PropertyInfo()",
+                    "PropertyInfo"
+                ],
+                [
+                    "PropertyInfo",
+                    "PropertyInfo(KFileMetaData::Property::Property)",
+                    "PropertyInfo-1"
+                ],
+                [
+                    "allNames",
+                    "allNames() : QStringList",
+                    "allNames"
+                ],
+                [
+                    "displayName",
+                    "displayName() const : QString",
+                    "displayName"
+                ],
+                [
+                    "formatAsDisplayString",
+                    "formatAsDisplayString(const QVariant &) const : QString",
+                    "formatAsDisplayString"
+                ],
+                [
+                    "fromName",
+                    "fromName(const QString &) : KFileMetaData::PropertyInfo",
+                    "fromName"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "property",
+                    "property() const : KFileMetaData::Property::Property",
+                    "property"
+                ],
+                [
+                    "shouldBeIndexed",
+                    "shouldBeIndexed() const : bool",
+                    "shouldBeIndexed"
+                ],
+                [
+                    "valueType",
+                    "valueType() const : QMetaType::Type",
+                    "valueType"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KFileMetaData::PropertyInfo &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KFileMetaData::PropertyInfo",
+            "page": "kfilemetadata/kfilemetadata-propertyinfo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kfilemetadata/kfilemetadata-extractionresult"
+            ],
+            "members": [
+                [
+                    "SimpleExtractionResult",
+                    "SimpleExtractionResult(const QString &, const QString &, const KFileMetaData::ExtractionResult::Flags &)",
+                    "SimpleExtractionResult"
+                ],
+                [
+                    "add",
+                    "add(KFileMetaData::Property::Property, const QVariant &)",
+                    "add"
+                ],
+                [
+                    "addType",
+                    "addType(KFileMetaData::Type::Type)",
+                    "addType"
+                ],
+                [
+                    "append",
+                    "append(const QString &)",
+                    "append"
+                ],
+                [
+                    "properties",
+                    "properties() const : KFileMetaData::PropertyMultiMap",
+                    "properties"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "types",
+                    "types() const : QList<KFileMetaData::Type::Type>",
+                    "types"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KFileMetaData::SimpleExtractionResult &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KFileMetaData::SimpleExtractionResult",
+            "page": "kfilemetadata/kfilemetadata-simpleextractionresult",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "TypeInfo",
+                    "TypeInfo()",
+                    "TypeInfo"
+                ],
+                [
+                    "TypeInfo",
+                    "TypeInfo(KFileMetaData::Type::Type)",
+                    "TypeInfo-1"
+                ],
+                [
+                    "allNames",
+                    "allNames() : QStringList",
+                    "allNames"
+                ],
+                [
+                    "displayName",
+                    "displayName() const : QString",
+                    "displayName"
+                ],
+                [
+                    "fromName",
+                    "fromName(const QString &) : KFileMetaData::TypeInfo",
+                    "fromName"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "type",
+                    "type() const : KFileMetaData::Type::Type",
+                    "type"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KFileMetaData::TypeInfo &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KFileMetaData::TypeInfo",
+            "page": "kfilemetadata/kfilemetadata-typeinfo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "UserMetaData",
+                    "UserMetaData(const QString &)",
+                    "UserMetaData"
+                ],
+                [
+                    "attribute",
+                    "attribute(const QString &) const : QString",
+                    "attribute-1"
+                ],
+                [
+                    "filePath",
+                    "filePath() const : QString",
+                    "filePath"
+                ],
+                [
+                    "hasAttribute",
+                    "hasAttribute(const QString &) const : bool",
+                    "hasAttribute-1"
+                ],
+                [
+                    "isSupported",
+                    "isSupported() const : bool",
+                    "isSupported"
+                ],
+                [
+                    "originEmailMessageId",
+                    "originEmailMessageId() const : QString",
+                    "originEmailMessageId"
+                ],
+                [
+                    "originEmailSender",
+                    "originEmailSender() const : QString",
+                    "originEmailSender"
+                ],
+                [
+                    "originEmailSubject",
+                    "originEmailSubject() const : QString",
+                    "originEmailSubject"
+                ],
+                [
+                    "originUrl",
+                    "originUrl() const : QUrl",
+                    "originUrl"
+                ],
+                [
+                    "queryAttributes",
+                    "queryAttributes(KFileMetaData::UserMetaData::Attributes) const : KFileMetaData::UserMetaData::Attributes",
+                    "queryAttributes"
+                ],
+                [
+                    "rating",
+                    "rating() const : int",
+                    "rating"
+                ],
+                [
+                    "setAttribute",
+                    "setAttribute(const QString &, const QString &) : KFileMetaData::UserMetaData::Error",
+                    "setAttribute"
+                ],
+                [
+                    "setOriginEmailMessageId",
+                    "setOriginEmailMessageId(const QString &) : KFileMetaData::UserMetaData::Error",
+                    "setOriginEmailMessageId"
+                ],
+                [
+                    "setOriginEmailSender",
+                    "setOriginEmailSender(const QString &) : KFileMetaData::UserMetaData::Error",
+                    "setOriginEmailSender"
+                ],
+                [
+                    "setOriginEmailSubject",
+                    "setOriginEmailSubject(const QString &) : KFileMetaData::UserMetaData::Error",
+                    "setOriginEmailSubject"
+                ],
+                [
+                    "setOriginUrl",
+                    "setOriginUrl(const QUrl &) : KFileMetaData::UserMetaData::Error",
+                    "setOriginUrl"
+                ],
+                [
+                    "setRating",
+                    "setRating(int) : KFileMetaData::UserMetaData::Error",
+                    "setRating"
+                ],
+                [
+                    "setTags",
+                    "setTags(const QStringList &) : KFileMetaData::UserMetaData::Error",
+                    "setTags"
+                ],
+                [
+                    "setUserComment",
+                    "setUserComment(const QString &) : KFileMetaData::UserMetaData::Error",
+                    "setUserComment"
+                ],
+                [
+                    "tags",
+                    "tags() const : QStringList",
+                    "tags"
+                ],
+                [
+                    "userComment",
+                    "userComment() const : QString",
+                    "userComment"
+                ]
+            ],
+            "name": "KFileMetaData::UserMetaData",
+            "page": "kfilemetadata/kfilemetadata-usermetadata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "WriteData",
+                    "WriteData(const QString &, const QString &)",
+                    "WriteData"
+                ],
+                [
+                    "add",
+                    "add(KFileMetaData::Property::Property, const QVariant &)",
+                    "add"
+                ],
+                [
+                    "addImageData",
+                    "addImageData(const QMap<KFileMetaData::EmbeddedImageData::ImageType, QByteArray> &)",
+                    "addImageData"
+                ],
+                [
+                    "imageData",
+                    "imageData() const : QMap<KFileMetaData::EmbeddedImageData::ImageType, QByteArray>",
+                    "imageData"
+                ],
+                [
+                    "inputMimetype",
+                    "inputMimetype() const : QString",
+                    "inputMimetype"
+                ],
+                [
+                    "inputUrl",
+                    "inputUrl() const : QString",
+                    "inputUrl"
+                ],
+                [
+                    "properties",
+                    "properties() const : KFileMetaData::PropertyMultiMap",
+                    "properties"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KFileMetaData::WriteData &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KFileMetaData::WriteData",
+            "page": "kfilemetadata/kfilemetadata-writedata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "mimetypes",
+                    "mimetypes() const : QStringList",
+                    "mimetypes"
+                ],
+                [
+                    "write",
+                    "write(const KFileMetaData::WriteData &)",
+                    "write"
+                ]
+            ],
+            "name": "KFileMetaData::Writer",
+            "page": "kfilemetadata/kfilemetadata-writer",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "WriterCollection",
+                    "WriterCollection()",
+                    "WriterCollection"
+                ],
+                [
+                    "fetchWriters",
+                    "fetchWriters(const QString &) const : QList<KFileMetaData::Writer *>",
+                    "fetchWriters"
+                ]
+            ],
+            "name": "KFileMetaData::WriterCollection",
+            "page": "kfilemetadata/kfilemetadata-writercollection",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "WriterPlugin",
+                    "WriterPlugin(QObject *)",
+                    "WriterPlugin"
+                ],
+                [
+                    "write",
+                    "write(const KFileMetaData::WriteData &)",
+                    "write"
+                ],
+                [
+                    "writeMimetypes",
+                    "writeMimetypes() const : QStringList",
+                    "writeMimetypes"
+                ]
+            ],
+            "name": "KFileMetaData::WriterPlugin",
+            "page": "kfilemetadata/kfilemetadata-writerplugin",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kfilemetadata",
+    "sections": [
+        {
+            "description": "Library for extracting the text and metadata from a number of different files.",
+            "page": "kfilemetadata/kfilemetadata-module",
+            "pages": [
+                [
+                    "kfilemetadata/kfilemetadata-module",
+                    "KFileMetaData C++ Classes"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-embeddedimagedata",
+                    "KFileMetaData::EmbeddedImageData"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-extractionresult",
+                    "KFileMetaData::ExtractionResult"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-extractor",
+                    "KFileMetaData::Extractor"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-extractorcollection",
+                    "KFileMetaData::ExtractorCollection"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-extractorplugin",
+                    "KFileMetaData::ExtractorPlugin"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-propertyinfo",
+                    "KFileMetaData::PropertyInfo"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-simpleextractionresult",
+                    "KFileMetaData::SimpleExtractionResult"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-typeinfo",
+                    "KFileMetaData::TypeInfo"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-usermetadata",
+                    "KFileMetaData::UserMetaData"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-writedata",
+                    "KFileMetaData::WriteData"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-writer",
+                    "KFileMetaData::Writer"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-writercollection",
+                    "KFileMetaData::WriterCollection"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-writerplugin",
+                    "KFileMetaData::WriterPlugin"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata",
+                    "KFileMetaData Namespace"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-index",
+                    "KFileMetaData"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-mimeutils",
+                    "KFileMetaData::MimeUtils Namespace"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-property",
+                    "KFileMetaData::Property Namespace"
+                ],
+                [
+                    "kfilemetadata/kfilemetadata-type",
+                    "KFileMetaData::Type Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KFileMetaData C++ Classes"
+        }
+    ]
+}

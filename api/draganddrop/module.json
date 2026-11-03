@@ -1,0 +1,39 @@
+{
+    "classes": [
+    ],
+    "module": "draganddrop",
+    "sections": [
+        {
+            "description": "QML helpers for Drag and Drop.",
+            "page": "draganddrop/org-kde-draganddrop-qmlmodule",
+            "pages": [
+                [
+                    "draganddrop/org-kde-draganddrop-qmlmodule",
+                    "DragAndDrop QML Types"
+                ],
+                [
+                    "draganddrop/qml-org-kde-draganddrop-dragarea",
+                    "DragArea"
+                ],
+                [
+                    "draganddrop/qml-org-kde-draganddrop-dragdropevent",
+                    "DragDropEvent"
+                ],
+                [
+                    "draganddrop/qml-org-kde-draganddrop-droparea",
+                    "DropArea"
+                ],
+                [
+                    "draganddrop/qml-org-kde-draganddrop-mimedata",
+                    "MimeData"
+                ],
+                [
+                    "draganddrop/qml-org-kde-draganddrop-mimedatawrapper",
+                    "MimeDataWrapper"
+                ]
+            ],
+            "qml": true,
+            "title": "DragAndDrop QML Types"
+        }
+    ]
+}

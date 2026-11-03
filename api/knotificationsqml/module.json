@@ -1,0 +1,39 @@
+{
+    "classes": [
+    ],
+    "module": "knotificationsqml",
+    "sections": [
+        {
+            "description": "Cross-platform Notification Library.",
+            "page": "knotificationsqml/org-kde-notifications-qmlmodule",
+            "pages": [
+                [
+                    "knotificationsqml/org-kde-notifications-qmlmodule",
+                    "KNotifications QML Types"
+                ],
+                [
+                    "knotificationsqml/qml-org-kde-notifications-notification",
+                    "Notification"
+                ],
+                [
+                    "knotificationsqml/qml-org-kde-notifications-notificationaction",
+                    "NotificationAction"
+                ],
+                [
+                    "knotificationsqml/qml-org-kde-notifications-notificationconfiguration",
+                    "NotificationConfiguration"
+                ],
+                [
+                    "knotificationsqml/qml-org-kde-notifications-notificationpermission",
+                    "NotificationPermission"
+                ],
+                [
+                    "knotificationsqml/qml-org-kde-notifications-notificationreplyaction",
+                    "NotificationReplyAction"
+                ]
+            ],
+            "qml": true,
+            "title": "KNotifications QML Types"
+        }
+    ]
+}

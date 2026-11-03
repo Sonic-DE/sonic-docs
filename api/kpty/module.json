@@ -1,0 +1,246 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KPty",
+                    "KPty()",
+                    "KPty"
+                ],
+                [
+                    "~KPty",
+                    "~KPty()",
+                    "dtor.KPty"
+                ],
+                [
+                    "close",
+                    "close()",
+                    "close"
+                ],
+                [
+                    "closeSlave",
+                    "closeSlave()",
+                    "closeSlave"
+                ],
+                [
+                    "login",
+                    "login(const char *, const char *)",
+                    "login"
+                ],
+                [
+                    "logout",
+                    "logout()",
+                    "logout"
+                ],
+                [
+                    "masterFd",
+                    "masterFd() const : int",
+                    "masterFd"
+                ],
+                [
+                    "open",
+                    "open() : bool",
+                    "open"
+                ],
+                [
+                    "open",
+                    "open(int) : bool",
+                    "open-1"
+                ],
+                [
+                    "openSlave",
+                    "openSlave() : bool",
+                    "openSlave"
+                ],
+                [
+                    "setCTty",
+                    "setCTty()",
+                    "setCTty"
+                ],
+                [
+                    "setCTtyEnabled",
+                    "setCTtyEnabled(bool)",
+                    "setCTtyEnabled"
+                ],
+                [
+                    "setEcho",
+                    "setEcho(bool) : bool",
+                    "setEcho"
+                ],
+                [
+                    "setWinSize",
+                    "setWinSize(int, int, int, int) : bool",
+                    "setWinSize"
+                ],
+                [
+                    "setWinSize",
+                    "setWinSize(int, int) : bool",
+                    "setWinSize-1"
+                ],
+                [
+                    "slaveFd",
+                    "slaveFd() const : int",
+                    "slaveFd"
+                ],
+                [
+                    "tcGetAttr",
+                    "tcGetAttr(struct termios *) const : bool",
+                    "tcGetAttr"
+                ],
+                [
+                    "tcSetAttr",
+                    "tcSetAttr(struct termios *) : bool",
+                    "tcSetAttr"
+                ],
+                [
+                    "ttyName",
+                    "ttyName() const : const char *",
+                    "ttyName"
+                ]
+            ],
+            "name": "KPty",
+            "page": "kpty/kpty",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kpty/kpty"
+            ],
+            "members": [
+                [
+                    "KPtyDevice",
+                    "KPtyDevice(QObject *)",
+                    "KPtyDevice"
+                ],
+                [
+                    "~KPtyDevice",
+                    "~KPtyDevice()",
+                    "dtor.KPtyDevice"
+                ],
+                [
+                    "close",
+                    "close()",
+                    "close"
+                ],
+                [
+                    "isSequential",
+                    "isSequential() const : bool",
+                    "isSequential"
+                ],
+                [
+                    "isSuspended",
+                    "isSuspended() const : bool",
+                    "isSuspended"
+                ],
+                [
+                    "open",
+                    "open(QIODeviceBase::OpenMode) : bool",
+                    "open"
+                ],
+                [
+                    "open",
+                    "open(int, QIODeviceBase::OpenMode) : bool",
+                    "open-1"
+                ],
+                [
+                    "readEof",
+                    "readEof()",
+                    "readEof"
+                ],
+                [
+                    "setSuspended",
+                    "setSuspended(bool)",
+                    "setSuspended"
+                ]
+            ],
+            "name": "KPtyDevice",
+            "page": "kpty/kptydevice",
+            "qtBases": [
+                [
+                    "QIODevice",
+                    "https://doc.qt.io/qt-6/qiodevice-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kprocess"
+            ],
+            "members": [
+                [
+                    "KPtyProcess",
+                    "KPtyProcess(QObject *)",
+                    "KPtyProcess"
+                ],
+                [
+                    "KPtyProcess",
+                    "KPtyProcess(int, QObject *)",
+                    "KPtyProcess-1"
+                ],
+                [
+                    "isUseUtmp",
+                    "isUseUtmp() const : bool",
+                    "isUseUtmp"
+                ],
+                [
+                    "pty",
+                    "pty() const : KPtyDevice *",
+                    "pty"
+                ],
+                [
+                    "ptyChannels",
+                    "ptyChannels() const : KPtyProcess::PtyChannels",
+                    "ptyChannels"
+                ],
+                [
+                    "setPtyChannels",
+                    "setPtyChannels(KPtyProcess::PtyChannels)",
+                    "setPtyChannels"
+                ],
+                [
+                    "setUseUtmp",
+                    "setUseUtmp(bool)",
+                    "setUseUtmp"
+                ]
+            ],
+            "name": "KPtyProcess",
+            "page": "kpty/kptyprocess",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kpty",
+    "sections": [
+        {
+            "description": "Interfacing with pseudo terminal devices.",
+            "page": "kpty/kpty-module",
+            "pages": [
+                [
+                    "kpty/kpty-module",
+                    "KPty C++ Classes"
+                ],
+                [
+                    "kpty/kpty",
+                    "KPty"
+                ],
+                [
+                    "kpty/kptydevice",
+                    "KPtyDevice"
+                ],
+                [
+                    "kpty/kptyprocess",
+                    "KPtyProcess"
+                ],
+                [
+                    "kpty/kpty-index",
+                    "KPty"
+                ]
+            ],
+            "qml": false,
+            "title": "KPty C++ Classes"
+        }
+    ]
+}

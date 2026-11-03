@@ -1,0 +1,27 @@
+{
+    "classes": [
+    ],
+    "module": "kirigamiaddonssounds",
+    "sections": [
+        {
+            "description": "QML types for listing and selecting notification sounds and ringtones.",
+            "page": "kirigamiaddonssounds/org-kde-kirigamiaddons-sounds-qmlmodule",
+            "pages": [
+                [
+                    "kirigamiaddonssounds/org-kde-kirigamiaddons-sounds-qmlmodule",
+                    "Kirigami Addons Sounds QML Types"
+                ],
+                [
+                    "kirigamiaddonssounds/qml-org-kde-kirigamiaddons-sounds-soundsmodel",
+                    "SoundsModel"
+                ],
+                [
+                    "kirigamiaddonssounds/qml-org-kde-kirigamiaddons-sounds-soundspicker",
+                    "SoundsPicker"
+                ]
+            ],
+            "qml": true,
+            "title": "Kirigami Addons Sounds QML Types"
+        }
+    ]
+}

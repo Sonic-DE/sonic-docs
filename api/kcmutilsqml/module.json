@@ -1,0 +1,75 @@
+{
+    "classes": [
+    ],
+    "module": "kcmutilsqml",
+    "sections": [
+        {
+            "description": "QML types for creating config modules.",
+            "page": "kcmutilsqml/org-kde-kcmutils-qmlmodule",
+            "pages": [
+                [
+                    "kcmutilsqml/org-kde-kcmutils-qmlmodule",
+                    "KCMUtils QML Types"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-abstractkcm",
+                    "AbstractKCM"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-contextualhelpbutton",
+                    "ContextualHelpButton"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-griddelegate",
+                    "GridDelegate"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-gridview",
+                    "GridView"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-gridviewkcm",
+                    "GridViewKCM"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-kcmlauncher",
+                    "KCMLauncher (Singleton)"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-plugindelegate",
+                    "PluginDelegate"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-pluginselector",
+                    "PluginSelector"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-scrollview",
+                    "ScrollView"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-scrollviewkcm",
+                    "ScrollViewKCM"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-settinghighlighter",
+                    "SettingHighlighter"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-settingstatebinding",
+                    "SettingStateBinding"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-settingstateproxy",
+                    "SettingStateProxy"
+                ],
+                [
+                    "kcmutilsqml/qml-org-kde-kcmutils-simplekcm",
+                    "SimpleKCM"
+                ]
+            ],
+            "qml": true,
+            "title": "KCMUtils QML Types"
+        }
+    ]
+}

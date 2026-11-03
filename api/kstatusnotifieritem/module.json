@@ -1,0 +1,291 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KStatusNotifierItem",
+                    "KStatusNotifierItem(QObject *)",
+                    "KStatusNotifierItem"
+                ],
+                [
+                    "KStatusNotifierItem",
+                    "KStatusNotifierItem(const QString &, QObject *)",
+                    "KStatusNotifierItem-1"
+                ],
+                [
+                    "abortQuit",
+                    "abortQuit()",
+                    "abortQuit"
+                ],
+                [
+                    "activate",
+                    "activate(const QPoint &)",
+                    "activate"
+                ],
+                [
+                    "activateRequested",
+                    "activateRequested(bool, const QPoint &)",
+                    "activateRequested"
+                ],
+                [
+                    "associatedWindow",
+                    "associatedWindow() const : QWindow *",
+                    "associatedWindow"
+                ],
+                [
+                    "attentionIconName",
+                    "attentionIconName() const : QString",
+                    "attentionIconName"
+                ],
+                [
+                    "attentionIconPixmap",
+                    "attentionIconPixmap() const : QIcon",
+                    "attentionIconPixmap"
+                ],
+                [
+                    "attentionMovieName",
+                    "attentionMovieName() const : QString",
+                    "attentionMovieName"
+                ],
+                [
+                    "category",
+                    "category() const : KStatusNotifierItem::ItemCategory",
+                    "category"
+                ],
+                [
+                    "contextMenu",
+                    "contextMenu() const : QMenu *",
+                    "contextMenu"
+                ],
+                [
+                    "hideAssociatedWindow",
+                    "hideAssociatedWindow()",
+                    "hideAssociatedWindow"
+                ],
+                [
+                    "iconName",
+                    "iconName() const : QString",
+                    "iconName"
+                ],
+                [
+                    "iconPixmap",
+                    "iconPixmap() const : QIcon",
+                    "iconPixmap"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isMenu",
+                    "isMenu() const : bool",
+                    "isMenu"
+                ],
+                [
+                    "overlayIconName",
+                    "overlayIconName() const : QString",
+                    "overlayIconName"
+                ],
+                [
+                    "overlayIconPixmap",
+                    "overlayIconPixmap() const : QIcon",
+                    "overlayIconPixmap"
+                ],
+                [
+                    "providedToken",
+                    "providedToken() const : QString",
+                    "providedToken"
+                ],
+                [
+                    "quitRequested",
+                    "quitRequested()",
+                    "quitRequested"
+                ],
+                [
+                    "scrollRequested",
+                    "scrollRequested(int, Qt::Orientation)",
+                    "scrollRequested"
+                ],
+                [
+                    "secondaryActivateRequested",
+                    "secondaryActivateRequested(const QPoint &)",
+                    "secondaryActivateRequested"
+                ],
+                [
+                    "setAssociatedWindow",
+                    "setAssociatedWindow(QWindow *)",
+                    "setAssociatedWindow"
+                ],
+                [
+                    "setAttentionIconByName",
+                    "setAttentionIconByName(const QString &)",
+                    "setAttentionIconByName"
+                ],
+                [
+                    "setAttentionIconByPixmap",
+                    "setAttentionIconByPixmap(const QIcon &)",
+                    "setAttentionIconByPixmap"
+                ],
+                [
+                    "setAttentionMovieByName",
+                    "setAttentionMovieByName(const QString &)",
+                    "setAttentionMovieByName"
+                ],
+                [
+                    "setCategory",
+                    "setCategory(const KStatusNotifierItem::ItemCategory)",
+                    "setCategory"
+                ],
+                [
+                    "setContextMenu",
+                    "setContextMenu(QMenu *)",
+                    "setContextMenu"
+                ],
+                [
+                    "setIconByName",
+                    "setIconByName(const QString &)",
+                    "setIconByName"
+                ],
+                [
+                    "setIconByPixmap",
+                    "setIconByPixmap(const QIcon &)",
+                    "setIconByPixmap"
+                ],
+                [
+                    "setIsMenu",
+                    "setIsMenu(bool)",
+                    "setIsMenu"
+                ],
+                [
+                    "setOverlayIconByName",
+                    "setOverlayIconByName(const QString &)",
+                    "setOverlayIconByName"
+                ],
+                [
+                    "setOverlayIconByPixmap",
+                    "setOverlayIconByPixmap(const QIcon &)",
+                    "setOverlayIconByPixmap"
+                ],
+                [
+                    "setStandardActionsEnabled",
+                    "setStandardActionsEnabled(bool)",
+                    "setStandardActionsEnabled"
+                ],
+                [
+                    "setStatus",
+                    "setStatus(const KStatusNotifierItem::ItemStatus)",
+                    "setStatus"
+                ],
+                [
+                    "setTitle",
+                    "setTitle(const QString &)",
+                    "setTitle"
+                ],
+                [
+                    "setToolTip",
+                    "setToolTip(const QString &, const QString &, const QString &)",
+                    "setToolTip"
+                ],
+                [
+                    "setToolTip",
+                    "setToolTip(const QIcon &, const QString &, const QString &)",
+                    "setToolTip-1"
+                ],
+                [
+                    "setToolTipIconByName",
+                    "setToolTipIconByName(const QString &)",
+                    "setToolTipIconByName"
+                ],
+                [
+                    "setToolTipIconByPixmap",
+                    "setToolTipIconByPixmap(const QIcon &)",
+                    "setToolTipIconByPixmap"
+                ],
+                [
+                    "setToolTipSubTitle",
+                    "setToolTipSubTitle(const QString &)",
+                    "setToolTipSubTitle"
+                ],
+                [
+                    "setToolTipTitle",
+                    "setToolTipTitle(const QString &)",
+                    "setToolTipTitle"
+                ],
+                [
+                    "showMessage",
+                    "showMessage(const QString &, const QString &, const QString &, int)",
+                    "showMessage"
+                ],
+                [
+                    "standardActionsEnabled",
+                    "standardActionsEnabled() const : bool",
+                    "standardActionsEnabled"
+                ],
+                [
+                    "status",
+                    "status() const : KStatusNotifierItem::ItemStatus",
+                    "status"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "toolTipIconName",
+                    "toolTipIconName() const : QString",
+                    "toolTipIconName"
+                ],
+                [
+                    "toolTipIconPixmap",
+                    "toolTipIconPixmap() const : QIcon",
+                    "toolTipIconPixmap"
+                ],
+                [
+                    "toolTipSubTitle",
+                    "toolTipSubTitle() const : QString",
+                    "toolTipSubTitle"
+                ],
+                [
+                    "toolTipTitle",
+                    "toolTipTitle() const : QString",
+                    "toolTipTitle"
+                ]
+            ],
+            "name": "KStatusNotifierItem",
+            "page": "kstatusnotifieritem/kstatusnotifieritem",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kstatusnotifieritem",
+    "sections": [
+        {
+            "description": "Components to make a tray icon available over D-Bus.",
+            "page": "kstatusnotifieritem/kstatusnotifieritem-module",
+            "pages": [
+                [
+                    "kstatusnotifieritem/kstatusnotifieritem-module",
+                    "KStatusNotifierItem C++ Classes"
+                ],
+                [
+                    "kstatusnotifieritem/kstatusnotifieritem",
+                    "KStatusNotifierItem"
+                ],
+                [
+                    "kstatusnotifieritem/kstatusnotifieritem-index",
+                    "KStatusNotifierItem"
+                ]
+            ],
+            "qml": false,
+            "title": "KStatusNotifierItem C++ Classes"
+        }
+    ]
+}

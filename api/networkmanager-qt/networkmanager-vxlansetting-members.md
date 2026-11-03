@@ -1,0 +1,58 @@
+---
+title: "List of All Members for NetworkManager::VxlanSetting"
+description: "Every member of NetworkManager::VxlanSetting, including inherited members."
+parent: "networkmanager-qt/networkmanager-vxlansetting"
+---
+
+# List of All Members for NetworkManager::VxlanSetting
+
+This is the complete list of members for [NetworkManager::VxlanSetting](networkmanager-vxlansetting.md), including inherited members.
+
+- [VxlanSetting()](networkmanager-vxlansetting.md#VxlanSetting)
+- [VxlanSetting(const NetworkManager::VxlanSetting::Ptr &)](networkmanager-vxlansetting.md#VxlanSetting-1)
+- [ageing() const : quint32](networkmanager-vxlansetting.md#ageing)
+- [destinationPort() const : quint32](networkmanager-vxlansetting.md#destinationPort)
+- [fromMap(const QVariantMap &)](networkmanager-setting.md#fromMap)
+- [id() const : quint32](networkmanager-vxlansetting.md#id)
+- [isNull() const : bool](networkmanager-setting.md#isNull)
+- [l2Miss() const : bool](networkmanager-vxlansetting.md#l2Miss)
+- [l3Miss() const : bool](networkmanager-vxlansetting.md#l3Miss)
+- [learning() const : bool](networkmanager-vxlansetting.md#learning)
+- [limit() const : quint32](networkmanager-vxlansetting.md#limit)
+- [local() const : QString](networkmanager-vxlansetting.md#local)
+- [name() const : QString](networkmanager-setting.md#name)
+- [needSecrets(bool) const : QStringList](networkmanager-setting.md#needSecrets)
+- [parent() const : QString](networkmanager-vxlansetting.md#parent)
+- [proxy() const : bool](networkmanager-vxlansetting.md#proxy)
+- [remote() const : QString](networkmanager-vxlansetting.md#remote)
+- [rsc() const : bool](networkmanager-vxlansetting.md#rsc)
+- [secretsFromMap(const QVariantMap &)](networkmanager-setting.md#secretsFromMap)
+- [secretsFromStringMap(const NMStringMap &)](networkmanager-setting.md#secretsFromStringMap)
+- [secretsToMap() const : QVariantMap](networkmanager-setting.md#secretsToMap)
+- [secretsToStringMap() const : NMStringMap](networkmanager-setting.md#secretsToStringMap)
+- [setAgeing(quint32)](networkmanager-vxlansetting.md#setAgeing)
+- [setDestinationPort(quint32)](networkmanager-vxlansetting.md#setDestinationPort)
+- [setId(quint32)](networkmanager-vxlansetting.md#setId)
+- [setInitialized(bool)](networkmanager-setting.md#setInitialized)
+- [setL2Miss(bool)](networkmanager-vxlansetting.md#setL2Miss)
+- [setL3Miss(bool)](networkmanager-vxlansetting.md#setL3Miss)
+- [setLearning(bool)](networkmanager-vxlansetting.md#setLearning)
+- [setLimit(quint32)](networkmanager-vxlansetting.md#setLimit)
+- [setLocal(QString)](networkmanager-vxlansetting.md#setLocal)
+- [setParent(QString)](networkmanager-vxlansetting.md#setParent)
+- [setProxy(bool)](networkmanager-vxlansetting.md#setProxy)
+- [setRemote(QString)](networkmanager-vxlansetting.md#setRemote)
+- [setRsc(bool)](networkmanager-vxlansetting.md#setRsc)
+- [setSourcePortMax(quint32)](networkmanager-vxlansetting.md#setSourcePortMax)
+- [setSourcePortMin(quint32)](networkmanager-vxlansetting.md#setSourcePortMin)
+- [setTos(quint32)](networkmanager-vxlansetting.md#setTos)
+- [setTtl(quint32)](networkmanager-vxlansetting.md#setTtl)
+- [setType(NetworkManager::Setting::SettingType)](networkmanager-setting.md#setType)
+- [sourcePortMax() const : quint32](networkmanager-vxlansetting.md#sourcePortMax)
+- [sourcePortMin() const : quint32](networkmanager-vxlansetting.md#sourcePortMin)
+- [toMap() const : QVariantMap](networkmanager-setting.md#toMap)
+- [tos() const : quint32](networkmanager-vxlansetting.md#tos)
+- [ttl() const : quint32](networkmanager-vxlansetting.md#ttl)
+- [type() const : NetworkManager::Setting::SettingType](networkmanager-setting.md#type)
+- [typeAsString(NetworkManager::Setting::SettingType) : QString](networkmanager-setting.md#typeAsString)
+- [typeFromString(const QString &) : NetworkManager::Setting::SettingType](networkmanager-setting.md#typeFromString)

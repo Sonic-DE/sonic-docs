@@ -41,7 +41,7 @@ Load the configuration for an application stored in `~/.config/appname/appnamerc
 KSharedConfigPtr config = KSharedConfig::openConfig("appnamerc", KConfig::SimpleConfig, QStandardPaths::AppConfigLocation);
 ```
 
-The `appname` should match the name set via [QCoreApplication::setApplicationName](https://doc.qt.io/qt-6/qcoreapplication.html#applicationName-prop) or the component argument of KAboutData::KAboutData.
+The `appname` should match the name set via [QCoreApplication::setApplicationName](https://doc.qt.io/qt-6/qcoreapplication.html#applicationName-prop) or the component argument of [KAboutData::KAboutData](../kcoreaddons/kaboutdata.md).
 
 Load the configuration for an application `~/.config/appnamerc`:
 
@@ -69,7 +69,7 @@ A pointer to a [KSharedConfig](ksharedconfig.md) object.
 
 Creates a [KSharedConfig](ksharedconfig.md) object to manipulate a configuration file.
 
-If an absolute path is specified for `fileName`, that file will be used as the store for the configuration settings. If a non-absolute path is provided, the file will be looked for in the standard directory specified by `type`. If no path is provided, a default configuration file will be used based on the name of the main application component as defined in [QCoreApplication::setApplicationName](https://doc.qt.io/qt-6/qcoreapplication.html#applicationName-prop) or the component name of KAboutData::KAboutData, plus rc. For example: "appnamerc".
+If an absolute path is specified for `fileName`, that file will be used as the store for the configuration settings. If a non-absolute path is provided, the file will be looked for in the standard directory specified by `type`. If no path is provided, a default configuration file will be used based on the name of the main application component as defined in [QCoreApplication::setApplicationName](https://doc.qt.io/qt-6/qcoreapplication.html#applicationName-prop) or the component name of [KAboutData::KAboutData](../kcoreaddons/kaboutdata.md), plus rc. For example: "appnamerc".
 
 The `mode` determines whether the user or global settings will be allowed to influence the values returned by this object.
 
@@ -79,7 +79,7 @@ The `mode` determines whether the user or global settings will be allowed to inf
 
 Creates a [KSharedConfig](ksharedconfig.md) object to manipulate a configuration file suitable for storing state information. Use this for storing information that is changing frequently and should not be saved by configuration backup utilities.
 
-If an absolute path is specified for `fileName`, that file will be used as the store for the configuration settings. If a non-absolute path is provided, the file will be looked for in the standard state directory ([QStandardPaths::GenericStateLocation](https://doc.qt.io/qt-6/qstandardpaths.html#StandardLocation-enum)). If no path is provided, a default configuration file will be used based on the name of the main application component as defined in [QCoreApplication::setApplicationName](https://doc.qt.io/qt-6/qcoreapplication.html#applicationName-prop) or the component name of KAboutData::KAboutData, plus rc. For example: "appnamerc".
+If an absolute path is specified for `fileName`, that file will be used as the store for the configuration settings. If a non-absolute path is provided, the file will be looked for in the standard state directory ([QStandardPaths::GenericStateLocation](https://doc.qt.io/qt-6/qstandardpaths.html#StandardLocation-enum)). If no path is provided, a default configuration file will be used based on the name of the main application component as defined in [QCoreApplication::setApplicationName](https://doc.qt.io/qt-6/qcoreapplication.html#applicationName-prop) or the component name of [KAboutData::KAboutData](../kcoreaddons/kaboutdata.md), plus rc. For example: "appnamerc".
 
 *See also* [KConfig](kconfig-index.md)
 

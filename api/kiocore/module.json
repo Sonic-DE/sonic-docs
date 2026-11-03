@@ -1,0 +1,3969 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KACL",
+                    "KACL()",
+                    "KACL"
+                ],
+                [
+                    "KACL",
+                    "KACL(const QString &)",
+                    "KACL-2"
+                ],
+                [
+                    "KACL",
+                    "KACL(mode_t)",
+                    "KACL-3"
+                ],
+                [
+                    "KACL",
+                    "KACL(const KACL &)",
+                    "KACL-1"
+                ],
+                [
+                    "allGroupPermissions",
+                    "allGroupPermissions() const : ACLGroupPermissionsList",
+                    "allGroupPermissions"
+                ],
+                [
+                    "allUserPermissions",
+                    "allUserPermissions() const : ACLUserPermissionsList",
+                    "allUserPermissions"
+                ],
+                [
+                    "asString",
+                    "asString() const : QString",
+                    "asString"
+                ],
+                [
+                    "basePermissions",
+                    "basePermissions() const : mode_t",
+                    "basePermissions"
+                ],
+                [
+                    "isExtended",
+                    "isExtended() const : bool",
+                    "isExtended"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "maskPermissions",
+                    "maskPermissions(bool &) const : unsigned short",
+                    "maskPermissions"
+                ],
+                [
+                    "namedGroupPermissions",
+                    "namedGroupPermissions(const QString &, bool *) const : unsigned short",
+                    "namedGroupPermissions"
+                ],
+                [
+                    "namedUserPermissions",
+                    "namedUserPermissions(const QString &, bool *) const : unsigned short",
+                    "namedUserPermissions"
+                ],
+                [
+                    "othersPermissions",
+                    "othersPermissions() const : unsigned short",
+                    "othersPermissions"
+                ],
+                [
+                    "ownerPermissions",
+                    "ownerPermissions() const : unsigned short",
+                    "ownerPermissions"
+                ],
+                [
+                    "owningGroupPermissions",
+                    "owningGroupPermissions() const : unsigned short",
+                    "owningGroupPermissions"
+                ],
+                [
+                    "setACL",
+                    "setACL(const QString &) : bool",
+                    "setACL"
+                ],
+                [
+                    "setAllGroupPermissions",
+                    "setAllGroupPermissions(const ACLGroupPermissionsList &) : bool",
+                    "setAllGroupPermissions"
+                ],
+                [
+                    "setAllUserPermissions",
+                    "setAllUserPermissions(const ACLUserPermissionsList &) : bool",
+                    "setAllUserPermissions"
+                ],
+                [
+                    "setMaskPermissions",
+                    "setMaskPermissions() : bool",
+                    "setMaskPermissions"
+                ],
+                [
+                    "setNamedGroupPermissions",
+                    "setNamedGroupPermissions(const QString &) : bool",
+                    "setNamedGroupPermissions"
+                ],
+                [
+                    "setNamedUserPermissions",
+                    "setNamedUserPermissions(const QString &) : bool",
+                    "setNamedUserPermissions"
+                ],
+                [
+                    "setOthersPermissions",
+                    "setOthersPermissions() : bool",
+                    "setOthersPermissions"
+                ],
+                [
+                    "setOwnerPermissions",
+                    "setOwnerPermissions() : bool",
+                    "setOwnerPermissions"
+                ],
+                [
+                    "setOwningGroupPermissions",
+                    "setOwningGroupPermissions() : bool",
+                    "setOwningGroupPermissions"
+                ]
+            ],
+            "name": "KACL",
+            "page": "kiocore/kacl",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "autoErrorHandlingEnabled",
+                    "autoErrorHandlingEnabled : bool",
+                    "autoErrorHandlingEnabled-prop"
+                ],
+                [
+                    "autoUpdate",
+                    "autoUpdate : bool",
+                    "autoUpdate-prop"
+                ],
+                [
+                    "delayedMimeTypes",
+                    "delayedMimeTypes : bool",
+                    "delayedMimeTypes-prop"
+                ],
+                [
+                    "dirOnlyMode",
+                    "dirOnlyMode : bool",
+                    "dirOnlyMode-prop"
+                ],
+                [
+                    "mimeFilter",
+                    "mimeFilter : QStringList",
+                    "mimeFilter-prop"
+                ],
+                [
+                    "nameFilter",
+                    "nameFilter : QString",
+                    "nameFilter-prop"
+                ],
+                [
+                    "requestMimeTypeWhileListing",
+                    "requestMimeTypeWhileListing : bool",
+                    "requestMimeTypeWhileListing-prop"
+                ],
+                [
+                    "showHiddenFiles",
+                    "showHiddenFiles : bool",
+                    "showHiddenFiles-prop"
+                ],
+                [
+                    "KCoreDirLister",
+                    "KCoreDirLister(QObject *)",
+                    "KCoreDirLister"
+                ],
+                [
+                    "autoErrorHandlingEnabled",
+                    "autoErrorHandlingEnabled() const : bool",
+                    "autoErrorHandlingEnabled"
+                ],
+                [
+                    "autoUpdate",
+                    "autoUpdate() const : bool",
+                    "autoUpdate"
+                ],
+                [
+                    "cachedItemForUrl",
+                    "cachedItemForUrl(const QUrl &) : KFileItem",
+                    "cachedItemForUrl"
+                ],
+                [
+                    "canceled",
+                    "canceled()",
+                    "canceled"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "clearDir",
+                    "clearDir(const QUrl &)",
+                    "clearDir"
+                ],
+                [
+                    "clearMimeFilter",
+                    "clearMimeFilter()",
+                    "clearMimeFilter"
+                ],
+                [
+                    "completed",
+                    "completed()",
+                    "completed"
+                ],
+                [
+                    "delayedMimeTypes",
+                    "delayedMimeTypes() const : bool",
+                    "delayedMimeTypes"
+                ],
+                [
+                    "dirOnlyMode",
+                    "dirOnlyMode() const : bool",
+                    "dirOnlyMode"
+                ],
+                [
+                    "directories",
+                    "directories() const : QList<QUrl>",
+                    "directories"
+                ],
+                [
+                    "emitChanges",
+                    "emitChanges()",
+                    "emitChanges"
+                ],
+                [
+                    "findByName",
+                    "findByName(const QString &) const : KFileItem",
+                    "findByName"
+                ],
+                [
+                    "findByUrl",
+                    "findByUrl(const QUrl &) const : KFileItem",
+                    "findByUrl"
+                ],
+                [
+                    "forgetDirs",
+                    "forgetDirs(const QUrl &)",
+                    "forgetDirs"
+                ],
+                [
+                    "infoMessage",
+                    "infoMessage(const QString &)",
+                    "infoMessage"
+                ],
+                [
+                    "isFinished",
+                    "isFinished() const : bool",
+                    "isFinished"
+                ],
+                [
+                    "items",
+                    "items(KCoreDirLister::WhichItems) const : KFileItemList",
+                    "items"
+                ],
+                [
+                    "itemsAdded",
+                    "itemsAdded(const QUrl &, const KFileItemList &)",
+                    "itemsAdded"
+                ],
+                [
+                    "itemsDeleted",
+                    "itemsDeleted(const KFileItemList &)",
+                    "itemsDeleted"
+                ],
+                [
+                    "itemsFilteredByMime",
+                    "itemsFilteredByMime(const KFileItemList &)",
+                    "itemsFilteredByMime"
+                ],
+                [
+                    "itemsForDir",
+                    "itemsForDir(const QUrl &, KCoreDirLister::WhichItems) const : KFileItemList",
+                    "itemsForDir"
+                ],
+                [
+                    "jobError",
+                    "jobError(KIO::Job *)",
+                    "jobError"
+                ],
+                [
+                    "jobStarted",
+                    "jobStarted()",
+                    "jobStarted"
+                ],
+                [
+                    "listingDirCanceled",
+                    "listingDirCanceled(const QUrl &)",
+                    "listingDirCanceled"
+                ],
+                [
+                    "listingDirCompleted",
+                    "listingDirCompleted(const QUrl &)",
+                    "listingDirCompleted"
+                ],
+                [
+                    "mimeFilters",
+                    "mimeFilters() const : QStringList",
+                    "mimeFilters"
+                ],
+                [
+                    "nameFilter",
+                    "nameFilter() const : QString",
+                    "nameFilter"
+                ],
+                [
+                    "newItems",
+                    "newItems(const KFileItemList &)",
+                    "newItems"
+                ],
+                [
+                    "openUrl",
+                    "openUrl(const QUrl &, KCoreDirLister::OpenUrlFlags) : bool",
+                    "openUrl"
+                ],
+                [
+                    "percent",
+                    "percent(int)",
+                    "percent"
+                ],
+                [
+                    "processedSize",
+                    "processedSize(KIO::filesize_t)",
+                    "processedSize"
+                ],
+                [
+                    "quickFilterMode",
+                    "quickFilterMode() const : bool",
+                    "quickFilterMode"
+                ],
+                [
+                    "redirection",
+                    "redirection(const QUrl &, const QUrl &)",
+                    "redirection"
+                ],
+                [
+                    "refreshItems",
+                    "refreshItems(const QList<QPair<KFileItem, KFileItem>> &)",
+                    "refreshItems"
+                ],
+                [
+                    "requestMimeTypeWhileListing",
+                    "requestMimeTypeWhileListing() const : bool",
+                    "requestMimeTypeWhileListing"
+                ],
+                [
+                    "rootItem",
+                    "rootItem() const : KFileItem",
+                    "rootItem"
+                ],
+                [
+                    "setAutoErrorHandlingEnabled",
+                    "setAutoErrorHandlingEnabled(bool)",
+                    "setAutoErrorHandlingEnabled"
+                ],
+                [
+                    "setAutoUpdate",
+                    "setAutoUpdate(bool)",
+                    "setAutoUpdate"
+                ],
+                [
+                    "setDelayedMimeTypes",
+                    "setDelayedMimeTypes(bool)",
+                    "setDelayedMimeTypes"
+                ],
+                [
+                    "setDirOnlyMode",
+                    "setDirOnlyMode(bool)",
+                    "setDirOnlyMode"
+                ],
+                [
+                    "setMimeExcludeFilter",
+                    "setMimeExcludeFilter(const QStringList &)",
+                    "setMimeExcludeFilter"
+                ],
+                [
+                    "setMimeFilter",
+                    "setMimeFilter(const QStringList &)",
+                    "setMimeFilter"
+                ],
+                [
+                    "setNameFilter",
+                    "setNameFilter(const QString &)",
+                    "setNameFilter"
+                ],
+                [
+                    "setQuickFilterMode",
+                    "setQuickFilterMode(bool)",
+                    "setQuickFilterMode"
+                ],
+                [
+                    "setRequestMimeTypeWhileListing",
+                    "setRequestMimeTypeWhileListing(bool)",
+                    "setRequestMimeTypeWhileListing"
+                ],
+                [
+                    "setShowHiddenFiles",
+                    "setShowHiddenFiles(bool)",
+                    "setShowHiddenFiles"
+                ],
+                [
+                    "showHiddenFiles",
+                    "showHiddenFiles() const : bool",
+                    "showHiddenFiles"
+                ],
+                [
+                    "speed",
+                    "speed(int)",
+                    "speed"
+                ],
+                [
+                    "started",
+                    "started(const QUrl &)",
+                    "started"
+                ],
+                [
+                    "stop",
+                    "stop()",
+                    "stop"
+                ],
+                [
+                    "stop",
+                    "stop(const QUrl &)",
+                    "stop-1"
+                ],
+                [
+                    "totalSize",
+                    "totalSize(KIO::filesize_t)",
+                    "totalSize"
+                ],
+                [
+                    "updateDirectory",
+                    "updateDirectory(const QUrl &)",
+                    "updateDirectory"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ]
+            ],
+            "name": "KCoreDirLister",
+            "page": "kiocore/kcoredirlister",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFileFilter",
+                    "KFileFilter()",
+                    "KFileFilter"
+                ],
+                [
+                    "KFileFilter",
+                    "KFileFilter(const QString &, const QStringList &, const QStringList &)",
+                    "KFileFilter-1"
+                ],
+                [
+                    "filePatterns",
+                    "filePatterns() const : QStringList",
+                    "filePatterns"
+                ],
+                [
+                    "fromMimeType",
+                    "fromMimeType(const QString &) : KFileFilter",
+                    "fromMimeType"
+                ],
+                [
+                    "fromMimeTypes",
+                    "fromMimeTypes(const QStringList &) : QList<KFileFilter>",
+                    "fromMimeTypes"
+                ],
+                [
+                    "isEmpty",
+                    "isEmpty() const : bool",
+                    "isEmpty"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "label",
+                    "label() const : QString",
+                    "label"
+                ],
+                [
+                    "mimePatterns",
+                    "mimePatterns() const : QStringList",
+                    "mimePatterns"
+                ],
+                [
+                    "toFilterString",
+                    "toFilterString() const : QString",
+                    "toFilterString"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KFileFilter &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KFileFilter",
+            "page": "kiocore/kfilefilter",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "comment",
+                    "comment : QString",
+                    "comment-prop"
+                ],
+                [
+                    "currentMimeType",
+                    "currentMimeType : QMimeType",
+                    "currentMimeType-prop"
+                ],
+                [
+                    "determineMimeType",
+                    "determineMimeType : QMimeType",
+                    "determineMimeType-prop"
+                ],
+                [
+                    "getStatusBarInfo",
+                    "getStatusBarInfo : QString",
+                    "getStatusBarInfo-prop"
+                ],
+                [
+                    "group",
+                    "group : QString",
+                    "group-prop"
+                ],
+                [
+                    "iconName",
+                    "iconName : QString",
+                    "iconName-prop"
+                ],
+                [
+                    "isDesktopFile",
+                    "isDesktopFile : bool",
+                    "isDesktopFile-prop"
+                ],
+                [
+                    "isDir",
+                    "isDir : bool",
+                    "isDir-prop"
+                ],
+                [
+                    "isFile",
+                    "isFile : bool",
+                    "isFile-prop"
+                ],
+                [
+                    "isFinalIconKnown",
+                    "isFinalIconKnown : bool",
+                    "isFinalIconKnown-prop"
+                ],
+                [
+                    "isHidden",
+                    "isHidden : bool",
+                    "isHidden-prop"
+                ],
+                [
+                    "isLink",
+                    "isLink : bool",
+                    "isLink-prop"
+                ],
+                [
+                    "isLocalFile",
+                    "isLocalFile : bool",
+                    "isLocalFile-prop"
+                ],
+                [
+                    "isMimeTypeKnown",
+                    "isMimeTypeKnown : bool",
+                    "isMimeTypeKnown-prop"
+                ],
+                [
+                    "isReadable",
+                    "isReadable : bool",
+                    "isReadable-prop"
+                ],
+                [
+                    "isRegularFile",
+                    "isRegularFile : bool",
+                    "isRegularFile-prop"
+                ],
+                [
+                    "isSlow",
+                    "isSlow : bool",
+                    "isSlow-prop"
+                ],
+                [
+                    "isWritable",
+                    "isWritable : bool",
+                    "isWritable-prop"
+                ],
+                [
+                    "linkDest",
+                    "linkDest : QString",
+                    "linkDest-prop"
+                ],
+                [
+                    "localPath",
+                    "localPath : QString",
+                    "localPath-prop"
+                ],
+                [
+                    "mimeComment",
+                    "mimeComment : QString",
+                    "mimeComment-prop"
+                ],
+                [
+                    "mimetype",
+                    "mimetype : QString",
+                    "mimetype-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "overlays",
+                    "overlays : QStringList",
+                    "overlays-prop"
+                ],
+                [
+                    "targetUrl",
+                    "targetUrl : QUrl",
+                    "targetUrl-prop"
+                ],
+                [
+                    "text",
+                    "text : QString",
+                    "text-prop"
+                ],
+                [
+                    "url",
+                    "url : QUrl",
+                    "url-prop"
+                ],
+                [
+                    "user",
+                    "user : QString",
+                    "user-prop"
+                ],
+                [
+                    "KFileItem",
+                    "KFileItem()",
+                    "KFileItem"
+                ],
+                [
+                    "KFileItem",
+                    "KFileItem(const QUrl &, KFileItem::MimeTypeDetermination)",
+                    "KFileItem-2"
+                ],
+                [
+                    "KFileItem",
+                    "KFileItem(const QUrl &, const QString &, mode_t)",
+                    "KFileItem-3"
+                ],
+                [
+                    "KFileItem",
+                    "KFileItem(const KIO::UDSEntry &, const QUrl &, bool, bool)",
+                    "KFileItem-4"
+                ],
+                [
+                    "KFileItem",
+                    "KFileItem()",
+                    "KFileItem-1"
+                ],
+                [
+                    "ACL",
+                    "ACL() const : KACL",
+                    "ACL"
+                ],
+                [
+                    "cmp",
+                    "cmp(const KFileItem &) const : bool",
+                    "cmp"
+                ],
+                [
+                    "comment",
+                    "comment() const : QString",
+                    "comment"
+                ],
+                [
+                    "currentMimeType",
+                    "currentMimeType() const : QMimeType",
+                    "currentMimeType"
+                ],
+                [
+                    "defaultACL",
+                    "defaultACL() const : KACL",
+                    "defaultACL"
+                ],
+                [
+                    "determineMimeType",
+                    "determineMimeType() const : QMimeType",
+                    "determineMimeType"
+                ],
+                [
+                    "entry",
+                    "entry() const : KIO::UDSEntry",
+                    "entry"
+                ],
+                [
+                    "exists",
+                    "exists() const : bool",
+                    "exists"
+                ],
+                [
+                    "getStatusBarInfo",
+                    "getStatusBarInfo() const : QString",
+                    "getStatusBarInfo"
+                ],
+                [
+                    "group",
+                    "group() const : QString",
+                    "group"
+                ],
+                [
+                    "groupId",
+                    "groupId() const : int",
+                    "groupId"
+                ],
+                [
+                    "hasExtendedACL",
+                    "hasExtendedACL() const : bool",
+                    "hasExtendedACL"
+                ],
+                [
+                    "iconName",
+                    "iconName() const : QString",
+                    "iconName"
+                ],
+                [
+                    "isDesktopFile",
+                    "isDesktopFile() const : bool",
+                    "isDesktopFile"
+                ],
+                [
+                    "isDir",
+                    "isDir() const : bool",
+                    "isDir"
+                ],
+                [
+                    "isExecutable",
+                    "isExecutable() const : bool",
+                    "isExecutable"
+                ],
+                [
+                    "isFile",
+                    "isFile() const : bool",
+                    "isFile"
+                ],
+                [
+                    "isFinalIconKnown",
+                    "isFinalIconKnown() const : bool",
+                    "isFinalIconKnown"
+                ],
+                [
+                    "isHidden",
+                    "isHidden() const : bool",
+                    "isHidden"
+                ],
+                [
+                    "isLink",
+                    "isLink() const : bool",
+                    "isLink"
+                ],
+                [
+                    "isLocalFile",
+                    "isLocalFile() const : bool",
+                    "isLocalFile"
+                ],
+                [
+                    "isMimeTypeKnown",
+                    "isMimeTypeKnown() const : bool",
+                    "isMimeTypeKnown"
+                ],
+                [
+                    "isMostLocalUrl",
+                    "isMostLocalUrl() const : KFileItem::MostLocalUrlResult",
+                    "isMostLocalUrl"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "isReadable",
+                    "isReadable() const : bool",
+                    "isReadable"
+                ],
+                [
+                    "isRegularFile",
+                    "isRegularFile() const : bool",
+                    "isRegularFile"
+                ],
+                [
+                    "isSlow",
+                    "isSlow() const : bool",
+                    "isSlow"
+                ],
+                [
+                    "isWritable",
+                    "isWritable() const : bool",
+                    "isWritable"
+                ],
+                [
+                    "linkDest",
+                    "linkDest() const : QString",
+                    "linkDest"
+                ],
+                [
+                    "localPath",
+                    "localPath() const : QString",
+                    "localPath"
+                ],
+                [
+                    "mimeComment",
+                    "mimeComment() const : QString",
+                    "mimeComment"
+                ],
+                [
+                    "mimetype",
+                    "mimetype() const : QString",
+                    "mimetype"
+                ],
+                [
+                    "mode",
+                    "mode() const : mode_t",
+                    "mode"
+                ],
+                [
+                    "mostLocalUrl",
+                    "mostLocalUrl(bool *) const : QUrl",
+                    "mostLocalUrl"
+                ],
+                [
+                    "name",
+                    "name(bool) const : QString",
+                    "name"
+                ],
+                [
+                    "overlays",
+                    "overlays() const : QStringList",
+                    "overlays"
+                ],
+                [
+                    "permissions",
+                    "permissions() const : mode_t",
+                    "permissions"
+                ],
+                [
+                    "permissionsString",
+                    "permissionsString() const : QString",
+                    "permissionsString"
+                ],
+                [
+                    "recursiveSize",
+                    "recursiveSize() const : KIO::filesize_t",
+                    "recursiveSize"
+                ],
+                [
+                    "refresh",
+                    "refresh()",
+                    "refresh"
+                ],
+                [
+                    "refreshMimeType",
+                    "refreshMimeType()",
+                    "refreshMimeType"
+                ],
+                [
+                    "setDelayedMimeTypes",
+                    "setDelayedMimeTypes(bool)",
+                    "setDelayedMimeTypes"
+                ],
+                [
+                    "setLocalPath",
+                    "setLocalPath(const QString &)",
+                    "setLocalPath"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &)",
+                    "setUrl"
+                ],
+                [
+                    "size",
+                    "size() const : KIO::filesize_t",
+                    "size"
+                ],
+                [
+                    "suffix",
+                    "suffix() const : QString",
+                    "suffix"
+                ],
+                [
+                    "targetUrl",
+                    "targetUrl() const : QUrl",
+                    "targetUrl"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "time",
+                    "time(KFileItem::FileTimes) const : QDateTime",
+                    "time"
+                ],
+                [
+                    "timeString",
+                    "timeString(KFileItem::FileTimes) const : QString",
+                    "timeString"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ],
+                [
+                    "user",
+                    "user() const : QString",
+                    "user"
+                ],
+                [
+                    "userId",
+                    "userId() const : int",
+                    "userId"
+                ],
+                [
+                    "operator QVariant",
+                    "operator QVariant() const",
+                    "operator-QVariant"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KFileItem &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator<",
+                    "operator<(const KFileItem &) const : bool",
+                    "operator-lt"
+                ],
+                [
+                    "operator<",
+                    "operator<(const QUrl &) const : bool",
+                    "operator-lt-1"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KFileItem &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KFileItem",
+            "page": "kiocore/kfileitem",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFileItemList",
+                    "KFileItemList()",
+                    "KFileItemList"
+                ],
+                [
+                    "KFileItemList",
+                    "KFileItemList(const QList<KFileItem> &)",
+                    "KFileItemList-1"
+                ],
+                [
+                    "KFileItemList",
+                    "KFileItemList(std::initializer_list<KFileItem>)",
+                    "KFileItemList-2"
+                ],
+                [
+                    "findByName",
+                    "findByName(const QString &) const : KFileItem",
+                    "findByName"
+                ],
+                [
+                    "findByUrl",
+                    "findByUrl(const QUrl &) const : KFileItem",
+                    "findByUrl"
+                ],
+                [
+                    "targetUrlList",
+                    "targetUrlList() const : QList<QUrl>",
+                    "targetUrlList"
+                ],
+                [
+                    "urlList",
+                    "urlList() const : QList<QUrl>",
+                    "urlList"
+                ]
+            ],
+            "name": "KFileItemList",
+            "page": "kiocore/kfileitemlist",
+            "qtBases": [
+                [
+                    "QList",
+                    "https://doc.qt.io/qt-6/qlist-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFileItemListProperties",
+                    "KFileItemListProperties()",
+                    "KFileItemListProperties"
+                ],
+                [
+                    "KFileItemListProperties",
+                    "KFileItemListProperties(const KFileItemList &)",
+                    "KFileItemListProperties-1"
+                ],
+                [
+                    "KFileItemListProperties",
+                    "KFileItemListProperties()",
+                    "KFileItemListProperties-2"
+                ],
+                [
+                    "isDirectory",
+                    "isDirectory() const : bool",
+                    "isDirectory"
+                ],
+                [
+                    "isFile",
+                    "isFile() const : bool",
+                    "isFile"
+                ],
+                [
+                    "isLocal",
+                    "isLocal() const : bool",
+                    "isLocal"
+                ],
+                [
+                    "items",
+                    "items() const : KFileItemList",
+                    "items"
+                ],
+                [
+                    "mimeGroup",
+                    "mimeGroup() const : QString",
+                    "mimeGroup"
+                ],
+                [
+                    "mimeType",
+                    "mimeType() const : QString",
+                    "mimeType"
+                ],
+                [
+                    "setItems",
+                    "setItems(const KFileItemList &)",
+                    "setItems"
+                ],
+                [
+                    "supportsDeleting",
+                    "supportsDeleting() const : bool",
+                    "supportsDeleting"
+                ],
+                [
+                    "supportsMoving",
+                    "supportsMoving() const : bool",
+                    "supportsMoving"
+                ],
+                [
+                    "supportsReading",
+                    "supportsReading() const : bool",
+                    "supportsReading"
+                ],
+                [
+                    "supportsWriting",
+                    "supportsWriting() const : bool",
+                    "supportsWriting"
+                ],
+                [
+                    "urlList",
+                    "urlList() const : QList<QUrl>",
+                    "urlList"
+                ]
+            ],
+            "name": "KFileItemListProperties",
+            "page": "kiocore/kfileitemlistproperties",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AskUserActionInterface",
+                    "AskUserActionInterface(QObject *)",
+                    "AskUserActionInterface"
+                ],
+                [
+                    "askIgnoreSslErrors",
+                    "askIgnoreSslErrors(const QVariantMap &, QWidget *)",
+                    "askIgnoreSslErrors"
+                ],
+                [
+                    "askIgnoreSslErrorsResult",
+                    "askIgnoreSslErrorsResult(int)",
+                    "askIgnoreSslErrorsResult"
+                ],
+                [
+                    "askUserDelete",
+                    "askUserDelete(const QList<QUrl> &, KIO::AskUserActionInterface::DeletionType, KIO::AskUserActionInterface::ConfirmationType, QWidget *)",
+                    "askUserDelete"
+                ],
+                [
+                    "askUserDeleteResult",
+                    "askUserDeleteResult(bool, const QList<QUrl> &, KIO::AskUserActionInterface::DeletionType, QWidget *)",
+                    "askUserDeleteResult"
+                ],
+                [
+                    "askUserRename",
+                    "askUserRename(KJob *, const QString &, const QUrl &, const QUrl &, KIO::RenameDialog_Options, KIO::filesize_t, KIO::filesize_t, const QDateTime &, const QDateTime &, const QDateTime &, const QDateTime &)",
+                    "askUserRename"
+                ],
+                [
+                    "askUserRenameResult",
+                    "askUserRenameResult(KIO::RenameDialog_Result, const QUrl &, KJob *)",
+                    "askUserRenameResult"
+                ],
+                [
+                    "askUserSkip",
+                    "askUserSkip(KJob *, KIO::SkipDialog_Options, const QString &)",
+                    "askUserSkip"
+                ],
+                [
+                    "askUserSkipResult",
+                    "askUserSkipResult(KIO::SkipDialog_Result, KJob *)",
+                    "askUserSkipResult"
+                ],
+                [
+                    "messageBoxResult",
+                    "messageBoxResult(int)",
+                    "messageBoxResult"
+                ],
+                [
+                    "requestUserMessageBox",
+                    "requestUserMessageBox(KIO::AskUserActionInterface::MessageDialogType, const QString &, const QString &, const QString &, const QString &, const QString &, const QString &, const QString &, const QString &, QWidget *)",
+                    "requestUserMessageBox"
+                ]
+            ],
+            "name": "KIO::AskUserActionInterface",
+            "page": "kiocore/kio-askuseractioninterface",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AuthInfo",
+                    "AuthInfo()",
+                    "AuthInfo"
+                ],
+                [
+                    "AuthInfo",
+                    "AuthInfo(const KIO::AuthInfo &)",
+                    "AuthInfo-1"
+                ],
+                [
+                    "getExtraField",
+                    "getExtraField(const QString &) const : QVariant",
+                    "getExtraField"
+                ],
+                [
+                    "getExtraFieldFlags",
+                    "getExtraFieldFlags(const QString &) const : KIO::AuthInfo::FieldFlags",
+                    "getExtraFieldFlags"
+                ],
+                [
+                    "isModified",
+                    "isModified() const : bool",
+                    "isModified"
+                ],
+                [
+                    "registerMetaTypes",
+                    "registerMetaTypes()",
+                    "registerMetaTypes"
+                ],
+                [
+                    "setExtraField",
+                    "setExtraField(const QString &, const QVariant &)",
+                    "setExtraField"
+                ],
+                [
+                    "setExtraFieldFlags",
+                    "setExtraFieldFlags(const QString &, const KIO::AuthInfo::FieldFlags)",
+                    "setExtraFieldFlags"
+                ],
+                [
+                    "setModified",
+                    "setModified(bool)",
+                    "setModified"
+                ]
+            ],
+            "name": "KIO::AuthInfo",
+            "page": "kiocore/kio-authinfo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-job"
+            ],
+            "members": [
+                [
+                    "fileRenamed",
+                    "fileRenamed(const QUrl &, const QUrl &)",
+                    "fileRenamed"
+                ],
+                [
+                    "slotResult",
+                    "slotResult(KJob *)",
+                    "slotResult"
+                ]
+            ],
+            "name": "KIO::BatchRenameJob",
+            "page": "kiocore/kio-batchrenamejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-job"
+            ],
+            "members": [
+            ],
+            "name": "KIO::ChmodJob",
+            "page": "kiocore/kio-chmodjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-job"
+            ],
+            "members": [
+                [
+                    "copying",
+                    "copying(KIO::Job *, const QUrl &, const QUrl &)",
+                    "copying"
+                ],
+                [
+                    "copyingDone",
+                    "copyingDone(KIO::Job *, const QUrl &, const QUrl &, const QDateTime &, bool, bool)",
+                    "copyingDone"
+                ],
+                [
+                    "copyingLinkDone",
+                    "copyingLinkDone(KIO::Job *, const QUrl &, const QString &, const QUrl &)",
+                    "copyingLinkDone"
+                ],
+                [
+                    "creatingDir",
+                    "creatingDir(KIO::Job *, const QUrl &)",
+                    "creatingDir"
+                ],
+                [
+                    "destUrl",
+                    "destUrl() const : QUrl",
+                    "destUrl"
+                ],
+                [
+                    "doResume",
+                    "doResume() : bool",
+                    "doResume"
+                ],
+                [
+                    "doSuspend",
+                    "doSuspend() : bool",
+                    "doSuspend"
+                ],
+                [
+                    "linking",
+                    "linking(KIO::Job *, const QString &, const QUrl &)",
+                    "linking"
+                ],
+                [
+                    "moving",
+                    "moving(KIO::Job *, const QUrl &, const QUrl &)",
+                    "moving"
+                ],
+                [
+                    "operationMode",
+                    "operationMode() const : KIO::CopyJob::CopyMode",
+                    "operationMode"
+                ],
+                [
+                    "processedDirs",
+                    "processedDirs(KIO::Job *, unsigned long)",
+                    "processedDirs"
+                ],
+                [
+                    "processedFiles",
+                    "processedFiles(KIO::Job *, unsigned long)",
+                    "processedFiles"
+                ],
+                [
+                    "renamed",
+                    "renamed(KIO::Job *, const QUrl &, const QUrl &)",
+                    "renamed"
+                ],
+                [
+                    "setAutoRename",
+                    "setAutoRename(bool)",
+                    "setAutoRename"
+                ],
+                [
+                    "setAutoSkip",
+                    "setAutoSkip(bool)",
+                    "setAutoSkip"
+                ],
+                [
+                    "setDefaultPermissions",
+                    "setDefaultPermissions(bool)",
+                    "setDefaultPermissions"
+                ],
+                [
+                    "setWriteIntoExistingDirectories",
+                    "setWriteIntoExistingDirectories(bool)",
+                    "setWriteIntoExistingDirectories"
+                ],
+                [
+                    "srcUrls",
+                    "srcUrls() const : QList<QUrl>",
+                    "srcUrls"
+                ]
+            ],
+            "name": "KIO::CopyJob",
+            "page": "kiocore/kio-copyjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-transferjob"
+            ],
+            "members": [
+                [
+                    "responseData",
+                    "responseData() const : QByteArray",
+                    "responseData"
+                ]
+            ],
+            "name": "KIO::DavJob",
+            "page": "kiocore/kio-davjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-job"
+            ],
+            "members": [
+                [
+                    "deleting",
+                    "deleting(KIO::Job *, const QUrl &)",
+                    "deleting"
+                ],
+                [
+                    "processedDirs",
+                    "processedDirs(KIO::Job *, unsigned long)",
+                    "processedDirs"
+                ],
+                [
+                    "processedFiles",
+                    "processedFiles(KIO::Job *, unsigned long)",
+                    "processedFiles"
+                ],
+                [
+                    "totalDirs",
+                    "totalDirs(KJob *, unsigned long)",
+                    "totalDirs"
+                ],
+                [
+                    "totalFiles",
+                    "totalFiles(KJob *, unsigned long)",
+                    "totalFiles"
+                ],
+                [
+                    "urls",
+                    "urls() const : QList<QUrl>",
+                    "urls"
+                ]
+            ],
+            "name": "KIO::DeleteJob",
+            "page": "kiocore/kio-deletejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DesktopExecParser",
+                    "DesktopExecParser(const KService &, const QList<QUrl> &)",
+                    "DesktopExecParser"
+                ],
+                [
+                    "errorMessage",
+                    "errorMessage() const : QString",
+                    "errorMessage"
+                ],
+                [
+                    "executableName",
+                    "executableName(const QString &) : QString",
+                    "executableName"
+                ],
+                [
+                    "executablePath",
+                    "executablePath(const QString &) : QString",
+                    "executablePath"
+                ],
+                [
+                    "hasSchemeHandler",
+                    "hasSchemeHandler(const QUrl &) : bool",
+                    "hasSchemeHandler"
+                ],
+                [
+                    "isProtocolInSupportedList",
+                    "isProtocolInSupportedList(const QUrl &, const QStringList &) : bool",
+                    "isProtocolInSupportedList"
+                ],
+                [
+                    "resultingArguments",
+                    "resultingArguments() const : QStringList",
+                    "resultingArguments"
+                ],
+                [
+                    "setSuggestedFileName",
+                    "setSuggestedFileName(const QString &)",
+                    "setSuggestedFileName"
+                ],
+                [
+                    "setUrlsAreTempFiles",
+                    "setUrlsAreTempFiles(bool)",
+                    "setUrlsAreTempFiles"
+                ],
+                [
+                    "supportedProtocols",
+                    "supportedProtocols(const KService &) : QStringList",
+                    "supportedProtocols"
+                ]
+            ],
+            "name": "KIO::DesktopExecParser",
+            "page": "kiocore/kio-desktopexecparser",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-job"
+            ],
+            "members": [
+                [
+                    "totalFiles",
+                    "totalFiles() const : KIO::filesize_t",
+                    "totalFiles"
+                ],
+                [
+                    "totalSize",
+                    "totalSize() const : KIO::filesize_t",
+                    "totalSize"
+                ],
+                [
+                    "totalSizeOnDisk",
+                    "totalSizeOnDisk() const : std::optional<KIO::filesize_t>",
+                    "totalSizeOnDisk"
+                ],
+                [
+                    "totalSubdirs",
+                    "totalSubdirs() const : KIO::filesize_t",
+                    "totalSubdirs"
+                ]
+            ],
+            "name": "KIO::DirectorySizeJob",
+            "page": "kiocore/kio-directorysizejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-simplejob"
+            ],
+            "members": [
+            ],
+            "name": "KIO::EmptyTrashJob",
+            "page": "kiocore/kio-emptytrashjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-job"
+            ],
+            "members": [
+                [
+                    "destUrl",
+                    "destUrl() const : QUrl",
+                    "destUrl"
+                ],
+                [
+                    "mimeTypeFound",
+                    "mimeTypeFound(KIO::Job *, const QString &)",
+                    "mimeTypeFound"
+                ],
+                [
+                    "setModificationTime",
+                    "setModificationTime(const QDateTime &)",
+                    "setModificationTime"
+                ],
+                [
+                    "setSourceSize",
+                    "setSourceSize(KIO::filesize_t)",
+                    "setSourceSize"
+                ],
+                [
+                    "slotResult",
+                    "slotResult(KJob *)",
+                    "slotResult"
+                ],
+                [
+                    "srcUrl",
+                    "srcUrl() const : QUrl",
+                    "srcUrl"
+                ]
+            ],
+            "name": "KIO::FileCopyJob",
+            "page": "kiocore/kio-filecopyjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-simplejob"
+            ],
+            "members": [
+                [
+                    "close",
+                    "close()",
+                    "close"
+                ],
+                [
+                    "data",
+                    "data(KIO::Job *, const QByteArray &)",
+                    "data"
+                ],
+                [
+                    "fileClosed",
+                    "fileClosed(KIO::Job *)",
+                    "fileClosed"
+                ],
+                [
+                    "mimeTypeFound",
+                    "mimeTypeFound(KIO::Job *, const QString &)",
+                    "mimeTypeFound"
+                ],
+                [
+                    "open",
+                    "open(KIO::Job *)",
+                    "open"
+                ],
+                [
+                    "position",
+                    "position(KIO::Job *, KIO::filesize_t)",
+                    "position"
+                ],
+                [
+                    "read",
+                    "read(KIO::filesize_t)",
+                    "read"
+                ],
+                [
+                    "redirection",
+                    "redirection(KIO::Job *, const QUrl &)",
+                    "redirection"
+                ],
+                [
+                    "seek",
+                    "seek(KIO::filesize_t)",
+                    "seek"
+                ],
+                [
+                    "size",
+                    "size() : KIO::filesize_t",
+                    "size"
+                ],
+                [
+                    "truncate",
+                    "truncate(KIO::filesize_t)",
+                    "truncate"
+                ],
+                [
+                    "truncated",
+                    "truncated(KIO::Job *, KIO::filesize_t)",
+                    "truncated"
+                ],
+                [
+                    "write",
+                    "write(const QByteArray &)",
+                    "write"
+                ],
+                [
+                    "written",
+                    "written(KIO::Job *, KIO::filesize_t)",
+                    "written"
+                ]
+            ],
+            "name": "KIO::FileJob",
+            "page": "kiocore/kio-filejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-simplejob"
+            ],
+            "members": [
+                [
+                    "availableSize",
+                    "availableSize() const : KIO::filesize_t",
+                    "availableSize"
+                ],
+                [
+                    "size",
+                    "size() const : KIO::filesize_t",
+                    "size"
+                ]
+            ],
+            "name": "KIO::FileSystemFreeSpaceJob",
+            "page": "kiocore/kio-filesystemfreespacejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-workerbase"
+            ],
+            "members": [
+                [
+                    "adjustUDSEntry",
+                    "adjustUDSEntry(KIO::UDSEntry &, KIO::ForwardingWorkerBase::UDSEntryCreationMode) const",
+                    "adjustUDSEntry"
+                ],
+                [
+                    "processedUrl",
+                    "processedUrl() const : QUrl",
+                    "processedUrl"
+                ],
+                [
+                    "requestedUrl",
+                    "requestedUrl() const : QUrl",
+                    "requestedUrl"
+                ],
+                [
+                    "rewriteUrl",
+                    "rewriteUrl(const QUrl &, QUrl &) : bool",
+                    "rewriteUrl"
+                ]
+            ],
+            "name": "KIO::ForwardingWorkerBase",
+            "page": "kiocore/kio-forwardingworkerbase",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kcompositejob"
+            ],
+            "members": [
+                [
+                    "addMetaData",
+                    "addMetaData(const QMap<QString, QString> &)",
+                    "addMetaData"
+                ],
+                [
+                    "addMetaData",
+                    "addMetaData(const QString &, const QString &)",
+                    "addMetaData-1"
+                ],
+                [
+                    "addSubjob",
+                    "addSubjob(KJob *) : bool",
+                    "addSubjob"
+                ],
+                [
+                    "connected",
+                    "connected(KIO::Job *)",
+                    "connected"
+                ],
+                [
+                    "detailedErrorStrings",
+                    "detailedErrorStrings(const QUrl *, int) const : QStringList",
+                    "detailedErrorStrings"
+                ],
+                [
+                    "doKill",
+                    "doKill() : bool",
+                    "doKill"
+                ],
+                [
+                    "doResume",
+                    "doResume() : bool",
+                    "doResume"
+                ],
+                [
+                    "doSuspend",
+                    "doSuspend() : bool",
+                    "doSuspend"
+                ],
+                [
+                    "errorString",
+                    "errorString() const : QString",
+                    "errorString"
+                ],
+                [
+                    "mergeMetaData",
+                    "mergeMetaData(const QMap<QString, QString> &)",
+                    "mergeMetaData"
+                ],
+                [
+                    "metaData",
+                    "metaData() const : KIO::MetaData",
+                    "metaData"
+                ],
+                [
+                    "parentJob",
+                    "parentJob() const : KIO::Job *",
+                    "parentJob"
+                ],
+                [
+                    "queryMetaData",
+                    "queryMetaData(const QString &) : QString",
+                    "queryMetaData"
+                ],
+                [
+                    "removeSubjob",
+                    "removeSubjob(KJob *) : bool",
+                    "removeSubjob"
+                ],
+                [
+                    "setMetaData",
+                    "setMetaData(const KIO::MetaData &)",
+                    "setMetaData"
+                ],
+                [
+                    "setParentJob",
+                    "setParentJob(KIO::Job *)",
+                    "setParentJob"
+                ],
+                [
+                    "setUiDelegateExtension",
+                    "setUiDelegateExtension(KIO::JobUiDelegateExtension *)",
+                    "setUiDelegateExtension"
+                ],
+                [
+                    "uiDelegateExtension",
+                    "uiDelegateExtension() const : KIO::JobUiDelegateExtension *",
+                    "uiDelegateExtension"
+                ]
+            ],
+            "name": "KIO::Job",
+            "page": "kiocore/kio-job",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "JobUiDelegateExtension",
+                    "JobUiDelegateExtension()",
+                    "JobUiDelegateExtension"
+                ],
+                [
+                    "askDeleteConfirmation",
+                    "askDeleteConfirmation(const QList<QUrl> &, KIO::JobUiDelegateExtension::DeletionType, KIO::JobUiDelegateExtension::ConfirmationType) : bool",
+                    "askDeleteConfirmation"
+                ],
+                [
+                    "createClipboardUpdater",
+                    "createClipboardUpdater(KIO::Job *, KIO::JobUiDelegateExtension::ClipboardUpdaterMode) : KIO::ClipboardUpdater *",
+                    "createClipboardUpdater"
+                ],
+                [
+                    "updateUrlInClipboard",
+                    "updateUrlInClipboard(const QUrl &, const QUrl &)",
+                    "updateUrlInClipboard"
+                ]
+            ],
+            "name": "KIO::JobUiDelegateExtension",
+            "page": "kiocore/kio-jobuidelegateextension",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "JobUiDelegateFactory",
+                    "JobUiDelegateFactory()",
+                    "JobUiDelegateFactory"
+                ],
+                [
+                    "createDelegate",
+                    "createDelegate() const : KJobUiDelegate *",
+                    "createDelegate"
+                ],
+                [
+                    "createDelegate",
+                    "createDelegate(KJobUiDelegate::Flags, QWidget *) const : KJobUiDelegate *",
+                    "createDelegate-1"
+                ]
+            ],
+            "name": "KIO::JobUiDelegateFactory",
+            "page": "kiocore/kio-jobuidelegatefactory",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-simplejob"
+            ],
+            "members": [
+                [
+                    "entries",
+                    "entries(KIO::Job *, const KIO::UDSEntryList &)",
+                    "entries"
+                ],
+                [
+                    "permanentRedirection",
+                    "permanentRedirection(KIO::Job *, const QUrl &, const QUrl &)",
+                    "permanentRedirection"
+                ],
+                [
+                    "redirection",
+                    "redirection(KIO::Job *, const QUrl &)",
+                    "redirection"
+                ],
+                [
+                    "redirectionUrl",
+                    "redirectionUrl() const : const QUrl &",
+                    "redirectionUrl"
+                ],
+                [
+                    "setDetails",
+                    "setDetails(KIO::StatDetails)",
+                    "setDetails"
+                ],
+                [
+                    "setUnrestricted",
+                    "setUnrestricted(bool)",
+                    "setUnrestricted"
+                ],
+                [
+                    "subError",
+                    "subError(KIO::ListJob *, KIO::ListJob *)",
+                    "subError"
+                ]
+            ],
+            "name": "KIO::ListJob",
+            "page": "kiocore/kio-listjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kcompositejob"
+            ],
+            "members": [
+                [
+                    "MimeTypeFinderJob",
+                    "MimeTypeFinderJob(const QUrl &, QObject *)",
+                    "MimeTypeFinderJob"
+                ],
+                [
+                    "~MimeTypeFinderJob",
+                    "~MimeTypeFinderJob()",
+                    "dtor.MimeTypeFinderJob"
+                ],
+                [
+                    "isAuthenticationPromptEnabled",
+                    "isAuthenticationPromptEnabled() const : bool",
+                    "isAuthenticationPromptEnabled"
+                ],
+                [
+                    "mimeType",
+                    "mimeType() const : QString",
+                    "mimeType"
+                ],
+                [
+                    "setAuthenticationPromptEnabled",
+                    "setAuthenticationPromptEnabled(bool)",
+                    "setAuthenticationPromptEnabled"
+                ],
+                [
+                    "setFollowRedirections",
+                    "setFollowRedirections(bool)",
+                    "setFollowRedirections"
+                ],
+                [
+                    "setSuggestedFileName",
+                    "setSuggestedFileName(const QString &)",
+                    "setSuggestedFileName"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ],
+                [
+                    "suggestedFileName",
+                    "suggestedFileName() const : QString",
+                    "suggestedFileName"
+                ]
+            ],
+            "name": "KIO::MimeTypeFinderJob",
+            "page": "kiocore/kio-mimetypefinderjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-transferjob"
+            ],
+            "members": [
+            ],
+            "name": "KIO::MimetypeJob",
+            "page": "kiocore/kio-mimetypejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-simplejob"
+            ],
+            "members": [
+                [
+                    "permanentRedirection",
+                    "permanentRedirection(KIO::Job *, const QUrl &, const QUrl &)",
+                    "permanentRedirection"
+                ],
+                [
+                    "redirection",
+                    "redirection(KIO::Job *, const QUrl &)",
+                    "redirection"
+                ],
+                [
+                    "setOwnership",
+                    "setOwnership(int, int)",
+                    "setOwnership"
+                ]
+            ],
+            "name": "KIO::MkdirJob",
+            "page": "kiocore/kio-mkdirjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-job"
+            ],
+            "members": [
+                [
+                    "directoryCreated",
+                    "directoryCreated(const QUrl &)",
+                    "directoryCreated"
+                ]
+            ],
+            "name": "KIO::MkpathJob",
+            "page": "kiocore/kio-mkpathjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kcompositejob"
+            ],
+            "members": [
+                [
+                    "NameFinderJob",
+                    "NameFinderJob(const QUrl &, const QString &, QObject *)",
+                    "NameFinderJob"
+                ],
+                [
+                    "~NameFinderJob",
+                    "~NameFinderJob()",
+                    "dtor.NameFinderJob"
+                ],
+                [
+                    "baseUrl",
+                    "baseUrl() const : QUrl",
+                    "baseUrl"
+                ],
+                [
+                    "finalName",
+                    "finalName() const : QString",
+                    "finalName"
+                ],
+                [
+                    "finalUrl",
+                    "finalUrl() const : QUrl",
+                    "finalUrl"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ]
+            ],
+            "name": "KIO::NameFinderJob",
+            "page": "kiocore/kio-namefinderjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "accept",
+                    "accept(KService::Ptr &, const QString &, bool, const QString &, bool, bool, bool) : KIO::OpenWith::AcceptResult",
+                    "accept"
+                ]
+            ],
+            "name": "KIO::OpenWith",
+            "page": "kiocore/kio-openwith",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-job"
+            ],
+            "members": [
+                [
+                    "trashUrls",
+                    "trashUrls() const : QList<QUrl>",
+                    "trashUrls"
+                ]
+            ],
+            "name": "KIO::RestoreJob",
+            "page": "kiocore/kio-restorejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-job"
+            ],
+            "members": [
+                [
+                    "isRedirectionHandlingEnabled",
+                    "isRedirectionHandlingEnabled() const : bool",
+                    "isRedirectionHandlingEnabled"
+                ],
+                [
+                    "putOnHold",
+                    "putOnHold()",
+                    "putOnHold"
+                ],
+                [
+                    "removeOnHold",
+                    "removeOnHold()",
+                    "removeOnHold"
+                ],
+                [
+                    "setRedirectionHandlingEnabled",
+                    "setRedirectionHandlingEnabled(bool)",
+                    "setRedirectionHandlingEnabled"
+                ],
+                [
+                    "slotFinished",
+                    "slotFinished()",
+                    "slotFinished"
+                ],
+                [
+                    "slotMetaData",
+                    "slotMetaData(const KIO::MetaData &)",
+                    "slotMetaData"
+                ],
+                [
+                    "url",
+                    "url() const : const QUrl &",
+                    "url"
+                ]
+            ],
+            "name": "KIO::SimpleJob",
+            "page": "kiocore/kio-simplejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-transferjob"
+            ],
+            "members": [
+                [
+                    "SpecialJob",
+                    "SpecialJob(const QUrl &, const QByteArray &)",
+                    "SpecialJob"
+                ],
+                [
+                    "arguments",
+                    "arguments() const : QByteArray",
+                    "arguments"
+                ],
+                [
+                    "setArguments",
+                    "setArguments(const QByteArray &)",
+                    "setArguments"
+                ]
+            ],
+            "name": "KIO::SpecialJob",
+            "page": "kiocore/kio-specialjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-simplejob"
+            ],
+            "members": [
+                [
+                    "mostLocalUrl",
+                    "mostLocalUrl() const : QUrl",
+                    "mostLocalUrl"
+                ],
+                [
+                    "permanentRedirection",
+                    "permanentRedirection(KIO::Job *, const QUrl &, const QUrl &)",
+                    "permanentRedirection"
+                ],
+                [
+                    "redirection",
+                    "redirection(KIO::Job *, const QUrl &)",
+                    "redirection"
+                ],
+                [
+                    "setDetails",
+                    "setDetails(KIO::StatDetails)",
+                    "setDetails"
+                ],
+                [
+                    "setSide",
+                    "setSide(KIO::StatJob::StatSide)",
+                    "setSide"
+                ],
+                [
+                    "statResult",
+                    "statResult() const : const KIO::UDSEntry &",
+                    "statResult"
+                ]
+            ],
+            "name": "KIO::StatJob",
+            "page": "kiocore/kio-statjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-transferjob"
+            ],
+            "members": [
+                [
+                    "data",
+                    "data() const : QByteArray",
+                    "data"
+                ],
+                [
+                    "setData",
+                    "setData(const QByteArray &)",
+                    "setData"
+                ]
+            ],
+            "name": "KIO::StoredTransferJob",
+            "page": "kiocore/kio-storedtransferjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-simplejob"
+            ],
+            "members": [
+                [
+                    "data",
+                    "data(KIO::Job *, const QByteArray &)",
+                    "data"
+                ],
+                [
+                    "dataReq",
+                    "dataReq(KIO::Job *, QByteArray &)",
+                    "dataReq"
+                ],
+                [
+                    "mimeTypeFound",
+                    "mimeTypeFound(KIO::Job *, const QString &)",
+                    "mimeTypeFound"
+                ],
+                [
+                    "mimetype",
+                    "mimetype() const : QString",
+                    "mimetype"
+                ],
+                [
+                    "permanentRedirection",
+                    "permanentRedirection(KIO::Job *, const QUrl &, const QUrl &)",
+                    "permanentRedirection"
+                ],
+                [
+                    "redirectUrl",
+                    "redirectUrl() const : QUrl",
+                    "redirectUrl"
+                ],
+                [
+                    "redirection",
+                    "redirection(KIO::Job *, const QUrl &)",
+                    "redirection"
+                ],
+                [
+                    "sendAsyncData",
+                    "sendAsyncData(const QByteArray &)",
+                    "sendAsyncData"
+                ],
+                [
+                    "setAsyncDataEnabled",
+                    "setAsyncDataEnabled(bool)",
+                    "setAsyncDataEnabled"
+                ],
+                [
+                    "setModificationTime",
+                    "setModificationTime(const QDateTime &)",
+                    "setModificationTime"
+                ],
+                [
+                    "setSourceSize",
+                    "setSourceSize(KIO::filesize_t)",
+                    "setSourceSize"
+                ],
+                [
+                    "setTotalSize",
+                    "setTotalSize(KIO::filesize_t)",
+                    "setTotalSize"
+                ],
+                [
+                    "slotData",
+                    "slotData(const QByteArray &)",
+                    "slotData"
+                ],
+                [
+                    "slotDataReq",
+                    "slotDataReq()",
+                    "slotDataReq"
+                ],
+                [
+                    "slotMimetype",
+                    "slotMimetype(const QString &)",
+                    "slotMimetype"
+                ],
+                [
+                    "slotRedirection",
+                    "slotRedirection(const QUrl &)",
+                    "slotRedirection"
+                ]
+            ],
+            "name": "KIO::TransferJob",
+            "page": "kiocore/kio-transferjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "UDSEntry",
+                    "UDSEntry()",
+                    "UDSEntry"
+                ],
+                [
+                    "UDSEntry",
+                    "UDSEntry(const struct stat64 &, const QString &)",
+                    "UDSEntry-2"
+                ],
+                [
+                    "UDSEntry",
+                    "UDSEntry()",
+                    "UDSEntry-1"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "contains",
+                    "contains(uint) const : bool",
+                    "contains"
+                ],
+                [
+                    "count",
+                    "count() const : int",
+                    "count"
+                ],
+                [
+                    "fastInsert",
+                    "fastInsert(uint, const QString &)",
+                    "fastInsert"
+                ],
+                [
+                    "fastInsert",
+                    "fastInsert(uint, long long)",
+                    "fastInsert-1"
+                ],
+                [
+                    "fields",
+                    "fields() const : QList<uint>",
+                    "fields"
+                ],
+                [
+                    "insert",
+                    "insert(std::initializer_list<std::pair<uint, const QString &>>)",
+                    "insert"
+                ],
+                [
+                    "insert",
+                    "insert(std::initializer_list<std::pair<uint, long long>>)",
+                    "insert-1"
+                ],
+                [
+                    "isDir",
+                    "isDir() const : bool",
+                    "isDir"
+                ],
+                [
+                    "isLink",
+                    "isLink() const : bool",
+                    "isLink"
+                ],
+                [
+                    "numberValue",
+                    "numberValue(uint, long long) const : long long",
+                    "numberValue"
+                ],
+                [
+                    "numbersCount",
+                    "numbersCount() const : int",
+                    "numbersCount"
+                ],
+                [
+                    "replace",
+                    "replace(uint, const QString &)",
+                    "replace"
+                ],
+                [
+                    "replace",
+                    "replace(uint, long long)",
+                    "replace-1"
+                ],
+                [
+                    "reserve",
+                    "reserve(std::initializer_list<uint>)",
+                    "reserve-1"
+                ],
+                [
+                    "reserveNumbers",
+                    "reserveNumbers(int)",
+                    "reserveNumbers"
+                ],
+                [
+                    "reserveStrings",
+                    "reserveStrings(int)",
+                    "reserveStrings"
+                ],
+                [
+                    "stringValue",
+                    "stringValue(uint) const : QString",
+                    "stringValue"
+                ],
+                [
+                    "stringsCount",
+                    "stringsCount() const : int",
+                    "stringsCount"
+                ]
+            ],
+            "name": "KIO::UDSEntry",
+            "page": "kiocore/kio-udsentry",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "UntrustedProgramHandlerInterface",
+                    "UntrustedProgramHandlerInterface(QObject *)",
+                    "UntrustedProgramHandlerInterface"
+                ],
+                [
+                    "makeServiceFileExecutable",
+                    "makeServiceFileExecutable(const QString &, QString &) : bool",
+                    "makeServiceFileExecutable"
+                ],
+                [
+                    "result",
+                    "result(bool)",
+                    "result"
+                ],
+                [
+                    "setExecuteBit",
+                    "setExecuteBit(const QString &, QString &) : bool",
+                    "setExecuteBit"
+                ],
+                [
+                    "showUntrustedProgramWarning",
+                    "showUntrustedProgramWarning(KJob *, const QString &)",
+                    "showUntrustedProgramWarning"
+                ]
+            ],
+            "name": "KIO::UntrustedProgramHandlerInterface",
+            "page": "kiocore/kio-untrustedprogramhandlerinterface",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "appConnectionMade",
+                    "appConnectionMade()",
+                    "appConnectionMade"
+                ],
+                [
+                    "cacheAuthentication",
+                    "cacheAuthentication(const KIO::AuthInfo &) : bool",
+                    "cacheAuthentication"
+                ],
+                [
+                    "canResume",
+                    "canResume()",
+                    "canResume"
+                ],
+                [
+                    "canResume",
+                    "canResume(KIO::filesize_t) : bool",
+                    "canResume-1"
+                ],
+                [
+                    "checkCachedAuthentication",
+                    "checkCachedAuthentication(KIO::AuthInfo &) : bool",
+                    "checkCachedAuthentication"
+                ],
+                [
+                    "chmod",
+                    "chmod(const QUrl &, int) : KIO::WorkerResult",
+                    "chmod"
+                ],
+                [
+                    "chown",
+                    "chown(const QUrl &, const QString &, const QString &) : KIO::WorkerResult",
+                    "chown"
+                ],
+                [
+                    "close",
+                    "close() : KIO::WorkerResult",
+                    "close"
+                ],
+                [
+                    "closeConnection",
+                    "closeConnection()",
+                    "closeConnection"
+                ],
+                [
+                    "config",
+                    "config() : KConfigGroup *",
+                    "config"
+                ],
+                [
+                    "configValue",
+                    "configValue(const QString &, bool) const : bool",
+                    "configValue"
+                ],
+                [
+                    "configValue",
+                    "configValue(const QString &, const QString &) const : QString",
+                    "configValue-1"
+                ],
+                [
+                    "configValue",
+                    "configValue(const QString &, int) const : int",
+                    "configValue-2"
+                ],
+                [
+                    "copy",
+                    "copy(const QUrl &, const QUrl &, int, KIO::JobFlags) : KIO::WorkerResult",
+                    "copy"
+                ],
+                [
+                    "data",
+                    "data(const QByteArray &)",
+                    "data"
+                ],
+                [
+                    "dataReq",
+                    "dataReq()",
+                    "dataReq"
+                ],
+                [
+                    "del",
+                    "del(const QUrl &, bool) : KIO::WorkerResult",
+                    "del"
+                ],
+                [
+                    "fileSystemFreeSpace",
+                    "fileSystemFreeSpace(const QUrl &) : KIO::WorkerResult",
+                    "fileSystemFreeSpace"
+                ],
+                [
+                    "get",
+                    "get(const QUrl &) : KIO::WorkerResult",
+                    "get"
+                ],
+                [
+                    "hasMetaData",
+                    "hasMetaData(const QString &) const : bool",
+                    "hasMetaData"
+                ],
+                [
+                    "infoMessage",
+                    "infoMessage(const QString &)",
+                    "infoMessage"
+                ],
+                [
+                    "listDir",
+                    "listDir(const QUrl &) : KIO::WorkerResult",
+                    "listDir"
+                ],
+                [
+                    "listEntries",
+                    "listEntries(const KIO::UDSEntryList &)",
+                    "listEntries"
+                ],
+                [
+                    "listEntry",
+                    "listEntry(const KIO::UDSEntry &)",
+                    "listEntry"
+                ],
+                [
+                    "mapConfig",
+                    "mapConfig() const : QMap<QString, QVariant>",
+                    "mapConfig"
+                ],
+                [
+                    "messageBox",
+                    "messageBox(KIO::WorkerBase::MessageBoxType, const QString &, const QString &, const QString &, const QString &) : int",
+                    "messageBox"
+                ],
+                [
+                    "messageBox",
+                    "messageBox(const QString &, KIO::WorkerBase::MessageBoxType, const QString &, const QString &, const QString &, const QString &) : int",
+                    "messageBox-1"
+                ],
+                [
+                    "metaData",
+                    "metaData(const QString &) const : QString",
+                    "metaData"
+                ],
+                [
+                    "mimeType",
+                    "mimeType(const QString &)",
+                    "mimeType"
+                ],
+                [
+                    "mimetype",
+                    "mimetype(const QUrl &) : KIO::WorkerResult",
+                    "mimetypex"
+                ],
+                [
+                    "mkdir",
+                    "mkdir(const QUrl &, int) : KIO::WorkerResult",
+                    "mkdir"
+                ],
+                [
+                    "open",
+                    "open(const QUrl &, QIODevice::OpenMode) : KIO::WorkerResult",
+                    "open"
+                ],
+                [
+                    "openConnection",
+                    "openConnection() : KIO::WorkerResult",
+                    "openConnection"
+                ],
+                [
+                    "openPasswordDialog",
+                    "openPasswordDialog(KIO::AuthInfo &, const QString &) : int",
+                    "openPasswordDialog"
+                ],
+                [
+                    "position",
+                    "position(KIO::filesize_t)",
+                    "position"
+                ],
+                [
+                    "processedSize",
+                    "processedSize(KIO::filesize_t)",
+                    "processedSize"
+                ],
+                [
+                    "put",
+                    "put(const QUrl &, int, KIO::JobFlags) : KIO::WorkerResult",
+                    "put"
+                ],
+                [
+                    "read",
+                    "read(KIO::filesize_t) : KIO::WorkerResult",
+                    "read"
+                ],
+                [
+                    "readData",
+                    "readData(QByteArray &) : int",
+                    "readData"
+                ],
+                [
+                    "redirection",
+                    "redirection(const QUrl &)",
+                    "redirection"
+                ],
+                [
+                    "remoteEncoding",
+                    "remoteEncoding() : KRemoteEncoding *",
+                    "remoteEncoding"
+                ],
+                [
+                    "rename",
+                    "rename(const QUrl &, const QUrl &, KIO::JobFlags) : KIO::WorkerResult",
+                    "rename"
+                ],
+                [
+                    "reparseConfiguration",
+                    "reparseConfiguration()",
+                    "reparseConfiguration"
+                ],
+                [
+                    "seek",
+                    "seek(KIO::filesize_t) : KIO::WorkerResult",
+                    "seek"
+                ],
+                [
+                    "sendAndKeepMetaData",
+                    "sendAndKeepMetaData()",
+                    "sendAndKeepMetaData"
+                ],
+                [
+                    "sendMetaData",
+                    "sendMetaData()",
+                    "sendMetaData"
+                ],
+                [
+                    "setHost",
+                    "setHost(const QString &, quint16, const QString &, const QString &)",
+                    "setHost"
+                ],
+                [
+                    "setMetaData",
+                    "setMetaData(const QString &, const QString &)",
+                    "setMetaData"
+                ],
+                [
+                    "setModificationTime",
+                    "setModificationTime(const QUrl &, const QDateTime &) : KIO::WorkerResult",
+                    "setModificationTime"
+                ],
+                [
+                    "setTimeoutSpecialCommand",
+                    "setTimeoutSpecialCommand(int, const QByteArray &)",
+                    "setTimeoutSpecialCommand"
+                ],
+                [
+                    "special",
+                    "special(const QByteArray &) : KIO::WorkerResult",
+                    "special"
+                ],
+                [
+                    "speed",
+                    "speed(unsigned long)",
+                    "speed"
+                ],
+                [
+                    "sslError",
+                    "sslError(const QVariantMap &) : int",
+                    "sslError"
+                ],
+                [
+                    "stat",
+                    "stat(const QUrl &) : KIO::WorkerResult",
+                    "stat"
+                ],
+                [
+                    "statEntry",
+                    "statEntry(const KIO::UDSEntry &)",
+                    "statEntry"
+                ],
+                [
+                    "symlink",
+                    "symlink(const QString &, const QUrl &, KIO::JobFlags) : KIO::WorkerResult",
+                    "symlink"
+                ],
+                [
+                    "totalSize",
+                    "totalSize(KIO::filesize_t)",
+                    "totalSize"
+                ],
+                [
+                    "truncate",
+                    "truncate(KIO::filesize_t) : KIO::WorkerResult",
+                    "truncate"
+                ],
+                [
+                    "truncated",
+                    "truncated(KIO::filesize_t)",
+                    "truncated"
+                ],
+                [
+                    "waitForAnswer",
+                    "waitForAnswer(int, int, QByteArray &, int *) : int",
+                    "waitForAnswer"
+                ],
+                [
+                    "warning",
+                    "warning(const QString &)",
+                    "warning"
+                ],
+                [
+                    "wasKilled",
+                    "wasKilled() const : bool",
+                    "wasKilled"
+                ],
+                [
+                    "write",
+                    "write(const QByteArray &) : KIO::WorkerResult",
+                    "write"
+                ],
+                [
+                    "written",
+                    "written(KIO::filesize_t)",
+                    "written"
+                ]
+            ],
+            "name": "KIO::WorkerBase",
+            "page": "kiocore/kio-workerbase",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "configData",
+                    "configData(const QString &, const QString &) : KIO::MetaData",
+                    "configData"
+                ],
+                [
+                    "configData",
+                    "configData(const QString &, const QString &, const QString &) : QString",
+                    "configData-1"
+                ],
+                [
+                    "configNeeded",
+                    "configNeeded(const QString &, const QString &)",
+                    "configNeeded"
+                ],
+                [
+                    "reset",
+                    "reset()",
+                    "reset"
+                ]
+            ],
+            "name": "KIO::WorkerConfig",
+            "page": "kiocore/kio-workerconfig",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "error",
+                    "error() const : int",
+                    "error"
+                ],
+                [
+                    "errorString",
+                    "errorString() const : QString",
+                    "errorString"
+                ],
+                [
+                    "fail",
+                    "fail(int, const QString &) : KIO::WorkerResult",
+                    "fail"
+                ],
+                [
+                    "pass",
+                    "pass() : KIO::WorkerResult",
+                    "pass"
+                ],
+                [
+                    "success",
+                    "success() const : bool",
+                    "success"
+                ]
+            ],
+            "name": "KIO::WorkerResult",
+            "page": "kiocore/kio-workerresult",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "currentMountPointForPath",
+                    "currentMountPointForPath(const QString &) : KMountPoint::Ptr",
+                    "currentMountPointForPath"
+                ],
+                [
+                    "currentMountPointForUniqueId",
+                    "currentMountPointForUniqueId(quint64) : KMountPoint::Ptr",
+                    "currentMountPointForUniqueId"
+                ],
+                [
+                    "currentMountPoints",
+                    "currentMountPoints(KMountPoint::DetailsNeededFlags) : KMountPoint::List",
+                    "currentMountPoints"
+                ],
+                [
+                    "deviceId",
+                    "deviceId() const : dev_t",
+                    "deviceId"
+                ],
+                [
+                    "isEncryptedFs",
+                    "isEncryptedFs() const : bool",
+                    "isEncryptedFs"
+                ],
+                [
+                    "isOnNetwork",
+                    "isOnNetwork() const : bool",
+                    "isOnNetwork"
+                ],
+                [
+                    "isPseudoFs",
+                    "isPseudoFs() const : bool",
+                    "isPseudoFs"
+                ],
+                [
+                    "mountId",
+                    "mountId() const : quint64",
+                    "mountId"
+                ],
+                [
+                    "mountOptions",
+                    "mountOptions() const : QStringList",
+                    "mountOptions"
+                ],
+                [
+                    "mountPoint",
+                    "mountPoint() const : QString",
+                    "mountPoint"
+                ],
+                [
+                    "mountType",
+                    "mountType() const : QString",
+                    "mountType"
+                ],
+                [
+                    "mountedFrom",
+                    "mountedFrom() const : QString",
+                    "mountedFrom"
+                ],
+                [
+                    "possibleMountPoints",
+                    "possibleMountPoints(KMountPoint::DetailsNeededFlags) : KMountPoint::List",
+                    "possibleMountPoints"
+                ],
+                [
+                    "probablySlow",
+                    "probablySlow() const : bool",
+                    "probablySlow"
+                ],
+                [
+                    "realDeviceName",
+                    "realDeviceName() const : QString",
+                    "realDeviceName"
+                ],
+                [
+                    "testFileSystemFlag",
+                    "testFileSystemFlag(KMountPoint::FileSystemFlag) const : bool",
+                    "testFileSystemFlag"
+                ]
+            ],
+            "name": "KMountPoint",
+            "page": "kiocore/kmountpoint",
+            "qtBases": [
+                [
+                    "QSharedData",
+                    "https://doc.qt.io/qt-6/qshareddata-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "findByDevice",
+                    "findByDevice(const QString &) const : KMountPoint::Ptr",
+                    "findByDevice"
+                ],
+                [
+                    "findByMountId",
+                    "findByMountId(quint64) const : KMountPoint::Ptr",
+                    "findByMountId"
+                ],
+                [
+                    "findByPath",
+                    "findByPath(const QString &) const : KMountPoint::Ptr",
+                    "findByPath"
+                ]
+            ],
+            "name": "KMountPoint::List",
+            "page": "kiocore/kmountpoint-list",
+            "qtBases": [
+                [
+                    "QList",
+                    "https://doc.qt.io/qt-6/qlist-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "getOverlays",
+                    "getOverlays(const QUrl &) : QStringList",
+                    "getOverlays"
+                ],
+                [
+                    "overlaysChanged",
+                    "overlaysChanged(const QUrl &, const QStringList &)",
+                    "overlaysChanged"
+                ]
+            ],
+            "name": "KOverlayIconPlugin",
+            "page": "kiocore/koverlayiconplugin",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KPasswdServerClient",
+                    "KPasswdServerClient()",
+                    "KPasswdServerClient"
+                ],
+                [
+                    "addAuthInfo",
+                    "addAuthInfo(const KIO::AuthInfo &, qlonglong)",
+                    "addAuthInfo"
+                ],
+                [
+                    "checkAuthInfo",
+                    "checkAuthInfo(KIO::AuthInfo *, qlonglong, qlonglong) : bool",
+                    "checkAuthInfo"
+                ],
+                [
+                    "queryAuthInfo",
+                    "queryAuthInfo(KIO::AuthInfo *, const QString &, qlonglong, qlonglong) : int",
+                    "queryAuthInfo"
+                ],
+                [
+                    "removeAuthInfo",
+                    "removeAuthInfo(const QString &, const QString &, const QString &)",
+                    "removeAuthInfo"
+                ]
+            ],
+            "name": "KPasswdServerClient",
+            "page": "kiocore/kpasswdserverclient",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "archiveMimetypes",
+                    "archiveMimetypes(const QString &) : QStringList",
+                    "archiveMimetypes"
+                ],
+                [
+                    "capabilities",
+                    "capabilities(const QString &) : QStringList",
+                    "capabilities"
+                ],
+                [
+                    "config",
+                    "config(const QString &) : QString",
+                    "config"
+                ],
+                [
+                    "defaultMimetype",
+                    "defaultMimetype(const QString &) : QString",
+                    "defaultMimetype"
+                ],
+                [
+                    "determineMimetypeFromExtension",
+                    "determineMimetypeFromExtension(const QString &) : bool",
+                    "determineMimetypeFromExtension"
+                ],
+                [
+                    "docPath",
+                    "docPath(const QString &) : QString",
+                    "docPath"
+                ],
+                [
+                    "exec",
+                    "exec(const QString &) : QString",
+                    "exec"
+                ],
+                [
+                    "extraFields",
+                    "extraFields(const QUrl &) : KProtocolInfo::ExtraFieldList",
+                    "extraFields"
+                ],
+                [
+                    "icon",
+                    "icon(const QString &) : QString",
+                    "icon"
+                ],
+                [
+                    "isFilterProtocol",
+                    "isFilterProtocol(const QString &) : bool",
+                    "isFilterProtocol"
+                ],
+                [
+                    "isFilterProtocol",
+                    "isFilterProtocol(const QUrl &) : bool",
+                    "isFilterProtocol-1"
+                ],
+                [
+                    "isHelperProtocol",
+                    "isHelperProtocol(const QString &) : bool",
+                    "isHelperProtocol"
+                ],
+                [
+                    "isHelperProtocol",
+                    "isHelperProtocol(const QUrl &) : bool",
+                    "isHelperProtocol-1"
+                ],
+                [
+                    "isKnownProtocol",
+                    "isKnownProtocol(const QUrl &) : bool",
+                    "isKnownProtocol"
+                ],
+                [
+                    "isKnownProtocol",
+                    "isKnownProtocol(const QString &, bool) : bool",
+                    "isKnownProtocol-1"
+                ],
+                [
+                    "maxWorkers",
+                    "maxWorkers(const QString &) : int",
+                    "maxWorkers"
+                ],
+                [
+                    "maxWorkersPerHost",
+                    "maxWorkersPerHost(const QString &) : int",
+                    "maxWorkersPerHost"
+                ],
+                [
+                    "protocolClass",
+                    "protocolClass(const QString &) : QString",
+                    "protocolClass"
+                ],
+                [
+                    "protocols",
+                    "protocols() : QStringList",
+                    "protocols"
+                ],
+                [
+                    "showFilePreview",
+                    "showFilePreview(const QString &) : bool",
+                    "showFilePreview"
+                ]
+            ],
+            "name": "KProtocolInfo",
+            "page": "kiocore/kprotocolinfo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "autoResume",
+                    "autoResume() : bool",
+                    "autoResume"
+                ],
+                [
+                    "canCopyFromFile",
+                    "canCopyFromFile(const QUrl &) : bool",
+                    "canCopyFromFile"
+                ],
+                [
+                    "canCopyToFile",
+                    "canCopyToFile(const QUrl &) : bool",
+                    "canCopyToFile"
+                ],
+                [
+                    "canDeleteRecursive",
+                    "canDeleteRecursive(const QUrl &) : bool",
+                    "canDeleteRecursive"
+                ],
+                [
+                    "canRenameFromFile",
+                    "canRenameFromFile(const QUrl &) : bool",
+                    "canRenameFromFile"
+                ],
+                [
+                    "canRenameToFile",
+                    "canRenameToFile(const QUrl &) : bool",
+                    "canRenameToFile"
+                ],
+                [
+                    "charsetFor",
+                    "charsetFor(const QUrl &) : QString",
+                    "charsetFor"
+                ],
+                [
+                    "defaultMimetype",
+                    "defaultMimetype(const QUrl &) : QString",
+                    "defaultMimetype"
+                ],
+                [
+                    "fileNameUsedForCopying",
+                    "fileNameUsedForCopying(const QUrl &) : KProtocolInfo::FileNameUsedForCopying",
+                    "fileNameUsedForCopying"
+                ],
+                [
+                    "inputType",
+                    "inputType(const QUrl &) : KProtocolInfo::Type",
+                    "inputType"
+                ],
+                [
+                    "isSourceProtocol",
+                    "isSourceProtocol(const QUrl &) : bool",
+                    "isSourceProtocol"
+                ],
+                [
+                    "listing",
+                    "listing(const QUrl &) : QStringList",
+                    "listing"
+                ],
+                [
+                    "markPartial",
+                    "markPartial() : bool",
+                    "markPartial"
+                ],
+                [
+                    "outputType",
+                    "outputType(const QUrl &) : KProtocolInfo::Type",
+                    "outputType"
+                ],
+                [
+                    "protocolForArchiveMimetype",
+                    "protocolForArchiveMimetype(const QString &) : QString",
+                    "protocolForArchiveMimetype"
+                ],
+                [
+                    "reparseConfiguration",
+                    "reparseConfiguration()",
+                    "reparseConfiguration"
+                ],
+                [
+                    "supportsDeleting",
+                    "supportsDeleting(const QUrl &) : bool",
+                    "supportsDeleting"
+                ],
+                [
+                    "supportsLinking",
+                    "supportsLinking(const QUrl &) : bool",
+                    "supportsLinking"
+                ],
+                [
+                    "supportsListing",
+                    "supportsListing(const QUrl &) : bool",
+                    "supportsListing"
+                ],
+                [
+                    "supportsMakeDir",
+                    "supportsMakeDir(const QUrl &) : bool",
+                    "supportsMakeDir"
+                ],
+                [
+                    "supportsMoving",
+                    "supportsMoving(const QUrl &) : bool",
+                    "supportsMoving"
+                ],
+                [
+                    "supportsOpening",
+                    "supportsOpening(const QUrl &) : bool",
+                    "supportsOpening"
+                ],
+                [
+                    "supportsPermissions",
+                    "supportsPermissions(const QUrl &) : bool",
+                    "supportsPermissions"
+                ],
+                [
+                    "supportsReading",
+                    "supportsReading(const QUrl &) : bool",
+                    "supportsReading"
+                ],
+                [
+                    "supportsTruncating",
+                    "supportsTruncating(const QUrl &) : bool",
+                    "supportsTruncating"
+                ],
+                [
+                    "supportsWriting",
+                    "supportsWriting(const QUrl &) : bool",
+                    "supportsWriting"
+                ]
+            ],
+            "name": "KProtocolManager",
+            "page": "kiocore/kprotocolmanager",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "add",
+                    "add(const QUrl &)",
+                    "add"
+                ],
+                [
+                    "add",
+                    "add(const QUrl &, KRecentDocument::RecentDocumentGroups)",
+                    "add-1"
+                ],
+                [
+                    "add",
+                    "add(const QUrl &, const QString &)",
+                    "add-2"
+                ],
+                [
+                    "add",
+                    "add(const QUrl &, const QString &, KRecentDocument::RecentDocumentGroups)",
+                    "add-3"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "clearEntriesOldestEntries",
+                    "clearEntriesOldestEntries(int) : bool",
+                    "clearEntriesOldestEntries"
+                ],
+                [
+                    "maximumItems",
+                    "maximumItems() : int",
+                    "maximumItems"
+                ],
+                [
+                    "recentUrls",
+                    "recentUrls() : QList<QUrl>",
+                    "recentUrls"
+                ],
+                [
+                    "removeApplication",
+                    "removeApplication(const QString &)",
+                    "removeApplication"
+                ],
+                [
+                    "removeBookmarksModifiedSince",
+                    "removeBookmarksModifiedSince(const QDateTime &)",
+                    "removeBookmarksModifiedSince"
+                ],
+                [
+                    "removeFile",
+                    "removeFile(const QUrl &)",
+                    "removeFile"
+                ]
+            ],
+            "name": "KRecentDocument",
+            "page": "kiocore/krecentdocument",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KRemoteEncoding",
+                    "KRemoteEncoding(const char *)",
+                    "KRemoteEncoding"
+                ],
+                [
+                    "decode",
+                    "decode(const QByteArray &) const : QString",
+                    "decode"
+                ],
+                [
+                    "directory",
+                    "directory(const QUrl &, bool) const : QByteArray",
+                    "directory"
+                ],
+                [
+                    "encode",
+                    "encode(const QString &) const : QByteArray",
+                    "encode"
+                ],
+                [
+                    "encode",
+                    "encode(const QUrl &) const : QByteArray",
+                    "encode-1"
+                ],
+                [
+                    "encoding",
+                    "encoding() const : const char *",
+                    "encoding"
+                ],
+                [
+                    "fileName",
+                    "fileName(const QUrl &) const : QByteArray",
+                    "fileName"
+                ],
+                [
+                    "setEncoding",
+                    "setEncoding(const char *)",
+                    "setEncoding"
+                ]
+            ],
+            "name": "KRemoteEncoding",
+            "page": "kiocore/kremoteencoding",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "areGuestsAllowed",
+                    "areGuestsAllowed() const : bool",
+                    "areGuestsAllowed"
+                ],
+                [
+                    "changed",
+                    "changed()",
+                    "changed"
+                ],
+                [
+                    "getShareByName",
+                    "getShareByName(const QString &) const : KSambaShareData",
+                    "getShareByName"
+                ],
+                [
+                    "getSharesByPath",
+                    "getSharesByPath(const QString &) const : QList<KSambaShareData>",
+                    "getSharesByPath"
+                ],
+                [
+                    "instance",
+                    "instance() : KSambaShare *",
+                    "instance"
+                ],
+                [
+                    "isDirectoryShared",
+                    "isDirectoryShared(const QString &) const : bool",
+                    "isDirectoryShared"
+                ],
+                [
+                    "isShareNameAvailable",
+                    "isShareNameAvailable(const QString &) const : bool",
+                    "isShareNameAvailable"
+                ],
+                [
+                    "lastSystemErrorString",
+                    "lastSystemErrorString() const : QString",
+                    "lastSystemErrorString"
+                ],
+                [
+                    "shareNames",
+                    "shareNames() const : QStringList",
+                    "shareNames"
+                ],
+                [
+                    "sharedDirectories",
+                    "sharedDirectories() const : QStringList",
+                    "sharedDirectories"
+                ]
+            ],
+            "name": "KSambaShare",
+            "page": "kiocore/ksambashare",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "acl",
+                    "acl() const : QString",
+                    "acl"
+                ],
+                [
+                    "comment",
+                    "comment() const : QString",
+                    "comment"
+                ],
+                [
+                    "guestPermission",
+                    "guestPermission() const : KSambaShareData::GuestPermission",
+                    "guestPermission"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "path",
+                    "path() const : QString",
+                    "path"
+                ],
+                [
+                    "remove",
+                    "remove() : KSambaShareData::UserShareError",
+                    "remove"
+                ],
+                [
+                    "save",
+                    "save() : KSambaShareData::UserShareError",
+                    "save"
+                ],
+                [
+                    "setAcl",
+                    "setAcl(const QString &) : KSambaShareData::UserShareError",
+                    "setAcl"
+                ],
+                [
+                    "setComment",
+                    "setComment(const QString &) : KSambaShareData::UserShareError",
+                    "setComment"
+                ],
+                [
+                    "setGuestPermission",
+                    "setGuestPermission(const KSambaShareData::GuestPermission &) : KSambaShareData::UserShareError",
+                    "setGuestPermission"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &) : KSambaShareData::UserShareError",
+                    "setName"
+                ],
+                [
+                    "setPath",
+                    "setPath(const QString &) : KSambaShareData::UserShareError",
+                    "setPath"
+                ]
+            ],
+            "name": "KSambaShareData",
+            "page": "kiocore/ksambasharedata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "caCertificates",
+                    "caCertificates() const : QList<QSslCertificate>",
+                    "caCertificates"
+                ],
+                [
+                    "clearRule",
+                    "clearRule(const KSslCertificateRule &)",
+                    "clearRule"
+                ],
+                [
+                    "clearRule",
+                    "clearRule(const QSslCertificate &, const QString &)",
+                    "clearRule-1"
+                ],
+                [
+                    "nonIgnorableErrors",
+                    "nonIgnorableErrors(const QList<QSslError> &) : QList<QSslError>",
+                    "nonIgnorableErrors"
+                ],
+                [
+                    "rule",
+                    "rule(const QSslCertificate &, const QString &) const : KSslCertificateRule",
+                    "rule"
+                ],
+                [
+                    "self",
+                    "self() : KSslCertificateManager *",
+                    "self"
+                ],
+                [
+                    "setRule",
+                    "setRule(const KSslCertificateRule &)",
+                    "setRule"
+                ]
+            ],
+            "name": "KSslCertificateManager",
+            "page": "kiocore/ksslcertificatemanager",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KSslCertificateRule",
+                    "KSslCertificateRule(const QSslCertificate &, const QString &)",
+                    "KSslCertificateRule"
+                ],
+                [
+                    "certificate",
+                    "certificate() const : QSslCertificate",
+                    "certificate"
+                ],
+                [
+                    "expiryDateTime",
+                    "expiryDateTime() const : QDateTime",
+                    "expiryDateTime"
+                ],
+                [
+                    "filterErrors",
+                    "filterErrors(const QList<QSslError> &) const : QList<QSslError>",
+                    "filterErrors"
+                ],
+                [
+                    "hostName",
+                    "hostName() const : QString",
+                    "hostName"
+                ],
+                [
+                    "isErrorIgnored",
+                    "isErrorIgnored(QSslError::SslError) const : bool",
+                    "isErrorIgnored"
+                ],
+                [
+                    "isRejected",
+                    "isRejected() const : bool",
+                    "isRejected"
+                ],
+                [
+                    "setExpiryDateTime",
+                    "setExpiryDateTime(const QDateTime &)",
+                    "setExpiryDateTime"
+                ],
+                [
+                    "setIgnoredErrors",
+                    "setIgnoredErrors(const QList<QSslError::SslError> &)",
+                    "setIgnoredErrors"
+                ],
+                [
+                    "setIgnoredErrors",
+                    "setIgnoredErrors(const QList<QSslError> &)",
+                    "setIgnoredErrors-1"
+                ],
+                [
+                    "setRejected",
+                    "setRejected(bool)",
+                    "setRejected"
+                ]
+            ],
+            "name": "KSslCertificateRule",
+            "page": "kiocore/ksslcertificaterule",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KSslErrorUiData",
+                    "KSslErrorUiData()",
+                    "KSslErrorUiData"
+                ],
+                [
+                    "KSslErrorUiData",
+                    "KSslErrorUiData(const QSslSocket *)",
+                    "KSslErrorUiData-1"
+                ],
+                [
+                    "KSslErrorUiData",
+                    "KSslErrorUiData(const QNetworkReply *, const QList<QSslError> &)",
+                    "KSslErrorUiData-2"
+                ]
+            ],
+            "name": "KSslErrorUiData",
+            "page": "kiocore/ksslerroruidata",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kiocore",
+    "sections": [
+        {
+            "description": "Resource and network access abstraction.",
+            "page": "kiocore/kiocore-module",
+            "pages": [
+                [
+                    "kiocore/kiocore-module",
+                    "KIO Core C++ Classes"
+                ],
+                [
+                    "kiocore/kacl",
+                    "KACL"
+                ],
+                [
+                    "kiocore/kcoredirlister",
+                    "KCoreDirLister"
+                ],
+                [
+                    "kiocore/kfilefilter",
+                    "KFileFilter"
+                ],
+                [
+                    "kiocore/kfileitem",
+                    "KFileItem"
+                ],
+                [
+                    "kiocore/kfileitemlist",
+                    "KFileItemList"
+                ],
+                [
+                    "kiocore/kfileitemlistproperties",
+                    "KFileItemListProperties"
+                ],
+                [
+                    "kiocore/kio-askuseractioninterface",
+                    "KIO::AskUserActionInterface"
+                ],
+                [
+                    "kiocore/kio-authinfo",
+                    "KIO::AuthInfo"
+                ],
+                [
+                    "kiocore/kio-batchrenamejob",
+                    "KIO::BatchRenameJob"
+                ],
+                [
+                    "kiocore/kio-chmodjob",
+                    "KIO::ChmodJob"
+                ],
+                [
+                    "kiocore/kio-copyjob",
+                    "KIO::CopyJob"
+                ],
+                [
+                    "kiocore/kio-davjob",
+                    "KIO::DavJob"
+                ],
+                [
+                    "kiocore/kio-deletejob",
+                    "KIO::DeleteJob"
+                ],
+                [
+                    "kiocore/kio-desktopexecparser",
+                    "KIO::DesktopExecParser"
+                ],
+                [
+                    "kiocore/kio-directorysizejob",
+                    "KIO::DirectorySizeJob"
+                ],
+                [
+                    "kiocore/kio-emptytrashjob",
+                    "KIO::EmptyTrashJob"
+                ],
+                [
+                    "kiocore/kio-filecopyjob",
+                    "KIO::FileCopyJob"
+                ],
+                [
+                    "kiocore/kio-filejob",
+                    "KIO::FileJob"
+                ],
+                [
+                    "kiocore/kio-filesystemfreespacejob",
+                    "KIO::FileSystemFreeSpaceJob"
+                ],
+                [
+                    "kiocore/kio-forwardingworkerbase",
+                    "KIO::ForwardingWorkerBase"
+                ],
+                [
+                    "kiocore/kio-job",
+                    "KIO::Job"
+                ],
+                [
+                    "kiocore/kio-jobuidelegateextension",
+                    "KIO::JobUiDelegateExtension"
+                ],
+                [
+                    "kiocore/kio-jobuidelegatefactory",
+                    "KIO::JobUiDelegateFactory"
+                ],
+                [
+                    "kiocore/kio-listjob",
+                    "KIO::ListJob"
+                ],
+                [
+                    "kiocore/kio-mimetypefinderjob",
+                    "KIO::MimeTypeFinderJob"
+                ],
+                [
+                    "kiocore/kio-mimetypejob",
+                    "KIO::MimetypeJob"
+                ],
+                [
+                    "kiocore/kio-mkdirjob",
+                    "KIO::MkdirJob"
+                ],
+                [
+                    "kiocore/kio-mkpathjob",
+                    "KIO::MkpathJob"
+                ],
+                [
+                    "kiocore/kio-namefinderjob",
+                    "KIO::NameFinderJob"
+                ],
+                [
+                    "kiocore/kio-openwith",
+                    "KIO::OpenWith"
+                ],
+                [
+                    "kiocore/kio-restorejob",
+                    "KIO::RestoreJob"
+                ],
+                [
+                    "kiocore/kio-simplejob",
+                    "KIO::SimpleJob"
+                ],
+                [
+                    "kiocore/kio-specialjob",
+                    "KIO::SpecialJob"
+                ],
+                [
+                    "kiocore/kio-statjob",
+                    "KIO::StatJob"
+                ],
+                [
+                    "kiocore/kio-storedtransferjob",
+                    "KIO::StoredTransferJob"
+                ],
+                [
+                    "kiocore/kio-transferjob",
+                    "KIO::TransferJob"
+                ],
+                [
+                    "kiocore/kio-udsentry",
+                    "KIO::UDSEntry"
+                ],
+                [
+                    "kiocore/kio-untrustedprogramhandlerinterface",
+                    "KIO::UntrustedProgramHandlerInterface"
+                ],
+                [
+                    "kiocore/kio-workerbase",
+                    "KIO::WorkerBase"
+                ],
+                [
+                    "kiocore/kio-workerconfig",
+                    "KIO::WorkerConfig"
+                ],
+                [
+                    "kiocore/kio-workerresult",
+                    "KIO::WorkerResult"
+                ],
+                [
+                    "kiocore/kmountpoint",
+                    "KMountPoint"
+                ],
+                [
+                    "kiocore/kmountpoint-list",
+                    "KMountPoint::List"
+                ],
+                [
+                    "kiocore/koverlayiconplugin",
+                    "KOverlayIconPlugin"
+                ],
+                [
+                    "kiocore/kpasswdserverclient",
+                    "KPasswdServerClient"
+                ],
+                [
+                    "kiocore/kprotocolinfo",
+                    "KProtocolInfo"
+                ],
+                [
+                    "kiocore/kprotocolmanager",
+                    "KProtocolManager"
+                ],
+                [
+                    "kiocore/krecentdocument",
+                    "KRecentDocument"
+                ],
+                [
+                    "kiocore/kremoteencoding",
+                    "KRemoteEncoding"
+                ],
+                [
+                    "kiocore/ksambashare",
+                    "KSambaShare"
+                ],
+                [
+                    "kiocore/ksambasharedata",
+                    "KSambaShareData"
+                ],
+                [
+                    "kiocore/ksslcertificatemanager",
+                    "KSslCertificateManager"
+                ],
+                [
+                    "kiocore/ksslcertificaterule",
+                    "KSslCertificateRule"
+                ],
+                [
+                    "kiocore/ksslerroruidata",
+                    "KSslErrorUiData"
+                ],
+                [
+                    "kiocore/kio",
+                    "KIO Namespace"
+                ],
+                [
+                    "kiocore/kio-index",
+                    "KIO"
+                ],
+                [
+                    "kiocore/kprotocolinfo-extrafield",
+                    ""
+                ],
+                [
+                    "kiocore/krecentdirs",
+                    "KRecentDirs Namespace"
+                ],
+                [
+                    "kiocore/kurlauthorized",
+                    "KUrlAuthorized Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KIO Core C++ Classes"
+        }
+    ]
+}

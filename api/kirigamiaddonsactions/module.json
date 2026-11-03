@@ -1,0 +1,405 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "configurationView",
+                    "configurationView : QObject*",
+                    "configurationView-prop"
+                ],
+                [
+                    "AbstractKirigamiApplication",
+                    "AbstractKirigamiApplication(QObject *)",
+                    "AbstractKirigamiApplication"
+                ],
+                [
+                    "~AbstractKirigamiApplication",
+                    "~AbstractKirigamiApplication()",
+                    "dtor.AbstractKirigamiApplication"
+                ],
+                [
+                    "action",
+                    "action(const QString &) : QAction *",
+                    "action"
+                ],
+                [
+                    "actionCollections",
+                    "actionCollections() const : QList<KirigamiActionCollection *>",
+                    "actionCollections"
+                ],
+                [
+                    "actionCollectionsChanged",
+                    "actionCollectionsChanged()",
+                    "actionCollectionsChanged"
+                ],
+                [
+                    "configurationView",
+                    "configurationView() const : QObject *",
+                    "configurationView"
+                ],
+                [
+                    "configurationViewChanged",
+                    "configurationViewChanged()",
+                    "configurationViewChanged"
+                ],
+                [
+                    "mainCollection",
+                    "mainCollection() const : KirigamiActionCollection *",
+                    "mainCollection"
+                ],
+                [
+                    "readSettings",
+                    "readSettings()",
+                    "readSettings"
+                ],
+                [
+                    "setConfigurationView",
+                    "setConfigurationView(QObject *)",
+                    "setConfigurationView"
+                ],
+                [
+                    "setupActions",
+                    "setupActions()",
+                    "setupActions"
+                ]
+            ],
+            "name": "AbstractKirigamiApplication",
+            "page": "kirigamiaddonsactions/abstractkirigamiapplication",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "actions",
+                    "actions : QQmlListProperty<ActionData>",
+                    "actions-prop"
+                ],
+                [
+                    "application",
+                    "application : AbstractKirigamiApplication*",
+                    "application-prop"
+                ],
+                [
+                    "configGroup",
+                    "configGroup : QString",
+                    "configGroup-prop"
+                ],
+                [
+                    "configIsGlobal",
+                    "configIsGlobal : bool",
+                    "configIsGlobal-prop"
+                ],
+                [
+                    "menus",
+                    "menus : QQmlListProperty<ActionMenu>",
+                    "menus-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "text",
+                    "text : QString",
+                    "text-prop"
+                ],
+                [
+                    "KirigamiActionCollection",
+                    "KirigamiActionCollection(QObject *, const QString &)",
+                    "KirigamiActionCollection"
+                ],
+                [
+                    "~KirigamiActionCollection",
+                    "~KirigamiActionCollection()",
+                    "dtor.KirigamiActionCollection"
+                ],
+                [
+                    "action",
+                    "action(const QString &) const : QAction *",
+                    "action"
+                ],
+                [
+                    "action",
+                    "action(int) const : QAction *",
+                    "action-1"
+                ],
+                [
+                    "actionGroups",
+                    "actionGroups() const : const QList<QActionGroup *>",
+                    "actionGroups"
+                ],
+                [
+                    "actionHovered",
+                    "actionHovered(QAction *)",
+                    "actionHovered"
+                ],
+                [
+                    "actionTriggered",
+                    "actionTriggered(QAction *)",
+                    "actionTriggered"
+                ],
+                [
+                    "actions",
+                    "actions() const : QList<QAction *>",
+                    "actions"
+                ],
+                [
+                    "actionsWithoutGroup",
+                    "actionsWithoutGroup() const : const QList<QAction *>",
+                    "actionsWithoutGroup"
+                ],
+                [
+                    "add",
+                    "add(const QString &, const Receiver *, Func) : template < typename ActionType, typename Receiver, typename Func > typename std::enable_if<!std::is_convertible<Func, const char *>::value, ActionType>::type *",
+                    "add"
+                ],
+                [
+                    "addAction",
+                    "addAction(const QString &, QAction *) : QAction *",
+                    "addAction"
+                ],
+                [
+                    "addAction",
+                    "addAction(const QString &, const Receiver *, Func) : template <typename Receiver, typename Func> typename std::enable_if<!std::is_convertible<Func, const char *>::value, QAction>::type *",
+                    "addAction-1"
+                ],
+                [
+                    "addAction",
+                    "addAction(KStandardActions::StandardAction, const QString &, const Receiver *, Func) : template <typename Receiver, typename Func> typename std::enable_if<!std::is_convertible<Func, const char *>::value, QAction>::type *",
+                    "addAction-2"
+                ],
+                [
+                    "addActions",
+                    "addActions(const QList<QAction *> &)",
+                    "addActions"
+                ],
+                [
+                    "allCollections",
+                    "allCollections() : const QList<KirigamiActionCollection *> &",
+                    "allCollections"
+                ],
+                [
+                    "changed",
+                    "changed()",
+                    "changed"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "componentDisplayName",
+                    "componentDisplayName() const : QString",
+                    "componentDisplayName"
+                ],
+                [
+                    "componentName",
+                    "componentName() const : QString",
+                    "componentName"
+                ],
+                [
+                    "configGroup",
+                    "configGroup() const : QString",
+                    "configGroup"
+                ],
+                [
+                    "configIsGlobal",
+                    "configIsGlobal() const : bool",
+                    "configIsGlobal"
+                ],
+                [
+                    "count",
+                    "count() const : int",
+                    "count"
+                ],
+                [
+                    "defaultShortcut",
+                    "defaultShortcut(QAction *) : QKeySequence",
+                    "defaultShortcut"
+                ],
+                [
+                    "defaultShortcuts",
+                    "defaultShortcuts(QAction *) : QList<QKeySequence>",
+                    "defaultShortcuts"
+                ],
+                [
+                    "inserted",
+                    "inserted(QAction *)",
+                    "inserted"
+                ],
+                [
+                    "isEmpty",
+                    "isEmpty() const : bool",
+                    "isEmpty"
+                ],
+                [
+                    "isShortcutsConfigurable",
+                    "isShortcutsConfigurable(QAction *) : bool",
+                    "isShortcutsConfigurable"
+                ],
+                [
+                    "menusChanged",
+                    "menusChanged()",
+                    "menusChanged"
+                ],
+                [
+                    "readSettings",
+                    "readSettings(KConfigGroup *)",
+                    "readSettings"
+                ],
+                [
+                    "removeAction",
+                    "removeAction(QAction *)",
+                    "removeAction"
+                ],
+                [
+                    "setComponentDisplayName",
+                    "setComponentDisplayName(const QString &)",
+                    "setComponentDisplayName"
+                ],
+                [
+                    "setComponentName",
+                    "setComponentName(const QString &)",
+                    "setComponentName"
+                ],
+                [
+                    "setConfigGlobal",
+                    "setConfigGlobal(bool)",
+                    "setConfigGlobal"
+                ],
+                [
+                    "setConfigGroup",
+                    "setConfigGroup(const QString &)",
+                    "setConfigGroup"
+                ],
+                [
+                    "setDefaultShortcut",
+                    "setDefaultShortcut(QAction *, const QKeySequence &)",
+                    "setDefaultShortcut"
+                ],
+                [
+                    "setDefaultShortcuts",
+                    "setDefaultShortcuts(QAction *, const QList<QKeySequence> &)",
+                    "setDefaultShortcuts"
+                ],
+                [
+                    "setShortcutsConfigurable",
+                    "setShortcutsConfigurable(QAction *, bool)",
+                    "setShortcutsConfigurable"
+                ],
+                [
+                    "takeAction",
+                    "takeAction(QAction *) : QAction *",
+                    "takeAction"
+                ],
+                [
+                    "writeSettings",
+                    "writeSettings(KConfigGroup *, bool, QAction *) const",
+                    "writeSettings"
+                ]
+            ],
+            "name": "KirigamiActionCollection",
+            "page": "kirigamiaddonsactions/kirigamiactioncollection",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kirigamiaddonsactions",
+    "sections": [
+        {
+            "description": "",
+            "page": "",
+            "pages": [
+                [
+                    "kirigamiaddonsactions/abstractkirigamiapplication",
+                    "AbstractKirigamiApplication"
+                ],
+                [
+                    "kirigamiaddonsactions/kirigamiactioncollection",
+                    "KirigamiActionCollection"
+                ],
+                [
+                    "kirigamiaddonsactions/org-kde-kirigamiaddons-actions-qmlmodule",
+                    "Kirigami Addons Actions QML Types"
+                ]
+            ],
+            "qml": false,
+            "title": "kirigamiaddonsactions"
+        },
+        {
+            "description": "Experimental native menu types for the Kirigami Addons actions module.",
+            "page": "kirigamiaddonsactions/org-kde-kirigamiaddons-actions-labs-qmlmodule",
+            "pages": [
+                [
+                    "kirigamiaddonsactions/org-kde-kirigamiaddons-actions-labs-qmlmodule",
+                    "Kirigami Addons Actions (Labs) QML Types"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actioncollection",
+                    "ActionCollection"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actioncontext",
+                    "ActionContext"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actiondata",
+                    "ActionData"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actiongroup",
+                    "ActionGroup"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actionmenu",
+                    "ActionMenu"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actionmenubar",
+                    "ActionMenuBar"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actionmenupopup",
+                    "ActionMenuPopup"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-icongroup",
+                    "IconGroup"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-labs-nativemenubar",
+                    "NativeMenuBar"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-labs-nativemenuitem",
+                    "NativeMenuItem"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-standardactiondata",
+                    "StandardActionData"
+                ],
+                [
+                    "kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-statefulwindow",
+                    "StatefulWindow"
+                ]
+            ],
+            "qml": true,
+            "title": "Kirigami Addons Actions (Labs) QML Types"
+        }
+    ]
+}

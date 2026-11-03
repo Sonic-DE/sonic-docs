@@ -1,0 +1,238 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "binaryData",
+                    "binaryData : QByteArray",
+                    "binaryData-prop"
+                ],
+                [
+                    "boundingRect",
+                    "boundingRect : QRect",
+                    "boundingRect-prop"
+                ],
+                [
+                    "content",
+                    "content : QVariant",
+                    "content-prop"
+                ],
+                [
+                    "format",
+                    "format : Prison::Format::BarcodeFormat",
+                    "format-prop"
+                ],
+                [
+                    "hasBinaryData",
+                    "hasBinaryData : bool",
+                    "hasBinaryData-prop"
+                ],
+                [
+                    "hasContent",
+                    "hasContent : bool",
+                    "hasContent-prop"
+                ],
+                [
+                    "hasText",
+                    "hasText : bool",
+                    "hasText-prop"
+                ],
+                [
+                    "text",
+                    "text : QString",
+                    "text-prop"
+                ],
+                [
+                    "ScanResult",
+                    "ScanResult()",
+                    "ScanResult"
+                ],
+                [
+                    "binaryData",
+                    "binaryData() const : QByteArray",
+                    "binaryData"
+                ],
+                [
+                    "boundingRect",
+                    "boundingRect() const : QRect",
+                    "boundingRect"
+                ],
+                [
+                    "content",
+                    "content() const : QVariant",
+                    "content"
+                ],
+                [
+                    "format",
+                    "format() const : Prison::Format::BarcodeFormat",
+                    "format"
+                ],
+                [
+                    "hasBinaryData",
+                    "hasBinaryData() const : bool",
+                    "hasBinaryData"
+                ],
+                [
+                    "hasContent",
+                    "hasContent() const : bool",
+                    "hasContent"
+                ],
+                [
+                    "hasText",
+                    "hasText() const : bool",
+                    "hasText"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "operator==",
+                    "operator==(const Prison::ScanResult &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "Prison::ScanResult",
+            "page": "prisonscanner/prison-scanresult",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "formats",
+                    "formats : Prison::Format::BarcodeFormats",
+                    "formats-prop"
+                ],
+                [
+                    "result",
+                    "result : Prison::ScanResult",
+                    "result-prop"
+                ],
+                [
+                    "videoSink",
+                    "videoSink : QVideoSink*",
+                    "videoSink-prop"
+                ],
+                [
+                    "VideoScanner",
+                    "VideoScanner(QObject *)",
+                    "VideoScanner"
+                ],
+                [
+                    "formats",
+                    "formats() const : Format::BarcodeFormats",
+                    "formats"
+                ],
+                [
+                    "formatsChanged",
+                    "formatsChanged()",
+                    "formatsChanged"
+                ],
+                [
+                    "result",
+                    "result() const : Prison::ScanResult",
+                    "result"
+                ],
+                [
+                    "resultChanged",
+                    "resultChanged(const Prison::ScanResult &)",
+                    "resultChanged"
+                ],
+                [
+                    "resultContentChanged",
+                    "resultContentChanged(const Prison::ScanResult &)",
+                    "resultContentChanged"
+                ],
+                [
+                    "setFormats",
+                    "setFormats(Format::BarcodeFormats)",
+                    "setFormats"
+                ],
+                [
+                    "setVideoSink",
+                    "setVideoSink(QVideoSink *)",
+                    "setVideoSink"
+                ],
+                [
+                    "videoSink",
+                    "videoSink() const : QVideoSink *",
+                    "videoSink"
+                ],
+                [
+                    "videoSinkChanged",
+                    "videoSinkChanged()",
+                    "videoSinkChanged"
+                ]
+            ],
+            "name": "Prison::VideoScanner",
+            "page": "prisonscanner/prison-videoscanner",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "prisonscanner",
+    "sections": [
+        {
+            "description": "Barcode Scanning.",
+            "page": "prisonscanner/prisonscanner-module",
+            "pages": [
+                [
+                    "prisonscanner/prisonscanner-module",
+                    "Prison Scanner C++ Classes"
+                ],
+                [
+                    "prisonscanner/prison-scanresult",
+                    "Prison::ScanResult"
+                ],
+                [
+                    "prisonscanner/prison-videoscanner",
+                    "Prison::VideoScanner"
+                ],
+                [
+                    "prisonscanner/prison",
+                    "Prison Namespace"
+                ],
+                [
+                    "prisonscanner/prison-format",
+                    "Prison::Format Namespace"
+                ],
+                [
+                    "prisonscanner/prison-imagescanner",
+                    "Prison::ImageScanner Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "Prison Scanner C++ Classes"
+        },
+        {
+            "description": "Barcode Scanning.",
+            "page": "prisonscanner/org-kde-prison-scanner-qmlmodule",
+            "pages": [
+                [
+                    "prisonscanner/org-kde-prison-scanner-qmlmodule",
+                    "Prison Scanner QML Types"
+                ],
+                [
+                    "prisonscanner/qml-org-kde-prison-scanner-videoscanner",
+                    "VideoScanner"
+                ],
+                [
+                    "prisonscanner/qml-scanresult",
+                    "scanResult QML Value Type"
+                ]
+            ],
+            "qml": true,
+            "title": "Prison Scanner QML Types"
+        }
+    ]
+}

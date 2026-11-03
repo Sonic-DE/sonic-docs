@@ -1,0 +1,752 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AbstractRunner",
+                    "AbstractRunner(QObject *, const KPluginMetaData &)",
+                    "AbstractRunner"
+                ],
+                [
+                    "addSyntax",
+                    "addSyntax(const KRunner::RunnerSyntax &)",
+                    "addSyntax"
+                ],
+                [
+                    "addSyntax",
+                    "addSyntax(const QString &, const QString &)",
+                    "addSyntax-1"
+                ],
+                [
+                    "config",
+                    "config() const : KConfigGroup",
+                    "config"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "init",
+                    "init()",
+                    "init"
+                ],
+                [
+                    "isMatchingSuspended",
+                    "isMatchingSuspended() const : bool",
+                    "isMatchingSuspended"
+                ],
+                [
+                    "match",
+                    "match(KRunner::RunnerContext &)",
+                    "match"
+                ],
+                [
+                    "matchRegex",
+                    "matchRegex() const : QRegularExpression",
+                    "matchRegex"
+                ],
+                [
+                    "metadata",
+                    "metadata() const : KPluginMetaData",
+                    "metadata"
+                ],
+                [
+                    "mimeDataForMatch",
+                    "mimeDataForMatch(const KRunner::QueryMatch &) : QMimeData *",
+                    "mimeDataForMatch"
+                ],
+                [
+                    "minLetterCount",
+                    "minLetterCount() const : int",
+                    "minLetterCount"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "prepare",
+                    "prepare()",
+                    "prepare"
+                ],
+                [
+                    "reloadConfiguration",
+                    "reloadConfiguration()",
+                    "reloadConfiguration"
+                ],
+                [
+                    "run",
+                    "run(const KRunner::RunnerContext &, const KRunner::QueryMatch &)",
+                    "run"
+                ],
+                [
+                    "setMatchRegex",
+                    "setMatchRegex(const QRegularExpression &)",
+                    "setMatchRegex"
+                ],
+                [
+                    "setMinLetterCount",
+                    "setMinLetterCount(int)",
+                    "setMinLetterCount"
+                ],
+                [
+                    "setSyntaxes",
+                    "setSyntaxes(const QList<KRunner::RunnerSyntax> &)",
+                    "setSyntaxes"
+                ],
+                [
+                    "setTriggerWords",
+                    "setTriggerWords(const QStringList &)",
+                    "setTriggerWords"
+                ],
+                [
+                    "suspendMatching",
+                    "suspendMatching(bool)",
+                    "suspendMatching"
+                ],
+                [
+                    "syntaxes",
+                    "syntaxes() const : QList<KRunner::RunnerSyntax>",
+                    "syntaxes"
+                ],
+                [
+                    "teardown",
+                    "teardown()",
+                    "teardown"
+                ]
+            ],
+            "name": "KRunner::AbstractRunner",
+            "page": "krunner/krunner-abstractrunner",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "iconSource",
+                    "iconSource : const QString",
+                    "iconSource-prop"
+                ],
+                [
+                    "text",
+                    "text : const QString",
+                    "text-prop"
+                ],
+                [
+                    "Action",
+                    "Action()",
+                    "Action"
+                ],
+                [
+                    "Action",
+                    "Action(const QString &, const QString &, const QString &)",
+                    "Action-1"
+                ],
+                [
+                    "operator bool",
+                    "operator bool() const",
+                    "operator-bool"
+                ]
+            ],
+            "name": "KRunner::Action",
+            "page": "krunner/krunner-action",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "QueryMatch",
+                    "QueryMatch(KRunner::AbstractRunner *)",
+                    "QueryMatch"
+                ],
+                [
+                    "actions",
+                    "actions() const : QList<KRunner::Action>",
+                    "actions"
+                ],
+                [
+                    "addAction",
+                    "addAction(const KRunner::Action &)",
+                    "addAction"
+                ],
+                [
+                    "categoryRelevance",
+                    "categoryRelevance() const : qreal",
+                    "categoryRelevance"
+                ],
+                [
+                    "data",
+                    "data() const : QVariant",
+                    "data"
+                ],
+                [
+                    "icon",
+                    "icon() const : QIcon",
+                    "icon"
+                ],
+                [
+                    "iconName",
+                    "iconName() const : QString",
+                    "iconName"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isEnabled",
+                    "isEnabled() const : bool",
+                    "isEnabled"
+                ],
+                [
+                    "isMultiLine",
+                    "isMultiLine() const : bool",
+                    "isMultiLine"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "matchCategory",
+                    "matchCategory() const : QString",
+                    "matchCategory"
+                ],
+                [
+                    "relevance",
+                    "relevance() const : qreal",
+                    "relevance"
+                ],
+                [
+                    "runner",
+                    "runner() const : KRunner::AbstractRunner *",
+                    "runner"
+                ],
+                [
+                    "selectedAction",
+                    "selectedAction() const : KRunner::Action",
+                    "selectedAction"
+                ],
+                [
+                    "setActions",
+                    "setActions(const QList<KRunner::Action> &)",
+                    "setActions"
+                ],
+                [
+                    "setCategoryRelevance",
+                    "setCategoryRelevance(KRunner::QueryMatch::CategoryRelevance)",
+                    "setCategoryRelevance"
+                ],
+                [
+                    "setData",
+                    "setData(const QVariant &)",
+                    "setData"
+                ],
+                [
+                    "setEnabled",
+                    "setEnabled(bool)",
+                    "setEnabled"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(const QIcon &)",
+                    "setIcon"
+                ],
+                [
+                    "setIconName",
+                    "setIconName(const QString &)",
+                    "setIconName"
+                ],
+                [
+                    "setId",
+                    "setId(const QString &)",
+                    "setId"
+                ],
+                [
+                    "setMatchCategory",
+                    "setMatchCategory(const QString &)",
+                    "setMatchCategory"
+                ],
+                [
+                    "setMultiLine",
+                    "setMultiLine(bool)",
+                    "setMultiLine"
+                ],
+                [
+                    "setRelevance",
+                    "setRelevance(qreal)",
+                    "setRelevance"
+                ],
+                [
+                    "setSubtext",
+                    "setSubtext(const QString &)",
+                    "setSubtext"
+                ],
+                [
+                    "setText",
+                    "setText(const QString &)",
+                    "setText"
+                ],
+                [
+                    "setUrls",
+                    "setUrls(const QList<QUrl> &)",
+                    "setUrls"
+                ],
+                [
+                    "subtext",
+                    "subtext() const : QString",
+                    "subtext"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "urls",
+                    "urls() const : QList<QUrl>",
+                    "urls"
+                ]
+            ],
+            "name": "KRunner::QueryMatch",
+            "page": "krunner/krunner-querymatch",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "favoriteIds",
+                    "favoriteIds : QStringList",
+                    "favoriteIds-prop"
+                ],
+                [
+                    "limit",
+                    "limit : int",
+                    "limit-prop"
+                ],
+                [
+                    "queryString",
+                    "queryString : QString",
+                    "queryString-prop"
+                ],
+                [
+                    "querying",
+                    "querying : bool",
+                    "querying-prop"
+                ],
+                [
+                    "runnerManager",
+                    "runnerManager : KRunner::RunnerManager*",
+                    "runnerManager-prop"
+                ],
+                [
+                    "singleRunner",
+                    "singleRunner : QString",
+                    "singleRunner-prop"
+                ],
+                [
+                    "singleRunnerMetaData",
+                    "singleRunnerMetaData : KPluginMetaData",
+                    "singleRunnerMetaData-prop"
+                ],
+                [
+                    "ResultsModel",
+                    "ResultsModel(QObject *)",
+                    "ResultsModel"
+                ],
+                [
+                    "ResultsModel",
+                    "ResultsModel(const KConfigGroup &, const KConfigGroup &, QObject *)",
+                    "ResultsModel-1"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "getMimeData",
+                    "getMimeData(const QModelIndex &) const : QMimeData *",
+                    "getMimeData"
+                ],
+                [
+                    "getQueryMatch",
+                    "getQueryMatch(const QModelIndex &) const : KRunner::QueryMatch",
+                    "getQueryMatch"
+                ],
+                [
+                    "queryStringChangeRequested",
+                    "queryStringChangeRequested(const QString &, int)",
+                    "queryStringChangeRequested"
+                ],
+                [
+                    "run",
+                    "run(const QModelIndex &) : bool",
+                    "run"
+                ],
+                [
+                    "runAction",
+                    "runAction(const QModelIndex &, int) : bool",
+                    "runAction"
+                ],
+                [
+                    "runnerManagerChanged",
+                    "runnerManagerChanged()",
+                    "runnerManagerChanged"
+                ],
+                [
+                    "setFavoriteIds",
+                    "setFavoriteIds(const QStringList &)",
+                    "setFavoriteIds"
+                ],
+                [
+                    "setRunnerManager",
+                    "setRunnerManager(KRunner::RunnerManager *)",
+                    "setRunnerManager"
+                ]
+            ],
+            "name": "KRunner::ResultsModel",
+            "page": "krunner/krunner-resultsmodel",
+            "qtBases": [
+                [
+                    "QSortFilterProxyModel",
+                    "https://doc.qt.io/qt-6/qsortfilterproxymodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "RunnerContext",
+                    "RunnerContext(KRunner::RunnerManager *)",
+                    "RunnerContext"
+                ],
+                [
+                    "addMatch",
+                    "addMatch(const KRunner::QueryMatch &) : bool",
+                    "addMatch"
+                ],
+                [
+                    "addMatches",
+                    "addMatches(const QList<KRunner::QueryMatch> &) : bool",
+                    "addMatches"
+                ],
+                [
+                    "ignoreCurrentMatchForHistory",
+                    "ignoreCurrentMatchForHistory() const",
+                    "ignoreCurrentMatchForHistory"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "matches",
+                    "matches() const : QList<KRunner::QueryMatch>",
+                    "matches"
+                ],
+                [
+                    "query",
+                    "query() const : QString",
+                    "query"
+                ],
+                [
+                    "requestQueryStringUpdate",
+                    "requestQueryStringUpdate(const QString &, int) const",
+                    "requestQueryStringUpdate"
+                ],
+                [
+                    "setQuery",
+                    "setQuery(const QString &)",
+                    "setQuery"
+                ],
+                [
+                    "singleRunnerQueryMode",
+                    "singleRunnerQueryMode() const : bool",
+                    "singleRunnerQueryMode"
+                ]
+            ],
+            "name": "KRunner::RunnerContext",
+            "page": "krunner/krunner-runnercontext",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "history",
+                    "history : QStringList",
+                    "history-prop"
+                ],
+                [
+                    "historyEnabled",
+                    "historyEnabled : bool",
+                    "historyEnabled-prop"
+                ],
+                [
+                    "querying",
+                    "querying : bool",
+                    "querying-prop"
+                ],
+                [
+                    "RunnerManager",
+                    "RunnerManager(QObject *)",
+                    "RunnerManager"
+                ],
+                [
+                    "RunnerManager",
+                    "RunnerManager(const KConfigGroup &, const KConfigGroup &, QObject *)",
+                    "RunnerManager-1"
+                ],
+                [
+                    "getHistorySuggestion",
+                    "getHistorySuggestion(const QString &) const : QString",
+                    "getHistorySuggestion"
+                ],
+                [
+                    "history",
+                    "history() const : QStringList",
+                    "history"
+                ],
+                [
+                    "historyChanged",
+                    "historyChanged()",
+                    "historyChanged"
+                ],
+                [
+                    "historyEnabled",
+                    "historyEnabled() : bool",
+                    "historyEnabled"
+                ],
+                [
+                    "historyEnabledChanged",
+                    "historyEnabledChanged()",
+                    "historyEnabledChanged"
+                ],
+                [
+                    "launchQuery",
+                    "launchQuery(const QString &, const QString &)",
+                    "launchQuery"
+                ],
+                [
+                    "loadRunner",
+                    "loadRunner(const KPluginMetaData &) : KRunner::AbstractRunner *",
+                    "loadRunner"
+                ],
+                [
+                    "matchSessionComplete",
+                    "matchSessionComplete()",
+                    "matchSessionComplete"
+                ],
+                [
+                    "matches",
+                    "matches() const : QList<KRunner::QueryMatch>",
+                    "matches"
+                ],
+                [
+                    "matchesChanged",
+                    "matchesChanged(const QList<KRunner::QueryMatch> &)",
+                    "matchesChanged"
+                ],
+                [
+                    "mimeDataForMatch",
+                    "mimeDataForMatch(const KRunner::QueryMatch &) const : QMimeData *",
+                    "mimeDataForMatch"
+                ],
+                [
+                    "query",
+                    "query() const : QString",
+                    "query"
+                ],
+                [
+                    "queryFinished",
+                    "queryFinished()",
+                    "queryFinished"
+                ],
+                [
+                    "querying",
+                    "querying() const : bool",
+                    "querying"
+                ],
+                [
+                    "queryingChanged",
+                    "queryingChanged()",
+                    "queryingChanged"
+                ],
+                [
+                    "reloadConfiguration",
+                    "reloadConfiguration()",
+                    "reloadConfiguration"
+                ],
+                [
+                    "removeFromHistory",
+                    "removeFromHistory(int)",
+                    "removeFromHistory"
+                ],
+                [
+                    "requestUpdateQueryString",
+                    "requestUpdateQueryString(const QString &, int)",
+                    "requestUpdateQueryString"
+                ],
+                [
+                    "reset",
+                    "reset()",
+                    "reset"
+                ],
+                [
+                    "run",
+                    "run(const KRunner::QueryMatch &, const KRunner::Action &) : bool",
+                    "run"
+                ],
+                [
+                    "runner",
+                    "runner(const QString &) const : KRunner::AbstractRunner *",
+                    "runner"
+                ],
+                [
+                    "runnerMetaDataList",
+                    "runnerMetaDataList() : QList<KPluginMetaData>",
+                    "runnerMetaDataList"
+                ],
+                [
+                    "runners",
+                    "runners() const : QList<KRunner::AbstractRunner *>",
+                    "runners"
+                ],
+                [
+                    "searchContext",
+                    "searchContext() const : KRunner::RunnerContext *",
+                    "searchContext"
+                ],
+                [
+                    "setAllowedRunners",
+                    "setAllowedRunners(const QStringList &)",
+                    "setAllowedRunners"
+                ],
+                [
+                    "setHistoryEnabled",
+                    "setHistoryEnabled(bool)",
+                    "setHistoryEnabled"
+                ],
+                [
+                    "setupMatchSession",
+                    "setupMatchSession()",
+                    "setupMatchSession"
+                ]
+            ],
+            "name": "KRunner::RunnerManager",
+            "page": "krunner/krunner-runnermanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "RunnerSyntax",
+                    "RunnerSyntax(const QString &, const QString &)",
+                    "RunnerSyntax"
+                ],
+                [
+                    "RunnerSyntax",
+                    "RunnerSyntax(const QStringList &, const QString &)",
+                    "RunnerSyntax-1"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "exampleQueries",
+                    "exampleQueries() const : QStringList",
+                    "exampleQueries"
+                ]
+            ],
+            "name": "KRunner::RunnerSyntax",
+            "page": "krunner/krunner-runnersyntax",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "krunner",
+    "sections": [
+        {
+            "description": "Framework for Plasma runners.",
+            "page": "krunner/krunner-module",
+            "pages": [
+                [
+                    "krunner/krunner-module",
+                    "KRunner C++ Classes"
+                ],
+                [
+                    "krunner/krunner-abstractrunner",
+                    "KRunner::AbstractRunner"
+                ],
+                [
+                    "krunner/krunner-action",
+                    "KRunner::Action"
+                ],
+                [
+                    "krunner/krunner-querymatch",
+                    "KRunner::QueryMatch"
+                ],
+                [
+                    "krunner/krunner-resultsmodel",
+                    "KRunner::ResultsModel"
+                ],
+                [
+                    "krunner/krunner-runnercontext",
+                    "KRunner::RunnerContext"
+                ],
+                [
+                    "krunner/krunner-runnermanager",
+                    "KRunner::RunnerManager"
+                ],
+                [
+                    "krunner/krunner-runnersyntax",
+                    "KRunner::RunnerSyntax"
+                ],
+                [
+                    "krunner/krunner",
+                    "KRunner Namespace"
+                ],
+                [
+                    "krunner/krunner-index",
+                    "KRunner"
+                ]
+            ],
+            "qml": false,
+            "title": "KRunner C++ Classes"
+        }
+    ]
+}

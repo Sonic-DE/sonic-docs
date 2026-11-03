@@ -1,0 +1,35 @@
+{
+    "classes": [
+    ],
+    "module": "kirigamiaddonsdateandtime",
+    "sections": [
+        {
+            "description": "QML types for selecting dates and times.",
+            "page": "kirigamiaddonsdateandtime/org-kde-kirigamiaddons-dateandtime-qmlmodule",
+            "pages": [
+                [
+                    "kirigamiaddonsdateandtime/org-kde-kirigamiaddons-dateandtime-qmlmodule",
+                    "Kirigami Addons DateAndTime QML Types"
+                ],
+                [
+                    "kirigamiaddonsdateandtime/qml-datepopup",
+                    "DatePopup"
+                ],
+                [
+                    "kirigamiaddonsdateandtime/qml-org-kde-kirigamiaddons-dateandtime-timepopup",
+                    "TimePopup"
+                ],
+                [
+                    "kirigamiaddonsdateandtime/qml-org-kde-kirigamiaddons-dateandtime-yearmodel",
+                    "YearModel"
+                ],
+                [
+                    "kirigamiaddonsdateandtime/qml-timepicker",
+                    "TimePicker"
+                ]
+            ],
+            "qml": true,
+            "title": "Kirigami Addons DateAndTime QML Types"
+        }
+    ]
+}

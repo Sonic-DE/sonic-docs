@@ -1,0 +1,1058 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KExiv2",
+                    "KExiv2()",
+                    "KExiv2"
+                ],
+                [
+                    "KExiv2",
+                    "KExiv2(const KExiv2Iface::KExiv2Data &)",
+                    "KExiv2-2"
+                ],
+                [
+                    "KExiv2",
+                    "KExiv2(const QString &)",
+                    "KExiv2-3"
+                ],
+                [
+                    "KExiv2",
+                    "KExiv2(const KExiv2Iface::KExiv2 &)",
+                    "KExiv2-1"
+                ],
+                [
+                    "~KExiv2",
+                    "~KExiv2()",
+                    "dtor.KExiv2"
+                ],
+                [
+                    "Exiv2Version",
+                    "Exiv2Version() : QString",
+                    "Exiv2Version"
+                ],
+                [
+                    "addToXmpTagStringBag",
+                    "addToXmpTagStringBag(const char *, const QStringList &, bool) const : bool",
+                    "addToXmpTagStringBag"
+                ],
+                [
+                    "applyChanges",
+                    "applyChanges() const : bool",
+                    "applyChanges"
+                ],
+                [
+                    "canWriteComment",
+                    "canWriteComment(const QString &) : bool",
+                    "canWriteComment"
+                ],
+                [
+                    "canWriteExif",
+                    "canWriteExif(const QString &) : bool",
+                    "canWriteExif"
+                ],
+                [
+                    "canWriteIptc",
+                    "canWriteIptc(const QString &) : bool",
+                    "canWriteIptc"
+                ],
+                [
+                    "canWriteXmp",
+                    "canWriteXmp(const QString &) : bool",
+                    "canWriteXmp"
+                ],
+                [
+                    "cleanupExiv2",
+                    "cleanupExiv2() : bool",
+                    "cleanupExiv2"
+                ],
+                [
+                    "clearComments",
+                    "clearComments() const : bool",
+                    "clearComments"
+                ],
+                [
+                    "clearExif",
+                    "clearExif() const : bool",
+                    "clearExif"
+                ],
+                [
+                    "clearIptc",
+                    "clearIptc() const : bool",
+                    "clearIptc"
+                ],
+                [
+                    "clearXmp",
+                    "clearXmp() const : bool",
+                    "clearXmp"
+                ],
+                [
+                    "convertFromGPSCoordinateString",
+                    "convertFromGPSCoordinateString(const QString &, double *const) : bool",
+                    "convertFromGPSCoordinateString"
+                ],
+                [
+                    "convertFromGPSCoordinateString",
+                    "convertFromGPSCoordinateString(const QString &, long *const, long *const, long *const, long *const, long *const, long *const, char *const) : bool",
+                    "convertFromGPSCoordinateString-1"
+                ],
+                [
+                    "convertToGPSCoordinateString",
+                    "convertToGPSCoordinateString(const bool, double) : QString",
+                    "convertToGPSCoordinateString"
+                ],
+                [
+                    "convertToGPSCoordinateString",
+                    "convertToGPSCoordinateString(const long, const long, const long, const long, const long, long, const char) : QString",
+                    "convertToGPSCoordinateString-1"
+                ],
+                [
+                    "convertToRational",
+                    "convertToRational(const double, long *const, long *const, const int)",
+                    "convertToRational"
+                ],
+                [
+                    "convertToRationalSmallDenominator",
+                    "convertToRationalSmallDenominator(const double, long *const, long *const)",
+                    "convertToRationalSmallDenominator"
+                ],
+                [
+                    "convertToUserPresentableNumbers",
+                    "convertToUserPresentableNumbers(const QString &, int *const, int *const, double *const, char *const) : bool",
+                    "convertToUserPresentableNumbers"
+                ],
+                [
+                    "convertToUserPresentableNumbers",
+                    "convertToUserPresentableNumbers(const bool, double, int *const, int *const, double *const, char *const)",
+                    "convertToUserPresentableNumbers-1"
+                ],
+                [
+                    "createExifUserStringFromValue",
+                    "createExifUserStringFromValue(const char *, const QVariant &, bool) : QString",
+                    "createExifUserStringFromValue"
+                ],
+                [
+                    "data",
+                    "data() const : KExiv2Iface::KExiv2Data",
+                    "data"
+                ],
+                [
+                    "detectLanguageAlt",
+                    "detectLanguageAlt(const QString &, QString &) : QString",
+                    "detectLanguageAlt"
+                ],
+                [
+                    "getComments",
+                    "getComments() const : QByteArray",
+                    "getComments"
+                ],
+                [
+                    "getCommentsDecoded",
+                    "getCommentsDecoded() const : QString",
+                    "getCommentsDecoded"
+                ],
+                [
+                    "getDigitizationDateTime",
+                    "getDigitizationDateTime(bool) const : QDateTime",
+                    "getDigitizationDateTime"
+                ],
+                [
+                    "getExifComment",
+                    "getExifComment() const : QString",
+                    "getExifComment"
+                ],
+                [
+                    "getExifEncoded",
+                    "getExifEncoded(bool) const : QByteArray",
+                    "getExifEncoded"
+                ],
+                [
+                    "getExifTagData",
+                    "getExifTagData(const char *) const : QByteArray",
+                    "getExifTagData"
+                ],
+                [
+                    "getExifTagDescription",
+                    "getExifTagDescription(const char *) : QString",
+                    "getExifTagDescription"
+                ],
+                [
+                    "getExifTagLong",
+                    "getExifTagLong(const char *, long &) const : bool",
+                    "getExifTagLong"
+                ],
+                [
+                    "getExifTagLong",
+                    "getExifTagLong(const char *, long &, int) const : bool",
+                    "getExifTagLong-1"
+                ],
+                [
+                    "getExifTagRational",
+                    "getExifTagRational(const char *, long &, long &, int) const : bool",
+                    "getExifTagRational"
+                ],
+                [
+                    "getExifTagString",
+                    "getExifTagString(const char *, bool) const : QString",
+                    "getExifTagString"
+                ],
+                [
+                    "getExifTagTitle",
+                    "getExifTagTitle(const char *) : QString",
+                    "getExifTagTitle"
+                ],
+                [
+                    "getExifTagVariant",
+                    "getExifTagVariant(const char *, bool, bool, int) const : QVariant",
+                    "getExifTagVariant"
+                ],
+                [
+                    "getExifTagsDataList",
+                    "getExifTagsDataList(const QStringList &, bool) const : KExiv2::MetaDataMap",
+                    "getExifTagsDataList"
+                ],
+                [
+                    "getExifThumbnail",
+                    "getExifThumbnail(bool) const : QImage",
+                    "getExifThumbnail"
+                ],
+                [
+                    "getFilePath",
+                    "getFilePath() const : QString",
+                    "getFilePath"
+                ],
+                [
+                    "getGPSAltitude",
+                    "getGPSAltitude(double *const) const : bool",
+                    "getGPSAltitude"
+                ],
+                [
+                    "getGPSInfo",
+                    "getGPSInfo(double &, double &, double &) const : bool",
+                    "getGPSInfo"
+                ],
+                [
+                    "getGPSLatitudeNumber",
+                    "getGPSLatitudeNumber(double *const) const : bool",
+                    "getGPSLatitudeNumber"
+                ],
+                [
+                    "getGPSLatitudeString",
+                    "getGPSLatitudeString() const : QString",
+                    "getGPSLatitudeString"
+                ],
+                [
+                    "getGPSLongitudeNumber",
+                    "getGPSLongitudeNumber(double *const) const : bool",
+                    "getGPSLongitudeNumber"
+                ],
+                [
+                    "getGPSLongitudeString",
+                    "getGPSLongitudeString() const : QString",
+                    "getGPSLongitudeString"
+                ],
+                [
+                    "getImageColorWorkSpace",
+                    "getImageColorWorkSpace() const : KExiv2Iface::KExiv2::ImageColorWorkSpace",
+                    "getImageColorWorkSpace"
+                ],
+                [
+                    "getImageDateTime",
+                    "getImageDateTime() const : QDateTime",
+                    "getImageDateTime"
+                ],
+                [
+                    "getImageDimensions",
+                    "getImageDimensions() const : QSize",
+                    "getImageDimensions"
+                ],
+                [
+                    "getImageOrientation",
+                    "getImageOrientation() const : KExiv2Iface::KExiv2::ImageOrientation",
+                    "getImageOrientation"
+                ],
+                [
+                    "getImagePreview",
+                    "getImagePreview(QImage &) const : bool",
+                    "getImagePreview"
+                ],
+                [
+                    "getIptc",
+                    "getIptc(bool) const : QByteArray",
+                    "getIptc"
+                ],
+                [
+                    "getIptcKeywords",
+                    "getIptcKeywords() const : QStringList",
+                    "getIptcKeywords"
+                ],
+                [
+                    "getIptcSubCategories",
+                    "getIptcSubCategories() const : QStringList",
+                    "getIptcSubCategories"
+                ],
+                [
+                    "getIptcSubjects",
+                    "getIptcSubjects() const : QStringList",
+                    "getIptcSubjects"
+                ],
+                [
+                    "getIptcTagData",
+                    "getIptcTagData(const char *) const : QByteArray",
+                    "getIptcTagData"
+                ],
+                [
+                    "getIptcTagDescription",
+                    "getIptcTagDescription(const char *) : QString",
+                    "getIptcTagDescription"
+                ],
+                [
+                    "getIptcTagString",
+                    "getIptcTagString(const char *, bool) const : QString",
+                    "getIptcTagString"
+                ],
+                [
+                    "getIptcTagTitle",
+                    "getIptcTagTitle(const char *) : QString",
+                    "getIptcTagTitle"
+                ],
+                [
+                    "getIptcTagsDataList",
+                    "getIptcTagsDataList(const QStringList &, bool) const : KExiv2::MetaDataMap",
+                    "getIptcTagsDataList"
+                ],
+                [
+                    "getIptcTagsList",
+                    "getIptcTagsList() const : KExiv2::TagsMap",
+                    "getIptcTagsList"
+                ],
+                [
+                    "getIptcTagsStringList",
+                    "getIptcTagsStringList(const char *, bool) const : QStringList",
+                    "getIptcTagsStringList"
+                ],
+                [
+                    "getMakernoteTagsList",
+                    "getMakernoteTagsList() const : KExiv2Iface::KExiv2::TagsMap",
+                    "getMakernoteTagsList"
+                ],
+                [
+                    "getMimeType",
+                    "getMimeType() const : QString",
+                    "getMimeType"
+                ],
+                [
+                    "getPixelSize",
+                    "getPixelSize() const : QSize",
+                    "getPixelSize"
+                ],
+                [
+                    "getStdExifTagsList",
+                    "getStdExifTagsList() const : KExiv2Iface::KExiv2::TagsMap",
+                    "getStdExifTagsList"
+                ],
+                [
+                    "getXmp",
+                    "getXmp() const : QByteArray",
+                    "getXmp"
+                ],
+                [
+                    "getXmpKeywords",
+                    "getXmpKeywords() const : QStringList",
+                    "getXmpKeywords"
+                ],
+                [
+                    "getXmpSubCategories",
+                    "getXmpSubCategories() const : QStringList",
+                    "getXmpSubCategories"
+                ],
+                [
+                    "getXmpSubjects",
+                    "getXmpSubjects() const : QStringList",
+                    "getXmpSubjects"
+                ],
+                [
+                    "getXmpTagDescription",
+                    "getXmpTagDescription(const char *) : QString",
+                    "getXmpTagDescription"
+                ],
+                [
+                    "getXmpTagString",
+                    "getXmpTagString(const char *, bool) const : QString",
+                    "getXmpTagString"
+                ],
+                [
+                    "getXmpTagStringBag",
+                    "getXmpTagStringBag(const char *, bool) const : QStringList",
+                    "getXmpTagStringBag"
+                ],
+                [
+                    "getXmpTagStringLangAlt",
+                    "getXmpTagStringLangAlt(const char *, const QString &, bool) const : QString",
+                    "getXmpTagStringLangAlt"
+                ],
+                [
+                    "getXmpTagStringListLangAlt",
+                    "getXmpTagStringListLangAlt(const char *, bool) const : KExiv2::AltLangMap",
+                    "getXmpTagStringListLangAlt"
+                ],
+                [
+                    "getXmpTagStringSeq",
+                    "getXmpTagStringSeq(const char *, bool) const : QStringList",
+                    "getXmpTagStringSeq"
+                ],
+                [
+                    "getXmpTagTitle",
+                    "getXmpTagTitle(const char *) : QString",
+                    "getXmpTagTitle"
+                ],
+                [
+                    "getXmpTagVariant",
+                    "getXmpTagVariant(const char *, bool, bool) const : QVariant",
+                    "getXmpTagVariant"
+                ],
+                [
+                    "getXmpTagsDataList",
+                    "getXmpTagsDataList(const QStringList &, bool) const : KExiv2::MetaDataMap",
+                    "getXmpTagsDataList"
+                ],
+                [
+                    "getXmpTagsList",
+                    "getXmpTagsList() const : KExiv2::TagsMap",
+                    "getXmpTagsList"
+                ],
+                [
+                    "hasComments",
+                    "hasComments() const : bool",
+                    "hasComments"
+                ],
+                [
+                    "hasExif",
+                    "hasExif() const : bool",
+                    "hasExif"
+                ],
+                [
+                    "hasIptc",
+                    "hasIptc() const : bool",
+                    "hasIptc"
+                ],
+                [
+                    "hasSidecar",
+                    "hasSidecar(const QString &) : bool",
+                    "hasSidecar"
+                ],
+                [
+                    "hasXmp",
+                    "hasXmp() const : bool",
+                    "hasXmp"
+                ],
+                [
+                    "initializeExiv2",
+                    "initializeExiv2() : bool",
+                    "initializeExiv2"
+                ],
+                [
+                    "initializeGPSInfo",
+                    "initializeGPSInfo(const bool) : bool",
+                    "initializeGPSInfo"
+                ],
+                [
+                    "isEmpty",
+                    "isEmpty() const : bool",
+                    "isEmpty"
+                ],
+                [
+                    "load",
+                    "load(const QString &) const : bool",
+                    "load"
+                ],
+                [
+                    "loadFromData",
+                    "loadFromData(const QByteArray &) const : bool",
+                    "loadFromData"
+                ],
+                [
+                    "metadataWritingMode",
+                    "metadataWritingMode() const : int",
+                    "metadataWritingMode"
+                ],
+                [
+                    "registerXmpNameSpace",
+                    "registerXmpNameSpace(const QString &, const QString &) : bool",
+                    "registerXmpNameSpace"
+                ],
+                [
+                    "removeExifTag",
+                    "removeExifTag(const char *, bool) const : bool",
+                    "removeExifTag"
+                ],
+                [
+                    "removeExifThumbnail",
+                    "removeExifThumbnail() const : bool",
+                    "removeExifThumbnail"
+                ],
+                [
+                    "removeFromXmpTagStringBag",
+                    "removeFromXmpTagStringBag(const char *, const QStringList &, bool) const : bool",
+                    "removeFromXmpTagStringBag"
+                ],
+                [
+                    "removeGPSInfo",
+                    "removeGPSInfo(const bool) : bool",
+                    "removeGPSInfo"
+                ],
+                [
+                    "removeIptcTag",
+                    "removeIptcTag(const char *, bool) const : bool",
+                    "removeIptcTag"
+                ],
+                [
+                    "removeXmpKeywords",
+                    "removeXmpKeywords(const QStringList &, bool) : bool",
+                    "removeXmpKeywords"
+                ],
+                [
+                    "removeXmpSubCategories",
+                    "removeXmpSubCategories(const QStringList &, bool) : bool",
+                    "removeXmpSubCategories"
+                ],
+                [
+                    "removeXmpSubjects",
+                    "removeXmpSubjects(const QStringList &, bool) : bool",
+                    "removeXmpSubjects"
+                ],
+                [
+                    "removeXmpTag",
+                    "removeXmpTag(const char *, bool) const : bool",
+                    "removeXmpTag"
+                ],
+                [
+                    "rotateExifQImage",
+                    "rotateExifQImage(QImage &, KExiv2Iface::KExiv2::ImageOrientation) const : bool",
+                    "rotateExifQImage"
+                ],
+                [
+                    "save",
+                    "save(const QString &) const : bool",
+                    "save"
+                ],
+                [
+                    "setComments",
+                    "setComments(const QByteArray &) const : bool",
+                    "setComments"
+                ],
+                [
+                    "setData",
+                    "setData(const KExiv2Iface::KExiv2Data &)",
+                    "setData"
+                ],
+                [
+                    "setExif",
+                    "setExif(const QByteArray &) const : bool",
+                    "setExif"
+                ],
+                [
+                    "setExifComment",
+                    "setExifComment(const QString &, bool) const : bool",
+                    "setExifComment"
+                ],
+                [
+                    "setExifTagData",
+                    "setExifTagData(const char *, const QByteArray &, bool) const : bool",
+                    "setExifTagData"
+                ],
+                [
+                    "setExifTagLong",
+                    "setExifTagLong(const char *, long, bool) const : bool",
+                    "setExifTagLong"
+                ],
+                [
+                    "setExifTagRational",
+                    "setExifTagRational(const char *, long, long, bool) const : bool",
+                    "setExifTagRational"
+                ],
+                [
+                    "setExifTagString",
+                    "setExifTagString(const char *, const QString &, bool) const : bool",
+                    "setExifTagString"
+                ],
+                [
+                    "setExifTagVariant",
+                    "setExifTagVariant(const char *, const QVariant &, bool, bool) const : bool",
+                    "setExifTagVariant"
+                ],
+                [
+                    "setExifThumbnail",
+                    "setExifThumbnail(const QImage &, bool) const : bool",
+                    "setExifThumbnail"
+                ],
+                [
+                    "setFilePath",
+                    "setFilePath(const QString &)",
+                    "setFilePath"
+                ],
+                [
+                    "setGPSInfo",
+                    "setGPSInfo(const double, const QString &, const QString &, const bool) : bool",
+                    "setGPSInfo"
+                ],
+                [
+                    "setGPSInfo",
+                    "setGPSInfo(const double, const double, const double, const bool) : bool",
+                    "setGPSInfo-1"
+                ],
+                [
+                    "setGPSInfo",
+                    "setGPSInfo(const double *const, const double, const double, const bool) : bool",
+                    "setGPSInfo-2"
+                ],
+                [
+                    "setImageColorWorkSpace",
+                    "setImageColorWorkSpace(KExiv2Iface::KExiv2::ImageColorWorkSpace, bool) const : bool",
+                    "setImageColorWorkSpace"
+                ],
+                [
+                    "setImageDateTime",
+                    "setImageDateTime(const QDateTime &, bool, bool) const : bool",
+                    "setImageDateTime"
+                ],
+                [
+                    "setImageDimensions",
+                    "setImageDimensions(const QSize &, bool) const : bool",
+                    "setImageDimensions"
+                ],
+                [
+                    "setImageOrientation",
+                    "setImageOrientation(KExiv2Iface::KExiv2::ImageOrientation, bool) const : bool",
+                    "setImageOrientation"
+                ],
+                [
+                    "setImagePreview",
+                    "setImagePreview(const QImage &, bool) const : bool",
+                    "setImagePreview"
+                ],
+                [
+                    "setImageProgramId",
+                    "setImageProgramId(const QString &, const QString &) const : bool",
+                    "setImageProgramId"
+                ],
+                [
+                    "setIptc",
+                    "setIptc(const QByteArray &) const : bool",
+                    "setIptc"
+                ],
+                [
+                    "setIptcKeywords",
+                    "setIptcKeywords(const QStringList &, const QStringList &, bool) const : bool",
+                    "setIptcKeywords"
+                ],
+                [
+                    "setIptcSubCategories",
+                    "setIptcSubCategories(const QStringList &, const QStringList &, bool) const : bool",
+                    "setIptcSubCategories"
+                ],
+                [
+                    "setIptcSubjects",
+                    "setIptcSubjects(const QStringList &, const QStringList &, bool) const : bool",
+                    "setIptcSubjects"
+                ],
+                [
+                    "setIptcTagData",
+                    "setIptcTagData(const char *, const QByteArray &, bool) const : bool",
+                    "setIptcTagData"
+                ],
+                [
+                    "setIptcTagString",
+                    "setIptcTagString(const char *, const QString &, bool) const : bool",
+                    "setIptcTagString"
+                ],
+                [
+                    "setIptcTagsStringList",
+                    "setIptcTagsStringList(const char *, int, const QStringList &, const QStringList &, bool) const : bool",
+                    "setIptcTagsStringList"
+                ],
+                [
+                    "setMetadataWritingMode",
+                    "setMetadataWritingMode(const int)",
+                    "setMetadataWritingMode"
+                ],
+                [
+                    "setProgramId",
+                    "setProgramId(bool) const : bool",
+                    "setProgramId"
+                ],
+                [
+                    "setTiffThumbnail",
+                    "setTiffThumbnail(const QImage &, bool) const : bool",
+                    "setTiffThumbnail"
+                ],
+                [
+                    "setUpdateFileTimeStamp",
+                    "setUpdateFileTimeStamp(bool)",
+                    "setUpdateFileTimeStamp"
+                ],
+                [
+                    "setUseXMPSidecar4Reading",
+                    "setUseXMPSidecar4Reading(const bool)",
+                    "setUseXMPSidecar4Reading"
+                ],
+                [
+                    "setWriteRawFiles",
+                    "setWriteRawFiles(const bool)",
+                    "setWriteRawFiles"
+                ],
+                [
+                    "setXmp",
+                    "setXmp(const QByteArray &) const : bool",
+                    "setXmp"
+                ],
+                [
+                    "setXmpKeywords",
+                    "setXmpKeywords(const QStringList &, bool) const : bool",
+                    "setXmpKeywords"
+                ],
+                [
+                    "setXmpSubCategories",
+                    "setXmpSubCategories(const QStringList &, bool) const : bool",
+                    "setXmpSubCategories"
+                ],
+                [
+                    "setXmpSubjects",
+                    "setXmpSubjects(const QStringList &, bool) const : bool",
+                    "setXmpSubjects"
+                ],
+                [
+                    "setXmpTagString",
+                    "setXmpTagString(const char *, const QString &, bool) const : bool",
+                    "setXmpTagString"
+                ],
+                [
+                    "setXmpTagString",
+                    "setXmpTagString(const char *, const QString &, KExiv2Iface::KExiv2::XmpTagType, bool) const : bool",
+                    "setXmpTagString-1"
+                ],
+                [
+                    "setXmpTagStringBag",
+                    "setXmpTagStringBag(const char *, const QStringList &, bool) const : bool",
+                    "setXmpTagStringBag"
+                ],
+                [
+                    "setXmpTagStringLangAlt",
+                    "setXmpTagStringLangAlt(const char *, const QString &, const QString &, bool) const : bool",
+                    "setXmpTagStringLangAlt"
+                ],
+                [
+                    "setXmpTagStringListLangAlt",
+                    "setXmpTagStringListLangAlt(const char *, const KExiv2::AltLangMap &, bool) const : bool",
+                    "setXmpTagStringListLangAlt"
+                ],
+                [
+                    "setXmpTagStringSeq",
+                    "setXmpTagStringSeq(const char *, const QStringList &, bool) const : bool",
+                    "setXmpTagStringSeq"
+                ],
+                [
+                    "sidecarFilePathForFile",
+                    "sidecarFilePathForFile(const QString &) : QString",
+                    "sidecarFilePathForFile"
+                ],
+                [
+                    "sidecarPath",
+                    "sidecarPath(const QString &) : QString",
+                    "sidecarPath"
+                ],
+                [
+                    "sidecarUrl",
+                    "sidecarUrl(const QString &) : QUrl",
+                    "sidecarUrl"
+                ],
+                [
+                    "sidecarUrl",
+                    "sidecarUrl(const QUrl &) : QUrl",
+                    "sidecarUrl-1"
+                ],
+                [
+                    "supportMetadataWritting",
+                    "supportMetadataWritting(const QString &) : bool",
+                    "supportMetadataWritting"
+                ],
+                [
+                    "supportXmp",
+                    "supportXmp() : bool",
+                    "supportXmp"
+                ],
+                [
+                    "unregisterXmpNameSpace",
+                    "unregisterXmpNameSpace(const QString &) : bool",
+                    "unregisterXmpNameSpace"
+                ],
+                [
+                    "updateFileTimeStamp",
+                    "updateFileTimeStamp() const : bool",
+                    "updateFileTimeStamp"
+                ],
+                [
+                    "useXMPSidecar4Reading",
+                    "useXMPSidecar4Reading() const : bool",
+                    "useXMPSidecar4Reading"
+                ],
+                [
+                    "version",
+                    "version() : QString",
+                    "version"
+                ],
+                [
+                    "writeRawFiles",
+                    "writeRawFiles() const : bool",
+                    "writeRawFiles"
+                ],
+                [
+                    "operator=",
+                    "operator=(const KExiv2Iface::KExiv2 &) : KExiv2Iface::KExiv2 &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KExiv2Iface::KExiv2",
+            "page": "kexiv2/kexiv2iface-kexiv2",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KExiv2Data",
+                    "KExiv2Data()",
+                    "KExiv2Data"
+                ],
+                [
+                    "KExiv2Data",
+                    "KExiv2Data()",
+                    "KExiv2Data-1"
+                ],
+                [
+                    "~KExiv2Data",
+                    "~KExiv2Data()",
+                    "dtor.KExiv2Data"
+                ],
+                [
+                    "operator=",
+                    "operator=() : KExiv2Iface::KExiv2Data &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KExiv2Iface::KExiv2Data",
+            "page": "kexiv2/kexiv2iface-kexiv2data",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KExiv2Previews",
+                    "KExiv2Previews(const QByteArray &)",
+                    "KExiv2Previews"
+                ],
+                [
+                    "KExiv2Previews",
+                    "KExiv2Previews(const QString &)",
+                    "KExiv2Previews-1"
+                ],
+                [
+                    "~KExiv2Previews",
+                    "~KExiv2Previews()",
+                    "dtor.KExiv2Previews"
+                ],
+                [
+                    "count",
+                    "count() : int",
+                    "count"
+                ],
+                [
+                    "data",
+                    "data(int) : QByteArray",
+                    "data"
+                ],
+                [
+                    "dataSize",
+                    "dataSize(int) : int",
+                    "dataSize"
+                ],
+                [
+                    "fileExtension",
+                    "fileExtension(int) : QString",
+                    "fileExtension"
+                ],
+                [
+                    "height",
+                    "height(int) : int",
+                    "height"
+                ],
+                [
+                    "image",
+                    "image(int) : QImage",
+                    "image"
+                ],
+                [
+                    "isEmpty",
+                    "isEmpty() : bool",
+                    "isEmpty"
+                ],
+                [
+                    "mimeType",
+                    "mimeType(int) : QString",
+                    "mimeType"
+                ],
+                [
+                    "originalMimeType",
+                    "originalMimeType() const : QString",
+                    "originalMimeType"
+                ],
+                [
+                    "originalSize",
+                    "originalSize() const : QSize",
+                    "originalSize"
+                ],
+                [
+                    "size",
+                    "size() : int",
+                    "size"
+                ],
+                [
+                    "width",
+                    "width(int) : int",
+                    "width"
+                ]
+            ],
+            "name": "KExiv2Iface::KExiv2Previews",
+            "page": "kexiv2/kexiv2iface-kexiv2previews",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "RotationMatrix",
+                    "RotationMatrix()",
+                    "RotationMatrix"
+                ],
+                [
+                    "RotationMatrix",
+                    "RotationMatrix(KExiv2Iface::KExiv2::ImageOrientation)",
+                    "RotationMatrix-1"
+                ],
+                [
+                    "RotationMatrix",
+                    "RotationMatrix(KExiv2Iface::RotationMatrix::TransformationAction)",
+                    "RotationMatrix-2"
+                ],
+                [
+                    "exifOrientation",
+                    "exifOrientation() const : KExiv2Iface::KExiv2::ImageOrientation",
+                    "exifOrientation"
+                ],
+                [
+                    "isNoTransform",
+                    "isNoTransform() const : bool",
+                    "isNoTransform"
+                ],
+                [
+                    "toTransform",
+                    "toTransform() const : QTransform",
+                    "toTransform"
+                ],
+                [
+                    "toTransform",
+                    "toTransform(KExiv2Iface::KExiv2::ImageOrientation) : QTransform",
+                    "toTransform-1"
+                ],
+                [
+                    "transformations",
+                    "transformations() const : QList<KExiv2Iface::RotationMatrix::TransformationAction>",
+                    "transformations"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KExiv2Iface::RotationMatrix &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator*=",
+                    "operator*=(KExiv2Iface::KExiv2::ImageOrientation) : KExiv2Iface::RotationMatrix &",
+                    "operator-2a-eq"
+                ],
+                [
+                    "operator*=",
+                    "operator*=(KExiv2Iface::RotationMatrix::TransformationAction) : KExiv2Iface::RotationMatrix &",
+                    "operator-2a-eq-1"
+                ],
+                [
+                    "operator*=",
+                    "operator*=(QList<KExiv2Iface::RotationMatrix::TransformationAction>) : KExiv2Iface::RotationMatrix &",
+                    "operator-2a-eq-2"
+                ],
+                [
+                    "operator*=",
+                    "operator*=(const KExiv2Iface::RotationMatrix &) : KExiv2Iface::RotationMatrix &",
+                    "operator-2a-eq-3"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KExiv2Iface::RotationMatrix &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KExiv2Iface::RotationMatrix",
+            "page": "kexiv2/kexiv2iface-rotationmatrix",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kexiv2",
+    "sections": [
+        {
+            "description": "Todo.",
+            "page": "kexiv2/kexiv2-module",
+            "pages": [
+                [
+                    "kexiv2/kexiv2-module",
+                    "KExiv2 C++ Classes"
+                ],
+                [
+                    "kexiv2/kexiv2iface-kexiv2",
+                    "KExiv2Iface::KExiv2"
+                ],
+                [
+                    "kexiv2/kexiv2iface-kexiv2data",
+                    "KExiv2Iface::KExiv2Data"
+                ],
+                [
+                    "kexiv2/kexiv2iface-kexiv2previews",
+                    "KExiv2Iface::KExiv2Previews"
+                ],
+                [
+                    "kexiv2/kexiv2iface-rotationmatrix",
+                    "KExiv2Iface::RotationMatrix"
+                ],
+                [
+                    "kexiv2/kexiv2-index",
+                    "KExiv2"
+                ],
+                [
+                    "kexiv2/kexiv2iface-sub-kexiv2",
+                    "KExiv2Iface Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KExiv2 C++ Classes"
+        }
+    ]
+}

@@ -1,0 +1,585 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KIconColors",
+                    "KIconColors()",
+                    "KIconColors"
+                ],
+                [
+                    "KIconColors",
+                    "KIconColors(const QColor &)",
+                    "KIconColors-1"
+                ],
+                [
+                    "KIconColors",
+                    "KIconColors(const QPalette &)",
+                    "KIconColors-2"
+                ],
+                [
+                    "accent",
+                    "accent() const : QColor",
+                    "accent"
+                ],
+                [
+                    "background",
+                    "background() const : QColor",
+                    "background"
+                ],
+                [
+                    "highlight",
+                    "highlight() const : QColor",
+                    "highlight"
+                ],
+                [
+                    "highlightedText",
+                    "highlightedText() const : QColor",
+                    "highlightedText"
+                ],
+                [
+                    "negativeText",
+                    "negativeText() const : QColor",
+                    "negativeText"
+                ],
+                [
+                    "neutralText",
+                    "neutralText() const : QColor",
+                    "neutralText"
+                ],
+                [
+                    "positiveText",
+                    "positiveText() const : QColor",
+                    "positiveText"
+                ],
+                [
+                    "setAccent",
+                    "setAccent(const QColor &)",
+                    "setAccent"
+                ],
+                [
+                    "setBackground",
+                    "setBackground(const QColor &)",
+                    "setBackground"
+                ],
+                [
+                    "setHighlight",
+                    "setHighlight(const QColor &)",
+                    "setHighlight"
+                ],
+                [
+                    "setHighlightedText",
+                    "setHighlightedText(const QColor &)",
+                    "setHighlightedText"
+                ],
+                [
+                    "setNegativeText",
+                    "setNegativeText(const QColor &)",
+                    "setNegativeText"
+                ],
+                [
+                    "setNeutralText",
+                    "setNeutralText(const QColor &)",
+                    "setNeutralText"
+                ],
+                [
+                    "setPositiveText",
+                    "setPositiveText(const QColor &)",
+                    "setPositiveText"
+                ],
+                [
+                    "setText",
+                    "setText(const QColor &)",
+                    "setText"
+                ],
+                [
+                    "stylesheet",
+                    "stylesheet(KIconLoader::States) const : QString",
+                    "stylesheet"
+                ],
+                [
+                    "text",
+                    "text() const : QColor",
+                    "text"
+                ]
+            ],
+            "name": "KIconColors",
+            "page": "kiconthemes/kiconcolors",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "colorize",
+                    "colorize(QImage &, const QColor &, float)",
+                    "colorize"
+                ],
+                [
+                    "deSaturate",
+                    "deSaturate(QImage &, float)",
+                    "deSaturate"
+                ],
+                [
+                    "overlay",
+                    "overlay(QImage &, QImage &)",
+                    "overlay"
+                ],
+                [
+                    "semiTransparent",
+                    "semiTransparent(QImage &)",
+                    "semiTransparent"
+                ],
+                [
+                    "semiTransparent",
+                    "semiTransparent(QPixmap &)",
+                    "semiTransparent-1"
+                ],
+                [
+                    "toActive",
+                    "toActive(QImage &)",
+                    "toActive"
+                ],
+                [
+                    "toActive",
+                    "toActive(QPixmap &)",
+                    "toActive-1"
+                ],
+                [
+                    "toDisabled",
+                    "toDisabled(QImage &)",
+                    "toDisabled"
+                ],
+                [
+                    "toDisabled",
+                    "toDisabled(QPixmap &)",
+                    "toDisabled-1"
+                ],
+                [
+                    "toGamma",
+                    "toGamma(QImage &, float)",
+                    "toGamma"
+                ],
+                [
+                    "toGray",
+                    "toGray(QImage &, float)",
+                    "toGray"
+                ],
+                [
+                    "toMonochrome",
+                    "toMonochrome(QImage &, const QColor &, const QColor &, float)",
+                    "toMonochrome"
+                ]
+            ],
+            "name": "KIconEffect",
+            "page": "kiconthemes/kiconeffect",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KIconEngine",
+                    "KIconEngine(const QString &, KIconLoader *, const QStringList &)",
+                    "KIconEngine"
+                ],
+                [
+                    "KIconEngine",
+                    "KIconEngine(const QString &, const KIconColors &, KIconLoader *)",
+                    "KIconEngine-1"
+                ],
+                [
+                    "KIconEngine",
+                    "KIconEngine(const QString &, const KIconColors &, KIconLoader *, const QStringList &)",
+                    "KIconEngine-2"
+                ],
+                [
+                    "KIconEngine",
+                    "KIconEngine(const QString &, KIconLoader *)",
+                    "KIconEngine-3"
+                ]
+            ],
+            "name": "KIconEngine",
+            "page": "kiconthemes/kiconengine",
+            "qtBases": [
+                [
+                    "QIconEngine",
+                    "https://doc.qt.io/qt-6/qiconengine-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KIconLoader",
+                    "KIconLoader(const QString &, const QStringList &, QObject *)",
+                    "KIconLoader"
+                ],
+                [
+                    "addAppDir",
+                    "addAppDir(const QString &, const QString &)",
+                    "addAppDir"
+                ],
+                [
+                    "currentSize",
+                    "currentSize(KIconLoader::Group) const : int",
+                    "currentSize"
+                ],
+                [
+                    "customPalette",
+                    "customPalette() const : QPalette",
+                    "customPalette"
+                ],
+                [
+                    "emitChange",
+                    "emitChange(KIconLoader::Group)",
+                    "emitChange"
+                ],
+                [
+                    "global",
+                    "global() : KIconLoader *",
+                    "global"
+                ],
+                [
+                    "hasCustomPalette",
+                    "hasCustomPalette() const : bool",
+                    "hasCustomPalette"
+                ],
+                [
+                    "hasIcon",
+                    "hasIcon(const QString &) const : bool",
+                    "hasIcon"
+                ],
+                [
+                    "iconChanged",
+                    "iconChanged(int)",
+                    "iconChanged"
+                ],
+                [
+                    "iconLoaderSettingsChanged",
+                    "iconLoaderSettingsChanged()",
+                    "iconLoaderSettingsChanged"
+                ],
+                [
+                    "iconPath",
+                    "iconPath(const QString &, int, bool) const : QString",
+                    "iconPath"
+                ],
+                [
+                    "iconPath",
+                    "iconPath(const QString &, int, bool, qreal) const : QString",
+                    "iconPath-1"
+                ],
+                [
+                    "loadIcon",
+                    "loadIcon(const QString &, KIconLoader::Group, int, int, const QStringList &, QString *, bool) const : QPixmap",
+                    "loadIcon"
+                ],
+                [
+                    "loadMimeTypeIcon",
+                    "loadMimeTypeIcon(const QString &, KIconLoader::Group, int, int, const QStringList &, QString *) const : QPixmap",
+                    "loadMimeTypeIcon"
+                ],
+                [
+                    "loadScaledIcon",
+                    "loadScaledIcon(const QString &, KIconLoader::Group, qreal, const QSize &, int, const QStringList &, QString *, bool) const : QPixmap",
+                    "loadScaledIcon"
+                ],
+                [
+                    "loadScaledIcon",
+                    "loadScaledIcon(const QString &, KIconLoader::Group, qreal, const QSize &, int, const QStringList &, QString *, bool, const std::optional<KIconColors> &) const : QPixmap",
+                    "loadScaledIcon-2"
+                ],
+                [
+                    "queryIcons",
+                    "queryIcons() const : QStringList",
+                    "queryIcons"
+                ],
+                [
+                    "queryIcons",
+                    "queryIcons(int, KIconLoader::Context) const : QStringList",
+                    "queryIcons-1"
+                ],
+                [
+                    "queryIconsByContext",
+                    "queryIconsByContext(int, KIconLoader::Context) const : QStringList",
+                    "queryIconsByContext"
+                ],
+                [
+                    "queryIconsByDir",
+                    "queryIconsByDir(const QString &) const : QStringList",
+                    "queryIconsByDir"
+                ],
+                [
+                    "reconfigure",
+                    "reconfigure(const QString &, const QStringList &)",
+                    "reconfigure"
+                ],
+                [
+                    "resetPalette",
+                    "resetPalette()",
+                    "resetPalette"
+                ],
+                [
+                    "searchPaths",
+                    "searchPaths() const : QStringList",
+                    "searchPaths"
+                ],
+                [
+                    "setCustomPalette",
+                    "setCustomPalette(const QPalette &)",
+                    "setCustomPalette"
+                ],
+                [
+                    "theme",
+                    "theme() const : KIconTheme *",
+                    "theme"
+                ],
+                [
+                    "unknown",
+                    "unknown() : QPixmap",
+                    "unknown"
+                ]
+            ],
+            "name": "KIconLoader",
+            "page": "kiconthemes/kiconloader",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KIconTheme",
+                    "KIconTheme(const QString &, const QString &, const QString &)",
+                    "KIconTheme"
+                ],
+                [
+                    "current",
+                    "current() : QString",
+                    "current"
+                ],
+                [
+                    "defaultSize",
+                    "defaultSize(KIconLoader::Group) const : int",
+                    "defaultSize"
+                ],
+                [
+                    "defaultThemeName",
+                    "defaultThemeName() : QString",
+                    "defaultThemeName"
+                ],
+                [
+                    "depth",
+                    "depth() const : int",
+                    "depth"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "dir",
+                    "dir() const : QString",
+                    "dir"
+                ],
+                [
+                    "example",
+                    "example() const : QString",
+                    "example"
+                ],
+                [
+                    "followsColorScheme",
+                    "followsColorScheme() const : bool",
+                    "followsColorScheme"
+                ],
+                [
+                    "forceThemeForTests",
+                    "forceThemeForTests(const QString &)",
+                    "forceThemeForTests"
+                ],
+                [
+                    "hasContext",
+                    "hasContext(KIconLoader::Context) const : bool",
+                    "hasContext"
+                ],
+                [
+                    "iconPath",
+                    "iconPath(const QString &, int, KIconLoader::MatchType) const : QString",
+                    "iconPath"
+                ],
+                [
+                    "iconPath",
+                    "iconPath(const QString &, int, KIconLoader::MatchType, qreal) const : QString",
+                    "iconPath-1"
+                ],
+                [
+                    "iconPathByName",
+                    "iconPathByName(const QString &, int, KIconLoader::MatchType) const : QString",
+                    "iconPathByName"
+                ],
+                [
+                    "iconPathByName",
+                    "iconPathByName(const QString &, int, KIconLoader::MatchType, qreal) const : QString",
+                    "iconPathByName-1"
+                ],
+                [
+                    "inherits",
+                    "inherits() const : QStringList",
+                    "inherits"
+                ],
+                [
+                    "initTheme",
+                    "initTheme()",
+                    "initTheme"
+                ],
+                [
+                    "internalName",
+                    "internalName() const : QString",
+                    "internalName"
+                ],
+                [
+                    "isHidden",
+                    "isHidden() const : bool",
+                    "isHidden"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "list",
+                    "list() : QStringList",
+                    "list"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "queryIcons",
+                    "queryIcons() const : QStringList",
+                    "queryIcons"
+                ],
+                [
+                    "queryIcons",
+                    "queryIcons(int, KIconLoader::Context) const : QStringList",
+                    "queryIcons-1"
+                ],
+                [
+                    "queryIconsByContext",
+                    "queryIconsByContext(int, KIconLoader::Context) const : QStringList",
+                    "queryIconsByContext"
+                ],
+                [
+                    "querySizes",
+                    "querySizes(KIconLoader::Group) const : QList<int>",
+                    "querySizes"
+                ],
+                [
+                    "reconfigure",
+                    "reconfigure()",
+                    "reconfigure"
+                ],
+                [
+                    "screenshot",
+                    "screenshot() const : QString",
+                    "screenshot"
+                ]
+            ],
+            "name": "KIconTheme",
+            "page": "kiconthemes/kicontheme",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "KQuickIconProvider",
+            "page": "kiconthemes/kquickiconprovider",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kiconthemes",
+    "sections": [
+        {
+            "description": "Icon GUI utilities.",
+            "page": "kiconthemes/kiconthemes-module",
+            "pages": [
+                [
+                    "kiconthemes/kiconthemes-module",
+                    "KIconThemes C++ Classes"
+                ],
+                [
+                    "kiconthemes/kiconcolors",
+                    "KIconColors"
+                ],
+                [
+                    "kiconthemes/kiconeffect",
+                    "KIconEffect"
+                ],
+                [
+                    "kiconthemes/kiconengine",
+                    "KIconEngine"
+                ],
+                [
+                    "kiconthemes/kiconloader",
+                    "KIconLoader"
+                ],
+                [
+                    "kiconthemes/kicontheme",
+                    "KIconTheme"
+                ],
+                [
+                    "kiconthemes/kquickiconprovider",
+                    "KQuickIconProvider"
+                ],
+                [
+                    "kiconthemes/kde",
+                    "KDE Namespace"
+                ],
+                [
+                    "kiconthemes/kiconthemes-index",
+                    "KIconThemes"
+                ]
+            ],
+            "qml": false,
+            "title": "KIconThemes C++ Classes"
+        },
+        {
+            "description": "Icon GUI utilities.",
+            "page": "kiconthemes/org-kde-iconthemes-qmlmodule",
+            "pages": [
+                [
+                    "kiconthemes/org-kde-iconthemes-qmlmodule",
+                    "KIconThemes QML Types"
+                ],
+                [
+                    "kiconthemes/qml-org-kde-iconthemes-icondialog",
+                    "IconDialog"
+                ]
+            ],
+            "qml": true,
+            "title": "KIconThemes QML Types"
+        }
+    ]
+}

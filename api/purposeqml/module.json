@@ -1,0 +1,31 @@
+{
+    "classes": [
+    ],
+    "module": "purposeqml",
+    "sections": [
+        {
+            "description": "Framework for providing abstractions to get the developer's purposes fulfilled.",
+            "page": "purposeqml/org-kde-purpose-qmlmodule",
+            "pages": [
+                [
+                    "purposeqml/org-kde-purpose-qmlmodule",
+                    "Purpose QML Types"
+                ],
+                [
+                    "purposeqml/qml-org-kde-purpose-alternativesmodel",
+                    "AlternativesModel"
+                ],
+                [
+                    "purposeqml/qml-org-kde-purpose-alternativesview",
+                    "AlternativesView"
+                ],
+                [
+                    "purposeqml/qml-org-kde-purpose-jobview",
+                    "JobView"
+                ]
+            ],
+            "qml": true,
+            "title": "Purpose QML Types"
+        }
+    ]
+}

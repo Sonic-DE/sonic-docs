@@ -1,0 +1,395 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Client",
+                    "Client()",
+                    "Client"
+                ],
+                [
+                    "delCommand",
+                    "delCommand(const QByteArray &, const QByteArray &) : int",
+                    "delCommand"
+                ],
+                [
+                    "delGroup",
+                    "delGroup(const QByteArray &) : int",
+                    "delGroup"
+                ],
+                [
+                    "delVar",
+                    "delVar(const QByteArray &) : int",
+                    "delVar"
+                ],
+                [
+                    "delVars",
+                    "delVars(const QByteArray &) : int",
+                    "delVars"
+                ],
+                [
+                    "exec",
+                    "exec(const QByteArray &, const QByteArray &, const QByteArray &, const QList<QByteArray> &) : int",
+                    "exec"
+                ],
+                [
+                    "exitCode",
+                    "exitCode() : int",
+                    "exitCode"
+                ],
+                [
+                    "findGroup",
+                    "findGroup(const QByteArray &) : bool",
+                    "findGroup"
+                ],
+                [
+                    "getKeys",
+                    "getKeys(const QByteArray &) : QList<QByteArray>",
+                    "getKeys"
+                ],
+                [
+                    "getVar",
+                    "getVar(const QByteArray &) : QByteArray",
+                    "getVar"
+                ],
+                [
+                    "ping",
+                    "ping() : int",
+                    "ping"
+                ],
+                [
+                    "setHost",
+                    "setHost(const QByteArray &) : int",
+                    "setHost"
+                ],
+                [
+                    "setPass",
+                    "setPass(const char *, int) : int",
+                    "setPass"
+                ],
+                [
+                    "setPriority",
+                    "setPriority(int) : int",
+                    "setPriority"
+                ],
+                [
+                    "setScheduler",
+                    "setScheduler(int) : int",
+                    "setScheduler"
+                ],
+                [
+                    "setVar",
+                    "setVar(const QByteArray &, const QByteArray &, int, const QByteArray &) : int",
+                    "setVar"
+                ],
+                [
+                    "startServer",
+                    "startServer() : int",
+                    "startServer"
+                ],
+                [
+                    "stopServer",
+                    "stopServer() : int",
+                    "stopServer"
+                ]
+            ],
+            "name": "KDESu::Client",
+            "page": "kdesu/kdesu-client",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "checkPid",
+                    "checkPid(pid_t) : bool",
+                    "checkPid"
+                ],
+                [
+                    "checkPidExited",
+                    "checkPidExited(pid_t) : int",
+                    "checkPidExited"
+                ],
+                [
+                    "enableLocalEcho",
+                    "enableLocalEcho(bool) : int",
+                    "enableLocalEcho"
+                ],
+                [
+                    "environment",
+                    "environment() const : QList<QByteArray>",
+                    "environment"
+                ],
+                [
+                    "exec",
+                    "exec(const QByteArray &, const QList<QByteArray> &) : int",
+                    "exec"
+                ],
+                [
+                    "fd",
+                    "fd() const : int",
+                    "fd"
+                ],
+                [
+                    "pid",
+                    "pid() const : int",
+                    "pid"
+                ],
+                [
+                    "readAll",
+                    "readAll(bool) : QByteArray",
+                    "readAll"
+                ],
+                [
+                    "readLine",
+                    "readLine(bool) : QByteArray",
+                    "readLine"
+                ],
+                [
+                    "setEnvironment",
+                    "setEnvironment(const QList<QByteArray> &)",
+                    "setEnvironment"
+                ],
+                [
+                    "setErase",
+                    "setErase(bool)",
+                    "setErase"
+                ],
+                [
+                    "setExitString",
+                    "setExitString(const QByteArray &)",
+                    "setExitString"
+                ],
+                [
+                    "setTerminal",
+                    "setTerminal(bool)",
+                    "setTerminal"
+                ],
+                [
+                    "unreadLine",
+                    "unreadLine(const QByteArray &, bool)",
+                    "unreadLine"
+                ],
+                [
+                    "waitForChild",
+                    "waitForChild() : int",
+                    "waitForChild"
+                ],
+                [
+                    "waitMS",
+                    "waitMS(int, int) : int",
+                    "waitMS"
+                ],
+                [
+                    "waitSlave",
+                    "waitSlave() : int",
+                    "waitSlave"
+                ],
+                [
+                    "writeLine",
+                    "writeLine(const QByteArray &, bool)",
+                    "writeLine"
+                ]
+            ],
+            "name": "KDESu::PtyProcess",
+            "page": "kdesu/kdesu-ptyprocess",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kdesu/kdesu-stubprocess"
+            ],
+            "members": [
+                [
+                    "SshProcess",
+                    "SshProcess(const QByteArray &, const QByteArray &, const QByteArray &)",
+                    "SshProcess"
+                ],
+                [
+                    "checkInstall",
+                    "checkInstall(const char *) : int",
+                    "checkInstall"
+                ],
+                [
+                    "checkNeedPassword",
+                    "checkNeedPassword() : int",
+                    "checkNeedPassword"
+                ],
+                [
+                    "error",
+                    "error() const : QByteArray",
+                    "error"
+                ],
+                [
+                    "exec",
+                    "exec(const char *, int) : int",
+                    "exec"
+                ],
+                [
+                    "prompt",
+                    "prompt() const : QByteArray",
+                    "prompt"
+                ],
+                [
+                    "setHost",
+                    "setHost(const QByteArray &)",
+                    "setHost"
+                ],
+                [
+                    "setStub",
+                    "setStub(const QByteArray &)",
+                    "setStub"
+                ]
+            ],
+            "name": "KDESu::SshProcess",
+            "page": "kdesu/kdesu-sshprocess",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kdesu/kdesu-ptyprocess"
+            ],
+            "members": [
+                [
+                    "StubProcess",
+                    "StubProcess()",
+                    "StubProcess"
+                ],
+                [
+                    "converseStub",
+                    "converseStub(int) : int",
+                    "converseStub"
+                ],
+                [
+                    "display",
+                    "display() : QByteArray",
+                    "display"
+                ],
+                [
+                    "displayAuth",
+                    "displayAuth() : QByteArray",
+                    "displayAuth"
+                ],
+                [
+                    "setCommand",
+                    "setCommand(const QByteArray &)",
+                    "setCommand"
+                ],
+                [
+                    "setPriority",
+                    "setPriority(int)",
+                    "setPriority"
+                ],
+                [
+                    "setScheduler",
+                    "setScheduler(int)",
+                    "setScheduler"
+                ],
+                [
+                    "setUser",
+                    "setUser(const QByteArray &)",
+                    "setUser"
+                ],
+                [
+                    "setXOnly",
+                    "setXOnly(bool)",
+                    "setXOnly"
+                ]
+            ],
+            "name": "KDESu::StubProcess",
+            "page": "kdesu/kdesu-stubprocess",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kdesu/kdesu-stubprocess"
+            ],
+            "members": [
+                [
+                    "SuProcess",
+                    "SuProcess(const QByteArray &, const QByteArray &)",
+                    "SuProcess"
+                ],
+                [
+                    "checkInstall",
+                    "checkInstall(const char *) : int",
+                    "checkInstall"
+                ],
+                [
+                    "checkNeedPassword",
+                    "checkNeedPassword() : int",
+                    "checkNeedPassword"
+                ],
+                [
+                    "exec",
+                    "exec(const char *, int) : int",
+                    "exec"
+                ],
+                [
+                    "superUserCommand",
+                    "superUserCommand() : QString",
+                    "superUserCommand"
+                ],
+                [
+                    "useUsersOwnPassword",
+                    "useUsersOwnPassword() : bool",
+                    "useUsersOwnPassword"
+                ]
+            ],
+            "name": "KDESu::SuProcess",
+            "page": "kdesu/kdesu-suprocess",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kdesu",
+    "sections": [
+        {
+            "description": "User interface for running shell commands with root privileges.",
+            "page": "kdesu/kdesu-module",
+            "pages": [
+                [
+                    "kdesu/kdesu-module",
+                    "KDESu C++ Classes"
+                ],
+                [
+                    "kdesu/kdesu-client",
+                    "KDESu::Client"
+                ],
+                [
+                    "kdesu/kdesu-ptyprocess",
+                    "KDESu::PtyProcess"
+                ],
+                [
+                    "kdesu/kdesu-sshprocess",
+                    "KDESu::SshProcess"
+                ],
+                [
+                    "kdesu/kdesu-stubprocess",
+                    "KDESu::StubProcess"
+                ],
+                [
+                    "kdesu/kdesu-suprocess",
+                    "KDESu::SuProcess"
+                ],
+                [
+                    "kdesu/kdesu-index",
+                    "KDESu"
+                ],
+                [
+                    "kdesu/kdesu-sub-kdesu",
+                    "KDESu Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KDESu C++ Classes"
+        }
+    ]
+}

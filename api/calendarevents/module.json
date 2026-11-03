@@ -1,0 +1,222 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "CalendarEventsPlugin",
+                    "CalendarEventsPlugin(QObject *)",
+                    "CalendarEventsPlugin"
+                ],
+                [
+                    "alternateCalendarDateReady",
+                    "alternateCalendarDateReady(const QHash<QDate, QCalendar::YearMonthDay> &)",
+                    "alternateCalendarDateReady"
+                ],
+                [
+                    "dataReady",
+                    "dataReady(const QMultiHash<QDate, CalendarEvents::EventData> &)",
+                    "dataReady"
+                ],
+                [
+                    "eventModified",
+                    "eventModified(const CalendarEvents::EventData &)",
+                    "eventModified"
+                ],
+                [
+                    "eventRemoved",
+                    "eventRemoved(const QString &)",
+                    "eventRemoved"
+                ],
+                [
+                    "loadEventsForDateRange",
+                    "loadEventsForDateRange(const QDate &, const QDate &)",
+                    "loadEventsForDateRange"
+                ],
+                [
+                    "subLabelReady",
+                    "subLabelReady(const QHash<QDate, CalendarEvents::CalendarEventsPlugin::SubLabel> &)",
+                    "subLabelReady"
+                ]
+            ],
+            "name": "CalendarEvents::CalendarEventsPlugin",
+            "page": "calendarevents/calendarevents-calendareventsplugin",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "EventData",
+                    "EventData()",
+                    "EventData"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "endDateTime",
+                    "endDateTime() const : QDateTime",
+                    "endDateTime"
+                ],
+                [
+                    "eventColor",
+                    "eventColor() const : QString",
+                    "eventColor"
+                ],
+                [
+                    "isAllDay",
+                    "isAllDay() const : bool",
+                    "isAllDay"
+                ],
+                [
+                    "isMinor",
+                    "isMinor() const : bool",
+                    "isMinor"
+                ],
+                [
+                    "location",
+                    "location() const : QString",
+                    "location"
+                ],
+                [
+                    "setDescription",
+                    "setDescription(const QString &)",
+                    "setDescription"
+                ],
+                [
+                    "setEndDateTime",
+                    "setEndDateTime(const QDateTime &)",
+                    "setEndDateTime"
+                ],
+                [
+                    "setEventColor",
+                    "setEventColor(const QString &)",
+                    "setEventColor"
+                ],
+                [
+                    "setEventType",
+                    "setEventType(CalendarEvents::EventData::EventType)",
+                    "setEventType"
+                ],
+                [
+                    "setIsAllDay",
+                    "setIsAllDay(bool)",
+                    "setIsAllDay"
+                ],
+                [
+                    "setIsMinor",
+                    "setIsMinor(bool)",
+                    "setIsMinor"
+                ],
+                [
+                    "setLocation",
+                    "setLocation(const QString &)",
+                    "setLocation"
+                ],
+                [
+                    "setStartDateTime",
+                    "setStartDateTime(const QDateTime &)",
+                    "setStartDateTime"
+                ],
+                [
+                    "setTitle",
+                    "setTitle(const QString &)",
+                    "setTitle"
+                ],
+                [
+                    "setUid",
+                    "setUid(const QString &)",
+                    "setUid"
+                ],
+                [
+                    "startDateTime",
+                    "startDateTime() const : QDateTime",
+                    "startDateTime"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "type",
+                    "type() const : CalendarEvents::EventData::EventType",
+                    "type"
+                ],
+                [
+                    "uid",
+                    "uid() const : QString",
+                    "uid"
+                ]
+            ],
+            "name": "CalendarEvents::EventData",
+            "page": "calendarevents/calendarevents-eventdata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "showEvent",
+                    "showEvent(const QString &) : bool",
+                    "showEvent"
+                ]
+            ],
+            "name": "CalendarEvents::ShowEventInterface",
+            "page": "calendarevents/calendarevents-showeventinterface",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "calendarevents",
+    "sections": [
+        {
+            "description": "Plugin System for Calendar Events.",
+            "page": "calendarevents/calendarevents-module",
+            "pages": [
+                [
+                    "calendarevents/calendarevents-module",
+                    "CalendarEvents C++ Classes"
+                ],
+                [
+                    "calendarevents/calendarevents-calendareventsplugin",
+                    "CalendarEvents::CalendarEventsPlugin"
+                ],
+                [
+                    "calendarevents/calendarevents-eventdata",
+                    "CalendarEvents::EventData"
+                ],
+                [
+                    "calendarevents/calendarevents-showeventinterface",
+                    "CalendarEvents::ShowEventInterface"
+                ],
+                [
+                    "calendarevents/calendarevents",
+                    "CalendarEvents Namespace"
+                ],
+                [
+                    "calendarevents/calendarevents-calendareventsplugin-sublabel",
+                    ""
+                ],
+                [
+                    "calendarevents/kdeclarative-index",
+                    "KDeclarative"
+                ]
+            ],
+            "qml": false,
+            "title": "CalendarEvents C++ Classes"
+        }
+    ]
+}

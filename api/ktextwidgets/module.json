@@ -1,0 +1,860 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFind",
+                    "KFind(const QString &, long, QWidget *)",
+                    "KFind"
+                ],
+                [
+                    "KFind",
+                    "KFind(const QString &, long, QWidget *, QWidget *)",
+                    "KFind-1"
+                ],
+                [
+                    "closeFindNextDialog",
+                    "closeFindNextDialog()",
+                    "closeFindNextDialog"
+                ],
+                [
+                    "dialogClosed",
+                    "dialogClosed()",
+                    "dialogClosed"
+                ],
+                [
+                    "displayFinalDialog",
+                    "displayFinalDialog() const",
+                    "displayFinalDialog"
+                ],
+                [
+                    "find",
+                    "find() : KFind::Result",
+                    "find"
+                ],
+                [
+                    "find",
+                    "find(const QString &, const QString &, int, long, int *, QRegularExpressionMatch *) : int",
+                    "find-1"
+                ],
+                [
+                    "findNextDialog",
+                    "findNextDialog(bool) : QDialog *",
+                    "findNextDialog"
+                ],
+                [
+                    "index",
+                    "index() const : int",
+                    "index"
+                ],
+                [
+                    "needData",
+                    "needData() const : bool",
+                    "needData"
+                ],
+                [
+                    "numMatches",
+                    "numMatches() const : int",
+                    "numMatches"
+                ],
+                [
+                    "options",
+                    "options() const : long",
+                    "options"
+                ],
+                [
+                    "optionsChanged",
+                    "optionsChanged()",
+                    "optionsChanged"
+                ],
+                [
+                    "pattern",
+                    "pattern() const : QString",
+                    "pattern"
+                ],
+                [
+                    "resetCounts",
+                    "resetCounts()",
+                    "resetCounts"
+                ],
+                [
+                    "setData",
+                    "setData(const QString &, int)",
+                    "setData"
+                ],
+                [
+                    "setData",
+                    "setData(int, const QString &, int)",
+                    "setData-1"
+                ],
+                [
+                    "setOptions",
+                    "setOptions(long)",
+                    "setOptions"
+                ],
+                [
+                    "setPattern",
+                    "setPattern(const QString &)",
+                    "setPattern"
+                ],
+                [
+                    "shouldRestart",
+                    "shouldRestart(bool, bool) const : bool",
+                    "shouldRestart"
+                ],
+                [
+                    "textFound",
+                    "textFound(const QString &, int, int)",
+                    "textFound"
+                ],
+                [
+                    "textFoundAtId",
+                    "textFoundAtId(int, int, int)",
+                    "textFoundAtId"
+                ],
+                [
+                    "validateMatch",
+                    "validateMatch(const QString &, int, int) : bool",
+                    "validateMatch"
+                ]
+            ],
+            "name": "KFind",
+            "page": "ktextwidgets/kfind",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFindDialog",
+                    "KFindDialog(QWidget *, long, const QStringList &, bool, bool)",
+                    "KFindDialog"
+                ],
+                [
+                    "~KFindDialog",
+                    "~KFindDialog()",
+                    "dtor.KFindDialog"
+                ],
+                [
+                    "cancelClicked",
+                    "cancelClicked()",
+                    "cancelClicked"
+                ],
+                [
+                    "findExtension",
+                    "findExtension() const : QWidget *",
+                    "findExtension"
+                ],
+                [
+                    "findHistory",
+                    "findHistory() const : QStringList",
+                    "findHistory"
+                ],
+                [
+                    "okClicked",
+                    "okClicked()",
+                    "okClicked"
+                ],
+                [
+                    "options",
+                    "options() const : long",
+                    "options"
+                ],
+                [
+                    "optionsChanged",
+                    "optionsChanged()",
+                    "optionsChanged"
+                ],
+                [
+                    "pattern",
+                    "pattern() const : QString",
+                    "pattern"
+                ],
+                [
+                    "setFindHistory",
+                    "setFindHistory(const QStringList &)",
+                    "setFindHistory"
+                ],
+                [
+                    "setHasCursor",
+                    "setHasCursor(bool)",
+                    "setHasCursor"
+                ],
+                [
+                    "setHasSelection",
+                    "setHasSelection(bool)",
+                    "setHasSelection"
+                ],
+                [
+                    "setOptions",
+                    "setOptions(long)",
+                    "setOptions"
+                ],
+                [
+                    "setPattern",
+                    "setPattern(const QString &)",
+                    "setPattern"
+                ],
+                [
+                    "setSupportsBackwardsFind",
+                    "setSupportsBackwardsFind(bool)",
+                    "setSupportsBackwardsFind"
+                ],
+                [
+                    "setSupportsCaseSensitiveFind",
+                    "setSupportsCaseSensitiveFind(bool)",
+                    "setSupportsCaseSensitiveFind"
+                ],
+                [
+                    "setSupportsRegularExpressionFind",
+                    "setSupportsRegularExpressionFind(bool)",
+                    "setSupportsRegularExpressionFind"
+                ],
+                [
+                    "setSupportsWholeWordsFind",
+                    "setSupportsWholeWordsFind(bool)",
+                    "setSupportsWholeWordsFind"
+                ]
+            ],
+            "name": "KFindDialog",
+            "page": "ktextwidgets/kfinddialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KPluralHandlingSpinBox",
+                    "KPluralHandlingSpinBox(QWidget *)",
+                    "KPluralHandlingSpinBox"
+                ],
+                [
+                    "setSuffix",
+                    "setSuffix(const KLocalizedString &)",
+                    "setSuffix"
+                ]
+            ],
+            "name": "KPluralHandlingSpinBox",
+            "page": "ktextwidgets/kpluralhandlingspinbox",
+            "qtBases": [
+                [
+                    "QSpinBox",
+                    "https://doc.qt.io/qt-6/qspinbox-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "ktextwidgets/kfind"
+            ],
+            "members": [
+                [
+                    "KReplace",
+                    "KReplace(const QString &, const QString &, long, QWidget *)",
+                    "KReplace"
+                ],
+                [
+                    "KReplace",
+                    "KReplace(const QString &, const QString &, long, QWidget *, QWidget *)",
+                    "KReplace-1"
+                ],
+                [
+                    "closeReplaceNextDialog",
+                    "closeReplaceNextDialog()",
+                    "closeReplaceNextDialog"
+                ],
+                [
+                    "displayFinalDialog",
+                    "displayFinalDialog() const",
+                    "displayFinalDialog"
+                ],
+                [
+                    "numReplacements",
+                    "numReplacements() const : int",
+                    "numReplacements"
+                ],
+                [
+                    "replace",
+                    "replace() : KFind::Result",
+                    "replace"
+                ],
+                [
+                    "replace",
+                    "replace(QString &, const QString &, const QString &, int, long, int *) : int",
+                    "replace-1"
+                ],
+                [
+                    "replaceNextDialog",
+                    "replaceNextDialog(bool) : QDialog *",
+                    "replaceNextDialog"
+                ],
+                [
+                    "resetCounts",
+                    "resetCounts()",
+                    "resetCounts"
+                ],
+                [
+                    "shouldRestart",
+                    "shouldRestart(bool, bool) const : bool",
+                    "shouldRestart"
+                ],
+                [
+                    "textReplaced",
+                    "textReplaced(const QString &, int, int, int)",
+                    "textReplaced"
+                ]
+            ],
+            "name": "KReplace",
+            "page": "ktextwidgets/kreplace",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "ktextwidgets/kfinddialog"
+            ],
+            "members": [
+                [
+                    "KReplaceDialog",
+                    "KReplaceDialog(QWidget *, long, const QStringList &, const QStringList &, bool)",
+                    "KReplaceDialog"
+                ],
+                [
+                    "options",
+                    "options() const : long",
+                    "options"
+                ],
+                [
+                    "replaceExtension",
+                    "replaceExtension() const : QWidget *",
+                    "replaceExtension"
+                ],
+                [
+                    "replacement",
+                    "replacement() const : QString",
+                    "replacement"
+                ],
+                [
+                    "replacementHistory",
+                    "replacementHistory() const : QStringList",
+                    "replacementHistory"
+                ],
+                [
+                    "setOptions",
+                    "setOptions(long)",
+                    "setOptions"
+                ],
+                [
+                    "setReplacementHistory",
+                    "setReplacementHistory(const QStringList &)",
+                    "setReplacementHistory"
+                ]
+            ],
+            "name": "KReplaceDialog",
+            "page": "ktextwidgets/kreplacedialog",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "ktextwidgets/ktextedit"
+            ],
+            "members": [
+                [
+                    "KRichTextEdit",
+                    "KRichTextEdit(QWidget *)",
+                    "KRichTextEdit"
+                ],
+                [
+                    "KRichTextEdit",
+                    "KRichTextEdit(const QString &, QWidget *)",
+                    "KRichTextEdit-1"
+                ],
+                [
+                    "alignCenter",
+                    "alignCenter()",
+                    "alignCenter"
+                ],
+                [
+                    "alignJustify",
+                    "alignJustify()",
+                    "alignJustify"
+                ],
+                [
+                    "alignLeft",
+                    "alignLeft()",
+                    "alignLeft"
+                ],
+                [
+                    "alignRight",
+                    "alignRight()",
+                    "alignRight"
+                ],
+                [
+                    "canDedentList",
+                    "canDedentList() const : bool",
+                    "canDedentList"
+                ],
+                [
+                    "canIndentList",
+                    "canIndentList() const : bool",
+                    "canIndentList"
+                ],
+                [
+                    "currentLinkText",
+                    "currentLinkText() const : QString",
+                    "currentLinkText"
+                ],
+                [
+                    "currentLinkUrl",
+                    "currentLinkUrl() const : QString",
+                    "currentLinkUrl"
+                ],
+                [
+                    "enableRichTextMode",
+                    "enableRichTextMode()",
+                    "enableRichTextMode"
+                ],
+                [
+                    "indentListLess",
+                    "indentListLess()",
+                    "indentListLess"
+                ],
+                [
+                    "indentListMore",
+                    "indentListMore()",
+                    "indentListMore"
+                ],
+                [
+                    "insertHorizontalRule",
+                    "insertHorizontalRule()",
+                    "insertHorizontalRule"
+                ],
+                [
+                    "insertPlainTextImplementation",
+                    "insertPlainTextImplementation()",
+                    "insertPlainTextImplementation"
+                ],
+                [
+                    "makeLeftToRight",
+                    "makeLeftToRight()",
+                    "makeLeftToRight"
+                ],
+                [
+                    "makeRightToLeft",
+                    "makeRightToLeft()",
+                    "makeRightToLeft"
+                ],
+                [
+                    "selectLinkText",
+                    "selectLinkText() const",
+                    "selectLinkText"
+                ],
+                [
+                    "selectLinkText",
+                    "selectLinkText(QTextCursor *) const",
+                    "selectLinkText-1"
+                ],
+                [
+                    "setFont",
+                    "setFont(const QFont &)",
+                    "setFont"
+                ],
+                [
+                    "setFontFamily",
+                    "setFontFamily(const QString &)",
+                    "setFontFamily"
+                ],
+                [
+                    "setFontSize",
+                    "setFontSize(int)",
+                    "setFontSize"
+                ],
+                [
+                    "setHeadingLevel",
+                    "setHeadingLevel(int)",
+                    "setHeadingLevel"
+                ],
+                [
+                    "setListStyle",
+                    "setListStyle(int)",
+                    "setListStyle"
+                ],
+                [
+                    "setTextBackgroundColor",
+                    "setTextBackgroundColor(const QColor &)",
+                    "setTextBackgroundColor"
+                ],
+                [
+                    "setTextBold",
+                    "setTextBold(bool)",
+                    "setTextBold"
+                ],
+                [
+                    "setTextForegroundColor",
+                    "setTextForegroundColor(const QColor &)",
+                    "setTextForegroundColor"
+                ],
+                [
+                    "setTextItalic",
+                    "setTextItalic(bool)",
+                    "setTextItalic"
+                ],
+                [
+                    "setTextOrHtml",
+                    "setTextOrHtml(const QString &)",
+                    "setTextOrHtml"
+                ],
+                [
+                    "setTextStrikeOut",
+                    "setTextStrikeOut(bool)",
+                    "setTextStrikeOut"
+                ],
+                [
+                    "setTextSubScript",
+                    "setTextSubScript(bool)",
+                    "setTextSubScript"
+                ],
+                [
+                    "setTextSuperScript",
+                    "setTextSuperScript(bool)",
+                    "setTextSuperScript"
+                ],
+                [
+                    "setTextUnderline",
+                    "setTextUnderline(bool)",
+                    "setTextUnderline"
+                ],
+                [
+                    "switchToPlainText",
+                    "switchToPlainText()",
+                    "switchToPlainText"
+                ],
+                [
+                    "textMode",
+                    "textMode() const : KRichTextEdit::Mode",
+                    "textMode"
+                ],
+                [
+                    "textModeChanged",
+                    "textModeChanged(KRichTextEdit::Mode)",
+                    "textModeChanged"
+                ],
+                [
+                    "textOrHtml",
+                    "textOrHtml() const : QString",
+                    "textOrHtml"
+                ],
+                [
+                    "toCleanHtml",
+                    "toCleanHtml() const : QString",
+                    "toCleanHtml"
+                ],
+                [
+                    "updateLink",
+                    "updateLink(const QString &, const QString &)",
+                    "updateLink"
+                ]
+            ],
+            "name": "KRichTextEdit",
+            "page": "ktextwidgets/krichtextedit",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "ktextwidgets/krichtextedit"
+            ],
+            "members": [
+                [
+                    "KRichTextWidget",
+                    "KRichTextWidget(QWidget *)",
+                    "KRichTextWidget"
+                ],
+                [
+                    "KRichTextWidget",
+                    "KRichTextWidget(const QString &, QWidget *)",
+                    "KRichTextWidget-1"
+                ],
+                [
+                    "~KRichTextWidget",
+                    "~KRichTextWidget()",
+                    "dtor.KRichTextWidget"
+                ],
+                [
+                    "createActions",
+                    "createActions() : QList<QAction *>",
+                    "createActions"
+                ],
+                [
+                    "richTextSupport",
+                    "richTextSupport() const : KRichTextWidget::RichTextSupport",
+                    "richTextSupport"
+                ],
+                [
+                    "setActionsEnabled",
+                    "setActionsEnabled(bool)",
+                    "setActionsEnabled"
+                ],
+                [
+                    "setRichTextSupport",
+                    "setRichTextSupport(const KRichTextWidget::RichTextSupport &)",
+                    "setRichTextSupport"
+                ],
+                [
+                    "updateActionStates",
+                    "updateActionStates()",
+                    "updateActionStates"
+                ]
+            ],
+            "name": "KRichTextWidget",
+            "page": "ktextwidgets/krichtextwidget",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "checkSpellingEnabled",
+                    "checkSpellingEnabled : bool",
+                    "checkSpellingEnabled-prop"
+                ],
+                [
+                    "spellCheckingLanguage",
+                    "spellCheckingLanguage : QString",
+                    "spellCheckingLanguage-prop"
+                ],
+                [
+                    "KTextEdit",
+                    "KTextEdit(QWidget *)",
+                    "KTextEdit"
+                ],
+                [
+                    "KTextEdit",
+                    "KTextEdit(const QString &, QWidget *)",
+                    "KTextEdit-1"
+                ],
+                [
+                    "aboutToShowContextMenu",
+                    "aboutToShowContextMenu(QMenu *)",
+                    "aboutToShowContextMenu"
+                ],
+                [
+                    "addTextDecorator",
+                    "addTextDecorator(Sonnet::SpellCheckDecorator *)",
+                    "addTextDecorator"
+                ],
+                [
+                    "checkSpelling",
+                    "checkSpelling()",
+                    "checkSpelling"
+                ],
+                [
+                    "checkSpellingChanged",
+                    "checkSpellingChanged()",
+                    "checkSpellingChanged"
+                ],
+                [
+                    "checkSpellingEnabled",
+                    "checkSpellingEnabled() const : bool",
+                    "checkSpellingEnabled"
+                ],
+                [
+                    "clearDecorator",
+                    "clearDecorator()",
+                    "clearDecorator"
+                ],
+                [
+                    "createHighlighter",
+                    "createHighlighter()",
+                    "createHighlighter"
+                ],
+                [
+                    "deleteWordBack",
+                    "deleteWordBack()",
+                    "deleteWordBack"
+                ],
+                [
+                    "deleteWordForward",
+                    "deleteWordForward()",
+                    "deleteWordForward"
+                ],
+                [
+                    "enableFindReplace",
+                    "enableFindReplace(bool)",
+                    "enableFindReplace"
+                ],
+                [
+                    "forceSpellChecking",
+                    "forceSpellChecking()",
+                    "forceSpellChecking"
+                ],
+                [
+                    "highlightWord",
+                    "highlightWord(int, int)",
+                    "highlightWord"
+                ],
+                [
+                    "highlighter",
+                    "highlighter() const : Sonnet::Highlighter *",
+                    "highlighter"
+                ],
+                [
+                    "languageChanged",
+                    "languageChanged(const QString &)",
+                    "languageChanged"
+                ],
+                [
+                    "mousePopupMenu",
+                    "mousePopupMenu() : QMenu *",
+                    "mousePopupMenu"
+                ],
+                [
+                    "replace",
+                    "replace()",
+                    "replace"
+                ],
+                [
+                    "setCheckSpellingEnabled",
+                    "setCheckSpellingEnabled(bool)",
+                    "setCheckSpellingEnabled"
+                ],
+                [
+                    "setHighlighter",
+                    "setHighlighter(Sonnet::Highlighter *)",
+                    "setHighlighter"
+                ],
+                [
+                    "setReadOnly",
+                    "setReadOnly(bool)",
+                    "setReadOnly"
+                ],
+                [
+                    "setSpellCheckingLanguage",
+                    "setSpellCheckingLanguage(const QString &)",
+                    "setSpellCheckingLanguage"
+                ],
+                [
+                    "shouldBlockBeSpellChecked",
+                    "shouldBlockBeSpellChecked(const QString &) const : bool",
+                    "shouldBlockBeSpellChecked"
+                ],
+                [
+                    "showAutoCorrectButton",
+                    "showAutoCorrectButton(bool)",
+                    "showAutoCorrectButton"
+                ],
+                [
+                    "showSpellConfigDialog",
+                    "showSpellConfigDialog(const QString &)",
+                    "showSpellConfigDialog"
+                ],
+                [
+                    "showTabAction",
+                    "showTabAction(bool)",
+                    "showTabAction"
+                ],
+                [
+                    "spellCheckStatus",
+                    "spellCheckStatus()",
+                    "spellCheckStatus"
+                ],
+                [
+                    "spellCheckerAutoCorrect",
+                    "spellCheckerAutoCorrect(const QString &, const QString &)",
+                    "spellCheckerAutoCorrect"
+                ],
+                [
+                    "spellCheckingCanceled",
+                    "spellCheckingCanceled()",
+                    "spellCheckingCanceled"
+                ],
+                [
+                    "spellCheckingFinished",
+                    "spellCheckingFinished()",
+                    "spellCheckingFinished"
+                ],
+                [
+                    "spellCheckingLanguage",
+                    "spellCheckingLanguage() const : const QString &",
+                    "spellCheckingLanguage"
+                ]
+            ],
+            "name": "KTextEdit",
+            "page": "ktextwidgets/ktextedit",
+            "qtBases": [
+                [
+                    "QTextEdit",
+                    "https://doc.qt.io/qt-6/qtextedit-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "ktextwidgets",
+    "sections": [
+        {
+            "description": "KTextWidgets is a collection of text editing widgets.",
+            "page": "ktextwidgets/ktextwidgets-module",
+            "pages": [
+                [
+                    "ktextwidgets/ktextwidgets-module",
+                    "KTextWidgets C++ Classes"
+                ],
+                [
+                    "ktextwidgets/kfind",
+                    "KFind"
+                ],
+                [
+                    "ktextwidgets/kfinddialog",
+                    "KFindDialog"
+                ],
+                [
+                    "ktextwidgets/kpluralhandlingspinbox",
+                    "KPluralHandlingSpinBox"
+                ],
+                [
+                    "ktextwidgets/kreplace",
+                    "KReplace"
+                ],
+                [
+                    "ktextwidgets/kreplacedialog",
+                    "KReplaceDialog"
+                ],
+                [
+                    "ktextwidgets/krichtextedit",
+                    "KRichTextEdit"
+                ],
+                [
+                    "ktextwidgets/krichtextwidget",
+                    "KRichTextWidget"
+                ],
+                [
+                    "ktextwidgets/ktextedit",
+                    "KTextEdit"
+                ],
+                [
+                    "ktextwidgets/ktextwidgets-index",
+                    "KTextWidgets"
+                ]
+            ],
+            "qml": false,
+            "title": "KTextWidgets C++ Classes"
+        }
+    ]
+}

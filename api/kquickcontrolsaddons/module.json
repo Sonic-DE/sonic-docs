@@ -1,0 +1,43 @@
+{
+    "classes": [
+    ],
+    "module": "kquickcontrolsaddons",
+    "sections": [
+        {
+            "description": "Extensions to Qt Quick Controls.",
+            "page": "kquickcontrolsaddons/org-kde-kquickcontrols-addons-qmlmodule",
+            "pages": [
+                [
+                    "kquickcontrolsaddons/org-kde-kquickcontrols-addons-qmlmodule",
+                    "KQuickControlsAddons QML Types"
+                ],
+                [
+                    "kquickcontrolsaddons/qml-org-kde-kquickcontrols-addons-clipboard",
+                    "Clipboard"
+                ],
+                [
+                    "kquickcontrolsaddons/qml-org-kde-kquickcontrols-addons-kdeclarativemouseevent",
+                    "KDeclarativeMouseEvent"
+                ],
+                [
+                    "kquickcontrolsaddons/qml-org-kde-kquickcontrols-addons-kdeclarativewheelevent",
+                    "KDeclarativeWheelEvent"
+                ],
+                [
+                    "kquickcontrolsaddons/qml-org-kde-kquickcontrols-addons-mouseeventlistener",
+                    "MouseEventListener"
+                ],
+                [
+                    "kquickcontrolsaddons/qml-org-kde-kquickcontrols-addons-qimageitem",
+                    "QImageItem"
+                ],
+                [
+                    "kquickcontrolsaddons/qml-org-kde-kquickcontrols-addons-qpixmapitem",
+                    "QPixMapItem"
+                ]
+            ],
+            "qml": true,
+            "title": "KQuickControlsAddons QML Types"
+        }
+    ]
+}

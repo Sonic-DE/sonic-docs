@@ -1,0 +1,1127 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "FileInfoExtension",
+                    "FileInfoExtension(KParts::ReadOnlyPart *)",
+                    "FileInfoExtension"
+                ],
+                [
+                    "childObject",
+                    "childObject(QObject *) : KParts::FileInfoExtension *",
+                    "childObject"
+                ],
+                [
+                    "hasSelection",
+                    "hasSelection() const : bool",
+                    "hasSelection"
+                ],
+                [
+                    "queryFor",
+                    "queryFor(KParts::FileInfoExtension::QueryMode) const : KFileItemList",
+                    "queryFor"
+                ],
+                [
+                    "supportedQueryModes",
+                    "supportedQueryModes() const : KParts::FileInfoExtension::QueryModes",
+                    "supportedQueryModes"
+                ]
+            ],
+            "name": "KParts::FileInfoExtension",
+            "page": "kparts/kparts-fileinfoextension",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "GUIActivateEvent",
+                    "GUIActivateEvent(bool)",
+                    "GUIActivateEvent"
+                ],
+                [
+                    "activated",
+                    "activated() const : bool",
+                    "activated"
+                ],
+                [
+                    "test",
+                    "test(const QEvent *) : bool",
+                    "test"
+                ]
+            ],
+            "name": "KParts::GUIActivateEvent",
+            "page": "kparts/kparts-guiactivateevent",
+            "qtBases": [
+                [
+                    "QEvent",
+                    "https://doc.qt.io/qt-6/qevent-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ListingFilterExtension",
+                    "ListingFilterExtension(KParts::ReadOnlyPart *)",
+                    "ListingFilterExtension"
+                ],
+                [
+                    "childObject",
+                    "childObject(QObject *) : KParts::ListingFilterExtension *",
+                    "childObject"
+                ],
+                [
+                    "filter",
+                    "filter(KParts::ListingFilterExtension::FilterMode) const : QVariant",
+                    "filter"
+                ],
+                [
+                    "setFilter",
+                    "setFilter(KParts::ListingFilterExtension::FilterMode, const QVariant &)",
+                    "setFilter"
+                ],
+                [
+                    "supportedFilterModes",
+                    "supportedFilterModes() const : KParts::ListingFilterExtension::FilterModes",
+                    "supportedFilterModes"
+                ],
+                [
+                    "supportsMultipleFilters",
+                    "supportsMultipleFilters(KParts::ListingFilterExtension::FilterMode) const : bool",
+                    "supportsMultipleFilters"
+                ]
+            ],
+            "name": "KParts::ListingFilterExtension",
+            "page": "kparts/kparts-listingfilterextension",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ListingNotificationExtension",
+                    "ListingNotificationExtension(KParts::ReadOnlyPart *)",
+                    "ListingNotificationExtension"
+                ],
+                [
+                    "childObject",
+                    "childObject(QObject *) : KParts::ListingNotificationExtension *",
+                    "childObject"
+                ],
+                [
+                    "listingEvent",
+                    "listingEvent()",
+                    "listingEvent"
+                ],
+                [
+                    "supportedNotificationEventTypes",
+                    "supportedNotificationEventTypes() const : KParts::ListingNotificationExtension::NotificationEventTypes",
+                    "supportedNotificationEventTypes"
+                ]
+            ],
+            "name": "KParts::ListingNotificationExtension",
+            "page": "kparts/kparts-listingnotificationextension",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kxmlgui/kxmlguiwindow",
+                "kparts/kparts-partbase"
+            ],
+            "members": [
+                [
+                    "MainWindow",
+                    "MainWindow(QWidget *, Qt::WindowFlags)",
+                    "MainWindow"
+                ],
+                [
+                    "createGUI",
+                    "createGUI(KParts::Part *)",
+                    "createGUI"
+                ],
+                [
+                    "saveNewToolbarConfig",
+                    "saveNewToolbarConfig()",
+                    "saveNewToolbarConfig"
+                ],
+                [
+                    "setWindowTitleHandling",
+                    "setWindowTitleHandling(bool)",
+                    "setWindowTitleHandling"
+                ],
+                [
+                    "slotSetStatusBarText",
+                    "slotSetStatusBarText()",
+                    "slotSetStatusBarText"
+                ]
+            ],
+            "name": "KParts::MainWindow",
+            "page": "kparts/kparts-mainwindow",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "urlDropHandling",
+                    "urlDropHandling : bool",
+                    "urlDropHandling-prop"
+                ],
+                [
+                    "NavigationExtension",
+                    "NavigationExtension(KParts::ReadOnlyPart *)",
+                    "NavigationExtension"
+                ],
+                [
+                    "actionSlotMap",
+                    "actionSlotMap() : KParts::NavigationExtension::ActionSlotMap *",
+                    "actionSlotMap"
+                ],
+                [
+                    "actionText",
+                    "actionText(const char *) const : QString",
+                    "actionText"
+                ],
+                [
+                    "addWebSideBar",
+                    "addWebSideBar(const QUrl &, const QString &)",
+                    "addWebSideBar"
+                ],
+                [
+                    "childObject",
+                    "childObject(QObject *) : KParts::NavigationExtension *",
+                    "childObject"
+                ],
+                [
+                    "createNewWindow",
+                    "createNewWindow(const QUrl &)",
+                    "createNewWindow"
+                ],
+                [
+                    "enableAction",
+                    "enableAction(const char *, bool)",
+                    "enableAction"
+                ],
+                [
+                    "infoMessage",
+                    "infoMessage()",
+                    "infoMessage"
+                ],
+                [
+                    "isActionEnabled",
+                    "isActionEnabled(const char *) const : bool",
+                    "isActionEnabled"
+                ],
+                [
+                    "isURLDropHandlingEnabled",
+                    "isURLDropHandlingEnabled() const : bool",
+                    "isURLDropHandlingEnabled"
+                ],
+                [
+                    "itemsRemoved",
+                    "itemsRemoved(const KFileItemList &)",
+                    "itemsRemoved"
+                ],
+                [
+                    "loadingProgress",
+                    "loadingProgress(int)",
+                    "loadingProgress"
+                ],
+                [
+                    "mouseOverInfo",
+                    "mouseOverInfo(const KFileItem &)",
+                    "mouseOverInfo"
+                ],
+                [
+                    "moveTopLevelWidget",
+                    "moveTopLevelWidget(int, int)",
+                    "moveTopLevelWidget"
+                ],
+                [
+                    "openUrlNotify",
+                    "openUrlNotify()",
+                    "openUrlNotify"
+                ],
+                [
+                    "openUrlRequest",
+                    "openUrlRequest(const QUrl &, const KParts::OpenUrlArguments &)",
+                    "openUrlRequest"
+                ],
+                [
+                    "openUrlRequestDelayed",
+                    "openUrlRequestDelayed(const QUrl &, const KParts::OpenUrlArguments &)",
+                    "openUrlRequestDelayed"
+                ],
+                [
+                    "pasteRequest",
+                    "pasteRequest()",
+                    "pasteRequest"
+                ],
+                [
+                    "popupMenu",
+                    "popupMenu(const QPoint &, const KFileItemList &, const KParts::OpenUrlArguments &, KParts::NavigationExtension::PopupFlags, const KParts::NavigationExtension::ActionGroupMap &)",
+                    "popupMenu"
+                ],
+                [
+                    "popupMenu",
+                    "popupMenu(const QPoint &, const QUrl &, mode_t, const KParts::OpenUrlArguments &, KParts::NavigationExtension::PopupFlags, const KParts::NavigationExtension::ActionGroupMap &)",
+                    "popupMenu-1"
+                ],
+                [
+                    "requestFocus",
+                    "requestFocus(KParts::ReadOnlyPart *)",
+                    "requestFocus"
+                ],
+                [
+                    "resizeTopLevelWidget",
+                    "resizeTopLevelWidget(int, int)",
+                    "resizeTopLevelWidget"
+                ],
+                [
+                    "restoreState",
+                    "restoreState(QDataStream &)",
+                    "restoreState"
+                ],
+                [
+                    "saveState",
+                    "saveState(QDataStream &)",
+                    "saveState"
+                ],
+                [
+                    "selectionInfo",
+                    "selectionInfo(const KFileItemList &)",
+                    "selectionInfo"
+                ],
+                [
+                    "setActionText",
+                    "setActionText(const char *, const QString &)",
+                    "setActionText"
+                ],
+                [
+                    "setIconUrl",
+                    "setIconUrl(const QUrl &)",
+                    "setIconUrl"
+                ],
+                [
+                    "setLocationBarUrl",
+                    "setLocationBarUrl(const QString &)",
+                    "setLocationBarUrl"
+                ],
+                [
+                    "setPageSecurity",
+                    "setPageSecurity()",
+                    "setPageSecurity"
+                ],
+                [
+                    "setURLDropHandlingEnabled",
+                    "setURLDropHandlingEnabled(bool)",
+                    "setURLDropHandlingEnabled"
+                ],
+                [
+                    "speedProgress",
+                    "speedProgress(int)",
+                    "speedProgress"
+                ],
+                [
+                    "xOffset",
+                    "xOffset() : int",
+                    "xOffset"
+                ],
+                [
+                    "yOffset",
+                    "yOffset() : int",
+                    "yOffset"
+                ]
+            ],
+            "name": "KParts::NavigationExtension",
+            "page": "kparts/kparts-navigationextension",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "OpenUrlArguments",
+                    "OpenUrlArguments()",
+                    "OpenUrlArguments"
+                ],
+                [
+                    "actionRequestedByUser",
+                    "actionRequestedByUser() const : bool",
+                    "actionRequestedByUser"
+                ],
+                [
+                    "metaData",
+                    "metaData() : QMap<QString, QString> &",
+                    "metaData"
+                ],
+                [
+                    "metaData",
+                    "metaData() const : const QMap<QString, QString> &",
+                    "metaData-1"
+                ],
+                [
+                    "mimeType",
+                    "mimeType() const : QString",
+                    "mimeType"
+                ],
+                [
+                    "reload",
+                    "reload() const : bool",
+                    "reload"
+                ],
+                [
+                    "setActionRequestedByUser",
+                    "setActionRequestedByUser(bool)",
+                    "setActionRequestedByUser"
+                ],
+                [
+                    "setMimeType",
+                    "setMimeType(const QString &)",
+                    "setMimeType"
+                ],
+                [
+                    "setReload",
+                    "setReload(bool)",
+                    "setReload"
+                ],
+                [
+                    "setXOffset",
+                    "setXOffset(int)",
+                    "setXOffset"
+                ],
+                [
+                    "setYOffset",
+                    "setYOffset(int)",
+                    "setYOffset"
+                ],
+                [
+                    "xOffset",
+                    "xOffset() const : int",
+                    "xOffset"
+                ],
+                [
+                    "yOffset",
+                    "yOffset() const : int",
+                    "yOffset"
+                ]
+            ],
+            "name": "KParts::OpenUrlArguments",
+            "page": "kparts/kparts-openurlarguments",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "OpenUrlEvent",
+                    "OpenUrlEvent(KParts::ReadOnlyPart *, const QUrl &, const KParts::OpenUrlArguments &)",
+                    "OpenUrlEvent"
+                ],
+                [
+                    "arguments",
+                    "arguments() const : KParts::OpenUrlArguments",
+                    "arguments"
+                ],
+                [
+                    "part",
+                    "part() const : KParts::ReadOnlyPart *",
+                    "part"
+                ],
+                [
+                    "test",
+                    "test(const QEvent *) : bool",
+                    "test"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ]
+            ],
+            "name": "KParts::OpenUrlEvent",
+            "page": "kparts/kparts-openurlevent",
+            "qtBases": [
+                [
+                    "QEvent",
+                    "https://doc.qt.io/qt-6/qevent-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kparts/kparts-partbase"
+            ],
+            "members": [
+                [
+                    "Part",
+                    "Part(QObject *, const KPluginMetaData &)",
+                    "Part"
+                ],
+                [
+                    "guiActivateEvent",
+                    "guiActivateEvent(KParts::GUIActivateEvent *)",
+                    "guiActivateEvent"
+                ],
+                [
+                    "hitTest",
+                    "hitTest(QWidget *, const QPoint &) : KParts::Part *",
+                    "hitTest"
+                ],
+                [
+                    "hostContainer",
+                    "hostContainer(const QString &) : QWidget *",
+                    "hostContainer"
+                ],
+                [
+                    "manager",
+                    "manager() const : KParts::PartManager *",
+                    "manager"
+                ],
+                [
+                    "metaData",
+                    "metaData() const : KPluginMetaData",
+                    "metaData"
+                ],
+                [
+                    "partActivateEvent",
+                    "partActivateEvent(KParts::PartActivateEvent *)",
+                    "partActivateEvent"
+                ],
+                [
+                    "setAutoDeletePart",
+                    "setAutoDeletePart(bool)",
+                    "setAutoDeletePart"
+                ],
+                [
+                    "setAutoDeleteWidget",
+                    "setAutoDeleteWidget(bool)",
+                    "setAutoDeleteWidget"
+                ],
+                [
+                    "setStatusBarText",
+                    "setStatusBarText(const QString &)",
+                    "setStatusBarText"
+                ],
+                [
+                    "setWidget",
+                    "setWidget(QWidget *)",
+                    "setWidget"
+                ],
+                [
+                    "setWindowCaption",
+                    "setWindowCaption(const QString &)",
+                    "setWindowCaption"
+                ],
+                [
+                    "widget",
+                    "widget() : QWidget *",
+                    "widget"
+                ]
+            ],
+            "name": "KParts::Part",
+            "page": "kparts/kparts-part",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "PartActivateEvent",
+                    "PartActivateEvent(bool, KParts::Part *, QWidget *)",
+                    "PartActivateEvent"
+                ],
+                [
+                    "activated",
+                    "activated() const : bool",
+                    "activated"
+                ],
+                [
+                    "part",
+                    "part() const : KParts::Part *",
+                    "part"
+                ],
+                [
+                    "test",
+                    "test(const QEvent *) : bool",
+                    "test"
+                ],
+                [
+                    "widget",
+                    "widget() const : QWidget *",
+                    "widget"
+                ]
+            ],
+            "name": "KParts::PartActivateEvent",
+            "page": "kparts/kparts-partactivateevent",
+            "qtBases": [
+                [
+                    "QEvent",
+                    "https://doc.qt.io/qt-6/qevent-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kxmlgui/kxmlguiclient"
+            ],
+            "members": [
+                [
+                    "PartBase",
+                    "PartBase()",
+                    "PartBase"
+                ]
+            ],
+            "name": "KParts::PartBase",
+            "page": "kparts/kparts-partbase",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "allowNestedParts",
+                    "allowNestedParts : bool",
+                    "allowNestedParts-prop"
+                ],
+                [
+                    "ignoreScrollBars",
+                    "ignoreScrollBars : bool",
+                    "ignoreScrollBars-prop"
+                ],
+                [
+                    "selectionPolicy",
+                    "selectionPolicy : SelectionPolicy",
+                    "selectionPolicy-prop"
+                ],
+                [
+                    "PartManager",
+                    "PartManager(QWidget *)",
+                    "PartManager"
+                ],
+                [
+                    "PartManager",
+                    "PartManager(QWidget *, QObject *)",
+                    "PartManager-1"
+                ],
+                [
+                    "activationButtonMask",
+                    "activationButtonMask() const : short",
+                    "activationButtonMask"
+                ],
+                [
+                    "activePart",
+                    "activePart() const : KParts::Part *",
+                    "activePart"
+                ],
+                [
+                    "activePartChanged",
+                    "activePartChanged(KParts::Part *)",
+                    "activePartChanged"
+                ],
+                [
+                    "activeWidget",
+                    "activeWidget() const : QWidget *",
+                    "activeWidget"
+                ],
+                [
+                    "addManagedTopLevelWidget",
+                    "addManagedTopLevelWidget(const QWidget *)",
+                    "addManagedTopLevelWidget"
+                ],
+                [
+                    "addPart",
+                    "addPart(KParts::Part *, bool)",
+                    "addPart"
+                ],
+                [
+                    "allowNestedParts",
+                    "allowNestedParts() const : bool",
+                    "allowNestedParts"
+                ],
+                [
+                    "ignoreScrollBars",
+                    "ignoreScrollBars() const : bool",
+                    "ignoreScrollBars"
+                ],
+                [
+                    "partAdded",
+                    "partAdded(KParts::Part *)",
+                    "partAdded"
+                ],
+                [
+                    "partRemoved",
+                    "partRemoved(KParts::Part *)",
+                    "partRemoved"
+                ],
+                [
+                    "parts",
+                    "parts() const : const QList<KParts::Part *>",
+                    "parts"
+                ],
+                [
+                    "reason",
+                    "reason() const : int",
+                    "reason"
+                ],
+                [
+                    "removeManagedTopLevelWidget",
+                    "removeManagedTopLevelWidget(const QWidget *)",
+                    "removeManagedTopLevelWidget"
+                ],
+                [
+                    "removePart",
+                    "removePart(KParts::Part *)",
+                    "removePart"
+                ],
+                [
+                    "replacePart",
+                    "replacePart(KParts::Part *, KParts::Part *, bool)",
+                    "replacePart"
+                ],
+                [
+                    "selectionPolicy",
+                    "selectionPolicy() const : KParts::PartManager::SelectionPolicy",
+                    "selectionPolicy"
+                ],
+                [
+                    "setActivationButtonMask",
+                    "setActivationButtonMask(short)",
+                    "setActivationButtonMask"
+                ],
+                [
+                    "setActivePart",
+                    "setActivePart(KParts::Part *, QWidget *)",
+                    "setActivePart"
+                ],
+                [
+                    "setAllowNestedParts",
+                    "setAllowNestedParts(bool)",
+                    "setAllowNestedParts"
+                ],
+                [
+                    "setIgnoreExplictFocusRequests",
+                    "setIgnoreExplictFocusRequests()",
+                    "setIgnoreExplictFocusRequests"
+                ],
+                [
+                    "setIgnoreScrollBars",
+                    "setIgnoreScrollBars(bool)",
+                    "setIgnoreScrollBars"
+                ],
+                [
+                    "setSelectionPolicy",
+                    "setSelectionPolicy(KParts::PartManager::SelectionPolicy)",
+                    "setSelectionPolicy"
+                ],
+                [
+                    "slotObjectDestroyed",
+                    "slotObjectDestroyed()",
+                    "slotObjectDestroyed"
+                ]
+            ],
+            "name": "KParts::PartManager",
+            "page": "kparts/kparts-partmanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kparts/kparts-part"
+            ],
+            "members": [
+                [
+                    "url",
+                    "url : QUrl",
+                    "url-prop"
+                ],
+                [
+                    "ReadOnlyPart",
+                    "ReadOnlyPart(QObject *, const KPluginMetaData &)",
+                    "ReadOnlyPart"
+                ],
+                [
+                    "arguments",
+                    "arguments() const : KParts::OpenUrlArguments",
+                    "arguments"
+                ],
+                [
+                    "canceled",
+                    "canceled(const QString &)",
+                    "canceled"
+                ],
+                [
+                    "closeStream",
+                    "closeStream() : bool",
+                    "closeStream"
+                ],
+                [
+                    "closeUrl",
+                    "closeUrl() : bool",
+                    "closeUrl"
+                ],
+                [
+                    "completed",
+                    "completed()",
+                    "completed"
+                ],
+                [
+                    "completedWithPendingAction",
+                    "completedWithPendingAction()",
+                    "completedWithPendingAction"
+                ],
+                [
+                    "guiActivateEvent",
+                    "guiActivateEvent(KParts::GUIActivateEvent *)",
+                    "guiActivateEvent"
+                ],
+                [
+                    "isProgressInfoEnabled",
+                    "isProgressInfoEnabled() const : bool",
+                    "isProgressInfoEnabled"
+                ],
+                [
+                    "localFilePath",
+                    "localFilePath() const : QString",
+                    "localFilePath"
+                ],
+                [
+                    "navigationExtension",
+                    "navigationExtension() const : KParts::NavigationExtension *",
+                    "navigationExtension"
+                ],
+                [
+                    "openFile",
+                    "openFile() : bool",
+                    "openFile"
+                ],
+                [
+                    "openStream",
+                    "openStream(const QString &, const QUrl &) : bool",
+                    "openStream"
+                ],
+                [
+                    "openUrl",
+                    "openUrl(const QUrl &) : bool",
+                    "openUrl"
+                ],
+                [
+                    "setArguments",
+                    "setArguments(const KParts::OpenUrlArguments &)",
+                    "setArguments"
+                ],
+                [
+                    "setLocalFilePath",
+                    "setLocalFilePath(const QString &)",
+                    "setLocalFilePath"
+                ],
+                [
+                    "setProgressInfoEnabled",
+                    "setProgressInfoEnabled(bool)",
+                    "setProgressInfoEnabled"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &)",
+                    "setUrl"
+                ],
+                [
+                    "started",
+                    "started(KIO::Job *)",
+                    "started"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ],
+                [
+                    "urlChanged",
+                    "urlChanged(const QUrl &)",
+                    "urlChanged"
+                ],
+                [
+                    "writeStream",
+                    "writeStream(const QByteArray &) : bool",
+                    "writeStream"
+                ]
+            ],
+            "name": "KParts::ReadOnlyPart",
+            "page": "kparts/kparts-readonlypart",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kparts/kparts-readonlypart"
+            ],
+            "members": [
+                [
+                    "ReadWritePart",
+                    "ReadWritePart(QObject *, const KPluginMetaData &)",
+                    "ReadWritePart"
+                ],
+                [
+                    "~ReadWritePart",
+                    "~ReadWritePart()",
+                    "dtor.ReadWritePart"
+                ],
+                [
+                    "closeUrl",
+                    "closeUrl() : bool",
+                    "closeUrl"
+                ],
+                [
+                    "closeUrl",
+                    "closeUrl(bool) : bool",
+                    "closeUrl-1"
+                ],
+                [
+                    "isModified",
+                    "isModified() const : bool",
+                    "isModified"
+                ],
+                [
+                    "isReadWrite",
+                    "isReadWrite() const : bool",
+                    "isReadWrite"
+                ],
+                [
+                    "queryClose",
+                    "queryClose() : bool",
+                    "queryClose"
+                ],
+                [
+                    "save",
+                    "save() : bool",
+                    "save"
+                ],
+                [
+                    "saveAs",
+                    "saveAs(const QUrl &) : bool",
+                    "saveAs"
+                ],
+                [
+                    "saveFile",
+                    "saveFile() : bool",
+                    "saveFile"
+                ],
+                [
+                    "saveToUrl",
+                    "saveToUrl() : bool",
+                    "saveToUrl"
+                ],
+                [
+                    "setModified",
+                    "setModified()",
+                    "setModified"
+                ],
+                [
+                    "setModified",
+                    "setModified(bool)",
+                    "setModified-1"
+                ],
+                [
+                    "setReadWrite",
+                    "setReadWrite(bool)",
+                    "setReadWrite"
+                ],
+                [
+                    "sigQueryClose",
+                    "sigQueryClose(bool *, bool *)",
+                    "sigQueryClose"
+                ],
+                [
+                    "waitSaveComplete",
+                    "waitSaveComplete() : bool",
+                    "waitSaveComplete"
+                ]
+            ],
+            "name": "KParts::ReadWritePart",
+            "page": "kparts/kparts-readwritepart",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "StatusBarExtension",
+                    "StatusBarExtension(KParts::Part *)",
+                    "StatusBarExtension"
+                ],
+                [
+                    "StatusBarExtension",
+                    "StatusBarExtension(KParts::ReadOnlyPart *)",
+                    "StatusBarExtension-1"
+                ],
+                [
+                    "addStatusBarItem",
+                    "addStatusBarItem(QWidget *, int, bool)",
+                    "addStatusBarItem"
+                ],
+                [
+                    "childObject",
+                    "childObject(QObject *) : KParts::StatusBarExtension *",
+                    "childObject"
+                ],
+                [
+                    "removeStatusBarItem",
+                    "removeStatusBarItem(QWidget *)",
+                    "removeStatusBarItem"
+                ],
+                [
+                    "setStatusBar",
+                    "setStatusBar(QStatusBar *)",
+                    "setStatusBar"
+                ],
+                [
+                    "statusBar",
+                    "statusBar() const : QStatusBar *",
+                    "statusBar"
+                ]
+            ],
+            "name": "KParts::StatusBarExtension",
+            "page": "kparts/kparts-statusbarextension",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kparts",
+    "sections": [
+        {
+            "description": "Plugin framework for user interface components.",
+            "page": "kparts/kparts-module",
+            "pages": [
+                [
+                    "kparts/kparts-module",
+                    "KParts C++ Classes"
+                ],
+                [
+                    "kparts/kparts-fileinfoextension",
+                    "KParts::FileInfoExtension"
+                ],
+                [
+                    "kparts/kparts-guiactivateevent",
+                    "KParts::GUIActivateEvent"
+                ],
+                [
+                    "kparts/kparts-listingfilterextension",
+                    "KParts::ListingFilterExtension"
+                ],
+                [
+                    "kparts/kparts-listingnotificationextension",
+                    "KParts::ListingNotificationExtension"
+                ],
+                [
+                    "kparts/kparts-mainwindow",
+                    "KParts::MainWindow"
+                ],
+                [
+                    "kparts/kparts-navigationextension",
+                    "KParts::NavigationExtension"
+                ],
+                [
+                    "kparts/kparts-openurlarguments",
+                    "KParts::OpenUrlArguments"
+                ],
+                [
+                    "kparts/kparts-openurlevent",
+                    "KParts::OpenUrlEvent"
+                ],
+                [
+                    "kparts/kparts-part",
+                    "KParts::Part"
+                ],
+                [
+                    "kparts/kparts-partactivateevent",
+                    "KParts::PartActivateEvent"
+                ],
+                [
+                    "kparts/kparts-partbase",
+                    "KParts::PartBase"
+                ],
+                [
+                    "kparts/kparts-partmanager",
+                    "KParts::PartManager"
+                ],
+                [
+                    "kparts/kparts-readonlypart",
+                    "KParts::ReadOnlyPart"
+                ],
+                [
+                    "kparts/kparts-readwritepart",
+                    "KParts::ReadWritePart"
+                ],
+                [
+                    "kparts/kparts-statusbarextension",
+                    "KParts::StatusBarExtension"
+                ],
+                [
+                    "kparts/kparts",
+                    "KParts Namespace"
+                ],
+                [
+                    "kparts/kparts-index",
+                    "KParts"
+                ],
+                [
+                    "kparts/kparts-partloader",
+                    "KParts::PartLoader Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KParts C++ Classes"
+        }
+    ]
+}

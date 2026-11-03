@@ -1,0 +1,39 @@
+{
+    "classes": [
+    ],
+    "module": "ksvgqml",
+    "sections": [
+        {
+            "description": "A QML module for rendering SVG-based themes with stylesheet re-coloring and on-disk caching.",
+            "page": "ksvgqml/org-kde-ksvg-qmlmodule",
+            "pages": [
+                [
+                    "ksvgqml/org-kde-ksvg-qmlmodule",
+                    "KSvg QML Types"
+                ],
+                [
+                    "ksvgqml/qml-org-kde-ksvg-framesvg",
+                    "FrameSvg"
+                ],
+                [
+                    "ksvgqml/qml-org-kde-ksvg-framesvgitem",
+                    "FrameSvgItem"
+                ],
+                [
+                    "ksvgqml/qml-org-kde-ksvg-imageset",
+                    "ImageSet"
+                ],
+                [
+                    "ksvgqml/qml-org-kde-ksvg-svg",
+                    "Svg"
+                ],
+                [
+                    "ksvgqml/qml-org-kde-ksvg-svgitem",
+                    "SvgItem"
+                ]
+            ],
+            "qml": true,
+            "title": "KSvg QML Types"
+        }
+    ]
+}

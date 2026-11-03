@@ -1,0 +1,66 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Menu",
+                    "Menu(QWidget *)",
+                    "Menu"
+                ],
+                [
+                    "aboutToShare",
+                    "aboutToShare()",
+                    "aboutToShare"
+                ],
+                [
+                    "finished",
+                    "finished(const QJsonObject &, int, const QString &)",
+                    "finished"
+                ],
+                [
+                    "model",
+                    "model() const : Purpose::AlternativesModel *",
+                    "model"
+                ],
+                [
+                    "reload",
+                    "reload()",
+                    "reload"
+                ]
+            ],
+            "name": "Purpose::Menu",
+            "page": "purposewidgets/purpose-menu",
+            "qtBases": [
+                [
+                    "QMenu",
+                    "https://doc.qt.io/qt-6/qmenu-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "purposewidgets",
+    "sections": [
+        {
+            "description": "Framework for providing abstractions to get the developer's purposes fulfilled.",
+            "page": "purposewidgets/purposewidgets-module",
+            "pages": [
+                [
+                    "purposewidgets/purposewidgets-module",
+                    "PurposeWidgets C++ Classes"
+                ],
+                [
+                    "purposewidgets/purpose-menu",
+                    "Purpose::Menu"
+                ],
+                [
+                    "purposewidgets/purpose-sub-purposewidgets",
+                    "Purpose Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "PurposeWidgets C++ Classes"
+        }
+    ]
+}

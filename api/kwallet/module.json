@@ -1,0 +1,265 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "~Wallet",
+                    "~Wallet()",
+                    "dtor.Wallet"
+                ],
+                [
+                    "FormDataFolder",
+                    "FormDataFolder() : const QString",
+                    "FormDataFolder"
+                ],
+                [
+                    "LocalWallet",
+                    "LocalWallet() : const QString",
+                    "LocalWallet"
+                ],
+                [
+                    "NetworkWallet",
+                    "NetworkWallet() : const QString",
+                    "NetworkWallet"
+                ],
+                [
+                    "PasswordFolder",
+                    "PasswordFolder() : const QString",
+                    "PasswordFolder"
+                ],
+                [
+                    "changePassword",
+                    "changePassword(const QString &, WId)",
+                    "changePassword"
+                ],
+                [
+                    "closeWallet",
+                    "closeWallet(const QString &, bool) : int",
+                    "closeWallet"
+                ],
+                [
+                    "createFolder",
+                    "createFolder(const QString &) : bool",
+                    "createFolder"
+                ],
+                [
+                    "currentFolder",
+                    "currentFolder() const : const QString &",
+                    "currentFolder"
+                ],
+                [
+                    "deleteWallet",
+                    "deleteWallet(const QString &) : int",
+                    "deleteWallet"
+                ],
+                [
+                    "disconnectApplication",
+                    "disconnectApplication(const QString &, const QString &) : bool",
+                    "disconnectApplication"
+                ],
+                [
+                    "entriesList",
+                    "entriesList(bool *) const : QMap<QString, QByteArray>",
+                    "entriesList"
+                ],
+                [
+                    "entryList",
+                    "entryList() : QStringList",
+                    "entryList"
+                ],
+                [
+                    "entryType",
+                    "entryType(const QString &) : KWallet::Wallet::EntryType",
+                    "entryType"
+                ],
+                [
+                    "folderDoesNotExist",
+                    "folderDoesNotExist(const QString &, const QString &) : bool",
+                    "folderDoesNotExist"
+                ],
+                [
+                    "folderList",
+                    "folderList() : QStringList",
+                    "folderList"
+                ],
+                [
+                    "folderListUpdated",
+                    "folderListUpdated()",
+                    "folderListUpdated"
+                ],
+                [
+                    "folderRemoved",
+                    "folderRemoved(const QString &)",
+                    "folderRemoved"
+                ],
+                [
+                    "folderUpdated",
+                    "folderUpdated(const QString &)",
+                    "folderUpdated"
+                ],
+                [
+                    "hasEntry",
+                    "hasEntry(const QString &) : bool",
+                    "hasEntry"
+                ],
+                [
+                    "hasFolder",
+                    "hasFolder(const QString &) : bool",
+                    "hasFolder"
+                ],
+                [
+                    "isEnabled",
+                    "isEnabled() : bool",
+                    "isEnabled"
+                ],
+                [
+                    "isOpen",
+                    "isOpen() const : bool",
+                    "isOpen"
+                ],
+                [
+                    "isOpen",
+                    "isOpen(const QString &) : bool",
+                    "isOpen-1"
+                ],
+                [
+                    "keyDoesNotExist",
+                    "keyDoesNotExist(const QString &, const QString &, const QString &) : bool",
+                    "keyDoesNotExist"
+                ],
+                [
+                    "mapList",
+                    "mapList(bool *) const : QMap<QString, QMap<QString, QString>>",
+                    "mapList"
+                ],
+                [
+                    "openWallet",
+                    "openWallet(const QString &, WId, KWallet::Wallet::OpenType) : KWallet::Wallet *",
+                    "openWallet"
+                ],
+                [
+                    "passwordList",
+                    "passwordList(bool *) const : QMap<QString, QString>",
+                    "passwordList"
+                ],
+                [
+                    "readEntry",
+                    "readEntry(const QString &, QByteArray &) : int",
+                    "readEntry"
+                ],
+                [
+                    "readMap",
+                    "readMap(const QString &, QMap<QString, QString> &) : int",
+                    "readMap"
+                ],
+                [
+                    "readPassword",
+                    "readPassword(const QString &, QString &) : int",
+                    "readPassword"
+                ],
+                [
+                    "removeEntry",
+                    "removeEntry(const QString &) : int",
+                    "removeEntry"
+                ],
+                [
+                    "removeFolder",
+                    "removeFolder(const QString &) : bool",
+                    "removeFolder"
+                ],
+                [
+                    "renameEntry",
+                    "renameEntry(const QString &, const QString &) : int",
+                    "renameEntry"
+                ],
+                [
+                    "setFolder",
+                    "setFolder(const QString &) : bool",
+                    "setFolder"
+                ],
+                [
+                    "users",
+                    "users(const QString &) : QStringList",
+                    "users"
+                ],
+                [
+                    "walletClosed",
+                    "walletClosed()",
+                    "walletClosed"
+                ],
+                [
+                    "walletList",
+                    "walletList() : QStringList",
+                    "walletList"
+                ],
+                [
+                    "walletName",
+                    "walletName() const : const QString &",
+                    "walletName"
+                ],
+                [
+                    "walletOpened",
+                    "walletOpened(bool)",
+                    "walletOpened"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const QString &, const QByteArray &) : int",
+                    "writeEntry"
+                ],
+                [
+                    "writeEntry",
+                    "writeEntry(const QString &, const QByteArray &, KWallet::Wallet::EntryType) : int",
+                    "writeEntry-1"
+                ],
+                [
+                    "writeMap",
+                    "writeMap(const QString &, const QMap<QString, QString> &) : int",
+                    "writeMap"
+                ],
+                [
+                    "writePassword",
+                    "writePassword(const QString &, const QString &) : int",
+                    "writePassword"
+                ]
+            ],
+            "name": "KWallet::Wallet",
+            "page": "kwallet/kwallet-wallet",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kwallet",
+    "sections": [
+        {
+            "description": "Secrets Storage.",
+            "page": "kwallet/kwallet-module",
+            "pages": [
+                [
+                    "kwallet/kwallet-module",
+                    "KWallet C++ Classes"
+                ],
+                [
+                    "kwallet/kwallet-wallet",
+                    "KWallet::Wallet"
+                ],
+                [
+                    "kwallet/kwallet",
+                    "KWallet Namespace"
+                ],
+                [
+                    "kwallet/kwallet-index",
+                    "KWallet"
+                ]
+            ],
+            "qml": false,
+            "title": "KWallet C++ Classes"
+        }
+    ]
+}

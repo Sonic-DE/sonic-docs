@@ -1,0 +1,81 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "translationDomain",
+                    "translationDomain : QString",
+                    "translationDomain-prop"
+                ],
+                [
+                    "KLocalizedQmlContext",
+                    "KLocalizedQmlContext(QObject *)",
+                    "KLocalizedQmlContext"
+                ],
+                [
+                    "setTranslationDomain",
+                    "setTranslationDomain(const QString &)",
+                    "setTranslationDomain"
+                ],
+                [
+                    "translationDomain",
+                    "translationDomain() const : QString",
+                    "translationDomain"
+                ]
+            ],
+            "name": "KLocalizedQmlContext",
+            "page": "ki18nqml/klocalizedqmlcontext",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "ki18nqml",
+    "sections": [
+        {
+            "description": "Advanced internationalization framework.",
+            "page": "ki18nqml/ki18nqml-module",
+            "pages": [
+                [
+                    "ki18nqml/ki18nqml-module",
+                    "KI18nQml C++ Classes"
+                ],
+                [
+                    "ki18nqml/klocalizedqmlcontext",
+                    "KLocalizedQmlContext"
+                ],
+                [
+                    "ki18nqml/klocalization",
+                    "KLocalization Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KI18nQml C++ Classes"
+        },
+        {
+            "description": "Advanced internationalization framework.",
+            "page": "ki18nqml/org-kde-ki18n-qmlmodule",
+            "pages": [
+                [
+                    "ki18nqml/org-kde-ki18n-qmlmodule",
+                    "KI18nQml QML Types"
+                ],
+                [
+                    "ki18nqml/qml-org-kde-ki18n-ki18n",
+                    "KI18n"
+                ],
+                [
+                    "ki18nqml/qml-org-kde-ki18n-ki18ncontext",
+                    "KI18nContext"
+                ]
+            ],
+            "qml": true,
+            "title": "KI18nQml QML Types"
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "cleanComponent",
+                    "cleanComponent(const QString &) : bool",
+                    "cleanComponent"
+                ],
+                [
+                    "defaultShortcut",
+                    "defaultShortcut(const QAction *) const : QList<QKeySequence>",
+                    "defaultShortcut"
+                ],
+                [
+                    "globalShortcut",
+                    "globalShortcut(const QString &, const QString &) const : QList<QKeySequence>",
+                    "globalShortcut"
+                ],
+                [
+                    "globalShortcutActiveChanged",
+                    "globalShortcutActiveChanged(QAction *, bool)",
+                    "globalShortcutActiveChanged"
+                ],
+                [
+                    "globalShortcutChanged",
+                    "globalShortcutChanged(QAction *, const QKeySequence &)",
+                    "globalShortcutChanged"
+                ],
+                [
+                    "globalShortcutsByKey",
+                    "globalShortcutsByKey(const QKeySequence &, KGlobalAccel::MatchType) : QList<KGlobalShortcutInfo>",
+                    "globalShortcutsByKey"
+                ],
+                [
+                    "hasShortcut",
+                    "hasShortcut(const QAction *) const : bool",
+                    "hasShortcut"
+                ],
+                [
+                    "isComponentActive",
+                    "isComponentActive(const QString &) : bool",
+                    "isComponentActive"
+                ],
+                [
+                    "isGlobalShortcutAvailable",
+                    "isGlobalShortcutAvailable(const QKeySequence &, const QString &) : bool",
+                    "isGlobalShortcutAvailable"
+                ],
+                [
+                    "promptStealShortcutSystemwide",
+                    "promptStealShortcutSystemwide(QWidget *, const QList<KGlobalShortcutInfo> &, const QKeySequence &) : bool",
+                    "promptStealShortcutSystemwide"
+                ],
+                [
+                    "removeAllShortcuts",
+                    "removeAllShortcuts(QAction *)",
+                    "removeAllShortcuts"
+                ],
+                [
+                    "self",
+                    "self() : KGlobalAccel *",
+                    "self"
+                ],
+                [
+                    "setDefaultShortcut",
+                    "setDefaultShortcut(QAction *, const QList<QKeySequence> &, KGlobalAccel::GlobalShortcutLoading) : bool",
+                    "setDefaultShortcut"
+                ],
+                [
+                    "setGlobalShortcut",
+                    "setGlobalShortcut(QAction *, const QKeySequence &) : bool",
+                    "setGlobalShortcut"
+                ],
+                [
+                    "setGlobalShortcut",
+                    "setGlobalShortcut(QAction *, const QList<QKeySequence> &) : bool",
+                    "setGlobalShortcut-1"
+                ],
+                [
+                    "setInverseShortcutActions",
+                    "setInverseShortcutActions(QAction *, QAction *) : bool",
+                    "setInverseShortcutActions"
+                ],
+                [
+                    "setShortcut",
+                    "setShortcut(QAction *, const QList<QKeySequence> &, KGlobalAccel::GlobalShortcutLoading) : bool",
+                    "setShortcut"
+                ],
+                [
+                    "shortcut",
+                    "shortcut(const QAction *) const : QList<QKeySequence>",
+                    "shortcut"
+                ],
+                [
+                    "stealShortcutSystemwide",
+                    "stealShortcutSystemwide(const QKeySequence &)",
+                    "stealShortcutSystemwide"
+                ]
+            ],
+            "name": "KGlobalAccel",
+            "page": "kglobalaccel/kglobalaccel",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kglobalaccel",
+    "sections": [
+        {
+            "description": "KGlobalAccel provides a convenient way to handle global shortcuts.",
+            "page": "kglobalaccel/kglobalaccel-module",
+            "pages": [
+                [
+                    "kglobalaccel/kglobalaccel-module",
+                    "KGlobalAccel C++ Classes"
+                ],
+                [
+                    "kglobalaccel/kglobalaccel",
+                    "KGlobalAccel"
+                ],
+                [
+                    "kglobalaccel/kglobalaccel-index",
+                    "KGlobalAccel"
+                ]
+            ],
+            "qml": false,
+            "title": "KGlobalAccel C++ Classes"
+        }
+    ]
+}

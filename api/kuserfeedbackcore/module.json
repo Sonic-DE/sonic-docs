@@ -1,0 +1,939 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AbstractDataSource",
+                    "AbstractDataSource(const QString &, KUserFeedback::Provider::TelemetryMode)",
+                    "AbstractDataSource"
+                ],
+                [
+                    "AbstractDataSource",
+                    "AbstractDataSource(const QString &, KUserFeedback::Provider::TelemetryMode, KUserFeedback::AbstractDataSourcePrivate *)",
+                    "AbstractDataSource-1"
+                ],
+                [
+                    "data",
+                    "data() : QVariant",
+                    "data"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isActive",
+                    "isActive() const : bool",
+                    "isActive"
+                ],
+                [
+                    "load",
+                    "load(QSettings *)",
+                    "load"
+                ],
+                [
+                    "loadImpl",
+                    "loadImpl(QSettings *)",
+                    "loadImpl"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "reset",
+                    "reset(QSettings *)",
+                    "reset"
+                ],
+                [
+                    "resetImpl",
+                    "resetImpl(QSettings *)",
+                    "resetImpl"
+                ],
+                [
+                    "setActive",
+                    "setActive(bool)",
+                    "setActive"
+                ],
+                [
+                    "setId",
+                    "setId(const QString &)",
+                    "setId"
+                ],
+                [
+                    "setTelemetryMode",
+                    "setTelemetryMode(KUserFeedback::Provider::TelemetryMode)",
+                    "setTelemetryMode"
+                ],
+                [
+                    "store",
+                    "store(QSettings *)",
+                    "store"
+                ],
+                [
+                    "storeImpl",
+                    "storeImpl(QSettings *)",
+                    "storeImpl"
+                ],
+                [
+                    "telemetryMode",
+                    "telemetryMode() const : KUserFeedback::Provider::TelemetryMode",
+                    "telemetryMode"
+                ]
+            ],
+            "name": "KUserFeedback::AbstractDataSource",
+            "page": "kuserfeedbackcore/kuserfeedback-abstractdatasource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "ApplicationVersionSource",
+                    "ApplicationVersionSource()",
+                    "ApplicationVersionSource"
+                ]
+            ],
+            "name": "KUserFeedback::ApplicationVersionSource",
+            "page": "kuserfeedbackcore/kuserfeedback-applicationversionsource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "hasLogEntries",
+                    "hasLogEntries : bool",
+                    "hasLogEntries-prop"
+                ],
+                [
+                    "logEntryModel",
+                    "logEntryModel : QAbstractItemModel* const",
+                    "logEntryModel-prop"
+                ],
+                [
+                    "AuditLogUiController",
+                    "AuditLogUiController(QObject *)",
+                    "AuditLogUiController"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "hasLogEntries",
+                    "hasLogEntries() const : bool",
+                    "hasLogEntries"
+                ],
+                [
+                    "logEntry",
+                    "logEntry(const QDateTime &) const : QString",
+                    "logEntry"
+                ],
+                [
+                    "logEntryCountChanged",
+                    "logEntryCountChanged()",
+                    "logEntryCountChanged"
+                ],
+                [
+                    "logEntryModel",
+                    "logEntryModel() const : QAbstractItemModel *",
+                    "logEntryModel"
+                ]
+            ],
+            "name": "KUserFeedback::AuditLogUiController",
+            "page": "kuserfeedbackcore/kuserfeedback-auditloguicontroller",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "CompilerInfoSource",
+                    "CompilerInfoSource()",
+                    "CompilerInfoSource"
+                ]
+            ],
+            "name": "KUserFeedback::CompilerInfoSource",
+            "page": "kuserfeedbackcore/kuserfeedback-compilerinfosource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "CpuInfoSource",
+                    "CpuInfoSource()",
+                    "CpuInfoSource"
+                ]
+            ],
+            "name": "KUserFeedback::CpuInfoSource",
+            "page": "kuserfeedbackcore/kuserfeedback-cpuinfosource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "applicationName",
+                    "applicationName : QString",
+                    "applicationName-prop"
+                ],
+                [
+                    "feedbackProvider",
+                    "feedbackProvider : KUserFeedback::Provider*",
+                    "feedbackProvider-prop"
+                ],
+                [
+                    "surveyModeCount",
+                    "surveyModeCount : const int",
+                    "surveyModeCount-prop"
+                ],
+                [
+                    "telemetryModeCount",
+                    "telemetryModeCount : int",
+                    "telemetryModeCount-prop"
+                ],
+                [
+                    "FeedbackConfigUiController",
+                    "FeedbackConfigUiController(QObject *)",
+                    "FeedbackConfigUiController"
+                ],
+                [
+                    "applicationName",
+                    "applicationName() const : QString",
+                    "applicationName"
+                ],
+                [
+                    "applicationNameChanged",
+                    "applicationNameChanged(const QString &)",
+                    "applicationNameChanged"
+                ],
+                [
+                    "feedbackProvider",
+                    "feedbackProvider() const : KUserFeedback::Provider *",
+                    "feedbackProvider"
+                ],
+                [
+                    "providerChanged",
+                    "providerChanged()",
+                    "providerChanged"
+                ],
+                [
+                    "setApplicationName",
+                    "setApplicationName(const QString &)",
+                    "setApplicationName"
+                ],
+                [
+                    "setFeedbackProvider",
+                    "setFeedbackProvider(KUserFeedback::Provider *)",
+                    "setFeedbackProvider"
+                ],
+                [
+                    "surveyIndexToInterval",
+                    "surveyIndexToInterval(int) const : int",
+                    "surveyIndexToInterval"
+                ],
+                [
+                    "surveyIntervalToIndex",
+                    "surveyIntervalToIndex(int) const : int",
+                    "surveyIntervalToIndex"
+                ],
+                [
+                    "surveyModeCount",
+                    "surveyModeCount() const : int",
+                    "surveyModeCount"
+                ],
+                [
+                    "surveyModeDescription",
+                    "surveyModeDescription(int) const : QString",
+                    "surveyModeDescription"
+                ],
+                [
+                    "telemetryDescription",
+                    "telemetryDescription(KUserFeedback::Provider::TelemetryMode) const : QString",
+                    "telemetryDescription"
+                ],
+                [
+                    "telemetryIndexToMode",
+                    "telemetryIndexToMode(int) const : KUserFeedback::Provider::TelemetryMode",
+                    "telemetryIndexToMode"
+                ],
+                [
+                    "telemetryModeCount",
+                    "telemetryModeCount() const : int",
+                    "telemetryModeCount"
+                ],
+                [
+                    "telemetryModeDescription",
+                    "telemetryModeDescription(int) const : QString",
+                    "telemetryModeDescription"
+                ],
+                [
+                    "telemetryModeDetails",
+                    "telemetryModeDetails(int) const : QString",
+                    "telemetryModeDetails"
+                ],
+                [
+                    "telemetryModeName",
+                    "telemetryModeName(int) const : QString",
+                    "telemetryModeName"
+                ],
+                [
+                    "telemetryModeToIndex",
+                    "telemetryModeToIndex(KUserFeedback::Provider::TelemetryMode) const : int",
+                    "telemetryModeToIndex"
+                ],
+                [
+                    "telemetryName",
+                    "telemetryName(KUserFeedback::Provider::TelemetryMode) const : QString",
+                    "telemetryName"
+                ]
+            ],
+            "name": "KUserFeedback::FeedbackConfigUiController",
+            "page": "kuserfeedbackcore/kuserfeedback-feedbackconfiguicontroller",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "LocaleInfoSource",
+                    "LocaleInfoSource()",
+                    "LocaleInfoSource"
+                ]
+            ],
+            "name": "KUserFeedback::LocaleInfoSource",
+            "page": "kuserfeedbackcore/kuserfeedback-localeinfosource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "OpenGLInfoSource",
+                    "OpenGLInfoSource()",
+                    "OpenGLInfoSource"
+                ]
+            ],
+            "name": "KUserFeedback::OpenGLInfoSource",
+            "page": "kuserfeedbackcore/kuserfeedback-openglinfosource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "PlatformInfoSource",
+                    "PlatformInfoSource()",
+                    "PlatformInfoSource"
+                ]
+            ],
+            "name": "KUserFeedback::PlatformInfoSource",
+            "page": "kuserfeedbackcore/kuserfeedback-platforminfosource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "PropertyRatioSource",
+                    "PropertyRatioSource(QObject *, const char *, const QString &)",
+                    "PropertyRatioSource"
+                ],
+                [
+                    "addValueMapping",
+                    "addValueMapping(const QVariant &, const QString &)",
+                    "addValueMapping"
+                ],
+                [
+                    "object",
+                    "object() const : QObject *",
+                    "object"
+                ],
+                [
+                    "propertyName",
+                    "propertyName() const : QString",
+                    "propertyName"
+                ],
+                [
+                    "setDescription",
+                    "setDescription(const QString &)",
+                    "setDescription"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setObject",
+                    "setObject(QObject *)",
+                    "setObject"
+                ],
+                [
+                    "setPropertyName",
+                    "setPropertyName(const QString &)",
+                    "setPropertyName"
+                ]
+            ],
+            "name": "KUserFeedback::PropertyRatioSource",
+            "page": "kuserfeedbackcore/kuserfeedback-propertyratiosource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "applicationStartsUntilEncouragement",
+                    "applicationStartsUntilEncouragement : int",
+                    "applicationStartsUntilEncouragement-prop"
+                ],
+                [
+                    "applicationUsageTimeUntilEncouragement",
+                    "applicationUsageTimeUntilEncouragement : int",
+                    "applicationUsageTimeUntilEncouragement-prop"
+                ],
+                [
+                    "describeDataSources",
+                    "describeDataSources : QString",
+                    "describeDataSources-prop"
+                ],
+                [
+                    "enabled",
+                    "enabled : bool",
+                    "enabled-prop"
+                ],
+                [
+                    "encouragementDelay",
+                    "encouragementDelay : int",
+                    "encouragementDelay-prop"
+                ],
+                [
+                    "encouragementInterval",
+                    "encouragementInterval : int",
+                    "encouragementInterval-prop"
+                ],
+                [
+                    "feedbackServer",
+                    "feedbackServer : QUrl",
+                    "feedbackServer-prop"
+                ],
+                [
+                    "productIdentifier",
+                    "productIdentifier : QString",
+                    "productIdentifier-prop"
+                ],
+                [
+                    "submissionInterval",
+                    "submissionInterval : int",
+                    "submissionInterval-prop"
+                ],
+                [
+                    "surveyInterval",
+                    "surveyInterval : int",
+                    "surveyInterval-prop"
+                ],
+                [
+                    "telemetryMode",
+                    "telemetryMode : TelemetryMode",
+                    "telemetryMode-prop"
+                ],
+                [
+                    "Provider",
+                    "Provider(QObject *)",
+                    "Provider"
+                ],
+                [
+                    "addDataSource",
+                    "addDataSource(KUserFeedback::AbstractDataSource *)",
+                    "addDataSource"
+                ],
+                [
+                    "applicationStartsUntilEncouragement",
+                    "applicationStartsUntilEncouragement() const : int",
+                    "applicationStartsUntilEncouragement"
+                ],
+                [
+                    "applicationUsageTimeUntilEncouragement",
+                    "applicationUsageTimeUntilEncouragement() const : int",
+                    "applicationUsageTimeUntilEncouragement"
+                ],
+                [
+                    "dataSource",
+                    "dataSource(const QString &) const : KUserFeedback::AbstractDataSource *",
+                    "dataSource"
+                ],
+                [
+                    "dataSources",
+                    "dataSources() const : QVector<KUserFeedback::AbstractDataSource *>",
+                    "dataSources"
+                ],
+                [
+                    "dataSourcesChanged",
+                    "dataSourcesChanged()",
+                    "dataSourcesChanged"
+                ],
+                [
+                    "describeDataSources",
+                    "describeDataSources() const : QString",
+                    "describeDataSources"
+                ],
+                [
+                    "enabledChanged",
+                    "enabledChanged()",
+                    "enabledChanged"
+                ],
+                [
+                    "encouragementDelay",
+                    "encouragementDelay() const : int",
+                    "encouragementDelay"
+                ],
+                [
+                    "encouragementInterval",
+                    "encouragementInterval() const : int",
+                    "encouragementInterval"
+                ],
+                [
+                    "feedbackServer",
+                    "feedbackServer() const : QUrl",
+                    "feedbackServer"
+                ],
+                [
+                    "isEnabled",
+                    "isEnabled() const : bool",
+                    "isEnabled"
+                ],
+                [
+                    "load",
+                    "load()",
+                    "load"
+                ],
+                [
+                    "productIdentifier",
+                    "productIdentifier() const : QString",
+                    "productIdentifier"
+                ],
+                [
+                    "providerSettingsChanged",
+                    "providerSettingsChanged()",
+                    "providerSettingsChanged"
+                ],
+                [
+                    "restoreDefaults",
+                    "restoreDefaults()",
+                    "restoreDefaults"
+                ],
+                [
+                    "setApplicationStartsUntilEncouragement",
+                    "setApplicationStartsUntilEncouragement(int)",
+                    "setApplicationStartsUntilEncouragement"
+                ],
+                [
+                    "setApplicationUsageTimeUntilEncouragement",
+                    "setApplicationUsageTimeUntilEncouragement(int)",
+                    "setApplicationUsageTimeUntilEncouragement"
+                ],
+                [
+                    "setEnabled",
+                    "setEnabled(bool)",
+                    "setEnabled"
+                ],
+                [
+                    "setEncouragementDelay",
+                    "setEncouragementDelay(int)",
+                    "setEncouragementDelay"
+                ],
+                [
+                    "setEncouragementInterval",
+                    "setEncouragementInterval(int)",
+                    "setEncouragementInterval"
+                ],
+                [
+                    "setFeedbackServer",
+                    "setFeedbackServer(const QUrl &)",
+                    "setFeedbackServer"
+                ],
+                [
+                    "setProductIdentifier",
+                    "setProductIdentifier(const QString &)",
+                    "setProductIdentifier"
+                ],
+                [
+                    "setSubmissionInterval",
+                    "setSubmissionInterval(int)",
+                    "setSubmissionInterval"
+                ],
+                [
+                    "setSurveyInterval",
+                    "setSurveyInterval(int)",
+                    "setSurveyInterval"
+                ],
+                [
+                    "setTelemetryMode",
+                    "setTelemetryMode(KUserFeedback::Provider::TelemetryMode)",
+                    "setTelemetryMode"
+                ],
+                [
+                    "showEncouragementMessage",
+                    "showEncouragementMessage()",
+                    "showEncouragementMessage"
+                ],
+                [
+                    "store",
+                    "store()",
+                    "store"
+                ],
+                [
+                    "submissionInterval",
+                    "submissionInterval() const : int",
+                    "submissionInterval"
+                ],
+                [
+                    "submit",
+                    "submit()",
+                    "submit"
+                ],
+                [
+                    "surveyAvailable",
+                    "surveyAvailable(const KUserFeedback::SurveyInfo &)",
+                    "surveyAvailable"
+                ],
+                [
+                    "surveyCompleted",
+                    "surveyCompleted(const KUserFeedback::SurveyInfo &)",
+                    "surveyCompleted"
+                ],
+                [
+                    "surveyInterval",
+                    "surveyInterval() const : int",
+                    "surveyInterval"
+                ],
+                [
+                    "surveyIntervalChanged",
+                    "surveyIntervalChanged()",
+                    "surveyIntervalChanged"
+                ],
+                [
+                    "telemetryMode",
+                    "telemetryMode() const : KUserFeedback::Provider::TelemetryMode",
+                    "telemetryMode"
+                ],
+                [
+                    "telemetryModeChanged",
+                    "telemetryModeChanged()",
+                    "telemetryModeChanged"
+                ]
+            ],
+            "name": "KUserFeedback::Provider",
+            "page": "kuserfeedbackcore/kuserfeedback-provider",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "QPAInfoSource",
+                    "QPAInfoSource()",
+                    "QPAInfoSource"
+                ]
+            ],
+            "name": "KUserFeedback::QPAInfoSource",
+            "page": "kuserfeedbackcore/kuserfeedback-qpainfosource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "QtVersionSource",
+                    "QtVersionSource()",
+                    "QtVersionSource"
+                ]
+            ],
+            "name": "KUserFeedback::QtVersionSource",
+            "page": "kuserfeedbackcore/kuserfeedback-qtversionsource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "ScreenInfoSource",
+                    "ScreenInfoSource()",
+                    "ScreenInfoSource"
+                ]
+            ],
+            "name": "KUserFeedback::ScreenInfoSource",
+            "page": "kuserfeedbackcore/kuserfeedback-screeninfosource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "SelectionRatioSource",
+                    "SelectionRatioSource(QItemSelectionModel *, const QString &)",
+                    "SelectionRatioSource"
+                ],
+                [
+                    "setDescription",
+                    "setDescription(const QString &)",
+                    "setDescription"
+                ],
+                [
+                    "setRole",
+                    "setRole(int)",
+                    "setRole"
+                ]
+            ],
+            "name": "KUserFeedback::SelectionRatioSource",
+            "page": "kuserfeedbackcore/kuserfeedback-selectionratiosource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "StartCountSource",
+                    "StartCountSource()",
+                    "StartCountSource"
+                ]
+            ],
+            "name": "KUserFeedback::StartCountSource",
+            "page": "kuserfeedbackcore/kuserfeedback-startcountsource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "isValid",
+                    "isValid : bool",
+                    "isValid-prop"
+                ],
+                [
+                    "target",
+                    "target : QString",
+                    "target-prop"
+                ],
+                [
+                    "url",
+                    "url : QUrl",
+                    "url-prop"
+                ],
+                [
+                    "uuid",
+                    "uuid : QUuid",
+                    "uuid-prop"
+                ],
+                [
+                    "SurveyInfo",
+                    "SurveyInfo()",
+                    "SurveyInfo"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "target",
+                    "target() const : QString",
+                    "target"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ],
+                [
+                    "uuid",
+                    "uuid() const : QUuid",
+                    "uuid"
+                ]
+            ],
+            "name": "KUserFeedback::SurveyInfo",
+            "page": "kuserfeedbackcore/kuserfeedback-surveyinfo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "UsageTimeSource",
+                    "UsageTimeSource()",
+                    "UsageTimeSource"
+                ]
+            ],
+            "name": "KUserFeedback::UsageTimeSource",
+            "page": "kuserfeedbackcore/kuserfeedback-usagetimesource",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kuserfeedbackcore",
+    "sections": [
+        {
+            "description": "Framework for collecting feedback from application users via telemetry and targeted surveys.",
+            "page": "kuserfeedbackcore/kuserfeedbackcore-module",
+            "pages": [
+                [
+                    "kuserfeedbackcore/kuserfeedbackcore-module",
+                    "KUserFeedbackCore C++ Classes"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-abstractdatasource",
+                    "KUserFeedback::AbstractDataSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-applicationversionsource",
+                    "KUserFeedback::ApplicationVersionSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-auditloguicontroller",
+                    "KUserFeedback::AuditLogUiController"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-compilerinfosource",
+                    "KUserFeedback::CompilerInfoSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-cpuinfosource",
+                    "KUserFeedback::CpuInfoSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-feedbackconfiguicontroller",
+                    "KUserFeedback::FeedbackConfigUiController"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-localeinfosource",
+                    "KUserFeedback::LocaleInfoSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-openglinfosource",
+                    "KUserFeedback::OpenGLInfoSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-platforminfosource",
+                    "KUserFeedback::PlatformInfoSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-propertyratiosource",
+                    "KUserFeedback::PropertyRatioSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-provider",
+                    "KUserFeedback::Provider"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-qpainfosource",
+                    "KUserFeedback::QPAInfoSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-qtversionsource",
+                    "KUserFeedback::QtVersionSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-screeninfosource",
+                    "KUserFeedback::ScreenInfoSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-selectionratiosource",
+                    "KUserFeedback::SelectionRatioSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-startcountsource",
+                    "KUserFeedback::StartCountSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-surveyinfo",
+                    "KUserFeedback::SurveyInfo"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-usagetimesource",
+                    "KUserFeedback::UsageTimeSource"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback",
+                    "KUserFeedback Namespace"
+                ],
+                [
+                    "kuserfeedbackcore/kuserfeedback-index",
+                    "KUserFeedback"
+                ]
+            ],
+            "qml": false,
+            "title": "KUserFeedbackCore C++ Classes"
+        }
+    ]
+}

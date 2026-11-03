@@ -1,0 +1,379 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Action",
+                    "Action()",
+                    "Action"
+                ],
+                [
+                    "Action",
+                    "Action(const QString &)",
+                    "Action-2"
+                ],
+                [
+                    "Action",
+                    "Action(const QString &, const KAuth::Action::DetailsMap &)",
+                    "Action-3"
+                ],
+                [
+                    "Action",
+                    "Action(const KAuth::Action &)",
+                    "Action-1"
+                ],
+                [
+                    "addArgument",
+                    "addArgument(const QString &, const QVariant &)",
+                    "addArgument"
+                ],
+                [
+                    "arguments",
+                    "arguments() const : QVariantMap",
+                    "arguments"
+                ],
+                [
+                    "detailsV2",
+                    "detailsV2() const : KAuth::Action::DetailsMap",
+                    "detailsV2"
+                ],
+                [
+                    "execute",
+                    "execute(KAuth::Action::ExecutionMode) : KAuth::ExecuteJob *",
+                    "execute"
+                ],
+                [
+                    "hasHelper",
+                    "hasHelper() const : bool",
+                    "hasHelper"
+                ],
+                [
+                    "helperId",
+                    "helperId() const : QString",
+                    "helperId"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "parentWindow",
+                    "parentWindow() const : QWindow *",
+                    "parentWindow"
+                ],
+                [
+                    "setArguments",
+                    "setArguments(const QVariantMap &)",
+                    "setArguments"
+                ],
+                [
+                    "setDetailsV2",
+                    "setDetailsV2(const KAuth::Action::DetailsMap &)",
+                    "setDetailsV2"
+                ],
+                [
+                    "setHelperId",
+                    "setHelperId(const QString &)",
+                    "setHelperId"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setParentWindow",
+                    "setParentWindow(QWindow *)",
+                    "setParentWindow"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(std::chrono::milliseconds)",
+                    "setTimeout-1"
+                ],
+                [
+                    "status",
+                    "status() const : KAuth::Action::AuthStatus",
+                    "status"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KAuth::Action &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KAuth::Action &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KAuth::Action",
+            "page": "kauth/kauth-action",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ActionReply",
+                    "ActionReply()",
+                    "ActionReply"
+                ],
+                [
+                    "ActionReply",
+                    "ActionReply(KAuth::ActionReply::Type)",
+                    "ActionReply-1"
+                ],
+                [
+                    "ActionReply",
+                    "ActionReply(int)",
+                    "ActionReply-2"
+                ],
+                [
+                    "AlreadyStartedReply",
+                    "AlreadyStartedReply() : const KAuth::ActionReply",
+                    "AlreadyStartedReply"
+                ],
+                [
+                    "AuthorizationDeniedReply",
+                    "AuthorizationDeniedReply() : const KAuth::ActionReply",
+                    "AuthorizationDeniedReply"
+                ],
+                [
+                    "DBusErrorReply",
+                    "DBusErrorReply() : const KAuth::ActionReply",
+                    "DBusErrorReply"
+                ],
+                [
+                    "HelperBusyReply",
+                    "HelperBusyReply() : const KAuth::ActionReply",
+                    "HelperBusyReply"
+                ],
+                [
+                    "HelperErrorReply",
+                    "HelperErrorReply() : const KAuth::ActionReply",
+                    "HelperErrorReply"
+                ],
+                [
+                    "HelperErrorReply",
+                    "HelperErrorReply(int) : const KAuth::ActionReply",
+                    "HelperErrorReply-1"
+                ],
+                [
+                    "InvalidActionReply",
+                    "InvalidActionReply() : const KAuth::ActionReply",
+                    "InvalidActionReply"
+                ],
+                [
+                    "NoResponderReply",
+                    "NoResponderReply() : const KAuth::ActionReply",
+                    "NoResponderReply"
+                ],
+                [
+                    "NoSuchActionReply",
+                    "NoSuchActionReply() : const KAuth::ActionReply",
+                    "NoSuchActionReply"
+                ],
+                [
+                    "SuccessReply",
+                    "SuccessReply() : const KAuth::ActionReply",
+                    "SuccessReply"
+                ],
+                [
+                    "UserCancelledReply",
+                    "UserCancelledReply() : const KAuth::ActionReply",
+                    "UserCancelledReply"
+                ],
+                [
+                    "addData",
+                    "addData(const QString &, const QVariant &)",
+                    "addData"
+                ],
+                [
+                    "data",
+                    "data() const : QVariantMap",
+                    "data"
+                ],
+                [
+                    "deserialize",
+                    "deserialize(const QByteArray &) : KAuth::ActionReply",
+                    "deserialize"
+                ],
+                [
+                    "error",
+                    "error() const : int",
+                    "error"
+                ],
+                [
+                    "errorCode",
+                    "errorCode() const : KAuth::ActionReply::Error",
+                    "errorCode"
+                ],
+                [
+                    "errorDescription",
+                    "errorDescription() const : QString",
+                    "errorDescription"
+                ],
+                [
+                    "failed",
+                    "failed() const : bool",
+                    "failed"
+                ],
+                [
+                    "serialized",
+                    "serialized() const : QByteArray",
+                    "serialized"
+                ],
+                [
+                    "setData",
+                    "setData(const QVariantMap &)",
+                    "setData"
+                ],
+                [
+                    "setError",
+                    "setError(int)",
+                    "setError"
+                ],
+                [
+                    "setErrorCode",
+                    "setErrorCode(KAuth::ActionReply::Error)",
+                    "setErrorCode"
+                ],
+                [
+                    "setErrorDescription",
+                    "setErrorDescription(const QString &)",
+                    "setErrorDescription"
+                ],
+                [
+                    "setType",
+                    "setType(KAuth::ActionReply::Type)",
+                    "setType"
+                ],
+                [
+                    "succeeded",
+                    "succeeded() const : bool",
+                    "succeeded"
+                ],
+                [
+                    "type",
+                    "type() const : KAuth::ActionReply::Type",
+                    "type"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KAuth::ActionReply &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KAuth::ActionReply &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KAuth::ActionReply",
+            "page": "kauth/kauth-actionreply",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjob"
+            ],
+            "members": [
+                [
+                    "action",
+                    "action() const : KAuth::Action",
+                    "action"
+                ],
+                [
+                    "data",
+                    "data() const : QVariantMap",
+                    "data"
+                ],
+                [
+                    "kill",
+                    "kill(KJob::KillVerbosity) : bool",
+                    "kill"
+                ],
+                [
+                    "newData",
+                    "newData(const QVariantMap &)",
+                    "newData"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ],
+                [
+                    "statusChanged",
+                    "statusChanged(KAuth::Action::AuthStatus)",
+                    "statusChanged"
+                ]
+            ],
+            "name": "KAuth::ExecuteJob",
+            "page": "kauth/kauth-executejob",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kauth",
+    "sections": [
+        {
+            "description": "Execute actions as privileged user.",
+            "page": "kauth/kauth-module",
+            "pages": [
+                [
+                    "kauth/kauth-module",
+                    "KAuth C++ Classes"
+                ],
+                [
+                    "kauth/kauth-action",
+                    "KAuth::Action"
+                ],
+                [
+                    "kauth/kauth-actionreply",
+                    "KAuth::ActionReply"
+                ],
+                [
+                    "kauth/kauth-executejob",
+                    "KAuth::ExecuteJob"
+                ],
+                [
+                    "kauth/kauth",
+                    "KAuth Namespace"
+                ],
+                [
+                    "kauth/kauth-helpersupport",
+                    "KAuth::HelperSupport Namespace"
+                ],
+                [
+                    "kauth/kauth-index",
+                    "KAuth"
+                ]
+            ],
+            "qml": false,
+            "title": "KAuth C++ Classes"
+        }
+    ]
+}

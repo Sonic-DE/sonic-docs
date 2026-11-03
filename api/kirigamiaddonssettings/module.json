@@ -1,0 +1,43 @@
+{
+    "classes": [
+    ],
+    "module": "kirigamiaddonssettings",
+    "sections": [
+        {
+            "description": "Pages and navigation for application settings.",
+            "page": "kirigamiaddonssettings/org-kde-kirigamiaddons-settings-qmlmodule",
+            "pages": [
+                [
+                    "kirigamiaddonssettings/org-kde-kirigamiaddons-settings-qmlmodule",
+                    "Kirigami Addons Settings QML Types"
+                ],
+                [
+                    "kirigamiaddonssettings/qml-org-kde-kirigamiaddons-settings-categorizedsettings",
+                    "CategorizedSettings"
+                ],
+                [
+                    "kirigamiaddonssettings/qml-org-kde-kirigamiaddons-settings-configurationmodule",
+                    "ConfigurationModule"
+                ],
+                [
+                    "kirigamiaddonssettings/qml-org-kde-kirigamiaddons-settings-configurationview",
+                    "ConfigurationView"
+                ],
+                [
+                    "kirigamiaddonssettings/qml-org-kde-kirigamiaddons-settings-settingaction",
+                    "SettingAction"
+                ],
+                [
+                    "kirigamiaddonssettings/qml-org-kde-kirigamiaddons-settings-shortcutsconfigurationmodule",
+                    "ShortcutsConfigurationModule"
+                ],
+                [
+                    "kirigamiaddonssettings/qml-org-kde-kirigamiaddons-settings-spellcheckingconfigurationmodule",
+                    "SpellcheckingConfigurationModule"
+                ]
+            ],
+            "qml": true,
+            "title": "Kirigami Addons Settings QML Types"
+        }
+    ]
+}

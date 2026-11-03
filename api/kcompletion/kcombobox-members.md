@@ -1,0 +1,67 @@
+---
+title: "List of All Members for KComboBox"
+description: "Every member of KComboBox, including inherited members."
+parent: "kcompletion/kcombobox"
+---
+
+# List of All Members for KComboBox
+
+This is the complete list of members for [KComboBox](kcombobox.md), including inherited members.
+
+- [KComboBox(QWidget \*)](kcombobox.md#KComboBox)
+- [KComboBox(bool, QWidget \*)](kcombobox.md#KComboBox-1)
+- [aboutToShowContextMenu(QMenu \*)](kcombobox.md#aboutToShowContextMenu)
+- [addUrl(const QIcon &, const QUrl &)](kcombobox.md#addUrl-1)
+- [addUrl(const QUrl &)](kcombobox.md#addUrl)
+- [autoCompletion : bool](kcombobox.md#autoCompletion-prop)
+- [autoCompletion() const : bool](kcombobox.md#autoCompletion)
+- [changeUrl(int, const QIcon &, const QUrl &)](kcombobox.md#changeUrl-1)
+- [changeUrl(int, const QUrl &)](kcombobox.md#changeUrl)
+- [completion()](kcombobox.md#completion)
+- [completionBox(bool) : KCompletionBox \*](kcombobox.md#completionBox)
+- [completionMode() const : KCompletion::CompletionMode](kcompletionbase.md#completionMode)
+- [completionModeChanged()](kcombobox.md#completionModeChanged)
+- [completionObject(bool) : KCompletion \*](kcompletionbase.md#completionObject)
+- [compObj() const : KCompletion \*](kcompletionbase.md#compObj)
+- [contains(const QString &) const : bool](kcombobox.md#contains)
+- [contextMenu() const : QMenu \*](kcombobox.md#contextMenu)
+- [cursorPosition() const : int](kcombobox.md#cursorPosition)
+- [delegate() const : KCompletionBase \*](kcompletionbase.md#delegate)
+- [emitSignals() const : bool](kcompletionbase.md#emitSignals)
+- [handleSignals() const : bool](kcompletionbase.md#handleSignals)
+- [insertUrl(int, const QIcon &, const QUrl &)](kcombobox.md#insertUrl-1)
+- [insertUrl(int, const QUrl &)](kcombobox.md#insertUrl)
+- [isCompletionObjectAutoDeleted() const : bool](kcompletionbase.md#isCompletionObjectAutoDeleted)
+- [keyBinding(KCompletionBase::KeyBindingType) const : QList\<QKeySequence\>](kcompletionbase.md#keyBinding)
+- [keyBindingMap() const : KCompletionBase::KeyBindingMap](kcompletionbase.md#keyBindingMap)
+- [makeCompletion()](kcombobox.md#makeCompletion)
+- [returnPressed(const QString &)](kcombobox.md#returnPressed)
+- [rotateText(KCompletionBase::KeyBindingType)](kcombobox.md#rotateText)
+- [setAutoCompletion(bool)](kcombobox.md#setAutoCompletion)
+- [setAutoDeleteCompletionObject(bool)](kcompletionbase.md#setAutoDeleteCompletionObject)
+- [setCompletedItems(const QStringList &, bool)](kcombobox.md#setCompletedItems)
+- [setCompletedItems(const QStringList &, bool)](kcompletionbase.md#setCompletedItems)
+- [setCompletedText()](kcombobox.md#setCompletedText)
+- [setCompletedText(const QString &)](kcompletionbase.md#setCompletedText)
+- [setCompletedText(const QString &, bool)](kcombobox.md#setCompletedText-1)
+- [setCompletionMode(KCompletion::CompletionMode)](kcompletionbase.md#setCompletionMode)
+- [setCompletionObject(KCompletion \*, bool)](kcompletionbase.md#setCompletionObject)
+- [setCurrentItem(const QString &, bool, int)](kcombobox.md#setCurrentItem)
+- [setDelegate(KCompletionBase \*)](kcompletionbase.md#setDelegate)
+- [setEditable(bool)](kcombobox.md#setEditable)
+- [setEditUrl(const QUrl &)](kcombobox.md#setEditUrl)
+- [setEmitSignals(bool)](kcompletionbase.md#setEmitSignals)
+- [setEnableSignals(bool)](kcompletionbase.md#setEnableSignals)
+- [setHandleSignals(bool)](kcompletionbase.md#setHandleSignals)
+- [setKeyBinding(KCompletionBase::KeyBindingType, const QList\<QKeySequence\> &) : bool](kcompletionbase.md#setKeyBinding)
+- [setKeyBindingMap(KCompletionBase::KeyBindingMap)](kcompletionbase.md#setKeyBindingMap)
+- [setLineEdit()](kcombobox.md#setLineEdit)
+- [setTrapReturnKey(bool)](kcombobox.md#setTrapReturnKey)
+- [substringCompletion()](kcombobox.md#substringCompletion)
+- [textRotation()](kcombobox.md#textRotation)
+- [trapReturnKey : bool](kcombobox.md#trapReturnKey-prop)
+- [trapReturnKey() const : bool](kcombobox.md#trapReturnKey)
+- [urlDropsEnabled() const : bool](kcombobox.md#urlDropsEnabled)
+- [useGlobalKeyBindings()](kcompletionbase.md#useGlobalKeyBindings)
+
+KComboBox also inherits the members of [QComboBox](https://doc.qt.io/qt-6/qcombobox-members.html).

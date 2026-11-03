@@ -1,0 +1,2842 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Bearer",
+                    "Bearer(const QString &, QObject *)",
+                    "Bearer"
+                ],
+                [
+                    "bearerType",
+                    "bearerType() const : MMBearerType",
+                    "bearerType"
+                ],
+                [
+                    "bearerTypeChanged",
+                    "bearerTypeChanged(MMBearerType)",
+                    "bearerTypeChanged"
+                ],
+                [
+                    "connectBearer",
+                    "connectBearer() : QDBusPendingReply<void>",
+                    "connectBearer"
+                ],
+                [
+                    "connectedChanged",
+                    "connectedChanged(bool)",
+                    "connectedChanged"
+                ],
+                [
+                    "connectionError",
+                    "connectionError() const : ModemManager::ConnectionError",
+                    "connectionError"
+                ],
+                [
+                    "connectionErrorChanged",
+                    "connectionErrorChanged(const ModemManager::ConnectionError &)",
+                    "connectionErrorChanged"
+                ],
+                [
+                    "disconnectBearer",
+                    "disconnectBearer() : QDBusPendingReply<void>",
+                    "disconnectBearer"
+                ],
+                [
+                    "interface",
+                    "interface() const : QString",
+                    "interface"
+                ],
+                [
+                    "interfaceChanged",
+                    "interfaceChanged(const QString &)",
+                    "interfaceChanged"
+                ],
+                [
+                    "ip4Config",
+                    "ip4Config() const : ModemManager::IpConfig",
+                    "ip4Config"
+                ],
+                [
+                    "ip4ConfigChanged",
+                    "ip4ConfigChanged(const ModemManager::IpConfig &)",
+                    "ip4ConfigChanged"
+                ],
+                [
+                    "ip6Config",
+                    "ip6Config() const : ModemManager::IpConfig",
+                    "ip6Config"
+                ],
+                [
+                    "ip6ConfigChanged",
+                    "ip6ConfigChanged(const ModemManager::IpConfig &)",
+                    "ip6ConfigChanged"
+                ],
+                [
+                    "ipTimeout",
+                    "ipTimeout() const : uint",
+                    "ipTimeout"
+                ],
+                [
+                    "ipTimeoutChanged",
+                    "ipTimeoutChanged(uint)",
+                    "ipTimeoutChanged"
+                ],
+                [
+                    "isConnected",
+                    "isConnected() const : bool",
+                    "isConnected"
+                ],
+                [
+                    "isMultiplexed",
+                    "isMultiplexed() const : bool",
+                    "isMultiplexed"
+                ],
+                [
+                    "isSuspended",
+                    "isSuspended() const : bool",
+                    "isSuspended"
+                ],
+                [
+                    "multiplexedChanged",
+                    "multiplexedChanged(bool)",
+                    "multiplexedChanged"
+                ],
+                [
+                    "profileId",
+                    "profileId() const : uint",
+                    "profileId"
+                ],
+                [
+                    "profileIdChanged",
+                    "profileIdChanged(uint)",
+                    "profileIdChanged"
+                ],
+                [
+                    "properties",
+                    "properties() const : QVariantMap",
+                    "properties"
+                ],
+                [
+                    "propertiesChanged",
+                    "propertiesChanged(const QVariantMap &)",
+                    "propertiesChanged"
+                ],
+                [
+                    "reloadStatsSupported",
+                    "reloadStatsSupported() const : bool",
+                    "reloadStatsSupported"
+                ],
+                [
+                    "reloadStatsSupportedChanged",
+                    "reloadStatsSupportedChanged(bool)",
+                    "reloadStatsSupportedChanged"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "stats",
+                    "stats() const : QVariantMap",
+                    "stats"
+                ],
+                [
+                    "statsChanged",
+                    "statsChanged(const QVariantMap &)",
+                    "statsChanged"
+                ],
+                [
+                    "suspendedChanged",
+                    "suspendedChanged(bool)",
+                    "suspendedChanged"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ],
+                [
+                    "uni",
+                    "uni() const : QString",
+                    "uni"
+                ]
+            ],
+            "name": "ModemManager::Bearer",
+            "page": "modemmanager-qt/modemmanager-bearer",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "BearerProperties",
+                    "BearerProperties()",
+                    "BearerProperties"
+                ],
+                [
+                    "BearerProperties",
+                    "BearerProperties(const ModemManager::BearerProperties &)",
+                    "BearerProperties-1"
+                ],
+                [
+                    "~BearerProperties",
+                    "~BearerProperties()",
+                    "dtor.BearerProperties"
+                ],
+                [
+                    "allowRoaming",
+                    "allowRoaming() const : bool",
+                    "allowRoaming"
+                ],
+                [
+                    "allowedAuthentication",
+                    "allowedAuthentication() const : MMBearerAllowedAuth",
+                    "allowedAuthentication"
+                ],
+                [
+                    "apn",
+                    "apn() const : QString",
+                    "apn"
+                ],
+                [
+                    "ipType",
+                    "ipType() const : MMBearerIpFamily",
+                    "ipType"
+                ],
+                [
+                    "number",
+                    "number() const : QString",
+                    "number"
+                ],
+                [
+                    "password",
+                    "password() const : QString",
+                    "password"
+                ],
+                [
+                    "rmProtocol",
+                    "rmProtocol() const : MMModemCdmaRmProtocol",
+                    "rmProtocol"
+                ],
+                [
+                    "setAllowRoaming",
+                    "setAllowRoaming(bool)",
+                    "setAllowRoaming"
+                ],
+                [
+                    "setAllowedAuthentication",
+                    "setAllowedAuthentication(MMBearerAllowedAuth)",
+                    "setAllowedAuthentication"
+                ],
+                [
+                    "setApn",
+                    "setApn(const QString &)",
+                    "setApn"
+                ],
+                [
+                    "setIpType",
+                    "setIpType(MMBearerIpFamily)",
+                    "setIpType"
+                ],
+                [
+                    "setNumber",
+                    "setNumber(const QString &)",
+                    "setNumber"
+                ],
+                [
+                    "setPassword",
+                    "setPassword(const QString &)",
+                    "setPassword"
+                ],
+                [
+                    "setRmProtocol",
+                    "setRmProtocol(MMModemCdmaRmProtocol)",
+                    "setRmProtocol"
+                ],
+                [
+                    "setUser",
+                    "setUser(const QString &)",
+                    "setUser"
+                ],
+                [
+                    "user",
+                    "user() const : QString",
+                    "user"
+                ],
+                [
+                    "operator=",
+                    "operator=(const ModemManager::BearerProperties &) : ModemManager::BearerProperties &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "ModemManager::BearerProperties",
+            "page": "modemmanager-qt/modemmanager-bearerproperties",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Call",
+                    "Call(const QString &, QObject *)",
+                    "Call"
+                ],
+                [
+                    "accept",
+                    "accept() : QDBusPendingReply<>",
+                    "accept"
+                ],
+                [
+                    "audioFormat",
+                    "audioFormat() const : QVariantMap",
+                    "audioFormat"
+                ],
+                [
+                    "audioFormatChanged",
+                    "audioFormatChanged(const QVariantMap &)",
+                    "audioFormatChanged"
+                ],
+                [
+                    "audioPort",
+                    "audioPort() const : QString",
+                    "audioPort"
+                ],
+                [
+                    "audioPortChanged",
+                    "audioPortChanged(const QString &)",
+                    "audioPortChanged"
+                ],
+                [
+                    "deflect",
+                    "deflect(const QString &) : QDBusPendingReply<>",
+                    "deflect"
+                ],
+                [
+                    "direction",
+                    "direction() const : MMCallDirection",
+                    "direction"
+                ],
+                [
+                    "dtmfReceived",
+                    "dtmfReceived(const QString &)",
+                    "dtmfReceived"
+                ],
+                [
+                    "hangup",
+                    "hangup() : QDBusPendingReply<>",
+                    "hangup"
+                ],
+                [
+                    "isMultiparty",
+                    "isMultiparty() const : bool",
+                    "isMultiparty"
+                ],
+                [
+                    "joinMultiparty",
+                    "joinMultiparty() : QDBusPendingReply<>",
+                    "joinMultiparty"
+                ],
+                [
+                    "leaveMultiparty",
+                    "leaveMultiparty() : QDBusPendingReply<>",
+                    "leaveMultiparty"
+                ],
+                [
+                    "multipartyChanged",
+                    "multipartyChanged(bool)",
+                    "multipartyChanged"
+                ],
+                [
+                    "number",
+                    "number() const : QString",
+                    "number"
+                ],
+                [
+                    "numberChanged",
+                    "numberChanged(const QString &)",
+                    "numberChanged"
+                ],
+                [
+                    "sendDtmf",
+                    "sendDtmf(const QString &) : QDBusPendingReply<>",
+                    "sendDtmf"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "start",
+                    "start() : QDBusPendingReply<>",
+                    "start"
+                ],
+                [
+                    "state",
+                    "state() const : MMCallState",
+                    "state"
+                ],
+                [
+                    "stateChanged",
+                    "stateChanged(MMCallState, MMCallState, MMCallStateReason)",
+                    "stateChanged"
+                ],
+                [
+                    "stateReason",
+                    "stateReason() const : MMCallStateReason",
+                    "stateReason"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ],
+                [
+                    "uni",
+                    "uni() const : QString",
+                    "uni"
+                ]
+            ],
+            "name": "ModemManager::Call",
+            "page": "modemmanager-qt/modemmanager-call",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Cbm",
+                    "Cbm(const QString &, QObject *)",
+                    "Cbm"
+                ],
+                [
+                    "channel",
+                    "channel() const : uint",
+                    "channel"
+                ],
+                [
+                    "channelChanged",
+                    "channelChanged(uint)",
+                    "channelChanged"
+                ],
+                [
+                    "messageCode",
+                    "messageCode() const : uint",
+                    "messageCode"
+                ],
+                [
+                    "messageCodeChanged",
+                    "messageCodeChanged(uint)",
+                    "messageCodeChanged"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "state",
+                    "state() const : MMCbmState",
+                    "state"
+                ],
+                [
+                    "stateChanged",
+                    "stateChanged(MMCbmState)",
+                    "stateChanged"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "textChanged",
+                    "textChanged(const QString &)",
+                    "textChanged"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ],
+                [
+                    "uni",
+                    "uni() const : QString",
+                    "uni"
+                ],
+                [
+                    "update",
+                    "update() const : uint",
+                    "update"
+                ],
+                [
+                    "updateChanged",
+                    "updateChanged(uint)",
+                    "updateChanged"
+                ]
+            ],
+            "name": "ModemManager::Cbm",
+            "page": "modemmanager-qt/modemmanager-cbm",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Interface",
+                    "Interface(ModemManager::InterfacePrivate &, QObject *)",
+                    "Interface"
+                ],
+                [
+                    "Interface",
+                    "Interface(const QString &, QObject *)",
+                    "Interface-1"
+                ],
+                [
+                    "uni",
+                    "uni() const : QString",
+                    "uni"
+                ]
+            ],
+            "name": "ModemManager::Interface",
+            "page": "modemmanager-qt/modemmanager-interface",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "IpConfig",
+                    "IpConfig()",
+                    "IpConfig"
+                ],
+                [
+                    "IpConfig",
+                    "IpConfig(const ModemManager::IpConfig &)",
+                    "IpConfig-1"
+                ],
+                [
+                    "~IpConfig",
+                    "~IpConfig()",
+                    "dtor.IpConfig"
+                ],
+                [
+                    "address",
+                    "address() const : QString",
+                    "address"
+                ],
+                [
+                    "dns1",
+                    "dns1() const : QString",
+                    "dns1"
+                ],
+                [
+                    "dns2",
+                    "dns2() const : QString",
+                    "dns2"
+                ],
+                [
+                    "dns3",
+                    "dns3() const : QString",
+                    "dns3"
+                ],
+                [
+                    "gateway",
+                    "gateway() const : QString",
+                    "gateway"
+                ],
+                [
+                    "method",
+                    "method() const : MMBearerIpMethod",
+                    "method"
+                ],
+                [
+                    "prefix",
+                    "prefix() const : uint",
+                    "prefix"
+                ],
+                [
+                    "setAddress",
+                    "setAddress(const QString &)",
+                    "setAddress"
+                ],
+                [
+                    "setDns1",
+                    "setDns1(const QString &)",
+                    "setDns1"
+                ],
+                [
+                    "setDns2",
+                    "setDns2(const QString &)",
+                    "setDns2"
+                ],
+                [
+                    "setDns3",
+                    "setDns3(const QString &)",
+                    "setDns3"
+                ],
+                [
+                    "setGateway",
+                    "setGateway(const QString &)",
+                    "setGateway"
+                ],
+                [
+                    "setMethod",
+                    "setMethod(MMBearerIpMethod)",
+                    "setMethod"
+                ],
+                [
+                    "setPrefix",
+                    "setPrefix(uint)",
+                    "setPrefix"
+                ],
+                [
+                    "operator=",
+                    "operator=(const ModemManager::IpConfig &) : ModemManager::IpConfig &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "ModemManager::IpConfig",
+            "page": "modemmanager-qt/modemmanager-ipconfig",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "Modem",
+                    "Modem(const QString &, QObject *)",
+                    "Modem"
+                ],
+                [
+                    "accessTechnologies",
+                    "accessTechnologies() const : ModemManager::Modem::AccessTechnologies",
+                    "accessTechnologies"
+                ],
+                [
+                    "accessTechnologiesChanged",
+                    "accessTechnologiesChanged(QFlags<MMModemAccessTechnology>)",
+                    "accessTechnologiesChanged"
+                ],
+                [
+                    "bearerAdded",
+                    "bearerAdded(const QString &)",
+                    "bearerAdded"
+                ],
+                [
+                    "bearerRemoved",
+                    "bearerRemoved(const QString &)",
+                    "bearerRemoved"
+                ],
+                [
+                    "bearersChanged",
+                    "bearersChanged()",
+                    "bearersChanged"
+                ],
+                [
+                    "carrierConfiguration",
+                    "carrierConfiguration() const : QString",
+                    "carrierConfiguration"
+                ],
+                [
+                    "carrierConfigurationChanged",
+                    "carrierConfigurationChanged(const QString &)",
+                    "carrierConfigurationChanged"
+                ],
+                [
+                    "carrierConfigurationRevision",
+                    "carrierConfigurationRevision() const : QString",
+                    "carrierConfigurationRevision"
+                ],
+                [
+                    "carrierConfigurationRevisionChanged",
+                    "carrierConfigurationRevisionChanged(const QString &)",
+                    "carrierConfigurationRevisionChanged"
+                ],
+                [
+                    "command",
+                    "command(const QString &, uint) : QDBusPendingReply<QString>",
+                    "command"
+                ],
+                [
+                    "createBearer",
+                    "createBearer(const ModemManager::BearerProperties &) : QDBusPendingReply<QDBusObjectPath>",
+                    "createBearer"
+                ],
+                [
+                    "currentBands",
+                    "currentBands() const : QList<MMModemBand>",
+                    "currentBands"
+                ],
+                [
+                    "currentBandsChanged",
+                    "currentBandsChanged(const QList<MMModemBand> &)",
+                    "currentBandsChanged"
+                ],
+                [
+                    "currentCapabilities",
+                    "currentCapabilities() const : ModemManager::Modem::Capabilities",
+                    "currentCapabilities"
+                ],
+                [
+                    "currentCapabilitiesChanged",
+                    "currentCapabilitiesChanged(const QFlags<MMModemCapability> &)",
+                    "currentCapabilitiesChanged"
+                ],
+                [
+                    "currentModes",
+                    "currentModes() const : ModemManager::CurrentModesType",
+                    "currentModes"
+                ],
+                [
+                    "currentModesChanged",
+                    "currentModesChanged(ModemManager::CurrentModesType)",
+                    "currentModesChanged"
+                ],
+                [
+                    "deleteBearer",
+                    "deleteBearer(const QString &) : QDBusPendingReply<void>",
+                    "deleteBearer"
+                ],
+                [
+                    "device",
+                    "device() const : QString",
+                    "device"
+                ],
+                [
+                    "deviceChanged",
+                    "deviceChanged(const QString &)",
+                    "deviceChanged"
+                ],
+                [
+                    "deviceIdentifier",
+                    "deviceIdentifier() const : QString",
+                    "deviceIdentifier"
+                ],
+                [
+                    "deviceIdentifierChanged",
+                    "deviceIdentifierChanged(const QString &)",
+                    "deviceIdentifierChanged"
+                ],
+                [
+                    "drivers",
+                    "drivers() const : QStringList",
+                    "drivers"
+                ],
+                [
+                    "driversChanged",
+                    "driversChanged(const QStringList &)",
+                    "driversChanged"
+                ],
+                [
+                    "equipmentIdentifier",
+                    "equipmentIdentifier() const : QString",
+                    "equipmentIdentifier"
+                ],
+                [
+                    "equipmentIdentifierChanged",
+                    "equipmentIdentifierChanged(const QString &)",
+                    "equipmentIdentifierChanged"
+                ],
+                [
+                    "factoryReset",
+                    "factoryReset(const QString &) : QDBusPendingReply<void>",
+                    "factoryReset"
+                ],
+                [
+                    "findBearer",
+                    "findBearer(const QString &) const : ModemManager::Bearer::Ptr",
+                    "findBearer"
+                ],
+                [
+                    "getCellInfo",
+                    "getCellInfo() : QDBusPendingReply<ModemManager::QVariantMapList>",
+                    "getCellInfo"
+                ],
+                [
+                    "hardwareRevision",
+                    "hardwareRevision() const : QString",
+                    "hardwareRevision"
+                ],
+                [
+                    "hardwareRevisionChanged",
+                    "hardwareRevisionChanged(const QString &)",
+                    "hardwareRevisionChanged"
+                ],
+                [
+                    "isEnabled",
+                    "isEnabled() const : bool",
+                    "isEnabled"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "listBearers",
+                    "listBearers() const : ModemManager::Bearer::List",
+                    "listBearers"
+                ],
+                [
+                    "manufacturer",
+                    "manufacturer() const : QString",
+                    "manufacturer"
+                ],
+                [
+                    "manufacturerChanged",
+                    "manufacturerChanged(const QString &)",
+                    "manufacturerChanged"
+                ],
+                [
+                    "maxActiveBearers",
+                    "maxActiveBearers() const : uint",
+                    "maxActiveBearers"
+                ],
+                [
+                    "maxActiveBearersChanged",
+                    "maxActiveBearersChanged(uint)",
+                    "maxActiveBearersChanged"
+                ],
+                [
+                    "maxActiveMultiplexedBearers",
+                    "maxActiveMultiplexedBearers() const : uint",
+                    "maxActiveMultiplexedBearers"
+                ],
+                [
+                    "maxActiveMultiplexedBearersChanged",
+                    "maxActiveMultiplexedBearersChanged(uint)",
+                    "maxActiveMultiplexedBearersChanged"
+                ],
+                [
+                    "maxBearers",
+                    "maxBearers() const : uint",
+                    "maxBearers"
+                ],
+                [
+                    "maxBearersChanged",
+                    "maxBearersChanged(uint)",
+                    "maxBearersChanged"
+                ],
+                [
+                    "model",
+                    "model() const : QString",
+                    "model"
+                ],
+                [
+                    "modelChanged",
+                    "modelChanged(const QString &)",
+                    "modelChanged"
+                ],
+                [
+                    "ownNumbers",
+                    "ownNumbers() const : QStringList",
+                    "ownNumbers"
+                ],
+                [
+                    "ownNumbersChanged",
+                    "ownNumbersChanged(const QStringList &)",
+                    "ownNumbersChanged"
+                ],
+                [
+                    "physdev",
+                    "physdev() const : QString",
+                    "physdev"
+                ],
+                [
+                    "physdevChanged",
+                    "physdevChanged(const QString &)",
+                    "physdevChanged"
+                ],
+                [
+                    "plugin",
+                    "plugin() const : QString",
+                    "plugin"
+                ],
+                [
+                    "pluginChanged",
+                    "pluginChanged(const QString &)",
+                    "pluginChanged"
+                ],
+                [
+                    "ports",
+                    "ports() const : ModemManager::PortList",
+                    "ports"
+                ],
+                [
+                    "portsChanged",
+                    "portsChanged(const ModemManager::PortList &)",
+                    "portsChanged"
+                ],
+                [
+                    "powerState",
+                    "powerState() const : MMModemPowerState",
+                    "powerState"
+                ],
+                [
+                    "powerStateChanged",
+                    "powerStateChanged(MMModemPowerState)",
+                    "powerStateChanged"
+                ],
+                [
+                    "primaryPort",
+                    "primaryPort() const : QString",
+                    "primaryPort"
+                ],
+                [
+                    "primaryPortChanged",
+                    "primaryPortChanged(const QString &)",
+                    "primaryPortChanged"
+                ],
+                [
+                    "primarySimSlot",
+                    "primarySimSlot() const : uint",
+                    "primarySimSlot"
+                ],
+                [
+                    "primarySimSlotChanged",
+                    "primarySimSlotChanged(uint)",
+                    "primarySimSlotChanged"
+                ],
+                [
+                    "reset",
+                    "reset() : QDBusPendingReply<void>",
+                    "reset"
+                ],
+                [
+                    "revision",
+                    "revision() const : QString",
+                    "revision"
+                ],
+                [
+                    "revisionChanged",
+                    "revisionChanged(const QString &)",
+                    "revisionChanged"
+                ],
+                [
+                    "setCurrentBands",
+                    "setCurrentBands(const QList<MMModemBand> &) : QDBusPendingReply<void>",
+                    "setCurrentBands"
+                ],
+                [
+                    "setCurrentCapabilities",
+                    "setCurrentCapabilities(ModemManager::Modem::Capabilities) : QDBusPendingReply<void>",
+                    "setCurrentCapabilities"
+                ],
+                [
+                    "setCurrentModes",
+                    "setCurrentModes(const ModemManager::CurrentModesType &) : QDBusPendingReply<void>",
+                    "setCurrentModes"
+                ],
+                [
+                    "setEnabled",
+                    "setEnabled(bool) : QDBusPendingReply<void>",
+                    "setEnabled"
+                ],
+                [
+                    "setPowerState",
+                    "setPowerState(MMModemPowerState) : QDBusPendingReply<void>",
+                    "setPowerState"
+                ],
+                [
+                    "setPrimarySimSlot",
+                    "setPrimarySimSlot(uint) : QDBusPendingReply<void>",
+                    "setPrimarySimSlot"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "signalQuality",
+                    "signalQuality() const : ModemManager::SignalQualityPair",
+                    "signalQuality"
+                ],
+                [
+                    "signalQualityChanged",
+                    "signalQualityChanged(ModemManager::SignalQualityPair)",
+                    "signalQualityChanged"
+                ],
+                [
+                    "simPath",
+                    "simPath() const : QString",
+                    "simPath"
+                ],
+                [
+                    "simPathChanged",
+                    "simPathChanged(const QString &, const QString &)",
+                    "simPathChanged"
+                ],
+                [
+                    "simSlots",
+                    "simSlots() const : ModemManager::UIntList",
+                    "simSlots"
+                ],
+                [
+                    "simSlotsChanged",
+                    "simSlotsChanged(const ModemManager::UIntList &)",
+                    "simSlotsChanged"
+                ],
+                [
+                    "state",
+                    "state() const : MMModemState",
+                    "state"
+                ],
+                [
+                    "stateChanged",
+                    "stateChanged(MMModemState, MMModemState, MMModemStateChangeReason)",
+                    "stateChanged"
+                ],
+                [
+                    "stateFailedReason",
+                    "stateFailedReason() const : MMModemStateFailedReason",
+                    "stateFailedReason"
+                ],
+                [
+                    "stateFailedReasonChanged",
+                    "stateFailedReasonChanged(MMModemStateFailedReason)",
+                    "stateFailedReasonChanged"
+                ],
+                [
+                    "supportedBands",
+                    "supportedBands() const : QList<MMModemBand>",
+                    "supportedBands"
+                ],
+                [
+                    "supportedBandsChanged",
+                    "supportedBandsChanged(const QList<MMModemBand> &)",
+                    "supportedBandsChanged"
+                ],
+                [
+                    "supportedCapabilities",
+                    "supportedCapabilities() const : QList<MMModemCapability>",
+                    "supportedCapabilities"
+                ],
+                [
+                    "supportedCapabilitiesChanged",
+                    "supportedCapabilitiesChanged(const QList<MMModemCapability> &)",
+                    "supportedCapabilitiesChanged"
+                ],
+                [
+                    "supportedIpFamilies",
+                    "supportedIpFamilies() const : ModemManager::Modem::IpBearerFamilies",
+                    "supportedIpFamilies"
+                ],
+                [
+                    "supportedIpFamiliesChanged",
+                    "supportedIpFamiliesChanged(QFlags<MMBearerIpFamily>)",
+                    "supportedIpFamiliesChanged"
+                ],
+                [
+                    "supportedModes",
+                    "supportedModes() const : ModemManager::SupportedModesType",
+                    "supportedModes"
+                ],
+                [
+                    "supportedModesChanged",
+                    "supportedModesChanged(ModemManager::SupportedModesType)",
+                    "supportedModesChanged"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ],
+                [
+                    "uni",
+                    "uni() const : QString",
+                    "uni"
+                ],
+                [
+                    "unlockRequired",
+                    "unlockRequired() const : MMModemLock",
+                    "unlockRequired"
+                ],
+                [
+                    "unlockRequiredChanged",
+                    "unlockRequiredChanged(MMModemLock)",
+                    "unlockRequiredChanged"
+                ],
+                [
+                    "unlockRetries",
+                    "unlockRetries() const : ModemManager::UnlockRetriesMap",
+                    "unlockRetries"
+                ],
+                [
+                    "unlockRetriesChanged",
+                    "unlockRetriesChanged(const ModemManager::UnlockRetriesMap &)",
+                    "unlockRetriesChanged"
+                ]
+            ],
+            "name": "ModemManager::Modem",
+            "page": "modemmanager-qt/modemmanager-modem",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "Modem3gpp",
+                    "Modem3gpp(const QString &, QObject *)",
+                    "Modem3gpp"
+                ],
+                [
+                    "countryCode",
+                    "countryCode() const : QString",
+                    "countryCode"
+                ],
+                [
+                    "countryCodeChanged",
+                    "countryCodeChanged(const QString &)",
+                    "countryCodeChanged"
+                ],
+                [
+                    "enabledFacilityLocks",
+                    "enabledFacilityLocks() const : ModemManager::Modem3gpp::FacilityLocks",
+                    "enabledFacilityLocks"
+                ],
+                [
+                    "enabledFacilityLocksChanged",
+                    "enabledFacilityLocksChanged(QFlags<MMModem3gppFacility>)",
+                    "enabledFacilityLocksChanged"
+                ],
+                [
+                    "imei",
+                    "imei() const : QString",
+                    "imei"
+                ],
+                [
+                    "imeiChanged",
+                    "imeiChanged(const QString &)",
+                    "imeiChanged"
+                ],
+                [
+                    "operatorCode",
+                    "operatorCode() const : QString",
+                    "operatorCode"
+                ],
+                [
+                    "operatorCodeChanged",
+                    "operatorCodeChanged(const QString &)",
+                    "operatorCodeChanged"
+                ],
+                [
+                    "operatorName",
+                    "operatorName() const : QString",
+                    "operatorName"
+                ],
+                [
+                    "operatorNameChanged",
+                    "operatorNameChanged(const QString &)",
+                    "operatorNameChanged"
+                ],
+                [
+                    "registerToNetwork",
+                    "registerToNetwork(const QString &)",
+                    "registerToNetwork"
+                ],
+                [
+                    "registrationState",
+                    "registrationState() const : MMModem3gppRegistrationState",
+                    "registrationState"
+                ],
+                [
+                    "registrationStateChanged",
+                    "registrationStateChanged(MMModem3gppRegistrationState)",
+                    "registrationStateChanged"
+                ],
+                [
+                    "scan",
+                    "scan() : QDBusPendingReply<ModemManager::QVariantMapList>",
+                    "scan"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "subscriptionState",
+                    "subscriptionState() const : MMModem3gppSubscriptionState",
+                    "subscriptionState"
+                ],
+                [
+                    "subscriptionStateChanged",
+                    "subscriptionStateChanged(MMModem3gppSubscriptionState)",
+                    "subscriptionStateChanged"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ]
+            ],
+            "name": "ModemManager::Modem3gpp",
+            "page": "modemmanager-qt/modemmanager-modem3gpp",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "Modem3gppUssd",
+                    "Modem3gppUssd(const QString &, QObject *)",
+                    "Modem3gppUssd"
+                ],
+                [
+                    "cancel",
+                    "cancel()",
+                    "cancel"
+                ],
+                [
+                    "initiate",
+                    "initiate(const QString &) : QDBusPendingReply<QString>",
+                    "initiate"
+                ],
+                [
+                    "networkNotification",
+                    "networkNotification() const : QString",
+                    "networkNotification"
+                ],
+                [
+                    "networkNotificationChanged",
+                    "networkNotificationChanged(const QString &)",
+                    "networkNotificationChanged"
+                ],
+                [
+                    "networkRequest",
+                    "networkRequest() const : QString",
+                    "networkRequest"
+                ],
+                [
+                    "networkRequestChanged",
+                    "networkRequestChanged(const QString &)",
+                    "networkRequestChanged"
+                ],
+                [
+                    "respond",
+                    "respond(const QString &) : QDBusPendingReply<QString>",
+                    "respond"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "state",
+                    "state() const : MMModem3gppUssdSessionState",
+                    "state"
+                ],
+                [
+                    "stateChanged",
+                    "stateChanged(MMModem3gppUssdSessionState)",
+                    "stateChanged"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ]
+            ],
+            "name": "ModemManager::Modem3gppUssd",
+            "page": "modemmanager-qt/modemmanager-modem3gppussd",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "ModemCdma",
+                    "ModemCdma(const QString &, QObject *)",
+                    "ModemCdma"
+                ],
+                [
+                    "activate",
+                    "activate(const QString &) : QDBusPendingReply<void>",
+                    "activate"
+                ],
+                [
+                    "activateManual",
+                    "activateManual(const QVariantMap &) : QDBusPendingReply<void>",
+                    "activateManual"
+                ],
+                [
+                    "activationState",
+                    "activationState() const : MMModemCdmaActivationState",
+                    "activationState"
+                ],
+                [
+                    "activationStateChanged",
+                    "activationStateChanged(MMModemCdmaActivationState, MMCdmaActivationError, const QVariantMap &)",
+                    "activationStateChanged"
+                ],
+                [
+                    "cdma1xRegistrationState",
+                    "cdma1xRegistrationState() const : MMModemCdmaRegistrationState",
+                    "cdma1xRegistrationState"
+                ],
+                [
+                    "cdma1xRegistrationStateChanged",
+                    "cdma1xRegistrationStateChanged(MMModemCdmaRegistrationState)",
+                    "cdma1xRegistrationStateChanged"
+                ],
+                [
+                    "esn",
+                    "esn() const : QString",
+                    "esn"
+                ],
+                [
+                    "esnChanged",
+                    "esnChanged(const QString &)",
+                    "esnChanged"
+                ],
+                [
+                    "evdoRegistrationState",
+                    "evdoRegistrationState() const : MMModemCdmaRegistrationState",
+                    "evdoRegistrationState"
+                ],
+                [
+                    "evdoRegistrationStateChanged",
+                    "evdoRegistrationStateChanged(MMModemCdmaRegistrationState)",
+                    "evdoRegistrationStateChanged"
+                ],
+                [
+                    "meid",
+                    "meid() const : QString",
+                    "meid"
+                ],
+                [
+                    "meidChanged",
+                    "meidChanged(const QString &)",
+                    "meidChanged"
+                ],
+                [
+                    "nid",
+                    "nid() const : uint",
+                    "nid"
+                ],
+                [
+                    "nidChanged",
+                    "nidChanged(uint)",
+                    "nidChanged"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "sid",
+                    "sid() const : uint",
+                    "sid"
+                ],
+                [
+                    "sidChanged",
+                    "sidChanged(uint)",
+                    "sidChanged"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ]
+            ],
+            "name": "ModemManager::ModemCdma",
+            "page": "modemmanager-qt/modemmanager-modemcdma",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "ModemCellBroadcast",
+                    "ModemCellBroadcast(const QString &, QObject *)",
+                    "ModemCellBroadcast"
+                ],
+                [
+                    "cellBroadcastAdded",
+                    "cellBroadcastAdded(const QString &)",
+                    "cellBroadcastAdded"
+                ],
+                [
+                    "cellBroadcastDeleted",
+                    "cellBroadcastDeleted(const QString &)",
+                    "cellBroadcastDeleted"
+                ],
+                [
+                    "cellBroadcasts",
+                    "cellBroadcasts() const : ModemManager::Cbm::List",
+                    "cellBroadcasts"
+                ],
+                [
+                    "channels",
+                    "channels() const : ModemManager::CellBroadcastChannelRangeList",
+                    "channels"
+                ],
+                [
+                    "channelsChanged",
+                    "channelsChanged(const ModemManager::CellBroadcastChannelRangeList &)",
+                    "channelsChanged"
+                ],
+                [
+                    "deleteCellBroadcast",
+                    "deleteCellBroadcast(const QString &) : QDBusPendingReply<void>",
+                    "deleteCellBroadcast"
+                ],
+                [
+                    "findCellBroadcast",
+                    "findCellBroadcast(const QString &) : ModemManager::Cbm::Ptr",
+                    "findCellBroadcast"
+                ],
+                [
+                    "setChannels",
+                    "setChannels(const ModemManager::CellBroadcastChannelRangeList &) : QDBusPendingReply<void>",
+                    "setChannels"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ]
+            ],
+            "name": "ModemManager::ModemCellBroadcast",
+            "page": "modemmanager-qt/modemmanager-modemcellbroadcast",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ModemDevice",
+                    "ModemDevice(ModemManager::ModemDevicePrivate &, QObject *)",
+                    "ModemDevice"
+                ],
+                [
+                    "ModemDevice",
+                    "ModemDevice(const QString &, QObject *)",
+                    "ModemDevice-1"
+                ],
+                [
+                    "bearerAdded",
+                    "bearerAdded(const QString &)",
+                    "bearerAdded"
+                ],
+                [
+                    "bearerRemoved",
+                    "bearerRemoved(const QString &)",
+                    "bearerRemoved"
+                ],
+                [
+                    "bearers",
+                    "bearers() const : ModemManager::Bearer::List",
+                    "bearers"
+                ],
+                [
+                    "cellBroadcastInterface",
+                    "cellBroadcastInterface() : ModemManager::ModemCellBroadcast::Ptr",
+                    "cellBroadcastInterface"
+                ],
+                [
+                    "findBearer",
+                    "findBearer(const QString &) : ModemManager::Bearer::Ptr",
+                    "findBearer"
+                ],
+                [
+                    "hasInterface",
+                    "hasInterface(ModemManager::ModemDevice::InterfaceType) const : bool",
+                    "hasInterface"
+                ],
+                [
+                    "interface",
+                    "interface(ModemManager::ModemDevice::InterfaceType) const : ModemManager::Interface::Ptr",
+                    "interface"
+                ],
+                [
+                    "interfaceAdded",
+                    "interfaceAdded(ModemManager::ModemDevice::InterfaceType)",
+                    "interfaceAdded"
+                ],
+                [
+                    "interfaceRemoved",
+                    "interfaceRemoved(ModemManager::ModemDevice::InterfaceType)",
+                    "interfaceRemoved"
+                ],
+                [
+                    "interfaces",
+                    "interfaces() const : ModemManager::Interface::List",
+                    "interfaces"
+                ],
+                [
+                    "isCdmaModem",
+                    "isCdmaModem() const : bool",
+                    "isCdmaModem"
+                ],
+                [
+                    "isGsmModem",
+                    "isGsmModem() const : bool",
+                    "isGsmModem"
+                ],
+                [
+                    "messagingInterface",
+                    "messagingInterface() : ModemManager::ModemMessaging::Ptr",
+                    "messagingInterface"
+                ],
+                [
+                    "modemInterface",
+                    "modemInterface() : ModemManager::Modem::Ptr",
+                    "modemInterface"
+                ],
+                [
+                    "sim",
+                    "sim() const : ModemManager::Sim::Ptr",
+                    "sim"
+                ],
+                [
+                    "simAdded",
+                    "simAdded(const QString &)",
+                    "simAdded"
+                ],
+                [
+                    "simRemoved",
+                    "simRemoved(const QString &)",
+                    "simRemoved"
+                ],
+                [
+                    "uni",
+                    "uni() const : QString",
+                    "uni"
+                ]
+            ],
+            "name": "ModemManager::ModemDevice",
+            "page": "modemmanager-qt/modemmanager-modemdevice",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "ModemFirmware",
+                    "ModemFirmware(const QString &, QObject *)",
+                    "ModemFirmware"
+                ],
+                [
+                    "listImages",
+                    "listImages() : QDBusPendingReply<QString, ModemManager::QVariantMapList>",
+                    "listImages"
+                ],
+                [
+                    "selectImage",
+                    "selectImage(const QString &)",
+                    "selectImage"
+                ],
+                [
+                    "updateSettings",
+                    "updateSettings() const : ModemManager::FirmwareUpdateSettings",
+                    "updateSettings"
+                ],
+                [
+                    "updateSettingsChanged",
+                    "updateSettingsChanged(const ModemManager::FirmwareUpdateSettings &)",
+                    "updateSettingsChanged"
+                ]
+            ],
+            "name": "ModemManager::ModemFirmware",
+            "page": "modemmanager-qt/modemmanager-modemfirmware",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "ModemLocation",
+                    "ModemLocation(const QString &, QObject *)",
+                    "ModemLocation"
+                ],
+                [
+                    "assistanceDataServers",
+                    "assistanceDataServers() const : QStringList",
+                    "assistanceDataServers"
+                ],
+                [
+                    "assistanceDataServersChanged",
+                    "assistanceDataServersChanged(const QStringList &)",
+                    "assistanceDataServersChanged"
+                ],
+                [
+                    "capabilities",
+                    "capabilities() const : ModemManager::ModemLocation::LocationSources",
+                    "capabilities"
+                ],
+                [
+                    "capabilitiesChanged",
+                    "capabilitiesChanged(QFlags<MMModemLocationSource>)",
+                    "capabilitiesChanged"
+                ],
+                [
+                    "enabledCapabilities",
+                    "enabledCapabilities() const : ModemManager::ModemLocation::LocationSources",
+                    "enabledCapabilities"
+                ],
+                [
+                    "enabledCapabilitiesChanged",
+                    "enabledCapabilitiesChanged(QFlags<MMModemLocationSource>)",
+                    "enabledCapabilitiesChanged"
+                ],
+                [
+                    "getLocation",
+                    "getLocation() : QDBusPendingReply<ModemManager::LocationInformationMap>",
+                    "getLocation"
+                ],
+                [
+                    "gpsRefreshRate",
+                    "gpsRefreshRate() const : uint",
+                    "gpsRefreshRate"
+                ],
+                [
+                    "gpsRefreshRateChanged",
+                    "gpsRefreshRateChanged(uint)",
+                    "gpsRefreshRateChanged"
+                ],
+                [
+                    "injectAssistanceData",
+                    "injectAssistanceData(const QByteArray &) : QDBusPendingReply<void>",
+                    "injectAssistanceData"
+                ],
+                [
+                    "isEnabled",
+                    "isEnabled() const : bool",
+                    "isEnabled"
+                ],
+                [
+                    "location",
+                    "location() const : ModemManager::LocationInformationMap",
+                    "location"
+                ],
+                [
+                    "locationChanged",
+                    "locationChanged(const ModemManager::LocationInformationMap &)",
+                    "locationChanged"
+                ],
+                [
+                    "setGpsRefreshRate",
+                    "setGpsRefreshRate(uint) : QDBusPendingReply<void>",
+                    "setGpsRefreshRate"
+                ],
+                [
+                    "setSuplServer",
+                    "setSuplServer(const QString &) : QDBusPendingReply<void>",
+                    "setSuplServer"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "setup",
+                    "setup(ModemManager::ModemLocation::LocationSources, bool) : QDBusPendingReply<void>",
+                    "setup"
+                ],
+                [
+                    "signalsLocation",
+                    "signalsLocation() const : bool",
+                    "signalsLocation"
+                ],
+                [
+                    "signalsLocationChanged",
+                    "signalsLocationChanged(bool)",
+                    "signalsLocationChanged"
+                ],
+                [
+                    "suplServer",
+                    "suplServer() const : QString",
+                    "suplServer"
+                ],
+                [
+                    "suplServerChanged",
+                    "suplServerChanged(const QString &)",
+                    "suplServerChanged"
+                ],
+                [
+                    "supportedAssistanceData",
+                    "supportedAssistanceData() const : ModemManager::ModemLocation::AssistanceDataTypes",
+                    "supportedAssistanceData"
+                ],
+                [
+                    "supportedAssistanceDataChanged",
+                    "supportedAssistanceDataChanged(QFlags<MMModemLocationAssistanceDataType>)",
+                    "supportedAssistanceDataChanged"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ]
+            ],
+            "name": "ModemManager::ModemLocation",
+            "page": "modemmanager-qt/modemmanager-modemlocation",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "ModemMessaging",
+                    "ModemMessaging(const QString &, QObject *)",
+                    "ModemMessaging"
+                ],
+                [
+                    "createMessage",
+                    "createMessage(const ModemManager::ModemMessaging::Message &) : QDBusPendingReply<QDBusObjectPath>",
+                    "createMessage"
+                ],
+                [
+                    "createMessage",
+                    "createMessage(const QVariantMap &) : QDBusPendingReply<QDBusObjectPath>",
+                    "createMessage-1"
+                ],
+                [
+                    "defaultStorage",
+                    "defaultStorage() const : MMSmsStorage",
+                    "defaultStorage"
+                ],
+                [
+                    "deleteMessage",
+                    "deleteMessage(const QString &) : QDBusPendingReply<void>",
+                    "deleteMessage"
+                ],
+                [
+                    "findMessage",
+                    "findMessage(const QString &) : ModemManager::Sms::Ptr",
+                    "findMessage"
+                ],
+                [
+                    "messageAdded",
+                    "messageAdded(const QString &, bool)",
+                    "messageAdded"
+                ],
+                [
+                    "messageDeleted",
+                    "messageDeleted(const QString &)",
+                    "messageDeleted"
+                ],
+                [
+                    "messages",
+                    "messages() const : ModemManager::Sms::List",
+                    "messages"
+                ],
+                [
+                    "setDefaultStorage",
+                    "setDefaultStorage(MMSmsStorage) : QDBusPendingReply<void>",
+                    "setDefaultStorage"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "supportedStorages",
+                    "supportedStorages() const : QList<MMSmsStorage>",
+                    "supportedStorages"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ]
+            ],
+            "name": "ModemManager::ModemMessaging",
+            "page": "modemmanager-qt/modemmanager-modemmessaging",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "ModemOma",
+                    "ModemOma(const QString &, QObject *)",
+                    "ModemOma"
+                ],
+                [
+                    "acceptNetworkInitiatedSession",
+                    "acceptNetworkInitiatedSession(uint, bool) : QDBusPendingReply<void>",
+                    "acceptNetworkInitiatedSession"
+                ],
+                [
+                    "cancelSession",
+                    "cancelSession() : QDBusPendingReply<void>",
+                    "cancelSession"
+                ],
+                [
+                    "features",
+                    "features() const : ModemManager::ModemOma::Features",
+                    "features"
+                ],
+                [
+                    "featuresChanged",
+                    "featuresChanged(QFlags<MMOmaFeature>)",
+                    "featuresChanged"
+                ],
+                [
+                    "pendingNetworkInitiatedSessions",
+                    "pendingNetworkInitiatedSessions() const : ModemManager::OmaSessionTypes",
+                    "pendingNetworkInitiatedSessions"
+                ],
+                [
+                    "pendingNetworkInitiatedSessionsChanged",
+                    "pendingNetworkInitiatedSessionsChanged(const ModemManager::OmaSessionTypes &)",
+                    "pendingNetworkInitiatedSessionsChanged"
+                ],
+                [
+                    "sessionState",
+                    "sessionState() const : MMOmaSessionState",
+                    "sessionState"
+                ],
+                [
+                    "sessionStateChanged",
+                    "sessionStateChanged(MMOmaSessionState, MMOmaSessionState, MMOmaSessionStateFailedReason)",
+                    "sessionStateChanged"
+                ],
+                [
+                    "sessionType",
+                    "sessionType() const : MMOmaSessionType",
+                    "sessionType"
+                ],
+                [
+                    "sessionTypeChanged",
+                    "sessionTypeChanged(MMOmaSessionType)",
+                    "sessionTypeChanged"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "setup",
+                    "setup(ModemManager::ModemOma::Features) : QDBusPendingReply<void>",
+                    "setup"
+                ],
+                [
+                    "startClientInitiatedSession",
+                    "startClientInitiatedSession(MMOmaSessionType) : QDBusPendingReply<void>",
+                    "startClientInitiatedSession"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ]
+            ],
+            "name": "ModemManager::ModemOma",
+            "page": "modemmanager-qt/modemmanager-modemoma",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "ModemSignal",
+                    "ModemSignal(const QString &, QObject *)",
+                    "ModemSignal"
+                ],
+                [
+                    "cdma",
+                    "cdma() const : QVariantMap",
+                    "cdma"
+                ],
+                [
+                    "cdmaChanged",
+                    "cdmaChanged(const QVariantMap &)",
+                    "cdmaChanged"
+                ],
+                [
+                    "errorRateThreshold",
+                    "errorRateThreshold() const : bool",
+                    "errorRateThreshold"
+                ],
+                [
+                    "errorRateThresholdChanged",
+                    "errorRateThresholdChanged(bool)",
+                    "errorRateThresholdChanged"
+                ],
+                [
+                    "evdo",
+                    "evdo() const : QVariantMap",
+                    "evdo"
+                ],
+                [
+                    "evdoChanged",
+                    "evdoChanged(const QVariantMap &)",
+                    "evdoChanged"
+                ],
+                [
+                    "gsm",
+                    "gsm() const : QVariantMap",
+                    "gsm"
+                ],
+                [
+                    "gsmChanged",
+                    "gsmChanged(const QVariantMap &)",
+                    "gsmChanged"
+                ],
+                [
+                    "lte",
+                    "lte() const : QVariantMap",
+                    "lte"
+                ],
+                [
+                    "lteChanged",
+                    "lteChanged(const QVariantMap &)",
+                    "lteChanged"
+                ],
+                [
+                    "nr5g",
+                    "nr5g() const : QVariantMap",
+                    "nr5g"
+                ],
+                [
+                    "nr5gChanged",
+                    "nr5gChanged(const QVariantMap &)",
+                    "nr5gChanged"
+                ],
+                [
+                    "rate",
+                    "rate() const : uint",
+                    "rate"
+                ],
+                [
+                    "rateChanged",
+                    "rateChanged(uint)",
+                    "rateChanged"
+                ],
+                [
+                    "rssiThreshold",
+                    "rssiThreshold() const : uint",
+                    "rssiThreshold"
+                ],
+                [
+                    "rssiThresholdChanged",
+                    "rssiThresholdChanged(uint)",
+                    "rssiThresholdChanged"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "setup",
+                    "setup(uint) : QDBusPendingReply<void>",
+                    "setup"
+                ],
+                [
+                    "setupThresholds",
+                    "setupThresholds(const QVariantMap &) : QDBusPendingReply<void>",
+                    "setupThresholds"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ],
+                [
+                    "umts",
+                    "umts() const : QVariantMap",
+                    "umts"
+                ],
+                [
+                    "umtsChanged",
+                    "umtsChanged(const QVariantMap &)",
+                    "umtsChanged"
+                ]
+            ],
+            "name": "ModemManager::ModemSignal",
+            "page": "modemmanager-qt/modemmanager-modemsignal",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "ModemSimple",
+                    "ModemSimple(const QString &, QObject *)",
+                    "ModemSimple"
+                ],
+                [
+                    "connectModem",
+                    "connectModem(const QVariantMap &) : QDBusPendingReply<QDBusObjectPath>",
+                    "connectModem"
+                ],
+                [
+                    "disconnectAllModems",
+                    "disconnectAllModems() : QDBusPendingReply<void>",
+                    "disconnectAllModems"
+                ],
+                [
+                    "disconnectModem",
+                    "disconnectModem(const QString &) : QDBusPendingReply<void>",
+                    "disconnectModem"
+                ],
+                [
+                    "getStatus",
+                    "getStatus() : QDBusPendingReply<QVariantMap>",
+                    "getStatus"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ],
+                [
+                    "uni",
+                    "uni() const : QString",
+                    "uni"
+                ]
+            ],
+            "name": "ModemManager::ModemSimple",
+            "page": "modemmanager-qt/modemmanager-modemsimple",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "ModemTime",
+                    "ModemTime(const QString &, QObject *)",
+                    "ModemTime"
+                ],
+                [
+                    "networkTime",
+                    "networkTime() : QDBusPendingReply<QString>",
+                    "networkTime"
+                ],
+                [
+                    "networkTimeChanged",
+                    "networkTimeChanged(const QDateTime &)",
+                    "networkTimeChanged"
+                ],
+                [
+                    "networkTimezone",
+                    "networkTimezone() const : ModemManager::NetworkTimezone",
+                    "networkTimezone"
+                ],
+                [
+                    "networkTimezoneChanged",
+                    "networkTimezoneChanged(const ModemManager::NetworkTimezone &)",
+                    "networkTimezoneChanged"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ]
+            ],
+            "name": "ModemManager::ModemTime",
+            "page": "modemmanager-qt/modemmanager-modemtime",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "modemmanager-qt/modemmanager-interface"
+            ],
+            "members": [
+                [
+                    "ModemVoice",
+                    "ModemVoice(const QString &, QObject *)",
+                    "ModemVoice"
+                ],
+                [
+                    "callAdded",
+                    "callAdded(const QString &)",
+                    "callAdded"
+                ],
+                [
+                    "callDeleted",
+                    "callDeleted(const QString &)",
+                    "callDeleted"
+                ],
+                [
+                    "callWaitingQuery",
+                    "callWaitingQuery() : QDBusPendingReply<bool>",
+                    "callWaitingQuery"
+                ],
+                [
+                    "callWaitingSetup",
+                    "callWaitingSetup(bool) : QDBusPendingReply<void>",
+                    "callWaitingSetup"
+                ],
+                [
+                    "calls",
+                    "calls() const : ModemManager::Call::List",
+                    "calls"
+                ],
+                [
+                    "createCall",
+                    "createCall(const QString &) : QDBusPendingReply<QDBusObjectPath>",
+                    "createCall"
+                ],
+                [
+                    "createCall",
+                    "createCall(const QVariantMap &) : QDBusPendingReply<QDBusObjectPath>",
+                    "createCall-1"
+                ],
+                [
+                    "deleteCall",
+                    "deleteCall(const QString &) : QDBusPendingReply<void>",
+                    "deleteCall"
+                ],
+                [
+                    "emergencyOnly",
+                    "emergencyOnly() const : bool",
+                    "emergencyOnly"
+                ],
+                [
+                    "emergencyOnlyChanged",
+                    "emergencyOnlyChanged(bool)",
+                    "emergencyOnlyChanged"
+                ],
+                [
+                    "findCall",
+                    "findCall(const QString &) : ModemManager::Call::Ptr",
+                    "findCall"
+                ],
+                [
+                    "hangupAll",
+                    "hangupAll() : QDBusPendingReply<void>",
+                    "hangupAll"
+                ],
+                [
+                    "hangupAndAccept",
+                    "hangupAndAccept() : QDBusPendingReply<void>",
+                    "hangupAndAccept"
+                ],
+                [
+                    "holdAndAccept",
+                    "holdAndAccept() : QDBusPendingReply<void>",
+                    "holdAndAccept"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ],
+                [
+                    "transfer",
+                    "transfer() : QDBusPendingReply<void>",
+                    "transfer"
+                ]
+            ],
+            "name": "ModemManager::ModemVoice",
+            "page": "modemmanager-qt/modemmanager-modemvoice",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "NetworkTimezone",
+                    "NetworkTimezone()",
+                    "NetworkTimezone"
+                ],
+                [
+                    "NetworkTimezone",
+                    "NetworkTimezone(const ModemManager::NetworkTimezone &)",
+                    "NetworkTimezone-1"
+                ],
+                [
+                    "~NetworkTimezone",
+                    "~NetworkTimezone()",
+                    "dtor.NetworkTimezone"
+                ],
+                [
+                    "dstOffset",
+                    "dstOffset() const : int",
+                    "dstOffset"
+                ],
+                [
+                    "leapSecond",
+                    "leapSecond() const : int",
+                    "leapSecond"
+                ],
+                [
+                    "offset",
+                    "offset() const : int",
+                    "offset"
+                ],
+                [
+                    "setDstOffset",
+                    "setDstOffset(int)",
+                    "setDstOffset"
+                ],
+                [
+                    "setLeapSecond",
+                    "setLeapSecond(int)",
+                    "setLeapSecond"
+                ],
+                [
+                    "setOffset",
+                    "setOffset(int)",
+                    "setOffset"
+                ],
+                [
+                    "operator=",
+                    "operator=(const ModemManager::NetworkTimezone &) : ModemManager::NetworkTimezone &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "ModemManager::NetworkTimezone",
+            "page": "modemmanager-qt/modemmanager-networktimezone",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "modemAdded",
+                    "modemAdded(const QString &)",
+                    "modemAdded"
+                ],
+                [
+                    "modemRemoved",
+                    "modemRemoved(const QString &)",
+                    "modemRemoved"
+                ],
+                [
+                    "serviceAppeared",
+                    "serviceAppeared()",
+                    "serviceAppeared"
+                ],
+                [
+                    "serviceDisappeared",
+                    "serviceDisappeared()",
+                    "serviceDisappeared"
+                ]
+            ],
+            "name": "ModemManager::Notifier",
+            "page": "modemmanager-qt/modemmanager-notifier",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Sim",
+                    "Sim(const QString &, QObject *)",
+                    "Sim"
+                ],
+                [
+                    "active",
+                    "active() const : bool",
+                    "active"
+                ],
+                [
+                    "activeChanged",
+                    "activeChanged(bool)",
+                    "activeChanged"
+                ],
+                [
+                    "changePin",
+                    "changePin(const QString &, const QString &) : QDBusPendingReply<>",
+                    "changePin"
+                ],
+                [
+                    "eid",
+                    "eid() const : QString",
+                    "eid"
+                ],
+                [
+                    "eidChanged",
+                    "eidChanged(const QString &)",
+                    "eidChanged"
+                ],
+                [
+                    "emergencyNumbers",
+                    "emergencyNumbers() const : QStringList",
+                    "emergencyNumbers"
+                ],
+                [
+                    "emergencyNumbersChanged",
+                    "emergencyNumbersChanged(const QStringList &)",
+                    "emergencyNumbersChanged"
+                ],
+                [
+                    "enablePin",
+                    "enablePin(const QString &, bool) : QDBusPendingReply<>",
+                    "enablePin"
+                ],
+                [
+                    "esimStatus",
+                    "esimStatus() const : MMSimEsimStatus",
+                    "esimStatus"
+                ],
+                [
+                    "esimStatusChanged",
+                    "esimStatusChanged(MMSimEsimStatus)",
+                    "esimStatusChanged"
+                ],
+                [
+                    "gid1",
+                    "gid1() const : QByteArray",
+                    "gid1"
+                ],
+                [
+                    "gid2",
+                    "gid2() const : QByteArray",
+                    "gid2"
+                ],
+                [
+                    "gid1Changed",
+                    "gid1Changed(const QByteArray &)",
+                    "gid1Changed"
+                ],
+                [
+                    "gid2Changed",
+                    "gid2Changed(const QByteArray &)",
+                    "gid2Changed"
+                ],
+                [
+                    "imsi",
+                    "imsi() const : QString",
+                    "imsi"
+                ],
+                [
+                    "imsiChanged",
+                    "imsiChanged(const QString &)",
+                    "imsiChanged"
+                ],
+                [
+                    "operatorIdentifier",
+                    "operatorIdentifier() const : QString",
+                    "operatorIdentifier"
+                ],
+                [
+                    "operatorIdentifierChanged",
+                    "operatorIdentifierChanged(const QString &)",
+                    "operatorIdentifierChanged"
+                ],
+                [
+                    "operatorName",
+                    "operatorName() const : QString",
+                    "operatorName"
+                ],
+                [
+                    "operatorNameChanged",
+                    "operatorNameChanged(const QString &)",
+                    "operatorNameChanged"
+                ],
+                [
+                    "preferredNetworks",
+                    "preferredNetworks() const : QVariantMap",
+                    "preferredNetworks"
+                ],
+                [
+                    "preferredNetworksChanged",
+                    "preferredNetworksChanged(const QVariantMap &)",
+                    "preferredNetworksChanged"
+                ],
+                [
+                    "removability",
+                    "removability() const : MMSimRemovability",
+                    "removability"
+                ],
+                [
+                    "removabilityChanged",
+                    "removabilityChanged(MMSimRemovability)",
+                    "removabilityChanged"
+                ],
+                [
+                    "sendPin",
+                    "sendPin(const QString &) : QDBusPendingReply<>",
+                    "sendPin"
+                ],
+                [
+                    "sendPuk",
+                    "sendPuk(const QString &, const QString &) : QDBusPendingReply<>",
+                    "sendPuk"
+                ],
+                [
+                    "setPreferredNetworks",
+                    "setPreferredNetworks(QVariantMap) : QDBusPendingReply<>",
+                    "setPreferredNetworks"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "simIdentifier",
+                    "simIdentifier() const : QString",
+                    "simIdentifier"
+                ],
+                [
+                    "simIdentifierChanged",
+                    "simIdentifierChanged(const QString &)",
+                    "simIdentifierChanged"
+                ],
+                [
+                    "simType",
+                    "simType() const : MMSimType",
+                    "simType"
+                ],
+                [
+                    "simTypeChanged",
+                    "simTypeChanged(MMSimType)",
+                    "simTypeChanged"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ],
+                [
+                    "uni",
+                    "uni() const : QString",
+                    "uni"
+                ]
+            ],
+            "name": "ModemManager::Sim",
+            "page": "modemmanager-qt/modemmanager-sim",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Sms",
+                    "Sms(const QString &, QObject *)",
+                    "Sms"
+                ],
+                [
+                    "SMSC",
+                    "SMSC() const : QString",
+                    "SMSC"
+                ],
+                [
+                    "SMSCChanged",
+                    "SMSCChanged(const QString &)",
+                    "SMSCChanged"
+                ],
+                [
+                    "data",
+                    "data() const : QByteArray",
+                    "data"
+                ],
+                [
+                    "dataChanged",
+                    "dataChanged(const QByteArray &)",
+                    "dataChanged"
+                ],
+                [
+                    "deliveryReportRequest",
+                    "deliveryReportRequest() const : bool",
+                    "deliveryReportRequest"
+                ],
+                [
+                    "deliveryReportRequestChanged",
+                    "deliveryReportRequestChanged(bool)",
+                    "deliveryReportRequestChanged"
+                ],
+                [
+                    "deliveryState",
+                    "deliveryState() const : MMSmsDeliveryState",
+                    "deliveryState"
+                ],
+                [
+                    "deliveryStateChanged",
+                    "deliveryStateChanged(MMSmsDeliveryState)",
+                    "deliveryStateChanged"
+                ],
+                [
+                    "dischargeTimestamp",
+                    "dischargeTimestamp() const : QDateTime",
+                    "dischargeTimestamp"
+                ],
+                [
+                    "dischargeTimestampChanged",
+                    "dischargeTimestampChanged(const QDateTime &)",
+                    "dischargeTimestampChanged"
+                ],
+                [
+                    "messageReference",
+                    "messageReference() const : uint",
+                    "messageReference"
+                ],
+                [
+                    "messageReferenceChanged",
+                    "messageReferenceChanged(uint)",
+                    "messageReferenceChanged"
+                ],
+                [
+                    "number",
+                    "number() const : QString",
+                    "number"
+                ],
+                [
+                    "numberChanged",
+                    "numberChanged(const QString &)",
+                    "numberChanged"
+                ],
+                [
+                    "pduType",
+                    "pduType() const : MMSmsPduType",
+                    "pduType"
+                ],
+                [
+                    "pduTypeChanged",
+                    "pduTypeChanged(MMSmsPduType)",
+                    "pduTypeChanged"
+                ],
+                [
+                    "send",
+                    "send() : QDBusPendingReply<>",
+                    "send"
+                ],
+                [
+                    "serviceCategory",
+                    "serviceCategory() const : MMSmsCdmaServiceCategory",
+                    "serviceCategory"
+                ],
+                [
+                    "serviceCategoryChanged",
+                    "serviceCategoryChanged(MMSmsCdmaServiceCategory)",
+                    "serviceCategoryChanged"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(int)",
+                    "setTimeout"
+                ],
+                [
+                    "smsClass",
+                    "smsClass() const : int",
+                    "smsClass"
+                ],
+                [
+                    "smsClassChanged",
+                    "smsClassChanged(int)",
+                    "smsClassChanged"
+                ],
+                [
+                    "state",
+                    "state() const : MMSmsState",
+                    "state"
+                ],
+                [
+                    "stateChanged",
+                    "stateChanged(MMSmsState)",
+                    "stateChanged"
+                ],
+                [
+                    "storage",
+                    "storage() const : MMSmsStorage",
+                    "storage"
+                ],
+                [
+                    "storageChanged",
+                    "storageChanged(MMSmsStorage)",
+                    "storageChanged"
+                ],
+                [
+                    "store",
+                    "store(MMSmsStorage) : QDBusPendingReply<>",
+                    "store"
+                ],
+                [
+                    "teleserviceId",
+                    "teleserviceId() const : MMSmsCdmaTeleserviceId",
+                    "teleserviceId"
+                ],
+                [
+                    "teleserviceIdChanged",
+                    "teleserviceIdChanged(MMSmsCdmaTeleserviceId)",
+                    "teleserviceIdChanged"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "textChanged",
+                    "textChanged(const QString &)",
+                    "textChanged"
+                ],
+                [
+                    "timeout",
+                    "timeout() const : int",
+                    "timeout"
+                ],
+                [
+                    "timestamp",
+                    "timestamp() const : QDateTime",
+                    "timestamp"
+                ],
+                [
+                    "timestampChanged",
+                    "timestampChanged(const QDateTime &)",
+                    "timestampChanged"
+                ],
+                [
+                    "uni",
+                    "uni() const : QString",
+                    "uni"
+                ],
+                [
+                    "validity",
+                    "validity() const : ModemManager::ValidityPair",
+                    "validity"
+                ],
+                [
+                    "validityChanged",
+                    "validityChanged(const ModemManager::ValidityPair &)",
+                    "validityChanged"
+                ]
+            ],
+            "name": "ModemManager::Sms",
+            "page": "modemmanager-qt/modemmanager-sms",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "modemmanager-qt",
+    "sections": [
+        {
+            "description": "ModemManagerQt provides access to all ModemManager features exposed on DBus. It allows you to manage modem devices and access to information available for your modem devices, like signal, location and messages.",
+            "page": "modemmanager-qt/modemmanagerqt-module",
+            "pages": [
+                [
+                    "modemmanager-qt/modemmanagerqt-module",
+                    "ModemManagerQt C++ Classes"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-bearer",
+                    "ModemManager::Bearer"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-bearerproperties",
+                    "ModemManager::BearerProperties"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-call",
+                    "ModemManager::Call"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-cbm",
+                    "ModemManager::Cbm"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-interface",
+                    "ModemManager::Interface"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-ipconfig",
+                    "ModemManager::IpConfig"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modem",
+                    "ModemManager::Modem"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modem3gpp",
+                    "ModemManager::Modem3gpp"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modem3gppussd",
+                    "ModemManager::Modem3gppUssd"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemcdma",
+                    "ModemManager::ModemCdma"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemcellbroadcast",
+                    "ModemManager::ModemCellBroadcast"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemdevice",
+                    "ModemManager::ModemDevice"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemfirmware",
+                    "ModemManager::ModemFirmware"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemlocation",
+                    "ModemManager::ModemLocation"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemmessaging",
+                    "ModemManager::ModemMessaging"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemoma",
+                    "ModemManager::ModemOma"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemsignal",
+                    "ModemManager::ModemSignal"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemsimple",
+                    "ModemManager::ModemSimple"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemtime",
+                    "ModemManager::ModemTime"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemvoice",
+                    "ModemManager::ModemVoice"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-networktimezone",
+                    "ModemManager::NetworkTimezone"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-notifier",
+                    "ModemManager::Notifier"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-sim",
+                    "ModemManager::Sim"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-sms",
+                    "ModemManager::Sms"
+                ],
+                [
+                    "modemmanager-qt/modemmanager",
+                    "ModemManager Namespace"
+                ],
+                [
+                    "modemmanager-qt/modemmanager-modemmessaging-message",
+                    ""
+                ],
+                [
+                    "modemmanager-qt/modemmanager-qt-index",
+                    "ModemManagerQt"
+                ]
+            ],
+            "qml": false,
+            "title": "ModemManagerQt C++ Classes"
+        }
+    ]
+}

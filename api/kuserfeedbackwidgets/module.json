@@ -1,0 +1,180 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AuditLogBrowserDialog",
+                    "AuditLogBrowserDialog(QWidget *)",
+                    "AuditLogBrowserDialog"
+                ],
+                [
+                    "setUiController",
+                    "setUiController(KUserFeedback::AuditLogUiController *)",
+                    "setUiController"
+                ]
+            ],
+            "name": "KUserFeedback::AuditLogBrowserDialog",
+            "page": "kuserfeedbackwidgets/kuserfeedback-auditlogbrowserdialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "FeedbackConfigDialog",
+                    "FeedbackConfigDialog(QWidget *)",
+                    "FeedbackConfigDialog"
+                ],
+                [
+                    "accept",
+                    "accept()",
+                    "accept"
+                ],
+                [
+                    "setFeedbackProvider",
+                    "setFeedbackProvider(KUserFeedback::Provider *)",
+                    "setFeedbackProvider"
+                ]
+            ],
+            "name": "KUserFeedback::FeedbackConfigDialog",
+            "page": "kuserfeedbackwidgets/kuserfeedback-feedbackconfigdialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "FeedbackConfigWidget",
+                    "FeedbackConfigWidget(QWidget *)",
+                    "FeedbackConfigWidget"
+                ],
+                [
+                    "configurationChanged",
+                    "configurationChanged()",
+                    "configurationChanged"
+                ],
+                [
+                    "feedbackProvider",
+                    "feedbackProvider() const : KUserFeedback::Provider *",
+                    "feedbackProvider"
+                ],
+                [
+                    "setFeedbackProvider",
+                    "setFeedbackProvider(KUserFeedback::Provider *)",
+                    "setFeedbackProvider"
+                ],
+                [
+                    "surveyInterval",
+                    "surveyInterval() const : int",
+                    "surveyInterval"
+                ],
+                [
+                    "telemetryMode",
+                    "telemetryMode() const : KUserFeedback::Provider::TelemetryMode",
+                    "telemetryMode"
+                ]
+            ],
+            "name": "KUserFeedback::FeedbackConfigWidget",
+            "page": "kuserfeedbackwidgets/kuserfeedback-feedbackconfigwidget",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "NotificationPopup",
+                    "NotificationPopup(QWidget *)",
+                    "NotificationPopup"
+                ],
+                [
+                    "setFeedbackProvider",
+                    "setFeedbackProvider(KUserFeedback::Provider *)",
+                    "setFeedbackProvider"
+                ]
+            ],
+            "name": "KUserFeedback::NotificationPopup",
+            "page": "kuserfeedbackwidgets/kuserfeedback-notificationpopup",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kuserfeedbackcore/kuserfeedback-abstractdatasource"
+            ],
+            "members": [
+                [
+                    "StyleInfoSource",
+                    "StyleInfoSource()",
+                    "StyleInfoSource"
+                ]
+            ],
+            "name": "KUserFeedback::StyleInfoSource",
+            "page": "kuserfeedbackwidgets/kuserfeedback-styleinfosource",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kuserfeedbackwidgets",
+    "sections": [
+        {
+            "description": "Framework for collecting feedback from application users via telemetry and targeted surveys..",
+            "page": "kuserfeedbackwidgets/kuserfeedbackwidgets-module",
+            "pages": [
+                [
+                    "kuserfeedbackwidgets/kuserfeedbackwidgets-module",
+                    "KUserFeedbackWidgets C++ Classes"
+                ],
+                [
+                    "kuserfeedbackwidgets/kuserfeedback-auditlogbrowserdialog",
+                    "KUserFeedback::AuditLogBrowserDialog"
+                ],
+                [
+                    "kuserfeedbackwidgets/kuserfeedback-feedbackconfigdialog",
+                    "KUserFeedback::FeedbackConfigDialog"
+                ],
+                [
+                    "kuserfeedbackwidgets/kuserfeedback-feedbackconfigwidget",
+                    "KUserFeedback::FeedbackConfigWidget"
+                ],
+                [
+                    "kuserfeedbackwidgets/kuserfeedback-notificationpopup",
+                    "KUserFeedback::NotificationPopup"
+                ],
+                [
+                    "kuserfeedbackwidgets/kuserfeedback-styleinfosource",
+                    "KUserFeedback::StyleInfoSource"
+                ],
+                [
+                    "kuserfeedbackwidgets/kuserfeedback-sub-kuserfeedbackwidgets",
+                    "KUserFeedback Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KUserFeedbackWidgets C++ Classes"
+        }
+    ]
+}

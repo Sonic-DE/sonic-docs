@@ -1,0 +1,505 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "createPlatformTheme",
+                    "createPlatformTheme(QObject *) : Kirigami::Platform::PlatformTheme *",
+                    "createPlatformTheme"
+                ],
+                [
+                    "createUnits",
+                    "createUnits(QObject *) : Kirigami::Platform::Units *",
+                    "createUnits"
+                ],
+                [
+                    "findPlugin",
+                    "findPlugin(const QString &) : Kirigami::Platform::PlatformPluginFactory *",
+                    "findPlugin"
+                ]
+            ],
+            "name": "Kirigami::Platform::PlatformPluginFactory",
+            "page": "kirigamiplatform/kirigami-platform-platformpluginfactory",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "activeBackgroundColor",
+                    "activeBackgroundColor : QColor",
+                    "activeBackgroundColor-prop"
+                ],
+                [
+                    "activeTextColor",
+                    "activeTextColor : QColor",
+                    "activeTextColor-prop"
+                ],
+                [
+                    "alternateBackgroundColor",
+                    "alternateBackgroundColor : QColor",
+                    "alternateBackgroundColor-prop"
+                ],
+                [
+                    "backgroundColor",
+                    "backgroundColor : QColor",
+                    "backgroundColor-prop"
+                ],
+                [
+                    "colorGroup",
+                    "colorGroup : ColorGroup",
+                    "colorGroup-prop"
+                ],
+                [
+                    "colorSet",
+                    "colorSet : ColorSet",
+                    "colorSet-prop"
+                ],
+                [
+                    "defaultFont",
+                    "defaultFont : QFont",
+                    "defaultFont-prop"
+                ],
+                [
+                    "disabledTextColor",
+                    "disabledTextColor : QColor",
+                    "disabledTextColor-prop"
+                ],
+                [
+                    "fixedWidthFont",
+                    "fixedWidthFont : QFont",
+                    "fixedWidthFont-prop"
+                ],
+                [
+                    "focusColor",
+                    "focusColor : QColor",
+                    "focusColor-prop"
+                ],
+                [
+                    "frameContrast",
+                    "frameContrast : const qreal",
+                    "frameContrast-prop"
+                ],
+                [
+                    "highlightColor",
+                    "highlightColor : QColor",
+                    "highlightColor-prop"
+                ],
+                [
+                    "highlightedTextColor",
+                    "highlightedTextColor : QColor",
+                    "highlightedTextColor-prop"
+                ],
+                [
+                    "hoverColor",
+                    "hoverColor : QColor",
+                    "hoverColor-prop"
+                ],
+                [
+                    "inherit",
+                    "inherit : bool",
+                    "inherit-prop"
+                ],
+                [
+                    "lightFrameContrast",
+                    "lightFrameContrast : const qreal",
+                    "lightFrameContrast-prop"
+                ],
+                [
+                    "linkBackgroundColor",
+                    "linkBackgroundColor : QColor",
+                    "linkBackgroundColor-prop"
+                ],
+                [
+                    "linkColor",
+                    "linkColor : QColor",
+                    "linkColor-prop"
+                ],
+                [
+                    "negativeBackgroundColor",
+                    "negativeBackgroundColor : QColor",
+                    "negativeBackgroundColor-prop"
+                ],
+                [
+                    "negativeTextColor",
+                    "negativeTextColor : QColor",
+                    "negativeTextColor-prop"
+                ],
+                [
+                    "neutralBackgroundColor",
+                    "neutralBackgroundColor : QColor",
+                    "neutralBackgroundColor-prop"
+                ],
+                [
+                    "neutralTextColor",
+                    "neutralTextColor : QColor",
+                    "neutralTextColor-prop"
+                ],
+                [
+                    "palette",
+                    "palette : QPalette",
+                    "palette-prop"
+                ],
+                [
+                    "positiveBackgroundColor",
+                    "positiveBackgroundColor : QColor",
+                    "positiveBackgroundColor-prop"
+                ],
+                [
+                    "positiveTextColor",
+                    "positiveTextColor : QColor",
+                    "positiveTextColor-prop"
+                ],
+                [
+                    "smallFont",
+                    "smallFont : QFont",
+                    "smallFont-prop"
+                ],
+                [
+                    "textColor",
+                    "textColor : QColor",
+                    "textColor-prop"
+                ],
+                [
+                    "toolsArea",
+                    "toolsArea : Kirigami::Platform::ToolsArea* const",
+                    "toolsArea-prop"
+                ],
+                [
+                    "useAlternateBackgroundColor",
+                    "useAlternateBackgroundColor : bool",
+                    "useAlternateBackgroundColor-prop"
+                ],
+                [
+                    "visitedLinkBackgroundColor",
+                    "visitedLinkBackgroundColor : QColor",
+                    "visitedLinkBackgroundColor-prop"
+                ],
+                [
+                    "visitedLinkColor",
+                    "visitedLinkColor : QColor",
+                    "visitedLinkColor-prop"
+                ],
+                [
+                    "iconFromTheme",
+                    "iconFromTheme(const QString &, const QColor &) : QIcon",
+                    "iconFromTheme"
+                ]
+            ],
+            "name": "Kirigami::Platform::PlatformTheme",
+            "page": "kirigamiplatform/kirigami-platform-platformtheme",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "Kirigami::Platform::PlatformThemeChangeTracker",
+            "page": "kirigamiplatform/kirigami-platform-platformthemechangetracker",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "propertyChanged",
+                    "propertyChanged(Kirigami::Platform::StyleHints::ChangedProperty)",
+                    "propertyChanged"
+                ],
+                [
+                    "setMakeStyleHintsFunction",
+                    "setMakeStyleHintsFunction(const std::function<StyleHints *(QObject *)> &)",
+                    "setMakeStyleHintsFunction"
+                ]
+            ],
+            "name": "Kirigami::Platform::StyleHints",
+            "page": "kirigamiplatform/kirigami-platform-stylehints",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "Kirigami::Platform::TabletModeChangedEvent",
+            "page": "kirigamiplatform/kirigami-platform-tabletmodechangedevent",
+            "qtBases": [
+                [
+                    "QEvent",
+                    "https://doc.qt.io/qt-6/qevent-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "tabletMode",
+                    "tabletMode : bool",
+                    "tabletMode-prop"
+                ],
+                [
+                    "tabletModeAvailable",
+                    "tabletModeAvailable : bool",
+                    "tabletModeAvailable-prop"
+                ],
+                [
+                    "addWatcher",
+                    "addWatcher(QObject *)",
+                    "addWatcher"
+                ],
+                [
+                    "removeWatcher",
+                    "removeWatcher(QObject *)",
+                    "removeWatcher"
+                ]
+            ],
+            "name": "Kirigami::Platform::TabletModeWatcher",
+            "page": "kirigamiplatform/kirigami-platform-tabletmodewatcher",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "cornerRadius",
+                    "cornerRadius : qreal",
+                    "cornerRadius-prop"
+                ],
+                [
+                    "gridUnit",
+                    "gridUnit : int",
+                    "gridUnit-prop"
+                ],
+                [
+                    "humanMoment",
+                    "humanMoment : int",
+                    "humanMoment-prop"
+                ],
+                [
+                    "iconSizes",
+                    "iconSizes : Kirigami::Platform::IconSizes* const",
+                    "iconSizes-prop"
+                ],
+                [
+                    "largeSpacing",
+                    "largeSpacing : int",
+                    "largeSpacing-prop"
+                ],
+                [
+                    "longDuration",
+                    "longDuration : int",
+                    "longDuration-prop"
+                ],
+                [
+                    "mediumSpacing",
+                    "mediumSpacing : int",
+                    "mediumSpacing-prop"
+                ],
+                [
+                    "shortDuration",
+                    "shortDuration : int",
+                    "shortDuration-prop"
+                ],
+                [
+                    "smallSpacing",
+                    "smallSpacing : int",
+                    "smallSpacing-prop"
+                ],
+                [
+                    "toolTipDelay",
+                    "toolTipDelay : int",
+                    "toolTipDelay-prop"
+                ],
+                [
+                    "veryLongDuration",
+                    "veryLongDuration : int",
+                    "veryLongDuration-prop"
+                ],
+                [
+                    "veryShortDuration",
+                    "veryShortDuration : int",
+                    "veryShortDuration-prop"
+                ]
+            ],
+            "name": "Kirigami::Platform::Units",
+            "page": "kirigamiplatform/kirigami-platform-units",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "active",
+                    "active : bool",
+                    "active-prop"
+                ],
+                [
+                    "available",
+                    "available : bool",
+                    "available-prop"
+                ],
+                [
+                    "enabled",
+                    "enabled : bool",
+                    "enabled-prop"
+                ],
+                [
+                    "visible",
+                    "visible : bool",
+                    "visible-prop"
+                ],
+                [
+                    "willShowOnActive",
+                    "willShowOnActive : bool",
+                    "willShowOnActive-prop"
+                ]
+            ],
+            "name": "Kirigami::Platform::VirtualKeyboardWatcher",
+            "page": "kirigamiplatform/kirigami-platform-virtualkeyboardwatcher",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kirigamiplatform",
+    "sections": [
+        {
+            "description": "Platform Integration Components.",
+            "page": "kirigamiplatform/kirigamiplatform-module",
+            "pages": [
+                [
+                    "kirigamiplatform/kirigamiplatform-module",
+                    "Kirigami Platform C++ Classes"
+                ],
+                [
+                    "kirigamiplatform/kirigami-platform-platformpluginfactory",
+                    "Kirigami::Platform::PlatformPluginFactory"
+                ],
+                [
+                    "kirigamiplatform/kirigami-platform-platformtheme",
+                    "Kirigami::Platform::PlatformTheme"
+                ],
+                [
+                    "kirigamiplatform/kirigami-platform-platformthemechangetracker",
+                    "Kirigami::Platform::PlatformThemeChangeTracker"
+                ],
+                [
+                    "kirigamiplatform/kirigami-platform-stylehints",
+                    "Kirigami::Platform::StyleHints"
+                ],
+                [
+                    "kirigamiplatform/kirigami-platform-tabletmodechangedevent",
+                    "Kirigami::Platform::TabletModeChangedEvent"
+                ],
+                [
+                    "kirigamiplatform/kirigami-platform-tabletmodewatcher",
+                    "Kirigami::Platform::TabletModeWatcher"
+                ],
+                [
+                    "kirigamiplatform/kirigami-platform-units",
+                    "Kirigami::Platform::Units"
+                ],
+                [
+                    "kirigamiplatform/kirigami-platform-virtualkeyboardwatcher",
+                    "Kirigami::Platform::VirtualKeyboardWatcher"
+                ],
+                [
+                    "kirigamiplatform/kirigami",
+                    "Kirigami Namespace"
+                ],
+                [
+                    "kirigamiplatform/kirigami-platform",
+                    "Kirigami::Platform Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "Kirigami Platform C++ Classes"
+        },
+        {
+            "description": "Platform Integration Components.",
+            "page": "kirigamiplatform/org-kde-kirigami-platform-qmlmodule",
+            "pages": [
+                [
+                    "kirigamiplatform/org-kde-kirigami-platform-qmlmodule",
+                    "Kirigami Platform QML Types"
+                ],
+                [
+                    "kirigamiplatform/qml-org-kde-kirigami-platform-colorutils",
+                    "ColorUtils (Singleton)"
+                ],
+                [
+                    "kirigamiplatform/qml-org-kde-kirigami-platform-inputmethod",
+                    "InputMethod (Singleton)"
+                ],
+                [
+                    "kirigamiplatform/qml-org-kde-kirigami-platform-settings",
+                    "Settings (Singleton)"
+                ],
+                [
+                    "kirigamiplatform/qml-org-kde-kirigami-platform-stylehints",
+                    "StyleHints"
+                ],
+                [
+                    "kirigamiplatform/qml-org-kde-kirigami-platform-theme",
+                    "Theme"
+                ],
+                [
+                    "kirigamiplatform/qml-org-kde-kirigami-platform-toolsarea",
+                    "ToolsArea"
+                ],
+                [
+                    "kirigamiplatform/qml-org-kde-kirigami-platform-toolsarearegion",
+                    "ToolsAreaRegion"
+                ],
+                [
+                    "kirigamiplatform/qml-org-kde-kirigami-platform-toolsareawindowbackground",
+                    "ToolsAreaWindowBackground"
+                ],
+                [
+                    "kirigamiplatform/qml-org-kde-kirigami-platform-units",
+                    "Units (Singleton)"
+                ]
+            ],
+            "qml": true,
+            "title": "Kirigami Platform QML Types"
+        }
+    ]
+}

@@ -1,0 +1,1182 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "currentLocationUrl",
+                    "currentLocationUrl : QUrl",
+                    "currentLocationUrl-prop"
+                ],
+                [
+                    "historyIndex",
+                    "historyIndex : int",
+                    "historyIndex-prop"
+                ],
+                [
+                    "historySize",
+                    "historySize : int",
+                    "historySize-prop"
+                ],
+                [
+                    "currentUrlAboutToChange",
+                    "currentUrlAboutToChange(const QUrl &)",
+                    "currentUrlAboutToChange"
+                ],
+                [
+                    "goBack",
+                    "goBack() : bool",
+                    "goBack"
+                ],
+                [
+                    "goForward",
+                    "goForward() : bool",
+                    "goForward"
+                ],
+                [
+                    "goUp",
+                    "goUp() : bool",
+                    "goUp"
+                ],
+                [
+                    "historyChanged",
+                    "historyChanged()",
+                    "historyChanged"
+                ],
+                [
+                    "locationState",
+                    "locationState(int) const : QVariant",
+                    "locationState"
+                ],
+                [
+                    "locationUrl",
+                    "locationUrl(int) const : QUrl",
+                    "locationUrl"
+                ],
+                [
+                    "saveLocationState",
+                    "saveLocationState(const QVariant &)",
+                    "saveLocationState"
+                ],
+                [
+                    "urlSelectionRequested",
+                    "urlSelectionRequested(const QUrl &)",
+                    "urlSelectionRequested"
+                ]
+            ],
+            "name": "KCoreUrlNavigator",
+            "page": "kiogui/kcoreurlnavigator",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjob"
+            ],
+            "members": [
+                [
+                    "KEMailClientLauncherJob",
+                    "KEMailClientLauncherJob(QObject *)",
+                    "KEMailClientLauncherJob"
+                ],
+                [
+                    "~KEMailClientLauncherJob",
+                    "~KEMailClientLauncherJob()",
+                    "dtor.KEMailClientLauncherJob"
+                ],
+                [
+                    "setAttachments",
+                    "setAttachments(const QList<QUrl> &)",
+                    "setAttachments"
+                ],
+                [
+                    "setBcc",
+                    "setBcc(const QStringList &)",
+                    "setBcc"
+                ],
+                [
+                    "setBody",
+                    "setBody(const QString &)",
+                    "setBody"
+                ],
+                [
+                    "setCc",
+                    "setCc(const QStringList &)",
+                    "setCc"
+                ],
+                [
+                    "setStartupId",
+                    "setStartupId(const QByteArray &)",
+                    "setStartupId"
+                ],
+                [
+                    "setSubject",
+                    "setSubject(const QString &)",
+                    "setSubject"
+                ],
+                [
+                    "setTo",
+                    "setTo(const QStringList &)",
+                    "setTo"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ]
+            ],
+            "name": "KEMailClientLauncherJob",
+            "page": "kiogui/kemailclientlauncherjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjob"
+            ],
+            "members": [
+                [
+                    "ApplicationLauncherJob",
+                    "ApplicationLauncherJob(QObject *)",
+                    "ApplicationLauncherJob"
+                ],
+                [
+                    "ApplicationLauncherJob",
+                    "ApplicationLauncherJob(const KDesktopFileAction &, QObject *)",
+                    "ApplicationLauncherJob-1"
+                ],
+                [
+                    "ApplicationLauncherJob",
+                    "ApplicationLauncherJob(const KService::Ptr &, QObject *)",
+                    "ApplicationLauncherJob-2"
+                ],
+                [
+                    "ApplicationLauncherJob",
+                    "ApplicationLauncherJob(const KServiceAction &, QObject *)",
+                    "ApplicationLauncherJob-3"
+                ],
+                [
+                    "~ApplicationLauncherJob",
+                    "~ApplicationLauncherJob()",
+                    "dtor.ApplicationLauncherJob"
+                ],
+                [
+                    "pid",
+                    "pid() const : qint64",
+                    "pid"
+                ],
+                [
+                    "pids",
+                    "pids() const : QList<qint64>",
+                    "pids"
+                ],
+                [
+                    "setRunFlags",
+                    "setRunFlags(KIO::ApplicationLauncherJob::RunFlags)",
+                    "setRunFlags"
+                ],
+                [
+                    "setStartupId",
+                    "setStartupId(const QByteArray &)",
+                    "setStartupId"
+                ],
+                [
+                    "setSuggestedFileName",
+                    "setSuggestedFileName(const QString &)",
+                    "setSuggestedFileName"
+                ],
+                [
+                    "setUrls",
+                    "setUrls(const QList<QUrl> &)",
+                    "setUrls"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ]
+            ],
+            "name": "KIO::ApplicationLauncherJob",
+            "page": "kiogui/kio-applicationlauncherjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjob"
+            ],
+            "members": [
+                [
+                    "CommandLauncherJob",
+                    "CommandLauncherJob(const QString &, QObject *)",
+                    "CommandLauncherJob"
+                ],
+                [
+                    "CommandLauncherJob",
+                    "CommandLauncherJob(const QString &, const QStringList &, QObject *)",
+                    "CommandLauncherJob-1"
+                ],
+                [
+                    "~CommandLauncherJob",
+                    "~CommandLauncherJob()",
+                    "dtor.CommandLauncherJob"
+                ],
+                [
+                    "command",
+                    "command() const : QString",
+                    "command"
+                ],
+                [
+                    "pid",
+                    "pid() const : qint64",
+                    "pid"
+                ],
+                [
+                    "setCommand",
+                    "setCommand(const QString &)",
+                    "setCommand"
+                ],
+                [
+                    "setDesktopName",
+                    "setDesktopName(const QString &)",
+                    "setDesktopName"
+                ],
+                [
+                    "setExecutable",
+                    "setExecutable(const QString &)",
+                    "setExecutable"
+                ],
+                [
+                    "setProcessEnvironment",
+                    "setProcessEnvironment(const QProcessEnvironment &)",
+                    "setProcessEnvironment"
+                ],
+                [
+                    "setStartupId",
+                    "setStartupId(const QByteArray &)",
+                    "setStartupId"
+                ],
+                [
+                    "setWorkingDirectory",
+                    "setWorkingDirectory(const QString &)",
+                    "setWorkingDirectory"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ],
+                [
+                    "workingDirectory",
+                    "workingDirectory() const : QString",
+                    "workingDirectory"
+                ]
+            ],
+            "name": "KIO::CommandLauncherJob",
+            "page": "kiogui/kio-commandlauncherjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DndPopupMenuPlugin",
+                    "DndPopupMenuPlugin(QObject *)",
+                    "DndPopupMenuPlugin"
+                ],
+                [
+                    "setup",
+                    "setup(const KFileItemListProperties &, const QUrl &) : QList<QAction *>",
+                    "setup"
+                ]
+            ],
+            "name": "KIO::DndPopupMenuPlugin",
+            "page": "kiogui/kio-dndpopupmenuplugin",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kcompositejob"
+            ],
+            "members": [
+                [
+                    "FavIconRequestJob",
+                    "FavIconRequestJob(const QUrl &, KIO::LoadType, QObject *)",
+                    "FavIconRequestJob"
+                ],
+                [
+                    "~FavIconRequestJob",
+                    "~FavIconRequestJob()",
+                    "dtor.FavIconRequestJob"
+                ],
+                [
+                    "hostUrl",
+                    "hostUrl() const : QUrl",
+                    "hostUrl"
+                ],
+                [
+                    "iconFile",
+                    "iconFile() const : QString",
+                    "iconFile"
+                ],
+                [
+                    "setIconUrl",
+                    "setIconUrl(const QUrl &)",
+                    "setIconUrl"
+                ]
+            ],
+            "name": "KIO::FavIconRequestJob",
+            "page": "kiogui/kio-faviconrequestjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjob"
+            ],
+            "members": [
+                [
+                    "OpenFileManagerWindowJob",
+                    "OpenFileManagerWindowJob(QObject *)",
+                    "OpenFileManagerWindowJob"
+                ],
+                [
+                    "highlightUrls",
+                    "highlightUrls() const : QList<QUrl>",
+                    "highlightUrls"
+                ],
+                [
+                    "setHighlightUrls",
+                    "setHighlightUrls(const QList<QUrl> &)",
+                    "setHighlightUrls"
+                ],
+                [
+                    "setStartupId",
+                    "setStartupId(const QByteArray &)",
+                    "setStartupId"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ],
+                [
+                    "startupId",
+                    "startupId() const : QByteArray",
+                    "startupId"
+                ]
+            ],
+            "name": "KIO::OpenFileManagerWindowJob",
+            "page": "kiogui/kio-openfilemanagerwindowjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "OpenOrExecuteFileInterface",
+                    "OpenOrExecuteFileInterface(QObject *)",
+                    "OpenOrExecuteFileInterface"
+                ],
+                [
+                    "canceled",
+                    "canceled()",
+                    "canceled"
+                ],
+                [
+                    "executeFile",
+                    "executeFile(bool)",
+                    "executeFile"
+                ],
+                [
+                    "promptUserOpenOrExecute",
+                    "promptUserOpenOrExecute(KJob *, const QString &)",
+                    "promptUserOpenOrExecute"
+                ]
+            ],
+            "name": "KIO::OpenOrExecuteFileInterface",
+            "page": "kiogui/kio-openorexecutefileinterface",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kcompositejob"
+            ],
+            "members": [
+                [
+                    "OpenUrlJob",
+                    "OpenUrlJob(const QUrl &, QObject *)",
+                    "OpenUrlJob"
+                ],
+                [
+                    "OpenUrlJob",
+                    "OpenUrlJob(const QUrl &, const QString &, QObject *)",
+                    "OpenUrlJob-1"
+                ],
+                [
+                    "~OpenUrlJob",
+                    "~OpenUrlJob()",
+                    "dtor.OpenUrlJob"
+                ],
+                [
+                    "isExecutableFile",
+                    "isExecutableFile(const QUrl &, const QString &) : bool",
+                    "isExecutableFile"
+                ],
+                [
+                    "mimeTypeFound",
+                    "mimeTypeFound(const QString &)",
+                    "mimeTypeFound"
+                ],
+                [
+                    "setDeleteTemporaryFile",
+                    "setDeleteTemporaryFile(bool)",
+                    "setDeleteTemporaryFile"
+                ],
+                [
+                    "setEnableExternalBrowser",
+                    "setEnableExternalBrowser(bool)",
+                    "setEnableExternalBrowser"
+                ],
+                [
+                    "setFollowRedirections",
+                    "setFollowRedirections(bool)",
+                    "setFollowRedirections"
+                ],
+                [
+                    "setRunExecutables",
+                    "setRunExecutables(bool)",
+                    "setRunExecutables"
+                ],
+                [
+                    "setShowOpenOrExecuteDialog",
+                    "setShowOpenOrExecuteDialog(bool)",
+                    "setShowOpenOrExecuteDialog"
+                ],
+                [
+                    "setStartupId",
+                    "setStartupId(const QByteArray &)",
+                    "setStartupId"
+                ],
+                [
+                    "setSuggestedFileName",
+                    "setSuggestedFileName(const QString &)",
+                    "setSuggestedFileName"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ]
+            ],
+            "name": "KIO::OpenUrlJob",
+            "page": "kiogui/kio-openurljob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "OpenWithHandlerInterface",
+                    "OpenWithHandlerInterface(QObject *)",
+                    "OpenWithHandlerInterface"
+                ],
+                [
+                    "canceled",
+                    "canceled()",
+                    "canceled"
+                ],
+                [
+                    "handled",
+                    "handled()",
+                    "handled"
+                ],
+                [
+                    "promptUserForApplication",
+                    "promptUserForApplication(KJob *, const QList<QUrl> &, const QString &)",
+                    "promptUserForApplication"
+                ],
+                [
+                    "serviceSelected",
+                    "serviceSelected(const KService::Ptr &)",
+                    "serviceSelected"
+                ]
+            ],
+            "name": "KIO::OpenWithHandlerInterface",
+            "page": "kiogui/kio-openwithhandlerinterface",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kiocore/kio-job"
+            ],
+            "members": [
+                [
+                    "PreviewJob",
+                    "PreviewJob(const KFileItemList &, const QSize &, const QStringList *)",
+                    "PreviewJob"
+                ],
+                [
+                    "availablePlugins",
+                    "availablePlugins() : QStringList",
+                    "availablePlugins"
+                ],
+                [
+                    "availableThumbnailerPlugins",
+                    "availableThumbnailerPlugins() : QList<KPluginMetaData>",
+                    "availableThumbnailerPlugins"
+                ],
+                [
+                    "defaultPlugins",
+                    "defaultPlugins() : QStringList",
+                    "defaultPlugins"
+                ],
+                [
+                    "failed",
+                    "failed(const KFileItem &)",
+                    "failed"
+                ],
+                [
+                    "generated",
+                    "generated(const KFileItem &, const QImage &)",
+                    "generated"
+                ],
+                [
+                    "gotPreview",
+                    "gotPreview(const KFileItem &, const QPixmap &)",
+                    "gotPreview"
+                ],
+                [
+                    "handlesSequences",
+                    "handlesSequences() const : bool",
+                    "handlesSequences"
+                ],
+                [
+                    "scaleType",
+                    "scaleType() const : KIO::PreviewJob::ScaleType",
+                    "scaleType"
+                ],
+                [
+                    "sequenceIndex",
+                    "sequenceIndex() const : int",
+                    "sequenceIndex"
+                ],
+                [
+                    "sequenceIndexWraparoundPoint",
+                    "sequenceIndexWraparoundPoint() const : float",
+                    "sequenceIndexWraparoundPoint"
+                ],
+                [
+                    "setDefaultDevicePixelRatio",
+                    "setDefaultDevicePixelRatio(qreal)",
+                    "setDefaultDevicePixelRatio"
+                ],
+                [
+                    "setDevicePixelRatio",
+                    "setDevicePixelRatio(qreal)",
+                    "setDevicePixelRatio"
+                ],
+                [
+                    "setIgnoreMaximumSize",
+                    "setIgnoreMaximumSize(bool)",
+                    "setIgnoreMaximumSize"
+                ],
+                [
+                    "setScaleType",
+                    "setScaleType(KIO::PreviewJob::ScaleType)",
+                    "setScaleType"
+                ],
+                [
+                    "setSequenceIndex",
+                    "setSequenceIndex(int)",
+                    "setSequenceIndex"
+                ],
+                [
+                    "supportedMimeTypes",
+                    "supportedMimeTypes() : QStringList",
+                    "supportedMimeTypes"
+                ]
+            ],
+            "name": "KIO::PreviewJob",
+            "page": "kiogui/kio-previewjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "create",
+                    "create(const KIO::ThumbnailRequest &) : KIO::ThumbnailResult",
+                    "create"
+                ]
+            ],
+            "name": "KIO::ThumbnailCreator",
+            "page": "kiogui/kio-thumbnailcreator",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ThumbnailRequest",
+                    "ThumbnailRequest(const QUrl &, const QSize &, const QString &, qreal, float)",
+                    "ThumbnailRequest"
+                ],
+                [
+                    "devicePixelRatio",
+                    "devicePixelRatio() const : qreal",
+                    "devicePixelRatio"
+                ],
+                [
+                    "maximumFileSize",
+                    "maximumFileSize() : KIO::filesize_t",
+                    "maximumFileSize"
+                ],
+                [
+                    "mimeType",
+                    "mimeType() const : QString",
+                    "mimeType"
+                ],
+                [
+                    "sequenceIndex",
+                    "sequenceIndex() const : float",
+                    "sequenceIndex"
+                ],
+                [
+                    "targetSize",
+                    "targetSize() const : QSize",
+                    "targetSize"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ]
+            ],
+            "name": "KIO::ThumbnailRequest",
+            "page": "kiogui/kio-thumbnailrequest",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "fail",
+                    "fail() : KIO::ThumbnailResult",
+                    "fail"
+                ],
+                [
+                    "image",
+                    "image() const : QImage",
+                    "image"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "pass",
+                    "pass(const QImage &) : KIO::ThumbnailResult",
+                    "pass"
+                ],
+                [
+                    "sequenceIndexWraparoundPoint",
+                    "sequenceIndexWraparoundPoint() const : float",
+                    "sequenceIndexWraparoundPoint"
+                ],
+                [
+                    "setSequenceIndexWraparoundPoint",
+                    "setSequenceIndexWraparoundPoint(float)",
+                    "setSequenceIndexWraparoundPoint"
+                ]
+            ],
+            "name": "KIO::ThumbnailResult",
+            "page": "kiogui/kio-thumbnailresult",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjob"
+            ],
+            "members": [
+                [
+                    "KTerminalLauncherJob",
+                    "KTerminalLauncherJob(const QString &, QObject *)",
+                    "KTerminalLauncherJob"
+                ],
+                [
+                    "~KTerminalLauncherJob",
+                    "~KTerminalLauncherJob()",
+                    "dtor.KTerminalLauncherJob"
+                ],
+                [
+                    "prepare",
+                    "prepare() : bool",
+                    "prepare"
+                ],
+                [
+                    "setProcessEnvironment",
+                    "setProcessEnvironment(const QProcessEnvironment &)",
+                    "setProcessEnvironment"
+                ],
+                [
+                    "setStartupId",
+                    "setStartupId(const QByteArray &)",
+                    "setStartupId"
+                ],
+                [
+                    "setWorkingDirectory",
+                    "setWorkingDirectory(const QString &)",
+                    "setWorkingDirectory"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ]
+            ],
+            "name": "KTerminalLauncherJob",
+            "page": "kiogui/kterminallauncherjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KUriFilter",
+                    "KUriFilter()",
+                    "KUriFilter"
+                ],
+                [
+                    "filterSearchUri",
+                    "filterSearchUri(KUriFilterData &, KUriFilter::SearchFilterTypes) : bool",
+                    "filterSearchUri"
+                ],
+                [
+                    "filterUri",
+                    "filterUri(KUriFilterData &, const QStringList &) : bool",
+                    "filterUri"
+                ],
+                [
+                    "filterUri",
+                    "filterUri(QString &, const QStringList &) : bool",
+                    "filterUri-1"
+                ],
+                [
+                    "filterUri",
+                    "filterUri(QUrl &, const QStringList &) : bool",
+                    "filterUri-2"
+                ],
+                [
+                    "filteredUri",
+                    "filteredUri(const QString &, const QStringList &) : QString",
+                    "filteredUri"
+                ],
+                [
+                    "filteredUri",
+                    "filteredUri(const QUrl &, const QStringList &) : QUrl",
+                    "filteredUri-1"
+                ],
+                [
+                    "pluginNames",
+                    "pluginNames() const : QStringList",
+                    "pluginNames"
+                ],
+                [
+                    "self",
+                    "self() : KUriFilter *",
+                    "self"
+                ]
+            ],
+            "name": "KUriFilter",
+            "page": "kiogui/kurifilter",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KUriFilterData",
+                    "KUriFilterData()",
+                    "KUriFilterData"
+                ],
+                [
+                    "KUriFilterData",
+                    "KUriFilterData(const QString &)",
+                    "KUriFilterData-2"
+                ],
+                [
+                    "KUriFilterData",
+                    "KUriFilterData(const QUrl &)",
+                    "KUriFilterData-3"
+                ],
+                [
+                    "KUriFilterData",
+                    "KUriFilterData(const KUriFilterData &)",
+                    "KUriFilterData-1"
+                ],
+                [
+                    "absolutePath",
+                    "absolutePath() const : QString",
+                    "absolutePath"
+                ],
+                [
+                    "allQueriesForSearchProvider",
+                    "allQueriesForSearchProvider(const QString &) const : QStringList",
+                    "allQueriesForSearchProvider"
+                ],
+                [
+                    "alternateDefaultSearchProvider",
+                    "alternateDefaultSearchProvider() const : QString",
+                    "alternateDefaultSearchProvider"
+                ],
+                [
+                    "alternateSearchProviders",
+                    "alternateSearchProviders() const : QStringList",
+                    "alternateSearchProviders"
+                ],
+                [
+                    "argsAndOptions",
+                    "argsAndOptions() const : QString",
+                    "argsAndOptions"
+                ],
+                [
+                    "checkForExecutables",
+                    "checkForExecutables() const : bool",
+                    "checkForExecutables"
+                ],
+                [
+                    "defaultUrlScheme",
+                    "defaultUrlScheme() const : QString",
+                    "defaultUrlScheme"
+                ],
+                [
+                    "errorMsg",
+                    "errorMsg() const : QString",
+                    "errorMsg"
+                ],
+                [
+                    "hasAbsolutePath",
+                    "hasAbsolutePath() const : bool",
+                    "hasAbsolutePath"
+                ],
+                [
+                    "hasArgsAndOptions",
+                    "hasArgsAndOptions() const : bool",
+                    "hasArgsAndOptions"
+                ],
+                [
+                    "iconName",
+                    "iconName() : QString",
+                    "iconName"
+                ],
+                [
+                    "iconNameForPreferredSearchProvider",
+                    "iconNameForPreferredSearchProvider(const QString &) const : QString",
+                    "iconNameForPreferredSearchProvider"
+                ],
+                [
+                    "preferredSearchProviders",
+                    "preferredSearchProviders() const : QStringList",
+                    "preferredSearchProviders"
+                ],
+                [
+                    "queryForPreferredSearchProvider",
+                    "queryForPreferredSearchProvider(const QString &) const : QString",
+                    "queryForPreferredSearchProvider"
+                ],
+                [
+                    "queryForSearchProvider",
+                    "queryForSearchProvider(const QString &) const : KUriFilterSearchProvider",
+                    "queryForSearchProvider"
+                ],
+                [
+                    "searchFilteringOptions",
+                    "searchFilteringOptions() const : KUriFilterData::SearchFilterOptions",
+                    "searchFilteringOptions"
+                ],
+                [
+                    "searchProvider",
+                    "searchProvider() const : QString",
+                    "searchProvider"
+                ],
+                [
+                    "searchTerm",
+                    "searchTerm() const : QString",
+                    "searchTerm"
+                ],
+                [
+                    "searchTermSeparator",
+                    "searchTermSeparator() const : QChar",
+                    "searchTermSeparator"
+                ],
+                [
+                    "setAbsolutePath",
+                    "setAbsolutePath(const QString &) : bool",
+                    "setAbsolutePath"
+                ],
+                [
+                    "setAlternateDefaultSearchProvider",
+                    "setAlternateDefaultSearchProvider(const QString &)",
+                    "setAlternateDefaultSearchProvider"
+                ],
+                [
+                    "setAlternateSearchProviders",
+                    "setAlternateSearchProviders(const QStringList &)",
+                    "setAlternateSearchProviders"
+                ],
+                [
+                    "setCheckForExecutables",
+                    "setCheckForExecutables(bool)",
+                    "setCheckForExecutables"
+                ],
+                [
+                    "setData",
+                    "setData(const QString &)",
+                    "setData"
+                ],
+                [
+                    "setData",
+                    "setData(const QUrl &)",
+                    "setData-1"
+                ],
+                [
+                    "setDefaultUrlScheme",
+                    "setDefaultUrlScheme()",
+                    "setDefaultUrlScheme"
+                ],
+                [
+                    "setSearchFilteringOptions",
+                    "setSearchFilteringOptions(KUriFilterData::SearchFilterOptions)",
+                    "setSearchFilteringOptions"
+                ],
+                [
+                    "typedString",
+                    "typedString() const : QString",
+                    "typedString"
+                ],
+                [
+                    "uri",
+                    "uri() const : QUrl",
+                    "uri"
+                ],
+                [
+                    "uriType",
+                    "uriType() const : KUriFilterData::UriTypes",
+                    "uriType"
+                ]
+            ],
+            "name": "KUriFilterData",
+            "page": "kiogui/kurifilterdata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KUriFilterSearchProvider",
+                    "KUriFilterSearchProvider()",
+                    "KUriFilterSearchProvider"
+                ],
+                [
+                    "KUriFilterSearchProvider",
+                    "KUriFilterSearchProvider()",
+                    "KUriFilterSearchProvider-1"
+                ],
+                [
+                    "defaultKey",
+                    "defaultKey() const : QString",
+                    "defaultKey"
+                ],
+                [
+                    "desktopEntryName",
+                    "desktopEntryName() const : QString",
+                    "desktopEntryName"
+                ],
+                [
+                    "iconName",
+                    "iconName() const : QString",
+                    "iconName"
+                ],
+                [
+                    "keys",
+                    "keys() const : QStringList",
+                    "keys"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setDesktopEntryName",
+                    "setDesktopEntryName()",
+                    "setDesktopEntryName"
+                ],
+                [
+                    "setIconName",
+                    "setIconName()",
+                    "setIconName"
+                ],
+                [
+                    "setKeys",
+                    "setKeys()",
+                    "setKeys"
+                ],
+                [
+                    "setName",
+                    "setName()",
+                    "setName"
+                ]
+            ],
+            "name": "KUriFilterSearchProvider",
+            "page": "kiogui/kurifiltersearchprovider",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kiogui",
+    "sections": [
+        {
+            "description": "GUI-related functionality for KIO.",
+            "page": "kiogui/kiogui-module",
+            "pages": [
+                [
+                    "kiogui/kiogui-module",
+                    "KIO Gui C++ Classes"
+                ],
+                [
+                    "kiogui/kcoreurlnavigator",
+                    "KCoreUrlNavigator"
+                ],
+                [
+                    "kiogui/kemailclientlauncherjob",
+                    "KEMailClientLauncherJob"
+                ],
+                [
+                    "kiogui/kio-applicationlauncherjob",
+                    "KIO::ApplicationLauncherJob"
+                ],
+                [
+                    "kiogui/kio-commandlauncherjob",
+                    "KIO::CommandLauncherJob"
+                ],
+                [
+                    "kiogui/kio-dndpopupmenuplugin",
+                    "KIO::DndPopupMenuPlugin"
+                ],
+                [
+                    "kiogui/kio-faviconrequestjob",
+                    "KIO::FavIconRequestJob"
+                ],
+                [
+                    "kiogui/kio-openfilemanagerwindowjob",
+                    "KIO::OpenFileManagerWindowJob"
+                ],
+                [
+                    "kiogui/kio-openorexecutefileinterface",
+                    "KIO::OpenOrExecuteFileInterface"
+                ],
+                [
+                    "kiogui/kio-openurljob",
+                    "KIO::OpenUrlJob"
+                ],
+                [
+                    "kiogui/kio-openwithhandlerinterface",
+                    "KIO::OpenWithHandlerInterface"
+                ],
+                [
+                    "kiogui/kio-previewjob",
+                    "KIO::PreviewJob"
+                ],
+                [
+                    "kiogui/kio-thumbnailcreator",
+                    "KIO::ThumbnailCreator"
+                ],
+                [
+                    "kiogui/kio-thumbnailrequest",
+                    "KIO::ThumbnailRequest"
+                ],
+                [
+                    "kiogui/kio-thumbnailresult",
+                    "KIO::ThumbnailResult"
+                ],
+                [
+                    "kiogui/kterminallauncherjob",
+                    "KTerminalLauncherJob"
+                ],
+                [
+                    "kiogui/kurifilter",
+                    "KUriFilter"
+                ],
+                [
+                    "kiogui/kurifilterdata",
+                    "KUriFilterData"
+                ],
+                [
+                    "kiogui/kurifiltersearchprovider",
+                    "KUriFilterSearchProvider"
+                ],
+                [
+                    "kiogui/kio-sub-kiogui",
+                    "KIO Namespace"
+                ],
+                [
+                    "kiogui/kio-thumbnailcache-sub-kiogui",
+                    "KIO::ThumbnailCache Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KIO Gui C++ Classes"
+        }
+    ]
+}

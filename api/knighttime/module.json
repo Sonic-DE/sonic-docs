@@ -1,0 +1,223 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KDarkLightCycle",
+                    "KDarkLightCycle()",
+                    "KDarkLightCycle"
+                ],
+                [
+                    "KDarkLightCycle",
+                    "KDarkLightCycle(const QDateTime &, const KDarkLightTransition &, const KDarkLightTransition &)",
+                    "KDarkLightCycle-1"
+                ],
+                [
+                    "evening",
+                    "evening() const : KDarkLightTransition",
+                    "evening"
+                ],
+                [
+                    "extrapolated",
+                    "extrapolated(const QDateTime &) const : KDarkLightCycle",
+                    "extrapolated"
+                ],
+                [
+                    "morning",
+                    "morning() const : KDarkLightTransition",
+                    "morning"
+                ],
+                [
+                    "nextTransition",
+                    "nextTransition(const QDateTime &) const : std::optional<KDarkLightTransition>",
+                    "nextTransition"
+                ],
+                [
+                    "noonDateTime",
+                    "noonDateTime() const : QDateTime",
+                    "noonDateTime"
+                ],
+                [
+                    "previousTransition",
+                    "previousTransition(const QDateTime &) const : std::optional<KDarkLightTransition>",
+                    "previousTransition"
+                ]
+            ],
+            "name": "KDarkLightCycle",
+            "page": "knighttime/kdarklightcycle",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KDarkLightSchedule",
+                    "KDarkLightSchedule()",
+                    "KDarkLightSchedule"
+                ],
+                [
+                    "KDarkLightSchedule",
+                    "KDarkLightSchedule(const QList<KDarkLightCycle> &)",
+                    "KDarkLightSchedule-1"
+                ],
+                [
+                    "cycles",
+                    "cycles() const : QList<KDarkLightCycle>",
+                    "cycles"
+                ],
+                [
+                    "forecast",
+                    "forecast(const QDateTime &, qreal, qreal, int) : std::optional<KDarkLightSchedule>",
+                    "forecast"
+                ],
+                [
+                    "forecast",
+                    "forecast(const QDateTime &, QTime, QTime, std::chrono::milliseconds, int) : KDarkLightSchedule",
+                    "forecast-1"
+                ],
+                [
+                    "fromState",
+                    "fromState(const QString &) : std::optional<KDarkLightSchedule>",
+                    "fromState"
+                ],
+                [
+                    "nextTransition",
+                    "nextTransition(const QDateTime &) const : std::optional<KDarkLightTransition>",
+                    "nextTransition"
+                ],
+                [
+                    "previousTransition",
+                    "previousTransition(const QDateTime &) const : std::optional<KDarkLightTransition>",
+                    "previousTransition"
+                ],
+                [
+                    "toState",
+                    "toState() const : QString",
+                    "toState"
+                ]
+            ],
+            "name": "KDarkLightSchedule",
+            "page": "knighttime/kdarklightschedule",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KDarkLightScheduleProvider",
+                    "KDarkLightScheduleProvider(const QString &, QObject *)",
+                    "KDarkLightScheduleProvider"
+                ],
+                [
+                    "schedule",
+                    "schedule() const : KDarkLightSchedule",
+                    "schedule"
+                ],
+                [
+                    "scheduleChanged",
+                    "scheduleChanged()",
+                    "scheduleChanged"
+                ],
+                [
+                    "state",
+                    "state() const : QString",
+                    "state"
+                ]
+            ],
+            "name": "KDarkLightScheduleProvider",
+            "page": "knighttime/kdarklightscheduleprovider",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KDarkLightTransition",
+                    "KDarkLightTransition()",
+                    "KDarkLightTransition"
+                ],
+                [
+                    "KDarkLightTransition",
+                    "KDarkLightTransition(KDarkLightTransition::Type, const QDateTime &, const QDateTime &)",
+                    "KDarkLightTransition-1"
+                ],
+                [
+                    "endDateTime",
+                    "endDateTime() const : QDateTime",
+                    "endDateTime"
+                ],
+                [
+                    "progress",
+                    "progress(const QDateTime &) const : qreal",
+                    "progress"
+                ],
+                [
+                    "startDateTime",
+                    "startDateTime() const : QDateTime",
+                    "startDateTime"
+                ],
+                [
+                    "test",
+                    "test(const QDateTime &) const : KDarkLightTransition::Relation",
+                    "test"
+                ],
+                [
+                    "type",
+                    "type() const : KDarkLightTransition::Type",
+                    "type"
+                ]
+            ],
+            "name": "KDarkLightTransition",
+            "page": "knighttime/kdarklighttransition",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "knighttime",
+    "sections": [
+        {
+            "description": "Helpers for scheduling the dark-light cycle.",
+            "page": "knighttime/knighttime-module",
+            "pages": [
+                [
+                    "knighttime/knighttime-module",
+                    "KNightTime C++ Classes"
+                ],
+                [
+                    "knighttime/kdarklightcycle",
+                    "KDarkLightCycle"
+                ],
+                [
+                    "knighttime/kdarklightschedule",
+                    "KDarkLightSchedule"
+                ],
+                [
+                    "knighttime/kdarklightscheduleprovider",
+                    "KDarkLightScheduleProvider"
+                ],
+                [
+                    "knighttime/kdarklighttransition",
+                    "KDarkLightTransition"
+                ],
+                [
+                    "knighttime/knighttime-index",
+                    "KNightTime"
+                ]
+            ],
+            "qml": false,
+            "title": "KNightTime C++ Classes"
+        }
+    ]
+}

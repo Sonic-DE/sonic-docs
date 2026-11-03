@@ -1,0 +1,81 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "SelectedItemWrapper",
+            "page": "kquickimageeditor/selecteditemwrapper",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kquickimageeditor",
+    "sections": [
+        {
+            "description": "",
+            "page": "",
+            "pages": [
+                [
+                    "kquickimageeditor/selecteditemwrapper",
+                    "SelectedItemWrapper"
+                ],
+                [
+                    "kquickimageeditor/kquickimageeditor-index",
+                    "KQuickImageEditor"
+                ]
+            ],
+            "qml": false,
+            "title": "kquickimageeditor"
+        },
+        {
+            "description": "QML components providing basic image editing capabilities.",
+            "page": "kquickimageeditor/org-kde-kquickimageeditor-qmlmodule",
+            "pages": [
+                [
+                    "kquickimageeditor/org-kde-kquickimageeditor-qmlmodule",
+                    "KQuickImageEditor QML Types"
+                ],
+                [
+                    "kquickimageeditor/qml-org-kde-kquickimageeditor-annotationdocument",
+                    "AnnotationDocument"
+                ],
+                [
+                    "kquickimageeditor/qml-org-kde-kquickimageeditor-annotationtool",
+                    "AnnotationTool"
+                ],
+                [
+                    "kquickimageeditor/qml-org-kde-kquickimageeditor-annotationviewport",
+                    "AnnotationViewport"
+                ],
+                [
+                    "kquickimageeditor/qml-org-kde-kquickimageeditor-imagedocument",
+                    "ImageDocument"
+                ],
+                [
+                    "kquickimageeditor/qml-org-kde-kquickimageeditor-imageitem",
+                    "ImageItem"
+                ],
+                [
+                    "kquickimageeditor/qml-org-kde-kquickimageeditor-qmlpainterpath",
+                    "QmlPainterPath"
+                ],
+                [
+                    "kquickimageeditor/qml-org-kde-kquickimageeditor-resizehandle",
+                    "ResizeHandle"
+                ],
+                [
+                    "kquickimageeditor/qml-org-kde-kquickimageeditor-utils",
+                    "Utils"
+                ]
+            ],
+            "qml": true,
+            "title": "KQuickImageEditor QML Types"
+        }
+    ]
+}

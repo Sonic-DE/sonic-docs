@@ -1,0 +1,27 @@
+{
+    "classes": [
+    ],
+    "module": "kirigamiaddonsactionslabs",
+    "sections": [
+        {
+            "description": "Experimental native menu types for the Kirigami Addons actions module.",
+            "page": "kirigamiaddonsactionslabs/org-kde-kirigamiaddons-actions-labs-qmlmodule",
+            "pages": [
+                [
+                    "kirigamiaddonsactionslabs/org-kde-kirigamiaddons-actions-labs-qmlmodule",
+                    "Kirigami Addons Actions (Labs) QML Types"
+                ],
+                [
+                    "kirigamiaddonsactionslabs/qml-org-kde-kirigamiaddons-actions-labs-nativemenubar",
+                    "NativeMenuBar"
+                ],
+                [
+                    "kirigamiaddonsactionslabs/qml-org-kde-kirigamiaddons-actions-labs-nativemenuitem",
+                    "NativeMenuItem"
+                ]
+            ],
+            "qml": true,
+            "title": "Kirigami Addons Actions (Labs) QML Types"
+        }
+    ]
+}

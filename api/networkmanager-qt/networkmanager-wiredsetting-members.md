@@ -1,0 +1,56 @@
+---
+title: "List of All Members for NetworkManager::WiredSetting"
+description: "Every member of NetworkManager::WiredSetting, including inherited members."
+parent: "networkmanager-qt/networkmanager-wiredsetting"
+---
+
+# List of All Members for NetworkManager::WiredSetting
+
+This is the complete list of members for [NetworkManager::WiredSetting](networkmanager-wiredsetting.md), including inherited members.
+
+- [WiredSetting()](networkmanager-wiredsetting.md#WiredSetting)
+- [WiredSetting(const NetworkManager::WiredSetting::Ptr &)](networkmanager-wiredsetting.md#WiredSetting-1)
+- [assignedMacAddress() const : QString](networkmanager-wiredsetting.md#assignedMacAddress)
+- [autoNegotiate() const : bool](networkmanager-wiredsetting.md#autoNegotiate)
+- [clonedMacAddress() const : QByteArray](networkmanager-wiredsetting.md#clonedMacAddress)
+- [duplexType() const : NetworkManager::WiredSetting::DuplexType](networkmanager-wiredsetting.md#duplexType)
+- [fromMap(const QVariantMap &)](networkmanager-setting.md#fromMap)
+- [generateMacAddressMask() const : QString](networkmanager-wiredsetting.md#generateMacAddressMask)
+- [isNull() const : bool](networkmanager-setting.md#isNull)
+- [macAddress() const : QByteArray](networkmanager-wiredsetting.md#macAddress)
+- [macAddressBlacklist() const : QStringList](networkmanager-wiredsetting.md#macAddressBlacklist)
+- [mtu() const : quint32](networkmanager-wiredsetting.md#mtu)
+- [name() const : QString](networkmanager-setting.md#name)
+- [needSecrets(bool) const : QStringList](networkmanager-setting.md#needSecrets)
+- [port() const : NetworkManager::WiredSetting::PortType](networkmanager-wiredsetting.md#port)
+- [s390NetType() const : NetworkManager::WiredSetting::S390Nettype](networkmanager-wiredsetting.md#s390NetType)
+- [s390Options() const : QMap\<QString, QString\>](networkmanager-wiredsetting.md#s390Options)
+- [s390Subchannels() const : QStringList](networkmanager-wiredsetting.md#s390Subchannels)
+- [secretsFromMap(const QVariantMap &)](networkmanager-setting.md#secretsFromMap)
+- [secretsFromStringMap(const NMStringMap &)](networkmanager-setting.md#secretsFromStringMap)
+- [secretsToMap() const : QVariantMap](networkmanager-setting.md#secretsToMap)
+- [secretsToStringMap() const : NMStringMap](networkmanager-setting.md#secretsToStringMap)
+- [setAssignedMacAddress(const QString &)](networkmanager-wiredsetting.md#setAssignedMacAddress)
+- [setAutoNegotiate(bool)](networkmanager-wiredsetting.md#setAutoNegotiate)
+- [setClonedMacAddress(const QByteArray &)](networkmanager-wiredsetting.md#setClonedMacAddress)
+- [setDuplexType(NetworkManager::WiredSetting::DuplexType)](networkmanager-wiredsetting.md#setDuplexType)
+- [setGenerateMacAddressMask(const QString &)](networkmanager-wiredsetting.md#setGenerateMacAddressMask)
+- [setInitialized(bool)](networkmanager-setting.md#setInitialized)
+- [setMacAddress(const QByteArray &)](networkmanager-wiredsetting.md#setMacAddress)
+- [setMacAddressBlacklist(const QStringList &)](networkmanager-wiredsetting.md#setMacAddressBlacklist)
+- [setMtu(quint32)](networkmanager-wiredsetting.md#setMtu)
+- [setPort(NetworkManager::WiredSetting::PortType)](networkmanager-wiredsetting.md#setPort)
+- [setS390NetType(NetworkManager::WiredSetting::S390Nettype)](networkmanager-wiredsetting.md#setS390NetType)
+- [setS390Options(const QMap\<QString, QString\> &)](networkmanager-wiredsetting.md#setS390Options)
+- [setS390Subchannels(const QStringList &)](networkmanager-wiredsetting.md#setS390Subchannels)
+- [setSpeed(quint32)](networkmanager-wiredsetting.md#setSpeed)
+- [setType(NetworkManager::Setting::SettingType)](networkmanager-setting.md#setType)
+- [setWakeOnLan(NetworkManager::WiredSetting::WakeOnLanFlags)](networkmanager-wiredsetting.md#setWakeOnLan)
+- [setWakeOnLanPassword(const QString &)](networkmanager-wiredsetting.md#setWakeOnLanPassword)
+- [speed() const : quint32](networkmanager-wiredsetting.md#speed)
+- [toMap() const : QVariantMap](networkmanager-setting.md#toMap)
+- [type() const : NetworkManager::Setting::SettingType](networkmanager-setting.md#type)
+- [typeAsString(NetworkManager::Setting::SettingType) : QString](networkmanager-setting.md#typeAsString)
+- [typeFromString(const QString &) : NetworkManager::Setting::SettingType](networkmanager-setting.md#typeFromString)
+- [wakeOnLan() const : NetworkManager::WiredSetting::WakeOnLanFlags](networkmanager-wiredsetting.md#wakeOnLan)
+- [wakeOnLanPassword() const : QString](networkmanager-wiredsetting.md#wakeOnLanPassword)

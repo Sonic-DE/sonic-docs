@@ -1,0 +1,65 @@
+---
+title: "List of All Members for KCodecAction"
+description: "Every member of KCodecAction, including inherited members."
+parent: "kconfigwidgets/kcodecaction"
+---
+
+# List of All Members for KCodecAction
+
+This is the complete list of members for [KCodecAction](kcodecaction.md), including inherited members.
+
+- [KCodecAction(QObject \*, bool)](kcodecaction.md#KCodecAction)
+- [KCodecAction(const QIcon &, const QString &, QObject \*, bool)](kcodecaction.md#KCodecAction-2)
+- [KCodecAction(const QString &, QObject \*, bool)](kcodecaction.md#KCodecAction-1)
+- [action(const QString &, Qt::CaseSensitivity) const : QAction \*](../kwidgetsaddons/kselectaction.md#action-1)
+- [action(int) const : QAction \*](../kwidgetsaddons/kselectaction.md#action)
+- [actions() const : QList\<QAction \*\>](../kwidgetsaddons/kselectaction.md#actions)
+- [actionTriggered(QAction \*)](../kwidgetsaddons/kselectaction.md#actionTriggered)
+- [addAction(QAction \*)](../kwidgetsaddons/kselectaction.md#addAction)
+- [addAction(const QIcon &, const QString &) : QAction \*](../kwidgetsaddons/kselectaction.md#addAction-2)
+- [addAction(const QString &) : QAction \*](../kwidgetsaddons/kselectaction.md#addAction-1)
+- [changeItem(int, const QString &)](../kwidgetsaddons/kselectaction.md#changeItem)
+- [clear()](../kwidgetsaddons/kselectaction.md#clear)
+- [codecName : QString](kcodecaction.md#codecName-prop)
+- [codecNameTriggered(const QByteArray &)](kcodecaction.md#codecNameTriggered)
+- [comboWidth : int](../kwidgetsaddons/kselectaction.md#comboWidth-prop)
+- [comboWidth() const : int](../kwidgetsaddons/kselectaction.md#comboWidth)
+- [currentAction : QAction\*](../kwidgetsaddons/kselectaction.md#currentAction-prop)
+- [currentAction() const : QAction \*](../kwidgetsaddons/kselectaction.md#currentAction)
+- [currentCodecName() const : QString](kcodecaction.md#currentCodecName)
+- [currentItem : int](../kwidgetsaddons/kselectaction.md#currentItem-prop)
+- [currentItem() const : int](../kwidgetsaddons/kselectaction.md#currentItem)
+- [currentText : QString](../kwidgetsaddons/kselectaction.md#currentText-prop)
+- [currentText() const : QString](../kwidgetsaddons/kselectaction.md#currentText)
+- [defaultItemTriggered()](kcodecaction.md#defaultItemTriggered)
+- [editable : bool](../kwidgetsaddons/kselectaction.md#editable-prop)
+- [indexTriggered(int)](../kwidgetsaddons/kselectaction.md#indexTriggered)
+- [insertAction(QAction \*, QAction \*)](../kwidgetsaddons/kselectaction.md#insertAction)
+- [isEditable() const : bool](../kwidgetsaddons/kselectaction.md#isEditable)
+- [items : QStringList](../kwidgetsaddons/kselectaction.md#items-prop)
+- [items() const : QStringList](../kwidgetsaddons/kselectaction.md#items)
+- [menuAccelsEnabled() const : bool](../kwidgetsaddons/kselectaction.md#menuAccelsEnabled)
+- [removeAction(QAction \*) : QAction \*](../kwidgetsaddons/kselectaction.md#removeAction)
+- [removeAllActions()](../kwidgetsaddons/kselectaction.md#removeAllActions)
+- [selectableActionGroup() const : QActionGroup \*](../kwidgetsaddons/kselectaction.md#selectableActionGroup)
+- [setComboWidth(int)](../kwidgetsaddons/kselectaction.md#setComboWidth)
+- [setCurrentAction(QAction \*) : bool](../kwidgetsaddons/kselectaction.md#setCurrentAction)
+- [setCurrentAction(const QString &, Qt::CaseSensitivity) : bool](../kwidgetsaddons/kselectaction.md#setCurrentAction-1)
+- [setCurrentCodec(const QString &) : bool](kcodecaction.md#setCurrentCodec)
+- [setCurrentItem(int) : bool](../kwidgetsaddons/kselectaction.md#setCurrentItem)
+- [setEditable()](../kwidgetsaddons/kselectaction.md#setEditable)
+- [setItems(const QStringList &)](../kwidgetsaddons/kselectaction.md#setItems)
+- [setMaxComboViewCount(int)](../kwidgetsaddons/kselectaction.md#setMaxComboViewCount)
+- [setMenuAccelsEnabled(bool)](../kwidgetsaddons/kselectaction.md#setMenuAccelsEnabled)
+- [setToolBarMode(KSelectAction::ToolBarMode)](../kwidgetsaddons/kselectaction.md#setToolBarMode)
+- [setToolButtonPopupMode(QToolButton::ToolButtonPopupMode)](../kwidgetsaddons/kselectaction.md#setToolButtonPopupMode)
+- [slotActionTriggered()](kcodecaction.md#slotActionTriggered)
+- [slotActionTriggered(QAction \*)](../kwidgetsaddons/kselectaction.md#slotActionTriggered)
+- [slotToggled()](../kwidgetsaddons/kselectaction.md#slotToggled)
+- [textTriggered(const QString &)](../kwidgetsaddons/kselectaction.md#textTriggered)
+- [toolBarMode : ToolBarMode](../kwidgetsaddons/kselectaction.md#toolBarMode-prop)
+- [toolBarMode() const : KSelectAction::ToolBarMode](../kwidgetsaddons/kselectaction.md#toolBarMode)
+- [toolButtonPopupMode : QToolButton::ToolButtonPopupMode](../kwidgetsaddons/kselectaction.md#toolButtonPopupMode-prop)
+- [toolButtonPopupMode() const : QToolButton::ToolButtonPopupMode](../kwidgetsaddons/kselectaction.md#toolButtonPopupMode)
+
+KCodecAction also inherits the members of [QWidgetAction](https://doc.qt.io/qt-6/qwidgetaction-members.html).

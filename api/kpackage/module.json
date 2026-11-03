@@ -1,0 +1,317 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Package",
+                    "Package(KPackage::PackageStructure *)",
+                    "Package"
+                ],
+                [
+                    "addDirectoryDefinition",
+                    "addDirectoryDefinition(const QByteArray &, const QString &)",
+                    "addDirectoryDefinition"
+                ],
+                [
+                    "addFileDefinition",
+                    "addFileDefinition(const QByteArray &, const QString &)",
+                    "addFileDefinition"
+                ],
+                [
+                    "allowExternalPaths",
+                    "allowExternalPaths() const : bool",
+                    "allowExternalPaths"
+                ],
+                [
+                    "contentsPrefixPaths",
+                    "contentsPrefixPaths() const : QStringList",
+                    "contentsPrefixPaths"
+                ],
+                [
+                    "cryptographicHash",
+                    "cryptographicHash(QCryptographicHash::Algorithm) const : QByteArray",
+                    "cryptographicHash"
+                ],
+                [
+                    "defaultPackageRoot",
+                    "defaultPackageRoot() const : QString",
+                    "defaultPackageRoot"
+                ],
+                [
+                    "directories",
+                    "directories() const : QList<QByteArray>",
+                    "directories"
+                ],
+                [
+                    "entryList",
+                    "entryList(const QByteArray &) const : QStringList",
+                    "entryList"
+                ],
+                [
+                    "fallbackPackage",
+                    "fallbackPackage() const : KPackage::Package",
+                    "fallbackPackage"
+                ],
+                [
+                    "filePath",
+                    "filePath(const QByteArray &, const QString &) const : QString",
+                    "filePath"
+                ],
+                [
+                    "fileUrl",
+                    "fileUrl(const QByteArray &, const QString &) const : QUrl",
+                    "fileUrl"
+                ],
+                [
+                    "files",
+                    "files() const : QList<QByteArray>",
+                    "files"
+                ],
+                [
+                    "hasValidStructure",
+                    "hasValidStructure() const : bool",
+                    "hasValidStructure"
+                ],
+                [
+                    "isRequired",
+                    "isRequired(const QByteArray &) const : bool",
+                    "isRequired"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "metadata",
+                    "metadata() const : KPluginMetaData",
+                    "metadata"
+                ],
+                [
+                    "mimeTypes",
+                    "mimeTypes(const QByteArray &) const : QStringList",
+                    "mimeTypes"
+                ],
+                [
+                    "path",
+                    "path() const : const QString",
+                    "path"
+                ],
+                [
+                    "removeDefinition",
+                    "removeDefinition(const QByteArray &)",
+                    "removeDefinition"
+                ],
+                [
+                    "requiredDirectories",
+                    "requiredDirectories() const : QList<QByteArray>",
+                    "requiredDirectories"
+                ],
+                [
+                    "requiredFiles",
+                    "requiredFiles() const : QList<QByteArray>",
+                    "requiredFiles"
+                ],
+                [
+                    "setAllowExternalPaths",
+                    "setAllowExternalPaths(bool)",
+                    "setAllowExternalPaths"
+                ],
+                [
+                    "setContentsPrefixPaths",
+                    "setContentsPrefixPaths(const QStringList &)",
+                    "setContentsPrefixPaths"
+                ],
+                [
+                    "setDefaultMimeTypes",
+                    "setDefaultMimeTypes(const QStringList &)",
+                    "setDefaultMimeTypes"
+                ],
+                [
+                    "setDefaultPackageRoot",
+                    "setDefaultPackageRoot(const QString &)",
+                    "setDefaultPackageRoot"
+                ],
+                [
+                    "setFallbackPackage",
+                    "setFallbackPackage(const KPackage::Package &)",
+                    "setFallbackPackage"
+                ],
+                [
+                    "setMetadata",
+                    "setMetadata(const KPluginMetaData &)",
+                    "setMetadata"
+                ],
+                [
+                    "setMimeTypes",
+                    "setMimeTypes(const QByteArray &, const QStringList &)",
+                    "setMimeTypes"
+                ],
+                [
+                    "setPath",
+                    "setPath(const QString &)",
+                    "setPath"
+                ],
+                [
+                    "setRequired",
+                    "setRequired(const QByteArray &, bool)",
+                    "setRequired"
+                ]
+            ],
+            "name": "KPackage::Package",
+            "page": "kpackage/kpackage-package",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "install",
+                    "install(const QString &, const QString &, const QString &) : KPackage::PackageJob *",
+                    "install"
+                ],
+                [
+                    "package",
+                    "package() const : KPackage::Package",
+                    "package"
+                ],
+                [
+                    "uninstall",
+                    "uninstall(const QString &, const QString &, const QString &) : KPackage::PackageJob *",
+                    "uninstall"
+                ],
+                [
+                    "update",
+                    "update(const QString &, const QString &, const QString &) : KPackage::PackageJob *",
+                    "update"
+                ]
+            ],
+            "name": "KPackage::PackageJob",
+            "page": "kpackage/kpackage-packagejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "addKnownPackageStructure",
+                    "addKnownPackageStructure(const QString &, KPackage::PackageStructure *)",
+                    "addKnownPackageStructure"
+                ],
+                [
+                    "findPackages",
+                    "findPackages(const QString &, const QString &, std::function<bool (const KPluginMetaData &)>) : QList<KPluginMetaData>",
+                    "findPackages"
+                ],
+                [
+                    "listKPackages",
+                    "listKPackages(const QString &, const QString &) : QList<KPackage::Package>",
+                    "listKPackages"
+                ],
+                [
+                    "listPackages",
+                    "listPackages(const QString &, const QString &) : QList<KPluginMetaData>",
+                    "listPackages"
+                ],
+                [
+                    "listPackagesMetadata",
+                    "listPackagesMetadata(const QString &, const QString &) : QList<KPluginMetaData>",
+                    "listPackagesMetadata"
+                ],
+                [
+                    "loadPackage",
+                    "loadPackage(const QString &, const QString &) : KPackage::Package",
+                    "loadPackage"
+                ],
+                [
+                    "loadPackageStructure",
+                    "loadPackageStructure(const QString &) : KPackage::PackageStructure *",
+                    "loadPackageStructure"
+                ],
+                [
+                    "self",
+                    "self() : KPackage::PackageLoader *",
+                    "self"
+                ]
+            ],
+            "name": "KPackage::PackageLoader",
+            "page": "kpackage/kpackage-packageloader",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "PackageStructure",
+                    "PackageStructure(QObject *, const QVariantList &)",
+                    "PackageStructure"
+                ],
+                [
+                    "initPackage",
+                    "initPackage(KPackage::Package *)",
+                    "initPackage"
+                ],
+                [
+                    "pathChanged",
+                    "pathChanged(KPackage::Package *)",
+                    "pathChanged"
+                ]
+            ],
+            "name": "KPackage::PackageStructure",
+            "page": "kpackage/kpackage-packagestructure",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kpackage",
+    "sections": [
+        {
+            "description": "Installation and loading of additional content (ex: scripts, images...) as packages.",
+            "page": "kpackage/kpackage-module",
+            "pages": [
+                [
+                    "kpackage/kpackage-module",
+                    "KPackage C++ Classes"
+                ],
+                [
+                    "kpackage/kpackage-package",
+                    "KPackage::Package"
+                ],
+                [
+                    "kpackage/kpackage-packagejob",
+                    "KPackage::PackageJob"
+                ],
+                [
+                    "kpackage/kpackage-packageloader",
+                    "KPackage::PackageLoader"
+                ],
+                [
+                    "kpackage/kpackage-packagestructure",
+                    "KPackage::PackageStructure"
+                ],
+                [
+                    "kpackage/kpackage",
+                    "KPackage Namespace"
+                ],
+                [
+                    "kpackage/kpackage-index",
+                    "KPackage"
+                ]
+            ],
+            "qml": false,
+            "title": "KPackage C++ Classes"
+        }
+    ]
+}

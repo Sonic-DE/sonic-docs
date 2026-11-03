@@ -1,0 +1,23 @@
+{
+    "classes": [
+    ],
+    "module": "ksyntaxhighlightingqml",
+    "sections": [
+        {
+            "description": "Syntax highlighting engine for Kate syntax definitions.",
+            "page": "ksyntaxhighlightingqml/org-kde-syntaxhighlighting-qmlmodule",
+            "pages": [
+                [
+                    "ksyntaxhighlightingqml/org-kde-syntaxhighlighting-qmlmodule",
+                    "KSyntaxHighlighting QML Types"
+                ],
+                [
+                    "ksyntaxhighlightingqml/qml-org-kde-syntaxhighlighting-syntaxhighlighter",
+                    "SyntaxHighlighter"
+                ]
+            ],
+            "qml": true,
+            "title": "KSyntaxHighlighting QML Types"
+        }
+    ]
+}

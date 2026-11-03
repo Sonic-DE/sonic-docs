@@ -1,0 +1,523 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KBreadcrumbSelectionModel",
+                    "KBreadcrumbSelectionModel(QItemSelectionModel *, QObject *)",
+                    "KBreadcrumbSelectionModel"
+                ],
+                [
+                    "KBreadcrumbSelectionModel",
+                    "KBreadcrumbSelectionModel(QItemSelectionModel *, KBreadcrumbSelectionModel::BreadcrumbTarget, QObject *)",
+                    "KBreadcrumbSelectionModel-1"
+                ],
+                [
+                    "breadcrumbLength",
+                    "breadcrumbLength() const : int",
+                    "breadcrumbLength"
+                ],
+                [
+                    "isActualSelectionIncluded",
+                    "isActualSelectionIncluded() const : bool",
+                    "isActualSelectionIncluded"
+                ],
+                [
+                    "setActualSelectionIncluded",
+                    "setActualSelectionIncluded(bool)",
+                    "setActualSelectionIncluded"
+                ],
+                [
+                    "setBreadcrumbLength",
+                    "setBreadcrumbLength(int)",
+                    "setBreadcrumbLength"
+                ]
+            ],
+            "name": "KBreadcrumbSelectionModel",
+            "page": "kitemmodels/kbreadcrumbselectionmodel",
+            "qtBases": [
+                [
+                    "QItemSelectionModel",
+                    "https://doc.qt.io/qt-6/qitemselectionmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCheckableProxyModel",
+                    "KCheckableProxyModel(QObject *)",
+                    "KCheckableProxyModel"
+                ],
+                [
+                    "select",
+                    "select(const QItemSelection &, QItemSelectionModel::SelectionFlags) : bool",
+                    "select"
+                ],
+                [
+                    "selectionModel",
+                    "selectionModel() const : QItemSelectionModel *",
+                    "selectionModel"
+                ],
+                [
+                    "setSelectionModel",
+                    "setSelectionModel(QItemSelectionModel *)",
+                    "setSelectionModel"
+                ]
+            ],
+            "name": "KCheckableProxyModel",
+            "page": "kitemmodels/kcheckableproxymodel",
+            "qtBases": [
+                [
+                    "QIdentityProxyModel",
+                    "https://doc.qt.io/qt-6/qidentityproxymodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "sortColumn",
+                    "sortColumn : int",
+                    "sortColumn-prop"
+                ],
+                [
+                    "sortOrder",
+                    "sortOrder : Qt::SortOrder",
+                    "sortOrder-prop"
+                ],
+                [
+                    "sourceModel",
+                    "sourceModel : QAbstractItemModel*",
+                    "sourceModel-prop"
+                ],
+                [
+                    "KColumnHeadersModel",
+                    "KColumnHeadersModel(QObject *)",
+                    "KColumnHeadersModel"
+                ]
+            ],
+            "name": "KColumnHeadersModel",
+            "page": "kitemmodels/kcolumnheadersmodel",
+            "qtBases": [
+                [
+                    "QAbstractListModel",
+                    "https://doc.qt.io/qt-6/qabstractlistmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ancestorSeparator",
+                    "ancestorSeparator : QString",
+                    "ancestorSeparator-prop"
+                ],
+                [
+                    "displayAncestorData",
+                    "displayAncestorData : bool",
+                    "displayAncestorData-prop"
+                ],
+                [
+                    "expandsByDefault",
+                    "expandsByDefault : bool",
+                    "expandsByDefault-prop"
+                ],
+                [
+                    "model",
+                    "model : QAbstractItemModel*",
+                    "model-prop"
+                ],
+                [
+                    "KDescendantsProxyModel",
+                    "KDescendantsProxyModel(QObject *)",
+                    "KDescendantsProxyModel"
+                ],
+                [
+                    "~KDescendantsProxyModel",
+                    "~KDescendantsProxyModel()",
+                    "dtor.KDescendantsProxyModel"
+                ],
+                [
+                    "ancestorSeparator",
+                    "ancestorSeparator() const : QString",
+                    "ancestorSeparator"
+                ],
+                [
+                    "collapseSourceIndex",
+                    "collapseSourceIndex(const QModelIndex &)",
+                    "collapseSourceIndex"
+                ],
+                [
+                    "displayAncestorData",
+                    "displayAncestorData() const : bool",
+                    "displayAncestorData"
+                ],
+                [
+                    "expandSourceIndex",
+                    "expandSourceIndex(const QModelIndex &)",
+                    "expandSourceIndex"
+                ],
+                [
+                    "expandsByDefault",
+                    "expandsByDefault() const : bool",
+                    "expandsByDefault"
+                ],
+                [
+                    "isSourceIndexExpanded",
+                    "isSourceIndexExpanded(const QModelIndex &) const : bool",
+                    "isSourceIndexExpanded"
+                ],
+                [
+                    "isSourceIndexVisible",
+                    "isSourceIndexVisible(const QModelIndex &) const : bool",
+                    "isSourceIndexVisible"
+                ],
+                [
+                    "match",
+                    "match(const QModelIndex &, int, const QVariant &, int, Qt::MatchFlags) const : QModelIndexList",
+                    "match"
+                ],
+                [
+                    "setAncestorSeparator",
+                    "setAncestorSeparator(const QString &)",
+                    "setAncestorSeparator"
+                ],
+                [
+                    "setDisplayAncestorData",
+                    "setDisplayAncestorData(bool)",
+                    "setDisplayAncestorData"
+                ],
+                [
+                    "setExpandsByDefault",
+                    "setExpandsByDefault(bool)",
+                    "setExpandsByDefault"
+                ],
+                [
+                    "setSourceModel",
+                    "setSourceModel(QAbstractItemModel *)",
+                    "setSourceModel"
+                ]
+            ],
+            "name": "KDescendantsProxyModel",
+            "page": "kitemmodels/kdescendantsproxymodel",
+            "qtBases": [
+                [
+                    "QAbstractProxyModel",
+                    "https://doc.qt.io/qt-6/qabstractproxymodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KExtraColumnsProxyModel",
+                    "KExtraColumnsProxyModel(QObject *)",
+                    "KExtraColumnsProxyModel"
+                ],
+                [
+                    "appendColumn",
+                    "appendColumn(const QString &)",
+                    "appendColumn"
+                ],
+                [
+                    "extraColumnData",
+                    "extraColumnData(const QModelIndex &, int, int, int) const : QVariant",
+                    "extraColumnData"
+                ],
+                [
+                    "extraColumnDataChanged",
+                    "extraColumnDataChanged(const QModelIndex &, int, int, const QList<int> &)",
+                    "extraColumnDataChanged"
+                ],
+                [
+                    "extraColumnForProxyColumn",
+                    "extraColumnForProxyColumn(int) const : int",
+                    "extraColumnForProxyColumn"
+                ],
+                [
+                    "proxyColumnForExtraColumn",
+                    "proxyColumnForExtraColumn(int) const : int",
+                    "proxyColumnForExtraColumn"
+                ],
+                [
+                    "removeExtraColumn",
+                    "removeExtraColumn(int)",
+                    "removeExtraColumn"
+                ],
+                [
+                    "setExtraColumnData",
+                    "setExtraColumnData(const QModelIndex &, int, int, const QVariant &, int) : bool",
+                    "setExtraColumnData"
+                ]
+            ],
+            "name": "KExtraColumnsProxyModel",
+            "page": "kitemmodels/kextracolumnsproxymodel",
+            "qtBases": [
+                [
+                    "QIdentityProxyModel",
+                    "https://doc.qt.io/qt-6/qidentityproxymodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "linkedItemSelectionModel",
+                    "linkedItemSelectionModel : QItemSelectionModel*",
+                    "linkedItemSelectionModel-prop"
+                ],
+                [
+                    "KLinkItemSelectionModel",
+                    "KLinkItemSelectionModel(QObject *)",
+                    "KLinkItemSelectionModel"
+                ],
+                [
+                    "KLinkItemSelectionModel",
+                    "KLinkItemSelectionModel(QAbstractItemModel *, QItemSelectionModel *, QObject *)",
+                    "KLinkItemSelectionModel-1"
+                ]
+            ],
+            "name": "KLinkItemSelectionModel",
+            "page": "kitemmodels/klinkitemselectionmodel",
+            "qtBases": [
+                [
+                    "QItemSelectionModel",
+                    "https://doc.qt.io/qt-6/qitemselectionmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "isConnected",
+                    "isConnected : bool",
+                    "isConnected-prop"
+                ],
+                [
+                    "KModelIndexProxyMapper",
+                    "KModelIndexProxyMapper(const QAbstractItemModel *, const QAbstractItemModel *, QObject *)",
+                    "KModelIndexProxyMapper"
+                ],
+                [
+                    "mapLeftToRight",
+                    "mapLeftToRight(const QModelIndex &) const : QModelIndex",
+                    "mapLeftToRight"
+                ],
+                [
+                    "mapRightToLeft",
+                    "mapRightToLeft(const QModelIndex &) const : QModelIndex",
+                    "mapRightToLeft"
+                ],
+                [
+                    "mapSelectionLeftToRight",
+                    "mapSelectionLeftToRight(const QItemSelection &) const : QItemSelection",
+                    "mapSelectionLeftToRight"
+                ],
+                [
+                    "mapSelectionRightToLeft",
+                    "mapSelectionRightToLeft(const QItemSelection &) const : QItemSelection",
+                    "mapSelectionRightToLeft"
+                ]
+            ],
+            "name": "KModelIndexProxyMapper",
+            "page": "kitemmodels/kmodelindexproxymapper",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "formattingOptions",
+                    "formattingOptions : QLocale::NumberOptions",
+                    "formattingOptions-prop"
+                ],
+                [
+                    "maximumValue",
+                    "maximumValue : qreal",
+                    "maximumValue-prop"
+                ],
+                [
+                    "minimumValue",
+                    "minimumValue : qreal",
+                    "minimumValue-prop"
+                ],
+                [
+                    "stepSize",
+                    "stepSize : qreal",
+                    "stepSize-prop"
+                ],
+                [
+                    "KNumberModel",
+                    "KNumberModel(QObject *)",
+                    "KNumberModel"
+                ],
+                [
+                    "value",
+                    "value(const QModelIndex &) const : qreal",
+                    "value"
+                ]
+            ],
+            "name": "KNumberModel",
+            "page": "kitemmodels/knumbermodel",
+            "qtBases": [
+                [
+                    "QAbstractListModel",
+                    "https://doc.qt.io/qt-6/qabstractlistmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KRearrangeColumnsProxyModel",
+                    "KRearrangeColumnsProxyModel(QObject *)",
+                    "KRearrangeColumnsProxyModel"
+                ],
+                [
+                    "proxyColumnForSourceColumn",
+                    "proxyColumnForSourceColumn(int) const : int",
+                    "proxyColumnForSourceColumn"
+                ],
+                [
+                    "setSourceColumns",
+                    "setSourceColumns(const QList<int> &)",
+                    "setSourceColumns"
+                ],
+                [
+                    "sourceColumnForProxyColumn",
+                    "sourceColumnForProxyColumn(int) const : int",
+                    "sourceColumnForProxyColumn"
+                ]
+            ],
+            "name": "KRearrangeColumnsProxyModel",
+            "page": "kitemmodels/krearrangecolumnsproxymodel",
+            "qtBases": [
+                [
+                    "QIdentityProxyModel",
+                    "https://doc.qt.io/qt-6/qidentityproxymodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "filterBehavior",
+                    "filterBehavior : FilterBehavior",
+                    "filterBehavior-prop"
+                ],
+                [
+                    "selectionModel",
+                    "selectionModel : QItemSelectionModel*",
+                    "selectionModel-prop"
+                ],
+                [
+                    "KSelectionProxyModel",
+                    "KSelectionProxyModel()",
+                    "KSelectionProxyModel"
+                ],
+                [
+                    "KSelectionProxyModel",
+                    "KSelectionProxyModel(QItemSelectionModel *, QObject *)",
+                    "KSelectionProxyModel-1"
+                ],
+                [
+                    "setFilterBehavior",
+                    "setFilterBehavior(KSelectionProxyModel::FilterBehavior)",
+                    "setFilterBehavior"
+                ]
+            ],
+            "name": "KSelectionProxyModel",
+            "page": "kitemmodels/kselectionproxymodel",
+            "qtBases": [
+                [
+                    "QAbstractProxyModel",
+                    "https://doc.qt.io/qt-6/qabstractproxymodel-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kitemmodels",
+    "sections": [
+        {
+            "description": "Models for Qt Model/View system.",
+            "page": "kitemmodels/kitemmodels-module",
+            "pages": [
+                [
+                    "kitemmodels/kitemmodels-module",
+                    "KItemModels C++ Classes"
+                ],
+                [
+                    "kitemmodels/kbreadcrumbselectionmodel",
+                    "KBreadcrumbSelectionModel"
+                ],
+                [
+                    "kitemmodels/kcheckableproxymodel",
+                    "KCheckableProxyModel"
+                ],
+                [
+                    "kitemmodels/kcolumnheadersmodel",
+                    "KColumnHeadersModel"
+                ],
+                [
+                    "kitemmodels/kdescendantsproxymodel",
+                    "KDescendantsProxyModel"
+                ],
+                [
+                    "kitemmodels/kextracolumnsproxymodel",
+                    "KExtraColumnsProxyModel"
+                ],
+                [
+                    "kitemmodels/klinkitemselectionmodel",
+                    "KLinkItemSelectionModel"
+                ],
+                [
+                    "kitemmodels/kmodelindexproxymapper",
+                    "KModelIndexProxyMapper"
+                ],
+                [
+                    "kitemmodels/knumbermodel",
+                    "KNumberModel"
+                ],
+                [
+                    "kitemmodels/krearrangecolumnsproxymodel",
+                    "KRearrangeColumnsProxyModel"
+                ],
+                [
+                    "kitemmodels/kselectionproxymodel",
+                    "KSelectionProxyModel"
+                ],
+                [
+                    "kitemmodels/kitemmodels-index",
+                    "KItemModels"
+                ]
+            ],
+            "qml": false,
+            "title": "KItemModels C++ Classes"
+        }
+    ]
+}

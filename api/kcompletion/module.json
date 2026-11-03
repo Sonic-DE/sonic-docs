@@ -1,0 +1,1135 @@
+{
+    "classes": [
+        {
+            "bases": [
+                "kcompletion/kcompletionbase"
+            ],
+            "members": [
+                [
+                    "autoCompletion",
+                    "autoCompletion : bool",
+                    "autoCompletion-prop"
+                ],
+                [
+                    "trapReturnKey",
+                    "trapReturnKey : bool",
+                    "trapReturnKey-prop"
+                ],
+                [
+                    "KComboBox",
+                    "KComboBox(QWidget *)",
+                    "KComboBox"
+                ],
+                [
+                    "KComboBox",
+                    "KComboBox(bool, QWidget *)",
+                    "KComboBox-1"
+                ],
+                [
+                    "aboutToShowContextMenu",
+                    "aboutToShowContextMenu(QMenu *)",
+                    "aboutToShowContextMenu"
+                ],
+                [
+                    "addUrl",
+                    "addUrl(const QUrl &)",
+                    "addUrl"
+                ],
+                [
+                    "addUrl",
+                    "addUrl(const QIcon &, const QUrl &)",
+                    "addUrl-1"
+                ],
+                [
+                    "autoCompletion",
+                    "autoCompletion() const : bool",
+                    "autoCompletion"
+                ],
+                [
+                    "changeUrl",
+                    "changeUrl(int, const QUrl &)",
+                    "changeUrl"
+                ],
+                [
+                    "changeUrl",
+                    "changeUrl(int, const QIcon &, const QUrl &)",
+                    "changeUrl-1"
+                ],
+                [
+                    "completion",
+                    "completion()",
+                    "completion"
+                ],
+                [
+                    "completionBox",
+                    "completionBox(bool) : KCompletionBox *",
+                    "completionBox"
+                ],
+                [
+                    "completionModeChanged",
+                    "completionModeChanged()",
+                    "completionModeChanged"
+                ],
+                [
+                    "contains",
+                    "contains(const QString &) const : bool",
+                    "contains"
+                ],
+                [
+                    "contextMenu",
+                    "contextMenu() const : QMenu *",
+                    "contextMenu"
+                ],
+                [
+                    "cursorPosition",
+                    "cursorPosition() const : int",
+                    "cursorPosition"
+                ],
+                [
+                    "insertUrl",
+                    "insertUrl(int, const QUrl &)",
+                    "insertUrl"
+                ],
+                [
+                    "insertUrl",
+                    "insertUrl(int, const QIcon &, const QUrl &)",
+                    "insertUrl-1"
+                ],
+                [
+                    "makeCompletion",
+                    "makeCompletion()",
+                    "makeCompletion"
+                ],
+                [
+                    "returnPressed",
+                    "returnPressed(const QString &)",
+                    "returnPressed"
+                ],
+                [
+                    "rotateText",
+                    "rotateText(KCompletionBase::KeyBindingType)",
+                    "rotateText"
+                ],
+                [
+                    "setAutoCompletion",
+                    "setAutoCompletion(bool)",
+                    "setAutoCompletion"
+                ],
+                [
+                    "setCompletedItems",
+                    "setCompletedItems(const QStringList &, bool)",
+                    "setCompletedItems"
+                ],
+                [
+                    "setCompletedText",
+                    "setCompletedText()",
+                    "setCompletedText"
+                ],
+                [
+                    "setCompletedText",
+                    "setCompletedText(const QString &, bool)",
+                    "setCompletedText-1"
+                ],
+                [
+                    "setCurrentItem",
+                    "setCurrentItem(const QString &, bool, int)",
+                    "setCurrentItem"
+                ],
+                [
+                    "setEditUrl",
+                    "setEditUrl(const QUrl &)",
+                    "setEditUrl"
+                ],
+                [
+                    "setEditable",
+                    "setEditable(bool)",
+                    "setEditable"
+                ],
+                [
+                    "setLineEdit",
+                    "setLineEdit()",
+                    "setLineEdit"
+                ],
+                [
+                    "setTrapReturnKey",
+                    "setTrapReturnKey(bool)",
+                    "setTrapReturnKey"
+                ],
+                [
+                    "substringCompletion",
+                    "substringCompletion()",
+                    "substringCompletion"
+                ],
+                [
+                    "textRotation",
+                    "textRotation()",
+                    "textRotation"
+                ],
+                [
+                    "trapReturnKey",
+                    "trapReturnKey() const : bool",
+                    "trapReturnKey"
+                ],
+                [
+                    "urlDropsEnabled",
+                    "urlDropsEnabled() const : bool",
+                    "urlDropsEnabled"
+                ]
+            ],
+            "name": "KComboBox",
+            "page": "kcompletion/kcombobox",
+            "qtBases": [
+                [
+                    "QComboBox",
+                    "https://doc.qt.io/qt-6/qcombobox-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ignoreCase",
+                    "ignoreCase : bool",
+                    "ignoreCase-prop"
+                ],
+                [
+                    "items",
+                    "items : QStringList",
+                    "items-prop"
+                ],
+                [
+                    "order",
+                    "order : CompOrder",
+                    "order-prop"
+                ],
+                [
+                    "KCompletion",
+                    "KCompletion()",
+                    "KCompletion"
+                ],
+                [
+                    "addItem",
+                    "addItem(const QString &)",
+                    "addItem"
+                ],
+                [
+                    "addItem",
+                    "addItem(const QString &, uint)",
+                    "addItem-1"
+                ],
+                [
+                    "allMatches",
+                    "allMatches() : QStringList",
+                    "allMatches"
+                ],
+                [
+                    "allMatches",
+                    "allMatches(const QString &) : QStringList",
+                    "allMatches-1"
+                ],
+                [
+                    "allWeightedMatches",
+                    "allWeightedMatches() : KCompletionMatches",
+                    "allWeightedMatches"
+                ],
+                [
+                    "allWeightedMatches",
+                    "allWeightedMatches(const QString &) : KCompletionMatches",
+                    "allWeightedMatches-1"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "completionMode",
+                    "completionMode() const : KCompletion::CompletionMode",
+                    "completionMode"
+                ],
+                [
+                    "hasMultipleMatches",
+                    "hasMultipleMatches() const : bool",
+                    "hasMultipleMatches"
+                ],
+                [
+                    "ignoreCase",
+                    "ignoreCase() const : bool",
+                    "ignoreCase"
+                ],
+                [
+                    "insertItems",
+                    "insertItems(const QStringList &)",
+                    "insertItems"
+                ],
+                [
+                    "isEmpty",
+                    "isEmpty() const : bool",
+                    "isEmpty"
+                ],
+                [
+                    "items",
+                    "items() const : QStringList",
+                    "items"
+                ],
+                [
+                    "lastMatch",
+                    "lastMatch() const : const QString &",
+                    "lastMatch"
+                ],
+                [
+                    "makeCompletion",
+                    "makeCompletion(const QString &) : QString",
+                    "makeCompletion"
+                ],
+                [
+                    "match",
+                    "match(const QString &)",
+                    "match"
+                ],
+                [
+                    "matches",
+                    "matches(const QStringList &)",
+                    "matches"
+                ],
+                [
+                    "multipleMatches",
+                    "multipleMatches()",
+                    "multipleMatches"
+                ],
+                [
+                    "nextMatch",
+                    "nextMatch() : QString",
+                    "nextMatch"
+                ],
+                [
+                    "order",
+                    "order() const : KCompletion::CompOrder",
+                    "order"
+                ],
+                [
+                    "postProcessMatch",
+                    "postProcessMatch(QString *) const",
+                    "postProcessMatch"
+                ],
+                [
+                    "postProcessMatches",
+                    "postProcessMatches(KCompletionMatches *) const",
+                    "postProcessMatches"
+                ],
+                [
+                    "postProcessMatches",
+                    "postProcessMatches(QStringList *) const",
+                    "postProcessMatches-1"
+                ],
+                [
+                    "previousMatch",
+                    "previousMatch() : QString",
+                    "previousMatch"
+                ],
+                [
+                    "removeItem",
+                    "removeItem(const QString &)",
+                    "removeItem"
+                ],
+                [
+                    "setCompletionMode",
+                    "setCompletionMode(KCompletion::CompletionMode)",
+                    "setCompletionMode"
+                ],
+                [
+                    "setIgnoreCase",
+                    "setIgnoreCase(bool)",
+                    "setIgnoreCase"
+                ],
+                [
+                    "setItems",
+                    "setItems(const QStringList &)",
+                    "setItems"
+                ],
+                [
+                    "setOrder",
+                    "setOrder(KCompletion::CompOrder)",
+                    "setOrder"
+                ],
+                [
+                    "setShouldAutoSuggest",
+                    "setShouldAutoSuggest(bool)",
+                    "setShouldAutoSuggest"
+                ],
+                [
+                    "setSorterFunction",
+                    "setSorterFunction(KCompletion::SorterFunction)",
+                    "setSorterFunction"
+                ],
+                [
+                    "shouldAutoSuggest",
+                    "shouldAutoSuggest() const : bool",
+                    "shouldAutoSuggest"
+                ],
+                [
+                    "substringCompletion",
+                    "substringCompletion(const QString &) const : QStringList",
+                    "substringCompletion"
+                ]
+            ],
+            "name": "KCompletion",
+            "page": "kcompletion/kcompletion",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCompletionBase",
+                    "KCompletionBase()",
+                    "KCompletionBase"
+                ],
+                [
+                    "compObj",
+                    "compObj() const : KCompletion *",
+                    "compObj"
+                ],
+                [
+                    "completionMode",
+                    "completionMode() const : KCompletion::CompletionMode",
+                    "completionMode"
+                ],
+                [
+                    "completionObject",
+                    "completionObject(bool) : KCompletion *",
+                    "completionObject"
+                ],
+                [
+                    "delegate",
+                    "delegate() const : KCompletionBase *",
+                    "delegate"
+                ],
+                [
+                    "emitSignals",
+                    "emitSignals() const : bool",
+                    "emitSignals"
+                ],
+                [
+                    "handleSignals",
+                    "handleSignals() const : bool",
+                    "handleSignals"
+                ],
+                [
+                    "isCompletionObjectAutoDeleted",
+                    "isCompletionObjectAutoDeleted() const : bool",
+                    "isCompletionObjectAutoDeleted"
+                ],
+                [
+                    "keyBinding",
+                    "keyBinding(KCompletionBase::KeyBindingType) const : QList<QKeySequence>",
+                    "keyBinding"
+                ],
+                [
+                    "keyBindingMap",
+                    "keyBindingMap() const : KCompletionBase::KeyBindingMap",
+                    "keyBindingMap"
+                ],
+                [
+                    "setAutoDeleteCompletionObject",
+                    "setAutoDeleteCompletionObject(bool)",
+                    "setAutoDeleteCompletionObject"
+                ],
+                [
+                    "setCompletedItems",
+                    "setCompletedItems(const QStringList &, bool)",
+                    "setCompletedItems"
+                ],
+                [
+                    "setCompletedText",
+                    "setCompletedText(const QString &)",
+                    "setCompletedText"
+                ],
+                [
+                    "setCompletionMode",
+                    "setCompletionMode(KCompletion::CompletionMode)",
+                    "setCompletionMode"
+                ],
+                [
+                    "setCompletionObject",
+                    "setCompletionObject(KCompletion *, bool)",
+                    "setCompletionObject"
+                ],
+                [
+                    "setDelegate",
+                    "setDelegate(KCompletionBase *)",
+                    "setDelegate"
+                ],
+                [
+                    "setEmitSignals",
+                    "setEmitSignals(bool)",
+                    "setEmitSignals"
+                ],
+                [
+                    "setEnableSignals",
+                    "setEnableSignals(bool)",
+                    "setEnableSignals"
+                ],
+                [
+                    "setHandleSignals",
+                    "setHandleSignals(bool)",
+                    "setHandleSignals"
+                ],
+                [
+                    "setKeyBinding",
+                    "setKeyBinding(KCompletionBase::KeyBindingType, const QList<QKeySequence> &) : bool",
+                    "setKeyBinding"
+                ],
+                [
+                    "setKeyBindingMap",
+                    "setKeyBindingMap(KCompletionBase::KeyBindingMap)",
+                    "setKeyBindingMap"
+                ],
+                [
+                    "useGlobalKeyBindings",
+                    "useGlobalKeyBindings()",
+                    "useGlobalKeyBindings"
+                ]
+            ],
+            "name": "KCompletionBase",
+            "page": "kcompletion/kcompletionbase",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "activateOnSelect",
+                    "activateOnSelect : bool",
+                    "activateOnSelect-prop"
+                ],
+                [
+                    "cancelledText",
+                    "cancelledText : QString",
+                    "cancelledText-prop"
+                ],
+                [
+                    "isTabHandling",
+                    "isTabHandling : bool",
+                    "isTabHandling-prop"
+                ],
+                [
+                    "KCompletionBox",
+                    "KCompletionBox(QWidget *)",
+                    "KCompletionBox"
+                ],
+                [
+                    "activateOnSelect",
+                    "activateOnSelect() const : bool",
+                    "activateOnSelect"
+                ],
+                [
+                    "calculateGeometry",
+                    "calculateGeometry() const : QRect",
+                    "calculateGeometry"
+                ],
+                [
+                    "cancelledText",
+                    "cancelledText() const : QString",
+                    "cancelledText"
+                ],
+                [
+                    "down",
+                    "down()",
+                    "down"
+                ],
+                [
+                    "end",
+                    "end()",
+                    "end"
+                ],
+                [
+                    "globalPositionHint",
+                    "globalPositionHint() const : QPoint",
+                    "globalPositionHint"
+                ],
+                [
+                    "home",
+                    "home()",
+                    "home"
+                ],
+                [
+                    "insertItems",
+                    "insertItems(const QStringList &, int)",
+                    "insertItems"
+                ],
+                [
+                    "isTabHandling",
+                    "isTabHandling() const : bool",
+                    "isTabHandling"
+                ],
+                [
+                    "items",
+                    "items() const : QStringList",
+                    "items"
+                ],
+                [
+                    "pageDown",
+                    "pageDown()",
+                    "pageDown"
+                ],
+                [
+                    "pageUp",
+                    "pageUp()",
+                    "pageUp"
+                ],
+                [
+                    "popup",
+                    "popup()",
+                    "popup"
+                ],
+                [
+                    "resizeAndReposition",
+                    "resizeAndReposition()",
+                    "resizeAndReposition"
+                ],
+                [
+                    "setActivateOnSelect",
+                    "setActivateOnSelect(bool)",
+                    "setActivateOnSelect"
+                ],
+                [
+                    "setCancelledText",
+                    "setCancelledText(const QString &)",
+                    "setCancelledText"
+                ],
+                [
+                    "setItems",
+                    "setItems(const QStringList &)",
+                    "setItems"
+                ],
+                [
+                    "setTabHandling",
+                    "setTabHandling(bool)",
+                    "setTabHandling"
+                ],
+                [
+                    "setVisible",
+                    "setVisible(bool)",
+                    "setVisible"
+                ],
+                [
+                    "slotActivated",
+                    "slotActivated()",
+                    "slotActivated"
+                ],
+                [
+                    "textActivated",
+                    "textActivated(const QString &)",
+                    "textActivated"
+                ],
+                [
+                    "up",
+                    "up()",
+                    "up"
+                ],
+                [
+                    "userCancelled",
+                    "userCancelled()",
+                    "userCancelled"
+                ]
+            ],
+            "name": "KCompletionBox",
+            "page": "kcompletion/kcompletionbox",
+            "qtBases": [
+                [
+                    "QListWidget",
+                    "https://doc.qt.io/qt-6/qlistwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCompletionMatches",
+                    "KCompletionMatches(bool)",
+                    "KCompletionMatches"
+                ],
+                [
+                    "list",
+                    "list(bool) const : QStringList",
+                    "list"
+                ],
+                [
+                    "removeDuplicates",
+                    "removeDuplicates()",
+                    "removeDuplicates"
+                ],
+                [
+                    "sorting",
+                    "sorting() const : bool",
+                    "sorting"
+                ]
+            ],
+            "name": "KCompletionMatches",
+            "page": "kcompletion/kcompletionmatches",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "KEmailValidator",
+            "page": "kcompletion/kemailvalidator",
+            "qtBases": [
+                [
+                    "QValidator",
+                    "https://doc.qt.io/qt-6/qvalidator-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kcompletion/kcombobox"
+            ],
+            "members": [
+                [
+                    "historyItems",
+                    "historyItems : QStringList",
+                    "historyItems-prop"
+                ],
+                [
+                    "KHistoryComboBox",
+                    "KHistoryComboBox(QWidget *)",
+                    "KHistoryComboBox"
+                ],
+                [
+                    "KHistoryComboBox",
+                    "KHistoryComboBox(bool, QWidget *)",
+                    "KHistoryComboBox-1"
+                ],
+                [
+                    "addToHistory",
+                    "addToHistory(const QString &)",
+                    "addToHistory"
+                ],
+                [
+                    "clearHistory",
+                    "clearHistory()",
+                    "clearHistory"
+                ],
+                [
+                    "cleared",
+                    "cleared()",
+                    "cleared"
+                ],
+                [
+                    "historyItems",
+                    "historyItems() const : QStringList",
+                    "historyItems"
+                ],
+                [
+                    "insertItems",
+                    "insertItems(const QStringList &)",
+                    "insertItems"
+                ],
+                [
+                    "removeFromHistory",
+                    "removeFromHistory(const QString &) : bool",
+                    "removeFromHistory"
+                ],
+                [
+                    "reset",
+                    "reset()",
+                    "reset"
+                ],
+                [
+                    "setHistoryItems",
+                    "setHistoryItems(const QStringList &)",
+                    "setHistoryItems"
+                ],
+                [
+                    "setHistoryItems",
+                    "setHistoryItems(const QStringList &, bool)",
+                    "setHistoryItems-1"
+                ],
+                [
+                    "setIconProvider",
+                    "setIconProvider(std::function<QIcon (const QString &)>)",
+                    "setIconProvider"
+                ],
+                [
+                    "useCompletion",
+                    "useCompletion() const : bool",
+                    "useCompletion"
+                ]
+            ],
+            "name": "KHistoryComboBox",
+            "page": "kcompletion/khistorycombobox",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcompletion/kcompletionbase"
+            ],
+            "members": [
+                [
+                    "squeezedTextEnabled",
+                    "squeezedTextEnabled : bool",
+                    "squeezedTextEnabled-prop"
+                ],
+                [
+                    "trapEnterKeyEvent",
+                    "trapEnterKeyEvent : bool",
+                    "trapEnterKeyEvent-prop"
+                ],
+                [
+                    "KLineEdit",
+                    "KLineEdit(QWidget *)",
+                    "KLineEdit"
+                ],
+                [
+                    "KLineEdit",
+                    "KLineEdit(const QString &, QWidget *)",
+                    "KLineEdit-1"
+                ],
+                [
+                    "aboutToShowContextMenu",
+                    "aboutToShowContextMenu(QMenu *)",
+                    "aboutToShowContextMenu"
+                ],
+                [
+                    "autoSuggest",
+                    "autoSuggest() const : bool",
+                    "autoSuggest"
+                ],
+                [
+                    "clearButtonClicked",
+                    "clearButtonClicked()",
+                    "clearButtonClicked"
+                ],
+                [
+                    "clearButtonUsedSize",
+                    "clearButtonUsedSize() const : QSize",
+                    "clearButtonUsedSize"
+                ],
+                [
+                    "completion",
+                    "completion()",
+                    "completion"
+                ],
+                [
+                    "completionBox",
+                    "completionBox(bool) : KCompletionBox *",
+                    "completionBox"
+                ],
+                [
+                    "completionBoxActivated",
+                    "completionBoxActivated()",
+                    "completionBoxActivated"
+                ],
+                [
+                    "completionModeChanged",
+                    "completionModeChanged()",
+                    "completionModeChanged"
+                ],
+                [
+                    "doCompletion",
+                    "doCompletion(const QString &)",
+                    "doCompletion"
+                ],
+                [
+                    "isSqueezedTextEnabled",
+                    "isSqueezedTextEnabled() const : bool",
+                    "isSqueezedTextEnabled"
+                ],
+                [
+                    "makeCompletion",
+                    "makeCompletion()",
+                    "makeCompletion"
+                ],
+                [
+                    "originalText",
+                    "originalText() const : QString",
+                    "originalText"
+                ],
+                [
+                    "returnKeyPressed",
+                    "returnKeyPressed(const QString &)",
+                    "returnKeyPressed"
+                ],
+                [
+                    "rotateText",
+                    "rotateText(KCompletionBase::KeyBindingType)",
+                    "rotateText"
+                ],
+                [
+                    "setCompletedItems",
+                    "setCompletedItems(const QStringList &, bool)",
+                    "setCompletedItems"
+                ],
+                [
+                    "setCompletedText",
+                    "setCompletedText()",
+                    "setCompletedText"
+                ],
+                [
+                    "setCompletionBox",
+                    "setCompletionBox(KCompletionBox *)",
+                    "setCompletionBox"
+                ],
+                [
+                    "setCompletionModeDisabled",
+                    "setCompletionModeDisabled(KCompletion::CompletionMode, bool)",
+                    "setCompletionModeDisabled"
+                ],
+                [
+                    "setReadOnly",
+                    "setReadOnly()",
+                    "setReadOnly"
+                ],
+                [
+                    "setSqueezedText",
+                    "setSqueezedText(const QString &)",
+                    "setSqueezedText"
+                ],
+                [
+                    "setSqueezedTextEnabled",
+                    "setSqueezedTextEnabled(bool)",
+                    "setSqueezedTextEnabled"
+                ],
+                [
+                    "setTrapReturnKey",
+                    "setTrapReturnKey(bool)",
+                    "setTrapReturnKey"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &)",
+                    "setUrl"
+                ],
+                [
+                    "setUserSelection",
+                    "setUserSelection(bool)",
+                    "setUserSelection"
+                ],
+                [
+                    "substringCompletion",
+                    "substringCompletion()",
+                    "substringCompletion"
+                ],
+                [
+                    "textRotation",
+                    "textRotation()",
+                    "textRotation"
+                ],
+                [
+                    "trapReturnKey",
+                    "trapReturnKey() const : bool",
+                    "trapReturnKey"
+                ],
+                [
+                    "urlDropsEnabled",
+                    "urlDropsEnabled() const : bool",
+                    "urlDropsEnabled"
+                ],
+                [
+                    "userCancelled",
+                    "userCancelled(const QString &)",
+                    "userCancelled"
+                ],
+                [
+                    "userText",
+                    "userText() const : QString",
+                    "userText"
+                ]
+            ],
+            "name": "KLineEdit",
+            "page": "kcompletion/klineedit",
+            "qtBases": [
+                [
+                    "QLineEdit",
+                    "https://doc.qt.io/qt-6/qlineedit-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KSortableItem",
+                    "KSortableItem()",
+                    "KSortableItem"
+                ],
+                [
+                    "KSortableItem",
+                    "KSortableItem(Key, const T &)",
+                    "KSortableItem-2"
+                ],
+                [
+                    "KSortableItem",
+                    "KSortableItem(const KSortableItem<T, Key> &)",
+                    "KSortableItem-1"
+                ],
+                [
+                    "key",
+                    "key() const : Key",
+                    "key"
+                ],
+                [
+                    "value",
+                    "value() : T &",
+                    "value"
+                ],
+                [
+                    "value",
+                    "value() const : const T &",
+                    "value-1"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KSortableItem<T, Key> &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator<",
+                    "operator<(const KSortableItem<T, Key> &) const : bool",
+                    "operator-lt"
+                ],
+                [
+                    "operator<=",
+                    "operator<=(const KSortableItem<T, Key> &) const : bool",
+                    "operator-lt-eq"
+                ],
+                [
+                    "operator=",
+                    "operator=(const KSortableItem<T, Key> &) : KSortableItem<T, Key> &",
+                    "operator-eq"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KSortableItem<T, Key> &) const : bool",
+                    "operator-eq-eq"
+                ],
+                [
+                    "operator>",
+                    "operator>(const KSortableItem<T, Key> &) const : bool",
+                    "operator-gt"
+                ],
+                [
+                    "operator>=",
+                    "operator>=(const KSortableItem<T, Key> &) const : bool",
+                    "operator-gt-eq"
+                ]
+            ],
+            "name": "KSortableItem",
+            "page": "kcompletion/ksortableitem",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "insert",
+                    "insert(Key, const T &)",
+                    "insert"
+                ],
+                [
+                    "sort",
+                    "sort()",
+                    "sort"
+                ],
+                [
+                    "operator[]",
+                    "operator[](Key) : T &",
+                    "operator-5b-5d"
+                ],
+                [
+                    "operator[]",
+                    "operator[](Key) const : const T &",
+                    "operator-5b-5d-1"
+                ]
+            ],
+            "name": "KSortableList",
+            "page": "kcompletion/ksortablelist",
+            "qtBases": [
+                [
+                    "QList",
+                    "https://doc.qt.io/qt-6/qlist-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kcompletion",
+    "sections": [
+        {
+            "description": "Text completion helpers and widgets.",
+            "page": "kcompletion/kcompletion-module",
+            "pages": [
+                [
+                    "kcompletion/kcompletion-module",
+                    "KCompletion C++ Classes"
+                ],
+                [
+                    "kcompletion/kcombobox",
+                    "KComboBox"
+                ],
+                [
+                    "kcompletion/kcompletion",
+                    "KCompletion"
+                ],
+                [
+                    "kcompletion/kcompletionbase",
+                    "KCompletionBase"
+                ],
+                [
+                    "kcompletion/kcompletionbox",
+                    "KCompletionBox"
+                ],
+                [
+                    "kcompletion/kcompletionmatches",
+                    "KCompletionMatches"
+                ],
+                [
+                    "kcompletion/kemailvalidator",
+                    "KEmailValidator"
+                ],
+                [
+                    "kcompletion/khistorycombobox",
+                    "KHistoryComboBox"
+                ],
+                [
+                    "kcompletion/klineedit",
+                    "KLineEdit"
+                ],
+                [
+                    "kcompletion/ksortableitem",
+                    "KSortableItem"
+                ],
+                [
+                    "kcompletion/ksortablelist",
+                    "KSortableList"
+                ],
+                [
+                    "kcompletion/kcompletion-index",
+                    "KCompletion"
+                ]
+            ],
+            "qml": false,
+            "title": "KCompletion C++ Classes"
+        }
+    ]
+}

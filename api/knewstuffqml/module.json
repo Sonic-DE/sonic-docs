@@ -1,0 +1,55 @@
+{
+    "classes": [
+    ],
+    "module": "knewstuffqml",
+    "sections": [
+        {
+            "description": "KNewStuff QML types.",
+            "page": "knewstuffqml/org-kde-newstuff-qmlmodule",
+            "pages": [
+                [
+                    "knewstuffqml/org-kde-newstuff-qmlmodule",
+                    "KNewStuff QML Types"
+                ],
+                [
+                    "knewstuffqml/qml-org-kde-newstuff-action",
+                    "Action"
+                ],
+                [
+                    "knewstuffqml/qml-org-kde-newstuff-button",
+                    "Button"
+                ],
+                [
+                    "knewstuffqml/qml-org-kde-newstuff-dialog",
+                    "Dialog"
+                ],
+                [
+                    "knewstuffqml/qml-org-kde-newstuff-dialogcontent",
+                    "DialogContent"
+                ],
+                [
+                    "knewstuffqml/qml-org-kde-newstuff-downloaditemssheet",
+                    "DownloadItemsSheet"
+                ],
+                [
+                    "knewstuffqml/qml-org-kde-newstuff-entrydetails",
+                    "EntryDetails"
+                ],
+                [
+                    "knewstuffqml/qml-org-kde-newstuff-page",
+                    "Page"
+                ],
+                [
+                    "knewstuffqml/qml-org-kde-newstuff-questionasker",
+                    "QuestionAsker"
+                ],
+                [
+                    "knewstuffqml/qml-org-kde-newstuff-uploadpage",
+                    "UploadPage"
+                ]
+            ],
+            "qml": true,
+            "title": "KNewStuff QML Types"
+        }
+    ]
+}

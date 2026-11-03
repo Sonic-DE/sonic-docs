@@ -1,0 +1,111 @@
+{
+    "classes": [
+    ],
+    "module": "kirigamiaddonscomponents",
+    "sections": [
+        {
+            "description": "",
+            "page": "",
+            "pages": [
+                [
+                    "kirigamiaddonscomponents/kirigami-addons-index",
+                    "Kirigami Addons"
+                ],
+                [
+                    "kirigamiaddonscomponents/org-kde-kirigamiaddons-labs-components-qmlmodule",
+                    "Kirigami Addons Components (Labs) QML Types"
+                ]
+            ],
+            "qml": false,
+            "title": "kirigamiaddonscomponents"
+        },
+        {
+            "description": "Reusable controls and visual components for Kirigami applications.",
+            "page": "kirigamiaddonscomponents/org-kde-kirigamiaddons-components-qmlmodule",
+            "pages": [
+                [
+                    "kirigamiaddonscomponents/org-kde-kirigamiaddons-components-qmlmodule",
+                    "Kirigami Addons Components QML Types"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-avatar",
+                    "Avatar"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-avatarbutton",
+                    "AvatarButton"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-bottomdrawer",
+                    "BottomDrawer"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-convergentcontextmenu",
+                    "ConvergentContextMenu"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-dialogroundedbackground",
+                    "DialogRoundedBackground"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-doublefloatingbutton",
+                    "DoubleFloatingButton"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-floatingbutton",
+                    "FloatingButton"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-floatingtoolbar",
+                    "FloatingToolBar"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-messagedialog",
+                    "MessageDialog"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-radioselector",
+                    "RadioSelector"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-searchpopupfield",
+                    "SearchPopupField"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-segmentedbutton",
+                    "SegmentedButton"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-labs-components-abstractmaximizecomponent",
+                    "AbstractMaximizeComponent"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-labs-components-albummaximizecomponent",
+                    "AlbumMaximizeComponent"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-labs-components-albummodelitem",
+                    "AlbumModelItem"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-labs-components-banner",
+                    "Banner"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-labs-components-downloadaction",
+                    "DownloadAction"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-labs-components-imagemaximizedelegate",
+                    "ImageMaximizeDelegate"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-labs-components-videomaximizedelegate",
+                    "VideoMaximizeDelegate"
+                ]
+            ],
+            "qml": true,
+            "title": "Kirigami Addons Components QML Types"
+        }
+    ]
+}

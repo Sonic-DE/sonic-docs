@@ -1,0 +1,51 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KirigamiApp",
+                    "KirigamiApp()",
+                    "KirigamiApp"
+                ],
+                [
+                    "start",
+                    "start(QAnyStringView, QAnyStringView, QQmlApplicationEngine *) : bool",
+                    "start"
+                ]
+            ],
+            "name": "KirigamiApp",
+            "page": "kirigamiapp/kirigamiapp",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kirigamiapp",
+    "sections": [
+        {
+            "description": "Helpers for setting up Kirigami applications.",
+            "page": "kirigamiapp/kirigamiapp-module",
+            "pages": [
+                [
+                    "kirigamiapp/kirigamiapp-module",
+                    "Kirigami Addons App C++ Classes"
+                ],
+                [
+                    "kirigamiapp/kirigamiapp",
+                    "KirigamiApp"
+                ],
+                [
+                    "kirigamiapp/kirigamiappdefaults",
+                    "KirigamiAppDefaults Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "Kirigami Addons App C++ Classes"
+        }
+    ]
+}

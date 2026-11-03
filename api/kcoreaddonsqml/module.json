@@ -1,0 +1,39 @@
+{
+    "classes": [
+    ],
+    "module": "kcoreaddonsqml",
+    "sections": [
+        {
+            "description": "Additions to Qt Core.",
+            "page": "kcoreaddonsqml/org-kde-coreaddons-qmlmodule",
+            "pages": [
+                [
+                    "kcoreaddonsqml/org-kde-coreaddons-qmlmodule",
+                    "KCoreAddons QML Types"
+                ],
+                [
+                    "kcoreaddonsqml/qml-org-kde-coreaddons-aboutdata",
+                    "AboutData"
+                ],
+                [
+                    "kcoreaddonsqml/qml-org-kde-coreaddons-format",
+                    "Format"
+                ],
+                [
+                    "kcoreaddonsqml/qml-org-kde-coreaddons-kosrelease",
+                    "KOSRelease"
+                ],
+                [
+                    "kcoreaddonsqml/qml-org-kde-coreaddons-kuser",
+                    "KUser"
+                ],
+                [
+                    "kcoreaddonsqml/qml-org-kde-coreaddons-sandbox",
+                    "Sandbox (Singleton)"
+                ]
+            ],
+            "qml": true,
+            "title": "KCoreAddons QML Types"
+        }
+    ]
+}

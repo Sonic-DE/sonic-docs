@@ -1,0 +1,81 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KNotifyConfigWidget",
+                    "KNotifyConfigWidget(QWidget *)",
+                    "KNotifyConfigWidget"
+                ],
+                [
+                    "changed",
+                    "changed(bool)",
+                    "changed"
+                ],
+                [
+                    "configure",
+                    "configure(QWidget *, const QString &) : KNotifyConfigWidget *",
+                    "configure"
+                ],
+                [
+                    "disableAllSounds",
+                    "disableAllSounds()",
+                    "disableAllSounds"
+                ],
+                [
+                    "revertToDefaults",
+                    "revertToDefaults()",
+                    "revertToDefaults"
+                ],
+                [
+                    "save",
+                    "save()",
+                    "save"
+                ],
+                [
+                    "selectEvent",
+                    "selectEvent(const QString &)",
+                    "selectEvent"
+                ],
+                [
+                    "setApplication",
+                    "setApplication(const QString &)",
+                    "setApplication"
+                ]
+            ],
+            "name": "KNotifyConfigWidget",
+            "page": "knotifyconfig/knotifyconfigwidget",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "knotifyconfig",
+    "sections": [
+        {
+            "description": "KNotifyConfig provies a unified configuration dialog for desktop notifications.",
+            "page": "knotifyconfig/knotifyconfig-module",
+            "pages": [
+                [
+                    "knotifyconfig/knotifyconfig-module",
+                    "KNotifyConfig C++ Classes"
+                ],
+                [
+                    "knotifyconfig/knotifyconfigwidget",
+                    "KNotifyConfigWidget"
+                ],
+                [
+                    "knotifyconfig/knotifyconfig-index",
+                    "KNotifyConfig"
+                ]
+            ],
+            "qml": false,
+            "title": "KNotifyConfig C++ Classes"
+        }
+    ]
+}

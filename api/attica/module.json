@@ -1,0 +1,3829 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AccountBalance",
+                    "AccountBalance()",
+                    "AccountBalance"
+                ],
+                [
+                    "balance",
+                    "balance() const : QString",
+                    "balance"
+                ],
+                [
+                    "currency",
+                    "currency() const : QString",
+                    "currency"
+                ],
+                [
+                    "setBalance",
+                    "setBalance(const QString &)",
+                    "setBalance"
+                ],
+                [
+                    "setCurrency",
+                    "setCurrency(const QString &)",
+                    "setCurrency"
+                ]
+            ],
+            "name": "Attica::AccountBalance",
+            "page": "attica/attica-accountbalance",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Achievement",
+                    "Achievement()",
+                    "Achievement"
+                ],
+                [
+                    "achievementTypeToString",
+                    "achievementTypeToString(const Attica::Achievement::Type) : QString",
+                    "achievementTypeToString"
+                ],
+                [
+                    "achievementVisibilityToString",
+                    "achievementVisibilityToString(const Attica::Achievement::Visibility) : QString",
+                    "achievementVisibilityToString"
+                ],
+                [
+                    "addDependency",
+                    "addDependency(const QString &)",
+                    "addDependency"
+                ],
+                [
+                    "addOption",
+                    "addOption(const QString &)",
+                    "addOption"
+                ],
+                [
+                    "contentId",
+                    "contentId() const : QString",
+                    "contentId"
+                ],
+                [
+                    "dependencies",
+                    "dependencies() const : QStringList",
+                    "dependencies"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "explanation",
+                    "explanation() const : QString",
+                    "explanation"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "image",
+                    "image() const : QUrl",
+                    "image"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "options",
+                    "options() const : QStringList",
+                    "options"
+                ],
+                [
+                    "points",
+                    "points() const : int",
+                    "points"
+                ],
+                [
+                    "progress",
+                    "progress() const : QVariant",
+                    "progress"
+                ],
+                [
+                    "removeDependency",
+                    "removeDependency(const QString &)",
+                    "removeDependency"
+                ],
+                [
+                    "removeOption",
+                    "removeOption(const QString &)",
+                    "removeOption"
+                ],
+                [
+                    "setContentId",
+                    "setContentId(const QString &)",
+                    "setContentId"
+                ],
+                [
+                    "setDependencies",
+                    "setDependencies(const QStringList &)",
+                    "setDependencies"
+                ],
+                [
+                    "setDescription",
+                    "setDescription(const QString &)",
+                    "setDescription"
+                ],
+                [
+                    "setExplanation",
+                    "setExplanation(const QString &)",
+                    "setExplanation"
+                ],
+                [
+                    "setId",
+                    "setId(const QString &)",
+                    "setId"
+                ],
+                [
+                    "setImage",
+                    "setImage(const QUrl &)",
+                    "setImage"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setOptions",
+                    "setOptions(const QStringList &)",
+                    "setOptions"
+                ],
+                [
+                    "setPoints",
+                    "setPoints(const int)",
+                    "setPoints"
+                ],
+                [
+                    "setProgress",
+                    "setProgress(const QVariant &)",
+                    "setProgress"
+                ],
+                [
+                    "setSteps",
+                    "setSteps(const int)",
+                    "setSteps"
+                ],
+                [
+                    "setType",
+                    "setType(Attica::Achievement::Type)",
+                    "setType"
+                ],
+                [
+                    "setVisibility",
+                    "setVisibility(Attica::Achievement::Visibility)",
+                    "setVisibility"
+                ],
+                [
+                    "steps",
+                    "steps() const : int",
+                    "steps"
+                ],
+                [
+                    "stringToAchievementType",
+                    "stringToAchievementType(const QString &) : Attica::Achievement::Type",
+                    "stringToAchievementType"
+                ],
+                [
+                    "stringToAchievementVisibility",
+                    "stringToAchievementVisibility(const QString &) : Attica::Achievement::Visibility",
+                    "stringToAchievementVisibility"
+                ],
+                [
+                    "type",
+                    "type() const : Attica::Achievement::Type",
+                    "type"
+                ],
+                [
+                    "visibility",
+                    "visibility() const : Attica::Achievement::Visibility",
+                    "visibility"
+                ]
+            ],
+            "name": "Attica::Achievement",
+            "page": "attica/attica-achievement",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Activity",
+                    "Activity()",
+                    "Activity"
+                ],
+                [
+                    "associatedPerson",
+                    "associatedPerson() const : Attica::Person",
+                    "associatedPerson"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "link",
+                    "link() const : QUrl",
+                    "link"
+                ],
+                [
+                    "message",
+                    "message() const : QString",
+                    "message"
+                ],
+                [
+                    "setAssociatedPerson",
+                    "setAssociatedPerson(const Attica::Person &)",
+                    "setAssociatedPerson"
+                ],
+                [
+                    "setId",
+                    "setId(const QString &)",
+                    "setId"
+                ],
+                [
+                    "setLink",
+                    "setLink(const QUrl &)",
+                    "setLink"
+                ],
+                [
+                    "setMessage",
+                    "setMessage(const QString &)",
+                    "setMessage"
+                ],
+                [
+                    "setTimestamp",
+                    "setTimestamp(const QDateTime &)",
+                    "setTimestamp"
+                ],
+                [
+                    "timestamp",
+                    "timestamp() const : QDateTime",
+                    "timestamp"
+                ]
+            ],
+            "name": "Attica::Activity",
+            "page": "attica/attica-activity",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "abort",
+                    "abort()",
+                    "abort"
+                ],
+                [
+                    "dataFinished",
+                    "dataFinished()",
+                    "dataFinished"
+                ],
+                [
+                    "executeRequest",
+                    "executeRequest() : QNetworkReply *",
+                    "executeRequest"
+                ],
+                [
+                    "internals",
+                    "internals() : Attica::PlatformDependent *",
+                    "internals"
+                ],
+                [
+                    "isAborted",
+                    "isAborted() const : bool",
+                    "isAborted"
+                ],
+                [
+                    "metadata",
+                    "metadata() const : Attica::Metadata",
+                    "metadata"
+                ],
+                [
+                    "parse",
+                    "parse(const QString &)",
+                    "parse"
+                ],
+                [
+                    "setError",
+                    "setError(int)",
+                    "setError"
+                ],
+                [
+                    "setMetadata",
+                    "setMetadata(const Attica::Metadata &) const",
+                    "setMetadata"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ]
+            ],
+            "name": "Attica::BaseJob",
+            "page": "attica/attica-basejob",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "BuildService",
+                    "BuildService()",
+                    "BuildService"
+                ],
+                [
+                    "addTarget",
+                    "addTarget()",
+                    "addTarget"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setId",
+                    "setId()",
+                    "setId"
+                ],
+                [
+                    "setName",
+                    "setName()",
+                    "setName"
+                ],
+                [
+                    "setUrl",
+                    "setUrl()",
+                    "setUrl"
+                ],
+                [
+                    "targets",
+                    "targets() const : QList<Attica::Target>",
+                    "targets"
+                ],
+                [
+                    "url",
+                    "url() const : QString",
+                    "url"
+                ]
+            ],
+            "name": "Attica::BuildService",
+            "page": "attica/attica-buildservice",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "BuildServiceJob",
+                    "BuildServiceJob()",
+                    "BuildServiceJob"
+                ],
+                [
+                    "buildServiceId",
+                    "buildServiceId() const : QString",
+                    "buildServiceId"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isCompleted",
+                    "isCompleted() const : bool",
+                    "isCompleted"
+                ],
+                [
+                    "isFailed",
+                    "isFailed() const : bool",
+                    "isFailed"
+                ],
+                [
+                    "isRunning",
+                    "isRunning() const : bool",
+                    "isRunning"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "message",
+                    "message() const : QString",
+                    "message"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "progress",
+                    "progress() const : qreal",
+                    "progress"
+                ],
+                [
+                    "projectId",
+                    "projectId() const : QString",
+                    "projectId"
+                ],
+                [
+                    "setBuildServiceId",
+                    "setBuildServiceId()",
+                    "setBuildServiceId"
+                ],
+                [
+                    "setId",
+                    "setId()",
+                    "setId"
+                ],
+                [
+                    "setMessage",
+                    "setMessage()",
+                    "setMessage"
+                ],
+                [
+                    "setName",
+                    "setName()",
+                    "setName"
+                ],
+                [
+                    "setProgress",
+                    "setProgress()",
+                    "setProgress"
+                ],
+                [
+                    "setProjectId",
+                    "setProjectId()",
+                    "setProjectId"
+                ],
+                [
+                    "setStatus",
+                    "setStatus()",
+                    "setStatus"
+                ],
+                [
+                    "setTarget",
+                    "setTarget()",
+                    "setTarget"
+                ],
+                [
+                    "setUrl",
+                    "setUrl()",
+                    "setUrl"
+                ],
+                [
+                    "target",
+                    "target() const : QString",
+                    "target"
+                ],
+                [
+                    "url",
+                    "url() const : QString",
+                    "url"
+                ]
+            ],
+            "name": "Attica::BuildServiceJob",
+            "page": "attica/attica-buildservicejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "BuildServiceJobOutput",
+                    "BuildServiceJobOutput()",
+                    "BuildServiceJobOutput"
+                ],
+                [
+                    "isCompleted",
+                    "isCompleted() const : bool",
+                    "isCompleted"
+                ],
+                [
+                    "isFailed",
+                    "isFailed() const : bool",
+                    "isFailed"
+                ],
+                [
+                    "isRunning",
+                    "isRunning() const : bool",
+                    "isRunning"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "output",
+                    "output() const : QString",
+                    "output"
+                ],
+                [
+                    "setOutput",
+                    "setOutput(const QString &)",
+                    "setOutput"
+                ]
+            ],
+            "name": "Attica::BuildServiceJobOutput",
+            "page": "attica/attica-buildservicejoboutput",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Category",
+                    "Category()",
+                    "Category"
+                ],
+                [
+                    "displayName",
+                    "displayName() const : QString",
+                    "displayName"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setDisplayName",
+                    "setDisplayName(const QString &)",
+                    "setDisplayName"
+                ],
+                [
+                    "setId",
+                    "setId()",
+                    "setId"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ]
+            ],
+            "name": "Attica::Category",
+            "page": "attica/attica-category",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Cloud",
+                    "Cloud()",
+                    "Cloud"
+                ],
+                [
+                    "free",
+                    "free() const : qulonglong",
+                    "free"
+                ],
+                [
+                    "icon",
+                    "icon() const : QUrl",
+                    "icon"
+                ],
+                [
+                    "key",
+                    "key() const : QString",
+                    "key"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "quota",
+                    "quota() const : qulonglong",
+                    "quota"
+                ],
+                [
+                    "relative",
+                    "relative() const : float",
+                    "relative"
+                ],
+                [
+                    "setFree",
+                    "setFree(qulonglong)",
+                    "setFree"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(const QUrl &)",
+                    "setIcon"
+                ],
+                [
+                    "setKey",
+                    "setKey(const QString &)",
+                    "setKey"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setQuota",
+                    "setQuota(qulonglong)",
+                    "setQuota"
+                ],
+                [
+                    "setRelative",
+                    "setRelative(float)",
+                    "setRelative"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QString &)",
+                    "setUrl"
+                ],
+                [
+                    "setUsed",
+                    "setUsed(qulonglong)",
+                    "setUsed"
+                ],
+                [
+                    "url",
+                    "url() const : QString",
+                    "url"
+                ],
+                [
+                    "used",
+                    "used() const : qulonglong",
+                    "used"
+                ]
+            ],
+            "name": "Attica::Cloud",
+            "page": "attica/attica-cloud",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Comment",
+                    "Comment()",
+                    "Comment"
+                ],
+                [
+                    "childCount",
+                    "childCount() const : int",
+                    "childCount"
+                ],
+                [
+                    "children",
+                    "children() const : QList<Attica::Comment>",
+                    "children"
+                ],
+                [
+                    "commentTypeToString",
+                    "commentTypeToString(const Attica::Comment::Type) : QString",
+                    "commentTypeToString"
+                ],
+                [
+                    "date",
+                    "date() const : QDateTime",
+                    "date"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "score",
+                    "score() const : int",
+                    "score"
+                ],
+                [
+                    "setChildCount",
+                    "setChildCount(const int)",
+                    "setChildCount"
+                ],
+                [
+                    "setChildren",
+                    "setChildren(QList<Attica::Comment>)",
+                    "setChildren"
+                ],
+                [
+                    "setDate",
+                    "setDate(const QDateTime &)",
+                    "setDate"
+                ],
+                [
+                    "setId",
+                    "setId(const QString &)",
+                    "setId"
+                ],
+                [
+                    "setScore",
+                    "setScore(const int)",
+                    "setScore"
+                ],
+                [
+                    "setSubject",
+                    "setSubject(const QString &)",
+                    "setSubject"
+                ],
+                [
+                    "setText",
+                    "setText(const QString &)",
+                    "setText"
+                ],
+                [
+                    "setUser",
+                    "setUser(const QString &)",
+                    "setUser"
+                ],
+                [
+                    "subject",
+                    "subject() const : QString",
+                    "subject"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "user",
+                    "user() const : QString",
+                    "user"
+                ]
+            ],
+            "name": "Attica::Comment",
+            "page": "attica/attica-comment",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Config",
+                    "Config()",
+                    "Config"
+                ],
+                [
+                    "contact",
+                    "contact() const : QString",
+                    "contact"
+                ],
+                [
+                    "host",
+                    "host() const : QString",
+                    "host"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "setContact",
+                    "setContact(const QString &)",
+                    "setContact"
+                ],
+                [
+                    "setHost",
+                    "setHost(const QString &)",
+                    "setHost"
+                ],
+                [
+                    "setSsl",
+                    "setSsl(bool)",
+                    "setSsl"
+                ],
+                [
+                    "setVersion",
+                    "setVersion(const QString &)",
+                    "setVersion"
+                ],
+                [
+                    "setWebsite",
+                    "setWebsite(const QString &)",
+                    "setWebsite"
+                ],
+                [
+                    "ssl",
+                    "ssl() const : bool",
+                    "ssl"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ],
+                [
+                    "website",
+                    "website() const : QString",
+                    "website"
+                ]
+            ],
+            "name": "Attica::Config",
+            "page": "attica/attica-config",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Content",
+                    "Content()",
+                    "Content"
+                ],
+                [
+                    "addAttribute",
+                    "addAttribute(const QString &, const QString &)",
+                    "addAttribute"
+                ],
+                [
+                    "attribute",
+                    "attribute(const QString &) const : QString",
+                    "attribute"
+                ],
+                [
+                    "attributes",
+                    "attributes() const : QMap<QString, QString>",
+                    "attributes"
+                ],
+                [
+                    "author",
+                    "author() const : QString",
+                    "author"
+                ],
+                [
+                    "changelog",
+                    "changelog() const : QString",
+                    "changelog"
+                ],
+                [
+                    "created",
+                    "created() const : QDateTime",
+                    "created"
+                ],
+                [
+                    "depend",
+                    "depend() const : QString",
+                    "depend"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "detailpage",
+                    "detailpage() const : QUrl",
+                    "detailpage"
+                ],
+                [
+                    "downloadUrlDescription",
+                    "downloadUrlDescription(int) const : Attica::DownloadDescription",
+                    "downloadUrlDescription"
+                ],
+                [
+                    "downloadUrlDescriptions",
+                    "downloadUrlDescriptions() const : QList<Attica::DownloadDescription>",
+                    "downloadUrlDescriptions"
+                ],
+                [
+                    "downloads",
+                    "downloads() const : int",
+                    "downloads"
+                ],
+                [
+                    "homePageEntries",
+                    "homePageEntries() : QList<Attica::HomePageEntry>",
+                    "homePageEntries"
+                ],
+                [
+                    "homePageEntry",
+                    "homePageEntry(int) const : Attica::HomePageEntry",
+                    "homePageEntry"
+                ],
+                [
+                    "icons",
+                    "icons() : QList<Attica::Icon>",
+                    "icons"
+                ],
+                [
+                    "icons",
+                    "icons() const : QList<Attica::Icon>",
+                    "icons-1"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "license",
+                    "license() const : QString",
+                    "license"
+                ],
+                [
+                    "licenseName",
+                    "licenseName() const : QString",
+                    "licenseName"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "numberOfComments",
+                    "numberOfComments() const : int",
+                    "numberOfComments"
+                ],
+                [
+                    "previewPicture",
+                    "previewPicture(const QString &) const : QString",
+                    "previewPicture"
+                ],
+                [
+                    "rating",
+                    "rating() const : int",
+                    "rating"
+                ],
+                [
+                    "setCreated",
+                    "setCreated(const QDateTime &)",
+                    "setCreated"
+                ],
+                [
+                    "setDownloads",
+                    "setDownloads(int)",
+                    "setDownloads"
+                ],
+                [
+                    "setIcons",
+                    "setIcons(QList<Attica::Icon>)",
+                    "setIcons"
+                ],
+                [
+                    "setId",
+                    "setId(const QString &)",
+                    "setId"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setNumberOfComments",
+                    "setNumberOfComments(int)",
+                    "setNumberOfComments"
+                ],
+                [
+                    "setRating",
+                    "setRating(int)",
+                    "setRating"
+                ],
+                [
+                    "setTags",
+                    "setTags(const QStringList &)",
+                    "setTags"
+                ],
+                [
+                    "setUpdated",
+                    "setUpdated(const QDateTime &)",
+                    "setUpdated"
+                ],
+                [
+                    "setVideos",
+                    "setVideos(QList<QUrl>)",
+                    "setVideos"
+                ],
+                [
+                    "smallPreviewPicture",
+                    "smallPreviewPicture(const QString &) const : QString",
+                    "smallPreviewPicture"
+                ],
+                [
+                    "summary",
+                    "summary() const : QString",
+                    "summary"
+                ],
+                [
+                    "tags",
+                    "tags() const : QStringList",
+                    "tags"
+                ],
+                [
+                    "updated",
+                    "updated() const : QDateTime",
+                    "updated"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ],
+                [
+                    "videos",
+                    "videos() : QList<QUrl>",
+                    "videos"
+                ]
+            ],
+            "name": "Attica::Content",
+            "page": "attica/attica-content",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "attica/attica-basejob"
+            ],
+            "members": [
+            ],
+            "name": "Attica::DeleteJob",
+            "page": "attica/attica-deletejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Distribution",
+                    "Distribution()",
+                    "Distribution"
+                ],
+                [
+                    "id",
+                    "id() const : uint",
+                    "id"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setId",
+                    "setId(uint)",
+                    "setId"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ]
+            ],
+            "name": "Attica::Distribution",
+            "page": "attica/attica-distribution",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DownloadDescription",
+                    "DownloadDescription()",
+                    "DownloadDescription"
+                ],
+                [
+                    "category",
+                    "category() const : QString",
+                    "category"
+                ],
+                [
+                    "distributionType",
+                    "distributionType() const : QString",
+                    "distributionType"
+                ],
+                [
+                    "gpgFingerprint",
+                    "gpgFingerprint() const : QString",
+                    "gpgFingerprint"
+                ],
+                [
+                    "gpgSignature",
+                    "gpgSignature() const : QString",
+                    "gpgSignature"
+                ],
+                [
+                    "hasPrice",
+                    "hasPrice() const : bool",
+                    "hasPrice"
+                ],
+                [
+                    "id",
+                    "id() const : int",
+                    "id"
+                ],
+                [
+                    "link",
+                    "link() const : QString",
+                    "link"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "packageName",
+                    "packageName() const : QString",
+                    "packageName"
+                ],
+                [
+                    "priceAmount",
+                    "priceAmount() const : QString",
+                    "priceAmount"
+                ],
+                [
+                    "priceReason",
+                    "priceReason() const : QString",
+                    "priceReason"
+                ],
+                [
+                    "repository",
+                    "repository() const : QString",
+                    "repository"
+                ],
+                [
+                    "setCategory",
+                    "setCategory(const QString &)",
+                    "setCategory"
+                ],
+                [
+                    "setDistributionType",
+                    "setDistributionType(const QString &)",
+                    "setDistributionType"
+                ],
+                [
+                    "setGpgFingerprint",
+                    "setGpgFingerprint(const QString &)",
+                    "setGpgFingerprint"
+                ],
+                [
+                    "setGpgSignature",
+                    "setGpgSignature(const QString &)",
+                    "setGpgSignature"
+                ],
+                [
+                    "setHasPrice",
+                    "setHasPrice(bool)",
+                    "setHasPrice"
+                ],
+                [
+                    "setId",
+                    "setId(int)",
+                    "setId"
+                ],
+                [
+                    "setLink",
+                    "setLink(const QString &)",
+                    "setLink"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setPackageName",
+                    "setPackageName(const QString &)",
+                    "setPackageName"
+                ],
+                [
+                    "setPriceAmount",
+                    "setPriceAmount(const QString &)",
+                    "setPriceAmount"
+                ],
+                [
+                    "setPriceReason",
+                    "setPriceReason(const QString &)",
+                    "setPriceReason"
+                ],
+                [
+                    "setRepository",
+                    "setRepository(const QString &)",
+                    "setRepository"
+                ],
+                [
+                    "setSize",
+                    "setSize(uint)",
+                    "setSize"
+                ],
+                [
+                    "setTags",
+                    "setTags(const QStringList &)",
+                    "setTags"
+                ],
+                [
+                    "setType",
+                    "setType(Attica::DownloadDescription::Type)",
+                    "setType"
+                ],
+                [
+                    "setVersion",
+                    "setVersion(const QString &)",
+                    "setVersion"
+                ],
+                [
+                    "size",
+                    "size() const : uint",
+                    "size"
+                ],
+                [
+                    "tags",
+                    "tags() const : QStringList",
+                    "tags"
+                ],
+                [
+                    "type",
+                    "type() const : Attica::DownloadDescription::Type",
+                    "type"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ]
+            ],
+            "name": "Attica::DownloadDescription",
+            "page": "attica/attica-downloaddescription",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DownloadItem",
+                    "DownloadItem()",
+                    "DownloadItem"
+                ],
+                [
+                    "gpgFingerprint",
+                    "gpgFingerprint() const : QString",
+                    "gpgFingerprint"
+                ],
+                [
+                    "gpgSignature",
+                    "gpgSignature() const : QString",
+                    "gpgSignature"
+                ],
+                [
+                    "mimeType",
+                    "mimeType() const : QString",
+                    "mimeType"
+                ],
+                [
+                    "packageName",
+                    "packageName() const : QString",
+                    "packageName"
+                ],
+                [
+                    "packageRepository",
+                    "packageRepository() const : QString",
+                    "packageRepository"
+                ],
+                [
+                    "setGpgFingerprint",
+                    "setGpgFingerprint(const QString &)",
+                    "setGpgFingerprint"
+                ],
+                [
+                    "setGpgSignature",
+                    "setGpgSignature(const QString &)",
+                    "setGpgSignature"
+                ],
+                [
+                    "setMimeType",
+                    "setMimeType(const QString &)",
+                    "setMimeType"
+                ],
+                [
+                    "setPackageName",
+                    "setPackageName(const QString &)",
+                    "setPackageName"
+                ],
+                [
+                    "setPackageRepository",
+                    "setPackageRepository(const QString &)",
+                    "setPackageRepository"
+                ],
+                [
+                    "setType",
+                    "setType(Attica::DownloadDescription::Type)",
+                    "setType"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &)",
+                    "setUrl"
+                ],
+                [
+                    "type",
+                    "type() : Attica::DownloadDescription::Type",
+                    "type"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ]
+            ],
+            "name": "Attica::DownloadItem",
+            "page": "attica/attica-downloaditem",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Event",
+                    "Event()",
+                    "Event"
+                ],
+                [
+                    "addExtendedAttribute",
+                    "addExtendedAttribute(const QString &, const QString &)",
+                    "addExtendedAttribute"
+                ],
+                [
+                    "city",
+                    "city() const : QString",
+                    "city"
+                ],
+                [
+                    "country",
+                    "country() const : QString",
+                    "country"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "endDate",
+                    "endDate() const : QDate",
+                    "endDate"
+                ],
+                [
+                    "extendedAttribute",
+                    "extendedAttribute(const QString &) const : QString",
+                    "extendedAttribute"
+                ],
+                [
+                    "extendedAttributes",
+                    "extendedAttributes() const : QMap<QString, QString>",
+                    "extendedAttributes"
+                ],
+                [
+                    "homepage",
+                    "homepage() const : QUrl",
+                    "homepage"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "latitude",
+                    "latitude() const : qreal",
+                    "latitude"
+                ],
+                [
+                    "longitude",
+                    "longitude() const : qreal",
+                    "longitude"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setCity",
+                    "setCity(const QString &)",
+                    "setCity"
+                ],
+                [
+                    "setCountry",
+                    "setCountry(const QString &)",
+                    "setCountry"
+                ],
+                [
+                    "setDescription",
+                    "setDescription(const QString &)",
+                    "setDescription"
+                ],
+                [
+                    "setEndDate",
+                    "setEndDate(const QDate &)",
+                    "setEndDate"
+                ],
+                [
+                    "setHomepage",
+                    "setHomepage(const QUrl &)",
+                    "setHomepage"
+                ],
+                [
+                    "setId",
+                    "setId(const QString &)",
+                    "setId"
+                ],
+                [
+                    "setLatitude",
+                    "setLatitude(qreal)",
+                    "setLatitude"
+                ],
+                [
+                    "setLongitude",
+                    "setLongitude(qreal)",
+                    "setLongitude"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setStartDate",
+                    "setStartDate(const QDate &)",
+                    "setStartDate"
+                ],
+                [
+                    "setUser",
+                    "setUser(const QString &)",
+                    "setUser"
+                ],
+                [
+                    "startDate",
+                    "startDate() const : QDate",
+                    "startDate"
+                ],
+                [
+                    "user",
+                    "user() const : QString",
+                    "user"
+                ]
+            ],
+            "name": "Attica::Event",
+            "page": "attica/attica-event",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Folder",
+                    "Folder()",
+                    "Folder"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "messageCount",
+                    "messageCount() const : int",
+                    "messageCount"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setId",
+                    "setId(const QString &)",
+                    "setId"
+                ],
+                [
+                    "setMessageCount",
+                    "setMessageCount(int)",
+                    "setMessageCount"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setType",
+                    "setType(const QString &)",
+                    "setType"
+                ],
+                [
+                    "type",
+                    "type() const : QString",
+                    "type"
+                ]
+            ],
+            "name": "Attica::Folder",
+            "page": "attica/attica-folder",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Forum",
+                    "Forum()",
+                    "Forum"
+                ],
+                [
+                    "childCount",
+                    "childCount() const : int",
+                    "childCount"
+                ],
+                [
+                    "children",
+                    "children() const : QList<Attica::Forum>",
+                    "children"
+                ],
+                [
+                    "date",
+                    "date() const : QDateTime",
+                    "date"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "icon",
+                    "icon() const : QUrl",
+                    "icon"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setChildCount",
+                    "setChildCount(const int)",
+                    "setChildCount"
+                ],
+                [
+                    "setChildren",
+                    "setChildren(QList<Attica::Forum>)",
+                    "setChildren"
+                ],
+                [
+                    "setDate",
+                    "setDate(const QDateTime &)",
+                    "setDate"
+                ],
+                [
+                    "setDescription",
+                    "setDescription(const QString &)",
+                    "setDescription"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(const QUrl &)",
+                    "setIcon"
+                ],
+                [
+                    "setId",
+                    "setId(const QString &)",
+                    "setId"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setTopics",
+                    "setTopics(const int)",
+                    "setTopics"
+                ],
+                [
+                    "topics",
+                    "topics() const : int",
+                    "topics"
+                ]
+            ],
+            "name": "Attica::Forum",
+            "page": "attica/attica-forum",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "attica/attica-basejob"
+            ],
+            "members": [
+            ],
+            "name": "Attica::GetJob",
+            "page": "attica/attica-getjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "HomePageEntry",
+                    "HomePageEntry()",
+                    "HomePageEntry"
+                ],
+                [
+                    "setType",
+                    "setType(const QString &)",
+                    "setType"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &)",
+                    "setUrl"
+                ],
+                [
+                    "type",
+                    "type() const : QString",
+                    "type"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ]
+            ],
+            "name": "Attica::HomePageEntry",
+            "page": "attica/attica-homepageentry",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "HomePageType",
+                    "HomePageType()",
+                    "HomePageType"
+                ],
+                [
+                    "id",
+                    "id() const : uint",
+                    "id"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setId",
+                    "setId(uint)",
+                    "setId"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ]
+            ],
+            "name": "Attica::HomePageType",
+            "page": "attica/attica-homepagetype",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Icon",
+                    "Icon()",
+                    "Icon"
+                ],
+                [
+                    "height",
+                    "height() const : uint",
+                    "height"
+                ],
+                [
+                    "setHeight",
+                    "setHeight(uint)",
+                    "setHeight"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &)",
+                    "setUrl"
+                ],
+                [
+                    "setWidth",
+                    "setWidth(uint)",
+                    "setWidth"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ],
+                [
+                    "width",
+                    "width() const : uint",
+                    "width"
+                ]
+            ],
+            "name": "Attica::Icon",
+            "page": "attica/attica-icon",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "attica/attica-deletejob"
+            ],
+            "members": [
+                [
+                    "result",
+                    "result() const : T",
+                    "result"
+                ]
+            ],
+            "name": "Attica::ItemDeleteJob",
+            "page": "attica/attica-itemdeletejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "attica/attica-getjob"
+            ],
+            "members": [
+                [
+                    "result",
+                    "result() const : T",
+                    "result"
+                ]
+            ],
+            "name": "Attica::ItemJob",
+            "page": "attica/attica-itemjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "attica/attica-postjob"
+            ],
+            "members": [
+                [
+                    "result",
+                    "result() const : T",
+                    "result"
+                ]
+            ],
+            "name": "Attica::ItemPostJob",
+            "page": "attica/attica-itempostjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "attica/attica-putjob"
+            ],
+            "members": [
+                [
+                    "result",
+                    "result() const : T",
+                    "result"
+                ]
+            ],
+            "name": "Attica::ItemPutJob",
+            "page": "attica/attica-itemputjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KnowledgeBaseEntry",
+                    "KnowledgeBaseEntry()",
+                    "KnowledgeBaseEntry"
+                ],
+                [
+                    "addExtendedAttribute",
+                    "addExtendedAttribute(const QString &, const QString &)",
+                    "addExtendedAttribute"
+                ],
+                [
+                    "answer",
+                    "answer() const : QString",
+                    "answer"
+                ],
+                [
+                    "changed",
+                    "changed() const : QDateTime",
+                    "changed"
+                ],
+                [
+                    "comments",
+                    "comments() const : int",
+                    "comments"
+                ],
+                [
+                    "contentId",
+                    "contentId() const : int",
+                    "contentId"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "detailPage",
+                    "detailPage() const : QUrl",
+                    "detailPage"
+                ],
+                [
+                    "extendedAttribute",
+                    "extendedAttribute(const QString &) const : QString",
+                    "extendedAttribute"
+                ],
+                [
+                    "extendedAttributes",
+                    "extendedAttributes() const : QMap<QString, QString>",
+                    "extendedAttributes"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setAnswer",
+                    "setAnswer(const QString &)",
+                    "setAnswer"
+                ],
+                [
+                    "setChanged",
+                    "setChanged(const QDateTime &)",
+                    "setChanged"
+                ],
+                [
+                    "setComments",
+                    "setComments(int)",
+                    "setComments"
+                ],
+                [
+                    "setContentId",
+                    "setContentId(int)",
+                    "setContentId"
+                ],
+                [
+                    "setDescription",
+                    "setDescription(const QString &)",
+                    "setDescription"
+                ],
+                [
+                    "setDetailPage",
+                    "setDetailPage(const QUrl &)",
+                    "setDetailPage"
+                ],
+                [
+                    "setId",
+                    "setId(QString)",
+                    "setId"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setStatus",
+                    "setStatus(const QString &)",
+                    "setStatus"
+                ],
+                [
+                    "setUser",
+                    "setUser(const QString &)",
+                    "setUser"
+                ],
+                [
+                    "status",
+                    "status() const : QString",
+                    "status"
+                ],
+                [
+                    "user",
+                    "user() const : QString",
+                    "user"
+                ]
+            ],
+            "name": "Attica::KnowledgeBaseEntry",
+            "page": "attica/attica-knowledgebaseentry",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "License",
+                    "License()",
+                    "License"
+                ],
+                [
+                    "id",
+                    "id() const : uint",
+                    "id"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setId",
+                    "setId(uint)",
+                    "setId"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &)",
+                    "setUrl"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ]
+            ],
+            "name": "Attica::License",
+            "page": "attica/attica-license",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "attica/attica-getjob"
+            ],
+            "members": [
+                [
+                    "itemList",
+                    "itemList() const : typename T::List",
+                    "itemList"
+                ]
+            ],
+            "name": "Attica::ListJob",
+            "page": "attica/attica-listjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Message",
+                    "Message()",
+                    "Message"
+                ],
+                [
+                    "body",
+                    "body() const : QString",
+                    "body"
+                ],
+                [
+                    "from",
+                    "from() const : QString",
+                    "from"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "sent",
+                    "sent() const : QDateTime",
+                    "sent"
+                ],
+                [
+                    "setBody",
+                    "setBody()",
+                    "setBody"
+                ],
+                [
+                    "setFrom",
+                    "setFrom()",
+                    "setFrom"
+                ],
+                [
+                    "setId",
+                    "setId()",
+                    "setId"
+                ],
+                [
+                    "setSent",
+                    "setSent()",
+                    "setSent"
+                ],
+                [
+                    "setStatus",
+                    "setStatus()",
+                    "setStatus"
+                ],
+                [
+                    "setSubject",
+                    "setSubject()",
+                    "setSubject"
+                ],
+                [
+                    "setTo",
+                    "setTo()",
+                    "setTo"
+                ],
+                [
+                    "status",
+                    "status() const : Attica::Message::Status",
+                    "status"
+                ],
+                [
+                    "subject",
+                    "subject() const : QString",
+                    "subject"
+                ],
+                [
+                    "to",
+                    "to() const : QString",
+                    "to"
+                ]
+            ],
+            "name": "Attica::Message",
+            "page": "attica/attica-message",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Metadata",
+                    "Metadata()",
+                    "Metadata"
+                ],
+                [
+                    "error",
+                    "error() const : Attica::Metadata::Error",
+                    "error"
+                ],
+                [
+                    "headers",
+                    "headers() const : QList<QNetworkReply::RawHeaderPair>",
+                    "headers"
+                ],
+                [
+                    "itemsPerPage",
+                    "itemsPerPage() : int",
+                    "itemsPerPage"
+                ],
+                [
+                    "message",
+                    "message() : QString",
+                    "message"
+                ],
+                [
+                    "resultingId",
+                    "resultingId() : QString",
+                    "resultingId"
+                ],
+                [
+                    "setError",
+                    "setError(Attica::Metadata::Error)",
+                    "setError"
+                ],
+                [
+                    "setHeaders",
+                    "setHeaders(const QList<QNetworkReply::RawHeaderPair> &)",
+                    "setHeaders"
+                ],
+                [
+                    "setItemsPerPage",
+                    "setItemsPerPage(int)",
+                    "setItemsPerPage"
+                ],
+                [
+                    "setMessage",
+                    "setMessage(const QString &)",
+                    "setMessage"
+                ],
+                [
+                    "setResultingId",
+                    "setResultingId(const QString &)",
+                    "setResultingId"
+                ],
+                [
+                    "setStatusCode",
+                    "setStatusCode(int)",
+                    "setStatusCode"
+                ],
+                [
+                    "setStatusString",
+                    "setStatusString(const QString &)",
+                    "setStatusString"
+                ],
+                [
+                    "setTotalItems",
+                    "setTotalItems(int)",
+                    "setTotalItems"
+                ],
+                [
+                    "statusCode",
+                    "statusCode() const : int",
+                    "statusCode"
+                ],
+                [
+                    "statusString",
+                    "statusString() const : QString",
+                    "statusString"
+                ],
+                [
+                    "totalItems",
+                    "totalItems() : int",
+                    "totalItems"
+                ]
+            ],
+            "name": "Attica::Metadata",
+            "page": "attica/attica-metadata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Person",
+                    "Person()",
+                    "Person"
+                ],
+                [
+                    "addExtendedAttribute",
+                    "addExtendedAttribute(const QString &, const QString &)",
+                    "addExtendedAttribute"
+                ],
+                [
+                    "avatarUrl",
+                    "avatarUrl() const : QUrl",
+                    "avatarUrl"
+                ],
+                [
+                    "birthday",
+                    "birthday() const : QDate",
+                    "birthday"
+                ],
+                [
+                    "city",
+                    "city() const : QString",
+                    "city"
+                ],
+                [
+                    "country",
+                    "country() const : QString",
+                    "country"
+                ],
+                [
+                    "extendedAttribute",
+                    "extendedAttribute(const QString &) const : QString",
+                    "extendedAttribute"
+                ],
+                [
+                    "extendedAttributes",
+                    "extendedAttributes() const : QMap<QString, QString>",
+                    "extendedAttributes"
+                ],
+                [
+                    "firstName",
+                    "firstName() const : QString",
+                    "firstName"
+                ],
+                [
+                    "homepage",
+                    "homepage() const : QString",
+                    "homepage"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "lastName",
+                    "lastName() const : QString",
+                    "lastName"
+                ],
+                [
+                    "latitude",
+                    "latitude() const : qreal",
+                    "latitude"
+                ],
+                [
+                    "longitude",
+                    "longitude() const : qreal",
+                    "longitude"
+                ],
+                [
+                    "setAvatarUrl",
+                    "setAvatarUrl()",
+                    "setAvatarUrl"
+                ],
+                [
+                    "setBirthday",
+                    "setBirthday()",
+                    "setBirthday"
+                ],
+                [
+                    "setCity",
+                    "setCity()",
+                    "setCity"
+                ],
+                [
+                    "setCountry",
+                    "setCountry()",
+                    "setCountry"
+                ],
+                [
+                    "setFirstName",
+                    "setFirstName()",
+                    "setFirstName"
+                ],
+                [
+                    "setHomepage",
+                    "setHomepage()",
+                    "setHomepage"
+                ],
+                [
+                    "setId",
+                    "setId()",
+                    "setId"
+                ],
+                [
+                    "setLastName",
+                    "setLastName()",
+                    "setLastName"
+                ],
+                [
+                    "setLatitude",
+                    "setLatitude()",
+                    "setLatitude"
+                ],
+                [
+                    "setLongitude",
+                    "setLongitude()",
+                    "setLongitude"
+                ]
+            ],
+            "name": "Attica::Person",
+            "page": "attica/attica-person",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "attica/attica-basejob"
+            ],
+            "members": [
+            ],
+            "name": "Attica::PostJob",
+            "page": "attica/attica-postjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "PrivateData",
+                    "PrivateData()",
+                    "PrivateData"
+                ],
+                [
+                    "attribute",
+                    "attribute(const QString &) const : QString",
+                    "attribute"
+                ],
+                [
+                    "keys",
+                    "keys() const : QStringList",
+                    "keys"
+                ],
+                [
+                    "setAttribute",
+                    "setAttribute(const QString &, const QString &)",
+                    "setAttribute"
+                ],
+                [
+                    "setTimestamp",
+                    "setTimestamp(const QString &, const QDateTime &)",
+                    "setTimestamp"
+                ],
+                [
+                    "timestamp",
+                    "timestamp(const QString &) const : QDateTime",
+                    "timestamp"
+                ]
+            ],
+            "name": "Attica::PrivateData",
+            "page": "attica/attica-privatedata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Project",
+                    "Project()",
+                    "Project"
+                ],
+                [
+                    "addExtendedAttribute",
+                    "addExtendedAttribute(const QString &, const QString &)",
+                    "addExtendedAttribute"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "developers",
+                    "developers() const : QStringList",
+                    "developers"
+                ],
+                [
+                    "extendedAttribute",
+                    "extendedAttribute(const QString &) const : QString",
+                    "extendedAttribute"
+                ],
+                [
+                    "extendedAttributes",
+                    "extendedAttributes() const : QMap<QString, QString>",
+                    "extendedAttributes"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "license",
+                    "license() const : QString",
+                    "license"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "requirements",
+                    "requirements() const : QString",
+                    "requirements"
+                ],
+                [
+                    "setDescription",
+                    "setDescription()",
+                    "setDescription"
+                ],
+                [
+                    "setDevelopers",
+                    "setDevelopers()",
+                    "setDevelopers"
+                ],
+                [
+                    "setId",
+                    "setId()",
+                    "setId"
+                ],
+                [
+                    "setLicense",
+                    "setLicense()",
+                    "setLicense"
+                ],
+                [
+                    "setName",
+                    "setName()",
+                    "setName"
+                ],
+                [
+                    "setRequirements",
+                    "setRequirements()",
+                    "setRequirements"
+                ],
+                [
+                    "setSpecFile",
+                    "setSpecFile()",
+                    "setSpecFile"
+                ],
+                [
+                    "setSummary",
+                    "setSummary()",
+                    "setSummary"
+                ],
+                [
+                    "setUrl",
+                    "setUrl()",
+                    "setUrl"
+                ],
+                [
+                    "setVersion",
+                    "setVersion()",
+                    "setVersion"
+                ],
+                [
+                    "specFile",
+                    "specFile() const : QString",
+                    "specFile"
+                ],
+                [
+                    "summary",
+                    "summary() const : QString",
+                    "summary"
+                ],
+                [
+                    "url",
+                    "url() const : QString",
+                    "url"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ]
+            ],
+            "name": "Attica::Project",
+            "page": "attica/attica-project",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Provider",
+                    "Provider()",
+                    "Provider"
+                ],
+                [
+                    "achievementServiceVersion",
+                    "achievementServiceVersion() const : QString",
+                    "achievementServiceVersion"
+                ],
+                [
+                    "activityServiceVersion",
+                    "activityServiceVersion() const : QString",
+                    "activityServiceVersion"
+                ],
+                [
+                    "addNewAchievement",
+                    "addNewAchievement(const QString &, const Attica::Achievement &) : Attica::ItemPostJob<Attica::Achievement> *",
+                    "addNewAchievement"
+                ],
+                [
+                    "addNewComment",
+                    "addNewComment(const Attica::Comment::Type, const QString &, const QString &, const QString &, const QString &, const QString &) : Attica::ItemPostJob<Attica::Comment> *",
+                    "addNewComment"
+                ],
+                [
+                    "addNewContent",
+                    "addNewContent(const Attica::Category &, const Attica::Content &) : Attica::ItemPostJob<Attica::Content> *",
+                    "addNewContent"
+                ],
+                [
+                    "additionalAgentInformation",
+                    "additionalAgentInformation() const : QString",
+                    "additionalAgentInformation"
+                ],
+                [
+                    "approveFriendship",
+                    "approveFriendship(const QString &) : Attica::PostJob *",
+                    "approveFriendship"
+                ],
+                [
+                    "baseUrl",
+                    "baseUrl() const : QUrl",
+                    "baseUrl"
+                ],
+                [
+                    "becomeFan",
+                    "becomeFan(const QString &) : Attica::PostJob *",
+                    "becomeFan"
+                ],
+                [
+                    "cancelBuildServiceJob",
+                    "cancelBuildServiceJob(const Attica::BuildServiceJob &) : Attica::PostJob *",
+                    "cancelBuildServiceJob"
+                ],
+                [
+                    "cancelFriendship",
+                    "cancelFriendship(const QString &) : Attica::PostJob *",
+                    "cancelFriendship"
+                ],
+                [
+                    "checkLogin",
+                    "checkLogin(const QString &, const QString &) : Attica::PostJob *",
+                    "checkLogin"
+                ],
+                [
+                    "commentServiceVersion",
+                    "commentServiceVersion() const : QString",
+                    "commentServiceVersion"
+                ],
+                [
+                    "contentServiceVersion",
+                    "contentServiceVersion() const : QString",
+                    "contentServiceVersion"
+                ],
+                [
+                    "createBuildServiceJob",
+                    "createBuildServiceJob(const Attica::BuildServiceJob &) : Attica::PostJob *",
+                    "createBuildServiceJob"
+                ],
+                [
+                    "createProject",
+                    "createProject(const Attica::Project &) : Attica::PostJob *",
+                    "createProject"
+                ],
+                [
+                    "createRemoteAccount",
+                    "createRemoteAccount(const Attica::RemoteAccount &) : Attica::PostJob *",
+                    "createRemoteAccount"
+                ],
+                [
+                    "declineFriendship",
+                    "declineFriendship(const QString &) : Attica::PostJob *",
+                    "declineFriendship"
+                ],
+                [
+                    "deleteAchievement",
+                    "deleteAchievement(const QString &, const QString &) : Attica::DeleteJob *",
+                    "deleteAchievement"
+                ],
+                [
+                    "deleteContent",
+                    "deleteContent(const QString &) : Attica::PostJob *",
+                    "deleteContent"
+                ],
+                [
+                    "deleteDownloadFile",
+                    "deleteDownloadFile(const QString &) : Attica::PostJob *",
+                    "deleteDownloadFile"
+                ],
+                [
+                    "deletePreviewImage",
+                    "deletePreviewImage(const QString &, const QString &) : Attica::PostJob *",
+                    "deletePreviewImage"
+                ],
+                [
+                    "deleteProject",
+                    "deleteProject(const Attica::Project &) : Attica::PostJob *",
+                    "deleteProject"
+                ],
+                [
+                    "deleteRemoteAccount",
+                    "deleteRemoteAccount(const QString &) : Attica::PostJob *",
+                    "deleteRemoteAccount"
+                ],
+                [
+                    "downloadLink",
+                    "downloadLink(const QString &, const QString &) : Attica::ItemJob<Attica::DownloadItem> *",
+                    "downloadLink"
+                ],
+                [
+                    "editAchievement",
+                    "editAchievement(const QString &, const QString &, const Attica::Achievement &) : Attica::PutJob *",
+                    "editAchievement"
+                ],
+                [
+                    "editContent",
+                    "editContent(const Attica::Category &, const QString &, const Attica::Content &) : Attica::ItemPostJob<Attica::Content> *",
+                    "editContent"
+                ],
+                [
+                    "editProject",
+                    "editProject(const Attica::Project &) : Attica::PostJob *",
+                    "editProject"
+                ],
+                [
+                    "editRemoteAccount",
+                    "editRemoteAccount(const Attica::RemoteAccount &) : Attica::PostJob *",
+                    "editRemoteAccount"
+                ],
+                [
+                    "fanServiceVersion",
+                    "fanServiceVersion() const : QString",
+                    "fanServiceVersion"
+                ],
+                [
+                    "forumServiceVersion",
+                    "forumServiceVersion() const : QString",
+                    "forumServiceVersion"
+                ],
+                [
+                    "friendServiceVersion",
+                    "friendServiceVersion() const : QString",
+                    "friendServiceVersion"
+                ],
+                [
+                    "getRegisterAccountUrl",
+                    "getRegisterAccountUrl() const : const QString &",
+                    "getRegisterAccountUrl"
+                ],
+                [
+                    "hasAchievementService",
+                    "hasAchievementService() const : bool",
+                    "hasAchievementService"
+                ],
+                [
+                    "hasActivityService",
+                    "hasActivityService() const : bool",
+                    "hasActivityService"
+                ],
+                [
+                    "hasCommentService",
+                    "hasCommentService() const : bool",
+                    "hasCommentService"
+                ],
+                [
+                    "hasContentService",
+                    "hasContentService() const : bool",
+                    "hasContentService"
+                ],
+                [
+                    "hasCredentials",
+                    "hasCredentials() const : bool",
+                    "hasCredentials"
+                ],
+                [
+                    "hasFanService",
+                    "hasFanService() const : bool",
+                    "hasFanService"
+                ],
+                [
+                    "hasForumService",
+                    "hasForumService() const : bool",
+                    "hasForumService"
+                ],
+                [
+                    "hasFriendService",
+                    "hasFriendService() const : bool",
+                    "hasFriendService"
+                ],
+                [
+                    "hasKnowledgebaseService",
+                    "hasKnowledgebaseService() const : bool",
+                    "hasKnowledgebaseService"
+                ],
+                [
+                    "hasMessageService",
+                    "hasMessageService() const : bool",
+                    "hasMessageService"
+                ],
+                [
+                    "hasPersonService",
+                    "hasPersonService() const : bool",
+                    "hasPersonService"
+                ],
+                [
+                    "icon",
+                    "icon() const : QUrl",
+                    "icon"
+                ],
+                [
+                    "inviteFriend",
+                    "inviteFriend(const QString &, const QString &) : Attica::PostJob *",
+                    "inviteFriend"
+                ],
+                [
+                    "isEnabled",
+                    "isEnabled() const : bool",
+                    "isEnabled"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "knowledgebaseServiceVersion",
+                    "knowledgebaseServiceVersion() const : QString",
+                    "knowledgebaseServiceVersion"
+                ],
+                [
+                    "loadCredentials",
+                    "loadCredentials(QString &, QString &) : bool",
+                    "loadCredentials"
+                ],
+                [
+                    "messageServiceVersion",
+                    "messageServiceVersion() const : QString",
+                    "messageServiceVersion"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "personServiceVersion",
+                    "personServiceVersion() const : QString",
+                    "personServiceVersion"
+                ],
+                [
+                    "postActivity",
+                    "postActivity(const QString &) : Attica::PostJob *",
+                    "postActivity"
+                ],
+                [
+                    "postLocation",
+                    "postLocation(qreal, qreal, const QString &, const QString &) : Attica::PostJob *",
+                    "postLocation"
+                ],
+                [
+                    "postMessage",
+                    "postMessage(const Attica::Message &) : Attica::PostJob *",
+                    "postMessage"
+                ],
+                [
+                    "postTopic",
+                    "postTopic(const QString &, const QString &, const QString &) : Attica::PostJob *",
+                    "postTopic"
+                ],
+                [
+                    "publishBuildJob",
+                    "publishBuildJob(const Attica::BuildServiceJob &, const Attica::Publisher &) : Attica::PostJob *",
+                    "publishBuildJob"
+                ],
+                [
+                    "registerAccount",
+                    "registerAccount(const QString &, const QString &, const QString &, const QString &, const QString &) : Attica::PostJob *",
+                    "registerAccount"
+                ],
+                [
+                    "requestAccountBalance",
+                    "requestAccountBalance() : Attica::ItemJob<Attica::AccountBalance> *",
+                    "requestAccountBalance"
+                ],
+                [
+                    "requestAchievements",
+                    "requestAchievements(const QString &, const QString &, const QString &) : Attica::ListJob<Attica::Achievement> *",
+                    "requestAchievements"
+                ],
+                [
+                    "requestActivities",
+                    "requestActivities() : Attica::ListJob<Attica::Activity> *",
+                    "requestActivities"
+                ],
+                [
+                    "requestBuildService",
+                    "requestBuildService(const QString &) : Attica::ItemJob<Attica::BuildService> *",
+                    "requestBuildService"
+                ],
+                [
+                    "requestBuildServiceJob",
+                    "requestBuildServiceJob(const QString &) : Attica::ItemJob<Attica::BuildServiceJob> *",
+                    "requestBuildServiceJob"
+                ],
+                [
+                    "requestBuildServiceJobOutput",
+                    "requestBuildServiceJobOutput(const QString &) : Attica::ItemJob<Attica::BuildServiceJobOutput> *",
+                    "requestBuildServiceJobOutput"
+                ],
+                [
+                    "requestBuildServiceJobs",
+                    "requestBuildServiceJobs(const Attica::Project &) : Attica::ListJob<Attica::BuildServiceJob> *",
+                    "requestBuildServiceJobs"
+                ],
+                [
+                    "requestBuildServices",
+                    "requestBuildServices() : Attica::ListJob<Attica::BuildService> *",
+                    "requestBuildServices"
+                ],
+                [
+                    "requestCategories",
+                    "requestCategories() : Attica::ListJob<Attica::Category> *",
+                    "requestCategories"
+                ],
+                [
+                    "requestComments",
+                    "requestComments(const Attica::Comment::Type, const QString &, const QString &, int, int) : Attica::ListJob<Attica::Comment> *",
+                    "requestComments"
+                ],
+                [
+                    "requestConfig",
+                    "requestConfig() : Attica::ItemJob<Attica::Config> *",
+                    "requestConfig"
+                ],
+                [
+                    "requestContent",
+                    "requestContent(const QString &) : Attica::ItemJob<Attica::Content> *",
+                    "requestContent"
+                ],
+                [
+                    "requestDistributions",
+                    "requestDistributions() : Attica::ListJob<Attica::Distribution> *",
+                    "requestDistributions"
+                ],
+                [
+                    "requestEvent",
+                    "requestEvent(const QString &) : Attica::ItemJob<Attica::Event> *",
+                    "requestEvent"
+                ],
+                [
+                    "requestEvent",
+                    "requestEvent(const QString &, const QString &, const QDate &, Attica::Provider::SortMode, int, int) : Attica::ListJob<Attica::Event> *",
+                    "requestEvent-1"
+                ],
+                [
+                    "requestFans",
+                    "requestFans(const QString &, uint, uint) : Attica::ListJob<Attica::Person> *",
+                    "requestFans"
+                ],
+                [
+                    "requestFolders",
+                    "requestFolders() : Attica::ListJob<Attica::Folder> *",
+                    "requestFolders"
+                ],
+                [
+                    "requestForums",
+                    "requestForums(uint, uint) : Attica::ListJob<Attica::Forum> *",
+                    "requestForums"
+                ],
+                [
+                    "requestFriends",
+                    "requestFriends(const QString &, int, int) : Attica::ListJob<Attica::Person> *",
+                    "requestFriends"
+                ],
+                [
+                    "requestHomePageTypes",
+                    "requestHomePageTypes() : Attica::ListJob<Attica::HomePageType> *",
+                    "requestHomePageTypes"
+                ],
+                [
+                    "requestKnowledgeBaseEntry",
+                    "requestKnowledgeBaseEntry(const QString &) : Attica::ItemJob<Attica::KnowledgeBaseEntry> *",
+                    "requestKnowledgeBaseEntry"
+                ],
+                [
+                    "requestLicenses",
+                    "requestLicenses() : Attica::ListJob<Attica::License> *",
+                    "requestLicenses"
+                ],
+                [
+                    "requestMessage",
+                    "requestMessage(const Attica::Folder &, const QString &) : Attica::ItemJob<Attica::Message> *",
+                    "requestMessage"
+                ],
+                [
+                    "requestMessages",
+                    "requestMessages(const Attica::Folder &) : Attica::ListJob<Attica::Message> *",
+                    "requestMessages"
+                ],
+                [
+                    "requestMessages",
+                    "requestMessages(const Attica::Folder &, Attica::Message::Status) : Attica::ListJob<Attica::Message> *",
+                    "requestMessages-1"
+                ],
+                [
+                    "requestPerson",
+                    "requestPerson(const QString &) : Attica::ItemJob<Attica::Person> *",
+                    "requestPerson"
+                ],
+                [
+                    "requestPersonSearchByLocation",
+                    "requestPersonSearchByLocation(qreal, qreal, qreal, int, int) : Attica::ListJob<Attica::Person> *",
+                    "requestPersonSearchByLocation"
+                ],
+                [
+                    "requestPersonSearchByName",
+                    "requestPersonSearchByName(const QString &) : Attica::ListJob<Attica::Person> *",
+                    "requestPersonSearchByName"
+                ],
+                [
+                    "requestPersonSelf",
+                    "requestPersonSelf() : Attica::ItemJob<Attica::Person> *",
+                    "requestPersonSelf"
+                ],
+                [
+                    "requestPrivateData",
+                    "requestPrivateData() : Attica::ItemJob<Attica::PrivateData> *",
+                    "requestPrivateData"
+                ],
+                [
+                    "requestPrivateData",
+                    "requestPrivateData(const QString &, const QString &) : Attica::ItemJob<Attica::PrivateData> *",
+                    "requestPrivateData-1"
+                ],
+                [
+                    "requestProject",
+                    "requestProject(const QString &) : Attica::ItemJob<Attica::Project> *",
+                    "requestProject"
+                ],
+                [
+                    "requestProjects",
+                    "requestProjects() : Attica::ListJob<Attica::Project> *",
+                    "requestProjects"
+                ],
+                [
+                    "requestPublisher",
+                    "requestPublisher(const QString &) : Attica::ItemJob<Attica::Publisher> *",
+                    "requestPublisher"
+                ],
+                [
+                    "requestPublishers",
+                    "requestPublishers() : Attica::ListJob<Attica::Publisher> *",
+                    "requestPublishers"
+                ],
+                [
+                    "requestReceivedInvitations",
+                    "requestReceivedInvitations(int, int) : Attica::ListJob<Attica::Person> *",
+                    "requestReceivedInvitations"
+                ],
+                [
+                    "requestRemoteAccount",
+                    "requestRemoteAccount(const QString &) : Attica::ItemJob<Attica::RemoteAccount> *",
+                    "requestRemoteAccount"
+                ],
+                [
+                    "requestRemoteAccounts",
+                    "requestRemoteAccounts() : Attica::ListJob<Attica::RemoteAccount> *",
+                    "requestRemoteAccounts"
+                ],
+                [
+                    "requestSentInvitations",
+                    "requestSentInvitations(int, int) : Attica::ListJob<Attica::Person> *",
+                    "requestSentInvitations"
+                ],
+                [
+                    "requestTopics",
+                    "requestTopics(const QString &, const QString &, const QString &, Attica::Provider::SortMode, int, int) : Attica::ListJob<Attica::Topic> *",
+                    "requestTopics"
+                ],
+                [
+                    "resetAchievementProgress",
+                    "resetAchievementProgress(const QString &) : Attica::DeleteJob *",
+                    "resetAchievementProgress"
+                ],
+                [
+                    "saveCredentials",
+                    "saveCredentials(const QString &, const QString &) : bool",
+                    "saveCredentials"
+                ],
+                [
+                    "savePublisherField",
+                    "savePublisherField(const Attica::Project &, const Attica::PublisherField &) : Attica::PostJob *",
+                    "savePublisherField"
+                ],
+                [
+                    "searchContents",
+                    "searchContents(const Category::List &, const QString &, Attica::Provider::SortMode, uint, uint) : Attica::ListJob<Attica::Content> *",
+                    "searchContents"
+                ],
+                [
+                    "searchContents",
+                    "searchContents(const Category::List &, const QString &, const Distribution::List &, const License::List &, const QString &, Attica::Provider::SortMode, uint, uint) : Attica::ListJob<Attica::Content> *",
+                    "searchContents-1"
+                ],
+                [
+                    "searchContentsByPerson",
+                    "searchContentsByPerson(const Category::List &, const QString &, const QString &, Attica::Provider::SortMode, uint, uint) : Attica::ListJob<Attica::Content> *",
+                    "searchContentsByPerson"
+                ],
+                [
+                    "searchKnowledgeBase",
+                    "searchKnowledgeBase(const Attica::Content &, const QString &, int, int) : Attica::ListJob<Attica::KnowledgeBaseEntry> *",
+                    "searchKnowledgeBase"
+                ],
+                [
+                    "setAchievementProgress",
+                    "setAchievementProgress(const QString &, const QVariant &, const QDateTime &) : Attica::PostJob *",
+                    "setAchievementProgress"
+                ],
+                [
+                    "setAdditionalAgentInformation",
+                    "setAdditionalAgentInformation(const QString &)",
+                    "setAdditionalAgentInformation"
+                ],
+                [
+                    "setDownloadFile",
+                    "setDownloadFile(const QString &, const QString &, QIODevice *) : Attica::PostJob *",
+                    "setDownloadFile"
+                ],
+                [
+                    "setDownloadFile",
+                    "setDownloadFile(const QString &, const QString &, const QByteArray &) : Attica::PostJob *",
+                    "setDownloadFile-1"
+                ],
+                [
+                    "setEnabled",
+                    "setEnabled(bool)",
+                    "setEnabled"
+                ],
+                [
+                    "setPreviewImage",
+                    "setPreviewImage(const QString &, const QString &, const QString &, const QByteArray &) : Attica::PostJob *",
+                    "setPreviewImage"
+                ],
+                [
+                    "setPrivateData",
+                    "setPrivateData(const QString &, const QString &, const QString &) : Attica::PostJob *",
+                    "setPrivateData"
+                ],
+                [
+                    "uploadTarballToBuildService",
+                    "uploadTarballToBuildService(const QString &, const QString &, const QByteArray &) : Attica::PostJob *",
+                    "uploadTarballToBuildService"
+                ],
+                [
+                    "voteForComment",
+                    "voteForComment(const QString &, uint) : Attica::PostJob *",
+                    "voteForComment"
+                ],
+                [
+                    "voteForContent",
+                    "voteForContent(const QString &, uint) : Attica::PostJob *",
+                    "voteForContent"
+                ]
+            ],
+            "name": "Attica::Provider",
+            "page": "attica/attica-provider",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ProviderManager",
+                    "ProviderManager(const Attica::ProviderManager::ProviderFlags &)",
+                    "ProviderManager"
+                ],
+                [
+                    "addProviderFile",
+                    "addProviderFile(const QUrl &)",
+                    "addProviderFile"
+                ],
+                [
+                    "addProviderFileToDefaultProviders",
+                    "addProviderFileToDefaultProviders(const QUrl &)",
+                    "addProviderFileToDefaultProviders"
+                ],
+                [
+                    "addProviderFromXml",
+                    "addProviderFromXml(const QString &)",
+                    "addProviderFromXml"
+                ],
+                [
+                    "authenticationCredentialsMissing",
+                    "authenticationCredentialsMissing(const Attica::Provider &)",
+                    "authenticationCredentialsMissing"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "contains",
+                    "contains(const QUrl &) const : bool",
+                    "contains"
+                ],
+                [
+                    "defaultProviderFiles",
+                    "defaultProviderFiles() : QList<QUrl>",
+                    "defaultProviderFiles"
+                ],
+                [
+                    "defaultProvidersLoaded",
+                    "defaultProvidersLoaded()",
+                    "defaultProvidersLoaded"
+                ],
+                [
+                    "failedToLoad",
+                    "failedToLoad(const QUrl &, QNetworkReply::NetworkError)",
+                    "failedToLoad"
+                ],
+                [
+                    "loadDefaultProviders",
+                    "loadDefaultProviders()",
+                    "loadDefaultProviders"
+                ],
+                [
+                    "providerAdded",
+                    "providerAdded(const Attica::Provider &)",
+                    "providerAdded"
+                ],
+                [
+                    "providerByUrl",
+                    "providerByUrl(const QUrl &) const : Attica::Provider",
+                    "providerByUrl"
+                ],
+                [
+                    "providerFiles",
+                    "providerFiles() const : QList<QUrl>",
+                    "providerFiles"
+                ],
+                [
+                    "providerFor",
+                    "providerFor(const QUrl &) const : Attica::Provider",
+                    "providerFor"
+                ],
+                [
+                    "providers",
+                    "providers() const : QList<Attica::Provider>",
+                    "providers"
+                ],
+                [
+                    "removeProviderFileFromDefaultProviders",
+                    "removeProviderFileFromDefaultProviders(const QUrl &)",
+                    "removeProviderFileFromDefaultProviders"
+                ],
+                [
+                    "setAuthenticationSuppressed",
+                    "setAuthenticationSuppressed(bool)",
+                    "setAuthenticationSuppressed"
+                ]
+            ],
+            "name": "Attica::ProviderManager",
+            "page": "attica/attica-providermanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Publisher",
+                    "Publisher()",
+                    "Publisher"
+                ],
+                [
+                    "addField",
+                    "addField()",
+                    "addField"
+                ],
+                [
+                    "addTarget",
+                    "addTarget()",
+                    "addTarget"
+                ],
+                [
+                    "fields",
+                    "fields() const : QList<Attica::Field>",
+                    "fields"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setId",
+                    "setId()",
+                    "setId"
+                ],
+                [
+                    "setName",
+                    "setName()",
+                    "setName"
+                ],
+                [
+                    "setUrl",
+                    "setUrl()",
+                    "setUrl"
+                ],
+                [
+                    "targets",
+                    "targets() const : QList<Attica::Target>",
+                    "targets"
+                ],
+                [
+                    "url",
+                    "url() const : QString",
+                    "url"
+                ]
+            ],
+            "name": "Attica::Publisher",
+            "page": "attica/attica-publisher",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "PublisherField",
+                    "PublisherField()",
+                    "PublisherField"
+                ],
+                [
+                    "data",
+                    "data() const : QString",
+                    "data"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setData",
+                    "setData(const QString &)",
+                    "setData"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setType",
+                    "setType(const QString &)",
+                    "setType"
+                ],
+                [
+                    "type",
+                    "type() const : QString",
+                    "type"
+                ]
+            ],
+            "name": "Attica::PublisherField",
+            "page": "attica/attica-publisherfield",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "attica/attica-basejob"
+            ],
+            "members": [
+            ],
+            "name": "Attica::PutJob",
+            "page": "attica/attica-putjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "RemoteAccount",
+                    "RemoteAccount()",
+                    "RemoteAccount"
+                ],
+                [
+                    "data",
+                    "data() const : QString",
+                    "data"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "login",
+                    "login() const : QString",
+                    "login"
+                ],
+                [
+                    "password",
+                    "password() const : QString",
+                    "password"
+                ],
+                [
+                    "remoteServiceId",
+                    "remoteServiceId() const : QString",
+                    "remoteServiceId"
+                ],
+                [
+                    "setData",
+                    "setData()",
+                    "setData"
+                ],
+                [
+                    "setId",
+                    "setId()",
+                    "setId"
+                ],
+                [
+                    "setLogin",
+                    "setLogin()",
+                    "setLogin"
+                ],
+                [
+                    "setPassword",
+                    "setPassword()",
+                    "setPassword"
+                ],
+                [
+                    "setRemoteServiceId",
+                    "setRemoteServiceId()",
+                    "setRemoteServiceId"
+                ],
+                [
+                    "setType",
+                    "setType()",
+                    "setType"
+                ],
+                [
+                    "type",
+                    "type() const : QString",
+                    "type"
+                ]
+            ],
+            "name": "Attica::RemoteAccount",
+            "page": "attica/attica-remoteaccount",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Topic",
+                    "Topic()",
+                    "Topic"
+                ],
+                [
+                    "comments",
+                    "comments() const : int",
+                    "comments"
+                ],
+                [
+                    "content",
+                    "content() const : QString",
+                    "content"
+                ],
+                [
+                    "date",
+                    "date() const : QDateTime",
+                    "date"
+                ],
+                [
+                    "forumId",
+                    "forumId() const : QString",
+                    "forumId"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "setComments",
+                    "setComments(const int)",
+                    "setComments"
+                ],
+                [
+                    "setContent",
+                    "setContent(const QString &)",
+                    "setContent"
+                ],
+                [
+                    "setDate",
+                    "setDate(const QDateTime &)",
+                    "setDate"
+                ],
+                [
+                    "setForumId",
+                    "setForumId(const QString &)",
+                    "setForumId"
+                ],
+                [
+                    "setId",
+                    "setId(const QString &)",
+                    "setId"
+                ],
+                [
+                    "setSubject",
+                    "setSubject(const QString &)",
+                    "setSubject"
+                ],
+                [
+                    "setUser",
+                    "setUser(const QString &)",
+                    "setUser"
+                ],
+                [
+                    "subject",
+                    "subject() const : QString",
+                    "subject"
+                ],
+                [
+                    "user",
+                    "user() const : QString",
+                    "user"
+                ]
+            ],
+            "name": "Attica::Topic",
+            "page": "attica/attica-topic",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "attica",
+    "sections": [
+        {
+            "description": "Open Collaboration Service client library.",
+            "page": "attica/attica-module",
+            "pages": [
+                [
+                    "attica/attica-module",
+                    "Attica C++ Classes"
+                ],
+                [
+                    "attica/attica-accountbalance",
+                    "Attica::AccountBalance"
+                ],
+                [
+                    "attica/attica-achievement",
+                    "Attica::Achievement"
+                ],
+                [
+                    "attica/attica-activity",
+                    "Attica::Activity"
+                ],
+                [
+                    "attica/attica-basejob",
+                    "Attica::BaseJob"
+                ],
+                [
+                    "attica/attica-buildservice",
+                    "Attica::BuildService"
+                ],
+                [
+                    "attica/attica-buildservicejob",
+                    "Attica::BuildServiceJob"
+                ],
+                [
+                    "attica/attica-buildservicejoboutput",
+                    "Attica::BuildServiceJobOutput"
+                ],
+                [
+                    "attica/attica-category",
+                    "Attica::Category"
+                ],
+                [
+                    "attica/attica-cloud",
+                    "Attica::Cloud"
+                ],
+                [
+                    "attica/attica-comment",
+                    "Attica::Comment"
+                ],
+                [
+                    "attica/attica-config",
+                    "Attica::Config"
+                ],
+                [
+                    "attica/attica-content",
+                    "Attica::Content"
+                ],
+                [
+                    "attica/attica-deletejob",
+                    "Attica::DeleteJob"
+                ],
+                [
+                    "attica/attica-distribution",
+                    "Attica::Distribution"
+                ],
+                [
+                    "attica/attica-downloaddescription",
+                    "Attica::DownloadDescription"
+                ],
+                [
+                    "attica/attica-downloaditem",
+                    "Attica::DownloadItem"
+                ],
+                [
+                    "attica/attica-event",
+                    "Attica::Event"
+                ],
+                [
+                    "attica/attica-folder",
+                    "Attica::Folder"
+                ],
+                [
+                    "attica/attica-forum",
+                    "Attica::Forum"
+                ],
+                [
+                    "attica/attica-getjob",
+                    "Attica::GetJob"
+                ],
+                [
+                    "attica/attica-homepageentry",
+                    "Attica::HomePageEntry"
+                ],
+                [
+                    "attica/attica-homepagetype",
+                    "Attica::HomePageType"
+                ],
+                [
+                    "attica/attica-icon",
+                    "Attica::Icon"
+                ],
+                [
+                    "attica/attica-itemdeletejob",
+                    "Attica::ItemDeleteJob"
+                ],
+                [
+                    "attica/attica-itemjob",
+                    "Attica::ItemJob"
+                ],
+                [
+                    "attica/attica-itempostjob",
+                    "Attica::ItemPostJob"
+                ],
+                [
+                    "attica/attica-itemputjob",
+                    "Attica::ItemPutJob"
+                ],
+                [
+                    "attica/attica-knowledgebaseentry",
+                    "Attica::KnowledgeBaseEntry"
+                ],
+                [
+                    "attica/attica-license",
+                    "Attica::License"
+                ],
+                [
+                    "attica/attica-listjob",
+                    "Attica::ListJob"
+                ],
+                [
+                    "attica/attica-message",
+                    "Attica::Message"
+                ],
+                [
+                    "attica/attica-metadata",
+                    "Attica::Metadata"
+                ],
+                [
+                    "attica/attica-person",
+                    "Attica::Person"
+                ],
+                [
+                    "attica/attica-postjob",
+                    "Attica::PostJob"
+                ],
+                [
+                    "attica/attica-privatedata",
+                    "Attica::PrivateData"
+                ],
+                [
+                    "attica/attica-project",
+                    "Attica::Project"
+                ],
+                [
+                    "attica/attica-provider",
+                    "Attica::Provider"
+                ],
+                [
+                    "attica/attica-providermanager",
+                    "Attica::ProviderManager"
+                ],
+                [
+                    "attica/attica-publisher",
+                    "Attica::Publisher"
+                ],
+                [
+                    "attica/attica-publisherfield",
+                    "Attica::PublisherField"
+                ],
+                [
+                    "attica/attica-putjob",
+                    "Attica::PutJob"
+                ],
+                [
+                    "attica/attica-remoteaccount",
+                    "Attica::RemoteAccount"
+                ],
+                [
+                    "attica/attica-topic",
+                    "Attica::Topic"
+                ],
+                [
+                    "attica/attica",
+                    "Attica Namespace"
+                ],
+                [
+                    "attica/attica-field",
+                    ""
+                ],
+                [
+                    "attica/attica-index",
+                    "Attica"
+                ],
+                [
+                    "attica/attica-target",
+                    ""
+                ]
+            ],
+            "qml": false,
+            "title": "Attica C++ Classes"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "classes": [
+    ],
+    "module": "kcrash",
+    "sections": [
+        {
+            "description": "Crash handling.",
+            "page": "kcrash/kcrash-module",
+            "pages": [
+                [
+                    "kcrash/kcrash-module",
+                    "KCrash C++ Classes"
+                ],
+                [
+                    "kcrash/kcrash",
+                    "KCrash Namespace"
+                ],
+                [
+                    "kcrash/kcrash-index",
+                    "KCrash"
+                ]
+            ],
+            "qml": false,
+            "title": "KCrash C++ Classes"
+        }
+    ]
+}

@@ -1,0 +1,1565 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "accept",
+                    "accept(const Syndication::DocumentSource &) const : bool",
+                    "accept"
+                ],
+                [
+                    "format",
+                    "format() const : QString",
+                    "format"
+                ],
+                [
+                    "parse",
+                    "parse(const Syndication::DocumentSource &) const : Syndication::SpecificDocumentPtr",
+                    "parse"
+                ]
+            ],
+            "name": "Syndication::AbstractParser",
+            "page": "syndication/syndication-abstractparser",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "syndication/syndication-elementwrapper"
+            ],
+            "members": [
+                [
+                    "Category",
+                    "Category()",
+                    "Category"
+                ],
+                [
+                    "Category",
+                    "Category(const QDomElement &)",
+                    "Category-1"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "label",
+                    "label() const : QString",
+                    "label"
+                ],
+                [
+                    "scheme",
+                    "scheme() const : QString",
+                    "scheme"
+                ],
+                [
+                    "term",
+                    "term() const : QString",
+                    "term"
+                ]
+            ],
+            "name": "Syndication::Atom::Category",
+            "page": "syndication/syndication-atom-category",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "syndication/syndication-elementwrapper"
+            ],
+            "members": [
+                [
+                    "Content",
+                    "Content()",
+                    "Content"
+                ],
+                [
+                    "Content",
+                    "Content(const QDomElement &)",
+                    "Content-1"
+                ],
+                [
+                    "Content",
+                    "Content(const Syndication::Atom::Content &)",
+                    "Content-2"
+                ],
+                [
+                    "asByteArray",
+                    "asByteArray() const : QByteArray",
+                    "asByteArray"
+                ],
+                [
+                    "asString",
+                    "asString() const : QString",
+                    "asString"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "format",
+                    "format() const : Syndication::Atom::Content::Format",
+                    "format"
+                ],
+                [
+                    "isBinary",
+                    "isBinary() const : bool",
+                    "isBinary"
+                ],
+                [
+                    "isContained",
+                    "isContained() const : bool",
+                    "isContained"
+                ],
+                [
+                    "isEscapedHTML",
+                    "isEscapedHTML() const : bool",
+                    "isEscapedHTML"
+                ],
+                [
+                    "isPlainText",
+                    "isPlainText() const : bool",
+                    "isPlainText"
+                ],
+                [
+                    "isXML",
+                    "isXML() const : bool",
+                    "isXML"
+                ],
+                [
+                    "mapTypeToFormat",
+                    "mapTypeToFormat(const QString &, const QString &) : Syndication::Atom::Content::Format",
+                    "mapTypeToFormat"
+                ],
+                [
+                    "src",
+                    "src() const : QString",
+                    "src"
+                ],
+                [
+                    "type",
+                    "type() const : QString",
+                    "type"
+                ],
+                [
+                    "operator=",
+                    "operator=(const Syndication::Atom::Content &) : Syndication::Atom::Content &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "Syndication::Atom::Content",
+            "page": "syndication/syndication-atom-content",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "syndication/syndication-elementwrapper",
+                "syndication/syndication-specificitem"
+            ],
+            "members": [
+                [
+                    "Entry",
+                    "Entry()",
+                    "Entry"
+                ],
+                [
+                    "Entry",
+                    "Entry(const QDomElement &)",
+                    "Entry-1"
+                ],
+                [
+                    "accept",
+                    "accept(Syndication::SpecificItemVisitor *) : bool",
+                    "accept"
+                ],
+                [
+                    "authors",
+                    "authors() const : QList<Syndication::Atom::Person>",
+                    "authors"
+                ],
+                [
+                    "categories",
+                    "categories() const : QList<Syndication::Atom::Category>",
+                    "categories"
+                ],
+                [
+                    "content",
+                    "content() const : Syndication::Atom::Content",
+                    "content"
+                ],
+                [
+                    "contributors",
+                    "contributors() const : QList<Syndication::Atom::Person>",
+                    "contributors"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "links",
+                    "links() const : QList<Syndication::Atom::Link>",
+                    "links"
+                ],
+                [
+                    "published",
+                    "published() const : time_t",
+                    "published"
+                ],
+                [
+                    "rights",
+                    "rights() const : QString",
+                    "rights"
+                ],
+                [
+                    "setFeedAuthors",
+                    "setFeedAuthors(const QList<Syndication::Atom::Person> &)",
+                    "setFeedAuthors"
+                ],
+                [
+                    "source",
+                    "source() const : Syndication::Atom::Source",
+                    "source"
+                ],
+                [
+                    "summary",
+                    "summary() const : QString",
+                    "summary"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "unhandledElements",
+                    "unhandledElements() const : QList<QDomElement>",
+                    "unhandledElements"
+                ],
+                [
+                    "updated",
+                    "updated() const : time_t",
+                    "updated"
+                ]
+            ],
+            "name": "Syndication::Atom::Entry",
+            "page": "syndication/syndication-atom-entry",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "syndication/syndication-specificdocument",
+                "syndication/syndication-elementwrapper"
+            ],
+            "members": [
+                [
+                    "EntryDocument",
+                    "EntryDocument()",
+                    "EntryDocument"
+                ],
+                [
+                    "EntryDocument",
+                    "EntryDocument(const QDomElement &)",
+                    "EntryDocument-1"
+                ],
+                [
+                    "accept",
+                    "accept(Syndication::DocumentVisitor *) : bool",
+                    "accept"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "entry",
+                    "entry() const : Syndication::Atom::Entry",
+                    "entry"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ]
+            ],
+            "name": "Syndication::Atom::EntryDocument",
+            "page": "syndication/syndication-atom-entrydocument",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "syndication/syndication-specificdocument",
+                "syndication/syndication-elementwrapper"
+            ],
+            "members": [
+                [
+                    "FeedDocument",
+                    "FeedDocument()",
+                    "FeedDocument"
+                ],
+                [
+                    "FeedDocument",
+                    "FeedDocument(const QDomElement &)",
+                    "FeedDocument-1"
+                ],
+                [
+                    "accept",
+                    "accept(Syndication::DocumentVisitor *) : bool",
+                    "accept"
+                ],
+                [
+                    "authors",
+                    "authors() const : QList<Syndication::Atom::Person>",
+                    "authors"
+                ],
+                [
+                    "categories",
+                    "categories() const : QList<Syndication::Atom::Category>",
+                    "categories"
+                ],
+                [
+                    "contributors",
+                    "contributors() const : QList<Syndication::Atom::Person>",
+                    "contributors"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "entries",
+                    "entries() const : QList<Syndication::Atom::Entry>",
+                    "entries"
+                ],
+                [
+                    "generator",
+                    "generator() const : Syndication::Atom::Generator",
+                    "generator"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "links",
+                    "links() const : QList<Syndication::Atom::Link>",
+                    "links"
+                ],
+                [
+                    "logo",
+                    "logo() const : QString",
+                    "logo"
+                ],
+                [
+                    "rights",
+                    "rights() const : QString",
+                    "rights"
+                ],
+                [
+                    "subtitle",
+                    "subtitle() const : QString",
+                    "subtitle"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "unhandledElements",
+                    "unhandledElements() const : QList<QDomElement>",
+                    "unhandledElements"
+                ],
+                [
+                    "updated",
+                    "updated() const : time_t",
+                    "updated"
+                ]
+            ],
+            "name": "Syndication::Atom::FeedDocument",
+            "page": "syndication/syndication-atom-feeddocument",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "syndication/syndication-elementwrapper"
+            ],
+            "members": [
+                [
+                    "Generator",
+                    "Generator()",
+                    "Generator"
+                ],
+                [
+                    "Generator",
+                    "Generator(const QDomElement &)",
+                    "Generator-1"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "uri",
+                    "uri() const : QString",
+                    "uri"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ]
+            ],
+            "name": "Syndication::Atom::Generator",
+            "page": "syndication/syndication-atom-generator",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "syndication/syndication-elementwrapper"
+            ],
+            "members": [
+                [
+                    "Link",
+                    "Link()",
+                    "Link"
+                ],
+                [
+                    "Link",
+                    "Link(const QDomElement &)",
+                    "Link-1"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "href",
+                    "href() const : QString",
+                    "href"
+                ],
+                [
+                    "hrefLanguage",
+                    "hrefLanguage() const : QString",
+                    "hrefLanguage"
+                ],
+                [
+                    "length",
+                    "length() const : uint",
+                    "length"
+                ],
+                [
+                    "rel",
+                    "rel() const : QString",
+                    "rel"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "type",
+                    "type() const : QString",
+                    "type"
+                ]
+            ],
+            "name": "Syndication::Atom::Link",
+            "page": "syndication/syndication-atom-link",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "syndication/syndication-abstractparser"
+            ],
+            "members": [
+                [
+                    "Parser",
+                    "Parser()",
+                    "Parser"
+                ],
+                [
+                    "accept",
+                    "accept(const Syndication::DocumentSource &) const : bool",
+                    "accept"
+                ],
+                [
+                    "format",
+                    "format() const : QString",
+                    "format"
+                ],
+                [
+                    "parse",
+                    "parse(const Syndication::DocumentSource &) const : Syndication::SpecificDocumentPtr",
+                    "parse"
+                ]
+            ],
+            "name": "Syndication::Atom::Parser",
+            "page": "syndication/syndication-atom-parser",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "syndication/syndication-elementwrapper"
+            ],
+            "members": [
+                [
+                    "Person",
+                    "Person()",
+                    "Person"
+                ],
+                [
+                    "Person",
+                    "Person(const QDomElement &)",
+                    "Person-1"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "email",
+                    "email() const : QString",
+                    "email"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "uri",
+                    "uri() const : QString",
+                    "uri"
+                ]
+            ],
+            "name": "Syndication::Atom::Person",
+            "page": "syndication/syndication-atom-person",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "syndication/syndication-elementwrapper"
+            ],
+            "members": [
+                [
+                    "Source",
+                    "Source()",
+                    "Source"
+                ],
+                [
+                    "Source",
+                    "Source(const QDomElement &)",
+                    "Source-1"
+                ],
+                [
+                    "authors",
+                    "authors() const : QList<Syndication::Atom::Person>",
+                    "authors"
+                ],
+                [
+                    "categories",
+                    "categories() const : QList<Syndication::Atom::Category>",
+                    "categories"
+                ],
+                [
+                    "contributors",
+                    "contributors() const : QList<Syndication::Atom::Person>",
+                    "contributors"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "generator",
+                    "generator() const : Syndication::Atom::Generator",
+                    "generator"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "links",
+                    "links() const : QList<Syndication::Atom::Link>",
+                    "links"
+                ],
+                [
+                    "logo",
+                    "logo() const : QString",
+                    "logo"
+                ],
+                [
+                    "rights",
+                    "rights() const : QString",
+                    "rights"
+                ],
+                [
+                    "subtitle",
+                    "subtitle() const : QString",
+                    "subtitle"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "updated",
+                    "updated() const : time_t",
+                    "updated"
+                ]
+            ],
+            "name": "Syndication::Atom::Source",
+            "page": "syndication/syndication-atom-source",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "label",
+                    "label() const : QString",
+                    "label"
+                ],
+                [
+                    "scheme",
+                    "scheme() const : QString",
+                    "scheme"
+                ],
+                [
+                    "term",
+                    "term() const : QString",
+                    "term"
+                ]
+            ],
+            "name": "Syndication::Category",
+            "page": "syndication/syndication-category",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DataRetriever",
+                    "DataRetriever()",
+                    "DataRetriever"
+                ],
+                [
+                    "abort",
+                    "abort()",
+                    "abort"
+                ],
+                [
+                    "dataRetrieved",
+                    "dataRetrieved(const QByteArray &, bool)",
+                    "dataRetrieved"
+                ],
+                [
+                    "errorCode",
+                    "errorCode() const : int",
+                    "errorCode"
+                ],
+                [
+                    "retrieveData",
+                    "retrieveData(const QUrl &)",
+                    "retrieveData"
+                ]
+            ],
+            "name": "Syndication::DataRetriever",
+            "page": "syndication/syndication-dataretriever",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DocumentSource",
+                    "DocumentSource()",
+                    "DocumentSource"
+                ],
+                [
+                    "DocumentSource",
+                    "DocumentSource(const QByteArray &, const QString &)",
+                    "DocumentSource-2"
+                ],
+                [
+                    "DocumentSource",
+                    "DocumentSource(const Syndication::DocumentSource &)",
+                    "DocumentSource-1"
+                ],
+                [
+                    "asByteArray",
+                    "asByteArray() const : QByteArray",
+                    "asByteArray"
+                ],
+                [
+                    "asDomDocument",
+                    "asDomDocument() const : QDomDocument",
+                    "asDomDocument"
+                ],
+                [
+                    "hash",
+                    "hash() const : unsigned int",
+                    "hash"
+                ],
+                [
+                    "size",
+                    "size() const : unsigned int",
+                    "size"
+                ],
+                [
+                    "url",
+                    "url() const : QString",
+                    "url"
+                ],
+                [
+                    "operator=",
+                    "operator=(const Syndication::DocumentSource &) : Syndication::DocumentSource &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "Syndication::DocumentSource",
+            "page": "syndication/syndication-documentsource",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "visit",
+                    "visit(Syndication::SpecificDocument *) : bool",
+                    "visit"
+                ],
+                [
+                    "visitAtomEntryDocument",
+                    "visitAtomEntryDocument(Syndication::Atom::EntryDocument *) : bool",
+                    "visitAtomEntryDocument"
+                ],
+                [
+                    "visitAtomFeedDocument",
+                    "visitAtomFeedDocument(Syndication::Atom::FeedDocument *) : bool",
+                    "visitAtomFeedDocument"
+                ],
+                [
+                    "visitRDFDocument",
+                    "visitRDFDocument(Syndication::RDF::Document *) : bool",
+                    "visitRDFDocument"
+                ],
+                [
+                    "visitRSS2Document",
+                    "visitRSS2Document(Syndication::RSS2::Document *) : bool",
+                    "visitRSS2Document"
+                ]
+            ],
+            "name": "Syndication::DocumentVisitor",
+            "page": "syndication/syndication-documentvisitor",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ElementWrapper",
+                    "ElementWrapper()",
+                    "ElementWrapper"
+                ],
+                [
+                    "ElementWrapper",
+                    "ElementWrapper(const QDomElement &)",
+                    "ElementWrapper-1"
+                ],
+                [
+                    "ElementWrapper",
+                    "ElementWrapper(const Syndication::ElementWrapper &)",
+                    "ElementWrapper-2"
+                ],
+                [
+                    "attribute",
+                    "attribute(const QString &, const QString &) const : QString",
+                    "attribute"
+                ],
+                [
+                    "attributeNS",
+                    "attributeNS(const QString &, const QString &, const QString &) const : QString",
+                    "attributeNS"
+                ],
+                [
+                    "childNodesAsXML",
+                    "childNodesAsXML() const : QString",
+                    "childNodesAsXML"
+                ],
+                [
+                    "childNodesAsXML",
+                    "childNodesAsXML(const QDomElement &) : QString",
+                    "childNodesAsXML-1"
+                ],
+                [
+                    "completeURI",
+                    "completeURI(const QString &) const : QString",
+                    "completeURI"
+                ],
+                [
+                    "element",
+                    "element() const : const QDomElement &",
+                    "element"
+                ],
+                [
+                    "elementsByTagName",
+                    "elementsByTagName(const QString &) const : QList<QDomElement>",
+                    "elementsByTagName"
+                ],
+                [
+                    "elementsByTagNameNS",
+                    "elementsByTagNameNS(const QString &, const QString &) const : QList<QDomElement>",
+                    "elementsByTagNameNS"
+                ],
+                [
+                    "extractElementText",
+                    "extractElementText(const QString &) const : QString",
+                    "extractElementText"
+                ],
+                [
+                    "extractElementTextNS",
+                    "extractElementTextNS(const QString &, const QString &) const : QString",
+                    "extractElementTextNS"
+                ],
+                [
+                    "firstElementByTagNameNS",
+                    "firstElementByTagNameNS(const QString &, const QString &) const : QDomElement",
+                    "firstElementByTagNameNS"
+                ],
+                [
+                    "hasAttribute",
+                    "hasAttribute(const QString &) const : bool",
+                    "hasAttribute"
+                ],
+                [
+                    "hasAttributeNS",
+                    "hasAttributeNS(const QString &, const QString &) const : bool",
+                    "hasAttributeNS"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "xmlBase",
+                    "xmlBase() const : QString",
+                    "xmlBase"
+                ],
+                [
+                    "xmlLang",
+                    "xmlLang() const : QString",
+                    "xmlLang"
+                ],
+                [
+                    "operator=",
+                    "operator=(const Syndication::ElementWrapper &) : Syndication::ElementWrapper &",
+                    "operator-eq"
+                ],
+                [
+                    "operator==",
+                    "operator==(const Syndication::ElementWrapper &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "Syndication::ElementWrapper",
+            "page": "syndication/syndication-elementwrapper",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "duration",
+                    "duration() const : uint",
+                    "duration"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "length",
+                    "length() const : uint",
+                    "length"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "type",
+                    "type() const : QString",
+                    "type"
+                ],
+                [
+                    "url",
+                    "url() const : QString",
+                    "url"
+                ]
+            ],
+            "name": "Syndication::Enclosure",
+            "page": "syndication/syndication-enclosure",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "additionalProperties",
+                    "additionalProperties() const : QMultiMap<QString, QDomElement>",
+                    "additionalProperties"
+                ],
+                [
+                    "authors",
+                    "authors() const : QList<Syndication::PersonPtr>",
+                    "authors"
+                ],
+                [
+                    "categories",
+                    "categories() const : QList<Syndication::CategoryPtr>",
+                    "categories"
+                ],
+                [
+                    "copyright",
+                    "copyright() const : QString",
+                    "copyright"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "icon",
+                    "icon() const : Syndication::ImagePtr",
+                    "icon"
+                ],
+                [
+                    "image",
+                    "image() const : Syndication::ImagePtr",
+                    "image"
+                ],
+                [
+                    "items",
+                    "items() const : QList<Syndication::ItemPtr>",
+                    "items"
+                ],
+                [
+                    "language",
+                    "language() const : QString",
+                    "language"
+                ],
+                [
+                    "link",
+                    "link() const : QString",
+                    "link"
+                ],
+                [
+                    "specificDocument",
+                    "specificDocument() const : Syndication::SpecificDocumentPtr",
+                    "specificDocument"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ]
+            ],
+            "name": "Syndication::Feed",
+            "page": "syndication/syndication-feed",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "height",
+                    "height() const : uint",
+                    "height"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "link",
+                    "link() const : QString",
+                    "link"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "url",
+                    "url() const : QString",
+                    "url"
+                ],
+                [
+                    "width",
+                    "width() const : uint",
+                    "width"
+                ]
+            ],
+            "name": "Syndication::Image",
+            "page": "syndication/syndication-image",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "additionalProperties",
+                    "additionalProperties() const : QMultiMap<QString, QDomElement>",
+                    "additionalProperties"
+                ],
+                [
+                    "authors",
+                    "authors() const : QList<Syndication::PersonPtr>",
+                    "authors"
+                ],
+                [
+                    "categories",
+                    "categories() const : QList<Syndication::CategoryPtr>",
+                    "categories"
+                ],
+                [
+                    "commentPostUri",
+                    "commentPostUri() const : QString",
+                    "commentPostUri"
+                ],
+                [
+                    "commentsCount",
+                    "commentsCount() const : int",
+                    "commentsCount"
+                ],
+                [
+                    "commentsFeed",
+                    "commentsFeed() const : QString",
+                    "commentsFeed"
+                ],
+                [
+                    "commentsLink",
+                    "commentsLink() const : QString",
+                    "commentsLink"
+                ],
+                [
+                    "content",
+                    "content() const : QString",
+                    "content"
+                ],
+                [
+                    "datePublished",
+                    "datePublished() const : time_t",
+                    "datePublished"
+                ],
+                [
+                    "dateUpdated",
+                    "dateUpdated() const : time_t",
+                    "dateUpdated"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "enclosures",
+                    "enclosures() const : QList<Syndication::EnclosurePtr>",
+                    "enclosures"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "language",
+                    "language() const : QString",
+                    "language"
+                ],
+                [
+                    "link",
+                    "link() const : QString",
+                    "link"
+                ],
+                [
+                    "specificItem",
+                    "specificItem() const : Syndication::SpecificItemPtr",
+                    "specificItem"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ]
+            ],
+            "name": "Syndication::Item",
+            "page": "syndication/syndication-item",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "abort",
+                    "abort()",
+                    "abort"
+                ],
+                [
+                    "create",
+                    "create() : Syndication::Loader *",
+                    "create"
+                ],
+                [
+                    "create",
+                    "create(QObject *, const char *) : Syndication::Loader *",
+                    "create-1"
+                ],
+                [
+                    "discoveredFeedURL",
+                    "discoveredFeedURL() const : QUrl",
+                    "discoveredFeedURL"
+                ],
+                [
+                    "errorCode",
+                    "errorCode() const : Syndication::ErrorCode",
+                    "errorCode"
+                ],
+                [
+                    "loadFrom",
+                    "loadFrom(const QUrl &, Syndication::DataRetriever *)",
+                    "loadFrom"
+                ],
+                [
+                    "loadingComplete",
+                    "loadingComplete(Syndication::Loader *, Syndication::FeedPtr, Syndication::ErrorCode)",
+                    "loadingComplete"
+                ],
+                [
+                    "retrieverError",
+                    "retrieverError() const : int",
+                    "retrieverError"
+                ]
+            ],
+            "name": "Syndication::Loader",
+            "page": "syndication/syndication-loader",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "map",
+                    "map(Syndication::SpecificDocumentPtr) const : QSharedPointer<T>",
+                    "map"
+                ]
+            ],
+            "name": "Syndication::Mapper",
+            "page": "syndication/syndication-mapper",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "changeMapper",
+                    "changeMapper(const QString &, Syndication::Mapper<T> *)",
+                    "changeMapper"
+                ],
+                [
+                    "lastError",
+                    "lastError() const : Syndication::ErrorCode",
+                    "lastError"
+                ],
+                [
+                    "parse",
+                    "parse(const Syndication::DocumentSource &, const QString &) : QSharedPointer<T>",
+                    "parse"
+                ],
+                [
+                    "registerParser",
+                    "registerParser(Syndication::AbstractParser *, Syndication::Mapper<T> *) : bool",
+                    "registerParser"
+                ]
+            ],
+            "name": "Syndication::ParserCollection",
+            "page": "syndication/syndication-parsercollection",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "email",
+                    "email() const : QString",
+                    "email"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "uri",
+                    "uri() const : QString",
+                    "uri"
+                ],
+                [
+                    "operator==",
+                    "operator==(const Syndication::Person &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "Syndication::Person",
+            "page": "syndication/syndication-person",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "accept",
+                    "accept(Syndication::DocumentVisitor *) : bool",
+                    "accept"
+                ],
+                [
+                    "debugInfo",
+                    "debugInfo() const : QString",
+                    "debugInfo"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ]
+            ],
+            "name": "Syndication::SpecificDocument",
+            "page": "syndication/syndication-specificdocument",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "accept",
+                    "accept(Syndication::SpecificItemVisitor *) : bool",
+                    "accept"
+                ]
+            ],
+            "name": "Syndication::SpecificItem",
+            "page": "syndication/syndication-specificitem",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "visit",
+                    "visit(Syndication::SpecificItem *) : bool",
+                    "visit"
+                ],
+                [
+                    "visitAtomEntry",
+                    "visitAtomEntry(Syndication::Atom::Entry *) : bool",
+                    "visitAtomEntry"
+                ],
+                [
+                    "visitRDFItem",
+                    "visitRDFItem(Syndication::RDF::Item *) : bool",
+                    "visitRDFItem"
+                ],
+                [
+                    "visitRSS2Item",
+                    "visitRSS2Item(Syndication::RSS2::Item *) : bool",
+                    "visitRSS2Item"
+                ]
+            ],
+            "name": "Syndication::SpecificItemVisitor",
+            "page": "syndication/syndication-specificitemvisitor",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "syndication",
+    "sections": [
+        {
+            "description": "RSS/Atom parser library.",
+            "page": "syndication/syndication-module",
+            "pages": [
+                [
+                    "syndication/syndication-module",
+                    "Syndication C++ Classes"
+                ],
+                [
+                    "syndication/syndication-abstractparser",
+                    "Syndication::AbstractParser"
+                ],
+                [
+                    "syndication/syndication-atom-category",
+                    "Syndication::Atom::Category"
+                ],
+                [
+                    "syndication/syndication-atom-content",
+                    "Syndication::Atom::Content"
+                ],
+                [
+                    "syndication/syndication-atom-entry",
+                    "Syndication::Atom::Entry"
+                ],
+                [
+                    "syndication/syndication-atom-entrydocument",
+                    "Syndication::Atom::EntryDocument"
+                ],
+                [
+                    "syndication/syndication-atom-feeddocument",
+                    "Syndication::Atom::FeedDocument"
+                ],
+                [
+                    "syndication/syndication-atom-generator",
+                    "Syndication::Atom::Generator"
+                ],
+                [
+                    "syndication/syndication-atom-link",
+                    "Syndication::Atom::Link"
+                ],
+                [
+                    "syndication/syndication-atom-parser",
+                    "Syndication::Atom::Parser"
+                ],
+                [
+                    "syndication/syndication-atom-person",
+                    "Syndication::Atom::Person"
+                ],
+                [
+                    "syndication/syndication-atom-source",
+                    "Syndication::Atom::Source"
+                ],
+                [
+                    "syndication/syndication-category",
+                    "Syndication::Category"
+                ],
+                [
+                    "syndication/syndication-dataretriever",
+                    "Syndication::DataRetriever"
+                ],
+                [
+                    "syndication/syndication-documentsource",
+                    "Syndication::DocumentSource"
+                ],
+                [
+                    "syndication/syndication-documentvisitor",
+                    "Syndication::DocumentVisitor"
+                ],
+                [
+                    "syndication/syndication-elementwrapper",
+                    "Syndication::ElementWrapper"
+                ],
+                [
+                    "syndication/syndication-enclosure",
+                    "Syndication::Enclosure"
+                ],
+                [
+                    "syndication/syndication-feed",
+                    "Syndication::Feed"
+                ],
+                [
+                    "syndication/syndication-image",
+                    "Syndication::Image"
+                ],
+                [
+                    "syndication/syndication-item",
+                    "Syndication::Item"
+                ],
+                [
+                    "syndication/syndication-loader",
+                    "Syndication::Loader"
+                ],
+                [
+                    "syndication/syndication-mapper",
+                    "Syndication::Mapper"
+                ],
+                [
+                    "syndication/syndication-parsercollection",
+                    "Syndication::ParserCollection"
+                ],
+                [
+                    "syndication/syndication-person",
+                    "Syndication::Person"
+                ],
+                [
+                    "syndication/syndication-specificdocument",
+                    "Syndication::SpecificDocument"
+                ],
+                [
+                    "syndication/syndication-specificitem",
+                    "Syndication::SpecificItem"
+                ],
+                [
+                    "syndication/syndication-specificitemvisitor",
+                    "Syndication::SpecificItemVisitor"
+                ],
+                [
+                    "syndication/syndication",
+                    "Syndication Namespace"
+                ],
+                [
+                    "syndication/syndication-atom",
+                    "Syndication::Atom Namespace"
+                ],
+                [
+                    "syndication/syndication-index",
+                    "Syndication"
+                ]
+            ],
+            "qml": false,
+            "title": "Syndication C++ Classes"
+        }
+    ]
+}

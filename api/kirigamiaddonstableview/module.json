@@ -1,0 +1,55 @@
+{
+    "classes": [
+    ],
+    "module": "kirigamiaddonstableview",
+    "sections": [
+        {
+            "description": "QML types for creating table views.",
+            "page": "kirigamiaddonstableview/org-kde-kirigamiaddons-tableview-qmlmodule",
+            "pages": [
+                [
+                    "kirigamiaddonstableview/org-kde-kirigamiaddons-tableview-qmlmodule",
+                    "Kirigami Addons TableView QML Types"
+                ],
+                [
+                    "kirigamiaddonstableview/qml-org-kde-kirigamiaddons-tableview-abstractheadercomponent",
+                    "AbstractHeaderComponent"
+                ],
+                [
+                    "kirigamiaddonstableview/qml-org-kde-kirigamiaddons-tableview-abstracttable",
+                    "AbstractTable"
+                ],
+                [
+                    "kirigamiaddonstableview/qml-org-kde-kirigamiaddons-tableview-headercomponent",
+                    "HeaderComponent"
+                ],
+                [
+                    "kirigamiaddonstableview/qml-org-kde-kirigamiaddons-tableview-headerdelegate",
+                    "HeaderDelegate"
+                ],
+                [
+                    "kirigamiaddonstableview/qml-org-kde-kirigamiaddons-tableview-ktableview",
+                    "KTableView"
+                ],
+                [
+                    "kirigamiaddonstableview/qml-org-kde-kirigamiaddons-tableview-listcelldelegate",
+                    "ListCellDelegate"
+                ],
+                [
+                    "kirigamiaddonstableview/qml-org-kde-kirigamiaddons-tableview-listrowdelegate",
+                    "ListRowDelegate"
+                ],
+                [
+                    "kirigamiaddonstableview/qml-org-kde-kirigamiaddons-tableview-listtableview",
+                    "ListTableView"
+                ],
+                [
+                    "kirigamiaddonstableview/qml-org-kde-kirigamiaddons-tableview-tablecelldelegate",
+                    "TableCellDelegate"
+                ]
+            ],
+            "qml": true,
+            "title": "Kirigami Addons TableView QML Types"
+        }
+    ]
+}

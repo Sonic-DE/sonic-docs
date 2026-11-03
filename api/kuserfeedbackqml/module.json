@@ -1,0 +1,83 @@
+{
+    "classes": [
+    ],
+    "module": "kuserfeedbackqml",
+    "sections": [
+        {
+            "description": "Framework for collecting feedback from application users via telemetry and targeted surveys.",
+            "page": "kuserfeedbackqml/org-kde-userfeedback-qmlmodule",
+            "pages": [
+                [
+                    "kuserfeedbackqml/org-kde-userfeedback-qmlmodule",
+                    "KUserFeedback QML Types"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-abstractdatasource",
+                    "AbstractDataSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-applicationversionsource",
+                    "ApplicationVersionSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-auditloguicontroller",
+                    "AuditLogUiController"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-compilerinfosource",
+                    "CompilerInfoSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-cpuinfosource",
+                    "CpuInfoSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-feedbackconfiguicontroller",
+                    "FeedbackConfigUiController"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-localeinfosource",
+                    "LocaleInfoSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-openglinfosource",
+                    "OpenGLInfoSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-platforminfosource",
+                    "PlatformInfoSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-propertyratiosource",
+                    "PropertyRatioSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-propertysource",
+                    "PropertySource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-qpainfosource",
+                    "QPAInfoSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-qtversionsource",
+                    "QtVersionSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-screeninfosource",
+                    "ScreenInfoSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-startcountsource",
+                    "StartCountSource"
+                ],
+                [
+                    "kuserfeedbackqml/qml-org-kde-userfeedback-usagetimesource",
+                    "UsageTimeSource"
+                ]
+            ],
+            "qml": true,
+            "title": "KUserFeedback QML Types"
+        }
+    ]
+}

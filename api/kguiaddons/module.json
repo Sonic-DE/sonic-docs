@@ -1,0 +1,683 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KColorCollection",
+                    "KColorCollection(const QString &)",
+                    "KColorCollection-1"
+                ],
+                [
+                    "KColorCollection",
+                    "KColorCollection()",
+                    "KColorCollection"
+                ],
+                [
+                    "~KColorCollection",
+                    "~KColorCollection()",
+                    "dtor.KColorCollection"
+                ],
+                [
+                    "addColor",
+                    "addColor(const QColor &, const QString &) : int",
+                    "addColor"
+                ],
+                [
+                    "changeColor",
+                    "changeColor(const QColor &, const QColor &, const QString &) : int",
+                    "changeColor"
+                ],
+                [
+                    "changeColor",
+                    "changeColor(int, const QColor &, const QString &) : int",
+                    "changeColor-1"
+                ],
+                [
+                    "color",
+                    "color(int) const : QColor",
+                    "color"
+                ],
+                [
+                    "count",
+                    "count() const : int",
+                    "count"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "editable",
+                    "editable() const : KColorCollection::Editable",
+                    "editable"
+                ],
+                [
+                    "findColor",
+                    "findColor(const QColor &) const : int",
+                    "findColor"
+                ],
+                [
+                    "installedCollections",
+                    "installedCollections() : QStringList",
+                    "installedCollections"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "name",
+                    "name(const QColor &) const : QString",
+                    "name-1"
+                ],
+                [
+                    "name",
+                    "name(int) const : QString",
+                    "name-2"
+                ],
+                [
+                    "save",
+                    "save() : bool",
+                    "save"
+                ],
+                [
+                    "setDescription",
+                    "setDescription(const QString &)",
+                    "setDescription"
+                ],
+                [
+                    "setEditable",
+                    "setEditable(KColorCollection::Editable)",
+                    "setEditable"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "operator=",
+                    "operator=() : KColorCollection &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KColorCollection",
+            "page": "kguiaddons/kcolorcollection",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KColorSchemeWatcher",
+                    "KColorSchemeWatcher(QObject *)",
+                    "KColorSchemeWatcher"
+                ],
+                [
+                    "systemPreference",
+                    "systemPreference() const : KColorSchemeWatcher::ColorPreference",
+                    "systemPreference"
+                ],
+                [
+                    "systemPreferenceChanged",
+                    "systemPreferenceChanged()",
+                    "systemPreferenceChanged"
+                ]
+            ],
+            "name": "KColorSchemeWatcher",
+            "page": "kguiaddons/kcolorschemewatcher",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCountryFlagEmojiIconEngine",
+                    "KCountryFlagEmojiIconEngine(const QString &)",
+                    "KCountryFlagEmojiIconEngine"
+                ],
+                [
+                    "isNull",
+                    "isNull() : bool",
+                    "isNull"
+                ],
+                [
+                    "setGlobalDefaultFont",
+                    "setGlobalDefaultFont(const QFont &)",
+                    "setGlobalDefaultFont"
+                ]
+            ],
+            "name": "KCountryFlagEmojiIconEngine",
+            "page": "kguiaddons/kcountryflagemojiiconengine",
+            "qtBases": [
+                [
+                    "QIconEngine",
+                    "https://doc.qt.io/qt-6/qiconengine-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCursorSaver",
+                    "KCursorSaver(Qt::CursorShape)",
+                    "KCursorSaver"
+                ],
+                [
+                    "~KCursorSaver",
+                    "~KCursorSaver()",
+                    "dtor.KCursorSaver"
+                ],
+                [
+                    "restoreCursor",
+                    "restoreCursor()",
+                    "restoreCursor"
+                ]
+            ],
+            "name": "KCursorSaver",
+            "page": "kguiaddons/kcursorsaver",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "fixup",
+                    "fixup(QString &) const",
+                    "fixup"
+                ],
+                [
+                    "validate",
+                    "validate(QString &, int &) const : QValidator::State",
+                    "validate"
+                ]
+            ],
+            "name": "KDateValidator",
+            "page": "kguiaddons/kdatevalidator",
+            "qtBases": [
+                [
+                    "QValidator",
+                    "https://doc.qt.io/qt-6/qvalidator-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "currentKeySequence",
+                    "currentKeySequence : QKeySequence",
+                    "currentKeySequence-prop"
+                ],
+                [
+                    "isRecording",
+                    "isRecording : bool",
+                    "isRecording-prop"
+                ],
+                [
+                    "multiKeyShortcutsAllowed",
+                    "multiKeyShortcutsAllowed : bool",
+                    "multiKeyShortcutsAllowed-prop"
+                ],
+                [
+                    "patterns",
+                    "patterns : Patterns",
+                    "patterns-prop"
+                ],
+                [
+                    "window",
+                    "window : QWindow*",
+                    "window-prop"
+                ],
+                [
+                    "KKeySequenceRecorder",
+                    "KKeySequenceRecorder(QWindow *, QObject *)",
+                    "KKeySequenceRecorder"
+                ],
+                [
+                    "cancelRecording",
+                    "cancelRecording()",
+                    "cancelRecording"
+                ],
+                [
+                    "gotKeySequence",
+                    "gotKeySequence(const QKeySequence &)",
+                    "gotKeySequence"
+                ],
+                [
+                    "startRecording",
+                    "startRecording()",
+                    "startRecording"
+                ]
+            ],
+            "name": "KKeySequenceRecorder",
+            "page": "kguiaddons/kkeysequencerecorder",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KModifierKeyInfo",
+                    "KModifierKeyInfo(QObject *)",
+                    "KModifierKeyInfo"
+                ],
+                [
+                    "buttonPressed",
+                    "buttonPressed(Qt::MouseButton, bool)",
+                    "buttonPressed"
+                ],
+                [
+                    "isButtonPressed",
+                    "isButtonPressed(Qt::MouseButton) const : bool",
+                    "isButtonPressed"
+                ],
+                [
+                    "isKeyLatched",
+                    "isKeyLatched(Qt::Key) const : bool",
+                    "isKeyLatched"
+                ],
+                [
+                    "isKeyLocked",
+                    "isKeyLocked(Qt::Key) const : bool",
+                    "isKeyLocked"
+                ],
+                [
+                    "isKeyPressed",
+                    "isKeyPressed(Qt::Key) const : bool",
+                    "isKeyPressed"
+                ],
+                [
+                    "keyAdded",
+                    "keyAdded(Qt::Key)",
+                    "keyAdded"
+                ],
+                [
+                    "keyLatched",
+                    "keyLatched(Qt::Key, bool)",
+                    "keyLatched"
+                ],
+                [
+                    "keyLocked",
+                    "keyLocked(Qt::Key, bool)",
+                    "keyLocked"
+                ],
+                [
+                    "keyPressed",
+                    "keyPressed(Qt::Key, bool)",
+                    "keyPressed"
+                ],
+                [
+                    "keyRemoved",
+                    "keyRemoved(Qt::Key)",
+                    "keyRemoved"
+                ],
+                [
+                    "knownKeys",
+                    "knownKeys() const : const QList<Qt::Key>",
+                    "knownKeys"
+                ],
+                [
+                    "knowsKey",
+                    "knowsKey(Qt::Key) const : bool",
+                    "knowsKey"
+                ],
+                [
+                    "setKeyLatched",
+                    "setKeyLatched(Qt::Key, bool) : bool",
+                    "setKeyLatched"
+                ],
+                [
+                    "setKeyLocked",
+                    "setKeyLocked(Qt::Key, bool) : bool",
+                    "setKeyLocked"
+                ]
+            ],
+            "name": "KModifierKeyInfo",
+            "page": "kguiaddons/kmodifierkeyinfo",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KSharedPixmapCacheMixin",
+                    "KSharedPixmapCacheMixin(const QString &, unsigned int, unsigned int)",
+                    "KSharedPixmapCacheMixin"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "findImage",
+                    "findImage(const QString &, QImage *) const : bool",
+                    "findImage"
+                ],
+                [
+                    "findPixmap",
+                    "findPixmap(const QString &, QPixmap *) const : bool",
+                    "findPixmap"
+                ],
+                [
+                    "insertImage",
+                    "insertImage(const QString &, const QImage &) : bool",
+                    "insertImage"
+                ],
+                [
+                    "insertPixmap",
+                    "insertPixmap(const QString &, const QPixmap &) : bool",
+                    "insertPixmap"
+                ],
+                [
+                    "lastModifiedTime",
+                    "lastModifiedTime() const : QDateTime",
+                    "lastModifiedTime"
+                ],
+                [
+                    "pixmapCaching",
+                    "pixmapCaching() const : bool",
+                    "pixmapCaching"
+                ],
+                [
+                    "setPixmapCacheLimit",
+                    "setPixmapCacheLimit(int)",
+                    "setPixmapCacheLimit"
+                ],
+                [
+                    "setPixmapCaching",
+                    "setPixmapCaching(bool)",
+                    "setPixmapCaching"
+                ]
+            ],
+            "name": "KSharedPixmapCacheMixin",
+            "page": "kguiaddons/ksharedpixmapcachemixin",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "changed",
+                    "changed(QClipboard::Mode)",
+                    "changed"
+                ],
+                [
+                    "clear",
+                    "clear(QClipboard::Mode)",
+                    "clear"
+                ],
+                [
+                    "instance",
+                    "instance() : KSystemClipboard *",
+                    "instance"
+                ],
+                [
+                    "mimeData",
+                    "mimeData(QClipboard::Mode) const : const QMimeData *",
+                    "mimeData"
+                ],
+                [
+                    "ownsClipboard",
+                    "ownsClipboard() const : bool",
+                    "ownsClipboard"
+                ],
+                [
+                    "ownsSelection",
+                    "ownsSelection() const : bool",
+                    "ownsSelection"
+                ],
+                [
+                    "setMimeData",
+                    "setMimeData(QMimeData *, QClipboard::Mode)",
+                    "setMimeData"
+                ],
+                [
+                    "text",
+                    "text(QClipboard::Mode) : QString",
+                    "text"
+                ]
+            ],
+            "name": "KSystemClipboard",
+            "page": "kguiaddons/ksystemclipboard",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KSystemInhibitor",
+                    "KSystemInhibitor(const QString &, KSystemInhibitor::Types, QWindow *, QObject *)",
+                    "KSystemInhibitor"
+                ],
+                [
+                    "~KSystemInhibitor",
+                    "~KSystemInhibitor()",
+                    "dtor.KSystemInhibitor"
+                ]
+            ],
+            "name": "KSystemInhibitor",
+            "page": "kguiaddons/ksysteminhibitor",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "navigationBarBackgroundColor",
+                    "navigationBarBackgroundColor : QColor",
+                    "navigationBarBackgroundColor-prop"
+                ],
+                [
+                    "statusBarBackgroundColor",
+                    "statusBarBackgroundColor : QColor",
+                    "statusBarBackgroundColor-prop"
+                ]
+            ],
+            "name": "KWindowInsetsController",
+            "page": "kguiaddons/kwindowinsetscontroller",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "boundingRect",
+                    "boundingRect() const : QRect",
+                    "boundingRect"
+                ],
+                [
+                    "drawFadeoutText",
+                    "drawFadeoutText(QPainter *, int, int, int, const QString &)",
+                    "drawFadeoutText"
+                ],
+                [
+                    "drawText",
+                    "drawText(QPainter *, int, int, int) const",
+                    "drawText"
+                ],
+                [
+                    "drawTruncateText",
+                    "drawTruncateText(QPainter *, int, int, int, const QString &)",
+                    "drawTruncateText"
+                ],
+                [
+                    "formatText",
+                    "formatText(QFontMetrics &, const QRect &, int, const QString &, int) : KWordWrap",
+                    "formatText"
+                ],
+                [
+                    "truncatedString",
+                    "truncatedString(bool) const : QString",
+                    "truncatedString"
+                ],
+                [
+                    "wrappedString",
+                    "wrappedString() const : QString",
+                    "wrappedString"
+                ]
+            ],
+            "name": "KWordWrap",
+            "page": "kguiaddons/kwordwrap",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kguiaddons",
+    "sections": [
+        {
+            "description": "Addons to QtGui.",
+            "page": "kguiaddons/kguiaddons-module",
+            "pages": [
+                [
+                    "kguiaddons/kguiaddons-module",
+                    "KGuiAddons C++ Classes"
+                ],
+                [
+                    "kguiaddons/kcolorcollection",
+                    "KColorCollection"
+                ],
+                [
+                    "kguiaddons/kcolorschemewatcher",
+                    "KColorSchemeWatcher"
+                ],
+                [
+                    "kguiaddons/kcountryflagemojiiconengine",
+                    "KCountryFlagEmojiIconEngine"
+                ],
+                [
+                    "kguiaddons/kcursorsaver",
+                    "KCursorSaver"
+                ],
+                [
+                    "kguiaddons/kdatevalidator",
+                    "KDateValidator"
+                ],
+                [
+                    "kguiaddons/kkeysequencerecorder",
+                    "KKeySequenceRecorder"
+                ],
+                [
+                    "kguiaddons/kmodifierkeyinfo",
+                    "KModifierKeyInfo"
+                ],
+                [
+                    "kguiaddons/ksharedpixmapcachemixin",
+                    "KSharedPixmapCacheMixin"
+                ],
+                [
+                    "kguiaddons/ksystemclipboard",
+                    "KSystemClipboard"
+                ],
+                [
+                    "kguiaddons/ksysteminhibitor",
+                    "KSystemInhibitor"
+                ],
+                [
+                    "kguiaddons/kwindowinsetscontroller",
+                    "KWindowInsetsController"
+                ],
+                [
+                    "kguiaddons/kwordwrap",
+                    "KWordWrap"
+                ],
+                [
+                    "kguiaddons/kcolormimedata",
+                    "KColorMimeData Namespace"
+                ],
+                [
+                    "kguiaddons/kcolorutils",
+                    "KColorUtils Namespace"
+                ],
+                [
+                    "kguiaddons/kfontutils",
+                    "KFontUtils Namespace"
+                ],
+                [
+                    "kguiaddons/kguiaddons-index",
+                    "KGuiAddons"
+                ],
+                [
+                    "kguiaddons/kiconutils",
+                    "KIconUtils Namespace"
+                ],
+                [
+                    "kguiaddons/kjobwindows",
+                    "KJobWindows Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KGuiAddons C++ Classes"
+        },
+        {
+            "description": "Addons to QtGui.",
+            "page": "kguiaddons/org-kde-guiaddons-qmlmodule",
+            "pages": [
+                [
+                    "kguiaddons/org-kde-guiaddons-qmlmodule",
+                    "KGuiAddons QML Types"
+                ],
+                [
+                    "kguiaddons/qml-org-kde-guiaddons-systeminhibitor",
+                    "SystemInhibitor"
+                ],
+                [
+                    "kguiaddons/qml-org-kde-guiaddons-windowinsetscontroller",
+                    "WindowInsetsController (Singleton)"
+                ]
+            ],
+            "qml": true,
+            "title": "KGuiAddons QML Types"
+        }
+    ]
+}

@@ -62,7 +62,7 @@ Load the configuration for an application stored in `~/.config/appname/appnamerc
 KConfig config("appnamerc", KConfig::SimpleConfig, QStandardPaths::AppConfigLocation);
 ```
 
-The `appname` should match the name set via [QCoreApplication::setApplicationName](https://doc.qt.io/qt-6/qcoreapplication.html#applicationName-prop) or the component argument of KAboutData::KAboutData.
+The `appname` should match the name set via [QCoreApplication::setApplicationName](https://doc.qt.io/qt-6/qcoreapplication.html#applicationName-prop) or the component argument of [KAboutData::KAboutData](../kcoreaddons/kaboutdata.md).
 
 Load the configuration for an application `~/.config/appnamerc`:
 

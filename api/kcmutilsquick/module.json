@@ -1,0 +1,202 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "columnWidth",
+                    "columnWidth : int",
+                    "columnWidth-prop"
+                ],
+                [
+                    "currentIndex",
+                    "currentIndex : int",
+                    "currentIndex-prop"
+                ],
+                [
+                    "depth",
+                    "depth : int",
+                    "depth-prop"
+                ],
+                [
+                    "mainUi",
+                    "mainUi : QQuickItem* const",
+                    "mainUi-prop"
+                ],
+                [
+                    "KQuickConfigModule",
+                    "KQuickConfigModule(QObject *, const KPluginMetaData &)",
+                    "KQuickConfigModule"
+                ],
+                [
+                    "columnWidth",
+                    "columnWidth() const : int",
+                    "columnWidth"
+                ],
+                [
+                    "columnWidthChanged",
+                    "columnWidthChanged(int)",
+                    "columnWidthChanged"
+                ],
+                [
+                    "currentIndex",
+                    "currentIndex() const : int",
+                    "currentIndex"
+                ],
+                [
+                    "currentIndexChanged",
+                    "currentIndexChanged(int)",
+                    "currentIndexChanged"
+                ],
+                [
+                    "depth",
+                    "depth() const : int",
+                    "depth"
+                ],
+                [
+                    "depthChanged",
+                    "depthChanged(int)",
+                    "depthChanged"
+                ],
+                [
+                    "engine",
+                    "engine() const : std::shared_ptr<QQmlEngine>",
+                    "engine"
+                ],
+                [
+                    "errorString",
+                    "errorString() const : QString",
+                    "errorString"
+                ],
+                [
+                    "mainUi",
+                    "mainUi() : QQuickItem *",
+                    "mainUi"
+                ],
+                [
+                    "mainUiReady",
+                    "mainUiReady()",
+                    "mainUiReady"
+                ],
+                [
+                    "pagePushed",
+                    "pagePushed(QQuickItem *)",
+                    "pagePushed"
+                ],
+                [
+                    "pageRemoved",
+                    "pageRemoved()",
+                    "pageRemoved"
+                ],
+                [
+                    "pop",
+                    "pop()",
+                    "pop"
+                ],
+                [
+                    "push",
+                    "push(const QString &, const QVariantMap &)",
+                    "push"
+                ],
+                [
+                    "push",
+                    "push(QQuickItem *)",
+                    "push-1"
+                ],
+                [
+                    "setColumnWidth",
+                    "setColumnWidth(int)",
+                    "setColumnWidth"
+                ],
+                [
+                    "setCurrentIndex",
+                    "setCurrentIndex(int)",
+                    "setCurrentIndex"
+                ],
+                [
+                    "subPage",
+                    "subPage(int) const : QQuickItem *",
+                    "subPage"
+                ],
+                [
+                    "takeLast",
+                    "takeLast() : QQuickItem *",
+                    "takeLast"
+                ]
+            ],
+            "name": "KQuickConfigModule",
+            "page": "kcmutilsquick/kquickconfigmodule",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcmutilsquick/kquickconfigmodule"
+            ],
+            "members": [
+                [
+                    "KQuickManagedConfigModule",
+                    "KQuickManagedConfigModule(QObject *, const KPluginMetaData &)",
+                    "KQuickManagedConfigModule"
+                ],
+                [
+                    "defaults",
+                    "defaults()",
+                    "defaults"
+                ],
+                [
+                    "load",
+                    "load()",
+                    "load"
+                ],
+                [
+                    "registerSettings",
+                    "registerSettings(KCoreConfigSkeleton *)",
+                    "registerSettings"
+                ],
+                [
+                    "save",
+                    "save()",
+                    "save"
+                ],
+                [
+                    "settingsChanged",
+                    "settingsChanged()",
+                    "settingsChanged"
+                ]
+            ],
+            "name": "KQuickManagedConfigModule",
+            "page": "kcmutilsquick/kquickmanagedconfigmodule",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kcmutilsquick",
+    "sections": [
+        {
+            "description": "Utilities for KDE System Settings modules.",
+            "page": "kcmutilsquick/kcmutilsquick-module",
+            "pages": [
+                [
+                    "kcmutilsquick/kcmutilsquick-module",
+                    "KCMUtils Quick C++ Classes"
+                ],
+                [
+                    "kcmutilsquick/kquickconfigmodule",
+                    "KQuickConfigModule"
+                ],
+                [
+                    "kcmutilsquick/kquickmanagedconfigmodule",
+                    "KQuickManagedConfigModule"
+                ],
+                [
+                    "kcmutilsquick/kquickconfigmoduleloader",
+                    "KQuickConfigModuleLoader Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KCMUtils Quick C++ Classes"
+        }
+    ]
+}

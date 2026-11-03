@@ -1,0 +1,45 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "DocBook2Markdown::Converter",
+            "page": "kdoctools/docbook2markdown-converter",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kdoctools",
+    "sections": [
+        {
+            "description": "Create documentation from DocBook.",
+            "page": "kdoctools/kdoctools-module",
+            "pages": [
+                [
+                    "kdoctools/kdoctools-module",
+                    "KDocTools C++ Classes"
+                ],
+                [
+                    "kdoctools/docbook2markdown-converter",
+                    "DocBook2Markdown::Converter"
+                ],
+                [
+                    "kdoctools/docbook2markdown-sub-kdoctools",
+                    "DocBook2Markdown Namespace"
+                ],
+                [
+                    "kdoctools/kdoctools",
+                    "KDocTools Namespace"
+                ],
+                [
+                    "kdoctools/kdoctools-index",
+                    "KDocTools"
+                ]
+            ],
+            "qml": false,
+            "title": "KDocTools C++ Classes"
+        }
+    ]
+}

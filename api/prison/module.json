@@ -1,0 +1,171 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "backgroundColor",
+                    "backgroundColor() const : QColor",
+                    "backgroundColor"
+                ],
+                [
+                    "byteArrayData",
+                    "byteArrayData() const : QByteArray",
+                    "byteArrayData"
+                ],
+                [
+                    "create",
+                    "create(Prison::BarcodeType) : std::optional<Prison::Barcode>",
+                    "create"
+                ],
+                [
+                    "data",
+                    "data() const : QString",
+                    "data"
+                ],
+                [
+                    "dimensions",
+                    "dimensions() const : Prison::Barcode::Dimensions",
+                    "dimensions"
+                ],
+                [
+                    "foregroundColor",
+                    "foregroundColor() const : QColor",
+                    "foregroundColor"
+                ],
+                [
+                    "format",
+                    "format() const : Prison::BarcodeType",
+                    "format"
+                ],
+                [
+                    "minimumSize",
+                    "minimumSize() const : QSizeF",
+                    "minimumSize"
+                ],
+                [
+                    "preferredSize",
+                    "preferredSize(qreal) const : QSizeF",
+                    "preferredSize"
+                ],
+                [
+                    "setBackgroundColor",
+                    "setBackgroundColor(const QColor &)",
+                    "setBackgroundColor"
+                ],
+                [
+                    "setData",
+                    "setData(const QByteArray &)",
+                    "setData"
+                ],
+                [
+                    "setData",
+                    "setData(const QString &)",
+                    "setData-1"
+                ],
+                [
+                    "setForegroundColor",
+                    "setForegroundColor(const QColor &)",
+                    "setForegroundColor"
+                ],
+                [
+                    "toImage",
+                    "toImage(const QSizeF &) : QImage",
+                    "toImage"
+                ]
+            ],
+            "name": "Prison::Barcode",
+            "page": "prison/prison-barcode",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "header",
+                    "header() const : QString",
+                    "header"
+                ],
+                [
+                    "headerView",
+                    "headerView() const : QStringView",
+                    "headerView"
+                ],
+                [
+                    "parse",
+                    "parse(const QString &) : std::optional<Prison::MeCard>",
+                    "parse"
+                ],
+                [
+                    "toVariantMap",
+                    "toVariantMap() const : QVariantMap",
+                    "toVariantMap"
+                ],
+                [
+                    "value",
+                    "value(QStringView) const : QString",
+                    "value"
+                ],
+                [
+                    "values",
+                    "values(QStringView) const : QStringList",
+                    "values"
+                ]
+            ],
+            "name": "Prison::MeCard",
+            "page": "prison/prison-mecard",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "prison",
+    "sections": [
+        {
+            "description": "Barcode Rendering.",
+            "page": "prison/prison-module",
+            "pages": [
+                [
+                    "prison/prison-module",
+                    "Prison C++ Classes"
+                ],
+                [
+                    "prison/prison-barcode",
+                    "Prison::Barcode"
+                ],
+                [
+                    "prison/prison-mecard",
+                    "Prison::MeCard"
+                ],
+                [
+                    "prison/prison",
+                    "Prison Namespace"
+                ],
+                [
+                    "prison/prison-index",
+                    "Prison"
+                ]
+            ],
+            "qml": false,
+            "title": "Prison C++ Classes"
+        },
+        {
+            "description": "Barcode Rendering.",
+            "page": "prison/org-kde-prison-qmlmodule",
+            "pages": [
+                [
+                    "prison/org-kde-prison-qmlmodule",
+                    "Prison QML Types"
+                ],
+                [
+                    "prison/qml-org-kde-prison-barcode",
+                    "Barcode"
+                ]
+            ],
+            "qml": true,
+            "title": "Prison QML Types"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "classes": [
+    ],
+    "module": "plasmaactivitiesqml",
+    "sections": [
+        {
+            "description": "QML API for Plasma Activities.",
+            "page": "plasmaactivitiesqml/org-kde-activities-qmlmodule",
+            "pages": [
+                [
+                    "plasmaactivitiesqml/org-kde-activities-qmlmodule",
+                    "Plasma Activities QML Types"
+                ],
+                [
+                    "plasmaactivitiesqml/qml-org-kde-activities-activityinfo",
+                    "ActivityInfo"
+                ],
+                [
+                    "plasmaactivitiesqml/qml-org-kde-activities-activitymodel",
+                    "ActivityModel"
+                ]
+            ],
+            "qml": true,
+            "title": "Plasma Activities QML Types"
+        }
+    ]
+}

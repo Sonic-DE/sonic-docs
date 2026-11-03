@@ -1,0 +1,381 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Converter",
+                    "Converter()",
+                    "Converter"
+                ],
+                [
+                    "categories",
+                    "categories() const : QList<KUnitConversion::UnitCategory>",
+                    "categories"
+                ],
+                [
+                    "category",
+                    "category(KUnitConversion::CategoryId) const : KUnitConversion::UnitCategory",
+                    "category"
+                ],
+                [
+                    "category",
+                    "category(const QString &) const : KUnitConversion::UnitCategory",
+                    "category-1"
+                ],
+                [
+                    "categoryForUnit",
+                    "categoryForUnit(const QString &) const : KUnitConversion::UnitCategory",
+                    "categoryForUnit"
+                ],
+                [
+                    "convert",
+                    "convert(const KUnitConversion::Value &, const QString &) const : KUnitConversion::Value",
+                    "convert"
+                ],
+                [
+                    "convert",
+                    "convert(const KUnitConversion::Value &, KUnitConversion::UnitId) const : KUnitConversion::Value",
+                    "convert-1"
+                ],
+                [
+                    "convert",
+                    "convert(const KUnitConversion::Value &, const KUnitConversion::Unit &) const : KUnitConversion::Value",
+                    "convert-2"
+                ],
+                [
+                    "unit",
+                    "unit(KUnitConversion::UnitId) const : KUnitConversion::Unit",
+                    "unit"
+                ],
+                [
+                    "unit",
+                    "unit(const QString &) const : KUnitConversion::Unit",
+                    "unit-1"
+                ]
+            ],
+            "name": "KUnitConversion::Converter",
+            "page": "kunitconversion/kunitconversion-converter",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Unit",
+                    "Unit()",
+                    "Unit"
+                ],
+                [
+                    "category",
+                    "category() const : KUnitConversion::UnitCategory",
+                    "category"
+                ],
+                [
+                    "categoryId",
+                    "categoryId() const : KUnitConversion::CategoryId",
+                    "categoryId"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "id",
+                    "id() const : KUnitConversion::UnitId",
+                    "id"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "symbol",
+                    "symbol() const : QString",
+                    "symbol"
+                ],
+                [
+                    "toString",
+                    "toString(qreal, int, char, int, const QChar &) const : QString",
+                    "toString"
+                ],
+                [
+                    "toSymbolString",
+                    "toSymbolString(qreal, int, char, int, const QChar &) const : QString",
+                    "toSymbolString"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KUnitConversion::Unit &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KUnitConversion::Unit",
+            "page": "kunitconversion/kunitconversion-unit",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "UnitCategory",
+                    "UnitCategory()",
+                    "UnitCategory"
+                ],
+                [
+                    "allUnits",
+                    "allUnits() const : QStringList",
+                    "allUnits"
+                ],
+                [
+                    "convert",
+                    "convert(const KUnitConversion::Value &, const QString &) const : KUnitConversion::Value",
+                    "convert"
+                ],
+                [
+                    "convert",
+                    "convert(const KUnitConversion::Value &, KUnitConversion::UnitId) const : KUnitConversion::Value",
+                    "convert-1"
+                ],
+                [
+                    "convert",
+                    "convert(const KUnitConversion::Value &, const KUnitConversion::Unit &) const : KUnitConversion::Value",
+                    "convert-2"
+                ],
+                [
+                    "defaultUnit",
+                    "defaultUnit() const : KUnitConversion::Unit",
+                    "defaultUnit"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "hasOnlineConversionTable",
+                    "hasOnlineConversionTable() const : bool",
+                    "hasOnlineConversionTable"
+                ],
+                [
+                    "hasUnit",
+                    "hasUnit(const QString &) const : bool",
+                    "hasUnit"
+                ],
+                [
+                    "id",
+                    "id() const : KUnitConversion::CategoryId",
+                    "id"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "mostCommonUnits",
+                    "mostCommonUnits() const : QList<KUnitConversion::Unit>",
+                    "mostCommonUnits"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "syncConversionTable",
+                    "syncConversionTable(std::chrono::seconds) : KUnitConversion::UpdateJob *",
+                    "syncConversionTable"
+                ],
+                [
+                    "unit",
+                    "unit(KUnitConversion::UnitId) const : KUnitConversion::Unit",
+                    "unit"
+                ],
+                [
+                    "unit",
+                    "unit(const QString &) const : KUnitConversion::Unit",
+                    "unit-1"
+                ],
+                [
+                    "units",
+                    "units() const : QList<KUnitConversion::Unit>",
+                    "units"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KUnitConversion::UnitCategory &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KUnitConversion::UnitCategory",
+            "page": "kunitconversion/kunitconversion-unitcategory",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "finished",
+                    "finished()",
+                    "finished"
+                ]
+            ],
+            "name": "KUnitConversion::UpdateJob",
+            "page": "kunitconversion/kunitconversion-updatejob",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Value",
+                    "Value()",
+                    "Value"
+                ],
+                [
+                    "Value",
+                    "Value(const QVariant &, const QString &)",
+                    "Value-1"
+                ],
+                [
+                    "Value",
+                    "Value(qreal, KUnitConversion::UnitId)",
+                    "Value-2"
+                ],
+                [
+                    "Value",
+                    "Value(qreal, const KUnitConversion::Unit &)",
+                    "Value-3"
+                ],
+                [
+                    "Value",
+                    "Value(qreal, const QString &)",
+                    "Value-4"
+                ],
+                [
+                    "convertTo",
+                    "convertTo(KUnitConversion::UnitId) const : KUnitConversion::Value",
+                    "convertTo"
+                ],
+                [
+                    "convertTo",
+                    "convertTo(const KUnitConversion::Unit &) const : KUnitConversion::Value",
+                    "convertTo-1"
+                ],
+                [
+                    "convertTo",
+                    "convertTo(const QString &) const : KUnitConversion::Value",
+                    "convertTo-2"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "number",
+                    "number() const : qreal",
+                    "number"
+                ],
+                [
+                    "round",
+                    "round(uint) : KUnitConversion::Value &",
+                    "round"
+                ],
+                [
+                    "toString",
+                    "toString(int, char, int, const QChar &) const : QString",
+                    "toString"
+                ],
+                [
+                    "toSymbolString",
+                    "toSymbolString(int, char, int, const QChar &) const : QString",
+                    "toSymbolString"
+                ],
+                [
+                    "unit",
+                    "unit() const : KUnitConversion::Unit",
+                    "unit"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KUnitConversion::Value &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KUnitConversion::Value",
+            "page": "kunitconversion/kunitconversion-value",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kunitconversion",
+    "sections": [
+        {
+            "description": "Convert values in different physical units.",
+            "page": "kunitconversion/kunitconversion-module",
+            "pages": [
+                [
+                    "kunitconversion/kunitconversion-module",
+                    "KUnitConversion C++ Classes"
+                ],
+                [
+                    "kunitconversion/kunitconversion-converter",
+                    "KUnitConversion::Converter"
+                ],
+                [
+                    "kunitconversion/kunitconversion-unit",
+                    "KUnitConversion::Unit"
+                ],
+                [
+                    "kunitconversion/kunitconversion-unitcategory",
+                    "KUnitConversion::UnitCategory"
+                ],
+                [
+                    "kunitconversion/kunitconversion-updatejob",
+                    "KUnitConversion::UpdateJob"
+                ],
+                [
+                    "kunitconversion/kunitconversion-value",
+                    "KUnitConversion::Value"
+                ],
+                [
+                    "kunitconversion/kunitconversion",
+                    "KUnitConversion Namespace"
+                ],
+                [
+                    "kunitconversion/kunitconversion-index",
+                    "KUnitConversion"
+                ]
+            ],
+            "qml": false,
+            "title": "KUnitConversion C++ Classes"
+        }
+    ]
+}

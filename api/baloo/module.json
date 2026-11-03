@@ -1,0 +1,467 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "File",
+                    "File()",
+                    "File"
+                ],
+                [
+                    "File",
+                    "File(const QString &)",
+                    "File-1"
+                ],
+                [
+                    "load",
+                    "load() : bool",
+                    "load"
+                ],
+                [
+                    "load",
+                    "load(const QString &) : bool",
+                    "load-1"
+                ],
+                [
+                    "path",
+                    "path() const : QString",
+                    "path"
+                ],
+                [
+                    "properties",
+                    "properties() const : KFileMetaData::PropertyMultiMap",
+                    "properties"
+                ],
+                [
+                    "property",
+                    "property(KFileMetaData::Property::Property) const : QVariant",
+                    "property"
+                ]
+            ],
+            "name": "Baloo::File",
+            "page": "baloo/baloo-file",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "FileMonitor",
+                    "FileMonitor(QObject *)",
+                    "FileMonitor"
+                ],
+                [
+                    "addFile",
+                    "addFile(const QString &)",
+                    "addFile"
+                ],
+                [
+                    "addFile",
+                    "addFile(const QUrl &)",
+                    "addFile-1"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "fileMetaDataChanged",
+                    "fileMetaDataChanged(const QString &)",
+                    "fileMetaDataChanged"
+                ],
+                [
+                    "files",
+                    "files() const : QStringList",
+                    "files"
+                ],
+                [
+                    "setFiles",
+                    "setFiles(const QStringList &)",
+                    "setFiles"
+                ]
+            ],
+            "name": "Baloo::FileMonitor",
+            "page": "baloo/baloo-filemonitor",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "IndexerConfig",
+                    "IndexerConfig()",
+                    "IndexerConfig"
+                ],
+                [
+                    "canBeSearched",
+                    "canBeSearched(const QString &) const : bool",
+                    "canBeSearched"
+                ],
+                [
+                    "excludeFilters",
+                    "excludeFilters() const : QStringList",
+                    "excludeFilters"
+                ],
+                [
+                    "excludeFolders",
+                    "excludeFolders() const : QStringList",
+                    "excludeFolders"
+                ],
+                [
+                    "excludeMimetypes",
+                    "excludeMimetypes() const : QStringList",
+                    "excludeMimetypes"
+                ],
+                [
+                    "fileIndexingEnabled",
+                    "fileIndexingEnabled() const : bool",
+                    "fileIndexingEnabled"
+                ],
+                [
+                    "includeFolders",
+                    "includeFolders() const : QStringList",
+                    "includeFolders"
+                ],
+                [
+                    "indexHidden",
+                    "indexHidden() const : bool",
+                    "indexHidden"
+                ],
+                [
+                    "onlyBasicIndexing",
+                    "onlyBasicIndexing() const : bool",
+                    "onlyBasicIndexing"
+                ],
+                [
+                    "setExcludeFilters",
+                    "setExcludeFilters(const QStringList &)",
+                    "setExcludeFilters"
+                ],
+                [
+                    "setExcludeFolders",
+                    "setExcludeFolders(const QStringList &)",
+                    "setExcludeFolders"
+                ],
+                [
+                    "setExcludeMimetypes",
+                    "setExcludeMimetypes(const QStringList &)",
+                    "setExcludeMimetypes"
+                ],
+                [
+                    "setFileIndexingEnabled",
+                    "setFileIndexingEnabled(bool) const",
+                    "setFileIndexingEnabled"
+                ],
+                [
+                    "setIncludeFolders",
+                    "setIncludeFolders(const QStringList &)",
+                    "setIncludeFolders"
+                ],
+                [
+                    "setIndexHidden",
+                    "setIndexHidden(bool) const",
+                    "setIndexHidden"
+                ],
+                [
+                    "setOnlyBasicIndexing",
+                    "setOnlyBasicIndexing(bool)",
+                    "setOnlyBasicIndexing"
+                ]
+            ],
+            "name": "Baloo::IndexerConfig",
+            "page": "baloo/baloo-indexerconfig",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Query",
+                    "Query()",
+                    "Query"
+                ],
+                [
+                    "addType",
+                    "addType(const QString &)",
+                    "addType"
+                ],
+                [
+                    "addTypes",
+                    "addTypes(const QStringList &)",
+                    "addTypes"
+                ],
+                [
+                    "dayFilter",
+                    "dayFilter() const : int",
+                    "dayFilter"
+                ],
+                [
+                    "exec",
+                    "exec() : Baloo::ResultIterator",
+                    "exec"
+                ],
+                [
+                    "fromJSON",
+                    "fromJSON(const QByteArray &) : Baloo::Query",
+                    "fromJSON"
+                ],
+                [
+                    "fromSearchUrl",
+                    "fromSearchUrl(const QUrl &) : Baloo::Query",
+                    "fromSearchUrl"
+                ],
+                [
+                    "includeFolder",
+                    "includeFolder() const : QString",
+                    "includeFolder"
+                ],
+                [
+                    "limit",
+                    "limit() const : uint",
+                    "limit"
+                ],
+                [
+                    "monthFilter",
+                    "monthFilter() const : int",
+                    "monthFilter"
+                ],
+                [
+                    "offset",
+                    "offset() const : uint",
+                    "offset"
+                ],
+                [
+                    "searchString",
+                    "searchString() const : QString",
+                    "searchString"
+                ],
+                [
+                    "setDateFilter",
+                    "setDateFilter(int, int, int)",
+                    "setDateFilter"
+                ],
+                [
+                    "setIncludeFolder",
+                    "setIncludeFolder(const QString &)",
+                    "setIncludeFolder"
+                ],
+                [
+                    "setLimit",
+                    "setLimit(uint)",
+                    "setLimit"
+                ],
+                [
+                    "setOffset",
+                    "setOffset(uint)",
+                    "setOffset"
+                ],
+                [
+                    "setSearchString",
+                    "setSearchString(const QString &)",
+                    "setSearchString"
+                ],
+                [
+                    "setSortingOption",
+                    "setSortingOption(Baloo::Query::SortingOption)",
+                    "setSortingOption"
+                ],
+                [
+                    "setType",
+                    "setType(const QString &)",
+                    "setType"
+                ],
+                [
+                    "setTypes",
+                    "setTypes(const QStringList &)",
+                    "setTypes"
+                ],
+                [
+                    "sortingOption",
+                    "sortingOption() const : Baloo::Query::SortingOption",
+                    "sortingOption"
+                ],
+                [
+                    "titleFromQueryUrl",
+                    "titleFromQueryUrl(const QUrl &) : QString",
+                    "titleFromQueryUrl"
+                ],
+                [
+                    "toJSON",
+                    "toJSON() : QByteArray",
+                    "toJSON"
+                ],
+                [
+                    "toSearchUrl",
+                    "toSearchUrl(const QString &) : QUrl",
+                    "toSearchUrl"
+                ],
+                [
+                    "types",
+                    "types() const : QStringList",
+                    "types"
+                ],
+                [
+                    "yearFilter",
+                    "yearFilter() const : int",
+                    "yearFilter"
+                ]
+            ],
+            "name": "Baloo::Query",
+            "page": "baloo/baloo-query",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "QueryRunnable",
+                    "QueryRunnable(const Baloo::Query &, QObject *)",
+                    "QueryRunnable"
+                ],
+                [
+                    "finished",
+                    "finished(Baloo::QueryRunnable *)",
+                    "finished"
+                ],
+                [
+                    "queryResult",
+                    "queryResult(Baloo::QueryRunnable *, const QString &)",
+                    "queryResult"
+                ],
+                [
+                    "stop",
+                    "stop()",
+                    "stop"
+                ]
+            ],
+            "name": "Baloo::QueryRunnable",
+            "page": "baloo/baloo-queryrunnable",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ],
+                [
+                    "QRunnable",
+                    "https://doc.qt.io/qt-6/qrunnable-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ResultIterator",
+                    "ResultIterator(Baloo::ResultIterator &&)",
+                    "ResultIterator"
+                ],
+                [
+                    "documentId",
+                    "documentId() const : QByteArray",
+                    "documentId"
+                ],
+                [
+                    "filePath",
+                    "filePath() const : QString",
+                    "filePath"
+                ],
+                [
+                    "next",
+                    "next() : bool",
+                    "next"
+                ]
+            ],
+            "name": "Baloo::ResultIterator",
+            "page": "baloo/baloo-resultiterator",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "TagListJob",
+                    "TagListJob(QObject *)",
+                    "TagListJob"
+                ],
+                [
+                    "tags",
+                    "tags() : QStringList",
+                    "tags"
+                ]
+            ],
+            "name": "Baloo::TagListJob",
+            "page": "baloo/baloo-taglistjob",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "baloo",
+    "sections": [
+        {
+            "description": "File indexing.",
+            "page": "baloo/baloo-module",
+            "pages": [
+                [
+                    "baloo/baloo-module",
+                    "Baloo C++ Classes"
+                ],
+                [
+                    "baloo/baloo-file",
+                    "Baloo::File"
+                ],
+                [
+                    "baloo/baloo-filemonitor",
+                    "Baloo::FileMonitor"
+                ],
+                [
+                    "baloo/baloo-indexerconfig",
+                    "Baloo::IndexerConfig"
+                ],
+                [
+                    "baloo/baloo-query",
+                    "Baloo::Query"
+                ],
+                [
+                    "baloo/baloo-queryrunnable",
+                    "Baloo::QueryRunnable"
+                ],
+                [
+                    "baloo/baloo-resultiterator",
+                    "Baloo::ResultIterator"
+                ],
+                [
+                    "baloo/baloo-taglistjob",
+                    "Baloo::TagListJob"
+                ],
+                [
+                    "baloo/baloo-index",
+                    "Baloo"
+                ],
+                [
+                    "baloo/baloo-sub-baloo",
+                    "Baloo Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "Baloo C++ Classes"
+        }
+    ]
+}

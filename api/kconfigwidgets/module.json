@@ -1,0 +1,669 @@
+{
+    "classes": [
+        {
+            "bases": [
+                "kwidgetsaddons/kselectaction"
+            ],
+            "members": [
+                [
+                    "codecName",
+                    "codecName : QString",
+                    "codecName-prop"
+                ],
+                [
+                    "KCodecAction",
+                    "KCodecAction(QObject *, bool)",
+                    "KCodecAction"
+                ],
+                [
+                    "KCodecAction",
+                    "KCodecAction(const QString &, QObject *, bool)",
+                    "KCodecAction-1"
+                ],
+                [
+                    "KCodecAction",
+                    "KCodecAction(const QIcon &, const QString &, QObject *, bool)",
+                    "KCodecAction-2"
+                ],
+                [
+                    "codecNameTriggered",
+                    "codecNameTriggered(const QByteArray &)",
+                    "codecNameTriggered"
+                ],
+                [
+                    "currentCodecName",
+                    "currentCodecName() const : QString",
+                    "currentCodecName"
+                ],
+                [
+                    "defaultItemTriggered",
+                    "defaultItemTriggered()",
+                    "defaultItemTriggered"
+                ],
+                [
+                    "setCurrentCodec",
+                    "setCurrentCodec(const QString &) : bool",
+                    "setCurrentCodec"
+                ],
+                [
+                    "slotActionTriggered",
+                    "slotActionTriggered()",
+                    "slotActionTriggered"
+                ]
+            ],
+            "name": "KCodecAction",
+            "page": "kconfigwidgets/kcodecaction",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCommandBar",
+                    "KCommandBar(QWidget *)",
+                    "KCommandBar"
+                ],
+                [
+                    "setActions",
+                    "setActions(const QList<KCommandBar::ActionGroup> &)",
+                    "setActions"
+                ],
+                [
+                    "show",
+                    "show()",
+                    "show"
+                ]
+            ],
+            "name": "KCommandBar",
+            "page": "kconfigwidgets/kcommandbar",
+            "qtBases": [
+                [
+                    "QFrame",
+                    "https://doc.qt.io/qt-6/qframe-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kwidgetsaddons/kpagedialog"
+            ],
+            "members": [
+                [
+                    "KConfigDialog",
+                    "KConfigDialog(QWidget *, const QString &, KCoreConfigSkeleton *)",
+                    "KConfigDialog"
+                ],
+                [
+                    "~KConfigDialog",
+                    "~KConfigDialog()",
+                    "dtor.KConfigDialog"
+                ],
+                [
+                    "addPage",
+                    "addPage(QWidget *, KCoreConfigSkeleton *, const QString &, const QString &, const QString &) : KPageWidgetItem *",
+                    "addPage"
+                ],
+                [
+                    "addPage",
+                    "addPage(QWidget *, const QString &, const QString &, const QString &, bool) : KPageWidgetItem *",
+                    "addPage-1"
+                ],
+                [
+                    "exists",
+                    "exists(const QString &) : KConfigDialog *",
+                    "exists"
+                ],
+                [
+                    "hasChanged",
+                    "hasChanged() : bool",
+                    "hasChanged"
+                ],
+                [
+                    "isDefault",
+                    "isDefault() : bool",
+                    "isDefault"
+                ],
+                [
+                    "setHelp",
+                    "setHelp(const QString &, const QString &)",
+                    "setHelp"
+                ],
+                [
+                    "settingsChanged",
+                    "settingsChanged(const QString &)",
+                    "settingsChanged"
+                ],
+                [
+                    "settingsChangedSlot",
+                    "settingsChangedSlot()",
+                    "settingsChangedSlot"
+                ],
+                [
+                    "showDialog",
+                    "showDialog(const QString &) : bool",
+                    "showDialog"
+                ],
+                [
+                    "showHelp",
+                    "showHelp()",
+                    "showHelp"
+                ],
+                [
+                    "updateButtons",
+                    "updateButtons()",
+                    "updateButtons"
+                ],
+                [
+                    "updateSettings",
+                    "updateSettings()",
+                    "updateSettings"
+                ],
+                [
+                    "updateWidgets",
+                    "updateWidgets()",
+                    "updateWidgets"
+                ],
+                [
+                    "updateWidgetsDefault",
+                    "updateWidgetsDefault()",
+                    "updateWidgetsDefault"
+                ],
+                [
+                    "widgetModified",
+                    "widgetModified()",
+                    "widgetModified"
+                ]
+            ],
+            "name": "KConfigDialog",
+            "page": "kconfigwidgets/kconfigdialog",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KConfigDialogManager",
+                    "KConfigDialogManager(QWidget *, KCoreConfigSkeleton *)",
+                    "KConfigDialogManager"
+                ],
+                [
+                    "addWidget",
+                    "addWidget(QWidget *)",
+                    "addWidget"
+                ],
+                [
+                    "getCustomProperty",
+                    "getCustomProperty(const QWidget *) const : QByteArray",
+                    "getCustomProperty"
+                ],
+                [
+                    "getCustomPropertyChangedSignal",
+                    "getCustomPropertyChangedSignal(const QWidget *) const : QByteArray",
+                    "getCustomPropertyChangedSignal"
+                ],
+                [
+                    "getUserProperty",
+                    "getUserProperty(const QWidget *) const : QByteArray",
+                    "getUserProperty"
+                ],
+                [
+                    "getUserPropertyChangedSignal",
+                    "getUserPropertyChangedSignal(const QWidget *) const : QByteArray",
+                    "getUserPropertyChangedSignal"
+                ],
+                [
+                    "hasChanged",
+                    "hasChanged() const : bool",
+                    "hasChanged"
+                ],
+                [
+                    "init",
+                    "init(bool)",
+                    "init"
+                ],
+                [
+                    "initMaps",
+                    "initMaps()",
+                    "initMaps"
+                ],
+                [
+                    "isDefault",
+                    "isDefault() const : bool",
+                    "isDefault"
+                ],
+                [
+                    "parseChildren",
+                    "parseChildren(const QWidget *, bool) : bool",
+                    "parseChildren"
+                ],
+                [
+                    "property",
+                    "property(QWidget *) const : QVariant",
+                    "property"
+                ],
+                [
+                    "propertyMap",
+                    "propertyMap() : QHash<QString, QByteArray> *",
+                    "propertyMap"
+                ],
+                [
+                    "setDefaultsIndicatorsVisible",
+                    "setDefaultsIndicatorsVisible(bool)",
+                    "setDefaultsIndicatorsVisible"
+                ],
+                [
+                    "setProperty",
+                    "setProperty(QWidget *, const QVariant &)",
+                    "setProperty"
+                ],
+                [
+                    "settingsChanged",
+                    "settingsChanged()",
+                    "settingsChanged"
+                ],
+                [
+                    "setupWidget",
+                    "setupWidget(QWidget *, KConfigSkeletonItem *)",
+                    "setupWidget"
+                ],
+                [
+                    "updateSettings",
+                    "updateSettings()",
+                    "updateSettings"
+                ],
+                [
+                    "updateWidgets",
+                    "updateWidgets()",
+                    "updateWidgets"
+                ],
+                [
+                    "updateWidgetsDefault",
+                    "updateWidgetsDefault()",
+                    "updateWidgetsDefault"
+                ],
+                [
+                    "widgetModified",
+                    "widgetModified()",
+                    "widgetModified"
+                ]
+            ],
+            "name": "KConfigDialogManager",
+            "page": "kconfigwidgets/kconfigdialogmanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kwidgetsaddons/kviewstateserializer"
+            ],
+            "members": [
+                [
+                    "restoreState",
+                    "restoreState(const KConfigGroup &)",
+                    "restoreState"
+                ],
+                [
+                    "saveState",
+                    "saveState(KConfigGroup &)",
+                    "saveState"
+                ]
+            ],
+            "name": "KConfigViewStateSaver",
+            "page": "kconfigwidgets/kconfigviewstatesaver",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KHamburgerMenu",
+                    "KHamburgerMenu(QObject *)",
+                    "KHamburgerMenu"
+                ],
+                [
+                    "aboutToShowMenu",
+                    "aboutToShowMenu()",
+                    "aboutToShowMenu"
+                ],
+                [
+                    "addToMenu",
+                    "addToMenu(QMenu *)",
+                    "addToMenu"
+                ],
+                [
+                    "createWidget",
+                    "createWidget(QWidget *) : QWidget *",
+                    "createWidget"
+                ],
+                [
+                    "hideActionsOf",
+                    "hideActionsOf(QWidget *)",
+                    "hideActionsOf"
+                ],
+                [
+                    "insertIntoMenuBefore",
+                    "insertIntoMenuBefore(QMenu *, QAction *)",
+                    "insertIntoMenuBefore"
+                ],
+                [
+                    "menuBar",
+                    "menuBar() const : QMenuBar *",
+                    "menuBar"
+                ],
+                [
+                    "menuBarAdvertised",
+                    "menuBarAdvertised() const : bool",
+                    "menuBarAdvertised"
+                ],
+                [
+                    "setMenuBar",
+                    "setMenuBar(QMenuBar *)",
+                    "setMenuBar"
+                ],
+                [
+                    "setMenuBarAdvertised",
+                    "setMenuBarAdvertised(bool)",
+                    "setMenuBarAdvertised"
+                ],
+                [
+                    "setShowMenuBarAction",
+                    "setShowMenuBarAction(QAction *)",
+                    "setShowMenuBarAction"
+                ],
+                [
+                    "showActionsOf",
+                    "showActionsOf(QWidget *)",
+                    "showActionsOf"
+                ]
+            ],
+            "name": "KHamburgerMenu",
+            "page": "kconfigwidgets/khamburgermenu",
+            "qtBases": [
+                [
+                    "QWidgetAction",
+                    "https://doc.qt.io/qt-6/qwidgetaction-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KLanguageButton",
+                    "KLanguageButton(QWidget *)",
+                    "KLanguageButton"
+                ],
+                [
+                    "KLanguageButton",
+                    "KLanguageButton(const QString &, QWidget *)",
+                    "KLanguageButton-1"
+                ],
+                [
+                    "activated",
+                    "activated(const QString &)",
+                    "activated"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "contains",
+                    "contains(const QString &) const : bool",
+                    "contains"
+                ],
+                [
+                    "count",
+                    "count() const : int",
+                    "count"
+                ],
+                [
+                    "current",
+                    "current() const : QString",
+                    "current"
+                ],
+                [
+                    "highlighted",
+                    "highlighted(const QString &)",
+                    "highlighted"
+                ],
+                [
+                    "insertLanguage",
+                    "insertLanguage(const QString &, const QString &, int)",
+                    "insertLanguage"
+                ],
+                [
+                    "insertSeparator",
+                    "insertSeparator(int)",
+                    "insertSeparator"
+                ],
+                [
+                    "loadAllLanguages",
+                    "loadAllLanguages()",
+                    "loadAllLanguages"
+                ],
+                [
+                    "setCurrentItem",
+                    "setCurrentItem(const QString &)",
+                    "setCurrentItem"
+                ],
+                [
+                    "setLocale",
+                    "setLocale(const QString &)",
+                    "setLocale"
+                ],
+                [
+                    "setText",
+                    "setText(const QString &)",
+                    "setText"
+                ],
+                [
+                    "showLanguageCodes",
+                    "showLanguageCodes(bool)",
+                    "showLanguageCodes"
+                ]
+            ],
+            "name": "KLanguageButton",
+            "page": "kconfigwidgets/klanguagebutton",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kwidgetsaddons/kselectaction"
+            ],
+            "members": [
+                [
+                    "KRecentFilesAction",
+                    "KRecentFilesAction(QObject *)",
+                    "KRecentFilesAction"
+                ],
+                [
+                    "KRecentFilesAction",
+                    "KRecentFilesAction(const QString &, QObject *)",
+                    "KRecentFilesAction-1"
+                ],
+                [
+                    "KRecentFilesAction",
+                    "KRecentFilesAction(const QIcon &, const QString &, QObject *)",
+                    "KRecentFilesAction-2"
+                ],
+                [
+                    "addAction",
+                    "addAction(QAction *, const QUrl &, const QString &, const QMimeType &)",
+                    "addAction"
+                ],
+                [
+                    "addUrl",
+                    "addUrl(const QUrl &, const QString &)",
+                    "addUrl"
+                ],
+                [
+                    "addUrl",
+                    "addUrl(const QUrl &, const QString &, const QString &)",
+                    "addUrl-1"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "loadEntries",
+                    "loadEntries(const KConfigGroup &)",
+                    "loadEntries"
+                ],
+                [
+                    "maxItems",
+                    "maxItems() const : int",
+                    "maxItems"
+                ],
+                [
+                    "recentListCleared",
+                    "recentListCleared()",
+                    "recentListCleared"
+                ],
+                [
+                    "removeUrl",
+                    "removeUrl(const QUrl &)",
+                    "removeUrl"
+                ],
+                [
+                    "saveEntries",
+                    "saveEntries(const KConfigGroup &)",
+                    "saveEntries"
+                ],
+                [
+                    "setMaxItems",
+                    "setMaxItems(int)",
+                    "setMaxItems"
+                ],
+                [
+                    "urlSelected",
+                    "urlSelected(const QUrl &)",
+                    "urlSelected"
+                ],
+                [
+                    "urls",
+                    "urls() const : QList<QUrl>",
+                    "urls"
+                ]
+            ],
+            "name": "KRecentFilesAction",
+            "page": "kconfigwidgets/krecentfilesaction",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kwidgetsaddons/kviewstatemaintainerbase"
+            ],
+            "members": [
+                [
+                    "KViewStateMaintainer",
+                    "KViewStateMaintainer(const KConfigGroup &, QObject *)",
+                    "KViewStateMaintainer"
+                ]
+            ],
+            "name": "KViewStateMaintainer",
+            "page": "kconfigwidgets/kviewstatemaintainer",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kconfigwidgets",
+    "sections": [
+        {
+            "description": "Widgets for configuration dialogs.",
+            "page": "kconfigwidgets/kconfigwidgets-module",
+            "pages": [
+                [
+                    "kconfigwidgets/kconfigwidgets-module",
+                    "KConfigWidgets C++ Classes"
+                ],
+                [
+                    "kconfigwidgets/kcodecaction",
+                    "KCodecAction"
+                ],
+                [
+                    "kconfigwidgets/kcommandbar",
+                    "KCommandBar"
+                ],
+                [
+                    "kconfigwidgets/kconfigdialog",
+                    "KConfigDialog"
+                ],
+                [
+                    "kconfigwidgets/kconfigdialogmanager",
+                    "KConfigDialogManager"
+                ],
+                [
+                    "kconfigwidgets/kconfigviewstatesaver",
+                    "KConfigViewStateSaver"
+                ],
+                [
+                    "kconfigwidgets/khamburgermenu",
+                    "KHamburgerMenu"
+                ],
+                [
+                    "kconfigwidgets/klanguagebutton",
+                    "KLanguageButton"
+                ],
+                [
+                    "kconfigwidgets/krecentfilesaction",
+                    "KRecentFilesAction"
+                ],
+                [
+                    "kconfigwidgets/kviewstatemaintainer",
+                    "KViewStateMaintainer"
+                ],
+                [
+                    "kconfigwidgets/kcolorschememenu",
+                    "KColorSchemeMenu Namespace"
+                ],
+                [
+                    "kconfigwidgets/kcommandbar-actiongroup",
+                    ""
+                ],
+                [
+                    "kconfigwidgets/kconfigwidgets-index",
+                    "KConfig"
+                ],
+                [
+                    "kconfigwidgets/khelpclient",
+                    "KHelpClient Namespace"
+                ],
+                [
+                    "kconfigwidgets/klanguagename",
+                    "KLanguageName Namespace"
+                ],
+                [
+                    "kconfigwidgets/kstandardaction",
+                    "KStandardAction Namespace"
+                ],
+                [
+                    "kconfigwidgets/kstylemanager",
+                    "KStyleManager Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KConfigWidgets C++ Classes"
+        }
+    ]
+}

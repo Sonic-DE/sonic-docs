@@ -1,0 +1,291 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "availableEncodingNames",
+                    "availableEncodingNames() const : QStringList",
+                    "availableEncodingNames"
+                ],
+                [
+                    "charsets",
+                    "charsets() : KCharsets *",
+                    "charsets"
+                ],
+                [
+                    "descriptionForEncoding",
+                    "descriptionForEncoding(QStringView) const : QString",
+                    "descriptionForEncoding"
+                ],
+                [
+                    "descriptiveEncodingNames",
+                    "descriptiveEncodingNames() const : QStringList",
+                    "descriptiveEncodingNames"
+                ],
+                [
+                    "encodingForName",
+                    "encodingForName(const QString &) const : QString",
+                    "encodingForName"
+                ],
+                [
+                    "encodingsByScript",
+                    "encodingsByScript() const : QList<QStringList>",
+                    "encodingsByScript"
+                ],
+                [
+                    "fromEntity",
+                    "fromEntity(QStringView) : QChar",
+                    "fromEntity"
+                ],
+                [
+                    "fromEntity",
+                    "fromEntity(QStringView, int &) : QChar",
+                    "fromEntity-1"
+                ],
+                [
+                    "resolveEntities",
+                    "resolveEntities(const QString &) : QString",
+                    "resolveEntities"
+                ],
+                [
+                    "toEntity",
+                    "toEntity(const QChar &) : QString",
+                    "toEntity"
+                ]
+            ],
+            "name": "KCharsets",
+            "page": "kcodecs/kcharsets",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "codecForName",
+                    "codecForName(QByteArrayView) : KCodecs::Codec *",
+                    "codecForName"
+                ],
+                [
+                    "decode",
+                    "decode(QByteArrayView, KCodecs::Codec::NewlineType) const : QByteArray",
+                    "decode"
+                ],
+                [
+                    "decode",
+                    "decode(const char *&, const char *const, char *&, const char *const, KCodecs::Codec::NewlineType) const : bool",
+                    "decode-1"
+                ],
+                [
+                    "encode",
+                    "encode(QByteArrayView, KCodecs::Codec::NewlineType) const : QByteArray",
+                    "encode"
+                ],
+                [
+                    "encode",
+                    "encode(const char *&, const char *const, char *&, const char *const, KCodecs::Codec::NewlineType) const : bool",
+                    "encode-1"
+                ],
+                [
+                    "makeDecoder",
+                    "makeDecoder(KCodecs::Codec::NewlineType) const : KCodecs::Decoder *",
+                    "makeDecoder"
+                ],
+                [
+                    "makeEncoder",
+                    "makeEncoder(KCodecs::Codec::NewlineType) const : KCodecs::Encoder *",
+                    "makeEncoder"
+                ],
+                [
+                    "maxDecodedSizeFor",
+                    "maxDecodedSizeFor(qsizetype, KCodecs::Codec::NewlineType) const : qsizetype",
+                    "maxDecodedSizeFor"
+                ],
+                [
+                    "maxEncodedSizeFor",
+                    "maxEncodedSizeFor(qsizetype, KCodecs::Codec::NewlineType) const : qsizetype",
+                    "maxEncodedSizeFor"
+                ],
+                [
+                    "name",
+                    "name() const : const char *",
+                    "name"
+                ]
+            ],
+            "name": "KCodecs::Codec",
+            "page": "kcodecs/kcodecs-codec",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Decoder",
+                    "Decoder(KCodecs::Codec::NewlineType)",
+                    "Decoder"
+                ],
+                [
+                    "decode",
+                    "decode(const char *&, const char *const, char *&, const char *const) : bool",
+                    "decode"
+                ],
+                [
+                    "finish",
+                    "finish(char *&, const char *const) : bool",
+                    "finish"
+                ]
+            ],
+            "name": "KCodecs::Decoder",
+            "page": "kcodecs/kcodecs-decoder",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Encoder",
+                    "Encoder(KCodecs::Codec::NewlineType)",
+                    "Encoder"
+                ],
+                [
+                    "encode",
+                    "encode(const char *&, const char *const, char *&, const char *const) : bool",
+                    "encode"
+                ],
+                [
+                    "finish",
+                    "finish(char *&, const char *const) : bool",
+                    "finish"
+                ],
+                [
+                    "flushOutputBuffer",
+                    "flushOutputBuffer(char *&, const char *const) : bool",
+                    "flushOutputBuffer"
+                ],
+                [
+                    "write",
+                    "write(char, char *&, const char *const) : bool",
+                    "write"
+                ],
+                [
+                    "writeCRLF",
+                    "writeCRLF(char *&, const char *const) : bool",
+                    "writeCRLF"
+                ]
+            ],
+            "name": "KCodecs::Encoder",
+            "page": "kcodecs/kcodecs-encoder",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KEncodingProber",
+                    "KEncodingProber(KEncodingProber::ProberType)",
+                    "KEncodingProber"
+                ],
+                [
+                    "confidence",
+                    "confidence() const : float",
+                    "confidence"
+                ],
+                [
+                    "encoding",
+                    "encoding() const : QByteArray",
+                    "encoding"
+                ],
+                [
+                    "feed",
+                    "feed(QByteArrayView) : KEncodingProber::ProberState",
+                    "feed"
+                ],
+                [
+                    "nameForProberType",
+                    "nameForProberType(KEncodingProber::ProberType) : QString",
+                    "nameForProberType"
+                ],
+                [
+                    "proberTypeForName",
+                    "proberTypeForName(const QString &) : KEncodingProber::ProberType",
+                    "proberTypeForName"
+                ],
+                [
+                    "reset",
+                    "reset()",
+                    "reset"
+                ],
+                [
+                    "setProberType",
+                    "setProberType(KEncodingProber::ProberType)",
+                    "setProberType"
+                ],
+                [
+                    "state",
+                    "state() const : KEncodingProber::ProberState",
+                    "state"
+                ]
+            ],
+            "name": "KEncodingProber",
+            "page": "kcodecs/kencodingprober",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kcodecs",
+    "sections": [
+        {
+            "description": "Text encoding.",
+            "page": "kcodecs/kcodecs-module",
+            "pages": [
+                [
+                    "kcodecs/kcodecs-module",
+                    "KCodecs C++ Classes"
+                ],
+                [
+                    "kcodecs/kcharsets",
+                    "KCharsets"
+                ],
+                [
+                    "kcodecs/kcodecs-codec",
+                    "KCodecs::Codec"
+                ],
+                [
+                    "kcodecs/kcodecs-decoder",
+                    "KCodecs::Decoder"
+                ],
+                [
+                    "kcodecs/kcodecs-encoder",
+                    "KCodecs::Encoder"
+                ],
+                [
+                    "kcodecs/kencodingprober",
+                    "KEncodingProber"
+                ],
+                [
+                    "kcodecs/kcodecs",
+                    "KCodecs Namespace"
+                ],
+                [
+                    "kcodecs/kcodecs-index",
+                    "KCodecs"
+                ],
+                [
+                    "kcodecs/kemailaddress",
+                    "KEmailAddress Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KCodecs C++ Classes"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "addIdleTimeout",
+                    "addIdleTimeout(int) : int",
+                    "addIdleTimeout"
+                ],
+                [
+                    "addIdleTimeout",
+                    "addIdleTimeout(std::chrono::milliseconds) : int",
+                    "addIdleTimeout-1"
+                ],
+                [
+                    "catchNextResumeEvent",
+                    "catchNextResumeEvent()",
+                    "catchNextResumeEvent"
+                ],
+                [
+                    "idleTime",
+                    "idleTime() const : int",
+                    "idleTime"
+                ],
+                [
+                    "idleTimeouts",
+                    "idleTimeouts() const : QHash<int, int>",
+                    "idleTimeouts"
+                ],
+                [
+                    "instance",
+                    "instance() : KIdleTime *",
+                    "instance"
+                ],
+                [
+                    "removeAllIdleTimeouts",
+                    "removeAllIdleTimeouts()",
+                    "removeAllIdleTimeouts"
+                ],
+                [
+                    "removeIdleTimeout",
+                    "removeIdleTimeout(int)",
+                    "removeIdleTimeout"
+                ],
+                [
+                    "resumingFromIdle",
+                    "resumingFromIdle()",
+                    "resumingFromIdle"
+                ],
+                [
+                    "simulateUserActivity",
+                    "simulateUserActivity()",
+                    "simulateUserActivity"
+                ],
+                [
+                    "stopCatchingResumeEvent",
+                    "stopCatchingResumeEvent()",
+                    "stopCatchingResumeEvent"
+                ],
+                [
+                    "timeoutReached",
+                    "timeoutReached(int, int)",
+                    "timeoutReached"
+                ]
+            ],
+            "name": "KIdleTime",
+            "page": "kidletime/kidletime",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kidletime",
+    "sections": [
+        {
+            "description": "Reporting of idle time of user and system.",
+            "page": "kidletime/kidletime-module",
+            "pages": [
+                [
+                    "kidletime/kidletime-module",
+                    "KIdleTime C++ Classes"
+                ],
+                [
+                    "kidletime/kidletime",
+                    "KIdleTime"
+                ],
+                [
+                    "kidletime/kidletime-index",
+                    "KIdleTime"
+                ]
+            ],
+            "qml": false,
+            "title": "KIdleTime C++ Classes"
+        }
+    ]
+}

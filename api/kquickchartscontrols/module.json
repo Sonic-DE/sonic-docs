@@ -1,0 +1,47 @@
+{
+    "classes": [
+    ],
+    "module": "kquickchartscontrols",
+    "sections": [
+        {
+            "description": "Chart stuff.",
+            "page": "kquickchartscontrols/org-kde-quickcharts-controls-qmlmodule",
+            "pages": [
+                [
+                    "kquickchartscontrols/org-kde-quickcharts-controls-qmlmodule",
+                    "KQuickCharts Controls QML Types"
+                ],
+                [
+                    "kquickchartscontrols/qml-org-kde-quickcharts-controls-axislabels",
+                    "AxisLabels"
+                ],
+                [
+                    "kquickchartscontrols/qml-org-kde-quickcharts-controls-gridlines",
+                    "GridLines"
+                ],
+                [
+                    "kquickchartscontrols/qml-org-kde-quickcharts-controls-legend",
+                    "Legend"
+                ],
+                [
+                    "kquickchartscontrols/qml-org-kde-quickcharts-controls-legenddelegate",
+                    "LegendDelegate"
+                ],
+                [
+                    "kquickchartscontrols/qml-org-kde-quickcharts-controls-legendmodel",
+                    "LegendModel"
+                ],
+                [
+                    "kquickchartscontrols/qml-org-kde-quickcharts-controls-linechartcontrol",
+                    "LineChartControl"
+                ],
+                [
+                    "kquickchartscontrols/qml-org-kde-quickcharts-controls-piechartcontrol",
+                    "PieChartControl"
+                ]
+            ],
+            "qml": true,
+            "title": "KQuickCharts Controls QML Types"
+        }
+    ]
+}

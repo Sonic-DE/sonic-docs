@@ -1,0 +1,68 @@
+---
+title: "List of All Members for KActionCollection"
+description: "Every member of KActionCollection, including inherited members."
+parent: "kxmlgui/kactioncollection"
+---
+
+# List of All Members for KActionCollection
+
+This is the complete list of members for [KActionCollection](kactioncollection.md), including inherited members.
+
+- [KActionCollection(QObject \*, const QString &)](kactioncollection.md#KActionCollection)
+- [~KActionCollection()](kactioncollection.md#dtor.KActionCollection)
+- [action(const QString &) const : QAction \*](kactioncollection.md#action)
+- [action(int) const : QAction \*](kactioncollection.md#action-1)
+- [actionGroups() const : const QList\<QActionGroup \*\>](kactioncollection.md#actionGroups)
+- [actionHovered(QAction \*)](kactioncollection.md#actionHovered)
+- [actions() const : QList\<QAction \*\>](kactioncollection.md#actions)
+- [actionsWithoutGroup() const : const QList\<QAction \*\>](kactioncollection.md#actionsWithoutGroup)
+- [actionTriggered(QAction \*)](kactioncollection.md#actionTriggered)
+- [add(const QString &, const QObject \*, const char \*) : template \<typename ActionType\> ActionType \*](kactioncollection.md#add)
+- [add(const QString &, const Receiver \*, Func) : template \< typename ActionType, typename Receiver, typename Func \> ActionType \*](kactioncollection.md#add-1)
+- [addAction(KStandardAction::StandardAction, const QObject \*, const char \*) : QAction \*](kactioncollection.md#addAction-3)
+- [addAction(KStandardAction::StandardAction, const QString &, const QObject \*, const char \*) : QAction \*](kactioncollection.md#addAction-7)
+- [addAction(KStandardAction::StandardAction, const QString &, const Receiver \*, Func) : template \<typename Receiver, typename Func\> QAction \*](kactioncollection.md#addAction-8)
+- [addAction(KStandardActions::StandardAction) : QAction \*](kactioncollection.md#addAction)
+- [addAction(KStandardActions::StandardAction, const QString &) : QAction \*](kactioncollection.md#addAction-1)
+- [addAction(KStandardActions::StandardAction, const QString &, const Receiver \*, Func) : template \<typename Receiver, typename Func\> QAction \*](kactioncollection.md#addAction-9)
+- [addAction(KStandardActions::StandardAction, const Receiver \*, Func) : template \<typename Receiver, typename Func\> QAction \*](kactioncollection.md#addAction-4)
+- [addAction(const QString &, QAction \*) : QAction \*](kactioncollection.md#addAction-2)
+- [addAction(const QString &, const QObject \*, const char \*) : QAction \*](kactioncollection.md#addAction-5)
+- [addAction(const QString &, const Receiver \*, Func) : template \<typename Receiver, typename Func\> QAction \*](kactioncollection.md#addAction-6)
+- [addActions(const QList\<QAction \*\> &)](kactioncollection.md#addActions)
+- [addAssociatedWidget(QWidget \*)](kactioncollection.md#addAssociatedWidget)
+- [allCollections() : const QList\<KActionCollection \*\> &](kactioncollection.md#allCollections)
+- [associatedWidgets() const : QList\<QWidget \*\>](kactioncollection.md#associatedWidgets)
+- [associateWidget(QWidget \*) const](kactioncollection.md#associateWidget)
+- [changed()](kactioncollection.md#changed)
+- [clear()](kactioncollection.md#clear)
+- [clearAssociatedWidgets()](kactioncollection.md#clearAssociatedWidgets)
+- [componentDisplayName() const : QString](kactioncollection.md#componentDisplayName)
+- [componentName() const : QString](kactioncollection.md#componentName)
+- [configGroup : QString](kactioncollection.md#configGroup-prop)
+- [configGroup() const : QString](kactioncollection.md#configGroup)
+- [configIsGlobal : bool](kactioncollection.md#configIsGlobal-prop)
+- [configIsGlobal() const : bool](kactioncollection.md#configIsGlobal)
+- [count() const : int](kactioncollection.md#count)
+- [defaultShortcut(QAction \*) : QKeySequence](kactioncollection.md#defaultShortcut)
+- [defaultShortcuts(QAction \*) : QList\<QKeySequence\>](kactioncollection.md#defaultShortcuts)
+- [exportGlobalShortcuts(KConfigGroup \*, bool) const](kactioncollection.md#exportGlobalShortcuts)
+- [importGlobalShortcuts(KConfigGroup \*)](kactioncollection.md#importGlobalShortcuts)
+- [inserted(QAction \*)](kactioncollection.md#inserted)
+- [isEmpty() const : bool](kactioncollection.md#isEmpty)
+- [isShortcutsConfigurable(QAction \*) : bool](kactioncollection.md#isShortcutsConfigurable)
+- [parentGUIClient() const : const KXMLGUIClient \*](kactioncollection.md#parentGUIClient)
+- [readSettings(KConfigGroup \*)](kactioncollection.md#readSettings)
+- [removeAction(QAction \*)](kactioncollection.md#removeAction)
+- [removeAssociatedWidget(QWidget \*)](kactioncollection.md#removeAssociatedWidget)
+- [setComponentDisplayName(const QString &)](kactioncollection.md#setComponentDisplayName)
+- [setComponentName(const QString &)](kactioncollection.md#setComponentName)
+- [setConfigGlobal(bool)](kactioncollection.md#setConfigGlobal)
+- [setConfigGroup(const QString &)](kactioncollection.md#setConfigGroup)
+- [setDefaultShortcut(QAction \*, const QKeySequence &)](kactioncollection.md#setDefaultShortcut)
+- [setDefaultShortcuts(QAction \*, const QList\<QKeySequence\> &)](kactioncollection.md#setDefaultShortcuts)
+- [setShortcutsConfigurable(QAction \*, bool)](kactioncollection.md#setShortcutsConfigurable)
+- [takeAction(QAction \*) : QAction \*](kactioncollection.md#takeAction)
+- [writeSettings(KConfigGroup \*, bool, QAction \*) const](kactioncollection.md#writeSettings)
+
+KActionCollection also inherits the members of [QObject](https://doc.qt.io/qt-6/qobject-members.html).

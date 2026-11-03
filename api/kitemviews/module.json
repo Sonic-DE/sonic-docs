@@ -1,0 +1,677 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCategorizedSortFilterProxyModel",
+                    "KCategorizedSortFilterProxyModel(QObject *)",
+                    "KCategorizedSortFilterProxyModel"
+                ],
+                [
+                    "compareCategories",
+                    "compareCategories(const QModelIndex &, const QModelIndex &) const : int",
+                    "compareCategories"
+                ],
+                [
+                    "isCategorizedModel",
+                    "isCategorizedModel() const : bool",
+                    "isCategorizedModel"
+                ],
+                [
+                    "lessThan",
+                    "lessThan(const QModelIndex &, const QModelIndex &) const : bool",
+                    "lessThan"
+                ],
+                [
+                    "setCategorizedModel",
+                    "setCategorizedModel(bool)",
+                    "setCategorizedModel"
+                ],
+                [
+                    "setSortCategoriesByNaturalComparison",
+                    "setSortCategoriesByNaturalComparison(bool)",
+                    "setSortCategoriesByNaturalComparison"
+                ],
+                [
+                    "sort",
+                    "sort(int, Qt::SortOrder)",
+                    "sort"
+                ],
+                [
+                    "sortCategoriesByNaturalComparison",
+                    "sortCategoriesByNaturalComparison() const : bool",
+                    "sortCategoriesByNaturalComparison"
+                ],
+                [
+                    "sortColumn",
+                    "sortColumn() const : int",
+                    "sortColumn"
+                ],
+                [
+                    "sortOrder",
+                    "sortOrder() const : Qt::SortOrder",
+                    "sortOrder"
+                ],
+                [
+                    "subSortLessThan",
+                    "subSortLessThan(const QModelIndex &, const QModelIndex &) const : bool",
+                    "subSortLessThan"
+                ]
+            ],
+            "name": "KCategorizedSortFilterProxyModel",
+            "page": "kitemviews/kcategorizedsortfilterproxymodel",
+            "qtBases": [
+                [
+                    "QSortFilterProxyModel",
+                    "https://doc.qt.io/qt-6/qsortfilterproxymodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "alternatingBlockColors",
+                    "alternatingBlockColors : bool",
+                    "alternatingBlockColors-prop"
+                ],
+                [
+                    "categorySpacing",
+                    "categorySpacing : int",
+                    "categorySpacing-prop"
+                ],
+                [
+                    "collapsibleBlocks",
+                    "collapsibleBlocks : bool",
+                    "collapsibleBlocks-prop"
+                ],
+                [
+                    "KCategorizedView",
+                    "KCategorizedView(QWidget *)",
+                    "KCategorizedView"
+                ],
+                [
+                    "alternatingBlockColors",
+                    "alternatingBlockColors() const : bool",
+                    "alternatingBlockColors"
+                ],
+                [
+                    "alternatingBlockColorsChanged",
+                    "alternatingBlockColorsChanged(bool)",
+                    "alternatingBlockColorsChanged"
+                ],
+                [
+                    "block",
+                    "block(const QModelIndex &) : QModelIndexList",
+                    "block"
+                ],
+                [
+                    "block",
+                    "block(const QString &) : QModelIndexList",
+                    "block-1"
+                ],
+                [
+                    "categoryDrawer",
+                    "categoryDrawer() const : KCategoryDrawer *",
+                    "categoryDrawer"
+                ],
+                [
+                    "categorySpacing",
+                    "categorySpacing() const : int",
+                    "categorySpacing"
+                ],
+                [
+                    "categorySpacingChanged",
+                    "categorySpacingChanged(int)",
+                    "categorySpacingChanged"
+                ],
+                [
+                    "collapsibleBlocks",
+                    "collapsibleBlocks() const : bool",
+                    "collapsibleBlocks"
+                ],
+                [
+                    "collapsibleBlocksChanged",
+                    "collapsibleBlocksChanged(bool)",
+                    "collapsibleBlocksChanged"
+                ],
+                [
+                    "setAlternatingBlockColors",
+                    "setAlternatingBlockColors(bool)",
+                    "setAlternatingBlockColors"
+                ],
+                [
+                    "setCategoryDrawer",
+                    "setCategoryDrawer(KCategoryDrawer *)",
+                    "setCategoryDrawer"
+                ],
+                [
+                    "setCategorySpacing",
+                    "setCategorySpacing(int)",
+                    "setCategorySpacing"
+                ],
+                [
+                    "setCollapsibleBlocks",
+                    "setCollapsibleBlocks(bool)",
+                    "setCollapsibleBlocks"
+                ],
+                [
+                    "setGridSize",
+                    "setGridSize(const QSize &)",
+                    "setGridSize"
+                ],
+                [
+                    "setGridSizeOwn",
+                    "setGridSizeOwn(const QSize &)",
+                    "setGridSizeOwn"
+                ]
+            ],
+            "name": "KCategorizedView",
+            "page": "kitemviews/kcategorizedview",
+            "qtBases": [
+                [
+                    "QListView",
+                    "https://doc.qt.io/qt-6/qlistview-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCategoryDrawer",
+                    "KCategoryDrawer(KCategorizedView *)",
+                    "KCategoryDrawer"
+                ],
+                [
+                    "actionRequested",
+                    "actionRequested(int, const QModelIndex &)",
+                    "actionRequested"
+                ],
+                [
+                    "categoryHeight",
+                    "categoryHeight(const QModelIndex &, const QStyleOption &) const : int",
+                    "categoryHeight"
+                ],
+                [
+                    "collapseOrExpandClicked",
+                    "collapseOrExpandClicked(const QModelIndex &)",
+                    "collapseOrExpandClicked"
+                ],
+                [
+                    "drawCategory",
+                    "drawCategory(const QModelIndex &, int, const QStyleOption &, QPainter *) const",
+                    "drawCategory"
+                ],
+                [
+                    "leftMargin",
+                    "leftMargin() const : int",
+                    "leftMargin"
+                ],
+                [
+                    "mouseButtonDoubleClicked",
+                    "mouseButtonDoubleClicked(const QModelIndex &, const QRect &, QMouseEvent *)",
+                    "mouseButtonDoubleClicked"
+                ],
+                [
+                    "mouseButtonPressed",
+                    "mouseButtonPressed(const QModelIndex &, const QRect &, QMouseEvent *)",
+                    "mouseButtonPressed"
+                ],
+                [
+                    "mouseButtonReleased",
+                    "mouseButtonReleased(const QModelIndex &, const QRect &, QMouseEvent *)",
+                    "mouseButtonReleased"
+                ],
+                [
+                    "mouseLeft",
+                    "mouseLeft(const QModelIndex &, const QRect &)",
+                    "mouseLeft"
+                ],
+                [
+                    "mouseMoved",
+                    "mouseMoved(const QModelIndex &, const QRect &, QMouseEvent *)",
+                    "mouseMoved"
+                ],
+                [
+                    "rightMargin",
+                    "rightMargin() const : int",
+                    "rightMargin"
+                ],
+                [
+                    "view",
+                    "view() const : KCategorizedView *",
+                    "view"
+                ]
+            ],
+            "name": "KCategoryDrawer",
+            "page": "kitemviews/kcategorydrawer",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KExtendableItemDelegate",
+                    "KExtendableItemDelegate(QAbstractItemView *)",
+                    "KExtendableItemDelegate"
+                ],
+                [
+                    "contractAll",
+                    "contractAll()",
+                    "contractAll"
+                ],
+                [
+                    "contractItem",
+                    "contractItem(const QModelIndex &)",
+                    "contractItem"
+                ],
+                [
+                    "contractPixmap",
+                    "contractPixmap() : QPixmap",
+                    "contractPixmap"
+                ],
+                [
+                    "extendItem",
+                    "extendItem(QWidget *, const QModelIndex &)",
+                    "extendItem"
+                ],
+                [
+                    "extendPixmap",
+                    "extendPixmap() : QPixmap",
+                    "extendPixmap"
+                ],
+                [
+                    "extenderCreated",
+                    "extenderCreated(QWidget *, const QModelIndex &)",
+                    "extenderCreated"
+                ],
+                [
+                    "extenderDestroyed",
+                    "extenderDestroyed(QWidget *, const QModelIndex &)",
+                    "extenderDestroyed"
+                ],
+                [
+                    "extenderRect",
+                    "extenderRect(QWidget *, const QStyleOptionViewItem &, const QModelIndex &) const : QRect",
+                    "extenderRect"
+                ],
+                [
+                    "isExtended",
+                    "isExtended(const QModelIndex &) const : bool",
+                    "isExtended"
+                ],
+                [
+                    "setContractPixmap",
+                    "setContractPixmap(const QPixmap &)",
+                    "setContractPixmap"
+                ],
+                [
+                    "setExtendPixmap",
+                    "setExtendPixmap(const QPixmap &)",
+                    "setExtendPixmap"
+                ],
+                [
+                    "updateExtenderGeometry",
+                    "updateExtenderGeometry(QWidget *, const QStyleOptionViewItem &, const QModelIndex &) const",
+                    "updateExtenderGeometry"
+                ]
+            ],
+            "name": "KExtendableItemDelegate",
+            "page": "kitemviews/kextendableitemdelegate",
+            "qtBases": [
+                [
+                    "QStyledItemDelegate",
+                    "https://doc.qt.io/qt-6/qstyleditemdelegate-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KListWidgetSearchLine",
+                    "KListWidgetSearchLine(QWidget *, QListWidget *)",
+                    "KListWidgetSearchLine"
+                ],
+                [
+                    "caseSensitive",
+                    "caseSensitive() const : Qt::CaseSensitivity",
+                    "caseSensitive"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "itemMatches",
+                    "itemMatches(const QListWidgetItem *, const QString &) const : bool",
+                    "itemMatches"
+                ],
+                [
+                    "listWidget",
+                    "listWidget() const : QListWidget *",
+                    "listWidget"
+                ],
+                [
+                    "setCaseSensitivity",
+                    "setCaseSensitivity(Qt::CaseSensitivity)",
+                    "setCaseSensitivity"
+                ],
+                [
+                    "setListWidget",
+                    "setListWidget(QListWidget *)",
+                    "setListWidget"
+                ],
+                [
+                    "updateSearch",
+                    "updateSearch(const QString &)",
+                    "updateSearch"
+                ]
+            ],
+            "name": "KListWidgetSearchLine",
+            "page": "kitemviews/klistwidgetsearchline",
+            "qtBases": [
+                [
+                    "QLineEdit",
+                    "https://doc.qt.io/qt-6/qlineedit-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "caseSensitity",
+                    "caseSensitity : Qt::CaseSensitivity",
+                    "caseSensitity-prop"
+                ],
+                [
+                    "keepParentsVisible",
+                    "keepParentsVisible : bool",
+                    "keepParentsVisible-prop"
+                ],
+                [
+                    "KTreeWidgetSearchLine",
+                    "KTreeWidgetSearchLine(QWidget *, QTreeWidget *)",
+                    "KTreeWidgetSearchLine"
+                ],
+                [
+                    "KTreeWidgetSearchLine",
+                    "KTreeWidgetSearchLine(QWidget *, const QList<QTreeWidget *> &)",
+                    "KTreeWidgetSearchLine-1"
+                ],
+                [
+                    "addTreeWidget",
+                    "addTreeWidget(QTreeWidget *)",
+                    "addTreeWidget"
+                ],
+                [
+                    "canChooseColumnsCheck",
+                    "canChooseColumnsCheck() : bool",
+                    "canChooseColumnsCheck"
+                ],
+                [
+                    "caseSensitivity",
+                    "caseSensitivity() const : Qt::CaseSensitivity",
+                    "caseSensitivity"
+                ],
+                [
+                    "caseSensitivityChanged",
+                    "caseSensitivityChanged(Qt::CaseSensitivity)",
+                    "caseSensitivityChanged"
+                ],
+                [
+                    "connectTreeWidget",
+                    "connectTreeWidget()",
+                    "connectTreeWidget"
+                ],
+                [
+                    "disconnectTreeWidget",
+                    "disconnectTreeWidget()",
+                    "disconnectTreeWidget"
+                ],
+                [
+                    "hiddenChanged",
+                    "hiddenChanged()",
+                    "hiddenChanged"
+                ],
+                [
+                    "itemMatches",
+                    "itemMatches(const QTreeWidgetItem *, const QString &) const : bool",
+                    "itemMatches"
+                ],
+                [
+                    "keepParentsVisible",
+                    "keepParentsVisible() const : bool",
+                    "keepParentsVisible"
+                ],
+                [
+                    "keepParentsVisibleChanged",
+                    "keepParentsVisibleChanged(bool)",
+                    "keepParentsVisibleChanged"
+                ],
+                [
+                    "removeTreeWidget",
+                    "removeTreeWidget(QTreeWidget *)",
+                    "removeTreeWidget"
+                ],
+                [
+                    "searchColumns",
+                    "searchColumns() const : QList<int>",
+                    "searchColumns"
+                ],
+                [
+                    "searchUpdated",
+                    "searchUpdated(const QString &)",
+                    "searchUpdated"
+                ],
+                [
+                    "setCaseSensitivity",
+                    "setCaseSensitivity(Qt::CaseSensitivity)",
+                    "setCaseSensitivity"
+                ],
+                [
+                    "setKeepParentsVisible",
+                    "setKeepParentsVisible(bool)",
+                    "setKeepParentsVisible"
+                ],
+                [
+                    "setSearchColumns",
+                    "setSearchColumns(const QList<int> &)",
+                    "setSearchColumns"
+                ],
+                [
+                    "setTreeWidget",
+                    "setTreeWidget(QTreeWidget *)",
+                    "setTreeWidget"
+                ],
+                [
+                    "setTreeWidgets",
+                    "setTreeWidgets(const QList<QTreeWidget *> &)",
+                    "setTreeWidgets"
+                ],
+                [
+                    "treeWidget",
+                    "treeWidget() const : QTreeWidget *",
+                    "treeWidget"
+                ],
+                [
+                    "treeWidgets",
+                    "treeWidgets() const : QList<QTreeWidget *>",
+                    "treeWidgets"
+                ],
+                [
+                    "updateSearch",
+                    "updateSearch(QTreeWidget *)",
+                    "updateSearch"
+                ],
+                [
+                    "updateSearch",
+                    "updateSearch(const QString &)",
+                    "updateSearch-1"
+                ]
+            ],
+            "name": "KTreeWidgetSearchLine",
+            "page": "kitemviews/ktreewidgetsearchline",
+            "qtBases": [
+                [
+                    "QLineEdit",
+                    "https://doc.qt.io/qt-6/qlineedit-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KTreeWidgetSearchLineWidget",
+                    "KTreeWidgetSearchLineWidget(QWidget *, QTreeWidget *)",
+                    "KTreeWidgetSearchLineWidget"
+                ],
+                [
+                    "createSearchLine",
+                    "createSearchLine(QTreeWidget *) const : KTreeWidgetSearchLine *",
+                    "createSearchLine"
+                ],
+                [
+                    "createWidgets",
+                    "createWidgets()",
+                    "createWidgets"
+                ],
+                [
+                    "searchLine",
+                    "searchLine() const : KTreeWidgetSearchLine *",
+                    "searchLine"
+                ]
+            ],
+            "name": "KTreeWidgetSearchLineWidget",
+            "page": "kitemviews/ktreewidgetsearchlinewidget",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KWidgetItemDelegate",
+                    "KWidgetItemDelegate(QAbstractItemView *, QObject *)",
+                    "KWidgetItemDelegate"
+                ],
+                [
+                    "blockedEventTypes",
+                    "blockedEventTypes(QWidget *) const : QList<QEvent::Type>",
+                    "blockedEventTypes"
+                ],
+                [
+                    "createItemWidgets",
+                    "createItemWidgets(const QModelIndex &) const : QList<QWidget *>",
+                    "createItemWidgets"
+                ],
+                [
+                    "focusedIndex",
+                    "focusedIndex() const : QPersistentModelIndex",
+                    "focusedIndex"
+                ],
+                [
+                    "itemView",
+                    "itemView() const : QAbstractItemView *",
+                    "itemView"
+                ],
+                [
+                    "resetModel",
+                    "resetModel()",
+                    "resetModel"
+                ],
+                [
+                    "setBlockedEventTypes",
+                    "setBlockedEventTypes(QWidget *, const QList<QEvent::Type> &) const",
+                    "setBlockedEventTypes"
+                ],
+                [
+                    "updateItemWidgets",
+                    "updateItemWidgets(const QList<QWidget *> &, const QStyleOptionViewItem &, const QPersistentModelIndex &) const",
+                    "updateItemWidgets"
+                ]
+            ],
+            "name": "KWidgetItemDelegate",
+            "page": "kitemviews/kwidgetitemdelegate",
+            "qtBases": [
+                [
+                    "QAbstractItemDelegate",
+                    "https://doc.qt.io/qt-6/qabstractitemdelegate-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kitemviews",
+    "sections": [
+        {
+            "description": "Set of item views extending the Qt model-view framework.",
+            "page": "kitemviews/kitemviews-module",
+            "pages": [
+                [
+                    "kitemviews/kitemviews-module",
+                    "KItemViews C++ Classes"
+                ],
+                [
+                    "kitemviews/kcategorizedsortfilterproxymodel",
+                    "KCategorizedSortFilterProxyModel"
+                ],
+                [
+                    "kitemviews/kcategorizedview",
+                    "KCategorizedView"
+                ],
+                [
+                    "kitemviews/kcategorydrawer",
+                    "KCategoryDrawer"
+                ],
+                [
+                    "kitemviews/kextendableitemdelegate",
+                    "KExtendableItemDelegate"
+                ],
+                [
+                    "kitemviews/klistwidgetsearchline",
+                    "KListWidgetSearchLine"
+                ],
+                [
+                    "kitemviews/ktreewidgetsearchline",
+                    "KTreeWidgetSearchLine"
+                ],
+                [
+                    "kitemviews/ktreewidgetsearchlinewidget",
+                    "KTreeWidgetSearchLineWidget"
+                ],
+                [
+                    "kitemviews/kwidgetitemdelegate",
+                    "KWidgetItemDelegate"
+                ],
+                [
+                    "kitemviews/kitemviews-index",
+                    "KItemViews"
+                ]
+            ],
+            "qml": false,
+            "title": "KItemViews C++ Classes"
+        }
+    ]
+}

@@ -1,0 +1,323 @@
+{
+    "classes": [
+        {
+            "bases": [
+                "kcoreaddons/kjobtrackerinterface"
+            ],
+            "members": [
+                [
+                    "KAbstractWidgetJobTracker",
+                    "KAbstractWidgetJobTracker(QWidget *)",
+                    "KAbstractWidgetJobTracker"
+                ],
+                [
+                    "autoDelete",
+                    "autoDelete(KJob *) const : bool",
+                    "autoDelete"
+                ],
+                [
+                    "registerJob",
+                    "registerJob(KJob *)",
+                    "registerJob"
+                ],
+                [
+                    "resume",
+                    "resume(KJob *)",
+                    "resume"
+                ],
+                [
+                    "setAutoDelete",
+                    "setAutoDelete(KJob *, bool)",
+                    "setAutoDelete"
+                ],
+                [
+                    "setStopOnClose",
+                    "setStopOnClose(KJob *, bool)",
+                    "setStopOnClose"
+                ],
+                [
+                    "slotClean",
+                    "slotClean(KJob *)",
+                    "slotClean"
+                ],
+                [
+                    "slotResume",
+                    "slotResume(KJob *)",
+                    "slotResume"
+                ],
+                [
+                    "slotStop",
+                    "slotStop(KJob *)",
+                    "slotStop"
+                ],
+                [
+                    "slotSuspend",
+                    "slotSuspend(KJob *)",
+                    "slotSuspend"
+                ],
+                [
+                    "stopOnClose",
+                    "stopOnClose(KJob *) const : bool",
+                    "stopOnClose"
+                ],
+                [
+                    "stopped",
+                    "stopped(KJob *)",
+                    "stopped"
+                ],
+                [
+                    "suspend",
+                    "suspend(KJob *)",
+                    "suspend"
+                ],
+                [
+                    "unregisterJob",
+                    "unregisterJob(KJob *)",
+                    "unregisterJob"
+                ],
+                [
+                    "widget",
+                    "widget(KJob *) : QWidget *",
+                    "widget"
+                ]
+            ],
+            "name": "KAbstractWidgetJobTracker",
+            "page": "kjobwidgets/kabstractwidgetjobtracker",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjobuidelegate"
+            ],
+            "members": [
+                [
+                    "KDialogJobUiDelegate",
+                    "KDialogJobUiDelegate()",
+                    "KDialogJobUiDelegate"
+                ],
+                [
+                    "KDialogJobUiDelegate",
+                    "KDialogJobUiDelegate(KJobUiDelegate::Flags, QWidget *)",
+                    "KDialogJobUiDelegate-1"
+                ],
+                [
+                    "setWindow",
+                    "setWindow(QWidget *)",
+                    "setWindow"
+                ],
+                [
+                    "updateUserTimestamp",
+                    "updateUserTimestamp(unsigned long)",
+                    "updateUserTimestamp"
+                ],
+                [
+                    "window",
+                    "window() const : QWidget *",
+                    "window"
+                ]
+            ],
+            "name": "KDialogJobUiDelegate",
+            "page": "kjobwidgets/kdialogjobuidelegate",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjobtrackerinterface"
+            ],
+            "members": [
+                [
+                    "KInhibitionJobTracker",
+                    "KInhibitionJobTracker(QObject *)",
+                    "KInhibitionJobTracker"
+                ],
+                [
+                    "~KInhibitionJobTracker",
+                    "~KInhibitionJobTracker()",
+                    "dtor.KInhibitionJobTracker"
+                ],
+                [
+                    "registerJob",
+                    "registerJob(KJob *)",
+                    "registerJob"
+                ],
+                [
+                    "unregisterJob",
+                    "unregisterJob(KJob *)",
+                    "unregisterJob"
+                ]
+            ],
+            "name": "KInhibitionJobTracker",
+            "page": "kjobwidgets/kinhibitionjobtracker",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjobuidelegate"
+            ],
+            "members": [
+                [
+                    "KNotificationJobUiDelegate",
+                    "KNotificationJobUiDelegate(KJobUiDelegate::Flags)",
+                    "KNotificationJobUiDelegate"
+                ],
+                [
+                    "showErrorMessage",
+                    "showErrorMessage()",
+                    "showErrorMessage"
+                ]
+            ],
+            "name": "KNotificationJobUiDelegate",
+            "page": "kjobwidgets/knotificationjobuidelegate",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kjobwidgets/kabstractwidgetjobtracker"
+            ],
+            "members": [
+                [
+                    "KStatusBarJobTracker",
+                    "KStatusBarJobTracker(QWidget *, bool)",
+                    "KStatusBarJobTracker"
+                ],
+                [
+                    "setStatusBarMode",
+                    "setStatusBarMode(KStatusBarJobTracker::StatusBarModes)",
+                    "setStatusBarMode"
+                ]
+            ],
+            "name": "KStatusBarJobTracker",
+            "page": "kjobwidgets/kstatusbarjobtracker",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjobtrackerinterface"
+            ],
+            "members": [
+                [
+                    "KUiServerJobTracker",
+                    "KUiServerJobTracker(QObject *)",
+                    "KUiServerJobTracker"
+                ],
+                [
+                    "registerJob",
+                    "registerJob(KJob *)",
+                    "registerJob"
+                ],
+                [
+                    "unregisterJob",
+                    "unregisterJob(KJob *)",
+                    "unregisterJob"
+                ]
+            ],
+            "name": "KUiServerJobTracker",
+            "page": "kjobwidgets/kuiserverjobtracker",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjobtrackerinterface"
+            ],
+            "members": [
+                [
+                    "KUiServerV2JobTracker",
+                    "KUiServerV2JobTracker(QObject *)",
+                    "KUiServerV2JobTracker"
+                ],
+                [
+                    "registerJob",
+                    "registerJob(KJob *)",
+                    "registerJob"
+                ],
+                [
+                    "unregisterJob",
+                    "unregisterJob(KJob *)",
+                    "unregisterJob"
+                ]
+            ],
+            "name": "KUiServerV2JobTracker",
+            "page": "kjobwidgets/kuiserverv2jobtracker",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kjobwidgets/kabstractwidgetjobtracker"
+            ],
+            "members": [
+                [
+                    "KWidgetJobTracker",
+                    "KWidgetJobTracker(QWidget *)",
+                    "KWidgetJobTracker"
+                ],
+                [
+                    "keepOpen",
+                    "keepOpen(KJob *) const : bool",
+                    "keepOpen"
+                ]
+            ],
+            "name": "KWidgetJobTracker",
+            "page": "kjobwidgets/kwidgetjobtracker",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kjobwidgets",
+    "sections": [
+        {
+            "description": "Widgets for showing progress of asynchronous jobs.",
+            "page": "kjobwidgets/kjobwidgets-module",
+            "pages": [
+                [
+                    "kjobwidgets/kjobwidgets-module",
+                    "KJobWidgets C++ Classes"
+                ],
+                [
+                    "kjobwidgets/kabstractwidgetjobtracker",
+                    "KAbstractWidgetJobTracker"
+                ],
+                [
+                    "kjobwidgets/kdialogjobuidelegate",
+                    "KDialogJobUiDelegate"
+                ],
+                [
+                    "kjobwidgets/kinhibitionjobtracker",
+                    "KInhibitionJobTracker"
+                ],
+                [
+                    "kjobwidgets/knotificationjobuidelegate",
+                    "KNotificationJobUiDelegate"
+                ],
+                [
+                    "kjobwidgets/kstatusbarjobtracker",
+                    "KStatusBarJobTracker"
+                ],
+                [
+                    "kjobwidgets/kuiserverjobtracker",
+                    "KUiServerJobTracker"
+                ],
+                [
+                    "kjobwidgets/kuiserverv2jobtracker",
+                    "KUiServerV2JobTracker"
+                ],
+                [
+                    "kjobwidgets/kwidgetjobtracker",
+                    "KWidgetJobTracker"
+                ],
+                [
+                    "kjobwidgets/kjobwidgets-index",
+                    "KJobWidgets"
+                ]
+            ],
+            "qml": false,
+            "title": "KJobWidgets C++ Classes"
+        }
+    ]
+}

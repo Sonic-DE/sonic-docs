@@ -1,0 +1,2946 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "description",
+                    "description : const QString",
+                    "description-prop"
+                ],
+                [
+                    "licenses",
+                    "licenses : const KAboutLicense",
+                    "licenses-prop"
+                ],
+                [
+                    "name",
+                    "name : const QString",
+                    "name-prop"
+                ],
+                [
+                    "version",
+                    "version : const QString",
+                    "version-prop"
+                ],
+                [
+                    "webAddress",
+                    "webAddress : const QString",
+                    "webAddress-prop"
+                ],
+                [
+                    "KAboutComponent",
+                    "KAboutComponent(const QString &, const QString &, const QString &, const QString &, const QString &)",
+                    "KAboutComponent-1"
+                ],
+                [
+                    "KAboutComponent",
+                    "KAboutComponent(const QString &, const QString &, const QString &, const QString &, enum KAboutLicense::LicenseKey)",
+                    "KAboutComponent-2"
+                ],
+                [
+                    "KAboutComponent",
+                    "KAboutComponent(const KAboutComponent &)",
+                    "KAboutComponent"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "license",
+                    "license() const : KAboutLicense",
+                    "license"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ],
+                [
+                    "webAddress",
+                    "webAddress() const : QString",
+                    "webAddress"
+                ],
+                [
+                    "operator=",
+                    "operator=(const KAboutComponent &) : KAboutComponent &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KAboutComponent",
+            "page": "kcoreaddons/kaboutcomponent",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "authors",
+                    "authors : const QList<KAboutPerson>",
+                    "authors-prop"
+                ],
+                [
+                    "bugAddress",
+                    "bugAddress : const QString",
+                    "bugAddress-prop"
+                ],
+                [
+                    "componentName",
+                    "componentName : const QString",
+                    "componentName-prop"
+                ],
+                [
+                    "components",
+                    "components : const QList<KAboutComponent>",
+                    "components-prop"
+                ],
+                [
+                    "copyrightStatement",
+                    "copyrightStatement : const QString",
+                    "copyrightStatement-prop"
+                ],
+                [
+                    "credits",
+                    "credits : const QList<KAboutPerson>",
+                    "credits-prop"
+                ],
+                [
+                    "desktopFileName",
+                    "desktopFileName : const QString",
+                    "desktopFileName-prop"
+                ],
+                [
+                    "displayName",
+                    "displayName : const QString",
+                    "displayName-prop"
+                ],
+                [
+                    "homepage",
+                    "homepage : const QString",
+                    "homepage-prop"
+                ],
+                [
+                    "licenses",
+                    "licenses : const QList<KAboutLicense>",
+                    "licenses-prop"
+                ],
+                [
+                    "otherText",
+                    "otherText : const QString",
+                    "otherText-prop"
+                ],
+                [
+                    "productName",
+                    "productName : const QString",
+                    "productName-prop"
+                ],
+                [
+                    "programLogo",
+                    "programLogo : const QVariant",
+                    "programLogo-prop"
+                ],
+                [
+                    "releases",
+                    "releases : QList<KAboutRelease>",
+                    "releases-prop"
+                ],
+                [
+                    "shortDescription",
+                    "shortDescription : const QString",
+                    "shortDescription-prop"
+                ],
+                [
+                    "translators",
+                    "translators : const QList<KAboutPerson>",
+                    "translators-prop"
+                ],
+                [
+                    "version",
+                    "version : const QString",
+                    "version-prop"
+                ],
+                [
+                    "KAboutData",
+                    "KAboutData(const QString &, const QString &, const QString &)",
+                    "KAboutData-1"
+                ],
+                [
+                    "KAboutData",
+                    "KAboutData(const QString &, const QString &, const QString &, const QString &, enum KAboutLicense::LicenseKey, const QString &, const QString &, const QString &, const QString &)",
+                    "KAboutData-2"
+                ],
+                [
+                    "KAboutData",
+                    "KAboutData(const KAboutData &)",
+                    "KAboutData"
+                ],
+                [
+                    "aboutTranslationTeam",
+                    "aboutTranslationTeam() : QString",
+                    "aboutTranslationTeam"
+                ],
+                [
+                    "addAuthor",
+                    "addAuthor(const KAboutPerson &) : KAboutData &",
+                    "addAuthor"
+                ],
+                [
+                    "addAuthor",
+                    "addAuthor(const QString &, const QString &, const QString &, const QString &, const QUrl &) : KAboutData &",
+                    "addAuthor-1"
+                ],
+                [
+                    "addAuthor",
+                    "addAuthor(const QString &, const QString &, const QString &, const QString &, const QString &) : KAboutData &",
+                    "addAuthor-2"
+                ],
+                [
+                    "addComponent",
+                    "addComponent(const KAboutComponent &) : KAboutData &",
+                    "addComponent"
+                ],
+                [
+                    "addComponent",
+                    "addComponent(const QString &, const QString &, const QString &, const QString &, KAboutLicense::LicenseKey) : KAboutData &",
+                    "addComponent-1"
+                ],
+                [
+                    "addComponent",
+                    "addComponent(const QString &, const QString &, const QString &, const QString &, const QString &) : KAboutData &",
+                    "addComponent-2"
+                ],
+                [
+                    "addCredit",
+                    "addCredit(const KAboutPerson &) : KAboutData &",
+                    "addCredit"
+                ],
+                [
+                    "addCredit",
+                    "addCredit(const QString &, const QString &, const QString &, const QString &, const QUrl &) : KAboutData &",
+                    "addCredit-1"
+                ],
+                [
+                    "addCredit",
+                    "addCredit(const QString &, const QString &, const QString &, const QString &, const QString &) : KAboutData &",
+                    "addCredit-2"
+                ],
+                [
+                    "addLicense",
+                    "addLicense(KAboutLicense &&) : KAboutData &",
+                    "addLicense"
+                ],
+                [
+                    "addLicense",
+                    "addLicense(KAboutLicense::LicenseKey) : KAboutData &",
+                    "addLicense-1"
+                ],
+                [
+                    "addLicense",
+                    "addLicense(KAboutLicense::LicenseKey, KAboutLicense::VersionRestriction) : KAboutData &",
+                    "addLicense-2"
+                ],
+                [
+                    "addLicenseText",
+                    "addLicenseText(const QString &) : KAboutData &",
+                    "addLicenseText"
+                ],
+                [
+                    "addLicenseTextFile",
+                    "addLicenseTextFile(const QString &) : KAboutData &",
+                    "addLicenseTextFile"
+                ],
+                [
+                    "addRelease",
+                    "addRelease(KAboutRelease &&) : KAboutData &",
+                    "addRelease"
+                ],
+                [
+                    "applicationData",
+                    "applicationData() : KAboutData",
+                    "applicationData"
+                ],
+                [
+                    "authors",
+                    "authors() const : QList<KAboutPerson>",
+                    "authors"
+                ],
+                [
+                    "bugAddress",
+                    "bugAddress() const : QString",
+                    "bugAddress"
+                ],
+                [
+                    "componentName",
+                    "componentName() const : QString",
+                    "componentName"
+                ],
+                [
+                    "components",
+                    "components() const : QList<KAboutComponent>",
+                    "components"
+                ],
+                [
+                    "copyrightStatement",
+                    "copyrightStatement() const : QString",
+                    "copyrightStatement"
+                ],
+                [
+                    "credits",
+                    "credits() const : QList<KAboutPerson>",
+                    "credits"
+                ],
+                [
+                    "customAuthorPlainText",
+                    "customAuthorPlainText() const : QString",
+                    "customAuthorPlainText"
+                ],
+                [
+                    "customAuthorRichText",
+                    "customAuthorRichText() const : QString",
+                    "customAuthorRichText"
+                ],
+                [
+                    "customAuthorTextEnabled",
+                    "customAuthorTextEnabled() const : bool",
+                    "customAuthorTextEnabled"
+                ],
+                [
+                    "desktopFileName",
+                    "desktopFileName() const : QString",
+                    "desktopFileName"
+                ],
+                [
+                    "displayName",
+                    "displayName() const : QString",
+                    "displayName"
+                ],
+                [
+                    "fromAppStreamFile",
+                    "fromAppStreamFile(const QString &) : KAboutData",
+                    "fromAppStreamFile"
+                ],
+                [
+                    "fromAppStreamForApplication",
+                    "fromAppStreamForApplication() : KAboutData",
+                    "fromAppStreamForApplication"
+                ],
+                [
+                    "fromAppStreamId",
+                    "fromAppStreamId(const QString &) : KAboutData",
+                    "fromAppStreamId"
+                ],
+                [
+                    "homepage",
+                    "homepage() const : QString",
+                    "homepage"
+                ],
+                [
+                    "licenses",
+                    "licenses() const : QList<KAboutLicense>",
+                    "licenses"
+                ],
+                [
+                    "organizationDomain",
+                    "organizationDomain() const : QString",
+                    "organizationDomain"
+                ],
+                [
+                    "otherText",
+                    "otherText() const : QString",
+                    "otherText"
+                ],
+                [
+                    "processCommandLine",
+                    "processCommandLine(QCommandLineParser *)",
+                    "processCommandLine"
+                ],
+                [
+                    "productName",
+                    "productName() const : QString",
+                    "productName"
+                ],
+                [
+                    "programLogo",
+                    "programLogo() const : QVariant",
+                    "programLogo"
+                ],
+                [
+                    "releases",
+                    "releases() const : QList<KAboutRelease>",
+                    "releases"
+                ],
+                [
+                    "setApplicationData",
+                    "setApplicationData(const KAboutData &)",
+                    "setApplicationData"
+                ],
+                [
+                    "setBugAddress",
+                    "setBugAddress(const QByteArray &) : KAboutData &",
+                    "setBugAddress"
+                ],
+                [
+                    "setComponentName",
+                    "setComponentName(const QString &) : KAboutData &",
+                    "setComponentName"
+                ],
+                [
+                    "setCopyrightStatement",
+                    "setCopyrightStatement(const QString &) : KAboutData &",
+                    "setCopyrightStatement"
+                ],
+                [
+                    "setCustomAuthorText",
+                    "setCustomAuthorText(const QString &, const QString &) : KAboutData &",
+                    "setCustomAuthorText"
+                ],
+                [
+                    "setDesktopFileName",
+                    "setDesktopFileName(const QString &) : KAboutData &",
+                    "setDesktopFileName"
+                ],
+                [
+                    "setDisplayName",
+                    "setDisplayName(const QString &) : KAboutData &",
+                    "setDisplayName"
+                ],
+                [
+                    "setHomepage",
+                    "setHomepage(const QString &) : KAboutData &",
+                    "setHomepage"
+                ],
+                [
+                    "setLicense",
+                    "setLicense(KAboutLicense &&) : KAboutData &",
+                    "setLicense"
+                ],
+                [
+                    "setLicense",
+                    "setLicense(KAboutLicense::LicenseKey) : KAboutData &",
+                    "setLicense-1"
+                ],
+                [
+                    "setLicense",
+                    "setLicense(KAboutLicense::LicenseKey, KAboutLicense::VersionRestriction) : KAboutData &",
+                    "setLicense-2"
+                ],
+                [
+                    "setLicenseText",
+                    "setLicenseText(const QString &) : KAboutData &",
+                    "setLicenseText"
+                ],
+                [
+                    "setLicenseTextFile",
+                    "setLicenseTextFile(const QString &) : KAboutData &",
+                    "setLicenseTextFile"
+                ],
+                [
+                    "setOrganizationDomain",
+                    "setOrganizationDomain(const QByteArray &) : KAboutData &",
+                    "setOrganizationDomain"
+                ],
+                [
+                    "setOtherText",
+                    "setOtherText(const QString &) : KAboutData &",
+                    "setOtherText"
+                ],
+                [
+                    "setProductName",
+                    "setProductName(const QByteArray &) : KAboutData &",
+                    "setProductName"
+                ],
+                [
+                    "setProgramLogo",
+                    "setProgramLogo(const QVariant &) : KAboutData &",
+                    "setProgramLogo"
+                ],
+                [
+                    "setShortDescription",
+                    "setShortDescription(const QString &) : KAboutData &",
+                    "setShortDescription"
+                ],
+                [
+                    "setTranslator",
+                    "setTranslator(const QString &, const QString &) : KAboutData &",
+                    "setTranslator"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(KAboutData::UrlType, const QString &) : KAboutData &",
+                    "setUrl"
+                ],
+                [
+                    "setVersion",
+                    "setVersion(const QByteArray &) : KAboutData &",
+                    "setVersion"
+                ],
+                [
+                    "setupCommandLine",
+                    "setupCommandLine(QCommandLineParser *) : bool",
+                    "setupCommandLine"
+                ],
+                [
+                    "shortDescription",
+                    "shortDescription() const : QString",
+                    "shortDescription"
+                ],
+                [
+                    "translators",
+                    "translators() const : QList<KAboutPerson>",
+                    "translators"
+                ],
+                [
+                    "unsetCustomAuthorText",
+                    "unsetCustomAuthorText() : KAboutData &",
+                    "unsetCustomAuthorText"
+                ],
+                [
+                    "url",
+                    "url(KAboutData::UrlType) const : QString",
+                    "url"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ]
+            ],
+            "name": "KAboutData",
+            "page": "kcoreaddons/kaboutdata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "applicationDataChanged",
+                    "applicationDataChanged()",
+                    "applicationDataChanged"
+                ]
+            ],
+            "name": "KAboutDataListener",
+            "page": "kcoreaddons/kaboutdatalistener",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "key",
+                    "key : const KAboutLicense::LicenseKey",
+                    "key-prop"
+                ],
+                [
+                    "name",
+                    "name : const QString",
+                    "name-prop"
+                ],
+                [
+                    "spdx",
+                    "spdx : const QString",
+                    "spdx-prop"
+                ],
+                [
+                    "text",
+                    "text : const QString",
+                    "text-prop"
+                ],
+                [
+                    "KAboutLicense",
+                    "KAboutLicense()",
+                    "KAboutLicense"
+                ],
+                [
+                    "KAboutLicense",
+                    "KAboutLicense(const KAboutLicense &)",
+                    "KAboutLicense-1"
+                ],
+                [
+                    "byKeyword",
+                    "byKeyword(const QString &) : KAboutLicense",
+                    "byKeyword"
+                ],
+                [
+                    "key",
+                    "key() const : KAboutLicense::LicenseKey",
+                    "key"
+                ],
+                [
+                    "name",
+                    "name(KAboutLicense::NameFormat) const : QString",
+                    "name"
+                ],
+                [
+                    "spdx",
+                    "spdx() const : QString",
+                    "spdx"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ]
+            ],
+            "name": "KAboutLicense",
+            "page": "kcoreaddons/kaboutlicense",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "avatarUrl",
+                    "avatarUrl : const QUrl",
+                    "avatarUrl-prop"
+                ],
+                [
+                    "emailAddress",
+                    "emailAddress : const QString",
+                    "emailAddress-prop"
+                ],
+                [
+                    "name",
+                    "name : const QString",
+                    "name-prop"
+                ],
+                [
+                    "task",
+                    "task : const QString",
+                    "task-prop"
+                ],
+                [
+                    "webAddress",
+                    "webAddress : const QString",
+                    "webAddress-prop"
+                ],
+                [
+                    "KAboutPerson",
+                    "KAboutPerson(const QString &, const QString &, const QString &, const QString &, const QUrl &)",
+                    "KAboutPerson-1"
+                ],
+                [
+                    "KAboutPerson",
+                    "KAboutPerson(const KAboutPerson &)",
+                    "KAboutPerson"
+                ],
+                [
+                    "avatarUrl",
+                    "avatarUrl() const : QUrl",
+                    "avatarUrl"
+                ],
+                [
+                    "emailAddress",
+                    "emailAddress() const : QString",
+                    "emailAddress"
+                ],
+                [
+                    "fromJSON",
+                    "fromJSON(const QJsonObject &) : KAboutPerson",
+                    "fromJSON"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "task",
+                    "task() const : QString",
+                    "task"
+                ],
+                [
+                    "webAddress",
+                    "webAddress() const : QString",
+                    "webAddress"
+                ],
+                [
+                    "operator=",
+                    "operator=(const KAboutPerson &) : KAboutPerson &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KAboutPerson",
+            "page": "kcoreaddons/kaboutperson",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "date",
+                    "date : QDate",
+                    "date-prop"
+                ],
+                [
+                    "description",
+                    "description : QString",
+                    "description-prop"
+                ],
+                [
+                    "url",
+                    "url : QUrl",
+                    "url-prop"
+                ],
+                [
+                    "version",
+                    "version : QString",
+                    "version-prop"
+                ],
+                [
+                    "date",
+                    "date() const : QDate",
+                    "date"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "untranslatedDescription",
+                    "untranslatedDescription() const : QString",
+                    "untranslatedDescription"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ]
+            ],
+            "name": "KAboutRelease",
+            "page": "kcoreaddons/kaboutrelease",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KAutoSaveFile",
+                    "KAutoSaveFile(const QUrl &, QObject *)",
+                    "KAutoSaveFile"
+                ],
+                [
+                    "KAutoSaveFile",
+                    "KAutoSaveFile(QObject *)",
+                    "KAutoSaveFile-1"
+                ],
+                [
+                    "~KAutoSaveFile",
+                    "~KAutoSaveFile()",
+                    "dtor.KAutoSaveFile"
+                ],
+                [
+                    "allStaleFiles",
+                    "allStaleFiles(const QString &) : QList<KAutoSaveFile *>",
+                    "allStaleFiles"
+                ],
+                [
+                    "managedFile",
+                    "managedFile() const : QUrl",
+                    "managedFile"
+                ],
+                [
+                    "open",
+                    "open(QIODeviceBase::OpenMode) : bool",
+                    "open"
+                ],
+                [
+                    "releaseLock",
+                    "releaseLock()",
+                    "releaseLock"
+                ],
+                [
+                    "setManagedFile",
+                    "setManagedFile(const QUrl &)",
+                    "setManagedFile"
+                ],
+                [
+                    "staleFiles",
+                    "staleFiles(const QUrl &, const QString &) : QList<KAutoSaveFile *>",
+                    "staleFiles"
+                ]
+            ],
+            "name": "KAutoSaveFile",
+            "page": "kcoreaddons/kautosavefile",
+            "qtBases": [
+                [
+                    "QFile",
+                    "https://doc.qt.io/qt-6/qfile-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kmacroexpanderbase"
+            ],
+            "members": [
+                [
+                    "KCharMacroExpander",
+                    "KCharMacroExpander(QChar)",
+                    "KCharMacroExpander"
+                ],
+                [
+                    "expandMacro",
+                    "expandMacro(QChar, QStringList &) : bool",
+                    "expandMacro"
+                ]
+            ],
+            "name": "KCharMacroExpander",
+            "page": "kcoreaddons/kcharmacroexpander",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kjob"
+            ],
+            "members": [
+                [
+                    "KCompositeJob",
+                    "KCompositeJob(QObject *)",
+                    "KCompositeJob"
+                ],
+                [
+                    "addSubjob",
+                    "addSubjob(KJob *) : bool",
+                    "addSubjob"
+                ],
+                [
+                    "clearSubjobs",
+                    "clearSubjobs()",
+                    "clearSubjobs"
+                ],
+                [
+                    "hasSubjobs",
+                    "hasSubjobs() const : bool",
+                    "hasSubjobs"
+                ],
+                [
+                    "removeSubjob",
+                    "removeSubjob(KJob *) : bool",
+                    "removeSubjob"
+                ],
+                [
+                    "slotInfoMessage",
+                    "slotInfoMessage(KJob *, const QString &)",
+                    "slotInfoMessage"
+                ],
+                [
+                    "slotResult",
+                    "slotResult(KJob *)",
+                    "slotResult"
+                ],
+                [
+                    "subjobs",
+                    "subjobs() const : const QList<KJob *> &",
+                    "subjobs"
+                ]
+            ],
+            "name": "KCompositeJob",
+            "page": "kcoreaddons/kcompositejob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KDirWatch",
+                    "KDirWatch(QObject *)",
+                    "KDirWatch"
+                ],
+                [
+                    "~KDirWatch",
+                    "~KDirWatch()",
+                    "dtor.KDirWatch"
+                ],
+                [
+                    "addDir",
+                    "addDir(const QString &, KDirWatch::WatchModes)",
+                    "addDir"
+                ],
+                [
+                    "addFile",
+                    "addFile(const QString &)",
+                    "addFile"
+                ],
+                [
+                    "contains",
+                    "contains(const QString &) const : bool",
+                    "contains"
+                ],
+                [
+                    "created",
+                    "created(const QString &)",
+                    "created"
+                ],
+                [
+                    "ctime",
+                    "ctime(const QString &) const : QDateTime",
+                    "ctime"
+                ],
+                [
+                    "deleted",
+                    "deleted(const QString &)",
+                    "deleted"
+                ],
+                [
+                    "dirty",
+                    "dirty(const QString &)",
+                    "dirty"
+                ],
+                [
+                    "exists",
+                    "exists() : bool",
+                    "exists"
+                ],
+                [
+                    "internalMethod",
+                    "internalMethod() const : KDirWatch::Method",
+                    "internalMethod"
+                ],
+                [
+                    "isStopped",
+                    "isStopped() : bool",
+                    "isStopped"
+                ],
+                [
+                    "removeDir",
+                    "removeDir(const QString &)",
+                    "removeDir"
+                ],
+                [
+                    "removeFile",
+                    "removeFile(const QString &)",
+                    "removeFile"
+                ],
+                [
+                    "restartDirScan",
+                    "restartDirScan(const QString &) : bool",
+                    "restartDirScan"
+                ],
+                [
+                    "self",
+                    "self() : KDirWatch *",
+                    "self"
+                ],
+                [
+                    "setCreated",
+                    "setCreated(const QString &)",
+                    "setCreated"
+                ],
+                [
+                    "setDeleted",
+                    "setDeleted(const QString &)",
+                    "setDeleted"
+                ],
+                [
+                    "setDirty",
+                    "setDirty(const QString &)",
+                    "setDirty"
+                ],
+                [
+                    "startScan",
+                    "startScan(bool, bool)",
+                    "startScan"
+                ],
+                [
+                    "stopDirScan",
+                    "stopDirScan(const QString &) : bool",
+                    "stopDirScan"
+                ],
+                [
+                    "stopScan",
+                    "stopScan()",
+                    "stopScan"
+                ]
+            ],
+            "name": "KDirWatch",
+            "page": "kcoreaddons/kdirwatch",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFormat",
+                    "KFormat(const QLocale &)",
+                    "KFormat"
+                ],
+                [
+                    "formatByteSize",
+                    "formatByteSize(double, int, KFormat::BinaryUnitDialect, KFormat::BinarySizeUnits) const : QString",
+                    "formatByteSize"
+                ],
+                [
+                    "formatDateTime",
+                    "formatDateTime(const QDateTime &, QLocale::FormatType, KFormat::TimeFormatOptions) const : QString",
+                    "formatDateTime"
+                ],
+                [
+                    "formatDecimalDuration",
+                    "formatDecimalDuration(quint64, int) const : QString",
+                    "formatDecimalDuration"
+                ],
+                [
+                    "formatDistance",
+                    "formatDistance(double) const : QString",
+                    "formatDistance"
+                ],
+                [
+                    "formatDuration",
+                    "formatDuration(quint64, KFormat::DurationFormatOptions) const : QString",
+                    "formatDuration"
+                ],
+                [
+                    "formatRelativeDate",
+                    "formatRelativeDate(const QDate &, QLocale::FormatType) const : QString",
+                    "formatRelativeDate"
+                ],
+                [
+                    "formatRelativeDateTime",
+                    "formatRelativeDateTime(const QDateTime &, QLocale::FormatType) const : QString",
+                    "formatRelativeDateTime"
+                ],
+                [
+                    "formatSpelloutDuration",
+                    "formatSpelloutDuration(quint64) const : QString",
+                    "formatSpelloutDuration"
+                ],
+                [
+                    "formatTime",
+                    "formatTime(const QDateTime &, QLocale::FormatType, KFormat::TimeFormatOptions) const : QString",
+                    "formatTime"
+                ],
+                [
+                    "formatValue",
+                    "formatValue(double, KFormat::Unit, int, KFormat::UnitPrefix, KFormat::BinaryUnitDialect) const : QString",
+                    "formatValue"
+                ],
+                [
+                    "formatValue",
+                    "formatValue(double, const QString &, int, KFormat::UnitPrefix, KFormat::BinaryUnitDialect) const : QString",
+                    "formatValue-1"
+                ]
+            ],
+            "name": "KFormat",
+            "page": "kcoreaddons/kformat",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "capabilities",
+                    "capabilities : const Capabilities",
+                    "capabilities-prop"
+                ],
+                [
+                    "error",
+                    "error : int",
+                    "error-prop"
+                ],
+                [
+                    "errorString",
+                    "errorString : QString",
+                    "errorString-prop"
+                ],
+                [
+                    "errorText",
+                    "errorText : QString",
+                    "errorText-prop"
+                ],
+                [
+                    "percent",
+                    "percent : ulong",
+                    "percent-prop"
+                ],
+                [
+                    "KJob",
+                    "KJob(QObject *)",
+                    "KJob"
+                ],
+                [
+                    "capabilities",
+                    "capabilities() const : KJob::Capabilities",
+                    "capabilities"
+                ],
+                [
+                    "description",
+                    "description(KJob *, const QString &, const QPair<QString, QString> &, const QPair<QString, QString> &)",
+                    "description"
+                ],
+                [
+                    "doKill",
+                    "doKill() : bool",
+                    "doKill"
+                ],
+                [
+                    "doResume",
+                    "doResume() : bool",
+                    "doResume"
+                ],
+                [
+                    "doSuspend",
+                    "doSuspend() : bool",
+                    "doSuspend"
+                ],
+                [
+                    "elapsedTime",
+                    "elapsedTime() const : qint64",
+                    "elapsedTime"
+                ],
+                [
+                    "emitPercent",
+                    "emitPercent(qulonglong, qulonglong)",
+                    "emitPercent"
+                ],
+                [
+                    "emitResult",
+                    "emitResult()",
+                    "emitResult"
+                ],
+                [
+                    "emitSpeed",
+                    "emitSpeed(unsigned long)",
+                    "emitSpeed"
+                ],
+                [
+                    "error",
+                    "error() const : int",
+                    "error"
+                ],
+                [
+                    "errorString",
+                    "errorString() const : QString",
+                    "errorString"
+                ],
+                [
+                    "errorText",
+                    "errorText() const : QString",
+                    "errorText"
+                ],
+                [
+                    "exec",
+                    "exec() : bool",
+                    "exec"
+                ],
+                [
+                    "finished",
+                    "finished(KJob *)",
+                    "finished"
+                ],
+                [
+                    "infoMessage",
+                    "infoMessage(KJob *, const QString &)",
+                    "infoMessage"
+                ],
+                [
+                    "isAutoDelete",
+                    "isAutoDelete() const : bool",
+                    "isAutoDelete"
+                ],
+                [
+                    "isFinishedNotificationHidden",
+                    "isFinishedNotificationHidden() const : bool",
+                    "isFinishedNotificationHidden"
+                ],
+                [
+                    "isStartedWithExec",
+                    "isStartedWithExec() const : bool",
+                    "isStartedWithExec"
+                ],
+                [
+                    "isSuspended",
+                    "isSuspended() const : bool",
+                    "isSuspended"
+                ],
+                [
+                    "kill",
+                    "kill(KJob::KillVerbosity) : bool",
+                    "kill"
+                ],
+                [
+                    "percent",
+                    "percent() const : unsigned long",
+                    "percent"
+                ],
+                [
+                    "percentChanged",
+                    "percentChanged(KJob *, unsigned long)",
+                    "percentChanged"
+                ],
+                [
+                    "processedAmount",
+                    "processedAmount(KJob::Unit) const : qulonglong",
+                    "processedAmount"
+                ],
+                [
+                    "processedAmountChanged",
+                    "processedAmountChanged(KJob *, KJob::Unit, qulonglong)",
+                    "processedAmountChanged"
+                ],
+                [
+                    "processedSize",
+                    "processedSize(KJob *, qulonglong)",
+                    "processedSize"
+                ],
+                [
+                    "result",
+                    "result(KJob *)",
+                    "result"
+                ],
+                [
+                    "resume",
+                    "resume() : bool",
+                    "resume"
+                ],
+                [
+                    "resumed",
+                    "resumed(KJob *)",
+                    "resumed"
+                ],
+                [
+                    "setAutoDelete",
+                    "setAutoDelete(bool)",
+                    "setAutoDelete"
+                ],
+                [
+                    "setCapabilities",
+                    "setCapabilities(KJob::Capabilities)",
+                    "setCapabilities"
+                ],
+                [
+                    "setError",
+                    "setError(int)",
+                    "setError"
+                ],
+                [
+                    "setErrorText",
+                    "setErrorText(const QString &)",
+                    "setErrorText"
+                ],
+                [
+                    "setFinishedNotificationHidden",
+                    "setFinishedNotificationHidden(bool)",
+                    "setFinishedNotificationHidden"
+                ],
+                [
+                    "setPercent",
+                    "setPercent(unsigned long)",
+                    "setPercent"
+                ],
+                [
+                    "setProcessedAmount",
+                    "setProcessedAmount(KJob::Unit, qulonglong)",
+                    "setProcessedAmount"
+                ],
+                [
+                    "setProgressUnit",
+                    "setProgressUnit(KJob::Unit)",
+                    "setProgressUnit"
+                ],
+                [
+                    "setTotalAmount",
+                    "setTotalAmount(KJob::Unit, qulonglong)",
+                    "setTotalAmount"
+                ],
+                [
+                    "setUiDelegate",
+                    "setUiDelegate(KJobUiDelegate *)",
+                    "setUiDelegate"
+                ],
+                [
+                    "speed",
+                    "speed(KJob *, unsigned long)",
+                    "speed"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ],
+                [
+                    "startElapsedTimer",
+                    "startElapsedTimer()",
+                    "startElapsedTimer"
+                ],
+                [
+                    "suspend",
+                    "suspend() : bool",
+                    "suspend"
+                ],
+                [
+                    "suspended",
+                    "suspended(KJob *)",
+                    "suspended"
+                ],
+                [
+                    "totalAmount",
+                    "totalAmount(KJob::Unit) const : qulonglong",
+                    "totalAmount"
+                ],
+                [
+                    "totalAmountChanged",
+                    "totalAmountChanged(KJob *, KJob::Unit, qulonglong)",
+                    "totalAmountChanged"
+                ],
+                [
+                    "totalSize",
+                    "totalSize(KJob *, qulonglong)",
+                    "totalSize"
+                ],
+                [
+                    "uiDelegate",
+                    "uiDelegate() const : KJobUiDelegate *",
+                    "uiDelegate"
+                ],
+                [
+                    "warning",
+                    "warning(KJob *, const QString &)",
+                    "warning"
+                ]
+            ],
+            "name": "KJob",
+            "page": "kcoreaddons/kjob",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KJobTrackerInterface",
+                    "KJobTrackerInterface(QObject *)",
+                    "KJobTrackerInterface"
+                ],
+                [
+                    "description",
+                    "description(KJob *, const QString &, const QPair<QString, QString> &, const QPair<QString, QString> &)",
+                    "description"
+                ],
+                [
+                    "finished",
+                    "finished(KJob *)",
+                    "finished"
+                ],
+                [
+                    "infoMessage",
+                    "infoMessage(KJob *, const QString &)",
+                    "infoMessage"
+                ],
+                [
+                    "percent",
+                    "percent(KJob *, unsigned long)",
+                    "percent"
+                ],
+                [
+                    "processedAmount",
+                    "processedAmount(KJob *, KJob::Unit, qulonglong)",
+                    "processedAmount"
+                ],
+                [
+                    "registerJob",
+                    "registerJob(KJob *)",
+                    "registerJob"
+                ],
+                [
+                    "resumed",
+                    "resumed(KJob *)",
+                    "resumed"
+                ],
+                [
+                    "speed",
+                    "speed(KJob *, unsigned long)",
+                    "speed"
+                ],
+                [
+                    "suspended",
+                    "suspended(KJob *)",
+                    "suspended"
+                ],
+                [
+                    "totalAmount",
+                    "totalAmount(KJob *, KJob::Unit, qulonglong)",
+                    "totalAmount"
+                ],
+                [
+                    "unregisterJob",
+                    "unregisterJob(KJob *)",
+                    "unregisterJob"
+                ],
+                [
+                    "warning",
+                    "warning(KJob *, const QString &)",
+                    "warning"
+                ]
+            ],
+            "name": "KJobTrackerInterface",
+            "page": "kcoreaddons/kjobtrackerinterface",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KJobUiDelegate",
+                    "KJobUiDelegate(KJobUiDelegate::Flags)",
+                    "KJobUiDelegate"
+                ],
+                [
+                    "isAutoErrorHandlingEnabled",
+                    "isAutoErrorHandlingEnabled() const : bool",
+                    "isAutoErrorHandlingEnabled"
+                ],
+                [
+                    "isAutoWarningHandlingEnabled",
+                    "isAutoWarningHandlingEnabled() const : bool",
+                    "isAutoWarningHandlingEnabled"
+                ],
+                [
+                    "job",
+                    "job() const : KJob *",
+                    "job"
+                ],
+                [
+                    "setAutoErrorHandlingEnabled",
+                    "setAutoErrorHandlingEnabled(bool)",
+                    "setAutoErrorHandlingEnabled"
+                ],
+                [
+                    "setAutoWarningHandlingEnabled",
+                    "setAutoWarningHandlingEnabled(bool)",
+                    "setAutoWarningHandlingEnabled"
+                ],
+                [
+                    "setJob",
+                    "setJob(KJob *) : bool",
+                    "setJob"
+                ],
+                [
+                    "showErrorMessage",
+                    "showErrorMessage()",
+                    "showErrorMessage"
+                ],
+                [
+                    "slotWarning",
+                    "slotWarning(KJob *, const QString &)",
+                    "slotWarning"
+                ]
+            ],
+            "name": "KJobUiDelegate",
+            "page": "kcoreaddons/kjobuidelegate",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KMacroExpanderBase",
+                    "KMacroExpanderBase(QChar)",
+                    "KMacroExpanderBase"
+                ],
+                [
+                    "escapeChar",
+                    "escapeChar() const : QChar",
+                    "escapeChar"
+                ],
+                [
+                    "expandEscapedMacro",
+                    "expandEscapedMacro(const QString &, int, QStringList &) : int",
+                    "expandEscapedMacro"
+                ],
+                [
+                    "expandMacros",
+                    "expandMacros(QString &)",
+                    "expandMacros"
+                ],
+                [
+                    "expandMacrosShellQuote",
+                    "expandMacrosShellQuote(QString &) : bool",
+                    "expandMacrosShellQuote"
+                ],
+                [
+                    "expandMacrosShellQuote",
+                    "expandMacrosShellQuote(QString &, int &) : bool",
+                    "expandMacrosShellQuote-1"
+                ],
+                [
+                    "expandPlainMacro",
+                    "expandPlainMacro(const QString &, int, QStringList &) : int",
+                    "expandPlainMacro"
+                ],
+                [
+                    "setEscapeChar",
+                    "setEscapeChar(QChar)",
+                    "setEscapeChar"
+                ]
+            ],
+            "name": "KMacroExpanderBase",
+            "page": "kcoreaddons/kmacroexpanderbase",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KMemoryInfo",
+                    "KMemoryInfo()",
+                    "KMemoryInfo"
+                ],
+                [
+                    "availablePhysical",
+                    "availablePhysical() const : quint64",
+                    "availablePhysical"
+                ],
+                [
+                    "buffers",
+                    "buffers() const : quint64",
+                    "buffers"
+                ],
+                [
+                    "cached",
+                    "cached() const : quint64",
+                    "cached"
+                ],
+                [
+                    "freePhysical",
+                    "freePhysical() const : quint64",
+                    "freePhysical"
+                ],
+                [
+                    "freeSwapFile",
+                    "freeSwapFile() const : quint64",
+                    "freeSwapFile"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "totalPhysical",
+                    "totalPhysical() const : quint64",
+                    "totalPhysical"
+                ],
+                [
+                    "totalSwapFile",
+                    "totalSwapFile() const : quint64",
+                    "totalSwapFile"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KMemoryInfo &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KMemoryInfo &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KMemoryInfo",
+            "page": "kcoreaddons/kmemoryinfo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "addPath",
+                    "addPath(const QString &, KNetworkMounts::KNetworkMountsType)",
+                    "addPath"
+                ],
+                [
+                    "canonicalSymlinkPath",
+                    "canonicalSymlinkPath(const QString &) : QString",
+                    "canonicalSymlinkPath"
+                ],
+                [
+                    "clearCache",
+                    "clearCache()",
+                    "clearCache"
+                ],
+                [
+                    "isEnabled",
+                    "isEnabled() const : bool",
+                    "isEnabled"
+                ],
+                [
+                    "isOptionEnabled",
+                    "isOptionEnabled(const KNetworkMounts::KNetworkMountOption, const bool) const : bool",
+                    "isOptionEnabled"
+                ],
+                [
+                    "isOptionEnabledForPath",
+                    "isOptionEnabledForPath(const QString &, KNetworkMounts::KNetworkMountOption) : bool",
+                    "isOptionEnabledForPath"
+                ],
+                [
+                    "isSlowPath",
+                    "isSlowPath(const QString &, KNetworkMounts::KNetworkMountsType) : bool",
+                    "isSlowPath"
+                ],
+                [
+                    "paths",
+                    "paths(KNetworkMounts::KNetworkMountsType) const : QStringList",
+                    "paths"
+                ],
+                [
+                    "self",
+                    "self() : KNetworkMounts *",
+                    "self"
+                ],
+                [
+                    "setEnabled",
+                    "setEnabled(bool)",
+                    "setEnabled"
+                ],
+                [
+                    "setOption",
+                    "setOption(const KNetworkMounts::KNetworkMountOption, const bool)",
+                    "setOption"
+                ],
+                [
+                    "setPaths",
+                    "setPaths(const QStringList &, KNetworkMounts::KNetworkMountsType)",
+                    "setPaths"
+                ],
+                [
+                    "sync",
+                    "sync()",
+                    "sync"
+                ]
+            ],
+            "name": "KNetworkMounts",
+            "page": "kcoreaddons/knetworkmounts",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KOSRelease",
+                    "KOSRelease(const QString &)",
+                    "KOSRelease"
+                ],
+                [
+                    "ansiColor",
+                    "ansiColor() const : QString",
+                    "ansiColor"
+                ],
+                [
+                    "bugReportUrl",
+                    "bugReportUrl() const : QString",
+                    "bugReportUrl"
+                ],
+                [
+                    "buildId",
+                    "buildId() const : QString",
+                    "buildId"
+                ],
+                [
+                    "cpeName",
+                    "cpeName() const : QString",
+                    "cpeName"
+                ],
+                [
+                    "documentationUrl",
+                    "documentationUrl() const : QString",
+                    "documentationUrl"
+                ],
+                [
+                    "extraKeys",
+                    "extraKeys() const : QStringList",
+                    "extraKeys"
+                ],
+                [
+                    "extraValue",
+                    "extraValue(const QString &) const : QString",
+                    "extraValue"
+                ],
+                [
+                    "homeUrl",
+                    "homeUrl() const : QString",
+                    "homeUrl"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "idLike",
+                    "idLike() const : QStringList",
+                    "idLike"
+                ],
+                [
+                    "logo",
+                    "logo() const : QString",
+                    "logo"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "prettyName",
+                    "prettyName() const : QString",
+                    "prettyName"
+                ],
+                [
+                    "privacyPolicyUrl",
+                    "privacyPolicyUrl() const : QString",
+                    "privacyPolicyUrl"
+                ],
+                [
+                    "supportUrl",
+                    "supportUrl() const : QString",
+                    "supportUrl"
+                ],
+                [
+                    "variant",
+                    "variant() const : QString",
+                    "variant"
+                ],
+                [
+                    "variantId",
+                    "variantId() const : QString",
+                    "variantId"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ],
+                [
+                    "versionCodename",
+                    "versionCodename() const : QString",
+                    "versionCodename"
+                ],
+                [
+                    "versionId",
+                    "versionId() const : QString",
+                    "versionId"
+                ]
+            ],
+            "name": "KOSRelease",
+            "page": "kcoreaddons/kosrelease",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KPluginFactory",
+                    "KPluginFactory()",
+                    "KPluginFactory"
+                ],
+                [
+                    "create",
+                    "create(QObject *, const QVariantList &) : template <typename T> T *",
+                    "create"
+                ],
+                [
+                    "create",
+                    "create(QWidget *, QObject *, const QVariantList &) : template <typename T> T *",
+                    "create-1"
+                ],
+                [
+                    "create",
+                    "create(const char *, QWidget *, QObject *, const QVariantList &) : QObject *",
+                    "create-2"
+                ],
+                [
+                    "instantiatePlugin",
+                    "instantiatePlugin(const KPluginMetaData &, QObject *, const QVariantList &) : template <typename T> KPluginFactory::Result<T>",
+                    "instantiatePlugin"
+                ],
+                [
+                    "loadFactory",
+                    "loadFactory(const KPluginMetaData &) : KPluginFactory::Result<KPluginFactory>",
+                    "loadFactory"
+                ],
+                [
+                    "metaData",
+                    "metaData() const : KPluginMetaData",
+                    "metaData"
+                ],
+                [
+                    "registerPlugin",
+                    "registerPlugin() : template <typename T, std::enable_if_t<InheritanceChecker<T>::enabled, int> = 0> void",
+                    "registerPlugin"
+                ],
+                [
+                    "registerPlugin",
+                    "registerPlugin() : template <typename T, std::enable_if_t<InheritanceWithMetaDataChecker<T>::enabled, int> = 0> void",
+                    "registerPlugin-1"
+                ],
+                [
+                    "registerPlugin",
+                    "registerPlugin(KPluginFactory::CreateInstanceWithMetaDataFunction) : template <typename T> void",
+                    "registerPlugin-2"
+                ],
+                [
+                    "setMetaData",
+                    "setMetaData(const KPluginMetaData &)",
+                    "setMetaData"
+                ]
+            ],
+            "name": "KPluginFactory",
+            "page": "kcoreaddons/kpluginfactory",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "operator bool",
+                    "operator bool() const",
+                    "operator-bool"
+                ]
+            ],
+            "name": "KPluginFactory::Result",
+            "page": "kcoreaddons/kpluginfactory-result",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "authors",
+                    "authors : const QList<KAboutPerson>",
+                    "authors-prop"
+                ],
+                [
+                    "bugReportUrl",
+                    "bugReportUrl : const QString",
+                    "bugReportUrl-prop"
+                ],
+                [
+                    "category",
+                    "category : const QString",
+                    "category-prop"
+                ],
+                [
+                    "copyrightText",
+                    "copyrightText : const QString",
+                    "copyrightText-prop"
+                ],
+                [
+                    "description",
+                    "description : const QString",
+                    "description-prop"
+                ],
+                [
+                    "fileName",
+                    "fileName : const QString",
+                    "fileName-prop"
+                ],
+                [
+                    "formFactors",
+                    "formFactors : const QStringList",
+                    "formFactors-prop"
+                ],
+                [
+                    "iconName",
+                    "iconName : const QString",
+                    "iconName-prop"
+                ],
+                [
+                    "isEnabledByDefault",
+                    "isEnabledByDefault : const bool",
+                    "isEnabledByDefault-prop"
+                ],
+                [
+                    "isHidden",
+                    "isHidden : const bool",
+                    "isHidden-prop"
+                ],
+                [
+                    "isValid",
+                    "isValid : const bool",
+                    "isValid-prop"
+                ],
+                [
+                    "license",
+                    "license : const QString",
+                    "license-prop"
+                ],
+                [
+                    "licenseText",
+                    "licenseText : const QString",
+                    "licenseText-prop"
+                ],
+                [
+                    "mimeTypes",
+                    "mimeTypes : const QStringList",
+                    "mimeTypes-prop"
+                ],
+                [
+                    "name",
+                    "name : const QString",
+                    "name-prop"
+                ],
+                [
+                    "otherContributors",
+                    "otherContributors : const QList<KAboutPerson>",
+                    "otherContributors-prop"
+                ],
+                [
+                    "pluginId",
+                    "pluginId : const QString",
+                    "pluginId-prop"
+                ],
+                [
+                    "rawData",
+                    "rawData : const QJsonObject",
+                    "rawData-prop"
+                ],
+                [
+                    "translators",
+                    "translators : const QList<KAboutPerson>",
+                    "translators-prop"
+                ],
+                [
+                    "version",
+                    "version : const QString",
+                    "version-prop"
+                ],
+                [
+                    "website",
+                    "website : const QString",
+                    "website-prop"
+                ],
+                [
+                    "KPluginMetaData",
+                    "KPluginMetaData()",
+                    "KPluginMetaData"
+                ],
+                [
+                    "KPluginMetaData",
+                    "KPluginMetaData(const QJsonObject &, const QString &)",
+                    "KPluginMetaData-1"
+                ],
+                [
+                    "KPluginMetaData",
+                    "KPluginMetaData(const QPluginLoader &, KPluginMetaData::KPluginMetaDataOptions)",
+                    "KPluginMetaData-2"
+                ],
+                [
+                    "KPluginMetaData",
+                    "KPluginMetaData(const QString &, KPluginMetaData::KPluginMetaDataOptions)",
+                    "KPluginMetaData-3"
+                ],
+                [
+                    "authors",
+                    "authors() const : QList<KAboutPerson>",
+                    "authors"
+                ],
+                [
+                    "bugReportUrl",
+                    "bugReportUrl() const : QString",
+                    "bugReportUrl"
+                ],
+                [
+                    "category",
+                    "category() const : QString",
+                    "category"
+                ],
+                [
+                    "copyrightText",
+                    "copyrightText() const : QString",
+                    "copyrightText"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "fileName",
+                    "fileName() const : QString",
+                    "fileName"
+                ],
+                [
+                    "findPluginById",
+                    "findPluginById(const QString &, const QString &, KPluginMetaData::KPluginMetaDataOptions) : KPluginMetaData",
+                    "findPluginById"
+                ],
+                [
+                    "findPlugins",
+                    "findPlugins(const QString &, std::function<bool (const KPluginMetaData &)>, KPluginMetaData::KPluginMetaDataOptions) : QList<KPluginMetaData>",
+                    "findPlugins"
+                ],
+                [
+                    "formFactors",
+                    "formFactors() const : QStringList",
+                    "formFactors"
+                ],
+                [
+                    "fromJsonFile",
+                    "fromJsonFile(const QString &) : KPluginMetaData",
+                    "fromJsonFile"
+                ],
+                [
+                    "iconName",
+                    "iconName() const : QString",
+                    "iconName"
+                ],
+                [
+                    "isEnabled",
+                    "isEnabled(const T &) const : template <typename T> bool",
+                    "isEnabled"
+                ],
+                [
+                    "isEnabledByDefault",
+                    "isEnabledByDefault() const : bool",
+                    "isEnabledByDefault"
+                ],
+                [
+                    "isHidden",
+                    "isHidden() const : bool",
+                    "isHidden"
+                ],
+                [
+                    "isStaticPlugin",
+                    "isStaticPlugin() const : bool",
+                    "isStaticPlugin"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "license",
+                    "license() const : QString",
+                    "license"
+                ],
+                [
+                    "licenseText",
+                    "licenseText() const : QString",
+                    "licenseText"
+                ],
+                [
+                    "mimeTypes",
+                    "mimeTypes() const : QStringList",
+                    "mimeTypes"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "otherContributors",
+                    "otherContributors() const : QList<KAboutPerson>",
+                    "otherContributors"
+                ],
+                [
+                    "pluginId",
+                    "pluginId() const : QString",
+                    "pluginId"
+                ],
+                [
+                    "rawData",
+                    "rawData() const : QJsonObject",
+                    "rawData"
+                ],
+                [
+                    "supportsMimeType",
+                    "supportsMimeType(const QString &) const : bool",
+                    "supportsMimeType"
+                ],
+                [
+                    "translators",
+                    "translators() const : QList<KAboutPerson>",
+                    "translators"
+                ],
+                [
+                    "value",
+                    "value(QStringView, const QString &) const : QString",
+                    "value"
+                ],
+                [
+                    "value",
+                    "value(QStringView, bool) const : bool",
+                    "value-1"
+                ],
+                [
+                    "value",
+                    "value(QStringView, const QStringList &) const : QStringList",
+                    "value-2"
+                ],
+                [
+                    "value",
+                    "value(QStringView, int) const : int",
+                    "value-3"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ],
+                [
+                    "website",
+                    "website() const : QString",
+                    "website"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KPluginMetaData &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KPluginMetaData",
+            "page": "kcoreaddons/kpluginmetadata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KProcess",
+                    "KProcess(QObject *)",
+                    "KProcess"
+                ],
+                [
+                    "clearEnvironment",
+                    "clearEnvironment()",
+                    "clearEnvironment"
+                ],
+                [
+                    "clearProgram",
+                    "clearProgram()",
+                    "clearProgram"
+                ],
+                [
+                    "execute",
+                    "execute(int) : int",
+                    "execute"
+                ],
+                [
+                    "execute",
+                    "execute(const QStringList &, int) : int",
+                    "execute-1"
+                ],
+                [
+                    "execute",
+                    "execute(const QString &, const QStringList &, int) : int",
+                    "execute-2"
+                ],
+                [
+                    "outputChannelMode",
+                    "outputChannelMode() const : KProcess::OutputChannelMode",
+                    "outputChannelMode"
+                ],
+                [
+                    "program",
+                    "program() const : QStringList",
+                    "program"
+                ],
+                [
+                    "setEnv",
+                    "setEnv(const QString &, const QString &, bool)",
+                    "setEnv"
+                ],
+                [
+                    "setNextOpenMode",
+                    "setNextOpenMode(QIODevice::OpenMode)",
+                    "setNextOpenMode"
+                ],
+                [
+                    "setOutputChannelMode",
+                    "setOutputChannelMode(KProcess::OutputChannelMode)",
+                    "setOutputChannelMode"
+                ],
+                [
+                    "setProgram",
+                    "setProgram(const QString &, const QStringList &)",
+                    "setProgram"
+                ],
+                [
+                    "setProgram",
+                    "setProgram(const QStringList &)",
+                    "setProgram-1"
+                ],
+                [
+                    "setShellCommand",
+                    "setShellCommand(const QString &)",
+                    "setShellCommand"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ],
+                [
+                    "startDetached",
+                    "startDetached() : int",
+                    "startDetached"
+                ],
+                [
+                    "startDetached",
+                    "startDetached(const QStringList &) : int",
+                    "startDetached-1"
+                ],
+                [
+                    "startDetached",
+                    "startDetached(const QString &, const QStringList &) : int",
+                    "startDetached-2"
+                ],
+                [
+                    "unsetEnv",
+                    "unsetEnv(const QString &)",
+                    "unsetEnv"
+                ],
+                [
+                    "operator<<",
+                    "operator<<(const QString &) : KProcess &",
+                    "operator-lt-lt"
+                ],
+                [
+                    "operator<<",
+                    "operator<<(const QStringList &) : KProcess &",
+                    "operator-lt-lt-1"
+                ]
+            ],
+            "name": "KProcess",
+            "page": "kcoreaddons/kprocess",
+            "qtBases": [
+                [
+                    "QProcess",
+                    "https://doc.qt.io/qt-6/qprocess-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KProcessInfo",
+                    "KProcessInfo()",
+                    "KProcessInfo"
+                ],
+                [
+                    "KProcessInfo",
+                    "KProcessInfo(qint64, const QString &, const QString &)",
+                    "KProcessInfo-1"
+                ],
+                [
+                    "KProcessInfo",
+                    "KProcessInfo(qint64, const QString &, const QString &, const QString &)",
+                    "KProcessInfo-2"
+                ],
+                [
+                    "command",
+                    "command() const : QString",
+                    "command"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "pid",
+                    "pid() const : qint64",
+                    "pid"
+                ],
+                [
+                    "user",
+                    "user() const : QString",
+                    "user"
+                ]
+            ],
+            "name": "KProcessList::KProcessInfo",
+            "page": "kcoreaddons/kprocesslist-kprocessinfo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KSharedDataCache",
+                    "KSharedDataCache(const QString &, unsigned int, unsigned int)",
+                    "KSharedDataCache"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "contains",
+                    "contains(const QString &) const : bool",
+                    "contains"
+                ],
+                [
+                    "deleteCache",
+                    "deleteCache(const QString &)",
+                    "deleteCache"
+                ],
+                [
+                    "evictionPolicy",
+                    "evictionPolicy() const : KSharedDataCache::EvictionPolicy",
+                    "evictionPolicy"
+                ],
+                [
+                    "find",
+                    "find(const QString &, QByteArray *) const : bool",
+                    "find"
+                ],
+                [
+                    "freeSize",
+                    "freeSize() const : unsigned int",
+                    "freeSize"
+                ],
+                [
+                    "insert",
+                    "insert(const QString &, const QByteArray &) : bool",
+                    "insert"
+                ],
+                [
+                    "remove",
+                    "remove(const QString &) : bool",
+                    "remove"
+                ],
+                [
+                    "setEvictionPolicy",
+                    "setEvictionPolicy(KSharedDataCache::EvictionPolicy)",
+                    "setEvictionPolicy"
+                ],
+                [
+                    "setTimestamp",
+                    "setTimestamp(unsigned int)",
+                    "setTimestamp"
+                ],
+                [
+                    "timestamp",
+                    "timestamp() const : unsigned int",
+                    "timestamp"
+                ],
+                [
+                    "totalSize",
+                    "totalSize() const : unsigned int",
+                    "totalSize"
+                ]
+            ],
+            "name": "KSharedDataCache",
+            "page": "kcoreaddons/kshareddatacache",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "self",
+                    "self() : KSignalHandler *",
+                    "self"
+                ],
+                [
+                    "signalReceived",
+                    "signalReceived(int)",
+                    "signalReceived"
+                ],
+                [
+                    "watchSignal",
+                    "watchSignal(int)",
+                    "watchSignal"
+                ]
+            ],
+            "name": "KSignalHandler",
+            "page": "kcoreaddons/ksignalhandler",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "activeChanged",
+                    "activeChanged()",
+                    "activeChanged"
+                ],
+                [
+                    "isActive",
+                    "isActive() const : bool",
+                    "isActive"
+                ],
+                [
+                    "setActive",
+                    "setActive(bool)",
+                    "setActive"
+                ],
+                [
+                    "skewed",
+                    "skewed()",
+                    "skewed"
+                ]
+            ],
+            "name": "KSystemClockSkewNotifier",
+            "page": "kcoreaddons/ksystemclockskewnotifier",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KUser",
+                    "KUser(KUser::UIDMode)",
+                    "KUser"
+                ],
+                [
+                    "KUser",
+                    "KUser(KUserId)",
+                    "KUser-1"
+                ],
+                [
+                    "KUser",
+                    "KUser(K_UID)",
+                    "KUser-2"
+                ],
+                [
+                    "KUser",
+                    "KUser(const QString &)",
+                    "KUser-4"
+                ],
+                [
+                    "KUser",
+                    "KUser(const char *)",
+                    "KUser-5"
+                ],
+                [
+                    "KUser",
+                    "KUser(const passwd *)",
+                    "KUser-6"
+                ],
+                [
+                    "KUser",
+                    "KUser(const KUser &)",
+                    "KUser-3"
+                ],
+                [
+                    "allUserNames",
+                    "allUserNames(uint) : QStringList",
+                    "allUserNames"
+                ],
+                [
+                    "allUsers",
+                    "allUsers(uint) : QList<KUser>",
+                    "allUsers"
+                ],
+                [
+                    "faceIconPath",
+                    "faceIconPath() const : QString",
+                    "faceIconPath"
+                ],
+                [
+                    "groupId",
+                    "groupId() const : KGroupId",
+                    "groupId"
+                ],
+                [
+                    "groupNames",
+                    "groupNames(uint) const : QStringList",
+                    "groupNames"
+                ],
+                [
+                    "groups",
+                    "groups(uint) const : QList<KUserGroup>",
+                    "groups"
+                ],
+                [
+                    "homeDir",
+                    "homeDir() const : QString",
+                    "homeDir"
+                ],
+                [
+                    "isSuperUser",
+                    "isSuperUser() const : bool",
+                    "isSuperUser"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "loginName",
+                    "loginName() const : QString",
+                    "loginName"
+                ],
+                [
+                    "property",
+                    "property(KUser::UserProperty) const : QVariant",
+                    "property"
+                ],
+                [
+                    "shell",
+                    "shell() const : QString",
+                    "shell"
+                ],
+                [
+                    "userId",
+                    "userId() const : KUserId",
+                    "userId"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KUser &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator=",
+                    "operator=(const KUser &) : KUser &",
+                    "operator-eq"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KUser &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KUser",
+            "page": "kcoreaddons/kuser",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KUserGroup",
+                    "KUserGroup(KGroupId)",
+                    "KUserGroup"
+                ],
+                [
+                    "KUserGroup",
+                    "KUserGroup(KUser::UIDMode)",
+                    "KUserGroup-1"
+                ],
+                [
+                    "KUserGroup",
+                    "KUserGroup(K_GID)",
+                    "KUserGroup-2"
+                ],
+                [
+                    "KUserGroup",
+                    "KUserGroup(const QString &)",
+                    "KUserGroup-4"
+                ],
+                [
+                    "KUserGroup",
+                    "KUserGroup(const char *)",
+                    "KUserGroup-5"
+                ],
+                [
+                    "KUserGroup",
+                    "KUserGroup(const group *)",
+                    "KUserGroup-6"
+                ],
+                [
+                    "KUserGroup",
+                    "KUserGroup(const KUserGroup &)",
+                    "KUserGroup-3"
+                ],
+                [
+                    "~KUserGroup",
+                    "~KUserGroup()",
+                    "dtor.KUserGroup"
+                ],
+                [
+                    "allGroupNames",
+                    "allGroupNames(uint) : QStringList",
+                    "allGroupNames"
+                ],
+                [
+                    "allGroups",
+                    "allGroups(uint) : QList<KUserGroup>",
+                    "allGroups"
+                ],
+                [
+                    "groupId",
+                    "groupId() const : KGroupId",
+                    "groupId"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "userNames",
+                    "userNames(uint) const : QStringList",
+                    "userNames"
+                ],
+                [
+                    "users",
+                    "users(uint) const : QList<KUser>",
+                    "users"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KUserGroup &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator=",
+                    "operator=(const KUserGroup &) : KUserGroup &",
+                    "operator-eq"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KUserGroup &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KUserGroup",
+            "page": "kcoreaddons/kusergroup",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kcoreaddons/kmacroexpanderbase"
+            ],
+            "members": [
+                [
+                    "KWordMacroExpander",
+                    "KWordMacroExpander(QChar)",
+                    "KWordMacroExpander"
+                ],
+                [
+                    "expandMacro",
+                    "expandMacro(const QString &, QStringList &) : bool",
+                    "expandMacro"
+                ]
+            ],
+            "name": "KWordMacroExpander",
+            "page": "kcoreaddons/kwordmacroexpander",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kcoreaddons",
+    "sections": [
+        {
+            "description": "Provides core non-GUI functionality.",
+            "page": "kcoreaddons/kcoreaddons-module",
+            "pages": [
+                [
+                    "kcoreaddons/kcoreaddons-module",
+                    "KCoreAddons C++ Classes"
+                ],
+                [
+                    "kcoreaddons/kaboutcomponent",
+                    "KAboutComponent"
+                ],
+                [
+                    "kcoreaddons/kaboutdata",
+                    "KAboutData"
+                ],
+                [
+                    "kcoreaddons/kaboutdatalistener",
+                    "KAboutDataListener"
+                ],
+                [
+                    "kcoreaddons/kaboutlicense",
+                    "KAboutLicense"
+                ],
+                [
+                    "kcoreaddons/kaboutperson",
+                    "KAboutPerson"
+                ],
+                [
+                    "kcoreaddons/kaboutrelease",
+                    "KAboutRelease"
+                ],
+                [
+                    "kcoreaddons/kautosavefile",
+                    "KAutoSaveFile"
+                ],
+                [
+                    "kcoreaddons/kcharmacroexpander",
+                    "KCharMacroExpander"
+                ],
+                [
+                    "kcoreaddons/kcompositejob",
+                    "KCompositeJob"
+                ],
+                [
+                    "kcoreaddons/kdirwatch",
+                    "KDirWatch"
+                ],
+                [
+                    "kcoreaddons/kformat",
+                    "KFormat"
+                ],
+                [
+                    "kcoreaddons/kjob",
+                    "KJob"
+                ],
+                [
+                    "kcoreaddons/kjobtrackerinterface",
+                    "KJobTrackerInterface"
+                ],
+                [
+                    "kcoreaddons/kjobuidelegate",
+                    "KJobUiDelegate"
+                ],
+                [
+                    "kcoreaddons/kmacroexpanderbase",
+                    "KMacroExpanderBase"
+                ],
+                [
+                    "kcoreaddons/kmemoryinfo",
+                    "KMemoryInfo"
+                ],
+                [
+                    "kcoreaddons/knetworkmounts",
+                    "KNetworkMounts"
+                ],
+                [
+                    "kcoreaddons/kosrelease",
+                    "KOSRelease"
+                ],
+                [
+                    "kcoreaddons/kpluginfactory",
+                    "KPluginFactory"
+                ],
+                [
+                    "kcoreaddons/kpluginfactory-result",
+                    "KPluginFactory::Result"
+                ],
+                [
+                    "kcoreaddons/kpluginmetadata",
+                    "KPluginMetaData"
+                ],
+                [
+                    "kcoreaddons/kprocess",
+                    "KProcess"
+                ],
+                [
+                    "kcoreaddons/kprocesslist-kprocessinfo",
+                    "KProcessList::KProcessInfo"
+                ],
+                [
+                    "kcoreaddons/kshareddatacache",
+                    "KSharedDataCache"
+                ],
+                [
+                    "kcoreaddons/ksignalhandler",
+                    "KSignalHandler"
+                ],
+                [
+                    "kcoreaddons/ksystemclockskewnotifier",
+                    "KSystemClockSkewNotifier"
+                ],
+                [
+                    "kcoreaddons/kuser",
+                    "KUser"
+                ],
+                [
+                    "kcoreaddons/kusergroup",
+                    "KUserGroup"
+                ],
+                [
+                    "kcoreaddons/kwordmacroexpander",
+                    "KWordMacroExpander"
+                ],
+                [
+                    "kcoreaddons/kbackup",
+                    "KBackup Namespace"
+                ],
+                [
+                    "kcoreaddons/kcoreaddons",
+                    "KCoreAddons Namespace"
+                ],
+                [
+                    "kcoreaddons/kcoreaddons-index",
+                    "KCoreAddons"
+                ],
+                [
+                    "kcoreaddons/kfilesystemtype",
+                    "KFileSystemType Namespace"
+                ],
+                [
+                    "kcoreaddons/kfileutils",
+                    "KFileUtils Namespace"
+                ],
+                [
+                    "kcoreaddons/kfuzzymatcher",
+                    "KFuzzyMatcher Namespace"
+                ],
+                [
+                    "kcoreaddons/kfuzzymatcher-range",
+                    ""
+                ],
+                [
+                    "kcoreaddons/kfuzzymatcher-result",
+                    ""
+                ],
+                [
+                    "kcoreaddons/kjsonutils",
+                    "KJsonUtils Namespace"
+                ],
+                [
+                    "kcoreaddons/klibexec",
+                    "KLibexec Namespace"
+                ],
+                [
+                    "kcoreaddons/kmacroexpander",
+                    "KMacroExpander Namespace"
+                ],
+                [
+                    "kcoreaddons/kprocesslist",
+                    "KProcessList Namespace"
+                ],
+                [
+                    "kcoreaddons/krandom",
+                    "KRandom Namespace"
+                ],
+                [
+                    "kcoreaddons/kruntimeplatform",
+                    "KRuntimePlatform Namespace"
+                ],
+                [
+                    "kcoreaddons/ksafestringerror-sub-kcoreaddons",
+                    "KSafeStringError Namespace"
+                ],
+                [
+                    "kcoreaddons/ksandbox",
+                    "KSandbox Namespace"
+                ],
+                [
+                    "kcoreaddons/ksandbox-processcontext",
+                    ""
+                ],
+                [
+                    "kcoreaddons/kshell",
+                    "KShell Namespace"
+                ],
+                [
+                    "kcoreaddons/kstringhandler",
+                    "KStringHandler Namespace"
+                ],
+                [
+                    "kcoreaddons/ktexttohtml",
+                    "KTextToHTML Namespace"
+                ],
+                [
+                    "kcoreaddons/kurlmimedata",
+                    "KUrlMimeData Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KCoreAddons C++ Classes"
+        }
+    ]
+}

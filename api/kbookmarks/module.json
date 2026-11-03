@@ -1,0 +1,609 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KBookmark",
+                    "KBookmark()",
+                    "KBookmark"
+                ],
+                [
+                    "KBookmark",
+                    "KBookmark(const QDomElement &)",
+                    "KBookmark-1"
+                ],
+                [
+                    "address",
+                    "address() const : QString",
+                    "address"
+                ],
+                [
+                    "commonParent",
+                    "commonParent(const QString &, const QString &) : QString",
+                    "commonParent"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "fullText",
+                    "fullText() const : QString",
+                    "fullText"
+                ],
+                [
+                    "hasParent",
+                    "hasParent() const : bool",
+                    "hasParent"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "isGroup",
+                    "isGroup() const : bool",
+                    "isGroup"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "isSeparator",
+                    "isSeparator() const : bool",
+                    "isSeparator"
+                ],
+                [
+                    "metaData",
+                    "metaData(const QString &, bool) const : QDomNode",
+                    "metaData"
+                ],
+                [
+                    "metaDataItem",
+                    "metaDataItem(const QString &) const : QString",
+                    "metaDataItem"
+                ],
+                [
+                    "mimeType",
+                    "mimeType() const : QString",
+                    "mimeType"
+                ],
+                [
+                    "nextAddress",
+                    "nextAddress(const QString &) : QString",
+                    "nextAddress"
+                ],
+                [
+                    "parentAddress",
+                    "parentAddress(const QString &) : QString",
+                    "parentAddress"
+                ],
+                [
+                    "parentGroup",
+                    "parentGroup() const : KBookmarkGroup",
+                    "parentGroup"
+                ],
+                [
+                    "populateMimeData",
+                    "populateMimeData(QMimeData *) const",
+                    "populateMimeData"
+                ],
+                [
+                    "positionInParent",
+                    "positionInParent() const : int",
+                    "positionInParent"
+                ],
+                [
+                    "positionInParent",
+                    "positionInParent(const QString &) : uint",
+                    "positionInParent-1"
+                ],
+                [
+                    "previousAddress",
+                    "previousAddress(const QString &) : QString",
+                    "previousAddress"
+                ],
+                [
+                    "setDescription",
+                    "setDescription(const QString &)",
+                    "setDescription"
+                ],
+                [
+                    "setFullText",
+                    "setFullText(const QString &)",
+                    "setFullText"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(const QString &)",
+                    "setIcon"
+                ],
+                [
+                    "setMetaDataItem",
+                    "setMetaDataItem(const QString &, const QString &, KBookmark::MetaDataOverwriteMode)",
+                    "setMetaDataItem"
+                ],
+                [
+                    "setMimeType",
+                    "setMimeType(const QString &)",
+                    "setMimeType"
+                ],
+                [
+                    "setShowInToolbar",
+                    "setShowInToolbar(bool)",
+                    "setShowInToolbar"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &)",
+                    "setUrl"
+                ],
+                [
+                    "showInToolbar",
+                    "showInToolbar() const : bool",
+                    "showInToolbar"
+                ],
+                [
+                    "standaloneBookmark",
+                    "standaloneBookmark(const QString &, const QUrl &, const QString &) : KBookmark",
+                    "standaloneBookmark"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "toGroup",
+                    "toGroup() const : KBookmarkGroup",
+                    "toGroup"
+                ],
+                [
+                    "updateAccessMetadata",
+                    "updateAccessMetadata()",
+                    "updateAccessMetadata"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KBookmark &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KBookmark",
+            "page": "kbookmarks/kbookmark",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "List",
+                    "List()",
+                    "List"
+                ],
+                [
+                    "canDecode",
+                    "canDecode(const QMimeData *) : bool",
+                    "canDecode"
+                ],
+                [
+                    "fromMimeData",
+                    "fromMimeData(const QMimeData *, QDomDocument &) : KBookmark::List",
+                    "fromMimeData"
+                ],
+                [
+                    "mimeDataTypes",
+                    "mimeDataTypes() : QStringList",
+                    "mimeDataTypes"
+                ],
+                [
+                    "populateMimeData",
+                    "populateMimeData(QMimeData *) const",
+                    "populateMimeData"
+                ]
+            ],
+            "name": "KBookmark::List",
+            "page": "kbookmarks/kbookmark-list",
+            "qtBases": [
+                [
+                    "QList",
+                    "https://doc.qt.io/qt-6/qlist-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kbookmarks/kbookmarkactioninterface"
+            ],
+            "members": [
+                [
+                    "KBookmarkAction",
+                    "KBookmarkAction(const KBookmark &, KBookmarkOwner *, QObject *)",
+                    "KBookmarkAction"
+                ],
+                [
+                    "slotSelected",
+                    "slotSelected(Qt::MouseButtons, Qt::KeyboardModifiers)",
+                    "slotSelected"
+                ]
+            ],
+            "name": "KBookmarkAction",
+            "page": "kbookmarks/kbookmarkaction",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KBookmarkActionInterface",
+                    "KBookmarkActionInterface(const KBookmark &)",
+                    "KBookmarkActionInterface"
+                ],
+                [
+                    "bookmark",
+                    "bookmark() const : const KBookmark",
+                    "bookmark"
+                ]
+            ],
+            "name": "KBookmarkActionInterface",
+            "page": "kbookmarks/kbookmarkactioninterface",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kbookmarks/kbookmark"
+            ],
+            "members": [
+                [
+                    "KBookmarkGroup",
+                    "KBookmarkGroup()",
+                    "KBookmarkGroup"
+                ],
+                [
+                    "KBookmarkGroup",
+                    "KBookmarkGroup(const QDomElement &)",
+                    "KBookmarkGroup-1"
+                ],
+                [
+                    "addBookmark",
+                    "addBookmark(const KBookmark &) : KBookmark",
+                    "addBookmark"
+                ],
+                [
+                    "addBookmark",
+                    "addBookmark(const QString &, const QUrl &, const QString &) : KBookmark",
+                    "addBookmark-1"
+                ],
+                [
+                    "createNewFolder",
+                    "createNewFolder(const QString &) : KBookmarkGroup",
+                    "createNewFolder"
+                ],
+                [
+                    "createNewSeparator",
+                    "createNewSeparator() : KBookmark",
+                    "createNewSeparator"
+                ],
+                [
+                    "deleteBookmark",
+                    "deleteBookmark(const KBookmark &)",
+                    "deleteBookmark"
+                ],
+                [
+                    "first",
+                    "first() const : KBookmark",
+                    "first"
+                ],
+                [
+                    "groupUrlList",
+                    "groupUrlList() const : QList<QUrl>",
+                    "groupUrlList"
+                ],
+                [
+                    "indexOf",
+                    "indexOf(const KBookmark &) const : int",
+                    "indexOf"
+                ],
+                [
+                    "isOpen",
+                    "isOpen() const : bool",
+                    "isOpen"
+                ],
+                [
+                    "isToolbarGroup",
+                    "isToolbarGroup() const : bool",
+                    "isToolbarGroup"
+                ],
+                [
+                    "moveBookmark",
+                    "moveBookmark(const KBookmark &, const KBookmark &) : bool",
+                    "moveBookmark"
+                ],
+                [
+                    "next",
+                    "next(const KBookmark &) const : KBookmark",
+                    "next"
+                ],
+                [
+                    "previous",
+                    "previous(const KBookmark &) const : KBookmark",
+                    "previous"
+                ]
+            ],
+            "name": "KBookmarkGroup",
+            "page": "kbookmarks/kbookmarkgroup",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "traverse",
+                    "traverse()",
+                    "traverse"
+                ],
+                [
+                    "visit",
+                    "visit()",
+                    "visit"
+                ],
+                [
+                    "visitEnter",
+                    "visitEnter()",
+                    "visitEnter"
+                ],
+                [
+                    "visitLeave",
+                    "visitLeave()",
+                    "visitLeave"
+                ]
+            ],
+            "name": "KBookmarkGroupTraverser",
+            "page": "kbookmarks/kbookmarkgrouptraverser",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KBookmarkManager",
+                    "KBookmarkManager(const QString &, QObject *)",
+                    "KBookmarkManager"
+                ],
+                [
+                    "~KBookmarkManager",
+                    "~KBookmarkManager()",
+                    "dtor.KBookmarkManager"
+                ],
+                [
+                    "changed",
+                    "changed(const QString &)",
+                    "changed"
+                ],
+                [
+                    "emitChanged",
+                    "emitChanged()",
+                    "emitChanged"
+                ],
+                [
+                    "emitChanged",
+                    "emitChanged(const KBookmarkGroup &)",
+                    "emitChanged-1"
+                ],
+                [
+                    "error",
+                    "error(const QString &)",
+                    "error"
+                ],
+                [
+                    "findByAddress",
+                    "findByAddress(const QString &) : KBookmark",
+                    "findByAddress"
+                ],
+                [
+                    "root",
+                    "root() const : KBookmarkGroup",
+                    "root"
+                ],
+                [
+                    "save",
+                    "save(bool) const : bool",
+                    "save"
+                ],
+                [
+                    "saveAs",
+                    "saveAs(const QString &, bool) const : bool",
+                    "saveAs"
+                ],
+                [
+                    "toolbar",
+                    "toolbar() : KBookmarkGroup",
+                    "toolbar"
+                ],
+                [
+                    "updateAccessMetadata",
+                    "updateAccessMetadata(const QString &) : bool",
+                    "updateAccessMetadata"
+                ]
+            ],
+            "name": "KBookmarkManager",
+            "page": "kbookmarks/kbookmarkmanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KBookmarkOwner",
+                    "KBookmarkOwner()",
+                    "KBookmarkOwner"
+                ],
+                [
+                    "currentBookmarkList",
+                    "currentBookmarkList() const : QList<KBookmarkOwner::FutureBookmark>",
+                    "currentBookmarkList"
+                ],
+                [
+                    "currentIcon",
+                    "currentIcon() const : QString",
+                    "currentIcon"
+                ],
+                [
+                    "currentTitle",
+                    "currentTitle() const : QString",
+                    "currentTitle"
+                ],
+                [
+                    "currentUrl",
+                    "currentUrl() const : QUrl",
+                    "currentUrl"
+                ],
+                [
+                    "enableOption",
+                    "enableOption(KBookmarkOwner::BookmarkOption) const : bool",
+                    "enableOption"
+                ],
+                [
+                    "openBookmark",
+                    "openBookmark(const KBookmark &, Qt::MouseButtons, Qt::KeyboardModifiers)",
+                    "openBookmark"
+                ],
+                [
+                    "openFolderinTabs",
+                    "openFolderinTabs(const KBookmarkGroup &)",
+                    "openFolderinTabs"
+                ],
+                [
+                    "openInNewTab",
+                    "openInNewTab(const KBookmark &)",
+                    "openInNewTab"
+                ],
+                [
+                    "openInNewWindow",
+                    "openInNewWindow(const KBookmark &)",
+                    "openInNewWindow"
+                ],
+                [
+                    "supportsTabs",
+                    "supportsTabs() const : bool",
+                    "supportsTabs"
+                ]
+            ],
+            "name": "KBookmarkOwner",
+            "page": "kbookmarks/kbookmarkowner",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "FutureBookmark",
+                    "FutureBookmark(const QString &, const QUrl &, const QString &)",
+                    "FutureBookmark"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ]
+            ],
+            "name": "KBookmarkOwner::FutureBookmark",
+            "page": "kbookmarks/kbookmarkowner-futurebookmark",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kbookmarks",
+    "sections": [
+        {
+            "description": "Bookmarks management library.",
+            "page": "kbookmarks/kbookmarks-module",
+            "pages": [
+                [
+                    "kbookmarks/kbookmarks-module",
+                    "KBookmarks C++ Classes"
+                ],
+                [
+                    "kbookmarks/kbookmark",
+                    "KBookmark"
+                ],
+                [
+                    "kbookmarks/kbookmark-list",
+                    "KBookmark::List"
+                ],
+                [
+                    "kbookmarks/kbookmarkaction",
+                    "KBookmarkAction"
+                ],
+                [
+                    "kbookmarks/kbookmarkactioninterface",
+                    "KBookmarkActionInterface"
+                ],
+                [
+                    "kbookmarks/kbookmarkgroup",
+                    "KBookmarkGroup"
+                ],
+                [
+                    "kbookmarks/kbookmarkgrouptraverser",
+                    "KBookmarkGroupTraverser"
+                ],
+                [
+                    "kbookmarks/kbookmarkmanager",
+                    "KBookmarkManager"
+                ],
+                [
+                    "kbookmarks/kbookmarkowner",
+                    "KBookmarkOwner"
+                ],
+                [
+                    "kbookmarks/kbookmarkowner-futurebookmark",
+                    "KBookmarkOwner::FutureBookmark"
+                ],
+                [
+                    "kbookmarks/kbookmarks-index",
+                    "KBookmarks"
+                ]
+            ],
+            "qml": false,
+            "title": "KBookmarks C++ Classes"
+        }
+    ]
+}

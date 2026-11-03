@@ -1,0 +1,1411 @@
+{
+    "classes": [
+        {
+            "bases": [
+                "solid/solid-deviceinterface"
+            ],
+            "members": [
+                [
+                    "capacity",
+                    "capacity : int",
+                    "capacity-prop"
+                ],
+                [
+                    "chargePercent",
+                    "chargePercent : int",
+                    "chargePercent-prop"
+                ],
+                [
+                    "chargeState",
+                    "chargeState : ChargeState",
+                    "chargeState-prop"
+                ],
+                [
+                    "cycleCount",
+                    "cycleCount : int",
+                    "cycleCount-prop"
+                ],
+                [
+                    "energy",
+                    "energy : double",
+                    "energy-prop"
+                ],
+                [
+                    "energyFull",
+                    "energyFull : double",
+                    "energyFull-prop"
+                ],
+                [
+                    "energyFullDesign",
+                    "energyFullDesign : double",
+                    "energyFullDesign-prop"
+                ],
+                [
+                    "energyRate",
+                    "energyRate : double",
+                    "energyRate-prop"
+                ],
+                [
+                    "powerSupply",
+                    "powerSupply : bool",
+                    "powerSupply-prop"
+                ],
+                [
+                    "present",
+                    "present : bool",
+                    "present-prop"
+                ],
+                [
+                    "rechargeable",
+                    "rechargeable : const bool",
+                    "rechargeable-prop"
+                ],
+                [
+                    "remainingTime",
+                    "remainingTime : qlonglong",
+                    "remainingTime-prop"
+                ],
+                [
+                    "serial",
+                    "serial : const QString",
+                    "serial-prop"
+                ],
+                [
+                    "technology",
+                    "technology : const Technology",
+                    "technology-prop"
+                ],
+                [
+                    "temperature",
+                    "temperature : double",
+                    "temperature-prop"
+                ],
+                [
+                    "timeToEmpty",
+                    "timeToEmpty : qlonglong",
+                    "timeToEmpty-prop"
+                ],
+                [
+                    "timeToFull",
+                    "timeToFull : qlonglong",
+                    "timeToFull-prop"
+                ],
+                [
+                    "type",
+                    "type : const BatteryType",
+                    "type-prop"
+                ],
+                [
+                    "voltage",
+                    "voltage : double",
+                    "voltage-prop"
+                ],
+                [
+                    "capacity",
+                    "capacity() const : int",
+                    "capacity"
+                ],
+                [
+                    "capacityChanged",
+                    "capacityChanged(int, const QString &)",
+                    "capacityChanged"
+                ],
+                [
+                    "chargePercent",
+                    "chargePercent() const : int",
+                    "chargePercent"
+                ],
+                [
+                    "chargePercentChanged",
+                    "chargePercentChanged(int, const QString &)",
+                    "chargePercentChanged"
+                ],
+                [
+                    "chargeState",
+                    "chargeState() const : Solid::Battery::ChargeState",
+                    "chargeState"
+                ],
+                [
+                    "chargeStateChanged",
+                    "chargeStateChanged(int, const QString &)",
+                    "chargeStateChanged"
+                ],
+                [
+                    "cycleCount",
+                    "cycleCount() const : int",
+                    "cycleCount"
+                ],
+                [
+                    "cycleCountChanged",
+                    "cycleCountChanged(int, const QString &)",
+                    "cycleCountChanged"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "energy",
+                    "energy() const : double",
+                    "energy"
+                ],
+                [
+                    "energyChanged",
+                    "energyChanged(double, const QString &)",
+                    "energyChanged"
+                ],
+                [
+                    "energyFull",
+                    "energyFull() const : double",
+                    "energyFull"
+                ],
+                [
+                    "energyFullChanged",
+                    "energyFullChanged(double, const QString &)",
+                    "energyFullChanged"
+                ],
+                [
+                    "energyFullDesign",
+                    "energyFullDesign() const : double",
+                    "energyFullDesign"
+                ],
+                [
+                    "energyFullDesignChanged",
+                    "energyFullDesignChanged(double, const QString &)",
+                    "energyFullDesignChanged"
+                ],
+                [
+                    "energyRate",
+                    "energyRate() const : double",
+                    "energyRate"
+                ],
+                [
+                    "energyRateChanged",
+                    "energyRateChanged(double, const QString &)",
+                    "energyRateChanged"
+                ],
+                [
+                    "isPowerSupply",
+                    "isPowerSupply() const : bool",
+                    "isPowerSupply"
+                ],
+                [
+                    "isPresent",
+                    "isPresent() const : bool",
+                    "isPresent"
+                ],
+                [
+                    "isRechargeable",
+                    "isRechargeable() const : bool",
+                    "isRechargeable"
+                ],
+                [
+                    "powerSupplyStateChanged",
+                    "powerSupplyStateChanged(bool, const QString &)",
+                    "powerSupplyStateChanged"
+                ],
+                [
+                    "presentStateChanged",
+                    "presentStateChanged(bool, const QString &)",
+                    "presentStateChanged"
+                ],
+                [
+                    "remainingTime",
+                    "remainingTime() const : qlonglong",
+                    "remainingTime"
+                ],
+                [
+                    "remainingTimeChanged",
+                    "remainingTimeChanged(qlonglong, const QString &)",
+                    "remainingTimeChanged"
+                ],
+                [
+                    "serial",
+                    "serial() const : QString",
+                    "serial"
+                ],
+                [
+                    "technology",
+                    "technology() const : Solid::Battery::Technology",
+                    "technology"
+                ],
+                [
+                    "temperature",
+                    "temperature() const : double",
+                    "temperature"
+                ],
+                [
+                    "temperatureChanged",
+                    "temperatureChanged(double, const QString &)",
+                    "temperatureChanged"
+                ],
+                [
+                    "timeToEmpty",
+                    "timeToEmpty() const : qlonglong",
+                    "timeToEmpty"
+                ],
+                [
+                    "timeToEmptyChanged",
+                    "timeToEmptyChanged(qlonglong, const QString &)",
+                    "timeToEmptyChanged"
+                ],
+                [
+                    "timeToFull",
+                    "timeToFull() const : qlonglong",
+                    "timeToFull"
+                ],
+                [
+                    "timeToFullChanged",
+                    "timeToFullChanged(qlonglong, const QString &)",
+                    "timeToFullChanged"
+                ],
+                [
+                    "type",
+                    "type() const : Solid::Battery::BatteryType",
+                    "type"
+                ],
+                [
+                    "voltage",
+                    "voltage() const : double",
+                    "voltage"
+                ],
+                [
+                    "voltageChanged",
+                    "voltageChanged(double, const QString &)",
+                    "voltageChanged"
+                ]
+            ],
+            "name": "Solid::Battery",
+            "page": "solid/solid-battery",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "solid/solid-deviceinterface"
+            ],
+            "members": [
+                [
+                    "device",
+                    "device : QString",
+                    "device-prop"
+                ],
+                [
+                    "isSystem",
+                    "isSystem : bool",
+                    "isSystem-prop"
+                ],
+                [
+                    "major",
+                    "major : int",
+                    "major-prop"
+                ],
+                [
+                    "minor",
+                    "minor : int",
+                    "minor-prop"
+                ],
+                [
+                    "device",
+                    "device() const : QString",
+                    "device"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "deviceMajor",
+                    "deviceMajor() const : int",
+                    "deviceMajor"
+                ],
+                [
+                    "deviceMinor",
+                    "deviceMinor() const : int",
+                    "deviceMinor"
+                ],
+                [
+                    "isSystem",
+                    "isSystem() const : bool",
+                    "isSystem"
+                ]
+            ],
+            "name": "Solid::Block",
+            "page": "solid/solid-block",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "solid/solid-deviceinterface"
+            ],
+            "members": [
+                [
+                    "supportedDrivers",
+                    "supportedDrivers : QStringList",
+                    "supportedDrivers-prop"
+                ],
+                [
+                    "supportedProtocols",
+                    "supportedProtocols : QStringList",
+                    "supportedProtocols-prop"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "driverHandle",
+                    "driverHandle(const QString &) const : QVariant",
+                    "driverHandle"
+                ],
+                [
+                    "supportedDrivers",
+                    "supportedDrivers(QString) const : QStringList",
+                    "supportedDrivers"
+                ],
+                [
+                    "supportedProtocols",
+                    "supportedProtocols() const : QStringList",
+                    "supportedProtocols"
+                ]
+            ],
+            "name": "Solid::Camera",
+            "page": "solid/solid-camera",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Device",
+                    "Device(const QString &)",
+                    "Device"
+                ],
+                [
+                    "allDevices",
+                    "allDevices() : QList<Solid::Device>",
+                    "allDevices"
+                ],
+                [
+                    "as",
+                    "as() : template <typename DevIface> DevIface *",
+                    "as"
+                ],
+                [
+                    "as",
+                    "as() const : template <typename DevIface> const DevIface *",
+                    "as-1"
+                ],
+                [
+                    "asDeviceInterface",
+                    "asDeviceInterface(const Solid::DeviceInterface::Type &) : Solid::DeviceInterface *",
+                    "asDeviceInterface"
+                ],
+                [
+                    "asDeviceInterface",
+                    "asDeviceInterface(const Solid::DeviceInterface::Type &) const : const Solid::DeviceInterface *",
+                    "asDeviceInterface-1"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "displayName",
+                    "displayName() const : QString",
+                    "displayName"
+                ],
+                [
+                    "emblems",
+                    "emblems() const : QStringList",
+                    "emblems"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "is",
+                    "is() const : template <typename DevIface> bool",
+                    "is"
+                ],
+                [
+                    "isDeviceInterface",
+                    "isDeviceInterface(const Solid::DeviceInterface::Type &) const : bool",
+                    "isDeviceInterface"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "listFromQuery",
+                    "listFromQuery(const Solid::Predicate &, const QString &) : QList<Solid::Device>",
+                    "listFromQuery"
+                ],
+                [
+                    "listFromQuery",
+                    "listFromQuery(const QString &, const QString &) : QList<Solid::Device>",
+                    "listFromQuery-1"
+                ],
+                [
+                    "listFromType",
+                    "listFromType(const Solid::DeviceInterface::Type &, const QString &) : QList<Solid::Device>",
+                    "listFromType"
+                ],
+                [
+                    "parent",
+                    "parent() const : Solid::Device",
+                    "parent"
+                ],
+                [
+                    "parentUdi",
+                    "parentUdi() const : QString",
+                    "parentUdi"
+                ],
+                [
+                    "product",
+                    "product() const : QString",
+                    "product"
+                ],
+                [
+                    "storageAccessFromPath",
+                    "storageAccessFromPath(const QString &) : Solid::Device",
+                    "storageAccessFromPath"
+                ],
+                [
+                    "udi",
+                    "udi() const : QString",
+                    "udi"
+                ],
+                [
+                    "vendor",
+                    "vendor() const : QString",
+                    "vendor"
+                ]
+            ],
+            "name": "Solid::Device",
+            "page": "solid/solid-device",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "stringToType",
+                    "stringToType(const QString &) : Solid::DeviceInterface::Type",
+                    "stringToType"
+                ],
+                [
+                    "typeDescription",
+                    "typeDescription(Solid::DeviceInterface::Type) : QString",
+                    "typeDescription"
+                ],
+                [
+                    "typeToString",
+                    "typeToString(Solid::DeviceInterface::Type) : QString",
+                    "typeToString"
+                ]
+            ],
+            "name": "Solid::DeviceInterface",
+            "page": "solid/solid-deviceinterface",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "deviceAdded",
+                    "deviceAdded(const QString &)",
+                    "deviceAdded"
+                ],
+                [
+                    "deviceRemoved",
+                    "deviceRemoved(const QString &)",
+                    "deviceRemoved"
+                ],
+                [
+                    "instance",
+                    "instance() : Solid::DeviceNotifier *",
+                    "instance"
+                ]
+            ],
+            "name": "Solid::DeviceNotifier",
+            "page": "solid/solid-devicenotifier",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "solid/solid-deviceinterface"
+            ],
+            "members": [
+                [
+                    "allProperties",
+                    "allProperties() const : QMap<QString, QVariant>",
+                    "allProperties"
+                ],
+                [
+                    "conditionRaised",
+                    "conditionRaised(const QString &, const QString &)",
+                    "conditionRaised"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "property",
+                    "property(const QString &) const : QVariant",
+                    "property"
+                ],
+                [
+                    "propertyChanged",
+                    "propertyChanged(const QMap<QString, int> &)",
+                    "propertyChanged"
+                ],
+                [
+                    "propertyExists",
+                    "propertyExists(const QString &) const : bool",
+                    "propertyExists"
+                ]
+            ],
+            "name": "Solid::GenericInterface",
+            "page": "solid/solid-genericinterface",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "solid/solid-deviceinterface"
+            ],
+            "members": [
+                [
+                    "type",
+                    "type : ShareType",
+                    "type-prop"
+                ],
+                [
+                    "url",
+                    "url : QUrl",
+                    "url-prop"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "type",
+                    "type() const : Solid::NetworkShare::ShareType",
+                    "type"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ]
+            ],
+            "name": "Solid::NetworkShare",
+            "page": "solid/solid-networkshare",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "solid/solid-storagevolume"
+            ],
+            "members": [
+                [
+                    "appendable",
+                    "appendable : bool",
+                    "appendable-prop"
+                ],
+                [
+                    "availableContent",
+                    "availableContent : ContentTypes",
+                    "availableContent-prop"
+                ],
+                [
+                    "blank",
+                    "blank : bool",
+                    "blank-prop"
+                ],
+                [
+                    "capacity",
+                    "capacity : qulonglong",
+                    "capacity-prop"
+                ],
+                [
+                    "discType",
+                    "discType : DiscType",
+                    "discType-prop"
+                ],
+                [
+                    "rewritable",
+                    "rewritable : bool",
+                    "rewritable-prop"
+                ],
+                [
+                    "availableContent",
+                    "availableContent() const : Solid::OpticalDisc::ContentTypes",
+                    "availableContent"
+                ],
+                [
+                    "capacity",
+                    "capacity() const : qulonglong",
+                    "capacity"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "discType",
+                    "discType() const : Solid::OpticalDisc::DiscType",
+                    "discType"
+                ],
+                [
+                    "isAppendable",
+                    "isAppendable() const : bool",
+                    "isAppendable"
+                ],
+                [
+                    "isBlank",
+                    "isBlank() const : bool",
+                    "isBlank"
+                ],
+                [
+                    "isRewritable",
+                    "isRewritable() const : bool",
+                    "isRewritable"
+                ]
+            ],
+            "name": "Solid::OpticalDisc",
+            "page": "solid/solid-opticaldisc",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "solid/solid-storagedrive"
+            ],
+            "members": [
+                [
+                    "readSpeed",
+                    "readSpeed : int",
+                    "readSpeed-prop"
+                ],
+                [
+                    "supportedMedia",
+                    "supportedMedia : MediumTypes",
+                    "supportedMedia-prop"
+                ],
+                [
+                    "writeSpeed",
+                    "writeSpeed : int",
+                    "writeSpeed-prop"
+                ],
+                [
+                    "writeSpeeds",
+                    "writeSpeeds : QList<int>",
+                    "writeSpeeds-prop"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "eject",
+                    "eject() : bool",
+                    "eject"
+                ],
+                [
+                    "ejectDone",
+                    "ejectDone(Solid::ErrorType, QVariant, const QString &)",
+                    "ejectDone"
+                ],
+                [
+                    "ejectPressed",
+                    "ejectPressed(const QString &)",
+                    "ejectPressed"
+                ],
+                [
+                    "ejectRequested",
+                    "ejectRequested(const QString &)",
+                    "ejectRequested"
+                ],
+                [
+                    "readSpeed",
+                    "readSpeed() const : int",
+                    "readSpeed"
+                ],
+                [
+                    "supportedMedia",
+                    "supportedMedia() const : Solid::OpticalDrive::MediumTypes",
+                    "supportedMedia"
+                ],
+                [
+                    "writeSpeed",
+                    "writeSpeed() const : int",
+                    "writeSpeed"
+                ],
+                [
+                    "writeSpeeds",
+                    "writeSpeeds() const : QList<int>",
+                    "writeSpeeds"
+                ]
+            ],
+            "name": "Solid::OpticalDrive",
+            "page": "solid/solid-opticaldrive",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "solid/solid-deviceinterface"
+            ],
+            "members": [
+                [
+                    "supportedDrivers",
+                    "supportedDrivers : QStringList",
+                    "supportedDrivers-prop"
+                ],
+                [
+                    "supportedProtocols",
+                    "supportedProtocols : QStringList",
+                    "supportedProtocols-prop"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "driverHandle",
+                    "driverHandle(const QString &) const : QVariant",
+                    "driverHandle"
+                ],
+                [
+                    "supportedDrivers",
+                    "supportedDrivers(QString) const : QStringList",
+                    "supportedDrivers"
+                ],
+                [
+                    "supportedProtocols",
+                    "supportedProtocols() const : QStringList",
+                    "supportedProtocols"
+                ]
+            ],
+            "name": "Solid::PortableMediaPlayer",
+            "page": "solid/solid-portablemediaplayer",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Predicate",
+                    "Predicate()",
+                    "Predicate"
+                ],
+                [
+                    "Predicate",
+                    "Predicate(const QString &)",
+                    "Predicate-1"
+                ],
+                [
+                    "Predicate",
+                    "Predicate(const Solid::DeviceInterface::Type &)",
+                    "Predicate-2"
+                ],
+                [
+                    "Predicate",
+                    "Predicate(QStringView, Solid::Predicate::NotOperator)",
+                    "Predicate-3"
+                ],
+                [
+                    "Predicate",
+                    "Predicate(const QString &, const QString &, const QVariant &, Solid::Predicate::ComparisonOperator)",
+                    "Predicate-4"
+                ],
+                [
+                    "Predicate",
+                    "Predicate(const Solid::DeviceInterface::Type &, const QString &, const QVariant &, Solid::Predicate::ComparisonOperator)",
+                    "Predicate-5"
+                ],
+                [
+                    "comparisonOperator",
+                    "comparisonOperator() const : Solid::Predicate::ComparisonOperator",
+                    "comparisonOperator"
+                ],
+                [
+                    "firstOperand",
+                    "firstOperand() const : Solid::Predicate",
+                    "firstOperand"
+                ],
+                [
+                    "fromString",
+                    "fromString(const QString &) : Solid::Predicate",
+                    "fromString"
+                ],
+                [
+                    "interfaceType",
+                    "interfaceType() const : Solid::DeviceInterface::Type",
+                    "interfaceType"
+                ],
+                [
+                    "isInterfaceTypeNegated",
+                    "isInterfaceTypeNegated() const : bool",
+                    "isInterfaceTypeNegated"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "matches",
+                    "matches(const Solid::Device &) const : bool",
+                    "matches"
+                ],
+                [
+                    "matchingValue",
+                    "matchingValue() const : QVariant",
+                    "matchingValue"
+                ],
+                [
+                    "propertyName",
+                    "propertyName() const : QString",
+                    "propertyName"
+                ],
+                [
+                    "secondOperand",
+                    "secondOperand() const : Solid::Predicate",
+                    "secondOperand"
+                ],
+                [
+                    "toString",
+                    "toString() const : QString",
+                    "toString"
+                ],
+                [
+                    "type",
+                    "type() const : Solid::Predicate::Type",
+                    "type"
+                ],
+                [
+                    "usedTypes",
+                    "usedTypes() const : QSet<Solid::DeviceInterface::Type>",
+                    "usedTypes"
+                ],
+                [
+                    "operator&",
+                    "operator&(const Solid::Predicate &) : Solid::Predicate",
+                    "operator-and"
+                ],
+                [
+                    "operator&=",
+                    "operator&=(const Solid::Predicate &) : Solid::Predicate &",
+                    "operator-and-eq"
+                ],
+                [
+                    "operator|",
+                    "operator|(const Solid::Predicate &) : Solid::Predicate",
+                    "operator-7c"
+                ],
+                [
+                    "operator|=",
+                    "operator|=(const Solid::Predicate &) : Solid::Predicate &",
+                    "operator-7c-eq"
+                ]
+            ],
+            "name": "Solid::Predicate",
+            "page": "solid/solid-predicate",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "solid/solid-deviceinterface"
+            ],
+            "members": [
+                [
+                    "canChangeFrequency",
+                    "canChangeFrequency : bool",
+                    "canChangeFrequency-prop"
+                ],
+                [
+                    "instructionSets",
+                    "instructionSets : InstructionSets",
+                    "instructionSets-prop"
+                ],
+                [
+                    "maxSpeed",
+                    "maxSpeed : qulonglong",
+                    "maxSpeed-prop"
+                ],
+                [
+                    "number",
+                    "number : int",
+                    "number-prop"
+                ],
+                [
+                    "canChangeFrequency",
+                    "canChangeFrequency() const : bool",
+                    "canChangeFrequency"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "instructionSets",
+                    "instructionSets() const : Solid::Processor::InstructionSets",
+                    "instructionSets"
+                ],
+                [
+                    "maxSpeed",
+                    "maxSpeed() const : int",
+                    "maxSpeed"
+                ],
+                [
+                    "number",
+                    "number() const : int",
+                    "number"
+                ]
+            ],
+            "name": "Solid::Processor",
+            "page": "solid/solid-processor",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "solid/solid-deviceinterface"
+            ],
+            "members": [
+                [
+                    "accessible",
+                    "accessible : bool",
+                    "accessible-prop"
+                ],
+                [
+                    "encrypted",
+                    "encrypted : bool",
+                    "encrypted-prop"
+                ],
+                [
+                    "filePath",
+                    "filePath : QString",
+                    "filePath-prop"
+                ],
+                [
+                    "ignored",
+                    "ignored : bool",
+                    "ignored-prop"
+                ],
+                [
+                    "accessibilityChanged",
+                    "accessibilityChanged(bool, const QString &)",
+                    "accessibilityChanged"
+                ],
+                [
+                    "canCheck",
+                    "canCheck() const : bool",
+                    "canCheck"
+                ],
+                [
+                    "canRepair",
+                    "canRepair() const : bool",
+                    "canRepair"
+                ],
+                [
+                    "check",
+                    "check() : bool",
+                    "check"
+                ],
+                [
+                    "checkDone",
+                    "checkDone(Solid::ErrorType, QVariant, const QString &)",
+                    "checkDone"
+                ],
+                [
+                    "checkRequested",
+                    "checkRequested(const QString &)",
+                    "checkRequested"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "filePath",
+                    "filePath() const : QString",
+                    "filePath"
+                ],
+                [
+                    "isAccessible",
+                    "isAccessible() const : bool",
+                    "isAccessible"
+                ],
+                [
+                    "isEncrypted",
+                    "isEncrypted() const : bool",
+                    "isEncrypted"
+                ],
+                [
+                    "isIgnored",
+                    "isIgnored() const : bool",
+                    "isIgnored"
+                ],
+                [
+                    "repair",
+                    "repair() : bool",
+                    "repair"
+                ],
+                [
+                    "repairDone",
+                    "repairDone(Solid::ErrorType, QVariant, const QString &)",
+                    "repairDone"
+                ],
+                [
+                    "repairRequested",
+                    "repairRequested(const QString &)",
+                    "repairRequested"
+                ],
+                [
+                    "setup",
+                    "setup() : bool",
+                    "setup"
+                ],
+                [
+                    "setupDone",
+                    "setupDone(Solid::ErrorType, QVariant, const QString &)",
+                    "setupDone"
+                ],
+                [
+                    "setupRequested",
+                    "setupRequested(const QString &)",
+                    "setupRequested"
+                ],
+                [
+                    "teardown",
+                    "teardown() : bool",
+                    "teardown"
+                ],
+                [
+                    "teardownDone",
+                    "teardownDone(Solid::ErrorType, QVariant, const QString &)",
+                    "teardownDone"
+                ],
+                [
+                    "teardownRequested",
+                    "teardownRequested(const QString &)",
+                    "teardownRequested"
+                ]
+            ],
+            "name": "Solid::StorageAccess",
+            "page": "solid/solid-storageaccess",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "solid/solid-deviceinterface"
+            ],
+            "members": [
+                [
+                    "bus",
+                    "bus : Bus",
+                    "bus-prop"
+                ],
+                [
+                    "driveType",
+                    "driveType : DriveType",
+                    "driveType-prop"
+                ],
+                [
+                    "hotpluggable",
+                    "hotpluggable : bool",
+                    "hotpluggable-prop"
+                ],
+                [
+                    "inUse",
+                    "inUse : bool",
+                    "inUse-prop"
+                ],
+                [
+                    "removable",
+                    "removable : bool",
+                    "removable-prop"
+                ],
+                [
+                    "size",
+                    "size : qulonglong",
+                    "size-prop"
+                ],
+                [
+                    "timeDetected",
+                    "timeDetected : const QDateTime",
+                    "timeDetected-prop"
+                ],
+                [
+                    "timeMediaDetected",
+                    "timeMediaDetected : QDateTime",
+                    "timeMediaDetected-prop"
+                ],
+                [
+                    "bus",
+                    "bus() const : Solid::StorageDrive::Bus",
+                    "bus"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "driveType",
+                    "driveType() const : Solid::StorageDrive::DriveType",
+                    "driveType"
+                ],
+                [
+                    "isHotpluggable",
+                    "isHotpluggable() const : bool",
+                    "isHotpluggable"
+                ],
+                [
+                    "isInUse",
+                    "isInUse() const : bool",
+                    "isInUse"
+                ],
+                [
+                    "isRemovable",
+                    "isRemovable() const : bool",
+                    "isRemovable"
+                ],
+                [
+                    "size",
+                    "size() const : qulonglong",
+                    "size"
+                ],
+                [
+                    "timeDetected",
+                    "timeDetected() const : QDateTime",
+                    "timeDetected"
+                ],
+                [
+                    "timeMediaDetected",
+                    "timeMediaDetected() const : QDateTime",
+                    "timeMediaDetected"
+                ]
+            ],
+            "name": "Solid::StorageDrive",
+            "page": "solid/solid-storagedrive",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "solid/solid-deviceinterface"
+            ],
+            "members": [
+                [
+                    "fsType",
+                    "fsType : QString",
+                    "fsType-prop"
+                ],
+                [
+                    "ignored",
+                    "ignored : bool",
+                    "ignored-prop"
+                ],
+                [
+                    "label",
+                    "label : QString",
+                    "label-prop"
+                ],
+                [
+                    "size",
+                    "size : qulonglong",
+                    "size-prop"
+                ],
+                [
+                    "usage",
+                    "usage : UsageType",
+                    "usage-prop"
+                ],
+                [
+                    "uuid",
+                    "uuid : QString",
+                    "uuid-prop"
+                ],
+                [
+                    "deviceInterfaceType",
+                    "deviceInterfaceType() : Solid::DeviceInterface::Type",
+                    "deviceInterfaceType"
+                ],
+                [
+                    "encryptedContainer",
+                    "encryptedContainer() const : Solid::Device",
+                    "encryptedContainer"
+                ],
+                [
+                    "fsType",
+                    "fsType() const : QString",
+                    "fsType"
+                ],
+                [
+                    "isIgnored",
+                    "isIgnored() const : bool",
+                    "isIgnored"
+                ],
+                [
+                    "label",
+                    "label() const : QString",
+                    "label"
+                ],
+                [
+                    "size",
+                    "size() const : qulonglong",
+                    "size"
+                ],
+                [
+                    "usage",
+                    "usage() const : Solid::StorageVolume::UsageType",
+                    "usage"
+                ],
+                [
+                    "uuid",
+                    "uuid() const : QString",
+                    "uuid"
+                ]
+            ],
+            "name": "Solid::StorageVolume",
+            "page": "solid/solid-storagevolume",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "solid",
+    "sections": [
+        {
+            "description": "Hardware Abstraction Framework.",
+            "page": "solid/solid-module",
+            "pages": [
+                [
+                    "solid/solid-module",
+                    "Solid C++ Classes"
+                ],
+                [
+                    "solid/solid-battery",
+                    "Solid::Battery"
+                ],
+                [
+                    "solid/solid-block",
+                    "Solid::Block"
+                ],
+                [
+                    "solid/solid-camera",
+                    "Solid::Camera"
+                ],
+                [
+                    "solid/solid-device",
+                    "Solid::Device"
+                ],
+                [
+                    "solid/solid-deviceinterface",
+                    "Solid::DeviceInterface"
+                ],
+                [
+                    "solid/solid-devicenotifier",
+                    "Solid::DeviceNotifier"
+                ],
+                [
+                    "solid/solid-genericinterface",
+                    "Solid::GenericInterface"
+                ],
+                [
+                    "solid/solid-networkshare",
+                    "Solid::NetworkShare"
+                ],
+                [
+                    "solid/solid-opticaldisc",
+                    "Solid::OpticalDisc"
+                ],
+                [
+                    "solid/solid-opticaldrive",
+                    "Solid::OpticalDrive"
+                ],
+                [
+                    "solid/solid-portablemediaplayer",
+                    "Solid::PortableMediaPlayer"
+                ],
+                [
+                    "solid/solid-predicate",
+                    "Solid::Predicate"
+                ],
+                [
+                    "solid/solid-processor",
+                    "Solid::Processor"
+                ],
+                [
+                    "solid/solid-storageaccess",
+                    "Solid::StorageAccess"
+                ],
+                [
+                    "solid/solid-storagedrive",
+                    "Solid::StorageDrive"
+                ],
+                [
+                    "solid/solid-storagevolume",
+                    "Solid::StorageVolume"
+                ],
+                [
+                    "solid/solid",
+                    "Solid Namespace"
+                ],
+                [
+                    "solid/solid-index",
+                    "Solid"
+                ]
+            ],
+            "qml": false,
+            "title": "Solid C++ Classes"
+        }
+    ]
+}

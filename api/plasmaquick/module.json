@@ -1,0 +1,574 @@
+{
+    "classes": [
+        {
+            "bases": [
+                "plasmaquick/plasmaquick-popupplasmawindow"
+            ],
+            "members": [
+                [
+                    "appletInterface",
+                    "appletInterface : QQuickItem*",
+                    "appletInterface-prop"
+                ],
+                [
+                    "hideOnWindowDeactivate",
+                    "hideOnWindowDeactivate : bool",
+                    "hideOnWindowDeactivate-prop"
+                ]
+            ],
+            "name": "PlasmaQuick::AppletPopup",
+            "page": "plasmaquick/plasmaquick-appletpopup",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "categories",
+                    "categories : const QQmlListProperty<PlasmaQuick::ConfigCategory>",
+                    "categories-prop"
+                ],
+                [
+                    "count",
+                    "count : int",
+                    "count-prop"
+                ],
+                [
+                    "ConfigModel",
+                    "ConfigModel(QObject *)",
+                    "ConfigModel"
+                ],
+                [
+                    "appendCategory",
+                    "appendCategory(PlasmaQuick::ConfigCategory *)",
+                    "appendCategory"
+                ],
+                [
+                    "appendCategory",
+                    "appendCategory(const QString &, const QString &, const QString &, const QString &)",
+                    "appendCategory-1"
+                ],
+                [
+                    "appendCategory",
+                    "appendCategory(const QString &, const QString &, const QString &, const QString &, bool)",
+                    "appendCategory-2"
+                ],
+                [
+                    "applet",
+                    "applet() const : Plasma::Applet *",
+                    "applet"
+                ],
+                [
+                    "categories",
+                    "categories() : QQmlListProperty<PlasmaQuick::ConfigCategory>",
+                    "categories"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "count",
+                    "count() : int",
+                    "count"
+                ],
+                [
+                    "countChanged",
+                    "countChanged()",
+                    "countChanged"
+                ],
+                [
+                    "get",
+                    "get(int) const : QVariant",
+                    "get"
+                ],
+                [
+                    "removeCategory",
+                    "removeCategory(PlasmaQuick::ConfigCategory *)",
+                    "removeCategory"
+                ],
+                [
+                    "removeCategoryAt",
+                    "removeCategoryAt(int)",
+                    "removeCategoryAt"
+                ],
+                [
+                    "setApplet",
+                    "setApplet(Plasma::Applet *)",
+                    "setApplet"
+                ]
+            ],
+            "name": "PlasmaQuick::ConfigModel",
+            "page": "plasmaquick/plasmaquick-configmodel",
+            "qtBases": [
+                [
+                    "QAbstractListModel",
+                    "https://doc.qt.io/qt-6/qabstractlistmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "appletInterface",
+                    "appletInterface : QQuickItem*",
+                    "appletInterface-prop"
+                ],
+                [
+                    "backgroundHints",
+                    "backgroundHints : BackgroundHints",
+                    "backgroundHints-prop"
+                ],
+                [
+                    "flags",
+                    "flags : Qt::WindowFlags",
+                    "flags-prop"
+                ],
+                [
+                    "floating",
+                    "floating : int",
+                    "floating-prop"
+                ],
+                [
+                    "hideOnWindowDeactivate",
+                    "hideOnWindowDeactivate : bool",
+                    "hideOnWindowDeactivate-prop"
+                ],
+                [
+                    "inset",
+                    "inset : QObject* const",
+                    "inset-prop"
+                ],
+                [
+                    "location",
+                    "location : Plasma::Types::Location",
+                    "location-prop"
+                ],
+                [
+                    "mainItem",
+                    "mainItem : QQuickItem*",
+                    "mainItem-prop"
+                ],
+                [
+                    "margins",
+                    "margins : QObject* const",
+                    "margins-prop"
+                ],
+                [
+                    "outputOnly",
+                    "outputOnly : bool",
+                    "outputOnly-prop"
+                ],
+                [
+                    "type",
+                    "type : WindowType",
+                    "type-prop"
+                ],
+                [
+                    "visible",
+                    "visible : bool",
+                    "visible-prop"
+                ],
+                [
+                    "visualParent",
+                    "visualParent : QQuickItem*",
+                    "visualParent-prop"
+                ],
+                [
+                    "adjustGeometry",
+                    "adjustGeometry(const QRect &)",
+                    "adjustGeometry"
+                ],
+                [
+                    "popupPosition",
+                    "popupPosition(QQuickItem *, const QSize &) : QPoint",
+                    "popupPosition"
+                ],
+                [
+                    "windowDeactivated",
+                    "windowDeactivated()",
+                    "windowDeactivated"
+                ]
+            ],
+            "name": "PlasmaQuick::Dialog",
+            "page": "plasmaquick/plasmaquick-dialog",
+            "qtBases": [
+                [
+                    "QQuickWindow",
+                    "https://doc.qt.io/qt-6/qquickwindow-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "EdgeEventForwarder",
+                    "EdgeEventForwarder(QWindow *)",
+                    "EdgeEventForwarder"
+                ],
+                [
+                    "setActiveEdges",
+                    "setActiveEdges(Qt::Edges)",
+                    "setActiveEdges"
+                ],
+                [
+                    "setMargins",
+                    "setMargins(const QMargins &)",
+                    "setMargins"
+                ]
+            ],
+            "name": "PlasmaQuick::EdgeEventForwarder",
+            "page": "plasmaquick/plasmaquick-edgeeventforwarder",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "backgroundHints",
+                    "backgroundHints : BackgroundHints",
+                    "backgroundHints-prop"
+                ],
+                [
+                    "borders",
+                    "borders : Qt::Edges",
+                    "borders-prop"
+                ],
+                [
+                    "bottomPadding",
+                    "bottomPadding : qreal",
+                    "bottomPadding-prop"
+                ],
+                [
+                    "leftPadding",
+                    "leftPadding : qreal",
+                    "leftPadding-prop"
+                ],
+                [
+                    "mainItem",
+                    "mainItem : QQuickItem*",
+                    "mainItem-prop"
+                ],
+                [
+                    "rightPadding",
+                    "rightPadding : qreal",
+                    "rightPadding-prop"
+                ],
+                [
+                    "topPadding",
+                    "topPadding : qreal",
+                    "topPadding-prop"
+                ],
+                [
+                    "padding",
+                    "padding() const : QMargins",
+                    "padding"
+                ],
+                [
+                    "setBorders",
+                    "setBorders(Qt::Edges)",
+                    "setBorders"
+                ],
+                [
+                    "setMainItem",
+                    "setMainItem(QQuickItem *)",
+                    "setMainItem"
+                ]
+            ],
+            "name": "PlasmaQuick::PlasmaWindow",
+            "page": "plasmaquick/plasmaquick-plasmawindow",
+            "qtBases": [
+                [
+                    "QQuickWindow",
+                    "https://doc.qt.io/qt-6/qquickwindow-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "plasmaquick/plasmaquick-plasmawindow"
+            ],
+            "members": [
+                [
+                    "animated",
+                    "animated : bool",
+                    "animated-prop"
+                ],
+                [
+                    "effectivePopupDirection",
+                    "effectivePopupDirection : Qt::Edge",
+                    "effectivePopupDirection-prop"
+                ],
+                [
+                    "floating",
+                    "floating : bool",
+                    "floating-prop"
+                ],
+                [
+                    "margin",
+                    "margin : int",
+                    "margin-prop"
+                ],
+                [
+                    "popupDirection",
+                    "popupDirection : Qt::Edge",
+                    "popupDirection-prop"
+                ],
+                [
+                    "removeBorderStrategy",
+                    "removeBorderStrategy : RemoveBorders",
+                    "removeBorderStrategy-prop"
+                ],
+                [
+                    "visualParent",
+                    "visualParent : QQuickItem*",
+                    "visualParent-prop"
+                ],
+                [
+                    "PopupPlasmaWindow",
+                    "PopupPlasmaWindow(const QString &)",
+                    "PopupPlasmaWindow"
+                ]
+            ],
+            "name": "PlasmaQuick::PopupPlasmaWindow",
+            "page": "plasmaquick/plasmaquick-popupplasmawindow",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "setTranslationDomain",
+                    "setTranslationDomain(const QString &)",
+                    "setTranslationDomain"
+                ],
+                [
+                    "translationDomain",
+                    "translationDomain() const : QString",
+                    "translationDomain"
+                ]
+            ],
+            "name": "PlasmaQuick::QuickViewSharedEngine",
+            "page": "plasmaquick/plasmaquick-quickviewsharedengine",
+            "qtBases": [
+                [
+                    "QQuickWindow",
+                    "https://doc.qt.io/qt-6/qquickwindow-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "SharedQmlEngine",
+                    "SharedQmlEngine(QObject *)",
+                    "SharedQmlEngine"
+                ],
+                [
+                    "completeInitialization",
+                    "completeInitialization(const QVariantHash &)",
+                    "completeInitialization"
+                ],
+                [
+                    "createObjectFromComponent",
+                    "createObjectFromComponent(QQmlComponent *, QQmlContext *, const QVariantHash &) : QObject *",
+                    "createObjectFromComponent"
+                ],
+                [
+                    "createObjectFromSource",
+                    "createObjectFromSource(const QUrl &, QQmlContext *, const QVariantHash &) : QObject *",
+                    "createObjectFromSource"
+                ],
+                [
+                    "engine",
+                    "engine() : std::shared_ptr<QQmlEngine>",
+                    "engine"
+                ],
+                [
+                    "finished",
+                    "finished()",
+                    "finished"
+                ],
+                [
+                    "isInitializationDelayed",
+                    "isInitializationDelayed() const : bool",
+                    "isInitializationDelayed"
+                ],
+                [
+                    "mainComponent",
+                    "mainComponent() const : QQmlComponent *",
+                    "mainComponent"
+                ],
+                [
+                    "rootContext",
+                    "rootContext() const : QQmlContext *",
+                    "rootContext"
+                ],
+                [
+                    "rootObject",
+                    "rootObject() const : QObject *",
+                    "rootObject"
+                ],
+                [
+                    "setInitializationDelayed",
+                    "setInitializationDelayed(const bool)",
+                    "setInitializationDelayed"
+                ],
+                [
+                    "setSource",
+                    "setSource(const QUrl &)",
+                    "setSource"
+                ],
+                [
+                    "setSourceFromModule",
+                    "setSourceFromModule(QAnyStringView, QAnyStringView)",
+                    "setSourceFromModule"
+                ],
+                [
+                    "setTranslationDomain",
+                    "setTranslationDomain(const QString &)",
+                    "setTranslationDomain"
+                ],
+                [
+                    "source",
+                    "source() const : QUrl",
+                    "source"
+                ],
+                [
+                    "status",
+                    "status() const : QQmlComponent::Status",
+                    "status"
+                ],
+                [
+                    "translationDomain",
+                    "translationDomain() const : QString",
+                    "translationDomain"
+                ]
+            ],
+            "name": "PlasmaQuick::SharedQmlEngine",
+            "page": "plasmaquick/plasmaquick-sharedqmlengine",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "plasmaquick",
+    "sections": [
+        {
+            "description": "Plasma.",
+            "page": "plasmaquick/plasmaquick-module",
+            "pages": [
+                [
+                    "plasmaquick/plasmaquick-module",
+                    "Plasma Quick C++ Classes"
+                ],
+                [
+                    "plasmaquick/plasmaquick-appletpopup",
+                    "PlasmaQuick::AppletPopup"
+                ],
+                [
+                    "plasmaquick/plasmaquick-configmodel",
+                    "PlasmaQuick::ConfigModel"
+                ],
+                [
+                    "plasmaquick/plasmaquick-dialog",
+                    "PlasmaQuick::Dialog"
+                ],
+                [
+                    "plasmaquick/plasmaquick-edgeeventforwarder",
+                    "PlasmaQuick::EdgeEventForwarder"
+                ],
+                [
+                    "plasmaquick/plasmaquick-plasmawindow",
+                    "PlasmaQuick::PlasmaWindow"
+                ],
+                [
+                    "plasmaquick/plasmaquick-popupplasmawindow",
+                    "PlasmaQuick::PopupPlasmaWindow"
+                ],
+                [
+                    "plasmaquick/plasmaquick-quickviewsharedengine",
+                    "PlasmaQuick::QuickViewSharedEngine"
+                ],
+                [
+                    "plasmaquick/plasmaquick-sharedqmlengine",
+                    "PlasmaQuick::SharedQmlEngine"
+                ],
+                [
+                    "plasmaquick/org-kde-plasma-plasmoid-qmlmodule",
+                    "Plasmoid QML Types"
+                ],
+                [
+                    "plasmaquick/plasmaquick-sub-plasmaquick",
+                    "PlasmaQuick Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "Plasma Quick C++ Classes"
+        },
+        {
+            "description": "Plasma Stuff.",
+            "page": "plasmaquick/org-kde-plasma-configuration-qmlmodule",
+            "pages": [
+                [
+                    "plasmaquick/org-kde-plasma-configuration-qmlmodule",
+                    "Plasmoid Configuration QML Types"
+                ],
+                [
+                    "plasmaquick/qml-org-kde-plasma-configuration-configcategory",
+                    "ConfigCategory"
+                ],
+                [
+                    "plasmaquick/qml-org-kde-plasma-configuration-configmodel",
+                    "ConfigModel"
+                ],
+                [
+                    "plasmaquick/qml-org-kde-plasma-plasmoid-containment",
+                    "Containment"
+                ],
+                [
+                    "plasmaquick/qml-org-kde-plasma-plasmoid-containmentitem",
+                    "ContainmentItem"
+                ],
+                [
+                    "plasmaquick/qml-org-kde-plasma-plasmoid-plasmoid",
+                    "Plasmoid"
+                ],
+                [
+                    "plasmaquick/qml-org-kde-plasma-plasmoid-plasmoiditem",
+                    "PlasmoidItem"
+                ],
+                [
+                    "plasmaquick/qml-org-kde-plasma-plasmoid-wallpaperitem",
+                    "WallpaperItem"
+                ],
+                [
+                    "plasmaquick/qml-types",
+                    "Types"
+                ]
+            ],
+            "qml": true,
+            "title": "Plasmoid Configuration QML Types"
+        }
+    ]
+}

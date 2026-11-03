@@ -1,0 +1,39 @@
+{
+    "classes": [
+    ],
+    "module": "kitemmodelsqml",
+    "sections": [
+        {
+            "description": "Models for Qt Model/View system.",
+            "page": "kitemmodelsqml/org-kde-kitemmodels-qmlmodule",
+            "pages": [
+                [
+                    "kitemmodelsqml/org-kde-kitemmodels-qmlmodule",
+                    "KItemModels QML Types"
+                ],
+                [
+                    "kitemmodelsqml/qml-org-kde-kitemmodels-kcolumnheadersmodel",
+                    "KColumnHeadersModel"
+                ],
+                [
+                    "kitemmodelsqml/qml-org-kde-kitemmodels-kdescendantsproxymodel",
+                    "KDescendantsProxyModel"
+                ],
+                [
+                    "kitemmodelsqml/qml-org-kde-kitemmodels-knumbermodel",
+                    "KNumberModel"
+                ],
+                [
+                    "kitemmodelsqml/qml-org-kde-kitemmodels-krolenames",
+                    "KRoleNames"
+                ],
+                [
+                    "kitemmodelsqml/qml-org-kde-kitemmodels-ksortfilterproxymodel",
+                    "KSortFilterProxyModel"
+                ]
+            ],
+            "qml": true,
+            "title": "KItemModels QML Types"
+        }
+    ]
+}

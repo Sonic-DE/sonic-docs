@@ -1,0 +1,454 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KLazyLocalizedString",
+                    "KLazyLocalizedString()",
+                    "KLazyLocalizedString"
+                ],
+                [
+                    "ignoreMarkup",
+                    "ignoreMarkup() const : KLocalizedString",
+                    "ignoreMarkup"
+                ],
+                [
+                    "inContext",
+                    "inContext(const QString &, const QString &) const : KLocalizedString",
+                    "inContext"
+                ],
+                [
+                    "isEmpty",
+                    "isEmpty() const : bool",
+                    "isEmpty"
+                ],
+                [
+                    "relaxSubs",
+                    "relaxSubs() const : KLocalizedString",
+                    "relaxSubs"
+                ],
+                [
+                    "subs",
+                    "subs(QChar, int, QChar) const : KLocalizedString",
+                    "subs"
+                ],
+                [
+                    "subs",
+                    "subs(const KLocalizedString &, int, QChar) const : KLocalizedString",
+                    "subs-1"
+                ],
+                [
+                    "subs",
+                    "subs(const QString &, int, QChar) const : KLocalizedString",
+                    "subs-2"
+                ],
+                [
+                    "subs",
+                    "subs(int, int, int, QChar) const : KLocalizedString",
+                    "subs-3"
+                ],
+                [
+                    "subs",
+                    "subs(long, int, int, QChar) const : KLocalizedString",
+                    "subs-4"
+                ],
+                [
+                    "subs",
+                    "subs(qlonglong, int, int, QChar) const : KLocalizedString",
+                    "subs-5"
+                ],
+                [
+                    "subs",
+                    "subs(qulonglong, int, int, QChar) const : KLocalizedString",
+                    "subs-6"
+                ],
+                [
+                    "subs",
+                    "subs(uint, int, int, QChar) const : KLocalizedString",
+                    "subs-7"
+                ],
+                [
+                    "subs",
+                    "subs(ulong, int, int, QChar) const : KLocalizedString",
+                    "subs-8"
+                ],
+                [
+                    "subs",
+                    "subs(double, int, char, int, QChar) const : KLocalizedString",
+                    "subs-9"
+                ],
+                [
+                    "toString",
+                    "toString() const : QString",
+                    "toString"
+                ],
+                [
+                    "toString",
+                    "toString(Kuit::VisualFormat) const : QString",
+                    "toString-1"
+                ],
+                [
+                    "toString",
+                    "toString(const QStringList &) const : QString",
+                    "toString-2"
+                ],
+                [
+                    "toString",
+                    "toString(const char *) const : QString",
+                    "toString-3"
+                ],
+                [
+                    "untranslatedText",
+                    "untranslatedText() const : const char *",
+                    "untranslatedText"
+                ],
+                [
+                    "withDomain",
+                    "withDomain(const char *) const : KLocalizedString",
+                    "withDomain"
+                ],
+                [
+                    "withFormat",
+                    "withFormat(Kuit::VisualFormat) const : KLocalizedString",
+                    "withFormat"
+                ],
+                [
+                    "withLanguages",
+                    "withLanguages(const QStringList &) const : KLocalizedString",
+                    "withLanguages"
+                ],
+                [
+                    "operator KLocalizedString",
+                    "operator KLocalizedString() const",
+                    "operator-KLocalizedString"
+                ]
+            ],
+            "name": "KLazyLocalizedString",
+            "page": "ki18n/klazylocalizedstring",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "translationDomain",
+                    "translationDomain : QString",
+                    "translationDomain-prop"
+                ],
+                [
+                    "KLocalizedContext",
+                    "KLocalizedContext(QObject *)",
+                    "KLocalizedContext"
+                ],
+                [
+                    "setTranslationDomain",
+                    "setTranslationDomain(const QString &)",
+                    "setTranslationDomain"
+                ],
+                [
+                    "translationDomain",
+                    "translationDomain() const : QString",
+                    "translationDomain"
+                ]
+            ],
+            "name": "KLocalizedContext",
+            "page": "ki18n/klocalizedcontext",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KLocalizedString",
+                    "KLocalizedString()",
+                    "KLocalizedString"
+                ],
+                [
+                    "addDomainLocaleDir",
+                    "addDomainLocaleDir(const QByteArray &, const QString &)",
+                    "addDomainLocaleDir"
+                ],
+                [
+                    "applicationDomain",
+                    "applicationDomain() : QByteArray",
+                    "applicationDomain"
+                ],
+                [
+                    "availableApplicationTranslations",
+                    "availableApplicationTranslations() : QSet<QString>",
+                    "availableApplicationTranslations"
+                ],
+                [
+                    "availableDomainTranslations",
+                    "availableDomainTranslations(const QByteArray &) : QSet<QString>",
+                    "availableDomainTranslations"
+                ],
+                [
+                    "clearLanguages",
+                    "clearLanguages()",
+                    "clearLanguages"
+                ],
+                [
+                    "ignoreMarkup",
+                    "ignoreMarkup() const : KLocalizedString",
+                    "ignoreMarkup"
+                ],
+                [
+                    "inContext",
+                    "inContext(const QString &, const QString &) const : KLocalizedString",
+                    "inContext"
+                ],
+                [
+                    "isApplicationTranslatedInto",
+                    "isApplicationTranslatedInto(const QString &) : bool",
+                    "isApplicationTranslatedInto"
+                ],
+                [
+                    "isEmpty",
+                    "isEmpty() const : bool",
+                    "isEmpty"
+                ],
+                [
+                    "languages",
+                    "languages() : QStringList",
+                    "languages"
+                ],
+                [
+                    "localizedFilePath",
+                    "localizedFilePath(const QString &) : QString",
+                    "localizedFilePath"
+                ],
+                [
+                    "relaxSubs",
+                    "relaxSubs() const : KLocalizedString",
+                    "relaxSubs"
+                ],
+                [
+                    "removeAcceleratorMarker",
+                    "removeAcceleratorMarker(const QString &) : QString",
+                    "removeAcceleratorMarker"
+                ],
+                [
+                    "setApplicationDomain",
+                    "setApplicationDomain(const QByteArray &)",
+                    "setApplicationDomain"
+                ],
+                [
+                    "setLanguages",
+                    "setLanguages(const QStringList &)",
+                    "setLanguages"
+                ],
+                [
+                    "subs",
+                    "subs(QChar, int, QChar) const : KLocalizedString",
+                    "subs"
+                ],
+                [
+                    "subs",
+                    "subs(const KLocalizedString &, int, QChar) const : KLocalizedString",
+                    "subs-1"
+                ],
+                [
+                    "subs",
+                    "subs(const QString &, int, QChar) const : KLocalizedString",
+                    "subs-2"
+                ],
+                [
+                    "subs",
+                    "subs(int, int, int, QChar) const : KLocalizedString",
+                    "subs-3"
+                ],
+                [
+                    "subs",
+                    "subs(long, int, int, QChar) const : KLocalizedString",
+                    "subs-4"
+                ],
+                [
+                    "subs",
+                    "subs(qlonglong, int, int, QChar) const : KLocalizedString",
+                    "subs-5"
+                ],
+                [
+                    "subs",
+                    "subs(qulonglong, int, int, QChar) const : KLocalizedString",
+                    "subs-6"
+                ],
+                [
+                    "subs",
+                    "subs(uint, int, int, QChar) const : KLocalizedString",
+                    "subs-7"
+                ],
+                [
+                    "subs",
+                    "subs(ulong, int, int, QChar) const : KLocalizedString",
+                    "subs-8"
+                ],
+                [
+                    "subs",
+                    "subs(double, int, char, int, QChar) const : KLocalizedString",
+                    "subs-9"
+                ],
+                [
+                    "toString",
+                    "toString() const : QString",
+                    "toString"
+                ],
+                [
+                    "toString",
+                    "toString(Kuit::VisualFormat) const : QString",
+                    "toString-1"
+                ],
+                [
+                    "toString",
+                    "toString(const QStringList &) const : QString",
+                    "toString-2"
+                ],
+                [
+                    "toString",
+                    "toString(const char *) const : QString",
+                    "toString-3"
+                ],
+                [
+                    "untranslatedText",
+                    "untranslatedText() const : QByteArray",
+                    "untranslatedText"
+                ],
+                [
+                    "withDomain",
+                    "withDomain(const char *) const : KLocalizedString",
+                    "withDomain"
+                ],
+                [
+                    "withFormat",
+                    "withFormat(Kuit::VisualFormat) const : KLocalizedString",
+                    "withFormat"
+                ],
+                [
+                    "withLanguages",
+                    "withLanguages(const QStringList &) const : KLocalizedString",
+                    "withLanguages"
+                ]
+            ],
+            "name": "KLocalizedString",
+            "page": "ki18n/klocalizedstring",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KLocalizedTranslator",
+                    "KLocalizedTranslator(QObject *)",
+                    "KLocalizedTranslator"
+                ],
+                [
+                    "addContextToMonitor",
+                    "addContextToMonitor(const QString &)",
+                    "addContextToMonitor"
+                ],
+                [
+                    "removeContextToMonitor",
+                    "removeContextToMonitor(const QString &)",
+                    "removeContextToMonitor"
+                ],
+                [
+                    "setTranslationDomain",
+                    "setTranslationDomain(const QString &)",
+                    "setTranslationDomain"
+                ]
+            ],
+            "name": "KLocalizedTranslator",
+            "page": "ki18n/klocalizedtranslator",
+            "qtBases": [
+                [
+                    "QTranslator",
+                    "https://doc.qt.io/qt-6/qtranslator-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "setFormatForMarker",
+                    "setFormatForMarker(const QString &, Kuit::VisualFormat)",
+                    "setFormatForMarker"
+                ],
+                [
+                    "setTagClass",
+                    "setTagClass(const QString &, Kuit::TagClass)",
+                    "setTagClass"
+                ],
+                [
+                    "setTagPattern",
+                    "setTagPattern(const QString &, const QStringList &, Kuit::VisualFormat, const KLocalizedString &, Kuit::TagFormatter, int)",
+                    "setTagPattern"
+                ]
+            ],
+            "name": "KuitSetup",
+            "page": "ki18n/kuitsetup",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "ki18n",
+    "sections": [
+        {
+            "description": "Advanced internationalization framework.",
+            "page": "ki18n/ki18n-module",
+            "pages": [
+                [
+                    "ki18n/ki18n-module",
+                    "KI18n C++ Classes"
+                ],
+                [
+                    "ki18n/klazylocalizedstring",
+                    "KLazyLocalizedString"
+                ],
+                [
+                    "ki18n/klocalizedcontext",
+                    "KLocalizedContext"
+                ],
+                [
+                    "ki18n/klocalizedstring",
+                    "KLocalizedString"
+                ],
+                [
+                    "ki18n/klocalizedtranslator",
+                    "KLocalizedTranslator"
+                ],
+                [
+                    "ki18n/kuitsetup",
+                    "KuitSetup"
+                ],
+                [
+                    "ki18n/ki18n-index",
+                    "KI18n"
+                ],
+                [
+                    "ki18n/klocalization",
+                    "KLocalization Namespace"
+                ],
+                [
+                    "ki18n/kuit",
+                    "Kuit Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KI18n C++ Classes"
+        }
+    ]
+}

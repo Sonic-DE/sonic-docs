@@ -9,10 +9,139 @@ Reference documentation for the SonicDE libraries, generated from their source c
 
 ## C++ Modules {#modules}
 
+- [Attica C++ Classes](attica/attica-module.md): Open Collaboration Service client library.
+- [Baloo C++ Classes](baloo/baloo-module.md): File indexing.
+- [BluezQt C++ Classes](bluezqt/bluezqt-module.md): Qt wrapper for BlueZ 5 DBus API.
+- [CalendarEvents C++ Classes](calendarevents/calendarevents-module.md): Plugin System for Calendar Events.
+- [KArchive C++ Classes](karchive/karchive-module.md): Reading, creating, and manipulating file archives.
+- [KAuth C++ Classes](kauth/kauth-module.md): Execute actions as privileged user.
+- [KBookmarks C++ Classes](kbookmarks/kbookmarks-module.md): Bookmarks management library.
+- [KBookmarksWidgets C++ Classes](kbookmarkswidgets/kbookmarkswidgets-module.md): Widgets for Bookmark Handling.
+- [KCMUtils C++ Classes](kcmutils/kcmutils-module.md): KCMUtils provides various classes to work with KCModules.
+- [KCMUtils Core C++ Classes](kcmutilscore/kcmutilscore-module.md): Utilities for KDE System Settings modules.
+- [KCMUtils Quick C++ Classes](kcmutilsquick/kcmutilsquick-module.md): Utilities for KDE System Settings modules.
+- [KCodecs C++ Classes](kcodecs/kcodecs-module.md): Text encoding.
+- [KColorScheme C++ Classes](kcolorscheme/kcolorscheme-module.md): Classes to interact with KColorScheme.
+- [KCompletion C++ Classes](kcompletion/kcompletion-module.md): Text completion helpers and widgets.
 - [KConfigCore C++ Classes](kconfigcore/kconfigcore-module.md): Persistent platform-independent application settings.
 - [KConfigGui C++ Classes](kconfiggui/kconfiggui-module.md): Persistent platform-independent application settings.
 - [KConfigQml C++ Classes](kconfigqml/kconfigqml-module.md): Persistent platform-independent application settings.
+- [KConfigWidgets C++ Classes](kconfigwidgets/kconfigwidgets-module.md): Widgets for configuration dialogs.
+- [KCoreAddons C++ Classes](kcoreaddons/kcoreaddons-module.md): Provides core non-GUI functionality.
+- [KCrash C++ Classes](kcrash/kcrash-module.md): Crash handling.
+- [KDBusAddons C++ Classes](kdbusaddons/kdbusaddons-module.md): KDBusAddons provides convenience classes on top of QtDBus, as well as an API to create KDED modules.
+- [KDESu C++ Classes](kdesu/kdesu-module.md): User interface for running shell commands with root privileges.
+- [KDNSSD C++ Classes](kdnssd/kdnssd-module.md): Interface to system-level multicast DNS service discovery.
+- [KDocTools C++ Classes](kdoctools/kdoctools-module.md): Create documentation from DocBook.
+- [KExiv2 C++ Classes](kexiv2/kexiv2-module.md): Todo.
+- [KFileMetaData C++ Classes](kfilemetadata/kfilemetadata-module.md): Library for extracting the text and metadata from a number of different files.
+- [KGlobalAccel C++ Classes](kglobalaccel/kglobalaccel-module.md): KGlobalAccel provides a convenient way to handle global shortcuts.
+- [KGuiAddons C++ Classes](kguiaddons/kguiaddons-module.md): Addons to QtGui.
+- [KHolidays C++ Classes](kholidays/kholidays-module.md): Dates for holidays and other special events.
+- [KI18n C++ Classes](ki18n/ki18n-module.md): Advanced internationalization framework.
+- [KI18nLocaleData C++ Classes](ki18nlocaledata/ki18nlocaledata-module.md): Access to data about countries and timezones.
+- [KI18nQml C++ Classes](ki18nqml/ki18nqml-module.md): Advanced internationalization framework.
+- [KIconThemes C++ Classes](kiconthemes/kiconthemes-module.md): Icon GUI utilities.
+- [KIconWidgets C++ Classes](kiconwidgets/kiconwidgets-module.md): Icon GUI utilities.
+- [KIdleTime C++ Classes](kidletime/kidletime-module.md): Reporting of idle time of user and system.
+- [KIO Core C++ Classes](kiocore/kiocore-module.md): Resource and network access abstraction.
+- [KIO FileWidgets C++ Classes](kiofilewidgets/kiofilewidgets-module.md): Widgets for File Management.
+- [KIO Gui C++ Classes](kiogui/kiogui-module.md): GUI-related functionality for KIO.
+- [KIO Widgets C++ Classes](kiowidgets/kiowidgets-module.md): Network transparent access to files and data.
+- [kirigami](kirigami/kirigami-index.md)
+- [Kirigami Addons App C++ Classes](kirigamiapp/kirigamiapp-module.md): Helpers for setting up Kirigami applications.
+- [Kirigami Platform C++ Classes](kirigamiplatform/kirigamiplatform-module.md): Platform Integration Components.
+- [kirigamiaddonsactions](kirigamiaddonsactions/abstractkirigamiapplication.md)
+- [kirigamiaddonscomponents](kirigamiaddonscomponents/kirigami-addons-index.md)
+- [kirigamiaddonsonboarding](kirigamiaddonsonboarding/kirigamiaddonsonboarding-onboardingtutorial-cmakelists-txt.md)
+- [KItemModels C++ Classes](kitemmodels/kitemmodels-module.md): Models for Qt Model/View system.
+- [KItemViews C++ Classes](kitemviews/kitemviews-module.md): Set of item views extending the Qt model-view framework.
+- [KJobWidgets C++ Classes](kjobwidgets/kjobwidgets-module.md): Widgets for showing progress of asynchronous jobs.
+- [KNewStuff Core C++ Classes](knewstuffcore/knewstuffcore-module.md): Provides Stuff.
+- [KNewStuff Widgets C++ Classes](knewstuffwidgets/knewstuffwidgets-module.md): Widgets for KNewStuff.
+- [KNightTime C++ Classes](knighttime/knighttime-module.md): Helpers for scheduling the dark-light cycle.
+- [KNotifications C++ Classes](knotifications/knotifications-module.md): Cross-platform Notification Library.
+- [KNotifyConfig C++ Classes](knotifyconfig/knotifyconfig-module.md): KNotifyConfig provies a unified configuration dialog for desktop notifications.
+- [KPackage C++ Classes](kpackage/kpackage-module.md): Installation and loading of additional content (ex: scripts, images...) as packages.
+- [KParts C++ Classes](kparts/kparts-module.md): Plugin framework for user interface components.
+- [KPty C++ Classes](kpty/kpty-module.md): Interfacing with pseudo terminal devices.
+- [kquickcharts](kquickcharts/kquickcharts-index.md)
+- [kquickimageeditor](kquickimageeditor/selecteditemwrapper.md)
+- [KRunner C++ Classes](krunner/krunner-module.md): Framework for Plasma runners.
+- [KService C++ Classes](kservice/kservice-module.md): KService allows to query information about installed applications and their associated file types.
+- [KStatusNotifierItem C++ Classes](kstatusnotifieritem/kstatusnotifieritem-module.md): Components to make a tray icon available over D-Bus.
+- [KStyle C++ Classes](kstyle/kstyle-module.md): Integration of Qt application with KDE workspaces.
+- [KSvg C++ Classes](ksvg/ksvg-module.md): A library for rendering SVG-based themes with stylesheet re-coloring and on-disk caching.
+- [KSyntaxHighlighting C++ Classes](ksyntaxhighlighting/ksyntaxhighlighting-module.md): KSyntaxHighlighting is a stand-alone implementation of the Kate syntax highlighting engine.
+- [KTextEditor C++ Classes](ktexteditor/ktexteditor-module.md): KTextEditor is a full text editor component.
+- [KTextWidgets C++ Classes](ktextwidgets/ktextwidgets-module.md): KTextWidgets is a collection of text editing widgets.
+- [KUnitConversion C++ Classes](kunitconversion/kunitconversion-module.md): Convert values in different physical units.
+- [KUserFeedbackCore C++ Classes](kuserfeedbackcore/kuserfeedbackcore-module.md): Framework for collecting feedback from application users via telemetry and targeted surveys.
+- [KUserFeedbackWidgets C++ Classes](kuserfeedbackwidgets/kuserfeedbackwidgets-module.md): Framework for collecting feedback from application users via telemetry and targeted surveys..
+- [KWallet C++ Classes](kwallet/kwallet-module.md): Secrets Storage.
+- [KWidgetsAddons C++ Classes](kwidgetsaddons/kwidgetsaddons-module.md): Large set of desktop widgets.
+- [KWindowSystem C++ Classes](kwindowsystem/kwindowsystem-module.md): Access to the windowing system.
+- [KXmlGui C++ Classes](kxmlgui/kxmlgui-module.md): KXmlGui is a collection of convenience classes and widgets to manage your own main QtWidgets window.
+- [ModemManagerQt C++ Classes](modemmanager-qt/modemmanagerqt-module.md): ModemManagerQt provides access to all ModemManager features exposed on DBus. It allows you to manage modem devices and access to information available for your modem devices, like signal, location and messages.
+- [NetworkManagerQt C++ Classes](networkmanager-qt/networkmanagerqt-module.md): Qt wrapper for NetworkManager API.
+- [Plasma Activities C++ Classes](plasmaactivities/plasmaactivities-module.md): Library for interacting with Plasma Activities.
+- [Plasma C++ Classes](plasma/plasma-module.md): Plasma.
+- [Plasma Quick C++ Classes](plasmaquick/plasmaquick-module.md): Plasma.
+- [plasmacore](plasmacore/tooltipdialog.md)
+- [plasmaextras](plasmaextras/qmenuproxy.md)
+- [Prison C++ Classes](prison/prison-module.md): Barcode Rendering.
+- [Prison Scanner C++ Classes](prisonscanner/prisonscanner-module.md): Barcode Scanning.
+- [Purpose C++ Classes](purpose/purpose-module.md): Framework for providing abstractions to get the developer's purposes fulfilled.
+- [PurposeWidgets C++ Classes](purposewidgets/purposewidgets-module.md): Framework for providing abstractions to get the developer's purposes fulfilled.
+- [Solid C++ Classes](solid/solid-module.md): Hardware Abstraction Framework.
+- [Sonnet Core C++ Classes](sonnetcore/sonnetcore-module.md): Sonnet is a plugin-based spell checking library for Qt-based applications.
+- [Sonnet Ui C++ Classes](sonnetui/sonnetui-module.md): SonnetUi is a plugin-based spell checking library for Qt-based applications.
+- [Syndication C++ Classes](syndication/syndication-module.md): RSS/Atom parser library.
 
 ## QML Modules {#qml-modules}
 
+- [DragAndDrop QML Types](draganddrop/org-kde-draganddrop-qmlmodule.md): QML helpers for Drag and Drop.
+- [GraphicalEffects QML Types](graphicaleffects/org-kde-graphicaleffects-qmlmodule.md): Graphical Effects.
+- [KCMUtils QML Types](kcmutils/org-kde-kcmutils-qmlmodule.md): QML types for creating config modules.
+- [KCMUtils QML Types](kcmutilsqml/org-kde-kcmutils-qmlmodule.md): QML types for creating config modules.
 - [KConfig QML Types](kconfigqml/org-kde-config-qmlmodule.md): Persistent platform-independent application settings.
+- [KCoreAddons QML Types](kcoreaddonsqml/org-kde-coreaddons-qmlmodule.md): Additions to Qt Core.
+- [KGuiAddons QML Types](kguiaddons/org-kde-guiaddons-qmlmodule.md): Addons to QtGui.
+- [KHolidays QML Types](kholidays/org-kde-kholidays-qmlmodule.md): Dates for holidays and other special events.
+- [KI18nLocaleData QML Types](ki18nlocaledataqml/org-kde-i18n-localedata-qmlmodule.md): Access to data about countries and timezones.
+- [KI18nQml QML Types](ki18nqml/org-kde-ki18n-qmlmodule.md): Advanced internationalization framework.
+- [KIconThemes QML Types](kiconthemes/org-kde-iconthemes-qmlmodule.md): Icon GUI utilities.
+- [Kirigami Addons Actions (Labs) QML Types](kirigamiaddonsactionslabs/org-kde-kirigamiaddons-actions-labs-qmlmodule.md): Experimental native menu types for the Kirigami Addons actions module.
+- [Kirigami Addons Actions (Labs) QML Types](kirigamiaddonsactions/org-kde-kirigamiaddons-actions-labs-qmlmodule.md): Experimental native menu types for the Kirigami Addons actions module.
+- [Kirigami Addons Components QML Types](kirigamiaddonscomponents/org-kde-kirigamiaddons-components-qmlmodule.md): Reusable controls and visual components for Kirigami applications.
+- [Kirigami Addons DateAndTime QML Types](kirigamiaddonsdateandtime/org-kde-kirigamiaddons-dateandtime-qmlmodule.md): QML types for selecting dates and times.
+- [Kirigami Addons Delegates QML Types](kirigamiaddonsdelegates/org-kde-kirigamiaddons-delegates-qmlmodule.md): Delegates for lists and grids in Kirigami applications.
+- [Kirigami Addons FormCard QML Types](kirigamiaddonsformcard/org-kde-kirigamiaddons-formcard-qmlmodule.md): Form controls for settings pages and dialogs.
+- [Kirigami Addons Onboarding QML Types](kirigamiaddonsonboarding/org-kde-kirigamiaddons-onboarding-qmlmodule.md): Provides guided onboarding walkthroughs for Kirigami applications.
+- [Kirigami Addons Settings QML Types](kirigamiaddonssettings/org-kde-kirigamiaddons-settings-qmlmodule.md): Pages and navigation for application settings.
+- [Kirigami Addons Sounds QML Types](kirigamiaddonssounds/org-kde-kirigamiaddons-sounds-qmlmodule.md): QML types for listing and selecting notification sounds and ringtones.
+- [Kirigami Addons TableView QML Types](kirigamiaddonstableview/org-kde-kirigamiaddons-tableview-qmlmodule.md): QML types for creating table views.
+- [Kirigami Addons TreeView QML Types](kirigamiaddonstreeview/org-kde-kirigamiaddons-treeview-qmlmodule.md): QML types for creating treeviews.
+- [Kirigami Delegates QML Types](kirigami/org-kde-kirigami-delegates-qmlmodule.md): Kirigami Delegates.
+- [Kirigami Platform QML Types](kirigamiplatform/org-kde-kirigami-platform-qmlmodule.md): Platform Integration Components.
+- [KItemModels QML Types](kitemmodelsqml/org-kde-kitemmodels-qmlmodule.md): Models for Qt Model/View system.
+- [KNewStuff QML Types](knewstuffqml/org-kde-newstuff-qmlmodule.md): KNewStuff QML types.
+- [KNotifications QML Types](knotificationsqml/org-kde-notifications-qmlmodule.md): Cross-platform Notification Library.
+- [KQuickCharts Controls QML Types](kquickchartscontrols/org-kde-quickcharts-controls-qmlmodule.md): Chart stuff.
+- [KQuickCharts QML Types](kquickcharts/org-kde-quickcharts-qmlmodule.md): Chart stuff.
+- [KQuickControls QML Types](kquickcontrols/org-kde-kquickcontrols-qmlmodule.md): Extensions to Qt Quick Controls.
+- [KQuickControlsAddons QML Types](kquickcontrolsaddons/org-kde-kquickcontrols-addons-qmlmodule.md): Extensions to Qt Quick Controls.
+- [KQuickImageEditor QML Types](kquickimageeditor/org-kde-kquickimageeditor-qmlmodule.md): QML components providing basic image editing capabilities.
+- [KSvg QML Types](ksvgqml/org-kde-ksvg-qmlmodule.md): A QML module for rendering SVG-based themes with stylesheet re-coloring and on-disk caching.
+- [KSyntaxHighlighting QML Types](ksyntaxhighlightingqml/org-kde-syntaxhighlighting-qmlmodule.md): Syntax highlighting engine for Kate syntax definitions.
+- [KUserFeedback QML Types](kuserfeedbackqml/org-kde-userfeedback-qmlmodule.md): Framework for collecting feedback from application users via telemetry and targeted surveys.
+- [KWindowSystem QML Types](kwindowsystem/org-kde-kwindowsystem-qmlmodule.md): Access to the windowing system.
+- [Plasma Activities QML Types](plasmaactivitiesqml/org-kde-activities-qmlmodule.md): QML API for Plasma Activities.
+- [Plasma Components QML Types](plasmacomponents/org-kde-plasma-components-qmlmodule.md): Plasma Components Stuff.
+- [Plasma Core QML Types](plasmacore/org-kde-plasma-core-qmlmodule.md): Plasma Stuff.
+- [Plasma Extras QML Types](plasmaextras/org-kde-plasma-extras-qmlmodule.md): Plasma Extra Stuff.
+- [Plasmoid Configuration QML Types](plasmaquick/org-kde-plasma-configuration-qmlmodule.md): Plasma Stuff.
+- [Prison QML Types](prison/org-kde-prison-qmlmodule.md): Barcode Rendering.
+- [Prison Scanner QML Types](prisonscanner/org-kde-prison-scanner-qmlmodule.md): Barcode Scanning.
+- [Purpose QML Types](purposeqml/org-kde-purpose-qmlmodule.md): Framework for providing abstractions to get the developer's purposes fulfilled.
+- [Sonnet QML Types](sonnetquick/org-kde-sonnet-qmlmodule.md): Spell checking.

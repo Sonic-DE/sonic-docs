@@ -1,0 +1,65 @@
+---
+title: "List of All Members for KNSCore::Provider"
+description: "Every member of KNSCore::Provider, including inherited members."
+parent: "knewstuffcore/knscore-provider"
+---
+
+# List of All Members for KNSCore::Provider
+
+This is the complete list of members for [KNSCore::Provider](knscore-provider.md), including inherited members.
+
+- [Provider()](knscore-provider.md#Provider)
+- [basicsLoaded()](knscore-provider.md#basicsLoaded)
+- [becomeFan()](knscore-provider.md#becomeFan)
+- [categoriesMetadataLoded(const QList\<KNSCore::Provider::CategoryMetadata\> &)](knscore-provider.md#categoriesMetadataLoded)
+- [commentsLoaded(const QList\<std::shared\_ptr\<KNSCore::Comment\>\>)](knscore-provider.md#commentsLoaded)
+- [contactEmail : QString](knscore-provider.md#contactEmail-prop)
+- [contactEmail() const : QString](knscore-provider.md#contactEmail)
+- [downloadTagFilter() const : QStringList](knscore-provider.md#downloadTagFilter)
+- [downloadTagFilterChanged()](knscore-provider.md#downloadTagFilterChanged)
+- [entryDetailsLoaded()](knscore-provider.md#entryDetailsLoaded)
+- [host : QUrl](knscore-provider.md#host-prop)
+- [host() const : QUrl](knscore-provider.md#host)
+- [icon() const : QUrl](knscore-provider.md#icon)
+- [id() const : QString](knscore-provider.md#id)
+- [isInitialized() const : bool](knscore-provider.md#isInitialized)
+- [loadBasics()](knscore-provider.md#loadBasics)
+- [loadComments()](knscore-provider.md#loadComments)
+- [loadEntries(const KNSCore::Provider::SearchRequest &)](knscore-provider.md#loadEntries)
+- [loadEntryDetails()](knscore-provider.md#loadEntryDetails)
+- [loadingFailed()](knscore-provider.md#loadingFailed)
+- [loadingFinished()](knscore-provider.md#loadingFinished)
+- [loadPayloadLink(const KNSCore::Entry &, int)](knscore-provider.md#loadPayloadLink)
+- [loadPerson()](knscore-provider.md#loadPerson)
+- [name() const : QString](knscore-provider.md#name)
+- [payloadLinkLoaded()](knscore-provider.md#payloadLinkLoaded)
+- [personLoaded(const std::shared\_ptr\<KNSCore::Author\>)](knscore-provider.md#personLoaded)
+- [providerInitialized()](knscore-provider.md#providerInitialized)
+- [searchPresetsLoaded(const QList\<KNSCore::Provider::SearchPreset\> &)](knscore-provider.md#searchPresetsLoaded)
+- [setCachedEntries(const KNSCore::Entry::List &)](knscore-provider.md#setCachedEntries)
+- [setContactEmail(const QString &)](knscore-provider.md#setContactEmail)
+- [setDownloadTagFilter(const QStringList &)](knscore-provider.md#setDownloadTagFilter)
+- [setHost(const QUrl &)](knscore-provider.md#setHost)
+- [setIcon(const QUrl &)](knscore-provider.md#setIcon)
+- [setName(const QString &)](knscore-provider.md#setName)
+- [setProviderXML(const QDomElement &) : bool](knscore-provider.md#setProviderXML)
+- [setSupportsSsl(bool)](knscore-provider.md#setSupportsSsl)
+- [setTagFilter(const QStringList &)](knscore-provider.md#setTagFilter)
+- [setVersion(const QString &)](knscore-provider.md#setVersion)
+- [setWebsite(const QUrl &)](knscore-provider.md#setWebsite)
+- [signalError()](knscore-provider.md#signalError)
+- [signalErrorCode(KNSCore::ErrorCode::ErrorCode, const QString &, const QVariant &)](knscore-provider.md#signalErrorCode)
+- [signalInformation()](knscore-provider.md#signalInformation)
+- [supportsSsl : bool](knscore-provider.md#supportsSsl-prop)
+- [supportsSsl() const : bool](knscore-provider.md#supportsSsl)
+- [tagFilter() const : QStringList](knscore-provider.md#tagFilter)
+- [tagFilterChanged()](knscore-provider.md#tagFilterChanged)
+- [userCanBecomeFan() : bool](knscore-provider.md#userCanBecomeFan)
+- [userCanVote() : bool](knscore-provider.md#userCanVote)
+- [version : QString](knscore-provider.md#version-prop)
+- [version() const : QString](knscore-provider.md#version)
+- [vote()](knscore-provider.md#vote)
+- [website : QUrl](knscore-provider.md#website-prop)
+- [website() const : QUrl](knscore-provider.md#website)
+
+KNSCore::Provider also inherits the members of [QObject](https://doc.qt.io/qt-6/qobject-members.html).

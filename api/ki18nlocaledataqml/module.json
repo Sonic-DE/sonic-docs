@@ -1,0 +1,31 @@
+{
+    "classes": [
+    ],
+    "module": "ki18nlocaledataqml",
+    "sections": [
+        {
+            "description": "Access to data about countries and timezones.",
+            "page": "ki18nlocaledataqml/org-kde-i18n-localedata-qmlmodule",
+            "pages": [
+                [
+                    "ki18nlocaledataqml/org-kde-i18n-localedata-qmlmodule",
+                    "KI18nLocaleData QML Types"
+                ],
+                [
+                    "ki18nlocaledataqml/qml-org-kde-i18n-localedata-country",
+                    "Country"
+                ],
+                [
+                    "ki18nlocaledataqml/qml-org-kde-i18n-localedata-countrysubdivision",
+                    "CountrySubdivision"
+                ],
+                [
+                    "ki18nlocaledataqml/qml-org-kde-i18n-localedata-timezone",
+                    "TimeZone"
+                ]
+            ],
+            "qml": true,
+            "title": "KI18nLocaleData QML Types"
+        }
+    ]
+}

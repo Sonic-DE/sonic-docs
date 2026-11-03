@@ -1,0 +1,27 @@
+{
+    "classes": [
+    ],
+    "module": "sonnetquick",
+    "sections": [
+        {
+            "description": "Spell checking.",
+            "page": "sonnetquick/org-kde-sonnet-qmlmodule",
+            "pages": [
+                [
+                    "sonnetquick/org-kde-sonnet-qmlmodule",
+                    "Sonnet QML Types"
+                ],
+                [
+                    "sonnetquick/qml-org-kde-sonnet-settings",
+                    "Settings"
+                ],
+                [
+                    "sonnetquick/qml-org-kde-sonnet-spellcheckhighlighter",
+                    "SpellcheckHighlighter"
+                ]
+            ],
+            "qml": true,
+            "title": "Sonnet QML Types"
+        }
+    ]
+}

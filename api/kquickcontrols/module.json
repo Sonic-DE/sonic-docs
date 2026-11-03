@@ -1,0 +1,27 @@
+{
+    "classes": [
+    ],
+    "module": "kquickcontrols",
+    "sections": [
+        {
+            "description": "Extensions to Qt Quick Controls.",
+            "page": "kquickcontrols/org-kde-kquickcontrols-qmlmodule",
+            "pages": [
+                [
+                    "kquickcontrols/org-kde-kquickcontrols-qmlmodule",
+                    "KQuickControls QML Types"
+                ],
+                [
+                    "kquickcontrols/qml-org-kde-kquickcontrols-colorbutton",
+                    "ColorButton"
+                ],
+                [
+                    "kquickcontrols/qml-org-kde-kquickcontrols-keysequenceitem",
+                    "KeySequenceItem"
+                ]
+            ],
+            "qml": true,
+            "title": "KQuickControls QML Types"
+        }
+    ]
+}

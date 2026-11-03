@@ -1,0 +1,1320 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "email",
+                    "email : QString",
+                    "email-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "Author",
+                    "Author()",
+                    "Author"
+                ],
+                [
+                    "avatarUrl",
+                    "avatarUrl() const : QUrl",
+                    "avatarUrl"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "email",
+                    "email() const : QString",
+                    "email"
+                ],
+                [
+                    "homepage",
+                    "homepage() const : QString",
+                    "homepage"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "jabber",
+                    "jabber() const : QString",
+                    "jabber"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "profilepage",
+                    "profilepage() const : QString",
+                    "profilepage"
+                ],
+                [
+                    "setAvatarUrl",
+                    "setAvatarUrl(const QUrl &)",
+                    "setAvatarUrl"
+                ],
+                [
+                    "setDescription",
+                    "setDescription(const QString &)",
+                    "setDescription"
+                ],
+                [
+                    "setEmail",
+                    "setEmail(const QString &)",
+                    "setEmail"
+                ],
+                [
+                    "setHomepage",
+                    "setHomepage(const QString &)",
+                    "setHomepage"
+                ],
+                [
+                    "setId",
+                    "setId(const QString &)",
+                    "setId"
+                ],
+                [
+                    "setJabber",
+                    "setJabber(const QString &)",
+                    "setJabber"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setProfilepage",
+                    "setProfilepage(const QString &)",
+                    "setProfilepage"
+                ]
+            ],
+            "name": "KNSCore::Author",
+            "page": "knewstuffcore/knscore-author",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "KNSCore::CategoryMetadata",
+            "page": "knewstuffcore/knscore-categorymetadata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "entry",
+                    "entry : KNSCore::Entry",
+                    "entry-prop"
+                ],
+                [
+                    "CommentsModel",
+                    "CommentsModel(KNSCore::EngineBase *)",
+                    "CommentsModel"
+                ]
+            ],
+            "name": "KNSCore::CommentsModel",
+            "page": "knewstuffcore/knscore-commentsmodel",
+            "qtBases": [
+                [
+                    "QAbstractListModel",
+                    "https://doc.qt.io/qt-6/qabstractlistmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "contentWarningType",
+                    "contentWarningType : ContentWarningType",
+                    "contentWarningType-prop"
+                ],
+                [
+                    "providerIDs",
+                    "providerIDs : QStringList",
+                    "providerIDs-prop"
+                ],
+                [
+                    "uploadEnabled",
+                    "uploadEnabled : bool",
+                    "uploadEnabled-prop"
+                ],
+                [
+                    "useLabel",
+                    "useLabel : QString",
+                    "useLabel-prop"
+                ],
+                [
+                    "EngineBase",
+                    "EngineBase(QObject *)",
+                    "EngineBase"
+                ],
+                [
+                    "addDownloadTagFilter",
+                    "addDownloadTagFilter(const QString &)",
+                    "addDownloadTagFilter"
+                ],
+                [
+                    "addTagFilter",
+                    "addTagFilter(const QString &)",
+                    "addTagFilter"
+                ],
+                [
+                    "atticaProviders",
+                    "atticaProviders() const : QList<Attica::Provider *>",
+                    "atticaProviders"
+                ],
+                [
+                    "availableConfigFiles",
+                    "availableConfigFiles() : QStringList",
+                    "availableConfigFiles"
+                ],
+                [
+                    "becomeFan",
+                    "becomeFan(const KNSCore::Entry &)",
+                    "becomeFan"
+                ],
+                [
+                    "categories",
+                    "categories() const : QStringList",
+                    "categories"
+                ],
+                [
+                    "categoriesMetadata2",
+                    "categoriesMetadata2() : QList<KNSCore::CategoryMetadata>",
+                    "categoriesMetadata2"
+                ],
+                [
+                    "contentWarningType",
+                    "contentWarningType() const : KNSCore::EngineBase::ContentWarningType",
+                    "contentWarningType"
+                ],
+                [
+                    "contentWarningTypeChanged",
+                    "contentWarningTypeChanged()",
+                    "contentWarningTypeChanged"
+                ],
+                [
+                    "downloadTagFilter",
+                    "downloadTagFilter() const : QStringList",
+                    "downloadTagFilter"
+                ],
+                [
+                    "hasAdoptionCommand",
+                    "hasAdoptionCommand() const : bool",
+                    "hasAdoptionCommand"
+                ],
+                [
+                    "init",
+                    "init(const QString &) : bool",
+                    "init"
+                ],
+                [
+                    "loadingProvider",
+                    "loadingProvider()",
+                    "loadingProvider"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "providerAdded",
+                    "providerAdded(KNSCore::ProviderCore *)",
+                    "providerAdded"
+                ],
+                [
+                    "providerIDs",
+                    "providerIDs() const : QStringList",
+                    "providerIDs"
+                ],
+                [
+                    "searchPresets2",
+                    "searchPresets2() : QList<KNSCore::SearchPreset>",
+                    "searchPresets2"
+                ],
+                [
+                    "setDownloadTagFilter",
+                    "setDownloadTagFilter(const QStringList &)",
+                    "setDownloadTagFilter"
+                ],
+                [
+                    "setTagFilter",
+                    "setTagFilter(const QStringList &)",
+                    "setTagFilter"
+                ],
+                [
+                    "signalCategoriesMetadataLoaded",
+                    "signalCategoriesMetadataLoaded(const QList<KNSCore::CategoryMetadata> &)",
+                    "signalCategoriesMetadataLoaded"
+                ],
+                [
+                    "signalErrorCode",
+                    "signalErrorCode(KNSCore::ErrorCode::ErrorCode, const QString &, const QVariant &)",
+                    "signalErrorCode"
+                ],
+                [
+                    "signalMessage",
+                    "signalMessage(const QString &)",
+                    "signalMessage"
+                ],
+                [
+                    "signalSearchPresetsLoaded",
+                    "signalSearchPresetsLoaded(const QList<KNSCore::SearchPreset> &)",
+                    "signalSearchPresetsLoaded-1"
+                ],
+                [
+                    "tagFilter",
+                    "tagFilter() const : QStringList",
+                    "tagFilter"
+                ],
+                [
+                    "uploadEnabled",
+                    "uploadEnabled() const : bool",
+                    "uploadEnabled"
+                ],
+                [
+                    "uploadEnabledChanged",
+                    "uploadEnabledChanged()",
+                    "uploadEnabledChanged"
+                ],
+                [
+                    "useLabel",
+                    "useLabel() const : QString",
+                    "useLabel"
+                ],
+                [
+                    "useLabelChanged",
+                    "useLabelChanged()",
+                    "useLabelChanged"
+                ],
+                [
+                    "userCanBecomeFan",
+                    "userCanBecomeFan(const KNSCore::Entry &) : bool",
+                    "userCanBecomeFan"
+                ],
+                [
+                    "userCanVote",
+                    "userCanVote(const KNSCore::Entry &) : bool",
+                    "userCanVote"
+                ],
+                [
+                    "vote",
+                    "vote(const KNSCore::Entry &, uint)",
+                    "vote"
+                ]
+            ],
+            "name": "KNSCore::EngineBase",
+            "page": "knewstuffcore/knscore-enginebase",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "author",
+                    "author : KNSCore::Author",
+                    "author-prop"
+                ],
+                [
+                    "donationLink",
+                    "donationLink : QString",
+                    "donationLink-prop"
+                ],
+                [
+                    "downloadCount",
+                    "downloadCount : int",
+                    "downloadCount-prop"
+                ],
+                [
+                    "downloadLinks",
+                    "downloadLinks : QList<KNSCore::Entry::DownloadLinkInformation>",
+                    "downloadLinks-prop"
+                ],
+                [
+                    "entryType",
+                    "entryType : KNSCore::Entry::EntryType",
+                    "entryType-prop"
+                ],
+                [
+                    "homepage",
+                    "homepage : QUrl",
+                    "homepage-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "numberOfComments",
+                    "numberOfComments : int",
+                    "numberOfComments-prop"
+                ],
+                [
+                    "providerId",
+                    "providerId : QString",
+                    "providerId-prop"
+                ],
+                [
+                    "rating",
+                    "rating : int",
+                    "rating-prop"
+                ],
+                [
+                    "shortSummary",
+                    "shortSummary : QString",
+                    "shortSummary-prop"
+                ],
+                [
+                    "status",
+                    "status : KNSCore::Entry::Status",
+                    "status-prop"
+                ],
+                [
+                    "summary",
+                    "summary : QString",
+                    "summary-prop"
+                ],
+                [
+                    "uniqueId",
+                    "uniqueId : QString",
+                    "uniqueId-prop"
+                ],
+                [
+                    "Entry",
+                    "Entry()",
+                    "Entry"
+                ],
+                [
+                    "~Entry",
+                    "~Entry()",
+                    "dtor.Entry"
+                ],
+                [
+                    "appendDownloadLinkInformation",
+                    "appendDownloadLinkInformation(const KNSCore::Entry::DownloadLinkInformation &)",
+                    "appendDownloadLinkInformation"
+                ],
+                [
+                    "author",
+                    "author() const : KNSCore::Author",
+                    "author"
+                ],
+                [
+                    "category",
+                    "category() const : QString",
+                    "category"
+                ],
+                [
+                    "changelog",
+                    "changelog() const : QString",
+                    "changelog"
+                ],
+                [
+                    "clearDownloadLinkInformation",
+                    "clearDownloadLinkInformation()",
+                    "clearDownloadLinkInformation"
+                ],
+                [
+                    "donationLink",
+                    "donationLink() const : QString",
+                    "donationLink"
+                ],
+                [
+                    "downloadCount",
+                    "downloadCount() const : int",
+                    "downloadCount"
+                ],
+                [
+                    "downloadLinkCount",
+                    "downloadLinkCount() const : int",
+                    "downloadLinkCount"
+                ],
+                [
+                    "downloadLinkInformationList",
+                    "downloadLinkInformationList() const : QList<KNSCore::Entry::DownloadLinkInformation>",
+                    "downloadLinkInformationList"
+                ],
+                [
+                    "entryType",
+                    "entryType() const : KNSCore::Entry::EntryType",
+                    "entryType"
+                ],
+                [
+                    "homepage",
+                    "homepage() const : QUrl",
+                    "homepage"
+                ],
+                [
+                    "installedFiles",
+                    "installedFiles() const : QStringList",
+                    "installedFiles"
+                ],
+                [
+                    "knowledgebaseLink",
+                    "knowledgebaseLink() const : QString",
+                    "knowledgebaseLink"
+                ],
+                [
+                    "license",
+                    "license() const : QString",
+                    "license"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "numberFans",
+                    "numberFans() const : int",
+                    "numberFans"
+                ],
+                [
+                    "numberKnowledgebaseEntries",
+                    "numberKnowledgebaseEntries() const : int",
+                    "numberKnowledgebaseEntries"
+                ],
+                [
+                    "numberOfComments",
+                    "numberOfComments() const : int",
+                    "numberOfComments"
+                ],
+                [
+                    "payload",
+                    "payload() const : QString",
+                    "payload"
+                ],
+                [
+                    "previewImage",
+                    "previewImage(KNSCore::Entry::PreviewType) const : QImage",
+                    "previewImage"
+                ],
+                [
+                    "previewUrl",
+                    "previewUrl(KNSCore::Entry::PreviewType) const : QString",
+                    "previewUrl"
+                ],
+                [
+                    "providerId",
+                    "providerId() const : QString",
+                    "providerId"
+                ],
+                [
+                    "rating",
+                    "rating() const : int",
+                    "rating"
+                ],
+                [
+                    "releaseDate",
+                    "releaseDate() const : QDate",
+                    "releaseDate"
+                ],
+                [
+                    "setAuthor",
+                    "setAuthor(const KNSCore::Author &)",
+                    "setAuthor"
+                ],
+                [
+                    "setCategory",
+                    "setCategory(const QString &)",
+                    "setCategory"
+                ],
+                [
+                    "setChangelog",
+                    "setChangelog(const QString &)",
+                    "setChangelog"
+                ],
+                [
+                    "setDonationLink",
+                    "setDonationLink(const QString &)",
+                    "setDonationLink"
+                ],
+                [
+                    "setEntryType",
+                    "setEntryType(KNSCore::Entry::EntryType)",
+                    "setEntryType"
+                ],
+                [
+                    "setEntryXML",
+                    "setEntryXML(QXmlStreamReader &) : bool",
+                    "setEntryXML"
+                ],
+                [
+                    "setHomepage",
+                    "setHomepage(const QUrl &)",
+                    "setHomepage"
+                ],
+                [
+                    "setInstalledFiles",
+                    "setInstalledFiles(const QStringList &)",
+                    "setInstalledFiles"
+                ],
+                [
+                    "setKnowledgebaseLink",
+                    "setKnowledgebaseLink(const QString &)",
+                    "setKnowledgebaseLink"
+                ],
+                [
+                    "setLicense",
+                    "setLicense(const QString &)",
+                    "setLicense"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setNumberFans",
+                    "setNumberFans(int)",
+                    "setNumberFans"
+                ],
+                [
+                    "setNumberKnowledgebaseEntries",
+                    "setNumberKnowledgebaseEntries(int)",
+                    "setNumberKnowledgebaseEntries"
+                ],
+                [
+                    "setPayload",
+                    "setPayload(const QString &)",
+                    "setPayload"
+                ],
+                [
+                    "setPreviewImage",
+                    "setPreviewImage(const QImage &, KNSCore::Entry::PreviewType)",
+                    "setPreviewImage"
+                ],
+                [
+                    "setPreviewUrl",
+                    "setPreviewUrl(const QString &, KNSCore::Entry::PreviewType)",
+                    "setPreviewUrl"
+                ],
+                [
+                    "setProviderId",
+                    "setProviderId(const QString &)",
+                    "setProviderId"
+                ],
+                [
+                    "setReleaseDate",
+                    "setReleaseDate(const QDate &)",
+                    "setReleaseDate"
+                ],
+                [
+                    "setShortSummary",
+                    "setShortSummary(const QString &)",
+                    "setShortSummary"
+                ],
+                [
+                    "setSource",
+                    "setSource(KNSCore::Entry::Source)",
+                    "setSource"
+                ],
+                [
+                    "setStatus",
+                    "setStatus(KNSCore::Entry::Status)",
+                    "setStatus"
+                ],
+                [
+                    "setSummary",
+                    "setSummary(const QString &)",
+                    "setSummary"
+                ],
+                [
+                    "setTags",
+                    "setTags(const QStringList &)",
+                    "setTags"
+                ],
+                [
+                    "setUniqueId",
+                    "setUniqueId(const QString &)",
+                    "setUniqueId"
+                ],
+                [
+                    "setUpdateReleaseDate",
+                    "setUpdateReleaseDate(const QDate &)",
+                    "setUpdateReleaseDate"
+                ],
+                [
+                    "setUpdateVersion",
+                    "setUpdateVersion(const QString &)",
+                    "setUpdateVersion"
+                ],
+                [
+                    "setVersion",
+                    "setVersion(const QString &)",
+                    "setVersion"
+                ],
+                [
+                    "shortSummary",
+                    "shortSummary() const : QString",
+                    "shortSummary"
+                ],
+                [
+                    "source",
+                    "source() const : KNSCore::Entry::Source",
+                    "source"
+                ],
+                [
+                    "status",
+                    "status() const : KNSCore::Entry::Status",
+                    "status"
+                ],
+                [
+                    "summary",
+                    "summary() const : QString",
+                    "summary"
+                ],
+                [
+                    "tags",
+                    "tags() const : QStringList",
+                    "tags"
+                ],
+                [
+                    "uninstalledFiles",
+                    "uninstalledFiles() const : QStringList",
+                    "uninstalledFiles"
+                ],
+                [
+                    "uniqueId",
+                    "uniqueId() const : QString",
+                    "uniqueId"
+                ],
+                [
+                    "updateReleaseDate",
+                    "updateReleaseDate() const : QDate",
+                    "updateReleaseDate"
+                ],
+                [
+                    "updateVersion",
+                    "updateVersion() const : QString",
+                    "updateVersion"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ]
+            ],
+            "name": "KNSCore::Entry",
+            "page": "knewstuffcore/knscore-entry",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "contactEmail",
+                    "contactEmail : QString",
+                    "contactEmail-prop"
+                ],
+                [
+                    "host",
+                    "host : QUrl",
+                    "host-prop"
+                ],
+                [
+                    "supportsSsl",
+                    "supportsSsl : bool",
+                    "supportsSsl-prop"
+                ],
+                [
+                    "version",
+                    "version : QString",
+                    "version-prop"
+                ],
+                [
+                    "website",
+                    "website : QUrl",
+                    "website-prop"
+                ],
+                [
+                    "Provider",
+                    "Provider()",
+                    "Provider"
+                ],
+                [
+                    "basicsLoaded",
+                    "basicsLoaded()",
+                    "basicsLoaded"
+                ],
+                [
+                    "becomeFan",
+                    "becomeFan()",
+                    "becomeFan"
+                ],
+                [
+                    "categoriesMetadataLoded",
+                    "categoriesMetadataLoded(const QList<KNSCore::Provider::CategoryMetadata> &)",
+                    "categoriesMetadataLoded"
+                ],
+                [
+                    "commentsLoaded",
+                    "commentsLoaded(const QList<std::shared_ptr<KNSCore::Comment>>)",
+                    "commentsLoaded"
+                ],
+                [
+                    "contactEmail",
+                    "contactEmail() const : QString",
+                    "contactEmail"
+                ],
+                [
+                    "downloadTagFilter",
+                    "downloadTagFilter() const : QStringList",
+                    "downloadTagFilter"
+                ],
+                [
+                    "downloadTagFilterChanged",
+                    "downloadTagFilterChanged()",
+                    "downloadTagFilterChanged"
+                ],
+                [
+                    "entryDetailsLoaded",
+                    "entryDetailsLoaded()",
+                    "entryDetailsLoaded"
+                ],
+                [
+                    "host",
+                    "host() const : QUrl",
+                    "host"
+                ],
+                [
+                    "icon",
+                    "icon() const : QUrl",
+                    "icon"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "isInitialized",
+                    "isInitialized() const : bool",
+                    "isInitialized"
+                ],
+                [
+                    "loadBasics",
+                    "loadBasics()",
+                    "loadBasics"
+                ],
+                [
+                    "loadComments",
+                    "loadComments()",
+                    "loadComments"
+                ],
+                [
+                    "loadEntries",
+                    "loadEntries(const KNSCore::Provider::SearchRequest &)",
+                    "loadEntries"
+                ],
+                [
+                    "loadEntryDetails",
+                    "loadEntryDetails()",
+                    "loadEntryDetails"
+                ],
+                [
+                    "loadPayloadLink",
+                    "loadPayloadLink(const KNSCore::Entry &, int)",
+                    "loadPayloadLink"
+                ],
+                [
+                    "loadPerson",
+                    "loadPerson()",
+                    "loadPerson"
+                ],
+                [
+                    "loadingFailed",
+                    "loadingFailed()",
+                    "loadingFailed"
+                ],
+                [
+                    "loadingFinished",
+                    "loadingFinished()",
+                    "loadingFinished"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "payloadLinkLoaded",
+                    "payloadLinkLoaded()",
+                    "payloadLinkLoaded"
+                ],
+                [
+                    "personLoaded",
+                    "personLoaded(const std::shared_ptr<KNSCore::Author>)",
+                    "personLoaded"
+                ],
+                [
+                    "providerInitialized",
+                    "providerInitialized()",
+                    "providerInitialized"
+                ],
+                [
+                    "searchPresetsLoaded",
+                    "searchPresetsLoaded(const QList<KNSCore::Provider::SearchPreset> &)",
+                    "searchPresetsLoaded"
+                ],
+                [
+                    "setCachedEntries",
+                    "setCachedEntries(const KNSCore::Entry::List &)",
+                    "setCachedEntries"
+                ],
+                [
+                    "setContactEmail",
+                    "setContactEmail(const QString &)",
+                    "setContactEmail"
+                ],
+                [
+                    "setDownloadTagFilter",
+                    "setDownloadTagFilter(const QStringList &)",
+                    "setDownloadTagFilter"
+                ],
+                [
+                    "setHost",
+                    "setHost(const QUrl &)",
+                    "setHost"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(const QUrl &)",
+                    "setIcon"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setProviderXML",
+                    "setProviderXML(const QDomElement &) : bool",
+                    "setProviderXML"
+                ],
+                [
+                    "setSupportsSsl",
+                    "setSupportsSsl(bool)",
+                    "setSupportsSsl"
+                ],
+                [
+                    "setTagFilter",
+                    "setTagFilter(const QStringList &)",
+                    "setTagFilter"
+                ],
+                [
+                    "setVersion",
+                    "setVersion(const QString &)",
+                    "setVersion"
+                ],
+                [
+                    "setWebsite",
+                    "setWebsite(const QUrl &)",
+                    "setWebsite"
+                ],
+                [
+                    "signalError",
+                    "signalError()",
+                    "signalError"
+                ],
+                [
+                    "signalErrorCode",
+                    "signalErrorCode(KNSCore::ErrorCode::ErrorCode, const QString &, const QVariant &)",
+                    "signalErrorCode"
+                ],
+                [
+                    "signalInformation",
+                    "signalInformation()",
+                    "signalInformation"
+                ],
+                [
+                    "supportsSsl",
+                    "supportsSsl() const : bool",
+                    "supportsSsl"
+                ],
+                [
+                    "tagFilter",
+                    "tagFilter() const : QStringList",
+                    "tagFilter"
+                ],
+                [
+                    "tagFilterChanged",
+                    "tagFilterChanged()",
+                    "tagFilterChanged"
+                ],
+                [
+                    "userCanBecomeFan",
+                    "userCanBecomeFan() : bool",
+                    "userCanBecomeFan"
+                ],
+                [
+                    "userCanVote",
+                    "userCanVote() : bool",
+                    "userCanVote"
+                ],
+                [
+                    "version",
+                    "version() const : QString",
+                    "version"
+                ],
+                [
+                    "vote",
+                    "vote()",
+                    "vote"
+                ],
+                [
+                    "website",
+                    "website() const : QUrl",
+                    "website"
+                ]
+            ],
+            "name": "KNSCore::Provider",
+            "page": "knewstuffcore/knscore-provider",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "KNSCore::ProvidersModel",
+            "page": "knewstuffcore/knscore-providersmodel",
+            "qtBases": [
+                [
+                    "QAbstractListModel",
+                    "https://doc.qt.io/qt-6/qabstractlistmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ask",
+                    "ask() : KNSCore::Question::Response",
+                    "ask"
+                ],
+                [
+                    "entry",
+                    "entry() const : KNSCore::Entry",
+                    "entry"
+                ],
+                [
+                    "list",
+                    "list() const : QStringList",
+                    "list"
+                ],
+                [
+                    "question",
+                    "question() const : QString",
+                    "question"
+                ],
+                [
+                    "questionType",
+                    "questionType() const : KNSCore::Question::QuestionType",
+                    "questionType"
+                ],
+                [
+                    "response",
+                    "response() const : QString",
+                    "response"
+                ],
+                [
+                    "setEntry",
+                    "setEntry(const KNSCore::Entry &)",
+                    "setEntry"
+                ],
+                [
+                    "setList",
+                    "setList(const QStringList &)",
+                    "setList"
+                ],
+                [
+                    "setQuestion",
+                    "setQuestion(const QString &)",
+                    "setQuestion"
+                ],
+                [
+                    "setQuestionType",
+                    "setQuestionType(KNSCore::Question::QuestionType)",
+                    "setQuestionType"
+                ],
+                [
+                    "setResponse",
+                    "setResponse(KNSCore::Question::Response)",
+                    "setResponse"
+                ],
+                [
+                    "setResponse",
+                    "setResponse(const QString &)",
+                    "setResponse-1"
+                ],
+                [
+                    "setTitle",
+                    "setTitle(const QString &)",
+                    "setTitle"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ]
+            ],
+            "name": "KNSCore::Question",
+            "page": "knewstuffcore/knscore-question",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "KNSCore::QuestionListener",
+            "page": "knewstuffcore/knscore-questionlistener",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "KNSCore::QuestionManager",
+            "page": "knewstuffcore/knscore-questionmanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "KNSCore::ResultsStream",
+            "page": "knewstuffcore/knscore-resultsstream",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "TagsFilterChecker",
+                    "TagsFilterChecker(const QStringList &)",
+                    "TagsFilterChecker"
+                ],
+                [
+                    "filterAccepts",
+                    "filterAccepts(const QStringList &) : bool",
+                    "filterAccepts"
+                ]
+            ],
+            "name": "KNSCore::TagsFilterChecker",
+            "page": "knewstuffcore/knscore-tagsfilterchecker",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "adopt",
+                    "adopt(KNSCore::EngineBase *, const KNSCore::Entry &) : KNSCore::Transaction *",
+                    "adopt"
+                ],
+                [
+                    "installLatest",
+                    "installLatest(KNSCore::EngineBase *, const KNSCore::Entry &) : KNSCore::Transaction *",
+                    "installLatest"
+                ],
+                [
+                    "installLinkId",
+                    "installLinkId(KNSCore::EngineBase *, const KNSCore::Entry &, quint8) : KNSCore::Transaction *",
+                    "installLinkId"
+                ],
+                [
+                    "isFinished",
+                    "isFinished() const : bool",
+                    "isFinished"
+                ],
+                [
+                    "signalEntryEvent",
+                    "signalEntryEvent(const KNSCore::Entry &, KNSCore::Entry::EntryEvent)",
+                    "signalEntryEvent"
+                ],
+                [
+                    "signalErrorCode",
+                    "signalErrorCode(KNSCore::ErrorCode::ErrorCode, const QString &, const QVariant &)",
+                    "signalErrorCode"
+                ],
+                [
+                    "signalMessage",
+                    "signalMessage(const QString &)",
+                    "signalMessage"
+                ],
+                [
+                    "uninstall",
+                    "uninstall(KNSCore::EngineBase *, const KNSCore::Entry &) : KNSCore::Transaction *",
+                    "uninstall"
+                ]
+            ],
+            "name": "KNSCore::Transaction",
+            "page": "knewstuffcore/knscore-transaction",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "knewstuffcore",
+    "sections": [
+        {
+            "description": "Provides Stuff.",
+            "page": "knewstuffcore/knewstuffcore-module",
+            "pages": [
+                [
+                    "knewstuffcore/knewstuffcore-module",
+                    "KNewStuff Core C++ Classes"
+                ],
+                [
+                    "knewstuffcore/knscore-author",
+                    "KNSCore::Author"
+                ],
+                [
+                    "knewstuffcore/knscore-categorymetadata",
+                    "KNSCore::CategoryMetadata"
+                ],
+                [
+                    "knewstuffcore/knscore-commentsmodel",
+                    "KNSCore::CommentsModel"
+                ],
+                [
+                    "knewstuffcore/knscore-enginebase",
+                    "KNSCore::EngineBase"
+                ],
+                [
+                    "knewstuffcore/knscore-entry",
+                    "KNSCore::Entry"
+                ],
+                [
+                    "knewstuffcore/knscore-provider",
+                    "KNSCore::Provider"
+                ],
+                [
+                    "knewstuffcore/knscore-providersmodel",
+                    "KNSCore::ProvidersModel"
+                ],
+                [
+                    "knewstuffcore/knscore-question",
+                    "KNSCore::Question"
+                ],
+                [
+                    "knewstuffcore/knscore-questionlistener",
+                    "KNSCore::QuestionListener"
+                ],
+                [
+                    "knewstuffcore/knscore-questionmanager",
+                    "KNSCore::QuestionManager"
+                ],
+                [
+                    "knewstuffcore/knscore-resultsstream",
+                    "KNSCore::ResultsStream"
+                ],
+                [
+                    "knewstuffcore/knscore-tagsfilterchecker",
+                    "KNSCore::TagsFilterChecker"
+                ],
+                [
+                    "knewstuffcore/knscore-transaction",
+                    "KNSCore::Transaction"
+                ],
+                [
+                    "knewstuffcore/knewstuff-index",
+                    "KNewStuff"
+                ],
+                [
+                    "knewstuffcore/knscore",
+                    "KNSCore Namespace"
+                ],
+                [
+                    "knewstuffcore/knscore-entry-downloadlinkinformation",
+                    ""
+                ],
+                [
+                    "knewstuffcore/knscore-errorcode",
+                    "KNSCore::ErrorCode Namespace"
+                ],
+                [
+                    "knewstuffcore/knscore-provider-categorymetadata",
+                    ""
+                ],
+                [
+                    "knewstuffcore/knscore-provider-searchpreset",
+                    ""
+                ],
+                [
+                    "knewstuffcore/knscore-provider-searchrequest",
+                    ""
+                ]
+            ],
+            "qml": false,
+            "title": "KNewStuff Core C++ Classes"
+        }
+    ]
+}

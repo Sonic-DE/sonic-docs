@@ -1,0 +1,449 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "seasonAtDate",
+                    "seasonAtDate(const QDate &) : KHolidays::AstroSeasons::Season",
+                    "seasonAtDate"
+                ],
+                [
+                    "seasonDate",
+                    "seasonDate(KHolidays::AstroSeasons::Season, int) : QDate",
+                    "seasonDate"
+                ],
+                [
+                    "seasonName",
+                    "seasonName(KHolidays::AstroSeasons::Season) : QString",
+                    "seasonName"
+                ],
+                [
+                    "seasonNameAtDate",
+                    "seasonNameAtDate(const QDate &) : QString",
+                    "seasonNameAtDate"
+                ]
+            ],
+            "name": "KHolidays::AstroSeasons",
+            "page": "kholidays/kholidays-astroseasons",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Holiday",
+                    "Holiday()",
+                    "Holiday"
+                ],
+                [
+                    "Holiday",
+                    "Holiday(const KHolidays::Holiday &)",
+                    "Holiday-1"
+                ],
+                [
+                    "categoryList",
+                    "categoryList() const : QStringList",
+                    "categoryList"
+                ],
+                [
+                    "dayType",
+                    "dayType() const : KHolidays::Holiday::DayType",
+                    "dayType"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "duration",
+                    "duration() const : int",
+                    "duration"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "observedEndDate",
+                    "observedEndDate() const : QDate",
+                    "observedEndDate"
+                ],
+                [
+                    "observedStartDate",
+                    "observedStartDate() const : QDate",
+                    "observedStartDate"
+                ],
+                [
+                    "operator<",
+                    "operator<(const KHolidays::Holiday &) const : bool",
+                    "operator-lt"
+                ],
+                [
+                    "operator>",
+                    "operator>(const KHolidays::Holiday &) const : bool",
+                    "operator-gt"
+                ]
+            ],
+            "name": "KHolidays::Holiday",
+            "page": "kholidays/kholidays-holiday",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "HolidayRegion",
+                    "HolidayRegion(const QFileInfo &)",
+                    "HolidayRegion"
+                ],
+                [
+                    "HolidayRegion",
+                    "HolidayRegion(const QString &)",
+                    "HolidayRegion-1"
+                ],
+                [
+                    "categories",
+                    "categories() const : QStringList",
+                    "categories"
+                ],
+                [
+                    "countryCode",
+                    "countryCode() const : QString",
+                    "countryCode"
+                ],
+                [
+                    "countryCode",
+                    "countryCode(const QString &) : QString",
+                    "countryCode-1"
+                ],
+                [
+                    "defaultRegionCode",
+                    "defaultRegionCode(const QString &, const QString &) : QString",
+                    "defaultRegionCode"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "description",
+                    "description(const QString &) : QString",
+                    "description-1"
+                ],
+                [
+                    "isHoliday",
+                    "isHoliday(const QDate &) const : bool",
+                    "isHoliday"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "isValid",
+                    "isValid(const QString &) : bool",
+                    "isValid-1"
+                ],
+                [
+                    "languageCode",
+                    "languageCode() const : QString",
+                    "languageCode"
+                ],
+                [
+                    "languageCode",
+                    "languageCode(const QString &) : QString",
+                    "languageCode-1"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "name",
+                    "name(const QString &) : QString",
+                    "name-1"
+                ],
+                [
+                    "rawHolidays",
+                    "rawHolidays(const QDate &, const QDate &) const : Holiday::List",
+                    "rawHolidays"
+                ],
+                [
+                    "rawHolidays",
+                    "rawHolidays(const QDate &, const QDate &, const QString &) const : Holiday::List",
+                    "rawHolidays-1"
+                ],
+                [
+                    "rawHolidaysWithAstroSeasons",
+                    "rawHolidaysWithAstroSeasons(const QDate &) const : Holiday::List",
+                    "rawHolidaysWithAstroSeasons"
+                ],
+                [
+                    "rawHolidaysWithAstroSeasons",
+                    "rawHolidaysWithAstroSeasons(int) const : Holiday::List",
+                    "rawHolidaysWithAstroSeasons-1"
+                ],
+                [
+                    "rawHolidaysWithAstroSeasons",
+                    "rawHolidaysWithAstroSeasons(const QDate &, const QDate &) const : Holiday::List",
+                    "rawHolidaysWithAstroSeasons-2"
+                ],
+                [
+                    "regionCode",
+                    "regionCode() const : QString",
+                    "regionCode"
+                ],
+                [
+                    "regionCodes",
+                    "regionCodes() : QStringList",
+                    "regionCodes"
+                ],
+                [
+                    "setCategories",
+                    "setCategories(const QStringList &)",
+                    "setCategories"
+                ]
+            ],
+            "name": "KHolidays::HolidayRegion",
+            "page": "kholidays/kholidays-holidayregion",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "phaseAtDate",
+                    "phaseAtDate(const QDate &) : KHolidays::LunarPhase::Phase",
+                    "phaseAtDate"
+                ],
+                [
+                    "phaseName",
+                    "phaseName(KHolidays::LunarPhase::Phase) : QString",
+                    "phaseName"
+                ],
+                [
+                    "phaseNameAtDate",
+                    "phaseNameAtDate(const QDate &) : QString",
+                    "phaseNameAtDate"
+                ]
+            ],
+            "name": "KHolidays::LunarPhase",
+            "page": "kholidays/kholidays-lunarphase",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "SunEvents",
+                    "SunEvents(const QDateTime &, double, double)",
+                    "SunEvents-1"
+                ],
+                [
+                    "SunEvents",
+                    "SunEvents(const KHolidays::SunEvents &)",
+                    "SunEvents"
+                ],
+                [
+                    "~SunEvents",
+                    "~SunEvents()",
+                    "dtor.SunEvents"
+                ],
+                [
+                    "astronomicalDawn",
+                    "astronomicalDawn() const : QDateTime",
+                    "astronomicalDawn"
+                ],
+                [
+                    "astronomicalDusk",
+                    "astronomicalDusk() const : QDateTime",
+                    "astronomicalDusk"
+                ],
+                [
+                    "civilDawn",
+                    "civilDawn() const : QDateTime",
+                    "civilDawn"
+                ],
+                [
+                    "civilDusk",
+                    "civilDusk() const : QDateTime",
+                    "civilDusk"
+                ],
+                [
+                    "isPolarDay",
+                    "isPolarDay() const : bool",
+                    "isPolarDay"
+                ],
+                [
+                    "isPolarNight",
+                    "isPolarNight() const : bool",
+                    "isPolarNight"
+                ],
+                [
+                    "isPolarTwilight",
+                    "isPolarTwilight() const : bool",
+                    "isPolarTwilight"
+                ],
+                [
+                    "nauticalDawn",
+                    "nauticalDawn() const : QDateTime",
+                    "nauticalDawn"
+                ],
+                [
+                    "nauticalDusk",
+                    "nauticalDusk() const : QDateTime",
+                    "nauticalDusk"
+                ],
+                [
+                    "solarNoon",
+                    "solarNoon() const : QDateTime",
+                    "solarNoon"
+                ],
+                [
+                    "sunrise",
+                    "sunrise() const : QDateTime",
+                    "sunrise"
+                ],
+                [
+                    "sunset",
+                    "sunset() const : QDateTime",
+                    "sunset"
+                ],
+                [
+                    "operator=",
+                    "operator=(const KHolidays::SunEvents &) : KHolidays::SunEvents &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KHolidays::SunEvents",
+            "page": "kholidays/kholidays-sunevents",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Zodiac",
+                    "Zodiac(KHolidays::Zodiac::ZodiacType)",
+                    "Zodiac"
+                ],
+                [
+                    "signAtDate",
+                    "signAtDate(const QDate &) const : KHolidays::Zodiac::ZodiacSigns",
+                    "signAtDate"
+                ],
+                [
+                    "signName",
+                    "signName(KHolidays::Zodiac::ZodiacSigns) : QString",
+                    "signName"
+                ],
+                [
+                    "signNameAtDate",
+                    "signNameAtDate(const QDate &) const : QString",
+                    "signNameAtDate"
+                ],
+                [
+                    "signSymbol",
+                    "signSymbol(KHolidays::Zodiac::ZodiacSigns) : QString",
+                    "signSymbol"
+                ]
+            ],
+            "name": "KHolidays::Zodiac",
+            "page": "kholidays/kholidays-zodiac",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kholidays",
+    "sections": [
+        {
+            "description": "Dates for holidays and other special events.",
+            "page": "kholidays/kholidays-module",
+            "pages": [
+                [
+                    "kholidays/kholidays-module",
+                    "KHolidays C++ Classes"
+                ],
+                [
+                    "kholidays/kholidays-astroseasons",
+                    "KHolidays::AstroSeasons"
+                ],
+                [
+                    "kholidays/kholidays-holiday",
+                    "KHolidays::Holiday"
+                ],
+                [
+                    "kholidays/kholidays-holidayregion",
+                    "KHolidays::HolidayRegion"
+                ],
+                [
+                    "kholidays/kholidays-lunarphase",
+                    "KHolidays::LunarPhase"
+                ],
+                [
+                    "kholidays/kholidays-sunevents",
+                    "KHolidays::SunEvents"
+                ],
+                [
+                    "kholidays/kholidays-zodiac",
+                    "KHolidays::Zodiac"
+                ],
+                [
+                    "kholidays/kholidays",
+                    "KHolidays Namespace"
+                ],
+                [
+                    "kholidays/kholidays-index",
+                    "KHolidays"
+                ],
+                [
+                    "kholidays/kholidays-sunriseset",
+                    "KHolidays::SunRiseSet Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KHolidays C++ Classes"
+        },
+        {
+            "description": "Dates for holidays and other special events.",
+            "page": "kholidays/org-kde-kholidays-qmlmodule",
+            "pages": [
+                [
+                    "kholidays/org-kde-kholidays-qmlmodule",
+                    "KHolidays QML Types"
+                ],
+                [
+                    "kholidays/qml-org-kde-kholidays-holidayregionsmodel",
+                    "HolidayRegionsModel"
+                ],
+                [
+                    "kholidays/qml-org-kde-kholidays-lunar",
+                    "Lunar"
+                ],
+                [
+                    "kholidays/qml-org-kde-kholidays-sunriseset",
+                    "SunRiseSet"
+                ]
+            ],
+            "qml": true,
+            "title": "KHolidays QML Types"
+        }
+    ]
+}

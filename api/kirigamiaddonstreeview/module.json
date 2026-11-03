@@ -1,0 +1,23 @@
+{
+    "classes": [
+    ],
+    "module": "kirigamiaddonstreeview",
+    "sections": [
+        {
+            "description": "QML types for creating treeviews.",
+            "page": "kirigamiaddonstreeview/org-kde-kirigamiaddons-treeview-qmlmodule",
+            "pages": [
+                [
+                    "kirigamiaddonstreeview/org-kde-kirigamiaddons-treeview-qmlmodule",
+                    "Kirigami Addons TreeView QML Types"
+                ],
+                [
+                    "kirigamiaddonstreeview/qml-org-kde-kirigamiaddons-treeview-treeviewdecoration",
+                    "TreeViewDecoration"
+                ]
+            ],
+            "qml": true,
+            "title": "Kirigami Addons TreeView QML Types"
+        }
+    ]
+}

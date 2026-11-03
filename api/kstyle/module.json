@@ -1,0 +1,71 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "customControlElement",
+                    "customControlElement(const QString &, const QWidget *) : QStyle::ControlElement",
+                    "customControlElement"
+                ],
+                [
+                    "customStyleHint",
+                    "customStyleHint(const QString &, const QWidget *) : QStyle::StyleHint",
+                    "customStyleHint"
+                ],
+                [
+                    "customSubElement",
+                    "customSubElement(const QString &, const QWidget *) : QStyle::SubElement",
+                    "customSubElement"
+                ],
+                [
+                    "newControlElement",
+                    "newControlElement(const QString &) : QStyle::ControlElement",
+                    "newControlElement"
+                ],
+                [
+                    "newStyleHint",
+                    "newStyleHint(const QString &) : QStyle::StyleHint",
+                    "newStyleHint"
+                ],
+                [
+                    "newSubElement",
+                    "newSubElement(const QString &) : QStyle::SubElement",
+                    "newSubElement"
+                ]
+            ],
+            "name": "KStyle",
+            "page": "kstyle/kstyle",
+            "qtBases": [
+                [
+                    "QCommonStyle",
+                    "https://doc.qt.io/qt-6/qcommonstyle-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kstyle",
+    "sections": [
+        {
+            "description": "Integration of Qt application with KDE workspaces.",
+            "page": "kstyle/kstyle-module",
+            "pages": [
+                [
+                    "kstyle/kstyle-module",
+                    "KStyle C++ Classes"
+                ],
+                [
+                    "kstyle/kstyle",
+                    "KStyle"
+                ],
+                [
+                    "kstyle/frameworkintegration-index",
+                    "FrameworkIntegration"
+                ]
+            ],
+            "qml": false,
+            "title": "KStyle C++ Classes"
+        }
+    ]
+}

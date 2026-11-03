@@ -1,0 +1,835 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AbstractHighlighter",
+                    "AbstractHighlighter()",
+                    "AbstractHighlighter"
+                ],
+                [
+                    "applyFolding",
+                    "applyFolding(int, int, KSyntaxHighlighting::FoldingRegion)",
+                    "applyFolding"
+                ],
+                [
+                    "applyFormat",
+                    "applyFormat(int, int, const KSyntaxHighlighting::Format &)",
+                    "applyFormat"
+                ],
+                [
+                    "definition",
+                    "definition() const : KSyntaxHighlighting::Definition",
+                    "definition"
+                ],
+                [
+                    "highlightLine",
+                    "highlightLine(QStringView, const KSyntaxHighlighting::State &) : KSyntaxHighlighting::State",
+                    "highlightLine"
+                ],
+                [
+                    "setDefinition",
+                    "setDefinition(const KSyntaxHighlighting::Definition &)",
+                    "setDefinition"
+                ],
+                [
+                    "setTheme",
+                    "setTheme(const KSyntaxHighlighting::Theme &)",
+                    "setTheme"
+                ],
+                [
+                    "theme",
+                    "theme() const : KSyntaxHighlighting::Theme",
+                    "theme"
+                ]
+            ],
+            "name": "KSyntaxHighlighting::AbstractHighlighter",
+            "page": "ksyntaxhighlighting/ksyntaxhighlighting-abstracthighlighter",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "author",
+                    "author : QString",
+                    "author-prop"
+                ],
+                [
+                    "license",
+                    "license : QString",
+                    "license-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "section",
+                    "section : QString",
+                    "section-prop"
+                ],
+                [
+                    "translatedName",
+                    "translatedName : QString",
+                    "translatedName-prop"
+                ],
+                [
+                    "translatedSection",
+                    "translatedSection : QString",
+                    "translatedSection-prop"
+                ],
+                [
+                    "Definition",
+                    "Definition()",
+                    "Definition"
+                ],
+                [
+                    "Definition",
+                    "Definition(const KSyntaxHighlighting::Definition &)",
+                    "Definition-2"
+                ],
+                [
+                    "Definition",
+                    "Definition(KSyntaxHighlighting::Definition &&)",
+                    "Definition-1"
+                ],
+                [
+                    "alternativeNames",
+                    "alternativeNames() const : QStringList",
+                    "alternativeNames"
+                ],
+                [
+                    "author",
+                    "author() const : QString",
+                    "author"
+                ],
+                [
+                    "characterEncodings",
+                    "characterEncodings() const : QList<QPair<QChar, QString>>",
+                    "characterEncodings"
+                ],
+                [
+                    "extensions",
+                    "extensions() const : QList<QString>",
+                    "extensions"
+                ],
+                [
+                    "filePath",
+                    "filePath() const : QString",
+                    "filePath"
+                ],
+                [
+                    "foldingEnabled",
+                    "foldingEnabled() const : bool",
+                    "foldingEnabled"
+                ],
+                [
+                    "foldingIgnoreList",
+                    "foldingIgnoreList() const : QStringList",
+                    "foldingIgnoreList"
+                ],
+                [
+                    "formats",
+                    "formats() const : QList<KSyntaxHighlighting::Format>",
+                    "formats"
+                ],
+                [
+                    "includedDefinitions",
+                    "includedDefinitions() const : QList<KSyntaxHighlighting::Definition>",
+                    "includedDefinitions"
+                ],
+                [
+                    "indentationBasedFoldingEnabled",
+                    "indentationBasedFoldingEnabled() const : bool",
+                    "indentationBasedFoldingEnabled"
+                ],
+                [
+                    "indenter",
+                    "indenter() const : QString",
+                    "indenter"
+                ],
+                [
+                    "isHidden",
+                    "isHidden() const : bool",
+                    "isHidden"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "isWordDelimiter",
+                    "isWordDelimiter(QChar) const : bool",
+                    "isWordDelimiter"
+                ],
+                [
+                    "isWordWrapDelimiter",
+                    "isWordWrapDelimiter(QChar) const : bool",
+                    "isWordWrapDelimiter"
+                ],
+                [
+                    "keywordList",
+                    "keywordList(const QString &) const : QStringList",
+                    "keywordList"
+                ],
+                [
+                    "keywordLists",
+                    "keywordLists() const : QStringList",
+                    "keywordLists"
+                ],
+                [
+                    "license",
+                    "license() const : QString",
+                    "license"
+                ],
+                [
+                    "mimeTypes",
+                    "mimeTypes() const : QList<QString>",
+                    "mimeTypes"
+                ],
+                [
+                    "multiLineCommentMarker",
+                    "multiLineCommentMarker() const : QPair<QString, QString>",
+                    "multiLineCommentMarker"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "priority",
+                    "priority() const : int",
+                    "priority"
+                ],
+                [
+                    "section",
+                    "section() const : QString",
+                    "section"
+                ],
+                [
+                    "setKeywordList",
+                    "setKeywordList(const QString &, const QStringList &) : bool",
+                    "setKeywordList"
+                ],
+                [
+                    "singleLineCommentMarker",
+                    "singleLineCommentMarker() const : QString",
+                    "singleLineCommentMarker"
+                ],
+                [
+                    "singleLineCommentPosition",
+                    "singleLineCommentPosition() const : KSyntaxHighlighting::CommentPosition",
+                    "singleLineCommentPosition"
+                ],
+                [
+                    "style",
+                    "style() const : QString",
+                    "style"
+                ],
+                [
+                    "translatedName",
+                    "translatedName() const : QString",
+                    "translatedName"
+                ],
+                [
+                    "translatedSection",
+                    "translatedSection() const : QString",
+                    "translatedSection"
+                ],
+                [
+                    "version",
+                    "version() const : int",
+                    "version"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KSyntaxHighlighting::Definition &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator=",
+                    "operator=(KSyntaxHighlighting::Definition &&) : KSyntaxHighlighting::Definition &",
+                    "operator-eq"
+                ],
+                [
+                    "operator=",
+                    "operator=(const KSyntaxHighlighting::Definition &) : KSyntaxHighlighting::Definition &",
+                    "operator-eq-1"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KSyntaxHighlighting::Definition &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KSyntaxHighlighting::Definition",
+            "page": "ksyntaxhighlighting/ksyntaxhighlighting-definition",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DefinitionDownloader",
+                    "DefinitionDownloader(KSyntaxHighlighting::Repository *, QObject *)",
+                    "DefinitionDownloader"
+                ],
+                [
+                    "done",
+                    "done()",
+                    "done"
+                ],
+                [
+                    "informationMessage",
+                    "informationMessage(const QString &)",
+                    "informationMessage"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ]
+            ],
+            "name": "KSyntaxHighlighting::DefinitionDownloader",
+            "page": "ksyntaxhighlighting/ksyntaxhighlighting-definitiondownloader",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "FoldingRegion",
+                    "FoldingRegion()",
+                    "FoldingRegion"
+                ],
+                [
+                    "id",
+                    "id() const : int",
+                    "id"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "sibling",
+                    "sibling() const : KSyntaxHighlighting::FoldingRegion",
+                    "sibling"
+                ],
+                [
+                    "type",
+                    "type() const : KSyntaxHighlighting::FoldingRegion::Type",
+                    "type"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KSyntaxHighlighting::FoldingRegion &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KSyntaxHighlighting::FoldingRegion",
+            "page": "ksyntaxhighlighting/ksyntaxhighlighting-foldingregion",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Format",
+                    "Format()",
+                    "Format"
+                ],
+                [
+                    "Format",
+                    "Format(const KSyntaxHighlighting::Format &)",
+                    "Format-1"
+                ],
+                [
+                    "backgroundColor",
+                    "backgroundColor(const KSyntaxHighlighting::Theme &) const : QColor",
+                    "backgroundColor"
+                ],
+                [
+                    "hasBackgroundColor",
+                    "hasBackgroundColor(const KSyntaxHighlighting::Theme &) const : bool",
+                    "hasBackgroundColor"
+                ],
+                [
+                    "hasBackgroundColorOverride",
+                    "hasBackgroundColorOverride() const : bool",
+                    "hasBackgroundColorOverride"
+                ],
+                [
+                    "hasBoldOverride",
+                    "hasBoldOverride() const : bool",
+                    "hasBoldOverride"
+                ],
+                [
+                    "hasItalicOverride",
+                    "hasItalicOverride() const : bool",
+                    "hasItalicOverride"
+                ],
+                [
+                    "hasSelectedBackgroundColorOverride",
+                    "hasSelectedBackgroundColorOverride() const : bool",
+                    "hasSelectedBackgroundColorOverride"
+                ],
+                [
+                    "hasSelectedTextColorOverride",
+                    "hasSelectedTextColorOverride() const : bool",
+                    "hasSelectedTextColorOverride"
+                ],
+                [
+                    "hasStrikeThroughOverride",
+                    "hasStrikeThroughOverride() const : bool",
+                    "hasStrikeThroughOverride"
+                ],
+                [
+                    "hasTextColor",
+                    "hasTextColor(const KSyntaxHighlighting::Theme &) const : bool",
+                    "hasTextColor"
+                ],
+                [
+                    "hasTextColorOverride",
+                    "hasTextColorOverride() const : bool",
+                    "hasTextColorOverride"
+                ],
+                [
+                    "hasUnderlineOverride",
+                    "hasUnderlineOverride() const : bool",
+                    "hasUnderlineOverride"
+                ],
+                [
+                    "id",
+                    "id() const : int",
+                    "id"
+                ],
+                [
+                    "isBold",
+                    "isBold(const KSyntaxHighlighting::Theme &) const : bool",
+                    "isBold"
+                ],
+                [
+                    "isDefaultTextStyle",
+                    "isDefaultTextStyle(const KSyntaxHighlighting::Theme &) const : bool",
+                    "isDefaultTextStyle"
+                ],
+                [
+                    "isItalic",
+                    "isItalic(const KSyntaxHighlighting::Theme &) const : bool",
+                    "isItalic"
+                ],
+                [
+                    "isStrikeThrough",
+                    "isStrikeThrough(const KSyntaxHighlighting::Theme &) const : bool",
+                    "isStrikeThrough"
+                ],
+                [
+                    "isUnderline",
+                    "isUnderline(const KSyntaxHighlighting::Theme &) const : bool",
+                    "isUnderline"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "selectedBackgroundColor",
+                    "selectedBackgroundColor(const KSyntaxHighlighting::Theme &) const : QColor",
+                    "selectedBackgroundColor"
+                ],
+                [
+                    "selectedTextColor",
+                    "selectedTextColor(const KSyntaxHighlighting::Theme &) const : QColor",
+                    "selectedTextColor"
+                ],
+                [
+                    "spellCheck",
+                    "spellCheck() const : bool",
+                    "spellCheck"
+                ],
+                [
+                    "textColor",
+                    "textColor(const KSyntaxHighlighting::Theme &) const : QColor",
+                    "textColor"
+                ],
+                [
+                    "textStyle",
+                    "textStyle() const : KSyntaxHighlighting::Theme::TextStyle",
+                    "textStyle"
+                ]
+            ],
+            "name": "KSyntaxHighlighting::Format",
+            "page": "ksyntaxhighlighting/ksyntaxhighlighting-format",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "definitions",
+                    "definitions : QList<KSyntaxHighlighting::Definition>",
+                    "definitions-prop"
+                ],
+                [
+                    "themes",
+                    "themes : QList<KSyntaxHighlighting::Theme>",
+                    "themes-prop"
+                ],
+                [
+                    "Repository",
+                    "Repository()",
+                    "Repository"
+                ],
+                [
+                    "aboutToReload",
+                    "aboutToReload()",
+                    "aboutToReload"
+                ],
+                [
+                    "addCustomSearchPath",
+                    "addCustomSearchPath(const QString &)",
+                    "addCustomSearchPath"
+                ],
+                [
+                    "customSearchPaths",
+                    "customSearchPaths() const : QList<QString>",
+                    "customSearchPaths"
+                ],
+                [
+                    "defaultTheme",
+                    "defaultTheme(KSyntaxHighlighting::Repository::DefaultTheme) const : KSyntaxHighlighting::Theme",
+                    "defaultTheme"
+                ],
+                [
+                    "definitionForFileName",
+                    "definitionForFileName(const QString &) const : KSyntaxHighlighting::Definition",
+                    "definitionForFileName"
+                ],
+                [
+                    "definitionForMimeType",
+                    "definitionForMimeType(const QString &) const : KSyntaxHighlighting::Definition",
+                    "definitionForMimeType"
+                ],
+                [
+                    "definitionForName",
+                    "definitionForName(const QString &) const : KSyntaxHighlighting::Definition",
+                    "definitionForName"
+                ],
+                [
+                    "definitions",
+                    "definitions() const : QList<KSyntaxHighlighting::Definition>",
+                    "definitions"
+                ],
+                [
+                    "definitionsForFileName",
+                    "definitionsForFileName(const QString &) const : QList<KSyntaxHighlighting::Definition>",
+                    "definitionsForFileName"
+                ],
+                [
+                    "definitionsForMimeType",
+                    "definitionsForMimeType(const QString &) const : QList<KSyntaxHighlighting::Definition>",
+                    "definitionsForMimeType"
+                ],
+                [
+                    "reload",
+                    "reload()",
+                    "reload"
+                ],
+                [
+                    "reloaded",
+                    "reloaded()",
+                    "reloaded"
+                ],
+                [
+                    "theme",
+                    "theme(const QString &) const : KSyntaxHighlighting::Theme",
+                    "theme"
+                ],
+                [
+                    "themeForPalette",
+                    "themeForPalette(const QPalette &) const : KSyntaxHighlighting::Theme",
+                    "themeForPalette"
+                ],
+                [
+                    "themes",
+                    "themes() const : QList<KSyntaxHighlighting::Theme>",
+                    "themes"
+                ]
+            ],
+            "name": "KSyntaxHighlighting::Repository",
+            "page": "ksyntaxhighlighting/ksyntaxhighlighting-repository",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "State",
+                    "State()",
+                    "State"
+                ],
+                [
+                    "indentationBasedFoldingEnabled",
+                    "indentationBasedFoldingEnabled() const : bool",
+                    "indentationBasedFoldingEnabled"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KSyntaxHighlighting::State &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KSyntaxHighlighting::State &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KSyntaxHighlighting::State",
+            "page": "ksyntaxhighlighting/ksyntaxhighlighting-state",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "ksyntaxhighlighting/ksyntaxhighlighting-abstracthighlighter"
+            ],
+            "members": [
+                [
+                    "SyntaxHighlighter",
+                    "SyntaxHighlighter(QObject *)",
+                    "SyntaxHighlighter"
+                ],
+                [
+                    "SyntaxHighlighter",
+                    "SyntaxHighlighter(QTextDocument *)",
+                    "SyntaxHighlighter-1"
+                ],
+                [
+                    "findFoldingRegionEnd",
+                    "findFoldingRegionEnd(const QTextBlock &) const : QTextBlock",
+                    "findFoldingRegionEnd"
+                ],
+                [
+                    "startsFoldingRegion",
+                    "startsFoldingRegion(const QTextBlock &) const : bool",
+                    "startsFoldingRegion"
+                ]
+            ],
+            "name": "KSyntaxHighlighting::SyntaxHighlighter",
+            "page": "ksyntaxhighlighting/ksyntaxhighlighting-syntaxhighlighter",
+            "qtBases": [
+                [
+                    "QSyntaxHighlighter",
+                    "https://doc.qt.io/qt-6/qsyntaxhighlighter-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "translatedName",
+                    "translatedName : QString",
+                    "translatedName-prop"
+                ],
+                [
+                    "Theme",
+                    "Theme()",
+                    "Theme"
+                ],
+                [
+                    "Theme",
+                    "Theme(const KSyntaxHighlighting::Theme &)",
+                    "Theme-2"
+                ],
+                [
+                    "backgroundColor",
+                    "backgroundColor(KSyntaxHighlighting::Theme::TextStyle) const : QRgb",
+                    "backgroundColor"
+                ],
+                [
+                    "editorColor",
+                    "editorColor(KSyntaxHighlighting::Theme::EditorColorRole) const : QRgb",
+                    "editorColor"
+                ],
+                [
+                    "filePath",
+                    "filePath() const : QString",
+                    "filePath"
+                ],
+                [
+                    "isBold",
+                    "isBold(KSyntaxHighlighting::Theme::TextStyle) const : bool",
+                    "isBold"
+                ],
+                [
+                    "isItalic",
+                    "isItalic(KSyntaxHighlighting::Theme::TextStyle) const : bool",
+                    "isItalic"
+                ],
+                [
+                    "isReadOnly",
+                    "isReadOnly() const : bool",
+                    "isReadOnly"
+                ],
+                [
+                    "isStrikeThrough",
+                    "isStrikeThrough(KSyntaxHighlighting::Theme::TextStyle) const : bool",
+                    "isStrikeThrough"
+                ],
+                [
+                    "isUnderline",
+                    "isUnderline(KSyntaxHighlighting::Theme::TextStyle) const : bool",
+                    "isUnderline"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "previewIcon",
+                    "previewIcon() const : QIcon",
+                    "previewIcon"
+                ],
+                [
+                    "selectedBackgroundColor",
+                    "selectedBackgroundColor(KSyntaxHighlighting::Theme::TextStyle) const : QRgb",
+                    "selectedBackgroundColor"
+                ],
+                [
+                    "selectedTextColor",
+                    "selectedTextColor(KSyntaxHighlighting::Theme::TextStyle) const : QRgb",
+                    "selectedTextColor"
+                ],
+                [
+                    "textColor",
+                    "textColor(KSyntaxHighlighting::Theme::TextStyle) const : QRgb",
+                    "textColor"
+                ],
+                [
+                    "translatedName",
+                    "translatedName() const : QString",
+                    "translatedName"
+                ],
+                [
+                    "operator=",
+                    "operator=(const KSyntaxHighlighting::Theme &) : KSyntaxHighlighting::Theme &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KSyntaxHighlighting::Theme",
+            "page": "ksyntaxhighlighting/ksyntaxhighlighting-theme",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "ksyntaxhighlighting",
+    "sections": [
+        {
+            "description": "KSyntaxHighlighting is a stand-alone implementation of the Kate syntax highlighting engine.",
+            "page": "ksyntaxhighlighting/ksyntaxhighlighting-module",
+            "pages": [
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-module",
+                    "KSyntaxHighlighting C++ Classes"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-abstracthighlighter",
+                    "KSyntaxHighlighting::AbstractHighlighter"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-definition",
+                    "KSyntaxHighlighting::Definition"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-definitiondownloader",
+                    "KSyntaxHighlighting::DefinitionDownloader"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-foldingregion",
+                    "KSyntaxHighlighting::FoldingRegion"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-format",
+                    "KSyntaxHighlighting::Format"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-repository",
+                    "KSyntaxHighlighting::Repository"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-state",
+                    "KSyntaxHighlighting::State"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-syntaxhighlighter",
+                    "KSyntaxHighlighting::SyntaxHighlighter"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-theme",
+                    "KSyntaxHighlighting::Theme"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting",
+                    "KSyntaxHighlighting Namespace"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-index",
+                    "KSyntaxHighlighting"
+                ],
+                [
+                    "ksyntaxhighlighting/ksyntaxhighlighting-wildcardmatcher",
+                    "KSyntaxHighlighting::WildcardMatcher Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KSyntaxHighlighting C++ Classes"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "classes": [
+        {
+            "bases": [
+                "plasmaquick/plasmaquick-popupplasmawindow"
+            ],
+            "members": [
+                [
+                    "owner",
+                    "owner() const : QObject *",
+                    "owner"
+                ]
+            ],
+            "name": "ToolTipDialog",
+            "page": "plasmacore/tooltipdialog",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "plasmacore",
+    "sections": [
+        {
+            "description": "",
+            "page": "",
+            "pages": [
+                [
+                    "plasmacore/tooltipdialog",
+                    "ToolTipDialog"
+                ]
+            ],
+            "qml": false,
+            "title": "plasmacore"
+        },
+        {
+            "description": "Plasma Stuff.",
+            "page": "plasmacore/org-kde-plasma-core-qmlmodule",
+            "pages": [
+                [
+                    "plasmacore/org-kde-plasma-core-qmlmodule",
+                    "Plasma Core QML Types"
+                ],
+                [
+                    "plasmacore/qml-defaulttooltip",
+                    "DefaultToolTip"
+                ],
+                [
+                    "plasmacore/qml-dialogbackground",
+                    "DialogBackground"
+                ],
+                [
+                    "plasmacore/qml-org-kde-plasma-core-action",
+                    "Action"
+                ],
+                [
+                    "plasmacore/qml-org-kde-plasma-core-appletpopup",
+                    "AppletPopup"
+                ],
+                [
+                    "plasmacore/qml-org-kde-plasma-core-dialog",
+                    "Dialog"
+                ],
+                [
+                    "plasmacore/qml-org-kde-plasma-core-popupplasmawindow",
+                    "PopupPlasmaWindow"
+                ],
+                [
+                    "plasmacore/qml-org-kde-plasma-core-tooltiparea",
+                    "ToolTipArea"
+                ],
+                [
+                    "plasmacore/qml-org-kde-plasma-core-window",
+                    "Window"
+                ],
+                [
+                    "plasmacore/qml-org-kde-plasma-core-windowthumbnail",
+                    "WindowThumbnail"
+                ]
+            ],
+            "qml": true,
+            "title": "Plasma Core QML Types"
+        }
+    ]
+}

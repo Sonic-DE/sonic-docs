@@ -1,0 +1,315 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ActivitiesModel",
+                    "ActivitiesModel(QObject *)",
+                    "ActivitiesModel"
+                ]
+            ],
+            "name": "KActivities::ActivitiesModel",
+            "page": "plasmaactivities/kactivities-activitiesmodel",
+            "qtBases": [
+                [
+                    "QAbstractListModel",
+                    "https://doc.qt.io/qt-6/qabstractlistmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "activities",
+                    "activities : QStringList",
+                    "activities-prop"
+                ],
+                [
+                    "currentActivity",
+                    "currentActivity : QString",
+                    "currentActivity-prop"
+                ],
+                [
+                    "serviceStatus",
+                    "serviceStatus : ServiceStatus",
+                    "serviceStatus-prop"
+                ],
+                [
+                    "Consumer",
+                    "Consumer(QObject *)",
+                    "Consumer"
+                ],
+                [
+                    "activities",
+                    "activities() const : QStringList",
+                    "activities"
+                ],
+                [
+                    "activitiesChanged",
+                    "activitiesChanged(const QStringList &)",
+                    "activitiesChanged"
+                ],
+                [
+                    "activityAdded",
+                    "activityAdded(const QString &)",
+                    "activityAdded"
+                ],
+                [
+                    "activityRemoved",
+                    "activityRemoved(const QString &)",
+                    "activityRemoved"
+                ],
+                [
+                    "currentActivity",
+                    "currentActivity() const : QString",
+                    "currentActivity"
+                ],
+                [
+                    "currentActivityChanged",
+                    "currentActivityChanged(const QString &)",
+                    "currentActivityChanged"
+                ],
+                [
+                    "serviceStatus",
+                    "serviceStatus() : KActivities::Consumer::ServiceStatus",
+                    "serviceStatus"
+                ],
+                [
+                    "serviceStatusChanged",
+                    "serviceStatusChanged(KActivities::Consumer::ServiceStatus)",
+                    "serviceStatusChanged"
+                ]
+            ],
+            "name": "KActivities::Consumer",
+            "page": "plasmaactivities/kactivities-consumer",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "plasmaactivities/kactivities-consumer"
+            ],
+            "members": [
+                [
+                    "currentActivity",
+                    "currentActivity : QString",
+                    "currentActivity-prop"
+                ],
+                [
+                    "Controller",
+                    "Controller(QObject *)",
+                    "Controller"
+                ],
+                [
+                    "addActivity",
+                    "addActivity(const QString &) : QFuture<QString>",
+                    "addActivity"
+                ],
+                [
+                    "nextActivity",
+                    "nextActivity() : QFuture<void>",
+                    "nextActivity"
+                ],
+                [
+                    "previousActivity",
+                    "previousActivity() : QFuture<void>",
+                    "previousActivity"
+                ],
+                [
+                    "removeActivity",
+                    "removeActivity(const QString &) : QFuture<void>",
+                    "removeActivity"
+                ],
+                [
+                    "setActivityDescription",
+                    "setActivityDescription(const QString &, const QString &) : QFuture<void>",
+                    "setActivityDescription"
+                ],
+                [
+                    "setActivityIcon",
+                    "setActivityIcon(const QString &, const QString &) : QFuture<void>",
+                    "setActivityIcon"
+                ],
+                [
+                    "setActivityName",
+                    "setActivityName(const QString &, const QString &) : QFuture<void>",
+                    "setActivityName"
+                ],
+                [
+                    "setCurrentActivity",
+                    "setCurrentActivity(const QString &) : QFuture<bool>",
+                    "setCurrentActivity"
+                ]
+            ],
+            "name": "KActivities::Controller",
+            "page": "plasmaactivities/kactivities-controller",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "description",
+                    "description : QString",
+                    "description-prop"
+                ],
+                [
+                    "icon",
+                    "icon : QString",
+                    "icon-prop"
+                ],
+                [
+                    "id",
+                    "id : QString",
+                    "id-prop"
+                ],
+                [
+                    "isCurrent",
+                    "isCurrent : bool",
+                    "isCurrent-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "Info",
+                    "Info(const QString &, QObject *)",
+                    "Info"
+                ],
+                [
+                    "added",
+                    "added()",
+                    "added"
+                ],
+                [
+                    "availability",
+                    "availability() const : KActivities::Info::Availability",
+                    "availability"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "descriptionChanged",
+                    "descriptionChanged(const QString &)",
+                    "descriptionChanged"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "iconChanged",
+                    "iconChanged(const QString &)",
+                    "iconChanged"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "infoChanged",
+                    "infoChanged()",
+                    "infoChanged"
+                ],
+                [
+                    "isCurrent",
+                    "isCurrent() const : bool",
+                    "isCurrent"
+                ],
+                [
+                    "isCurrentChanged",
+                    "isCurrentChanged(bool)",
+                    "isCurrentChanged"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "nameChanged",
+                    "nameChanged(const QString &)",
+                    "nameChanged"
+                ],
+                [
+                    "removed",
+                    "removed()",
+                    "removed"
+                ],
+                [
+                    "uri",
+                    "uri() const : QString",
+                    "uri"
+                ]
+            ],
+            "name": "KActivities::Info",
+            "page": "plasmaactivities/kactivities-info",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "plasmaactivities",
+    "sections": [
+        {
+            "description": "Library for interacting with Plasma Activities.",
+            "page": "plasmaactivities/plasmaactivities-module",
+            "pages": [
+                [
+                    "plasmaactivities/plasmaactivities-module",
+                    "Plasma Activities C++ Classes"
+                ],
+                [
+                    "plasmaactivities/kactivities-activitiesmodel",
+                    "KActivities::ActivitiesModel"
+                ],
+                [
+                    "plasmaactivities/kactivities-consumer",
+                    "KActivities::Consumer"
+                ],
+                [
+                    "plasmaactivities/kactivities-controller",
+                    "KActivities::Controller"
+                ],
+                [
+                    "plasmaactivities/kactivities-info",
+                    "KActivities::Info"
+                ],
+                [
+                    "plasmaactivities/kactivities",
+                    "KActivities Namespace"
+                ],
+                [
+                    "plasmaactivities/kactivities-resourceinstance",
+                    "KActivities::ResourceInstance Namespace"
+                ],
+                [
+                    "plasmaactivities/plasmaactivities-index",
+                    "Plasma Activities"
+                ]
+            ],
+            "qml": false,
+            "title": "Plasma Activities C++ Classes"
+        }
+    ]
+}

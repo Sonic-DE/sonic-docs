@@ -1,0 +1,67 @@
+---
+title: "List of All Members for KLineEdit"
+description: "Every member of KLineEdit, including inherited members."
+parent: "kcompletion/klineedit"
+---
+
+# List of All Members for KLineEdit
+
+This is the complete list of members for [KLineEdit](klineedit.md), including inherited members.
+
+- [KLineEdit(QWidget \*)](klineedit.md#KLineEdit)
+- [KLineEdit(const QString &, QWidget \*)](klineedit.md#KLineEdit-1)
+- [aboutToShowContextMenu(QMenu \*)](klineedit.md#aboutToShowContextMenu)
+- [autoSuggest() const : bool](klineedit.md#autoSuggest)
+- [clearButtonClicked()](klineedit.md#clearButtonClicked)
+- [clearButtonUsedSize() const : QSize](klineedit.md#clearButtonUsedSize)
+- [completion()](klineedit.md#completion)
+- [completionBox(bool) : KCompletionBox \*](klineedit.md#completionBox)
+- [completionBoxActivated()](klineedit.md#completionBoxActivated)
+- [completionMode() const : KCompletion::CompletionMode](kcompletionbase.md#completionMode)
+- [completionModeChanged()](klineedit.md#completionModeChanged)
+- [completionObject(bool) : KCompletion \*](kcompletionbase.md#completionObject)
+- [compObj() const : KCompletion \*](kcompletionbase.md#compObj)
+- [delegate() const : KCompletionBase \*](kcompletionbase.md#delegate)
+- [doCompletion(const QString &)](klineedit.md#doCompletion)
+- [emitSignals() const : bool](kcompletionbase.md#emitSignals)
+- [handleSignals() const : bool](kcompletionbase.md#handleSignals)
+- [isCompletionObjectAutoDeleted() const : bool](kcompletionbase.md#isCompletionObjectAutoDeleted)
+- [isSqueezedTextEnabled() const : bool](klineedit.md#isSqueezedTextEnabled)
+- [keyBinding(KCompletionBase::KeyBindingType) const : QList\<QKeySequence\>](kcompletionbase.md#keyBinding)
+- [keyBindingMap() const : KCompletionBase::KeyBindingMap](kcompletionbase.md#keyBindingMap)
+- [makeCompletion()](klineedit.md#makeCompletion)
+- [originalText() const : QString](klineedit.md#originalText)
+- [returnKeyPressed(const QString &)](klineedit.md#returnKeyPressed)
+- [rotateText(KCompletionBase::KeyBindingType)](klineedit.md#rotateText)
+- [setAutoDeleteCompletionObject(bool)](kcompletionbase.md#setAutoDeleteCompletionObject)
+- [setCompletedItems(const QStringList &, bool)](klineedit.md#setCompletedItems)
+- [setCompletedItems(const QStringList &, bool)](kcompletionbase.md#setCompletedItems)
+- [setCompletedText()](klineedit.md#setCompletedText)
+- [setCompletedText(const QString &)](kcompletionbase.md#setCompletedText)
+- [setCompletionBox(KCompletionBox \*)](klineedit.md#setCompletionBox)
+- [setCompletionMode(KCompletion::CompletionMode)](kcompletionbase.md#setCompletionMode)
+- [setCompletionModeDisabled(KCompletion::CompletionMode, bool)](klineedit.md#setCompletionModeDisabled)
+- [setCompletionObject(KCompletion \*, bool)](kcompletionbase.md#setCompletionObject)
+- [setDelegate(KCompletionBase \*)](kcompletionbase.md#setDelegate)
+- [setEmitSignals(bool)](kcompletionbase.md#setEmitSignals)
+- [setEnableSignals(bool)](kcompletionbase.md#setEnableSignals)
+- [setHandleSignals(bool)](kcompletionbase.md#setHandleSignals)
+- [setKeyBinding(KCompletionBase::KeyBindingType, const QList\<QKeySequence\> &) : bool](kcompletionbase.md#setKeyBinding)
+- [setKeyBindingMap(KCompletionBase::KeyBindingMap)](kcompletionbase.md#setKeyBindingMap)
+- [setReadOnly()](klineedit.md#setReadOnly)
+- [setSqueezedText(const QString &)](klineedit.md#setSqueezedText)
+- [setSqueezedTextEnabled(bool)](klineedit.md#setSqueezedTextEnabled)
+- [setTrapReturnKey(bool)](klineedit.md#setTrapReturnKey)
+- [setUrl(const QUrl &)](klineedit.md#setUrl)
+- [setUserSelection(bool)](klineedit.md#setUserSelection)
+- [squeezedTextEnabled : bool](klineedit.md#squeezedTextEnabled-prop)
+- [substringCompletion()](klineedit.md#substringCompletion)
+- [textRotation()](klineedit.md#textRotation)
+- [trapEnterKeyEvent : bool](klineedit.md#trapEnterKeyEvent-prop)
+- [trapReturnKey() const : bool](klineedit.md#trapReturnKey)
+- [urlDropsEnabled() const : bool](klineedit.md#urlDropsEnabled)
+- [useGlobalKeyBindings()](kcompletionbase.md#useGlobalKeyBindings)
+- [userCancelled(const QString &)](klineedit.md#userCancelled)
+- [userText() const : QString](klineedit.md#userText)
+
+KLineEdit also inherits the members of [QLineEdit](https://doc.qt.io/qt-6/qlineedit-members.html).

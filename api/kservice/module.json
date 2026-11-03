@@ -1,0 +1,582 @@
+{
+    "classes": [
+        {
+            "bases": [
+                "kservice/ksycocaentry"
+            ],
+            "members": [
+                [
+                    "KService",
+                    "KService(const QString &)",
+                    "KService"
+                ],
+                [
+                    "KService",
+                    "KService(const KDesktopFile *, const QString &)",
+                    "KService-1"
+                ],
+                [
+                    "KService",
+                    "KService(const QString &, const QString &, const QString &)",
+                    "KService-2"
+                ],
+                [
+                    "actions",
+                    "actions() const : QList<KServiceAction>",
+                    "actions"
+                ],
+                [
+                    "aliasFor",
+                    "aliasFor() const : QString",
+                    "aliasFor"
+                ],
+                [
+                    "allServices",
+                    "allServices() : KService::List",
+                    "allServices"
+                ],
+                [
+                    "allowMultipleFiles",
+                    "allowMultipleFiles() const : bool",
+                    "allowMultipleFiles"
+                ],
+                [
+                    "categories",
+                    "categories() const : QStringList",
+                    "categories"
+                ],
+                [
+                    "comment",
+                    "comment() const : QString",
+                    "comment"
+                ],
+                [
+                    "desktopEntryName",
+                    "desktopEntryName() const : QString",
+                    "desktopEntryName"
+                ],
+                [
+                    "docPath",
+                    "docPath() const : QString",
+                    "docPath"
+                ],
+                [
+                    "exec",
+                    "exec() const : QString",
+                    "exec"
+                ],
+                [
+                    "genericName",
+                    "genericName() const : QString",
+                    "genericName"
+                ],
+                [
+                    "hasMimeType",
+                    "hasMimeType(const QString &) const : bool",
+                    "hasMimeType"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "isApplication",
+                    "isApplication() const : bool",
+                    "isApplication"
+                ],
+                [
+                    "keywords",
+                    "keywords() const : QStringList",
+                    "keywords"
+                ],
+                [
+                    "locateLocal",
+                    "locateLocal() const : QString",
+                    "locateLocal"
+                ],
+                [
+                    "menuId",
+                    "menuId() const : QString",
+                    "menuId"
+                ],
+                [
+                    "mimeTypes",
+                    "mimeTypes() const : QStringList",
+                    "mimeTypes"
+                ],
+                [
+                    "newServicePath",
+                    "newServicePath(bool, const QString &, QString *, const QStringList *) : QString",
+                    "newServicePath"
+                ],
+                [
+                    "noDisplay",
+                    "noDisplay() const : bool",
+                    "noDisplay"
+                ],
+                [
+                    "property",
+                    "property(const QString &) const : template <typename T> T",
+                    "property"
+                ],
+                [
+                    "runOnDiscreteGpu",
+                    "runOnDiscreteGpu() const : bool",
+                    "runOnDiscreteGpu"
+                ],
+                [
+                    "schemeHandlers",
+                    "schemeHandlers() const : QStringList",
+                    "schemeHandlers"
+                ],
+                [
+                    "serviceByDesktopName",
+                    "serviceByDesktopName(const QString &) : KService::Ptr",
+                    "serviceByDesktopName"
+                ],
+                [
+                    "serviceByDesktopPath",
+                    "serviceByDesktopPath(const QString &) : KService::Ptr",
+                    "serviceByDesktopPath"
+                ],
+                [
+                    "serviceByMenuId",
+                    "serviceByMenuId(const QString &) : KService::Ptr",
+                    "serviceByMenuId"
+                ],
+                [
+                    "serviceByStorageId",
+                    "serviceByStorageId(const QString &) : KService::Ptr",
+                    "serviceByStorageId"
+                ],
+                [
+                    "showInCurrentDesktop",
+                    "showInCurrentDesktop() const : bool",
+                    "showInCurrentDesktop"
+                ],
+                [
+                    "showOnCurrentPlatform",
+                    "showOnCurrentPlatform() const : bool",
+                    "showOnCurrentPlatform"
+                ],
+                [
+                    "startupNotify",
+                    "startupNotify() const : std::optional<bool>",
+                    "startupNotify"
+                ],
+                [
+                    "storageId",
+                    "storageId() const : QString",
+                    "storageId"
+                ],
+                [
+                    "substituteUid",
+                    "substituteUid() const : bool",
+                    "substituteUid"
+                ],
+                [
+                    "supportedProtocols",
+                    "supportedProtocols() const : QStringList",
+                    "supportedProtocols"
+                ],
+                [
+                    "terminal",
+                    "terminal() const : bool",
+                    "terminal"
+                ],
+                [
+                    "terminalOptions",
+                    "terminalOptions() const : QString",
+                    "terminalOptions"
+                ],
+                [
+                    "untranslatedGenericName",
+                    "untranslatedGenericName() const : QString",
+                    "untranslatedGenericName"
+                ],
+                [
+                    "untranslatedName",
+                    "untranslatedName() const : QString",
+                    "untranslatedName"
+                ],
+                [
+                    "username",
+                    "username() const : QString",
+                    "username"
+                ],
+                [
+                    "workingDirectory",
+                    "workingDirectory() const : QString",
+                    "workingDirectory"
+                ]
+            ],
+            "name": "KService",
+            "page": "kservice/kservice",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KServiceAction",
+                    "KServiceAction(const QString &, const QString &, const QString &, const QString &, bool, const KServicePtr &)",
+                    "KServiceAction"
+                ],
+                [
+                    "data",
+                    "data() const : QVariant",
+                    "data"
+                ],
+                [
+                    "exec",
+                    "exec() const : QString",
+                    "exec"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "isSeparator",
+                    "isSeparator() const : bool",
+                    "isSeparator"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "noDisplay",
+                    "noDisplay() const : bool",
+                    "noDisplay"
+                ],
+                [
+                    "property",
+                    "property(const QString &) const : template <typename T> T",
+                    "property"
+                ],
+                [
+                    "service",
+                    "service() const : KServicePtr",
+                    "service"
+                ],
+                [
+                    "setData",
+                    "setData(const QVariant &)",
+                    "setData"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ]
+            ],
+            "name": "KServiceAction",
+            "page": "kservice/kserviceaction",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kservice/ksycocaentry"
+            ],
+            "members": [
+                [
+                    "KServiceGroup",
+                    "KServiceGroup(const QString &)",
+                    "KServiceGroup"
+                ],
+                [
+                    "KServiceGroup",
+                    "KServiceGroup(const QString &, const QString &)",
+                    "KServiceGroup-1"
+                ],
+                [
+                    "allowInline",
+                    "allowInline() const : bool",
+                    "allowInline"
+                ],
+                [
+                    "baseGroupName",
+                    "baseGroupName() const : QString",
+                    "baseGroupName"
+                ],
+                [
+                    "caption",
+                    "caption() const : QString",
+                    "caption"
+                ],
+                [
+                    "childCount",
+                    "childCount() const : int",
+                    "childCount"
+                ],
+                [
+                    "childGroup",
+                    "childGroup(const QString &) : KServiceGroup::Ptr",
+                    "childGroup"
+                ],
+                [
+                    "comment",
+                    "comment() const : QString",
+                    "comment"
+                ],
+                [
+                    "directoryEntryPath",
+                    "directoryEntryPath() const : QString",
+                    "directoryEntryPath"
+                ],
+                [
+                    "entries",
+                    "entries(bool) : KServiceGroup::List",
+                    "entries"
+                ],
+                [
+                    "entries",
+                    "entries(bool, bool) : KServiceGroup::List",
+                    "entries-1"
+                ],
+                [
+                    "entries",
+                    "entries(bool, bool, bool, bool) : KServiceGroup::List",
+                    "entries-2"
+                ],
+                [
+                    "group",
+                    "group(const QString &) : KServiceGroup::Ptr",
+                    "group"
+                ],
+                [
+                    "groupEntries",
+                    "groupEntries(KServiceGroup::EntriesOptions) : QList<KServiceGroup::Ptr>",
+                    "groupEntries"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "inlineAlias",
+                    "inlineAlias() const : bool",
+                    "inlineAlias"
+                ],
+                [
+                    "inlineValue",
+                    "inlineValue() const : int",
+                    "inlineValue"
+                ],
+                [
+                    "noDisplay",
+                    "noDisplay() const : bool",
+                    "noDisplay"
+                ],
+                [
+                    "relPath",
+                    "relPath() const : QString",
+                    "relPath"
+                ],
+                [
+                    "root",
+                    "root() : KServiceGroup::Ptr",
+                    "root"
+                ],
+                [
+                    "serviceEntries",
+                    "serviceEntries(KServiceGroup::EntriesOptions) : KService::List",
+                    "serviceEntries"
+                ],
+                [
+                    "setAllowInline",
+                    "setAllowInline(bool)",
+                    "setAllowInline"
+                ],
+                [
+                    "setInlineAlias",
+                    "setInlineAlias(bool)",
+                    "setInlineAlias"
+                ],
+                [
+                    "setInlineValue",
+                    "setInlineValue(int)",
+                    "setInlineValue"
+                ],
+                [
+                    "setShowEmptyMenu",
+                    "setShowEmptyMenu(bool)",
+                    "setShowEmptyMenu"
+                ],
+                [
+                    "setShowInlineHeader",
+                    "setShowInlineHeader(bool)",
+                    "setShowInlineHeader"
+                ],
+                [
+                    "showEmptyMenu",
+                    "showEmptyMenu() const : bool",
+                    "showEmptyMenu"
+                ],
+                [
+                    "showInlineHeader",
+                    "showInlineHeader() const : bool",
+                    "showInlineHeader"
+                ],
+                [
+                    "suppressGenericNames",
+                    "suppressGenericNames() const : QStringList",
+                    "suppressGenericNames"
+                ]
+            ],
+            "name": "KServiceGroup",
+            "page": "kservice/kservicegroup",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "databaseChanged",
+                    "databaseChanged()",
+                    "databaseChanged"
+                ],
+                [
+                    "disableAutoRebuild",
+                    "disableAutoRebuild()",
+                    "disableAutoRebuild"
+                ],
+                [
+                    "ensureCacheValid",
+                    "ensureCacheValid()",
+                    "ensureCacheValid"
+                ],
+                [
+                    "isAvailable",
+                    "isAvailable() : bool",
+                    "isAvailable"
+                ],
+                [
+                    "self",
+                    "self() : KSycoca *",
+                    "self"
+                ],
+                [
+                    "version",
+                    "version() : int",
+                    "version"
+                ]
+            ],
+            "name": "KSycoca",
+            "page": "kservice/ksycoca",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "entryPath",
+                    "entryPath() const : QString",
+                    "entryPath"
+                ],
+                [
+                    "isDeleted",
+                    "isDeleted() const : bool",
+                    "isDeleted"
+                ],
+                [
+                    "isSeparator",
+                    "isSeparator() const : bool",
+                    "isSeparator"
+                ],
+                [
+                    "isType",
+                    "isType(KSycocaType) const : bool",
+                    "isType"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setDeleted",
+                    "setDeleted(bool)",
+                    "setDeleted"
+                ],
+                [
+                    "storageId",
+                    "storageId() const : QString",
+                    "storageId"
+                ]
+            ],
+            "name": "KSycocaEntry",
+            "page": "kservice/ksycocaentry",
+            "qtBases": [
+                [
+                    "QSharedData",
+                    "https://doc.qt.io/qt-6/qshareddata-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kservice",
+    "sections": [
+        {
+            "description": "KService allows to query information about installed applications and their associated file types.",
+            "page": "kservice/kservice-module",
+            "pages": [
+                [
+                    "kservice/kservice-module",
+                    "KService C++ Classes"
+                ],
+                [
+                    "kservice/kservice",
+                    "KService"
+                ],
+                [
+                    "kservice/kserviceaction",
+                    "KServiceAction"
+                ],
+                [
+                    "kservice/kservicegroup",
+                    "KServiceGroup"
+                ],
+                [
+                    "kservice/ksycoca",
+                    "KSycoca"
+                ],
+                [
+                    "kservice/ksycocaentry",
+                    "KSycocaEntry"
+                ],
+                [
+                    "kservice/kapplicationtrader",
+                    "KApplicationTrader Namespace"
+                ],
+                [
+                    "kservice/kservice-index",
+                    "KService"
+                ]
+            ],
+            "qml": false,
+            "title": "KService C++ Classes"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KDBusService",
+                    "KDBusService(KDBusService::StartupOptions, QObject *)",
+                    "KDBusService"
+                ],
+                [
+                    "~KDBusService",
+                    "~KDBusService()",
+                    "dtor.KDBusService"
+                ],
+                [
+                    "activateActionRequested",
+                    "activateActionRequested(const QString &, const QVariant &)",
+                    "activateActionRequested"
+                ],
+                [
+                    "activateRequested",
+                    "activateRequested(const QStringList &, const QString &)",
+                    "activateRequested"
+                ],
+                [
+                    "errorMessage",
+                    "errorMessage() const : QString",
+                    "errorMessage"
+                ],
+                [
+                    "isRegistered",
+                    "isRegistered() const : bool",
+                    "isRegistered"
+                ],
+                [
+                    "openRequested",
+                    "openRequested(const QList<QUrl> &)",
+                    "openRequested"
+                ],
+                [
+                    "serviceName",
+                    "serviceName() const : QString",
+                    "serviceName"
+                ],
+                [
+                    "setExitValue",
+                    "setExitValue(int)",
+                    "setExitValue"
+                ],
+                [
+                    "unregister",
+                    "unregister()",
+                    "unregister"
+                ]
+            ],
+            "name": "KDBusService",
+            "page": "kdbusaddons/kdbusservice",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KDEDModule",
+                    "KDEDModule(QObject *)",
+                    "KDEDModule"
+                ],
+                [
+                    "moduleForMessage",
+                    "moduleForMessage(const QDBusMessage &) : QString",
+                    "moduleForMessage"
+                ],
+                [
+                    "moduleName",
+                    "moduleName() const : QString",
+                    "moduleName"
+                ],
+                [
+                    "moduleRegistered",
+                    "moduleRegistered(const QDBusObjectPath &)",
+                    "moduleRegistered"
+                ],
+                [
+                    "setModuleName",
+                    "setModuleName(const QString &)",
+                    "setModuleName"
+                ],
+                [
+                    "windowRegistered",
+                    "windowRegistered(qlonglong)",
+                    "windowRegistered"
+                ],
+                [
+                    "windowUnregistered",
+                    "windowUnregistered(qlonglong)",
+                    "windowUnregistered"
+                ]
+            ],
+            "name": "KDEDModule",
+            "page": "kdbusaddons/kdedmodule",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KUpdateLaunchEnvironmentJob",
+                    "KUpdateLaunchEnvironmentJob(const QProcessEnvironment &)",
+                    "KUpdateLaunchEnvironmentJob"
+                ],
+                [
+                    "finished",
+                    "finished()",
+                    "finished"
+                ]
+            ],
+            "name": "KUpdateLaunchEnvironmentJob",
+            "page": "kdbusaddons/kupdatelaunchenvironmentjob",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kdbusaddons",
+    "sections": [
+        {
+            "description": "KDBusAddons provides convenience classes on top of QtDBus, as well as an API to create KDED modules.",
+            "page": "kdbusaddons/kdbusaddons-module",
+            "pages": [
+                [
+                    "kdbusaddons/kdbusaddons-module",
+                    "KDBusAddons C++ Classes"
+                ],
+                [
+                    "kdbusaddons/kdbusservice",
+                    "KDBusService"
+                ],
+                [
+                    "kdbusaddons/kdedmodule",
+                    "KDEDModule"
+                ],
+                [
+                    "kdbusaddons/kupdatelaunchenvironmentjob",
+                    "KUpdateLaunchEnvironmentJob"
+                ],
+                [
+                    "kdbusaddons/kdbusaddons-index",
+                    "KDBusAddons"
+                ]
+            ],
+            "qml": false,
+            "title": "KDBusAddons C++ Classes"
+        }
+    ]
+}

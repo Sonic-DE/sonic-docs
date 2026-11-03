@@ -1,0 +1,1476 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "backgroundHints",
+                    "backgroundHints : Plasma::Types::BackgroundHints",
+                    "backgroundHints-prop"
+                ],
+                [
+                    "busy",
+                    "busy : bool",
+                    "busy-prop"
+                ],
+                [
+                    "configuration",
+                    "configuration : KConfigPropertyMap* const",
+                    "configuration-prop"
+                ],
+                [
+                    "configurationRequired",
+                    "configurationRequired : bool",
+                    "configurationRequired-prop"
+                ],
+                [
+                    "constraintHints",
+                    "constraintHints : Plasma::Applet::ConstraintHints",
+                    "constraintHints-prop"
+                ],
+                [
+                    "containment",
+                    "containment : Plasma::Containment*",
+                    "containment-prop"
+                ],
+                [
+                    "containmentDisplayHints",
+                    "containmentDisplayHints : Plasma::Types::ContainmentDisplayHints",
+                    "containmentDisplayHints-prop"
+                ],
+                [
+                    "contextualActions",
+                    "contextualActions : QQmlListProperty<QAction>",
+                    "contextualActions-prop"
+                ],
+                [
+                    "effectiveBackgroundHints",
+                    "effectiveBackgroundHints : Plasma::Types::BackgroundHints",
+                    "effectiveBackgroundHints-prop"
+                ],
+                [
+                    "formFactor",
+                    "formFactor : Plasma::Types::FormFactor",
+                    "formFactor-prop"
+                ],
+                [
+                    "globalShortcut",
+                    "globalShortcut : QKeySequence",
+                    "globalShortcut-prop"
+                ],
+                [
+                    "hasConfigurationInterface",
+                    "hasConfigurationInterface : bool",
+                    "hasConfigurationInterface-prop"
+                ],
+                [
+                    "icon",
+                    "icon : QString",
+                    "icon-prop"
+                ],
+                [
+                    "id",
+                    "id : const uint",
+                    "id-prop"
+                ],
+                [
+                    "immutability",
+                    "immutability : Plasma::Types::ImmutabilityType",
+                    "immutability-prop"
+                ],
+                [
+                    "immutable",
+                    "immutable : bool",
+                    "immutable-prop"
+                ],
+                [
+                    "isContainment",
+                    "isContainment : const bool",
+                    "isContainment-prop"
+                ],
+                [
+                    "location",
+                    "location : Plasma::Types::Location",
+                    "location-prop"
+                ],
+                [
+                    "metaData",
+                    "metaData : const KPluginMetaData",
+                    "metaData-prop"
+                ],
+                [
+                    "pluginName",
+                    "pluginName : const QString",
+                    "pluginName-prop"
+                ],
+                [
+                    "status",
+                    "status : Plasma::Types::ItemStatus",
+                    "status-prop"
+                ],
+                [
+                    "title",
+                    "title : QString",
+                    "title-prop"
+                ],
+                [
+                    "userBackgroundHints",
+                    "userBackgroundHints : Plasma::Types::BackgroundHints",
+                    "userBackgroundHints-prop"
+                ],
+                [
+                    "userConfiguring",
+                    "userConfiguring : bool",
+                    "userConfiguring-prop"
+                ],
+                [
+                    "Applet",
+                    "Applet(QObject *, const KPluginMetaData &, const QVariantList &)",
+                    "Applet"
+                ],
+                [
+                    "activated",
+                    "activated()",
+                    "activated"
+                ],
+                [
+                    "appletDeleted",
+                    "appletDeleted(Plasma::Applet *)",
+                    "appletDeleted"
+                ],
+                [
+                    "backgroundHints",
+                    "backgroundHints() const : Plasma::Types::BackgroundHints",
+                    "backgroundHints"
+                ],
+                [
+                    "backgroundHintsChanged",
+                    "backgroundHintsChanged()",
+                    "backgroundHintsChanged"
+                ],
+                [
+                    "busyChanged",
+                    "busyChanged(bool)",
+                    "busyChanged"
+                ],
+                [
+                    "config",
+                    "config() const : KConfigGroup",
+                    "config"
+                ],
+                [
+                    "configChanged",
+                    "configChanged()",
+                    "configChanged"
+                ],
+                [
+                    "configNeedsSaving",
+                    "configNeedsSaving()",
+                    "configNeedsSaving"
+                ],
+                [
+                    "configScheme",
+                    "configScheme() const : KConfigLoader *",
+                    "configScheme"
+                ],
+                [
+                    "configuration",
+                    "configuration() : KConfigPropertyMap *",
+                    "configuration"
+                ],
+                [
+                    "configurationRequired",
+                    "configurationRequired() const : bool",
+                    "configurationRequired"
+                ],
+                [
+                    "configurationRequiredChanged",
+                    "configurationRequiredChanged(bool, const QString &)",
+                    "configurationRequiredChanged"
+                ],
+                [
+                    "configurationRequiredReason",
+                    "configurationRequiredReason() const : QString",
+                    "configurationRequiredReason"
+                ],
+                [
+                    "constraintHints",
+                    "constraintHints() const : Plasma::Applet::ConstraintHints",
+                    "constraintHints"
+                ],
+                [
+                    "constraintHintsChanged",
+                    "constraintHintsChanged(Plasma::Applet::ConstraintHints)",
+                    "constraintHintsChanged"
+                ],
+                [
+                    "constraintsEvent",
+                    "constraintsEvent(Plasma::Applet::Constraints)",
+                    "constraintsEvent"
+                ],
+                [
+                    "containment",
+                    "containment() const : Plasma::Containment *",
+                    "containment"
+                ],
+                [
+                    "containmentChanged",
+                    "containmentChanged(Plasma::Containment *)",
+                    "containmentChanged"
+                ],
+                [
+                    "containmentDisplayHints",
+                    "containmentDisplayHints() const : Types::ContainmentDisplayHints",
+                    "containmentDisplayHints"
+                ],
+                [
+                    "containmentDisplayHintsChanged",
+                    "containmentDisplayHintsChanged(Plasma::Types::ContainmentDisplayHints)",
+                    "containmentDisplayHintsChanged"
+                ],
+                [
+                    "contextualActions",
+                    "contextualActions() : QList<QAction *>",
+                    "contextualActions"
+                ],
+                [
+                    "contextualActionsAboutToShow",
+                    "contextualActionsAboutToShow()",
+                    "contextualActionsAboutToShow"
+                ],
+                [
+                    "contextualActionsChanged",
+                    "contextualActionsChanged(const QList<QAction *> &)",
+                    "contextualActionsChanged"
+                ],
+                [
+                    "destroy",
+                    "destroy()",
+                    "destroy"
+                ],
+                [
+                    "destroyed",
+                    "destroyed() const : bool",
+                    "destroyed"
+                ],
+                [
+                    "destroyedChanged",
+                    "destroyedChanged(bool)",
+                    "destroyedChanged"
+                ],
+                [
+                    "effectiveBackgroundHints",
+                    "effectiveBackgroundHints() const : Plasma::Types::BackgroundHints",
+                    "effectiveBackgroundHints"
+                ],
+                [
+                    "effectiveBackgroundHintsChanged",
+                    "effectiveBackgroundHintsChanged()",
+                    "effectiveBackgroundHintsChanged"
+                ],
+                [
+                    "failedToLaunch",
+                    "failedToLaunch() const : bool",
+                    "failedToLaunch"
+                ],
+                [
+                    "flushPendingConstraintsEvents",
+                    "flushPendingConstraintsEvents()",
+                    "flushPendingConstraintsEvents"
+                ],
+                [
+                    "formFactor",
+                    "formFactor() const : Plasma::Types::FormFactor",
+                    "formFactor"
+                ],
+                [
+                    "formFactorChanged",
+                    "formFactorChanged(Plasma::Types::FormFactor)",
+                    "formFactorChanged"
+                ],
+                [
+                    "globalConfig",
+                    "globalConfig() const : KConfigGroup",
+                    "globalConfig"
+                ],
+                [
+                    "globalShortcut",
+                    "globalShortcut() const : QKeySequence",
+                    "globalShortcut"
+                ],
+                [
+                    "globalShortcutChanged",
+                    "globalShortcutChanged(const QKeySequence &)",
+                    "globalShortcutChanged"
+                ],
+                [
+                    "hasConfigurationInterface",
+                    "hasConfigurationInterface() const : bool",
+                    "hasConfigurationInterface"
+                ],
+                [
+                    "hasConfigurationInterfaceChanged",
+                    "hasConfigurationInterfaceChanged(bool)",
+                    "hasConfigurationInterfaceChanged"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "iconChanged",
+                    "iconChanged(const QString &)",
+                    "iconChanged"
+                ],
+                [
+                    "id",
+                    "id() const : uint",
+                    "id"
+                ],
+                [
+                    "immutability",
+                    "immutability() const : Plasma::Types::ImmutabilityType",
+                    "immutability"
+                ],
+                [
+                    "immutabilityChanged",
+                    "immutabilityChanged(Plasma::Types::ImmutabilityType)",
+                    "immutabilityChanged"
+                ],
+                [
+                    "immutable",
+                    "immutable() const : bool",
+                    "immutable"
+                ],
+                [
+                    "init",
+                    "init()",
+                    "init"
+                ],
+                [
+                    "internalAction",
+                    "internalAction(const QString &) const : QAction *",
+                    "internalAction"
+                ],
+                [
+                    "internalActions",
+                    "internalActions() const : QList<QAction *>",
+                    "internalActions"
+                ],
+                [
+                    "internalActionsChanged",
+                    "internalActionsChanged(const QList<QAction *> &)",
+                    "internalActionsChanged"
+                ],
+                [
+                    "isBusy",
+                    "isBusy() const : bool",
+                    "isBusy"
+                ],
+                [
+                    "isContainment",
+                    "isContainment() const : bool",
+                    "isContainment"
+                ],
+                [
+                    "isUserConfiguring",
+                    "isUserConfiguring() const : bool",
+                    "isUserConfiguring"
+                ],
+                [
+                    "launchErrorMessage",
+                    "launchErrorMessage() const : QString",
+                    "launchErrorMessage"
+                ],
+                [
+                    "location",
+                    "location() const : Plasma::Types::Location",
+                    "location"
+                ],
+                [
+                    "locationChanged",
+                    "locationChanged(Plasma::Types::Location)",
+                    "locationChanged"
+                ],
+                [
+                    "pluginMetaData",
+                    "pluginMetaData() const : KPluginMetaData",
+                    "pluginMetaData"
+                ],
+                [
+                    "pluginName",
+                    "pluginName() const : QString",
+                    "pluginName"
+                ],
+                [
+                    "removeInternalAction",
+                    "removeInternalAction(const QString &)",
+                    "removeInternalAction"
+                ],
+                [
+                    "restore",
+                    "restore(KConfigGroup &)",
+                    "restore"
+                ],
+                [
+                    "save",
+                    "save(KConfigGroup &) const",
+                    "save"
+                ],
+                [
+                    "saveState",
+                    "saveState(KConfigGroup &) const",
+                    "saveState"
+                ],
+                [
+                    "secondaryActivated",
+                    "secondaryActivated()",
+                    "secondaryActivated"
+                ],
+                [
+                    "setBackgroundHints",
+                    "setBackgroundHints(Plasma::Types::BackgroundHints)",
+                    "setBackgroundHints"
+                ],
+                [
+                    "setBusy",
+                    "setBusy(bool)",
+                    "setBusy"
+                ],
+                [
+                    "setConfigurationRequired",
+                    "setConfigurationRequired(bool, const QString &)",
+                    "setConfigurationRequired"
+                ],
+                [
+                    "setConstraintHints",
+                    "setConstraintHints(Plasma::Applet::ConstraintHints)",
+                    "setConstraintHints"
+                ],
+                [
+                    "setGlobalShortcut",
+                    "setGlobalShortcut(const QKeySequence &)",
+                    "setGlobalShortcut"
+                ],
+                [
+                    "setHasConfigurationInterface",
+                    "setHasConfigurationInterface(bool)",
+                    "setHasConfigurationInterface"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(const QString &)",
+                    "setIcon"
+                ],
+                [
+                    "setImmutability",
+                    "setImmutability(const Plasma::Types::ImmutabilityType)",
+                    "setImmutability"
+                ],
+                [
+                    "setInternalAction",
+                    "setInternalAction(const QString &, QAction *)",
+                    "setInternalAction"
+                ],
+                [
+                    "setLaunchErrorMessage",
+                    "setLaunchErrorMessage(const QString &)",
+                    "setLaunchErrorMessage"
+                ],
+                [
+                    "setStatus",
+                    "setStatus(const Plasma::Types::ItemStatus)",
+                    "setStatus"
+                ],
+                [
+                    "setTitle",
+                    "setTitle(const QString &)",
+                    "setTitle"
+                ],
+                [
+                    "setUserBackgroundHints",
+                    "setUserBackgroundHints(Plasma::Types::BackgroundHints)",
+                    "setUserBackgroundHints"
+                ],
+                [
+                    "setUserConfiguring",
+                    "setUserConfiguring(bool)",
+                    "setUserConfiguring"
+                ],
+                [
+                    "startupArguments",
+                    "startupArguments() const : QVariantList",
+                    "startupArguments"
+                ],
+                [
+                    "status",
+                    "status() const : Plasma::Types::ItemStatus",
+                    "status"
+                ],
+                [
+                    "statusChanged",
+                    "statusChanged(Plasma::Types::ItemStatus)",
+                    "statusChanged"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "titleChanged",
+                    "titleChanged(const QString &)",
+                    "titleChanged"
+                ],
+                [
+                    "translationDomain",
+                    "translationDomain() const : QString",
+                    "translationDomain"
+                ],
+                [
+                    "updateConstraints",
+                    "updateConstraints(Plasma::Applet::Constraints)",
+                    "updateConstraints"
+                ],
+                [
+                    "userBackgroundHints",
+                    "userBackgroundHints() const : Plasma::Types::BackgroundHints",
+                    "userBackgroundHints"
+                ],
+                [
+                    "userBackgroundHintsChanged",
+                    "userBackgroundHintsChanged()",
+                    "userBackgroundHintsChanged"
+                ],
+                [
+                    "userConfiguringChanged",
+                    "userConfiguringChanged(bool)",
+                    "userConfiguringChanged"
+                ]
+            ],
+            "name": "Plasma::Applet",
+            "page": "plasma/plasma-applet",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "plasma/plasma-applet"
+            ],
+            "members": [
+                [
+                    "activity",
+                    "activity : QString",
+                    "activity-prop"
+                ],
+                [
+                    "activityName",
+                    "activityName : QString",
+                    "activityName-prop"
+                ],
+                [
+                    "applets",
+                    "applets : QList<Plasma::Applet *>",
+                    "applets-prop"
+                ],
+                [
+                    "availableScreenRect",
+                    "availableScreenRect : QRectF",
+                    "availableScreenRect-prop"
+                ],
+                [
+                    "availableScreenRegion",
+                    "availableScreenRegion : QList<QRectF>",
+                    "availableScreenRegion-prop"
+                ],
+                [
+                    "containmentDisplayHints",
+                    "containmentDisplayHints : Plasma::Types::ContainmentDisplayHints",
+                    "containmentDisplayHints-prop"
+                ],
+                [
+                    "containmentType",
+                    "containmentType : Plasma::Containment::Type",
+                    "containmentType-prop"
+                ],
+                [
+                    "corona",
+                    "corona : Plasma::Corona* const",
+                    "corona-prop"
+                ],
+                [
+                    "isUiReady",
+                    "isUiReady : bool",
+                    "isUiReady-prop"
+                ],
+                [
+                    "screen",
+                    "screen : int",
+                    "screen-prop"
+                ],
+                [
+                    "screenGeometry",
+                    "screenGeometry : QRectF",
+                    "screenGeometry-prop"
+                ],
+                [
+                    "wallpaperGraphicsObject",
+                    "wallpaperGraphicsObject : QObject*",
+                    "wallpaperGraphicsObject-prop"
+                ],
+                [
+                    "wallpaperPlugin",
+                    "wallpaperPlugin : QString",
+                    "wallpaperPlugin-prop"
+                ],
+                [
+                    "Containment",
+                    "Containment(QObject *, const KPluginMetaData &, const QVariantList &)",
+                    "Containment"
+                ],
+                [
+                    "activity",
+                    "activity() const : QString",
+                    "activity"
+                ],
+                [
+                    "activityChanged",
+                    "activityChanged(const QString &)",
+                    "activityChanged"
+                ],
+                [
+                    "activityName",
+                    "activityName() const : QString",
+                    "activityName"
+                ],
+                [
+                    "activityNameChanged",
+                    "activityNameChanged(const QString &)",
+                    "activityNameChanged"
+                ],
+                [
+                    "addApplet",
+                    "addApplet(Plasma::Applet *, const QRectF &)",
+                    "addApplet"
+                ],
+                [
+                    "appletAboutToBeAdded",
+                    "appletAboutToBeAdded(Plasma::Applet *, const QRectF &)",
+                    "appletAboutToBeAdded"
+                ],
+                [
+                    "appletAboutToBeRemoved",
+                    "appletAboutToBeRemoved(Plasma::Applet *)",
+                    "appletAboutToBeRemoved"
+                ],
+                [
+                    "appletAdded",
+                    "appletAdded(Plasma::Applet *, const QRectF &)",
+                    "appletAdded"
+                ],
+                [
+                    "appletAlternativesRequested",
+                    "appletAlternativesRequested(Plasma::Applet *)",
+                    "appletAlternativesRequested"
+                ],
+                [
+                    "appletCreated",
+                    "appletCreated(Plasma::Applet *, const QRectF &)",
+                    "appletCreated"
+                ],
+                [
+                    "appletRemoved",
+                    "appletRemoved(Plasma::Applet *)",
+                    "appletRemoved"
+                ],
+                [
+                    "applets",
+                    "applets() const : QList<Plasma::Applet *>",
+                    "applets"
+                ],
+                [
+                    "appletsChanged",
+                    "appletsChanged()",
+                    "appletsChanged"
+                ],
+                [
+                    "availableRelativeScreenRect",
+                    "availableRelativeScreenRect() const : QRectF",
+                    "availableRelativeScreenRect"
+                ],
+                [
+                    "availableRelativeScreenRectChanged",
+                    "availableRelativeScreenRectChanged(const QRectF &)",
+                    "availableRelativeScreenRectChanged"
+                ],
+                [
+                    "availableRelativeScreenRegion",
+                    "availableRelativeScreenRegion() const : QList<QRectF>",
+                    "availableRelativeScreenRegion"
+                ],
+                [
+                    "availableRelativeScreenRegionChanged",
+                    "availableRelativeScreenRegionChanged(const QList<QRectF> &)",
+                    "availableRelativeScreenRegionChanged"
+                ],
+                [
+                    "configureRequested",
+                    "configureRequested(Plasma::Applet *)",
+                    "configureRequested"
+                ],
+                [
+                    "containmentActions",
+                    "containmentActions() : QHash<QString, Plasma::ContainmentActions *> &",
+                    "containmentActions"
+                ],
+                [
+                    "containmentType",
+                    "containmentType() const : Plasma::Containment::Type",
+                    "containmentType"
+                ],
+                [
+                    "containmentTypeChanged",
+                    "containmentTypeChanged()",
+                    "containmentTypeChanged"
+                ],
+                [
+                    "corona",
+                    "corona() const : Plasma::Corona *",
+                    "corona"
+                ],
+                [
+                    "createApplet",
+                    "createApplet(const QString &, const QVariantList &, const QRectF &) : Plasma::Applet *",
+                    "createApplet"
+                ],
+                [
+                    "formFactorChanged",
+                    "formFactorChanged(Plasma::Types::FormFactor)",
+                    "formFactorChanged"
+                ],
+                [
+                    "isUiReady",
+                    "isUiReady() const : bool",
+                    "isUiReady"
+                ],
+                [
+                    "lastScreen",
+                    "lastScreen() const : int",
+                    "lastScreen"
+                ],
+                [
+                    "locationChanged",
+                    "locationChanged(Plasma::Types::Location)",
+                    "locationChanged"
+                ],
+                [
+                    "restoreContents",
+                    "restoreContents(KConfigGroup &)",
+                    "restoreContents"
+                ],
+                [
+                    "saveContents",
+                    "saveContents(KConfigGroup &) const",
+                    "saveContents"
+                ],
+                [
+                    "screen",
+                    "screen() const : int",
+                    "screen"
+                ],
+                [
+                    "screenChanged",
+                    "screenChanged(int)",
+                    "screenChanged"
+                ],
+                [
+                    "screenGeometry",
+                    "screenGeometry() const : QRectF",
+                    "screenGeometry"
+                ],
+                [
+                    "screenGeometryChanged",
+                    "screenGeometryChanged(const QRectF &)",
+                    "screenGeometryChanged"
+                ],
+                [
+                    "setActivity",
+                    "setActivity(const QString &)",
+                    "setActivity"
+                ],
+                [
+                    "setContainmentActions",
+                    "setContainmentActions(const QString &, const QString &)",
+                    "setContainmentActions"
+                ],
+                [
+                    "setContainmentDisplayHints",
+                    "setContainmentDisplayHints(Plasma::Types::ContainmentDisplayHints)",
+                    "setContainmentDisplayHints"
+                ],
+                [
+                    "setFormFactor",
+                    "setFormFactor(Plasma::Types::FormFactor)",
+                    "setFormFactor"
+                ],
+                [
+                    "setLocation",
+                    "setLocation(Plasma::Types::Location)",
+                    "setLocation"
+                ],
+                [
+                    "setWallpaperPlugin",
+                    "setWallpaperPlugin(const QString &)",
+                    "setWallpaperPlugin"
+                ],
+                [
+                    "showAddWidgetsInterface",
+                    "showAddWidgetsInterface(const QPointF &)",
+                    "showAddWidgetsInterface"
+                ],
+                [
+                    "uiReadyChanged",
+                    "uiReadyChanged(bool)",
+                    "uiReadyChanged"
+                ],
+                [
+                    "wallpaperGraphicsObjectChanged",
+                    "wallpaperGraphicsObjectChanged()",
+                    "wallpaperGraphicsObjectChanged"
+                ],
+                [
+                    "wallpaperPlugin",
+                    "wallpaperPlugin() const : QString",
+                    "wallpaperPlugin"
+                ],
+                [
+                    "wallpaperPluginChanged",
+                    "wallpaperPluginChanged()",
+                    "wallpaperPluginChanged"
+                ]
+            ],
+            "name": "Plasma::Containment",
+            "page": "plasma/plasma-containment",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ContainmentActions",
+                    "ContainmentActions(QObject *)",
+                    "ContainmentActions"
+                ],
+                [
+                    "ContainmentActions",
+                    "ContainmentActions(QObject *, const QVariantList &)",
+                    "ContainmentActions-1"
+                ],
+                [
+                    "configurationAccepted",
+                    "configurationAccepted()",
+                    "configurationAccepted"
+                ],
+                [
+                    "containment",
+                    "containment() : Plasma::Containment *",
+                    "containment"
+                ],
+                [
+                    "contextualActions",
+                    "contextualActions() : QList<QAction *>",
+                    "contextualActions"
+                ],
+                [
+                    "createConfigurationInterface",
+                    "createConfigurationInterface(QWidget *) : QWidget *",
+                    "createConfigurationInterface"
+                ],
+                [
+                    "eventToString",
+                    "eventToString(QEvent *) : QString",
+                    "eventToString"
+                ],
+                [
+                    "hasConfigurationInterface",
+                    "hasConfigurationInterface() const : bool",
+                    "hasConfigurationInterface"
+                ],
+                [
+                    "id",
+                    "id() const : QString",
+                    "id"
+                ],
+                [
+                    "metadata",
+                    "metadata() const : KPluginMetaData",
+                    "metadata"
+                ],
+                [
+                    "performNextAction",
+                    "performNextAction()",
+                    "performNextAction"
+                ],
+                [
+                    "performPreviousAction",
+                    "performPreviousAction()",
+                    "performPreviousAction"
+                ],
+                [
+                    "restore",
+                    "restore(const KConfigGroup &)",
+                    "restore"
+                ],
+                [
+                    "save",
+                    "save(KConfigGroup &)",
+                    "save"
+                ],
+                [
+                    "setContainment",
+                    "setContainment(Plasma::Containment *)",
+                    "setContainment"
+                ]
+            ],
+            "name": "Plasma::ContainmentActions",
+            "page": "plasma/plasma-containmentactions",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "editMode",
+                    "editMode : bool",
+                    "editMode-prop"
+                ],
+                [
+                    "isStartupCompleted",
+                    "isStartupCompleted : bool",
+                    "isStartupCompleted-prop"
+                ],
+                [
+                    "kPackage",
+                    "kPackage : KPackage::Package",
+                    "kPackage-prop"
+                ],
+                [
+                    "Corona",
+                    "Corona(QObject *)",
+                    "Corona"
+                ],
+                [
+                    "action",
+                    "action(const QString &) const : QAction *",
+                    "action"
+                ],
+                [
+                    "actions",
+                    "actions() const : QList<QAction *>",
+                    "actions"
+                ],
+                [
+                    "availableScreenRect",
+                    "availableScreenRect(int) const : QRect",
+                    "availableScreenRect"
+                ],
+                [
+                    "availableScreenRectChanged",
+                    "availableScreenRectChanged(int)",
+                    "availableScreenRectChanged"
+                ],
+                [
+                    "availableScreenRegion",
+                    "availableScreenRegion(int) const : QRegion",
+                    "availableScreenRegion"
+                ],
+                [
+                    "availableScreenRegionChanged",
+                    "availableScreenRegionChanged(int)",
+                    "availableScreenRegionChanged"
+                ],
+                [
+                    "config",
+                    "config() const : KSharedConfig::Ptr",
+                    "config"
+                ],
+                [
+                    "configSynced",
+                    "configSynced()",
+                    "configSynced"
+                ],
+                [
+                    "containmentAdded",
+                    "containmentAdded(Plasma::Containment *)",
+                    "containmentAdded"
+                ],
+                [
+                    "containmentCreated",
+                    "containmentCreated(Plasma::Containment *)",
+                    "containmentCreated"
+                ],
+                [
+                    "containmentForScreen",
+                    "containmentForScreen(int, const QString &, const QString &, const QVariantList &) : Plasma::Containment *",
+                    "containmentForScreen"
+                ],
+                [
+                    "containmentUiReadyChanged",
+                    "containmentUiReadyChanged(Plasma::Containment *, bool)",
+                    "containmentUiReadyChanged"
+                ],
+                [
+                    "containments",
+                    "containments() const : QList<Plasma::Containment *>",
+                    "containments"
+                ],
+                [
+                    "containmentsForActivity",
+                    "containmentsForActivity(const QString &) : QList<Plasma::Containment *>",
+                    "containmentsForActivity"
+                ],
+                [
+                    "containmentsForScreen",
+                    "containmentsForScreen(int) : QList<Plasma::Containment *>",
+                    "containmentsForScreen"
+                ],
+                [
+                    "createContainment",
+                    "createContainment(const QString &, const QVariantList &) : Plasma::Containment *",
+                    "createContainment"
+                ],
+                [
+                    "createContainmentDelayed",
+                    "createContainmentDelayed(const QString &, const QVariantList &) : Plasma::Containment *",
+                    "createContainmentDelayed"
+                ],
+                [
+                    "editModeChanged",
+                    "editModeChanged(bool)",
+                    "editModeChanged"
+                ],
+                [
+                    "exportLayout",
+                    "exportLayout(KConfigGroup &, QList<Plasma::Containment *>)",
+                    "exportLayout"
+                ],
+                [
+                    "freeEdges",
+                    "freeEdges(int) const : QList<Plasma::Types::Location>",
+                    "freeEdges"
+                ],
+                [
+                    "immutability",
+                    "immutability() const : Plasma::Types::ImmutabilityType",
+                    "immutability"
+                ],
+                [
+                    "immutabilityChanged",
+                    "immutabilityChanged(Plasma::Types::ImmutabilityType)",
+                    "immutabilityChanged"
+                ],
+                [
+                    "immutable",
+                    "immutable() const : bool",
+                    "immutable"
+                ],
+                [
+                    "importLayout",
+                    "importLayout(const KConfigGroup &) : QList<Plasma::Containment *>",
+                    "importLayout"
+                ],
+                [
+                    "isEditMode",
+                    "isEditMode() const : bool",
+                    "isEditMode"
+                ],
+                [
+                    "isStartupCompleted",
+                    "isStartupCompleted() const : bool",
+                    "isStartupCompleted"
+                ],
+                [
+                    "kPackage",
+                    "kPackage() const : KPackage::Package",
+                    "kPackage"
+                ],
+                [
+                    "kPackageChanged",
+                    "kPackageChanged(const KPackage::Package &)",
+                    "kPackageChanged"
+                ],
+                [
+                    "loadDefaultLayout",
+                    "loadDefaultLayout()",
+                    "loadDefaultLayout"
+                ],
+                [
+                    "loadLayout",
+                    "loadLayout(const QString &)",
+                    "loadLayout"
+                ],
+                [
+                    "numScreens",
+                    "numScreens() const : int",
+                    "numScreens"
+                ],
+                [
+                    "removeAction",
+                    "removeAction(const QString &)",
+                    "removeAction"
+                ],
+                [
+                    "requestConfigSync",
+                    "requestConfigSync()",
+                    "requestConfigSync"
+                ],
+                [
+                    "requireConfigSync",
+                    "requireConfigSync()",
+                    "requireConfigSync"
+                ],
+                [
+                    "saveLayout",
+                    "saveLayout(const QString &) const",
+                    "saveLayout"
+                ],
+                [
+                    "screenAdded",
+                    "screenAdded(int)",
+                    "screenAdded"
+                ],
+                [
+                    "screenForContainment",
+                    "screenForContainment(const Plasma::Containment *) const : int",
+                    "screenForContainment"
+                ],
+                [
+                    "screenGeometry",
+                    "screenGeometry(int) const : QRect",
+                    "screenGeometry"
+                ],
+                [
+                    "screenGeometryChanged",
+                    "screenGeometryChanged(int)",
+                    "screenGeometryChanged"
+                ],
+                [
+                    "screenOwnerChanged",
+                    "screenOwnerChanged(int)",
+                    "screenOwnerChanged"
+                ],
+                [
+                    "screenRemoved",
+                    "screenRemoved(int)",
+                    "screenRemoved"
+                ],
+                [
+                    "setAction",
+                    "setAction(const QString &, QAction *)",
+                    "setAction"
+                ],
+                [
+                    "setEditMode",
+                    "setEditMode(bool)",
+                    "setEditMode"
+                ],
+                [
+                    "setImmutability",
+                    "setImmutability(const Plasma::Types::ImmutabilityType)",
+                    "setImmutability"
+                ],
+                [
+                    "setKPackage",
+                    "setKPackage(const KPackage::Package &)",
+                    "setKPackage"
+                ],
+                [
+                    "startupCompleted",
+                    "startupCompleted()",
+                    "startupCompleted"
+                ]
+            ],
+            "name": "Plasma::Corona",
+            "page": "plasma/plasma-corona",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "listAppletMetaData",
+                    "listAppletMetaData(const QString &) : QList<KPluginMetaData>",
+                    "listAppletMetaData"
+                ],
+                [
+                    "listAppletMetaDataForMimeType",
+                    "listAppletMetaDataForMimeType(const QString &) : QList<KPluginMetaData>",
+                    "listAppletMetaDataForMimeType"
+                ],
+                [
+                    "listAppletMetaDataForUrl",
+                    "listAppletMetaDataForUrl(const QUrl &) : QList<KPluginMetaData>",
+                    "listAppletMetaDataForUrl"
+                ],
+                [
+                    "listContainmentActionsMetaData",
+                    "listContainmentActionsMetaData(const QString &) : QList<KPluginMetaData>",
+                    "listContainmentActionsMetaData"
+                ],
+                [
+                    "listContainmentsMetaData",
+                    "listContainmentsMetaData(std::function<bool (const KPluginMetaData &)>) : QList<KPluginMetaData>",
+                    "listContainmentsMetaData"
+                ],
+                [
+                    "listContainmentsMetaDataOfType",
+                    "listContainmentsMetaDataOfType(const QString &) : QList<KPluginMetaData>",
+                    "listContainmentsMetaDataOfType"
+                ],
+                [
+                    "loadApplet",
+                    "loadApplet(const QString &, uint, const QVariantList &) : Plasma::Applet *",
+                    "loadApplet"
+                ],
+                [
+                    "loadContainmentActions",
+                    "loadContainmentActions(Plasma::Containment *, const QString &, const QVariantList &) : Plasma::ContainmentActions *",
+                    "loadContainmentActions"
+                ],
+                [
+                    "self",
+                    "self() : Plasma::PluginLoader *",
+                    "self"
+                ]
+            ],
+            "name": "Plasma::PluginLoader",
+            "page": "plasma/plasma-pluginloader",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "backgroundContrast",
+                    "backgroundContrast : qreal",
+                    "backgroundContrast-prop"
+                ],
+                [
+                    "backgroundIntensity",
+                    "backgroundIntensity : qreal",
+                    "backgroundIntensity-prop"
+                ],
+                [
+                    "backgroundSaturation",
+                    "backgroundSaturation : qreal",
+                    "backgroundSaturation-prop"
+                ],
+                [
+                    "palette",
+                    "palette : QPalette",
+                    "palette-prop"
+                ],
+                [
+                    "themeName",
+                    "themeName : QString",
+                    "themeName-prop"
+                ],
+                [
+                    "useGlobalSettings",
+                    "useGlobalSettings : bool",
+                    "useGlobalSettings-prop"
+                ],
+                [
+                    "Theme",
+                    "Theme(QObject *)",
+                    "Theme"
+                ],
+                [
+                    "Theme",
+                    "Theme(const QString &, QObject *)",
+                    "Theme-1"
+                ],
+                [
+                    "adaptiveTransparencyEnabled",
+                    "adaptiveTransparencyEnabled() const : bool",
+                    "adaptiveTransparencyEnabled"
+                ],
+                [
+                    "backgroundContrast",
+                    "backgroundContrast() const : qreal",
+                    "backgroundContrast"
+                ],
+                [
+                    "backgroundContrastEnabled",
+                    "backgroundContrastEnabled() const : bool",
+                    "backgroundContrastEnabled"
+                ],
+                [
+                    "backgroundIntensity",
+                    "backgroundIntensity() const : qreal",
+                    "backgroundIntensity"
+                ],
+                [
+                    "backgroundSaturation",
+                    "backgroundSaturation() const : qreal",
+                    "backgroundSaturation"
+                ],
+                [
+                    "blurBehindEnabled",
+                    "blurBehindEnabled() const : bool",
+                    "blurBehindEnabled"
+                ],
+                [
+                    "color",
+                    "color(Plasma::Theme::ColorRole, Kirigami::Platform::PlatformTheme::ColorSet) const : QColor",
+                    "color"
+                ],
+                [
+                    "colorScheme",
+                    "colorScheme() const : KSharedConfigPtr",
+                    "colorScheme"
+                ],
+                [
+                    "defaultWallpaperTheme",
+                    "defaultWallpaperTheme() const : QString",
+                    "defaultWallpaperTheme"
+                ],
+                [
+                    "globalColorScheme",
+                    "globalColorScheme() : KSharedConfigPtr",
+                    "globalColorScheme"
+                ],
+                [
+                    "globalPalette",
+                    "globalPalette() : QPalette",
+                    "globalPalette"
+                ],
+                [
+                    "metadata",
+                    "metadata() const : KPluginMetaData",
+                    "metadata"
+                ],
+                [
+                    "palette",
+                    "palette() const : QPalette",
+                    "palette"
+                ],
+                [
+                    "setThemeName",
+                    "setThemeName(const QString &)",
+                    "setThemeName"
+                ],
+                [
+                    "setUseGlobalSettings",
+                    "setUseGlobalSettings(bool)",
+                    "setUseGlobalSettings"
+                ],
+                [
+                    "themeName",
+                    "themeName() const : QString",
+                    "themeName"
+                ],
+                [
+                    "useGlobalSettings",
+                    "useGlobalSettings() const : bool",
+                    "useGlobalSettings"
+                ]
+            ],
+            "name": "Plasma::Theme",
+            "page": "plasma/plasma-theme",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "Plasma::Types",
+            "page": "plasma/plasma-types",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "plasma",
+    "sections": [
+        {
+            "description": "Plasma.",
+            "page": "plasma/plasma-module",
+            "pages": [
+                [
+                    "plasma/plasma-module",
+                    "Plasma C++ Classes"
+                ],
+                [
+                    "plasma/plasma-applet",
+                    "Plasma::Applet"
+                ],
+                [
+                    "plasma/plasma-containment",
+                    "Plasma::Containment"
+                ],
+                [
+                    "plasma/plasma-containmentactions",
+                    "Plasma::ContainmentActions"
+                ],
+                [
+                    "plasma/plasma-corona",
+                    "Plasma::Corona"
+                ],
+                [
+                    "plasma/plasma-pluginloader",
+                    "Plasma::PluginLoader"
+                ],
+                [
+                    "plasma/plasma-theme",
+                    "Plasma::Theme"
+                ],
+                [
+                    "plasma/plasma-types",
+                    "Plasma::Types"
+                ],
+                [
+                    "plasma/plasma-index",
+                    "Plasma"
+                ],
+                [
+                    "plasma/plasma-sub-plasma",
+                    "Plasma Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "Plasma C++ Classes"
+        }
+    ]
+}

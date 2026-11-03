@@ -1,0 +1,311 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KColorScheme",
+                    "KColorScheme()",
+                    "KColorScheme"
+                ],
+                [
+                    "~KColorScheme",
+                    "~KColorScheme()",
+                    "dtor.KColorScheme"
+                ],
+                [
+                    "adjustBackground",
+                    "adjustBackground(KColorScheme::BackgroundRole, QPalette::ColorRole, KColorScheme::ColorSet)",
+                    "adjustBackground"
+                ],
+                [
+                    "adjustForeground",
+                    "adjustForeground(KColorScheme::ForegroundRole, QPalette::ColorRole, KColorScheme::ColorSet)",
+                    "adjustForeground"
+                ],
+                [
+                    "background",
+                    "background() const : QBrush",
+                    "background"
+                ],
+                [
+                    "contrastF",
+                    "contrastF(const KSharedConfigPtr &) : qreal",
+                    "contrastF"
+                ],
+                [
+                    "createApplicationPalette",
+                    "createApplicationPalette(const KSharedConfigPtr &) : QPalette",
+                    "createApplicationPalette"
+                ],
+                [
+                    "decoration",
+                    "decoration() const : QBrush",
+                    "decoration"
+                ],
+                [
+                    "foreground",
+                    "foreground() const : QBrush",
+                    "foreground"
+                ],
+                [
+                    "frameContrast",
+                    "frameContrast(const KSharedConfigPtr &) : qreal",
+                    "frameContrast"
+                ],
+                [
+                    "isColorSetSupported",
+                    "isColorSetSupported(const KSharedConfigPtr &, KColorScheme::ColorSet) : bool",
+                    "isColorSetSupported"
+                ],
+                [
+                    "shade",
+                    "shade() const : QColor",
+                    "shade"
+                ],
+                [
+                    "shade",
+                    "shade() : QColor",
+                    "shade-1"
+                ],
+                [
+                    "shade",
+                    "shade(qreal, qreal) : QColor",
+                    "shade-2"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KColorScheme &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KColorScheme",
+            "page": "kcolorscheme/kcolorscheme",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "activateScheme",
+                    "activateScheme(const QModelIndex &)",
+                    "activateScheme"
+                ],
+                [
+                    "activateSchemeId",
+                    "activateSchemeId(const QString &)",
+                    "activateSchemeId"
+                ],
+                [
+                    "activeSchemeId",
+                    "activeSchemeId() const : QString",
+                    "activeSchemeId"
+                ],
+                [
+                    "activeSchemeName",
+                    "activeSchemeName() const : QString",
+                    "activeSchemeName"
+                ],
+                [
+                    "indexForScheme",
+                    "indexForScheme(const QString &) const : QModelIndex",
+                    "indexForScheme"
+                ],
+                [
+                    "indexForSchemeId",
+                    "indexForSchemeId(const QString &) const : QModelIndex",
+                    "indexForSchemeId"
+                ],
+                [
+                    "instance",
+                    "instance() : KColorSchemeManager *",
+                    "instance"
+                ],
+                [
+                    "model",
+                    "model() const : QAbstractItemModel *",
+                    "model"
+                ],
+                [
+                    "saveSchemeIdToConfigFile",
+                    "saveSchemeIdToConfigFile(const QString &) const",
+                    "saveSchemeIdToConfigFile"
+                ],
+                [
+                    "setAutosaveChanges",
+                    "setAutosaveChanges(bool)",
+                    "setAutosaveChanges"
+                ]
+            ],
+            "name": "KColorSchemeManager",
+            "page": "kcolorscheme/kcolorschememanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "KColorSchemeModel",
+            "page": "kcolorscheme/kcolorschememodel",
+            "qtBases": [
+                [
+                    "QAbstractListModel",
+                    "https://doc.qt.io/qt-6/qabstractlistmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KStatefulBrush",
+                    "KStatefulBrush()",
+                    "KStatefulBrush"
+                ],
+                [
+                    "KStatefulBrush",
+                    "KStatefulBrush()",
+                    "KStatefulBrush-2"
+                ],
+                [
+                    "KStatefulBrush",
+                    "KStatefulBrush()",
+                    "KStatefulBrush-3"
+                ],
+                [
+                    "KStatefulBrush",
+                    "KStatefulBrush()",
+                    "KStatefulBrush-4"
+                ],
+                [
+                    "KStatefulBrush",
+                    "KStatefulBrush()",
+                    "KStatefulBrush-5"
+                ],
+                [
+                    "KStatefulBrush",
+                    "KStatefulBrush(const QBrush &)",
+                    "KStatefulBrush-6"
+                ],
+                [
+                    "KStatefulBrush",
+                    "KStatefulBrush()",
+                    "KStatefulBrush-1"
+                ],
+                [
+                    "brush",
+                    "brush() const : QBrush",
+                    "brush"
+                ],
+                [
+                    "brush",
+                    "brush() const : QBrush",
+                    "brush-1"
+                ],
+                [
+                    "operator=",
+                    "operator=() : KStatefulBrush &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KStatefulBrush",
+            "page": "kcolorscheme/kstatefulbrush",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "colors",
+                    "colors(const KSharedConfigPtr &, const KToolsArea::Settings &) : KToolsArea::Colors",
+                    "colors"
+                ],
+                [
+                    "exceptions",
+                    "exceptions(const KSharedConfigPtr &) : QList<KToolsArea::Exception>",
+                    "exceptions"
+                ],
+                [
+                    "migrateFromSilver",
+                    "migrateFromSilver(const KSharedConfigPtr &) : bool",
+                    "migrateFromSilver"
+                ],
+                [
+                    "settings",
+                    "settings(const KSharedConfigPtr &, const QString &) : KToolsArea::Settings",
+                    "settings"
+                ],
+                [
+                    "snapshot",
+                    "snapshot(const KSharedConfigPtr &) : QString",
+                    "snapshot"
+                ],
+                [
+                    "writeExceptions",
+                    "writeExceptions(const KSharedConfigPtr &, const QList<KToolsArea::Exception> &)",
+                    "writeExceptions"
+                ],
+                [
+                    "writeSettings",
+                    "writeSettings(const KSharedConfigPtr &, const KToolsArea::Settings &)",
+                    "writeSettings"
+                ]
+            ],
+            "name": "KToolsArea",
+            "page": "kcolorscheme/ktoolsarea",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kcolorscheme",
+    "sections": [
+        {
+            "description": "Classes to interact with KColorScheme.",
+            "page": "kcolorscheme/kcolorscheme-module",
+            "pages": [
+                [
+                    "kcolorscheme/kcolorscheme-module",
+                    "KColorScheme C++ Classes"
+                ],
+                [
+                    "kcolorscheme/kcolorscheme",
+                    "KColorScheme"
+                ],
+                [
+                    "kcolorscheme/kcolorschememanager",
+                    "KColorSchemeManager"
+                ],
+                [
+                    "kcolorscheme/kcolorschememodel",
+                    "KColorSchemeModel"
+                ],
+                [
+                    "kcolorscheme/kstatefulbrush",
+                    "KStatefulBrush"
+                ],
+                [
+                    "kcolorscheme/ktoolsarea",
+                    "KToolsArea"
+                ],
+                [
+                    "kcolorscheme/kcolorscheme-index",
+                    "KColorScheme"
+                ]
+            ],
+            "qml": false,
+            "title": "KColorScheme C++ Classes"
+        }
+    ]
+}

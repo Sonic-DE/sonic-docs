@@ -1,0 +1,58 @@
+---
+title: "List of All Members for KBookmarkGroup"
+description: "Every member of KBookmarkGroup, including inherited members."
+parent: "kbookmarks/kbookmarkgroup"
+---
+
+# List of All Members for KBookmarkGroup
+
+This is the complete list of members for [KBookmarkGroup](kbookmarkgroup.md), including inherited members.
+
+- [KBookmarkGroup()](kbookmarkgroup.md#KBookmarkGroup)
+- [KBookmarkGroup(const QDomElement &)](kbookmarkgroup.md#KBookmarkGroup-1)
+- [addBookmark(const KBookmark &) : KBookmark](kbookmarkgroup.md#addBookmark)
+- [addBookmark(const QString &, const QUrl &, const QString &) : KBookmark](kbookmarkgroup.md#addBookmark-1)
+- [address() const : QString](kbookmark.md#address)
+- [commonParent(const QString &, const QString &) : QString](kbookmark.md#commonParent)
+- [createNewFolder(const QString &) : KBookmarkGroup](kbookmarkgroup.md#createNewFolder)
+- [createNewSeparator() : KBookmark](kbookmarkgroup.md#createNewSeparator)
+- [deleteBookmark(const KBookmark &)](kbookmarkgroup.md#deleteBookmark)
+- [description() const : QString](kbookmark.md#description)
+- [first() const : KBookmark](kbookmarkgroup.md#first)
+- [fullText() const : QString](kbookmark.md#fullText)
+- [groupUrlList() const : QList\<QUrl\>](kbookmarkgroup.md#groupUrlList)
+- [hasParent() const : bool](kbookmark.md#hasParent)
+- [icon() const : QString](kbookmark.md#icon)
+- [indexOf(const KBookmark &) const : int](kbookmarkgroup.md#indexOf)
+- [isGroup() const : bool](kbookmark.md#isGroup)
+- [isNull() const : bool](kbookmark.md#isNull)
+- [isOpen() const : bool](kbookmarkgroup.md#isOpen)
+- [isSeparator() const : bool](kbookmark.md#isSeparator)
+- [isToolbarGroup() const : bool](kbookmarkgroup.md#isToolbarGroup)
+- [metaData(const QString &, bool) const : QDomNode](kbookmark.md#metaData)
+- [metaDataItem(const QString &) const : QString](kbookmark.md#metaDataItem)
+- [mimeType() const : QString](kbookmark.md#mimeType)
+- [moveBookmark(const KBookmark &, const KBookmark &) : bool](kbookmarkgroup.md#moveBookmark)
+- [next(const KBookmark &) const : KBookmark](kbookmarkgroup.md#next)
+- [nextAddress(const QString &) : QString](kbookmark.md#nextAddress)
+- [operator==(const KBookmark &) const : bool](kbookmark.md#operator-eq-eq)
+- [parentAddress(const QString &) : QString](kbookmark.md#parentAddress)
+- [parentGroup() const : KBookmarkGroup](kbookmark.md#parentGroup)
+- [populateMimeData(QMimeData \*) const](kbookmark.md#populateMimeData)
+- [positionInParent() const : int](kbookmark.md#positionInParent)
+- [positionInParent(const QString &) : uint](kbookmark.md#positionInParent-1)
+- [previous(const KBookmark &) const : KBookmark](kbookmarkgroup.md#previous)
+- [previousAddress(const QString &) : QString](kbookmark.md#previousAddress)
+- [setDescription(const QString &)](kbookmark.md#setDescription)
+- [setFullText(const QString &)](kbookmark.md#setFullText)
+- [setIcon(const QString &)](kbookmark.md#setIcon)
+- [setMetaDataItem(const QString &, const QString &, KBookmark::MetaDataOverwriteMode)](kbookmark.md#setMetaDataItem)
+- [setMimeType(const QString &)](kbookmark.md#setMimeType)
+- [setShowInToolbar(bool)](kbookmark.md#setShowInToolbar)
+- [setUrl(const QUrl &)](kbookmark.md#setUrl)
+- [showInToolbar() const : bool](kbookmark.md#showInToolbar)
+- [standaloneBookmark(const QString &, const QUrl &, const QString &) : KBookmark](kbookmark.md#standaloneBookmark)
+- [text() const : QString](kbookmark.md#text)
+- [toGroup() const : KBookmarkGroup](kbookmark.md#toGroup)
+- [updateAccessMetadata()](kbookmark.md#updateAccessMetadata)
+- [url() const : QUrl](kbookmark.md#url)

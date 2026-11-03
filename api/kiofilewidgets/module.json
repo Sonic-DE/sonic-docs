@@ -1,0 +1,2161 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KAbstractViewAdapter",
+                    "KAbstractViewAdapter(QObject *)",
+                    "KAbstractViewAdapter"
+                ],
+                [
+                    "connect",
+                    "connect(KAbstractViewAdapter::Signal, QObject *, const char *)",
+                    "connect"
+                ],
+                [
+                    "iconSize",
+                    "iconSize() const : QSize",
+                    "iconSize"
+                ],
+                [
+                    "model",
+                    "model() const : QAbstractItemModel *",
+                    "model"
+                ],
+                [
+                    "palette",
+                    "palette() const : QPalette",
+                    "palette"
+                ],
+                [
+                    "visibleArea",
+                    "visibleArea() const : QRect",
+                    "visibleArea"
+                ],
+                [
+                    "visualRect",
+                    "visualRect(const QModelIndex &) const : QRect",
+                    "visualRect"
+                ]
+            ],
+            "name": "KAbstractViewAdapter",
+            "page": "kiofilewidgets/kabstractviewadapter",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KDirOperator",
+                    "KDirOperator(const QUrl &, QWidget *)",
+                    "KDirOperator"
+                ],
+                [
+                    "action",
+                    "action(KDirOperator::Action) const : QAction *",
+                    "action"
+                ],
+                [
+                    "activatedMenu",
+                    "activatedMenu(const KFileItem &, const QPoint &)",
+                    "activatedMenu"
+                ],
+                [
+                    "allActions",
+                    "allActions() const : QList<QAction *>",
+                    "allActions"
+                ],
+                [
+                    "back",
+                    "back()",
+                    "back"
+                ],
+                [
+                    "cdUp",
+                    "cdUp()",
+                    "cdUp"
+                ],
+                [
+                    "checkPreviewSupport",
+                    "checkPreviewSupport() : bool",
+                    "checkPreviewSupport"
+                ],
+                [
+                    "clearFilter",
+                    "clearFilter()",
+                    "clearFilter"
+                ],
+                [
+                    "clearHistory",
+                    "clearHistory()",
+                    "clearHistory"
+                ],
+                [
+                    "close",
+                    "close()",
+                    "close"
+                ],
+                [
+                    "completion",
+                    "completion()",
+                    "completion"
+                ],
+                [
+                    "completionObject",
+                    "completionObject() const : KCompletion *",
+                    "completionObject"
+                ],
+                [
+                    "contextMenuAboutToShow",
+                    "contextMenuAboutToShow(const KFileItem &, QMenu *)",
+                    "contextMenuAboutToShow"
+                ],
+                [
+                    "createView",
+                    "createView(QWidget *, KFile::FileView) : QAbstractItemView *",
+                    "createView"
+                ],
+                [
+                    "currentIconSizeChanged",
+                    "currentIconSizeChanged(int)",
+                    "currentIconSizeChanged"
+                ],
+                [
+                    "decorationPosition",
+                    "decorationPosition() const : QStyleOptionViewItem::Position",
+                    "decorationPosition"
+                ],
+                [
+                    "deleteSelected",
+                    "deleteSelected()",
+                    "deleteSelected"
+                ],
+                [
+                    "dirActivated",
+                    "dirActivated(const KFileItem &)",
+                    "dirActivated"
+                ],
+                [
+                    "dirCompletionObject",
+                    "dirCompletionObject() const : KCompletion *",
+                    "dirCompletionObject"
+                ],
+                [
+                    "dirHighlighting",
+                    "dirHighlighting() const : bool",
+                    "dirHighlighting"
+                ],
+                [
+                    "dirLister",
+                    "dirLister() const : KDirLister *",
+                    "dirLister"
+                ],
+                [
+                    "dirOnlyMode",
+                    "dirOnlyMode() const : bool",
+                    "dirOnlyMode"
+                ],
+                [
+                    "dropped",
+                    "dropped(const KFileItem &, QDropEvent *, const QList<QUrl> &)",
+                    "dropped"
+                ],
+                [
+                    "fileHighlighted",
+                    "fileHighlighted(const KFileItem &)",
+                    "fileHighlighted"
+                ],
+                [
+                    "fileSelected",
+                    "fileSelected(const KFileItem &)",
+                    "fileSelected"
+                ],
+                [
+                    "finishedLoading",
+                    "finishedLoading()",
+                    "finishedLoading"
+                ],
+                [
+                    "followNewDirectories",
+                    "followNewDirectories() const : bool",
+                    "followNewDirectories"
+                ],
+                [
+                    "followSelectedDirectories",
+                    "followSelectedDirectories() const : bool",
+                    "followSelectedDirectories"
+                ],
+                [
+                    "forward",
+                    "forward()",
+                    "forward"
+                ],
+                [
+                    "highlightFile",
+                    "highlightFile(const KFileItem &)",
+                    "highlightFile"
+                ],
+                [
+                    "home",
+                    "home()",
+                    "home"
+                ],
+                [
+                    "iconSize",
+                    "iconSize() const : int",
+                    "iconSize"
+                ],
+                [
+                    "isInlinePreviewShown",
+                    "isInlinePreviewShown() const : bool",
+                    "isInlinePreviewShown"
+                ],
+                [
+                    "isRoot",
+                    "isRoot() const : bool",
+                    "isRoot"
+                ],
+                [
+                    "isSaving",
+                    "isSaving() const : bool",
+                    "isSaving"
+                ],
+                [
+                    "isSelected",
+                    "isSelected(const KFileItem &) const : bool",
+                    "isSelected"
+                ],
+                [
+                    "keyEnterReturnPressed",
+                    "keyEnterReturnPressed()",
+                    "keyEnterReturnPressed"
+                ],
+                [
+                    "makeCompletion",
+                    "makeCompletion() : QString",
+                    "makeCompletion"
+                ],
+                [
+                    "makeDirCompletion",
+                    "makeDirCompletion() : QString",
+                    "makeDirCompletion"
+                ],
+                [
+                    "mimeFilter",
+                    "mimeFilter() const : QStringList",
+                    "mimeFilter"
+                ],
+                [
+                    "mkdir",
+                    "mkdir()",
+                    "mkdir"
+                ],
+                [
+                    "mode",
+                    "mode() const : KFile::Modes",
+                    "mode"
+                ],
+                [
+                    "nameFilter",
+                    "nameFilter() const : QString",
+                    "nameFilter"
+                ],
+                [
+                    "newFileMenuSupportedMimeTypes",
+                    "newFileMenuSupportedMimeTypes() const : QStringList",
+                    "newFileMenuSupportedMimeTypes"
+                ],
+                [
+                    "numDirs",
+                    "numDirs() const : int",
+                    "numDirs"
+                ],
+                [
+                    "numFiles",
+                    "numFiles() const : int",
+                    "numFiles"
+                ],
+                [
+                    "onlyDoubleClickSelectsFiles",
+                    "onlyDoubleClickSelectsFiles() const : bool",
+                    "onlyDoubleClickSelectsFiles"
+                ],
+                [
+                    "pathChanged",
+                    "pathChanged()",
+                    "pathChanged"
+                ],
+                [
+                    "prepareCompletionObjects",
+                    "prepareCompletionObjects()",
+                    "prepareCompletionObjects"
+                ],
+                [
+                    "previewGenerator",
+                    "previewGenerator() const : KFilePreviewGenerator *",
+                    "previewGenerator"
+                ],
+                [
+                    "progressBar",
+                    "progressBar() const : QProgressBar *",
+                    "progressBar"
+                ],
+                [
+                    "readConfig",
+                    "readConfig(const KConfigGroup &)",
+                    "readConfig"
+                ],
+                [
+                    "renameSelected",
+                    "renameSelected()",
+                    "renameSelected"
+                ],
+                [
+                    "renamingFinished",
+                    "renamingFinished(const QList<QUrl> &)",
+                    "renamingFinished"
+                ],
+                [
+                    "rereadDir",
+                    "rereadDir()",
+                    "rereadDir"
+                ],
+                [
+                    "resetCursor",
+                    "resetCursor()",
+                    "resetCursor"
+                ],
+                [
+                    "selectDir",
+                    "selectDir(const KFileItem &)",
+                    "selectDir"
+                ],
+                [
+                    "selectFile",
+                    "selectFile(const KFileItem &)",
+                    "selectFile"
+                ],
+                [
+                    "selectedItems",
+                    "selectedItems() const : KFileItemList",
+                    "selectedItems"
+                ],
+                [
+                    "setAcceptDrops",
+                    "setAcceptDrops(bool)",
+                    "setAcceptDrops"
+                ],
+                [
+                    "setCurrentItem",
+                    "setCurrentItem(const KFileItem &)",
+                    "setCurrentItem"
+                ],
+                [
+                    "setCurrentItem",
+                    "setCurrentItem(const QUrl &)",
+                    "setCurrentItem-1"
+                ],
+                [
+                    "setCurrentItems",
+                    "setCurrentItems(const KFileItemList &)",
+                    "setCurrentItems"
+                ],
+                [
+                    "setCurrentItems",
+                    "setCurrentItems(const QList<QUrl> &)",
+                    "setCurrentItems-1"
+                ],
+                [
+                    "setDecorationPosition",
+                    "setDecorationPosition(QStyleOptionViewItem::Position)",
+                    "setDecorationPosition"
+                ],
+                [
+                    "setDirLister",
+                    "setDirLister(KDirLister *)",
+                    "setDirLister"
+                ],
+                [
+                    "setDropOptions",
+                    "setDropOptions(int)",
+                    "setDropOptions"
+                ],
+                [
+                    "setEnableDirHighlighting",
+                    "setEnableDirHighlighting(bool)",
+                    "setEnableDirHighlighting"
+                ],
+                [
+                    "setFollowNewDirectories",
+                    "setFollowNewDirectories(bool)",
+                    "setFollowNewDirectories"
+                ],
+                [
+                    "setFollowSelectedDirectories",
+                    "setFollowSelectedDirectories(bool)",
+                    "setFollowSelectedDirectories"
+                ],
+                [
+                    "setIconSize",
+                    "setIconSize(int)",
+                    "setIconSize"
+                ],
+                [
+                    "setInlinePreviewShown",
+                    "setInlinePreviewShown(bool)",
+                    "setInlinePreviewShown"
+                ],
+                [
+                    "setIsSaving",
+                    "setIsSaving(bool)",
+                    "setIsSaving"
+                ],
+                [
+                    "setMimeFilter",
+                    "setMimeFilter(const QStringList &)",
+                    "setMimeFilter"
+                ],
+                [
+                    "setMode",
+                    "setMode(KFile::Modes)",
+                    "setMode"
+                ],
+                [
+                    "setNameFilter",
+                    "setNameFilter(const QString &)",
+                    "setNameFilter"
+                ],
+                [
+                    "setNewFileMenuSelectDirWhenAlreadyExist",
+                    "setNewFileMenuSelectDirWhenAlreadyExist(bool)",
+                    "setNewFileMenuSelectDirWhenAlreadyExist"
+                ],
+                [
+                    "setNewFileMenuSupportedMimeTypes",
+                    "setNewFileMenuSupportedMimeTypes(const QStringList &)",
+                    "setNewFileMenuSupportedMimeTypes"
+                ],
+                [
+                    "setOnlyDoubleClickSelectsFiles",
+                    "setOnlyDoubleClickSelectsFiles(bool)",
+                    "setOnlyDoubleClickSelectsFiles"
+                ],
+                [
+                    "setShowHiddenFiles",
+                    "setShowHiddenFiles(bool)",
+                    "setShowHiddenFiles"
+                ],
+                [
+                    "setSorting",
+                    "setSorting()",
+                    "setSorting"
+                ],
+                [
+                    "setSupportedSchemes",
+                    "setSupportedSchemes(const QStringList &)",
+                    "setSupportedSchemes"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &, bool)",
+                    "setUrl"
+                ],
+                [
+                    "setViewConfig",
+                    "setViewConfig(KConfigGroup &)",
+                    "setViewConfig"
+                ],
+                [
+                    "setViewMode",
+                    "setViewMode(KFile::FileView)",
+                    "setViewMode"
+                ],
+                [
+                    "setupActions",
+                    "setupActions()",
+                    "setupActions"
+                ],
+                [
+                    "setupMenu",
+                    "setupMenu()",
+                    "setupMenu"
+                ],
+                [
+                    "setupMenu",
+                    "setupMenu(int)",
+                    "setupMenu-1"
+                ],
+                [
+                    "showHiddenFiles",
+                    "showHiddenFiles() const : bool",
+                    "showHiddenFiles"
+                ],
+                [
+                    "showOpenWithActions",
+                    "showOpenWithActions(bool)",
+                    "showOpenWithActions"
+                ],
+                [
+                    "slotCompletionMatch",
+                    "slotCompletionMatch(const QString &)",
+                    "slotCompletionMatch"
+                ],
+                [
+                    "sortByDate",
+                    "sortByDate()",
+                    "sortByDate"
+                ],
+                [
+                    "sortByName",
+                    "sortByName()",
+                    "sortByName"
+                ],
+                [
+                    "sortBySize",
+                    "sortBySize()",
+                    "sortBySize"
+                ],
+                [
+                    "sortByType",
+                    "sortByType()",
+                    "sortByType"
+                ],
+                [
+                    "sortReversed",
+                    "sortReversed()",
+                    "sortReversed"
+                ],
+                [
+                    "sorting",
+                    "sorting() const : QDir::SortFlags",
+                    "sorting"
+                ],
+                [
+                    "supportedSchemes",
+                    "supportedSchemes() const : QStringList",
+                    "supportedSchemes"
+                ],
+                [
+                    "toggleDirsFirst",
+                    "toggleDirsFirst()",
+                    "toggleDirsFirst"
+                ],
+                [
+                    "toggleIgnoreCase",
+                    "toggleIgnoreCase()",
+                    "toggleIgnoreCase"
+                ],
+                [
+                    "trash",
+                    "trash(const KFileItemList &, QWidget *, bool, bool) : KIO::CopyJob *",
+                    "trash"
+                ],
+                [
+                    "trashSelected",
+                    "trashSelected()",
+                    "trashSelected"
+                ],
+                [
+                    "updateDir",
+                    "updateDir()",
+                    "updateDir"
+                ],
+                [
+                    "updateInformation",
+                    "updateInformation(int, int)",
+                    "updateInformation"
+                ],
+                [
+                    "updateSelectionDependentActions",
+                    "updateSelectionDependentActions()",
+                    "updateSelectionDependentActions"
+                ],
+                [
+                    "updateSortActions",
+                    "updateSortActions()",
+                    "updateSortActions"
+                ],
+                [
+                    "updateViewActions",
+                    "updateViewActions()",
+                    "updateViewActions"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ],
+                [
+                    "urlEntered",
+                    "urlEntered()",
+                    "urlEntered"
+                ],
+                [
+                    "usingKeyNavigation",
+                    "usingKeyNavigation() : bool",
+                    "usingKeyNavigation"
+                ],
+                [
+                    "view",
+                    "view() const : QAbstractItemView *",
+                    "view"
+                ],
+                [
+                    "viewChanged",
+                    "viewChanged(QAbstractItemView *)",
+                    "viewChanged"
+                ],
+                [
+                    "viewConfigGroup",
+                    "viewConfigGroup() const : KConfigGroup *",
+                    "viewConfigGroup"
+                ],
+                [
+                    "viewMode",
+                    "viewMode() const : KFile::FileView",
+                    "viewMode"
+                ],
+                [
+                    "writeConfig",
+                    "writeConfig(KConfigGroup &)",
+                    "writeConfig"
+                ]
+            ],
+            "name": "KDirOperator",
+            "page": "kiofilewidgets/kdiroperator",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "canFetchMore",
+                    "canFetchMore(const QModelIndex &) const : bool",
+                    "canFetchMore"
+                ],
+                [
+                    "hasChildren",
+                    "hasChildren(const QModelIndex &) const : bool",
+                    "hasChildren"
+                ],
+                [
+                    "pointsForPermissions",
+                    "pointsForPermissions(const QFileInfo &) : int",
+                    "pointsForPermissions"
+                ],
+                [
+                    "setSortFoldersFirst",
+                    "setSortFoldersFirst(bool)",
+                    "setSortFoldersFirst"
+                ],
+                [
+                    "setSortHiddenFilesLast",
+                    "setSortHiddenFilesLast(bool)",
+                    "setSortHiddenFilesLast"
+                ],
+                [
+                    "sortFoldersFirst",
+                    "sortFoldersFirst() const : bool",
+                    "sortFoldersFirst"
+                ],
+                [
+                    "sortHiddenFilesLast",
+                    "sortHiddenFilesLast() const : bool",
+                    "sortHiddenFilesLast"
+                ],
+                [
+                    "supportedDragOptions",
+                    "supportedDragOptions() const : Qt::DropActions",
+                    "supportedDragOptions"
+                ]
+            ],
+            "name": "KDirSortFilterProxyModel",
+            "page": "kiofilewidgets/kdirsortfilterproxymodel",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "getOpenFileNameAndEncoding",
+                    "getOpenFileNameAndEncoding(const QString &, const QUrl &, const QString &, QWidget *, const QString &) : KEncodingFileDialog::Result",
+                    "getOpenFileNameAndEncoding"
+                ],
+                [
+                    "getOpenFileNamesAndEncoding",
+                    "getOpenFileNamesAndEncoding(const QString &, const QUrl &, const QString &, QWidget *, const QString &) : KEncodingFileDialog::Result",
+                    "getOpenFileNamesAndEncoding"
+                ],
+                [
+                    "getOpenUrlAndEncoding",
+                    "getOpenUrlAndEncoding(const QString &, const QUrl &, const QString &, QWidget *, const QString &) : KEncodingFileDialog::Result",
+                    "getOpenUrlAndEncoding"
+                ],
+                [
+                    "getOpenUrlsAndEncoding",
+                    "getOpenUrlsAndEncoding(const QString &, const QUrl &, const QString &, QWidget *, const QString &) : KEncodingFileDialog::Result",
+                    "getOpenUrlsAndEncoding"
+                ],
+                [
+                    "getSaveFileNameAndEncoding",
+                    "getSaveFileNameAndEncoding(const QString &, const QUrl &, const QString &, QWidget *, const QString &) : KEncodingFileDialog::Result",
+                    "getSaveFileNameAndEncoding"
+                ],
+                [
+                    "getSaveUrlAndEncoding",
+                    "getSaveUrlAndEncoding(const QString &, const QUrl &, const QString &, QWidget *, const QString &) : KEncodingFileDialog::Result",
+                    "getSaveUrlAndEncoding"
+                ]
+            ],
+            "name": "KEncodingFileDialog",
+            "page": "kiofilewidgets/kencodingfiledialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFileCopyToMenu",
+                    "KFileCopyToMenu(QWidget *)",
+                    "KFileCopyToMenu"
+                ],
+                [
+                    "addActionsTo",
+                    "addActionsTo(QMenu *) const",
+                    "addActionsTo"
+                ],
+                [
+                    "error",
+                    "error(int, const QString &)",
+                    "error"
+                ],
+                [
+                    "setAutoErrorHandlingEnabled",
+                    "setAutoErrorHandlingEnabled(bool)",
+                    "setAutoErrorHandlingEnabled"
+                ],
+                [
+                    "setReadOnly",
+                    "setReadOnly(bool)",
+                    "setReadOnly"
+                ],
+                [
+                    "setUrls",
+                    "setUrls(const QList<QUrl> &)",
+                    "setUrls"
+                ]
+            ],
+            "name": "KFileCopyToMenu",
+            "page": "kiofilewidgets/kfilecopytomenu",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFileCustomDialog",
+                    "KFileCustomDialog(QWidget *)",
+                    "KFileCustomDialog"
+                ],
+                [
+                    "KFileCustomDialog",
+                    "KFileCustomDialog(const QUrl &, QWidget *)",
+                    "KFileCustomDialog-1"
+                ],
+                [
+                    "fileWidget",
+                    "fileWidget() const : KFileWidget *",
+                    "fileWidget"
+                ],
+                [
+                    "setCustomWidget",
+                    "setCustomWidget(QWidget *)",
+                    "setCustomWidget"
+                ],
+                [
+                    "setOperationMode",
+                    "setOperationMode(KFileWidget::OperationMode)",
+                    "setOperationMode"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &)",
+                    "setUrl"
+                ]
+            ],
+            "name": "KFileCustomDialog",
+            "page": "kiofilewidgets/kfilecustomdialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kcompletion/kcombobox"
+            ],
+            "members": [
+                [
+                    "KFileFilterCombo",
+                    "KFileFilterCombo(QWidget *)",
+                    "KFileFilterCombo"
+                ],
+                [
+                    "currentFilter",
+                    "currentFilter() const : KFileFilter",
+                    "currentFilter"
+                ],
+                [
+                    "defaultFilter",
+                    "defaultFilter() const : KFileFilter",
+                    "defaultFilter"
+                ],
+                [
+                    "filterChanged",
+                    "filterChanged()",
+                    "filterChanged"
+                ],
+                [
+                    "filters",
+                    "filters() const : QList<KFileFilter>",
+                    "filters"
+                ],
+                [
+                    "setCurrentFilter",
+                    "setCurrentFilter(const KFileFilter &)",
+                    "setCurrentFilter"
+                ],
+                [
+                    "setDefaultFilter",
+                    "setDefaultFilter(const KFileFilter &)",
+                    "setDefaultFilter"
+                ],
+                [
+                    "setFilters",
+                    "setFilters(const QList<KFileFilter> &, const KFileFilter &)",
+                    "setFilters"
+                ],
+                [
+                    "showsAllTypes",
+                    "showsAllTypes() const : bool",
+                    "showsAllTypes"
+                ]
+            ],
+            "name": "KFileFilterCombo",
+            "page": "kiofilewidgets/kfilefiltercombo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFilePlaceEditDialog",
+                    "KFilePlaceEditDialog(bool, const QUrl &, const QString &, const QString &, bool, bool, int, QWidget *)",
+                    "KFilePlaceEditDialog"
+                ],
+                [
+                    "applicationLocal",
+                    "applicationLocal() const : bool",
+                    "applicationLocal"
+                ],
+                [
+                    "getInformation",
+                    "getInformation(bool, QUrl &, QString &, QString &, bool, bool &, int, QWidget *) : bool",
+                    "getInformation"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "label",
+                    "label() const : QString",
+                    "label"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ],
+                [
+                    "urlChanged",
+                    "urlChanged()",
+                    "urlChanged"
+                ]
+            ],
+            "name": "KFilePlaceEditDialog",
+            "page": "kiofilewidgets/kfileplaceeditdialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "supportedSchemes",
+                    "supportedSchemes : QStringList",
+                    "supportedSchemes-prop"
+                ],
+                [
+                    "KFilePlacesModel",
+                    "KFilePlacesModel(QObject *)",
+                    "KFilePlacesModel"
+                ],
+                [
+                    "addPlace",
+                    "addPlace(const QString &, const QUrl &, const QString &, const QString &)",
+                    "addPlace"
+                ],
+                [
+                    "addPlace",
+                    "addPlace(const QString &, const QUrl &, const QString &, const QString &, const QModelIndex &)",
+                    "addPlace-1"
+                ],
+                [
+                    "bookmarkForIndex",
+                    "bookmarkForIndex(const QModelIndex &) const : KBookmark",
+                    "bookmarkForIndex"
+                ],
+                [
+                    "bookmarkForUrl",
+                    "bookmarkForUrl(const QUrl &) const : KBookmark",
+                    "bookmarkForUrl"
+                ],
+                [
+                    "closestItem",
+                    "closestItem(const QUrl &) const : QModelIndex",
+                    "closestItem"
+                ],
+                [
+                    "convertedUrl",
+                    "convertedUrl(const QUrl &) : QUrl",
+                    "convertedUrl"
+                ],
+                [
+                    "deviceAccessibility",
+                    "deviceAccessibility(const QModelIndex &) const : KFilePlacesModel::DeviceAccessibility",
+                    "deviceAccessibility"
+                ],
+                [
+                    "deviceForIndex",
+                    "deviceForIndex(const QModelIndex &) const : Solid::Device",
+                    "deviceForIndex"
+                ],
+                [
+                    "editPlace",
+                    "editPlace(const QModelIndex &, const QString &, const QUrl &, const QString &, const QString &)",
+                    "editPlace"
+                ],
+                [
+                    "ejectActionForIndex",
+                    "ejectActionForIndex(const QModelIndex &) const : QAction *",
+                    "ejectActionForIndex"
+                ],
+                [
+                    "errorMessage",
+                    "errorMessage(const QString &)",
+                    "errorMessage"
+                ],
+                [
+                    "groupHiddenChanged",
+                    "groupHiddenChanged(KFilePlacesModel::GroupType, bool)",
+                    "groupHiddenChanged"
+                ],
+                [
+                    "groupIndexes",
+                    "groupIndexes(const KFilePlacesModel::GroupType) const : QModelIndexList",
+                    "groupIndexes"
+                ],
+                [
+                    "groupType",
+                    "groupType(const QModelIndex &) const : KFilePlacesModel::GroupType",
+                    "groupType"
+                ],
+                [
+                    "hiddenCount",
+                    "hiddenCount() const : int",
+                    "hiddenCount"
+                ],
+                [
+                    "icon",
+                    "icon(const QModelIndex &) const : QIcon",
+                    "icon"
+                ],
+                [
+                    "isDevice",
+                    "isDevice(const QModelIndex &) const : bool",
+                    "isDevice"
+                ],
+                [
+                    "isEjectAllowed",
+                    "isEjectAllowed(const QModelIndex &) const : bool",
+                    "isEjectAllowed"
+                ],
+                [
+                    "isGroupHidden",
+                    "isGroupHidden(const KFilePlacesModel::GroupType) const : bool",
+                    "isGroupHidden"
+                ],
+                [
+                    "isGroupHidden",
+                    "isGroupHidden(const QModelIndex &) const : bool",
+                    "isGroupHidden-1"
+                ],
+                [
+                    "isHidden",
+                    "isHidden(const QModelIndex &) const : bool",
+                    "isHidden"
+                ],
+                [
+                    "isTeardownAllowed",
+                    "isTeardownAllowed(const QModelIndex &) const : bool",
+                    "isTeardownAllowed"
+                ],
+                [
+                    "isTeardownOverlayRecommended",
+                    "isTeardownOverlayRecommended(const QModelIndex &) const : bool",
+                    "isTeardownOverlayRecommended"
+                ],
+                [
+                    "movePlace",
+                    "movePlace(int, int) : bool",
+                    "movePlace"
+                ],
+                [
+                    "openRecentOption",
+                    "openRecentOption(const QModelIndex &) const : QAction *",
+                    "openRecentOption"
+                ],
+                [
+                    "partitionActionForIndex",
+                    "partitionActionForIndex(const QModelIndex &) const : QAction *",
+                    "partitionActionForIndex"
+                ],
+                [
+                    "placeCollapsedUrl",
+                    "placeCollapsedUrl(const QUrl &) const : QString",
+                    "placeCollapsedUrl"
+                ],
+                [
+                    "refresh",
+                    "refresh() const",
+                    "refresh"
+                ],
+                [
+                    "reloaded",
+                    "reloaded()",
+                    "reloaded"
+                ],
+                [
+                    "removePlace",
+                    "removePlace(const QModelIndex &) const",
+                    "removePlace"
+                ],
+                [
+                    "requestEject",
+                    "requestEject(const QModelIndex &)",
+                    "requestEject"
+                ],
+                [
+                    "requestSetup",
+                    "requestSetup(const QModelIndex &)",
+                    "requestSetup"
+                ],
+                [
+                    "requestTeardown",
+                    "requestTeardown(const QModelIndex &)",
+                    "requestTeardown"
+                ],
+                [
+                    "setGroupHidden",
+                    "setGroupHidden(const KFilePlacesModel::GroupType, bool)",
+                    "setGroupHidden"
+                ],
+                [
+                    "setPlaceHidden",
+                    "setPlaceHidden(const QModelIndex &, bool)",
+                    "setPlaceHidden"
+                ],
+                [
+                    "setSupportedSchemes",
+                    "setSupportedSchemes(const QStringList &)",
+                    "setSupportedSchemes"
+                ],
+                [
+                    "setupDone",
+                    "setupDone(const QModelIndex &, bool)",
+                    "setupDone"
+                ],
+                [
+                    "setupNeeded",
+                    "setupNeeded(const QModelIndex &) const : bool",
+                    "setupNeeded"
+                ],
+                [
+                    "supportedSchemes",
+                    "supportedSchemes() const : QStringList",
+                    "supportedSchemes"
+                ],
+                [
+                    "supportedSchemesChanged",
+                    "supportedSchemesChanged()",
+                    "supportedSchemesChanged"
+                ],
+                [
+                    "teardownActionForIndex",
+                    "teardownActionForIndex(const QModelIndex &) const : QAction *",
+                    "teardownActionForIndex"
+                ],
+                [
+                    "teardownDone",
+                    "teardownDone(const QModelIndex &, Solid::ErrorType, const QVariant &)",
+                    "teardownDone"
+                ],
+                [
+                    "text",
+                    "text(const QModelIndex &) const : QString",
+                    "text"
+                ],
+                [
+                    "url",
+                    "url(const QModelIndex &) const : QUrl",
+                    "url"
+                ]
+            ],
+            "name": "KFilePlacesModel",
+            "page": "kiofilewidgets/kfileplacesmodel",
+            "qtBases": [
+                [
+                    "QAbstractItemModel",
+                    "https://doc.qt.io/qt-6/qabstractitemmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFilePlacesView",
+                    "KFilePlacesView(QWidget *)",
+                    "KFilePlacesView"
+                ],
+                [
+                    "activeTabRequested",
+                    "activeTabRequested(const QUrl &)",
+                    "activeTabRequested"
+                ],
+                [
+                    "allPlacesShown",
+                    "allPlacesShown() const : bool",
+                    "allPlacesShown"
+                ],
+                [
+                    "allPlacesShownChanged",
+                    "allPlacesShownChanged(bool)",
+                    "allPlacesShownChanged"
+                ],
+                [
+                    "contextMenuAboutToShow",
+                    "contextMenuAboutToShow(const QModelIndex &, QMenu *)",
+                    "contextMenuAboutToShow"
+                ],
+                [
+                    "dragAutoActivationDelay",
+                    "dragAutoActivationDelay() const : int",
+                    "dragAutoActivationDelay"
+                ],
+                [
+                    "isAutoResizeItemsEnabled",
+                    "isAutoResizeItemsEnabled() const : bool",
+                    "isAutoResizeItemsEnabled"
+                ],
+                [
+                    "isDropOnPlaceEnabled",
+                    "isDropOnPlaceEnabled() const : bool",
+                    "isDropOnPlaceEnabled"
+                ],
+                [
+                    "newWindowRequested",
+                    "newWindowRequested(const QUrl &)",
+                    "newWindowRequested"
+                ],
+                [
+                    "placeActivated",
+                    "placeActivated(const QUrl &)",
+                    "placeActivated"
+                ],
+                [
+                    "setAutoResizeItemsEnabled",
+                    "setAutoResizeItemsEnabled(bool)",
+                    "setAutoResizeItemsEnabled"
+                ],
+                [
+                    "setDragAutoActivationDelay",
+                    "setDragAutoActivationDelay(int)",
+                    "setDragAutoActivationDelay"
+                ],
+                [
+                    "setDropOnPlaceEnabled",
+                    "setDropOnPlaceEnabled(bool)",
+                    "setDropOnPlaceEnabled"
+                ],
+                [
+                    "setShowAll",
+                    "setShowAll(bool)",
+                    "setShowAll"
+                ],
+                [
+                    "setTeardownFunction",
+                    "setTeardownFunction(KFilePlacesView::TeardownFunction)",
+                    "setTeardownFunction"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &)",
+                    "setUrl"
+                ],
+                [
+                    "tabRequested",
+                    "tabRequested(const QUrl &)",
+                    "tabRequested"
+                ],
+                [
+                    "urlsDropped",
+                    "urlsDropped(const QUrl &, QDropEvent *, QWidget *)",
+                    "urlsDropped"
+                ]
+            ],
+            "name": "KFilePlacesView",
+            "page": "kiofilewidgets/kfileplacesview",
+            "qtBases": [
+                [
+                    "QListView",
+                    "https://doc.qt.io/qt-6/qlistview-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFilePreviewGenerator",
+                    "KFilePreviewGenerator(QAbstractItemView *)",
+                    "KFilePreviewGenerator"
+                ],
+                [
+                    "cancelPreviews",
+                    "cancelPreviews()",
+                    "cancelPreviews"
+                ],
+                [
+                    "enabledPlugins",
+                    "enabledPlugins() const : QStringList",
+                    "enabledPlugins"
+                ],
+                [
+                    "isPreviewShown",
+                    "isPreviewShown() const : bool",
+                    "isPreviewShown"
+                ],
+                [
+                    "setEnabledPlugins",
+                    "setEnabledPlugins(const QStringList &)",
+                    "setEnabledPlugins"
+                ],
+                [
+                    "setPreviewShown",
+                    "setPreviewShown(bool)",
+                    "setPreviewShown"
+                ],
+                [
+                    "updateIcons",
+                    "updateIcons()",
+                    "updateIcons"
+                ]
+            ],
+            "name": "KFilePreviewGenerator",
+            "page": "kiofilewidgets/kfilepreviewgenerator",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KFileWidget",
+                    "KFileWidget(const QUrl &, QWidget *)",
+                    "KFileWidget"
+                ],
+                [
+                    "accept",
+                    "accept()",
+                    "accept"
+                ],
+                [
+                    "accepted",
+                    "accepted()",
+                    "accepted"
+                ],
+                [
+                    "baseUrl",
+                    "baseUrl() const : QUrl",
+                    "baseUrl"
+                ],
+                [
+                    "cancelButton",
+                    "cancelButton() const : QPushButton *",
+                    "cancelButton"
+                ],
+                [
+                    "clearFilter",
+                    "clearFilter()",
+                    "clearFilter"
+                ],
+                [
+                    "currentFilter",
+                    "currentFilter() const : KFileFilter",
+                    "currentFilter"
+                ],
+                [
+                    "dialogSizeHint",
+                    "dialogSizeHint() const : QSize",
+                    "dialogSizeHint"
+                ],
+                [
+                    "dirOperator",
+                    "dirOperator() : KDirOperator *",
+                    "dirOperator"
+                ],
+                [
+                    "fileHighlighted",
+                    "fileHighlighted()",
+                    "fileHighlighted"
+                ],
+                [
+                    "fileSelected",
+                    "fileSelected()",
+                    "fileSelected"
+                ],
+                [
+                    "filterChanged",
+                    "filterChanged(const KFileFilter &)",
+                    "filterChanged"
+                ],
+                [
+                    "filterWidget",
+                    "filterWidget() const : KFileFilterCombo *",
+                    "filterWidget"
+                ],
+                [
+                    "getStartUrl",
+                    "getStartUrl(const QUrl &, QString &) : QUrl",
+                    "getStartUrl"
+                ],
+                [
+                    "getStartUrl",
+                    "getStartUrl(const QUrl &, QString &, QString &) : QUrl",
+                    "getStartUrl-1"
+                ],
+                [
+                    "keepsLocation",
+                    "keepsLocation() const : bool",
+                    "keepsLocation"
+                ],
+                [
+                    "locationEdit",
+                    "locationEdit() const : KUrlComboBox *",
+                    "locationEdit"
+                ],
+                [
+                    "mode",
+                    "mode() const : KFile::Modes",
+                    "mode"
+                ],
+                [
+                    "okButton",
+                    "okButton() const : QPushButton *",
+                    "okButton"
+                ],
+                [
+                    "operationMode",
+                    "operationMode() const : KFileWidget::OperationMode",
+                    "operationMode"
+                ],
+                [
+                    "selectedFile",
+                    "selectedFile() const : QString",
+                    "selectedFile"
+                ],
+                [
+                    "selectedFiles",
+                    "selectedFiles() const : QStringList",
+                    "selectedFiles"
+                ],
+                [
+                    "selectedUrl",
+                    "selectedUrl() const : QUrl",
+                    "selectedUrl"
+                ],
+                [
+                    "selectedUrls",
+                    "selectedUrls() const : QList<QUrl>",
+                    "selectedUrls"
+                ],
+                [
+                    "selectionChanged",
+                    "selectionChanged()",
+                    "selectionChanged"
+                ],
+                [
+                    "setConfirmOverwrite",
+                    "setConfirmOverwrite(bool)",
+                    "setConfirmOverwrite"
+                ],
+                [
+                    "setCustomWidget",
+                    "setCustomWidget(QWidget *)",
+                    "setCustomWidget"
+                ],
+                [
+                    "setCustomWidget",
+                    "setCustomWidget(const QString &, QWidget *)",
+                    "setCustomWidget-1"
+                ],
+                [
+                    "setFilters",
+                    "setFilters(const QList<KFileFilter> &, const KFileFilter &)",
+                    "setFilters"
+                ],
+                [
+                    "setInlinePreviewShown",
+                    "setInlinePreviewShown(bool)",
+                    "setInlinePreviewShown"
+                ],
+                [
+                    "setKeepLocation",
+                    "setKeepLocation(bool)",
+                    "setKeepLocation"
+                ],
+                [
+                    "setLocationLabel",
+                    "setLocationLabel(const QString &)",
+                    "setLocationLabel"
+                ],
+                [
+                    "setMode",
+                    "setMode(KFile::Modes)",
+                    "setMode"
+                ],
+                [
+                    "setOperationMode",
+                    "setOperationMode()",
+                    "setOperationMode"
+                ],
+                [
+                    "setSelectedUrl",
+                    "setSelectedUrl(const QUrl &)",
+                    "setSelectedUrl"
+                ],
+                [
+                    "setSelectedUrls",
+                    "setSelectedUrls(const QList<QUrl> &)",
+                    "setSelectedUrls"
+                ],
+                [
+                    "setSupportedSchemes",
+                    "setSupportedSchemes(const QStringList &)",
+                    "setSupportedSchemes"
+                ],
+                [
+                    "setUrl",
+                    "setUrl(const QUrl &, bool)",
+                    "setUrl"
+                ],
+                [
+                    "setViewMode",
+                    "setViewMode(KFile::FileView)",
+                    "setViewMode"
+                ],
+                [
+                    "slotCancel",
+                    "slotCancel()",
+                    "slotCancel"
+                ],
+                [
+                    "slotOk",
+                    "slotOk()",
+                    "slotOk"
+                ],
+                [
+                    "supportedSchemes",
+                    "supportedSchemes() const : QStringList",
+                    "supportedSchemes"
+                ]
+            ],
+            "name": "KFileWidget",
+            "page": "kiofilewidgets/kfilewidget",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kiofilewidgets/kpreviewwidgetbase"
+            ],
+            "members": [
+                [
+                    "KImageFilePreview",
+                    "KImageFilePreview(QWidget *)",
+                    "KImageFilePreview"
+                ],
+                [
+                    "clearPreview",
+                    "clearPreview()",
+                    "clearPreview"
+                ],
+                [
+                    "createJob",
+                    "createJob(const QUrl &, int, int) : KIO::PreviewJob *",
+                    "createJob"
+                ],
+                [
+                    "gotPreview",
+                    "gotPreview()",
+                    "gotPreview"
+                ],
+                [
+                    "showPreview",
+                    "showPreview()",
+                    "showPreview"
+                ],
+                [
+                    "showPreview",
+                    "showPreview(const QUrl &)",
+                    "showPreview-1"
+                ],
+                [
+                    "showPreview",
+                    "showPreview(const QUrl &, bool)",
+                    "showPreview-2"
+                ]
+            ],
+            "name": "KImageFilePreview",
+            "page": "kiofilewidgets/kimagefilepreview",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KNameAndUrlInputDialog",
+                    "KNameAndUrlInputDialog(const QString &, const QString &, const QUrl &, QWidget *)",
+                    "KNameAndUrlInputDialog"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "setSuggestedName",
+                    "setSuggestedName(const QString &)",
+                    "setSuggestedName"
+                ],
+                [
+                    "setSuggestedUrl",
+                    "setSuggestedUrl(const QUrl &)",
+                    "setSuggestedUrl"
+                ],
+                [
+                    "url",
+                    "url() const : QUrl",
+                    "url"
+                ],
+                [
+                    "urlText",
+                    "urlText() const : QString",
+                    "urlText"
+                ]
+            ],
+            "name": "KNameAndUrlInputDialog",
+            "page": "kiofilewidgets/knameandurlinputdialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KNewFileMenu",
+                    "KNewFileMenu(QObject *)",
+                    "KNewFileMenu"
+                ],
+                [
+                    "~KNewFileMenu",
+                    "~KNewFileMenu()",
+                    "dtor.KNewFileMenu"
+                ],
+                [
+                    "checkUpToDate",
+                    "checkUpToDate()",
+                    "checkUpToDate"
+                ],
+                [
+                    "createDirectory",
+                    "createDirectory()",
+                    "createDirectory"
+                ],
+                [
+                    "createFile",
+                    "createFile()",
+                    "createFile"
+                ],
+                [
+                    "directoryCreated",
+                    "directoryCreated(const QUrl &)",
+                    "directoryCreated"
+                ],
+                [
+                    "directoryCreationRejected",
+                    "directoryCreationRejected(const QUrl &)",
+                    "directoryCreationRejected"
+                ],
+                [
+                    "directoryCreationStarted",
+                    "directoryCreationStarted(const QUrl &)",
+                    "directoryCreationStarted"
+                ],
+                [
+                    "fileCreated",
+                    "fileCreated(const QUrl &)",
+                    "fileCreated"
+                ],
+                [
+                    "fileCreationRejected",
+                    "fileCreationRejected(const QUrl &)",
+                    "fileCreationRejected"
+                ],
+                [
+                    "fileCreationStarted",
+                    "fileCreationStarted(const QUrl &)",
+                    "fileCreationStarted"
+                ],
+                [
+                    "isCreateDirectoryRunning",
+                    "isCreateDirectoryRunning() : bool",
+                    "isCreateDirectoryRunning"
+                ],
+                [
+                    "isCreateFileRunning",
+                    "isCreateFileRunning() : bool",
+                    "isCreateFileRunning"
+                ],
+                [
+                    "isModal",
+                    "isModal() const : bool",
+                    "isModal"
+                ],
+                [
+                    "selectExistingDir",
+                    "selectExistingDir(const QUrl &)",
+                    "selectExistingDir"
+                ],
+                [
+                    "setModal",
+                    "setModal(bool)",
+                    "setModal"
+                ],
+                [
+                    "setNewFileShortcutAction",
+                    "setNewFileShortcutAction(QAction *)",
+                    "setNewFileShortcutAction"
+                ],
+                [
+                    "setNewFolderShortcutAction",
+                    "setNewFolderShortcutAction(QAction *)",
+                    "setNewFolderShortcutAction"
+                ],
+                [
+                    "setParentWidget",
+                    "setParentWidget(QWidget *)",
+                    "setParentWidget"
+                ],
+                [
+                    "setSelectDirWhenAlreadyExist",
+                    "setSelectDirWhenAlreadyExist(bool)",
+                    "setSelectDirWhenAlreadyExist"
+                ],
+                [
+                    "setSupportedMimeTypes",
+                    "setSupportedMimeTypes(const QStringList &)",
+                    "setSupportedMimeTypes"
+                ],
+                [
+                    "setWindowTitle",
+                    "setWindowTitle(const QString &)",
+                    "setWindowTitle"
+                ],
+                [
+                    "setWorkingDirectory",
+                    "setWorkingDirectory(const QUrl &)",
+                    "setWorkingDirectory"
+                ],
+                [
+                    "slotResult",
+                    "slotResult(KJob *)",
+                    "slotResult"
+                ],
+                [
+                    "supportedMimeTypes",
+                    "supportedMimeTypes() const : QStringList",
+                    "supportedMimeTypes"
+                ],
+                [
+                    "workingDirectory",
+                    "workingDirectory() const : QUrl",
+                    "workingDirectory"
+                ]
+            ],
+            "name": "KNewFileMenu",
+            "page": "kiofilewidgets/knewfilemenu",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KPreviewWidgetBase",
+                    "KPreviewWidgetBase(QWidget *)",
+                    "KPreviewWidgetBase"
+                ],
+                [
+                    "clearPreview",
+                    "clearPreview()",
+                    "clearPreview"
+                ],
+                [
+                    "setSupportedMimeTypes",
+                    "setSupportedMimeTypes(const QStringList &)",
+                    "setSupportedMimeTypes"
+                ],
+                [
+                    "showPreview",
+                    "showPreview(const QUrl &)",
+                    "showPreview"
+                ],
+                [
+                    "supportedMimeTypes",
+                    "supportedMimeTypes() const : QStringList",
+                    "supportedMimeTypes"
+                ]
+            ],
+            "name": "KPreviewWidgetBase",
+            "page": "kiofilewidgets/kpreviewwidgetbase",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KUrlNavigator",
+                    "KUrlNavigator(QWidget *)",
+                    "KUrlNavigator"
+                ],
+                [
+                    "KUrlNavigator",
+                    "KUrlNavigator(KFilePlacesModel *, const QUrl &, QWidget *)",
+                    "KUrlNavigator-1"
+                ],
+                [
+                    "activated",
+                    "activated()",
+                    "activated"
+                ],
+                [
+                    "activeTabRequested",
+                    "activeTabRequested(const QUrl &)",
+                    "activeTabRequested"
+                ],
+                [
+                    "badgeWidget",
+                    "badgeWidget() const : QWidget *",
+                    "badgeWidget"
+                ],
+                [
+                    "dropWidget",
+                    "dropWidget() const : QWidget *",
+                    "dropWidget"
+                ],
+                [
+                    "editableStateChanged",
+                    "editableStateChanged(bool)",
+                    "editableStateChanged"
+                ],
+                [
+                    "editor",
+                    "editor() const : KUrlComboBox *",
+                    "editor"
+                ],
+                [
+                    "goBack",
+                    "goBack() : bool",
+                    "goBack"
+                ],
+                [
+                    "goForward",
+                    "goForward() : bool",
+                    "goForward"
+                ],
+                [
+                    "goHome",
+                    "goHome()",
+                    "goHome"
+                ],
+                [
+                    "goUp",
+                    "goUp() : bool",
+                    "goUp"
+                ],
+                [
+                    "historyChanged",
+                    "historyChanged()",
+                    "historyChanged"
+                ],
+                [
+                    "historyIndex",
+                    "historyIndex() const : int",
+                    "historyIndex"
+                ],
+                [
+                    "historySize",
+                    "historySize() const : int",
+                    "historySize"
+                ],
+                [
+                    "homeUrl",
+                    "homeUrl() const : QUrl",
+                    "homeUrl"
+                ],
+                [
+                    "isActive",
+                    "isActive() const : bool",
+                    "isActive"
+                ],
+                [
+                    "isBackgroundEnabled",
+                    "isBackgroundEnabled() const : bool",
+                    "isBackgroundEnabled"
+                ],
+                [
+                    "isPlacesSelectorVisible",
+                    "isPlacesSelectorVisible() const : bool",
+                    "isPlacesSelectorVisible"
+                ],
+                [
+                    "isUrlEditable",
+                    "isUrlEditable() const : bool",
+                    "isUrlEditable"
+                ],
+                [
+                    "layoutChanged",
+                    "layoutChanged()",
+                    "layoutChanged"
+                ],
+                [
+                    "locationState",
+                    "locationState(int) const : QByteArray",
+                    "locationState"
+                ],
+                [
+                    "locationUrl",
+                    "locationUrl(int) const : QUrl",
+                    "locationUrl"
+                ],
+                [
+                    "newWindowRequested",
+                    "newWindowRequested(const QUrl &)",
+                    "newWindowRequested"
+                ],
+                [
+                    "requestActivation",
+                    "requestActivation()",
+                    "requestActivation"
+                ],
+                [
+                    "returnPressed",
+                    "returnPressed()",
+                    "returnPressed"
+                ],
+                [
+                    "saveLocationState",
+                    "saveLocationState(const QByteArray &)",
+                    "saveLocationState"
+                ],
+                [
+                    "setActive",
+                    "setActive(bool)",
+                    "setActive"
+                ],
+                [
+                    "setBackgroundEnabled",
+                    "setBackgroundEnabled(bool)",
+                    "setBackgroundEnabled"
+                ],
+                [
+                    "setBadgeWidget",
+                    "setBadgeWidget(QWidget *)",
+                    "setBadgeWidget"
+                ],
+                [
+                    "setHighlightFocusIndicator",
+                    "setHighlightFocusIndicator(bool)",
+                    "setHighlightFocusIndicator"
+                ],
+                [
+                    "setHomeUrl",
+                    "setHomeUrl(const QUrl &)",
+                    "setHomeUrl"
+                ],
+                [
+                    "setLocationUrl",
+                    "setLocationUrl(const QUrl &)",
+                    "setLocationUrl"
+                ],
+                [
+                    "setPlacesSelectorVisible",
+                    "setPlacesSelectorVisible(bool)",
+                    "setPlacesSelectorVisible"
+                ],
+                [
+                    "setShowFullPath",
+                    "setShowFullPath(bool)",
+                    "setShowFullPath"
+                ],
+                [
+                    "setShowHiddenFolders",
+                    "setShowHiddenFolders(bool)",
+                    "setShowHiddenFolders"
+                ],
+                [
+                    "setSortHiddenFoldersLast",
+                    "setSortHiddenFoldersLast(bool)",
+                    "setSortHiddenFoldersLast"
+                ],
+                [
+                    "setSupportedSchemes",
+                    "setSupportedSchemes(const QStringList &)",
+                    "setSupportedSchemes"
+                ],
+                [
+                    "setUrlEditable",
+                    "setUrlEditable(bool)",
+                    "setUrlEditable"
+                ],
+                [
+                    "showFullPath",
+                    "showFullPath() const : bool",
+                    "showFullPath"
+                ],
+                [
+                    "showHiddenFolders",
+                    "showHiddenFolders() const : bool",
+                    "showHiddenFolders"
+                ],
+                [
+                    "sortHiddenFoldersLast",
+                    "sortHiddenFoldersLast() const : bool",
+                    "sortHiddenFoldersLast"
+                ],
+                [
+                    "supportedSchemes",
+                    "supportedSchemes() const : QStringList",
+                    "supportedSchemes"
+                ],
+                [
+                    "tabRequested",
+                    "tabRequested(const QUrl &)",
+                    "tabRequested"
+                ],
+                [
+                    "uncommittedUrl",
+                    "uncommittedUrl() const : QUrl",
+                    "uncommittedUrl"
+                ],
+                [
+                    "urlAboutToBeChanged",
+                    "urlAboutToBeChanged(const QUrl &)",
+                    "urlAboutToBeChanged"
+                ],
+                [
+                    "urlChanged",
+                    "urlChanged(const QUrl &)",
+                    "urlChanged"
+                ],
+                [
+                    "urlSelectionRequested",
+                    "urlSelectionRequested(const QUrl &)",
+                    "urlSelectionRequested"
+                ],
+                [
+                    "urlsDropped",
+                    "urlsDropped(const QUrl &, QDropEvent *)",
+                    "urlsDropped"
+                ]
+            ],
+            "name": "KUrlNavigator",
+            "page": "kiofilewidgets/kurlnavigator",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kiofilewidgets",
+    "sections": [
+        {
+            "description": "Widgets for File Management.",
+            "page": "kiofilewidgets/kiofilewidgets-module",
+            "pages": [
+                [
+                    "kiofilewidgets/kiofilewidgets-module",
+                    "KIO FileWidgets C++ Classes"
+                ],
+                [
+                    "kiofilewidgets/kabstractviewadapter",
+                    "KAbstractViewAdapter"
+                ],
+                [
+                    "kiofilewidgets/kdiroperator",
+                    "KDirOperator"
+                ],
+                [
+                    "kiofilewidgets/kdirsortfilterproxymodel",
+                    "KDirSortFilterProxyModel"
+                ],
+                [
+                    "kiofilewidgets/kencodingfiledialog",
+                    "KEncodingFileDialog"
+                ],
+                [
+                    "kiofilewidgets/kfilecopytomenu",
+                    "KFileCopyToMenu"
+                ],
+                [
+                    "kiofilewidgets/kfilecustomdialog",
+                    "KFileCustomDialog"
+                ],
+                [
+                    "kiofilewidgets/kfilefiltercombo",
+                    "KFileFilterCombo"
+                ],
+                [
+                    "kiofilewidgets/kfileplaceeditdialog",
+                    "KFilePlaceEditDialog"
+                ],
+                [
+                    "kiofilewidgets/kfileplacesmodel",
+                    "KFilePlacesModel"
+                ],
+                [
+                    "kiofilewidgets/kfileplacesview",
+                    "KFilePlacesView"
+                ],
+                [
+                    "kiofilewidgets/kfilepreviewgenerator",
+                    "KFilePreviewGenerator"
+                ],
+                [
+                    "kiofilewidgets/kfilewidget",
+                    "KFileWidget"
+                ],
+                [
+                    "kiofilewidgets/kimagefilepreview",
+                    "KImageFilePreview"
+                ],
+                [
+                    "kiofilewidgets/knameandurlinputdialog",
+                    "KNameAndUrlInputDialog"
+                ],
+                [
+                    "kiofilewidgets/knewfilemenu",
+                    "KNewFileMenu"
+                ],
+                [
+                    "kiofilewidgets/kpreviewwidgetbase",
+                    "KPreviewWidgetBase"
+                ],
+                [
+                    "kiofilewidgets/kurlnavigator",
+                    "KUrlNavigator"
+                ]
+            ],
+            "qml": false,
+            "title": "KIO FileWidgets C++ Classes"
+        }
+    ]
+}

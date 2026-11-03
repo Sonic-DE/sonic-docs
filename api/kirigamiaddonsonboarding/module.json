@@ -1,0 +1,63 @@
+{
+    "classes": [
+    ],
+    "module": "kirigamiaddonsonboarding",
+    "sections": [
+        {
+            "description": "",
+            "page": "",
+            "pages": [
+                [
+                    "kirigamiaddonsonboarding/kirigamiaddonsonboarding-onboardingtutorial-cmakelists-txt",
+                    "Onboarding Tutorial"
+                ],
+                [
+                    "kirigamiaddonsonboarding/kirigamiaddonsonboarding-onboardingtutorial-example",
+                    "Onboarding Tutorial"
+                ],
+                [
+                    "kirigamiaddonsonboarding/kirigamiaddonsonboarding-onboardingtutorial-main-cpp",
+                    "Onboarding Tutorial"
+                ],
+                [
+                    "kirigamiaddonsonboarding/kirigamiaddonsonboarding-onboardingtutorial-main-qml",
+                    "Onboarding Tutorial"
+                ],
+                [
+                    "kirigamiaddonsonboarding/kirigamiaddonsonboarding-onboardingtutorial-page1-qml",
+                    "Onboarding Tutorial"
+                ],
+                [
+                    "kirigamiaddonsonboarding/kirigamiaddonsonboarding-onboardingtutorial-page2-qml",
+                    "Onboarding Tutorial"
+                ],
+                [
+                    "kirigamiaddonsonboarding/kirigamiaddonsonboarding-onboardingtutorial-page3-qml",
+                    "Onboarding Tutorial"
+                ]
+            ],
+            "qml": false,
+            "title": "kirigamiaddonsonboarding"
+        },
+        {
+            "description": "Provides guided onboarding walkthroughs for Kirigami applications.",
+            "page": "kirigamiaddonsonboarding/org-kde-kirigamiaddons-onboarding-qmlmodule",
+            "pages": [
+                [
+                    "kirigamiaddonsonboarding/org-kde-kirigamiaddons-onboarding-qmlmodule",
+                    "Kirigami Addons Onboarding QML Types"
+                ],
+                [
+                    "kirigamiaddonsonboarding/qml-org-kde-kirigamiaddons-onboarding-onboarding",
+                    "Onboarding"
+                ],
+                [
+                    "kirigamiaddonsonboarding/qml-org-kde-kirigamiaddons-onboarding-onboardtooltip",
+                    "OnboardToolTip"
+                ]
+            ],
+            "qml": true,
+            "title": "Kirigami Addons Onboarding QML Types"
+        }
+    ]
+}

@@ -1,0 +1,3529 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "adapterClass",
+                    "adapterClass : quint32",
+                    "adapterClass-prop"
+                ],
+                [
+                    "address",
+                    "address : QString",
+                    "address-prop"
+                ],
+                [
+                    "devices",
+                    "devices : QList<DevicePtr>",
+                    "devices-prop"
+                ],
+                [
+                    "discoverable",
+                    "discoverable : bool",
+                    "discoverable-prop"
+                ],
+                [
+                    "discoverableTimeout",
+                    "discoverableTimeout : quint32",
+                    "discoverableTimeout-prop"
+                ],
+                [
+                    "discovering",
+                    "discovering : bool",
+                    "discovering-prop"
+                ],
+                [
+                    "leAdvertisingManager",
+                    "leAdvertisingManager : LEAdvertisingManagerPtr",
+                    "leAdvertisingManager-prop"
+                ],
+                [
+                    "media",
+                    "media : MediaPtr",
+                    "media-prop"
+                ],
+                [
+                    "modalias",
+                    "modalias : QString",
+                    "modalias-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "pairable",
+                    "pairable : bool",
+                    "pairable-prop"
+                ],
+                [
+                    "pairableTimeout",
+                    "pairableTimeout : quint32",
+                    "pairableTimeout-prop"
+                ],
+                [
+                    "powered",
+                    "powered : bool",
+                    "powered-prop"
+                ],
+                [
+                    "systemName",
+                    "systemName : QString",
+                    "systemName-prop"
+                ],
+                [
+                    "ubi",
+                    "ubi : QString",
+                    "ubi-prop"
+                ],
+                [
+                    "uuids",
+                    "uuids : QStringList",
+                    "uuids-prop"
+                ],
+                [
+                    "adapterChanged",
+                    "adapterChanged(BluezQt::AdapterPtr)",
+                    "adapterChanged"
+                ],
+                [
+                    "adapterClass",
+                    "adapterClass() const : quint32",
+                    "adapterClass"
+                ],
+                [
+                    "adapterClassChanged",
+                    "adapterClassChanged(quint32)",
+                    "adapterClassChanged"
+                ],
+                [
+                    "adapterRemoved",
+                    "adapterRemoved(BluezQt::AdapterPtr)",
+                    "adapterRemoved"
+                ],
+                [
+                    "address",
+                    "address() const : QString",
+                    "address"
+                ],
+                [
+                    "deviceAdded",
+                    "deviceAdded(BluezQt::DevicePtr)",
+                    "deviceAdded"
+                ],
+                [
+                    "deviceChanged",
+                    "deviceChanged(BluezQt::DevicePtr)",
+                    "deviceChanged"
+                ],
+                [
+                    "deviceForAddress",
+                    "deviceForAddress(const QString &) const : BluezQt::DevicePtr",
+                    "deviceForAddress"
+                ],
+                [
+                    "deviceRemoved",
+                    "deviceRemoved(BluezQt::DevicePtr)",
+                    "deviceRemoved"
+                ],
+                [
+                    "devices",
+                    "devices() const : QList<BluezQt::DevicePtr>",
+                    "devices"
+                ],
+                [
+                    "discoverableChanged",
+                    "discoverableChanged(bool)",
+                    "discoverableChanged"
+                ],
+                [
+                    "discoverableTimeout",
+                    "discoverableTimeout() const : quint32",
+                    "discoverableTimeout"
+                ],
+                [
+                    "discoverableTimeoutChanged",
+                    "discoverableTimeoutChanged(quint32)",
+                    "discoverableTimeoutChanged"
+                ],
+                [
+                    "discoveringChanged",
+                    "discoveringChanged(bool)",
+                    "discoveringChanged"
+                ],
+                [
+                    "gattManager",
+                    "gattManager() const : BluezQt::GattManagerPtr",
+                    "gattManager"
+                ],
+                [
+                    "gattManagerChanged",
+                    "gattManagerChanged(BluezQt::GattManagerPtr)",
+                    "gattManagerChanged"
+                ],
+                [
+                    "getDiscoveryFilters",
+                    "getDiscoveryFilters() : BluezQt::PendingCall *",
+                    "getDiscoveryFilters"
+                ],
+                [
+                    "isDiscoverable",
+                    "isDiscoverable() const : bool",
+                    "isDiscoverable"
+                ],
+                [
+                    "isDiscovering",
+                    "isDiscovering() : bool",
+                    "isDiscovering"
+                ],
+                [
+                    "isPairable",
+                    "isPairable() const : bool",
+                    "isPairable"
+                ],
+                [
+                    "isPowered",
+                    "isPowered() const : bool",
+                    "isPowered"
+                ],
+                [
+                    "leAdvertisingManager",
+                    "leAdvertisingManager() const : BluezQt::LEAdvertisingManagerPtr",
+                    "leAdvertisingManager"
+                ],
+                [
+                    "leAdvertisingManagerChanged",
+                    "leAdvertisingManagerChanged(BluezQt::LEAdvertisingManagerPtr)",
+                    "leAdvertisingManagerChanged"
+                ],
+                [
+                    "media",
+                    "media() const : BluezQt::MediaPtr",
+                    "media"
+                ],
+                [
+                    "mediaChanged",
+                    "mediaChanged(BluezQt::MediaPtr)",
+                    "mediaChanged"
+                ],
+                [
+                    "modalias",
+                    "modalias() const : QString",
+                    "modalias"
+                ],
+                [
+                    "modaliasChanged",
+                    "modaliasChanged(const QString &)",
+                    "modaliasChanged"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "nameChanged",
+                    "nameChanged(const QString &)",
+                    "nameChanged"
+                ],
+                [
+                    "pairableChanged",
+                    "pairableChanged(bool)",
+                    "pairableChanged"
+                ],
+                [
+                    "pairableTimeout",
+                    "pairableTimeout() const : quint32",
+                    "pairableTimeout"
+                ],
+                [
+                    "pairableTimeoutChanged",
+                    "pairableTimeoutChanged(quint32)",
+                    "pairableTimeoutChanged"
+                ],
+                [
+                    "poweredChanged",
+                    "poweredChanged(bool)",
+                    "poweredChanged"
+                ],
+                [
+                    "removeDevice",
+                    "removeDevice(BluezQt::DevicePtr) : BluezQt::PendingCall *",
+                    "removeDevice"
+                ],
+                [
+                    "setDiscoverable",
+                    "setDiscoverable(bool) : BluezQt::PendingCall *",
+                    "setDiscoverable"
+                ],
+                [
+                    "setDiscoverableTimeout",
+                    "setDiscoverableTimeout(quint32) : BluezQt::PendingCall *",
+                    "setDiscoverableTimeout"
+                ],
+                [
+                    "setDiscoveryFilter",
+                    "setDiscoveryFilter(const QVariantMap &) : BluezQt::PendingCall *",
+                    "setDiscoveryFilter"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &) : BluezQt::PendingCall *",
+                    "setName"
+                ],
+                [
+                    "setPairable",
+                    "setPairable(bool) : BluezQt::PendingCall *",
+                    "setPairable"
+                ],
+                [
+                    "setPairableTimeout",
+                    "setPairableTimeout(quint32) : BluezQt::PendingCall *",
+                    "setPairableTimeout"
+                ],
+                [
+                    "setPowered",
+                    "setPowered(bool) : BluezQt::PendingCall *",
+                    "setPowered"
+                ],
+                [
+                    "startDiscovery",
+                    "startDiscovery() : BluezQt::PendingCall *",
+                    "startDiscovery"
+                ],
+                [
+                    "stopDiscovery",
+                    "stopDiscovery() : BluezQt::PendingCall *",
+                    "stopDiscovery"
+                ],
+                [
+                    "systemName",
+                    "systemName() const : QString",
+                    "systemName"
+                ],
+                [
+                    "systemNameChanged",
+                    "systemNameChanged(const QString &)",
+                    "systemNameChanged"
+                ],
+                [
+                    "toSharedPtr",
+                    "toSharedPtr() const : BluezQt::AdapterPtr",
+                    "toSharedPtr"
+                ],
+                [
+                    "ubi",
+                    "ubi() const : QString",
+                    "ubi"
+                ],
+                [
+                    "uuids",
+                    "uuids() const : QStringList",
+                    "uuids"
+                ],
+                [
+                    "uuidsChanged",
+                    "uuidsChanged(const QStringList &)",
+                    "uuidsChanged"
+                ]
+            ],
+            "name": "BluezQt::Adapter",
+            "page": "bluezqt/bluezqt-adapter",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "capability",
+                    "capability : Capability",
+                    "capability-prop"
+                ],
+                [
+                    "Agent",
+                    "Agent(QObject *)",
+                    "Agent"
+                ],
+                [
+                    "authorizeService",
+                    "authorizeService(BluezQt::DevicePtr, const QString &, const BluezQt::Request<> &)",
+                    "authorizeService"
+                ],
+                [
+                    "cancel",
+                    "cancel()",
+                    "cancel"
+                ],
+                [
+                    "capability",
+                    "capability() const : BluezQt::Agent::Capability",
+                    "capability"
+                ],
+                [
+                    "displayPasskey",
+                    "displayPasskey(BluezQt::DevicePtr, const QString &, const QString &)",
+                    "displayPasskey"
+                ],
+                [
+                    "displayPinCode",
+                    "displayPinCode(BluezQt::DevicePtr, const QString &)",
+                    "displayPinCode"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "release",
+                    "release()",
+                    "release"
+                ],
+                [
+                    "requestAuthorization",
+                    "requestAuthorization(BluezQt::DevicePtr, const BluezQt::Request<> &)",
+                    "requestAuthorization"
+                ],
+                [
+                    "requestConfirmation",
+                    "requestConfirmation(BluezQt::DevicePtr, const QString &, const BluezQt::Request<> &)",
+                    "requestConfirmation"
+                ],
+                [
+                    "requestPasskey",
+                    "requestPasskey(BluezQt::DevicePtr, const BluezQt::Request<quint32> &)",
+                    "requestPasskey"
+                ],
+                [
+                    "requestPinCode",
+                    "requestPinCode(BluezQt::DevicePtr, const BluezQt::Request<QString> &)",
+                    "requestPinCode"
+                ]
+            ],
+            "name": "BluezQt::Agent",
+            "page": "bluezqt/bluezqt-agent",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "percentage",
+                    "percentage : int",
+                    "percentage-prop"
+                ],
+                [
+                    "percentage",
+                    "percentage() const : int",
+                    "percentage"
+                ],
+                [
+                    "percentageChanged",
+                    "percentageChanged(int)",
+                    "percentageChanged"
+                ],
+                [
+                    "toSharedPtr",
+                    "toSharedPtr() const : BluezQt::BatteryPtr",
+                    "toSharedPtr"
+                ]
+            ],
+            "name": "BluezQt::Battery",
+            "page": "bluezqt/bluezqt-battery",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "adapter",
+                    "adapter : AdapterPtr",
+                    "adapter-prop"
+                ],
+                [
+                    "address",
+                    "address : QString",
+                    "address-prop"
+                ],
+                [
+                    "appearance",
+                    "appearance : quint16",
+                    "appearance-prop"
+                ],
+                [
+                    "battery",
+                    "battery : BatteryPtr",
+                    "battery-prop"
+                ],
+                [
+                    "blocked",
+                    "blocked : bool",
+                    "blocked-prop"
+                ],
+                [
+                    "connected",
+                    "connected : bool",
+                    "connected-prop"
+                ],
+                [
+                    "deviceClass",
+                    "deviceClass : quint32",
+                    "deviceClass-prop"
+                ],
+                [
+                    "friendlyName",
+                    "friendlyName : QString",
+                    "friendlyName-prop"
+                ],
+                [
+                    "gattServices",
+                    "gattServices : QList<GattServiceRemotePtr>",
+                    "gattServices-prop"
+                ],
+                [
+                    "icon",
+                    "icon : QString",
+                    "icon-prop"
+                ],
+                [
+                    "input",
+                    "input : InputPtr",
+                    "input-prop"
+                ],
+                [
+                    "legacyPairing",
+                    "legacyPairing : bool",
+                    "legacyPairing-prop"
+                ],
+                [
+                    "manufacturerData",
+                    "manufacturerData : ManData",
+                    "manufacturerData-prop"
+                ],
+                [
+                    "mediaPlayer",
+                    "mediaPlayer : MediaPlayerPtr",
+                    "mediaPlayer-prop"
+                ],
+                [
+                    "mediaTransport",
+                    "mediaTransport : MediaTransportPtr",
+                    "mediaTransport-prop"
+                ],
+                [
+                    "modalias",
+                    "modalias : QString",
+                    "modalias-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "paired",
+                    "paired : bool",
+                    "paired-prop"
+                ],
+                [
+                    "remoteName",
+                    "remoteName : QString",
+                    "remoteName-prop"
+                ],
+                [
+                    "rssi",
+                    "rssi : qint16",
+                    "rssi-prop"
+                ],
+                [
+                    "servicesResolved",
+                    "servicesResolved : bool",
+                    "servicesResolved-prop"
+                ],
+                [
+                    "trusted",
+                    "trusted : bool",
+                    "trusted-prop"
+                ],
+                [
+                    "type",
+                    "type : Type",
+                    "type-prop"
+                ],
+                [
+                    "ubi",
+                    "ubi : QString",
+                    "ubi-prop"
+                ],
+                [
+                    "uuids",
+                    "uuids : QStringList",
+                    "uuids-prop"
+                ],
+                [
+                    "adapter",
+                    "adapter() const : BluezQt::AdapterPtr",
+                    "adapter"
+                ],
+                [
+                    "address",
+                    "address() const : QString",
+                    "address"
+                ],
+                [
+                    "addressChanged",
+                    "addressChanged(const QString &)",
+                    "addressChanged"
+                ],
+                [
+                    "appearance",
+                    "appearance() const : quint16",
+                    "appearance"
+                ],
+                [
+                    "appearanceChanged",
+                    "appearanceChanged(quint16)",
+                    "appearanceChanged"
+                ],
+                [
+                    "battery",
+                    "battery() const : BluezQt::BatteryPtr",
+                    "battery"
+                ],
+                [
+                    "batteryChanged",
+                    "batteryChanged(BluezQt::BatteryPtr)",
+                    "batteryChanged"
+                ],
+                [
+                    "blockedChanged",
+                    "blockedChanged(bool)",
+                    "blockedChanged"
+                ],
+                [
+                    "cancelPairing",
+                    "cancelPairing() : BluezQt::PendingCall *",
+                    "cancelPairing"
+                ],
+                [
+                    "connectProfile",
+                    "connectProfile(const QString &) : BluezQt::PendingCall *",
+                    "connectProfile"
+                ],
+                [
+                    "connectToDevice",
+                    "connectToDevice() : BluezQt::PendingCall *",
+                    "connectToDevice"
+                ],
+                [
+                    "connectedChanged",
+                    "connectedChanged(bool)",
+                    "connectedChanged"
+                ],
+                [
+                    "deviceChanged",
+                    "deviceChanged(BluezQt::DevicePtr)",
+                    "deviceChanged"
+                ],
+                [
+                    "deviceClass",
+                    "deviceClass() const : quint32",
+                    "deviceClass"
+                ],
+                [
+                    "deviceClassChanged",
+                    "deviceClassChanged(quint32)",
+                    "deviceClassChanged"
+                ],
+                [
+                    "deviceRemoved",
+                    "deviceRemoved(BluezQt::DevicePtr)",
+                    "deviceRemoved"
+                ],
+                [
+                    "disconnectFromDevice",
+                    "disconnectFromDevice() : BluezQt::PendingCall *",
+                    "disconnectFromDevice"
+                ],
+                [
+                    "disconnectProfile",
+                    "disconnectProfile(const QString &) : BluezQt::PendingCall *",
+                    "disconnectProfile"
+                ],
+                [
+                    "friendlyName",
+                    "friendlyName() const : QString",
+                    "friendlyName"
+                ],
+                [
+                    "friendlyNameChanged",
+                    "friendlyNameChanged(const QString &)",
+                    "friendlyNameChanged"
+                ],
+                [
+                    "gattServiceAdded",
+                    "gattServiceAdded(BluezQt::GattServiceRemotePtr)",
+                    "gattServiceAdded"
+                ],
+                [
+                    "gattServiceChanged",
+                    "gattServiceChanged(BluezQt::GattServiceRemotePtr)",
+                    "gattServiceChanged"
+                ],
+                [
+                    "gattServiceRemoved",
+                    "gattServiceRemoved(BluezQt::GattServiceRemotePtr)",
+                    "gattServiceRemoved"
+                ],
+                [
+                    "gattServices",
+                    "gattServices() const : QList<BluezQt::GattServiceRemotePtr>",
+                    "gattServices"
+                ],
+                [
+                    "gattServicesChanged",
+                    "gattServicesChanged(QList<BluezQt::GattServiceRemotePtr>)",
+                    "gattServicesChanged"
+                ],
+                [
+                    "hasLegacyPairing",
+                    "hasLegacyPairing() const : bool",
+                    "hasLegacyPairing"
+                ],
+                [
+                    "icon",
+                    "icon() const : QString",
+                    "icon"
+                ],
+                [
+                    "iconChanged",
+                    "iconChanged(const QString &)",
+                    "iconChanged"
+                ],
+                [
+                    "input",
+                    "input() const : BluezQt::InputPtr",
+                    "input"
+                ],
+                [
+                    "inputChanged",
+                    "inputChanged(BluezQt::InputPtr)",
+                    "inputChanged"
+                ],
+                [
+                    "isBlocked",
+                    "isBlocked() const : bool",
+                    "isBlocked"
+                ],
+                [
+                    "isConnected",
+                    "isConnected() const : bool",
+                    "isConnected"
+                ],
+                [
+                    "isPaired",
+                    "isPaired() const : bool",
+                    "isPaired"
+                ],
+                [
+                    "isServicesResolved",
+                    "isServicesResolved() const : bool",
+                    "isServicesResolved"
+                ],
+                [
+                    "isTrusted",
+                    "isTrusted() const : bool",
+                    "isTrusted"
+                ],
+                [
+                    "legacyPairingChanged",
+                    "legacyPairingChanged(bool)",
+                    "legacyPairingChanged"
+                ],
+                [
+                    "manufacturerData",
+                    "manufacturerData() const : BluezQt::ManData",
+                    "manufacturerData"
+                ],
+                [
+                    "manufacturerDataChanged",
+                    "manufacturerDataChanged(BluezQt::ManData)",
+                    "manufacturerDataChanged"
+                ],
+                [
+                    "mediaPlayer",
+                    "mediaPlayer() const : BluezQt::MediaPlayerPtr",
+                    "mediaPlayer"
+                ],
+                [
+                    "mediaPlayerChanged",
+                    "mediaPlayerChanged(BluezQt::MediaPlayerPtr)",
+                    "mediaPlayerChanged"
+                ],
+                [
+                    "mediaTransport",
+                    "mediaTransport() const : BluezQt::MediaTransportPtr",
+                    "mediaTransport"
+                ],
+                [
+                    "mediaTransportChanged",
+                    "mediaTransportChanged(BluezQt::MediaTransportPtr)",
+                    "mediaTransportChanged"
+                ],
+                [
+                    "modalias",
+                    "modalias() const : QString",
+                    "modalias"
+                ],
+                [
+                    "modaliasChanged",
+                    "modaliasChanged(const QString &)",
+                    "modaliasChanged"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "nameChanged",
+                    "nameChanged(const QString &)",
+                    "nameChanged"
+                ],
+                [
+                    "pair",
+                    "pair() : BluezQt::PendingCall *",
+                    "pair"
+                ],
+                [
+                    "pairedChanged",
+                    "pairedChanged(bool)",
+                    "pairedChanged"
+                ],
+                [
+                    "remoteName",
+                    "remoteName() const : QString",
+                    "remoteName"
+                ],
+                [
+                    "remoteNameChanged",
+                    "remoteNameChanged(const QString &)",
+                    "remoteNameChanged"
+                ],
+                [
+                    "rssi",
+                    "rssi() const : qint16",
+                    "rssi"
+                ],
+                [
+                    "rssiChanged",
+                    "rssiChanged(qint16)",
+                    "rssiChanged"
+                ],
+                [
+                    "serviceData",
+                    "serviceData() const : QHash<QString, QByteArray>",
+                    "serviceData"
+                ],
+                [
+                    "serviceDataChanged",
+                    "serviceDataChanged(const QHash<QString, QByteArray> &)",
+                    "serviceDataChanged"
+                ],
+                [
+                    "servicesResolvedChanged",
+                    "servicesResolvedChanged(bool)",
+                    "servicesResolvedChanged"
+                ],
+                [
+                    "setBlocked",
+                    "setBlocked(bool) : BluezQt::PendingCall *",
+                    "setBlocked"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &) : BluezQt::PendingCall *",
+                    "setName"
+                ],
+                [
+                    "setTrusted",
+                    "setTrusted(bool) : BluezQt::PendingCall *",
+                    "setTrusted"
+                ],
+                [
+                    "stringToType",
+                    "stringToType(const QString &) : BluezQt::Device::Type",
+                    "stringToType"
+                ],
+                [
+                    "toSharedPtr",
+                    "toSharedPtr() const : BluezQt::DevicePtr",
+                    "toSharedPtr"
+                ],
+                [
+                    "trustedChanged",
+                    "trustedChanged(bool)",
+                    "trustedChanged"
+                ],
+                [
+                    "type",
+                    "type() const : BluezQt::Device::Type",
+                    "type"
+                ],
+                [
+                    "typeChanged",
+                    "typeChanged(BluezQt::Device::Type)",
+                    "typeChanged"
+                ],
+                [
+                    "typeToString",
+                    "typeToString(BluezQt::Device::Type) : QString",
+                    "typeToString"
+                ],
+                [
+                    "ubi",
+                    "ubi() const : QString",
+                    "ubi"
+                ],
+                [
+                    "uuids",
+                    "uuids() const : QStringList",
+                    "uuids"
+                ],
+                [
+                    "uuidsChanged",
+                    "uuidsChanged(const QStringList &)",
+                    "uuidsChanged"
+                ]
+            ],
+            "name": "BluezQt::Device",
+            "page": "bluezqt/bluezqt-device",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DevicesModel",
+                    "DevicesModel(BluezQt::Manager *, QObject *)",
+                    "DevicesModel"
+                ],
+                [
+                    "device",
+                    "device(const QModelIndex &) const : BluezQt::DevicePtr",
+                    "device"
+                ]
+            ],
+            "name": "BluezQt::DevicesModel",
+            "page": "bluezqt/bluezqt-devicesmodel",
+            "qtBases": [
+                [
+                    "QAbstractListModel",
+                    "https://doc.qt.io/qt-6/qabstractlistmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "GattApplication",
+                    "GattApplication(QObject *)",
+                    "GattApplication"
+                ],
+                [
+                    "GattApplication",
+                    "GattApplication(const QString &, QObject *)",
+                    "GattApplication-1"
+                ]
+            ],
+            "name": "BluezQt::GattApplication",
+            "page": "bluezqt/bluezqt-gattapplication",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "GattCharacteristic",
+                    "GattCharacteristic(const QString &, BluezQt::GattService *)",
+                    "GattCharacteristic"
+                ],
+                [
+                    "GattCharacteristic",
+                    "GattCharacteristic(const QString &, const QStringList &, BluezQt::GattService *)",
+                    "GattCharacteristic-1"
+                ],
+                [
+                    "flags",
+                    "flags() const : QStringList",
+                    "flags"
+                ],
+                [
+                    "isNotifying",
+                    "isNotifying() const : bool",
+                    "isNotifying"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "readValue",
+                    "readValue() : QByteArray",
+                    "readValue"
+                ],
+                [
+                    "service",
+                    "service() const : const BluezQt::GattService *",
+                    "service"
+                ],
+                [
+                    "setReadCallback",
+                    "setReadCallback(BluezQt::GattCharacteristic::ReadCallback)",
+                    "setReadCallback"
+                ],
+                [
+                    "startNotify",
+                    "startNotify()",
+                    "startNotify"
+                ],
+                [
+                    "stopNotify",
+                    "stopNotify()",
+                    "stopNotify"
+                ],
+                [
+                    "uuid",
+                    "uuid() const : QString",
+                    "uuid"
+                ],
+                [
+                    "valueWritten",
+                    "valueWritten(const QByteArray &)",
+                    "valueWritten"
+                ],
+                [
+                    "writeValue",
+                    "writeValue(const QByteArray &)",
+                    "writeValue"
+                ]
+            ],
+            "name": "BluezQt::GattCharacteristic",
+            "page": "bluezqt/bluezqt-gattcharacteristic",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "MTU",
+                    "MTU : quint16",
+                    "MTU-prop"
+                ],
+                [
+                    "descriptors",
+                    "descriptors : QList<GattDescriptorRemotePtr>",
+                    "descriptors-prop"
+                ],
+                [
+                    "flags",
+                    "flags : QStringList",
+                    "flags-prop"
+                ],
+                [
+                    "handle",
+                    "handle : quint16",
+                    "handle-prop"
+                ],
+                [
+                    "notifyAcquired",
+                    "notifyAcquired : bool",
+                    "notifyAcquired-prop"
+                ],
+                [
+                    "notifying",
+                    "notifying : bool",
+                    "notifying-prop"
+                ],
+                [
+                    "service",
+                    "service : const GattServiceRemotePtr",
+                    "service-prop"
+                ],
+                [
+                    "ubi",
+                    "ubi : const QString",
+                    "ubi-prop"
+                ],
+                [
+                    "uuid",
+                    "uuid : QString",
+                    "uuid-prop"
+                ],
+                [
+                    "value",
+                    "value : QByteArray",
+                    "value-prop"
+                ],
+                [
+                    "writeAcquired",
+                    "writeAcquired : bool",
+                    "writeAcquired-prop"
+                ],
+                [
+                    "MTU",
+                    "MTU() const : quint16",
+                    "MTU"
+                ],
+                [
+                    "MTUChanged",
+                    "MTUChanged(quint16)",
+                    "MTUChanged"
+                ],
+                [
+                    "characteristicChanged",
+                    "characteristicChanged(BluezQt::GattCharacteristicRemotePtr)",
+                    "characteristicChanged"
+                ],
+                [
+                    "confirm",
+                    "confirm() : BluezQt::PendingCall *",
+                    "confirm"
+                ],
+                [
+                    "descriptors",
+                    "descriptors() const : QList<BluezQt::GattDescriptorRemotePtr>",
+                    "descriptors"
+                ],
+                [
+                    "descriptorsChanged",
+                    "descriptorsChanged(QList<BluezQt::GattDescriptorRemotePtr>)",
+                    "descriptorsChanged"
+                ],
+                [
+                    "flags",
+                    "flags() const : QStringList",
+                    "flags"
+                ],
+                [
+                    "flagsChanged",
+                    "flagsChanged(QStringList)",
+                    "flagsChanged"
+                ],
+                [
+                    "gattDescriptorAdded",
+                    "gattDescriptorAdded(BluezQt::GattDescriptorRemotePtr)",
+                    "gattDescriptorAdded"
+                ],
+                [
+                    "gattDescriptorChanged",
+                    "gattDescriptorChanged(BluezQt::GattDescriptorRemotePtr)",
+                    "gattDescriptorChanged"
+                ],
+                [
+                    "gattDescriptorRemoved",
+                    "gattDescriptorRemoved(BluezQt::GattDescriptorRemotePtr)",
+                    "gattDescriptorRemoved"
+                ],
+                [
+                    "handle",
+                    "handle() const : quint16",
+                    "handle"
+                ],
+                [
+                    "handleChanged",
+                    "handleChanged(quint16)",
+                    "handleChanged"
+                ],
+                [
+                    "isNotifyAcquired",
+                    "isNotifyAcquired() const : bool",
+                    "isNotifyAcquired"
+                ],
+                [
+                    "isNotifying",
+                    "isNotifying() const : bool",
+                    "isNotifying"
+                ],
+                [
+                    "isWriteAcquired",
+                    "isWriteAcquired() const : bool",
+                    "isWriteAcquired"
+                ],
+                [
+                    "notifyAcquiredChanged",
+                    "notifyAcquiredChanged(bool)",
+                    "notifyAcquiredChanged"
+                ],
+                [
+                    "notifyingChanged",
+                    "notifyingChanged(bool)",
+                    "notifyingChanged"
+                ],
+                [
+                    "readValue",
+                    "readValue(const QVariantMap &) : BluezQt::PendingCall *",
+                    "readValue"
+                ],
+                [
+                    "service",
+                    "service() const : BluezQt::GattServiceRemotePtr",
+                    "service"
+                ],
+                [
+                    "setHandle",
+                    "setHandle(quint16) : BluezQt::PendingCall *",
+                    "setHandle"
+                ],
+                [
+                    "startNotify",
+                    "startNotify() : BluezQt::PendingCall *",
+                    "startNotify"
+                ],
+                [
+                    "stopNotify",
+                    "stopNotify() : BluezQt::PendingCall *",
+                    "stopNotify"
+                ],
+                [
+                    "toSharedPtr",
+                    "toSharedPtr() const : BluezQt::GattCharacteristicRemotePtr",
+                    "toSharedPtr"
+                ],
+                [
+                    "ubi",
+                    "ubi() const : QString",
+                    "ubi"
+                ],
+                [
+                    "uuid",
+                    "uuid() const : QString",
+                    "uuid"
+                ],
+                [
+                    "uuidChanged",
+                    "uuidChanged(const QString &)",
+                    "uuidChanged"
+                ],
+                [
+                    "value",
+                    "value() const : QByteArray",
+                    "value"
+                ],
+                [
+                    "valueChanged",
+                    "valueChanged(const QByteArray)",
+                    "valueChanged"
+                ],
+                [
+                    "writeAcquiredChanged",
+                    "writeAcquiredChanged(bool)",
+                    "writeAcquiredChanged"
+                ],
+                [
+                    "writeValue",
+                    "writeValue(const QByteArray &, const QVariantMap &) : BluezQt::PendingCall *",
+                    "writeValue"
+                ]
+            ],
+            "name": "BluezQt::GattCharacteristicRemote",
+            "page": "bluezqt/bluezqt-gattcharacteristicremote",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "GattDescriptor",
+                    "GattDescriptor(const QString &, BluezQt::GattCharacteristic *)",
+                    "GattDescriptor"
+                ],
+                [
+                    "GattDescriptor",
+                    "GattDescriptor(const QString &, const QStringList &, BluezQt::GattCharacteristic *)",
+                    "GattDescriptor-1"
+                ],
+                [
+                    "GattDescriptor",
+                    "GattDescriptor(const QString &, const QStringList &, const QByteArray &, BluezQt::GattCharacteristic *)",
+                    "GattDescriptor-2"
+                ],
+                [
+                    "characteristic",
+                    "characteristic() const : QDBusObjectPath",
+                    "characteristic"
+                ],
+                [
+                    "createUserDescription",
+                    "createUserDescription(const QString &, BluezQt::GattCharacteristic *) : BluezQt::GattDescriptor *",
+                    "createUserDescription"
+                ],
+                [
+                    "flags",
+                    "flags() const : QStringList",
+                    "flags"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "readValue",
+                    "readValue() : QByteArray",
+                    "readValue"
+                ],
+                [
+                    "uuid",
+                    "uuid() const : QString",
+                    "uuid"
+                ],
+                [
+                    "writeValue",
+                    "writeValue(const QByteArray &)",
+                    "writeValue"
+                ]
+            ],
+            "name": "BluezQt::GattDescriptor",
+            "page": "bluezqt/bluezqt-gattdescriptor",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "characteristic",
+                    "characteristic : const GattCharacteristicRemotePtr",
+                    "characteristic-prop"
+                ],
+                [
+                    "flags",
+                    "flags : QStringList",
+                    "flags-prop"
+                ],
+                [
+                    "handle",
+                    "handle : quint16",
+                    "handle-prop"
+                ],
+                [
+                    "ubi",
+                    "ubi : const QString",
+                    "ubi-prop"
+                ],
+                [
+                    "uuid",
+                    "uuid : QString",
+                    "uuid-prop"
+                ],
+                [
+                    "value",
+                    "value : QByteArray",
+                    "value-prop"
+                ],
+                [
+                    "characteristic",
+                    "characteristic() const : BluezQt::GattCharacteristicRemotePtr",
+                    "characteristic"
+                ],
+                [
+                    "descriptorChanged",
+                    "descriptorChanged(BluezQt::GattDescriptorRemotePtr)",
+                    "descriptorChanged"
+                ],
+                [
+                    "flags",
+                    "flags() const : QStringList",
+                    "flags"
+                ],
+                [
+                    "flagsChanged",
+                    "flagsChanged(QStringList)",
+                    "flagsChanged"
+                ],
+                [
+                    "handle",
+                    "handle() const : quint16",
+                    "handle"
+                ],
+                [
+                    "handleChanged",
+                    "handleChanged(quint16)",
+                    "handleChanged"
+                ],
+                [
+                    "readValue",
+                    "readValue(const QVariantMap &) : BluezQt::PendingCall *",
+                    "readValue"
+                ],
+                [
+                    "setHandle",
+                    "setHandle(quint16) : BluezQt::PendingCall *",
+                    "setHandle"
+                ],
+                [
+                    "toSharedPtr",
+                    "toSharedPtr() const : BluezQt::GattDescriptorRemotePtr",
+                    "toSharedPtr"
+                ],
+                [
+                    "ubi",
+                    "ubi() const : QString",
+                    "ubi"
+                ],
+                [
+                    "uuid",
+                    "uuid() const : QString",
+                    "uuid"
+                ],
+                [
+                    "uuidChanged",
+                    "uuidChanged(const QString &)",
+                    "uuidChanged"
+                ],
+                [
+                    "value",
+                    "value() const : QByteArray",
+                    "value"
+                ],
+                [
+                    "valueChanged",
+                    "valueChanged(const QByteArray)",
+                    "valueChanged"
+                ],
+                [
+                    "writeValue",
+                    "writeValue(const QByteArray &, const QVariantMap &) : BluezQt::PendingCall *",
+                    "writeValue"
+                ]
+            ],
+            "name": "BluezQt::GattDescriptorRemote",
+            "page": "bluezqt/bluezqt-gattdescriptorremote",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "registerApplication",
+                    "registerApplication(BluezQt::GattApplication *) : BluezQt::PendingCall *",
+                    "registerApplication"
+                ],
+                [
+                    "unregisterApplication",
+                    "unregisterApplication(BluezQt::GattApplication *) : BluezQt::PendingCall *",
+                    "unregisterApplication"
+                ]
+            ],
+            "name": "BluezQt::GattManager",
+            "page": "bluezqt/bluezqt-gattmanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "GattService",
+                    "GattService(const QString &, bool, BluezQt::GattApplication *)",
+                    "GattService"
+                ],
+                [
+                    "isPrimary",
+                    "isPrimary() const : bool",
+                    "isPrimary"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "uuid",
+                    "uuid() const : QString",
+                    "uuid"
+                ]
+            ],
+            "name": "BluezQt::GattService",
+            "page": "bluezqt/bluezqt-gattservice",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "characteristics",
+                    "characteristics : QList<GattCharacteristicRemotePtr>",
+                    "characteristics-prop"
+                ],
+                [
+                    "device",
+                    "device : const DevicePtr",
+                    "device-prop"
+                ],
+                [
+                    "handle",
+                    "handle : quint16",
+                    "handle-prop"
+                ],
+                [
+                    "includes",
+                    "includes : QList<QDBusObjectPath>",
+                    "includes-prop"
+                ],
+                [
+                    "primary",
+                    "primary : bool",
+                    "primary-prop"
+                ],
+                [
+                    "uuid",
+                    "uuid : QString",
+                    "uuid-prop"
+                ],
+                [
+                    "characteristics",
+                    "characteristics() const : QList<BluezQt::GattCharacteristicRemotePtr>",
+                    "characteristics"
+                ],
+                [
+                    "characteristicsChanged",
+                    "characteristicsChanged(QList<BluezQt::GattCharacteristicRemotePtr>)",
+                    "characteristicsChanged"
+                ],
+                [
+                    "device",
+                    "device() const : BluezQt::DevicePtr",
+                    "device"
+                ],
+                [
+                    "gattCharacteristicAdded",
+                    "gattCharacteristicAdded(BluezQt::GattCharacteristicRemotePtr)",
+                    "gattCharacteristicAdded"
+                ],
+                [
+                    "gattCharacteristicChanged",
+                    "gattCharacteristicChanged(BluezQt::GattCharacteristicRemotePtr)",
+                    "gattCharacteristicChanged"
+                ],
+                [
+                    "gattCharacteristicRemoved",
+                    "gattCharacteristicRemoved(BluezQt::GattCharacteristicRemotePtr)",
+                    "gattCharacteristicRemoved"
+                ],
+                [
+                    "handle",
+                    "handle() const : quint16",
+                    "handle"
+                ],
+                [
+                    "handleChanged",
+                    "handleChanged(quint16)",
+                    "handleChanged"
+                ],
+                [
+                    "includes",
+                    "includes() const : QList<QDBusObjectPath>",
+                    "includes"
+                ],
+                [
+                    "includesChanged",
+                    "includesChanged(const QList<QDBusObjectPath> &)",
+                    "includesChanged"
+                ],
+                [
+                    "isPrimary",
+                    "isPrimary() const : bool",
+                    "isPrimary"
+                ],
+                [
+                    "primaryChanged",
+                    "primaryChanged(bool)",
+                    "primaryChanged"
+                ],
+                [
+                    "serviceChanged",
+                    "serviceChanged(BluezQt::GattServiceRemotePtr)",
+                    "serviceChanged"
+                ],
+                [
+                    "setHandle",
+                    "setHandle(quint16) : BluezQt::PendingCall *",
+                    "setHandle"
+                ],
+                [
+                    "toSharedPtr",
+                    "toSharedPtr() const : BluezQt::GattServiceRemotePtr",
+                    "toSharedPtr"
+                ],
+                [
+                    "ubi",
+                    "ubi() const : QString",
+                    "ubi"
+                ],
+                [
+                    "uuid",
+                    "uuid() const : QString",
+                    "uuid"
+                ],
+                [
+                    "uuidChanged",
+                    "uuidChanged(const QString &)",
+                    "uuidChanged"
+                ]
+            ],
+            "name": "BluezQt::GattServiceRemote",
+            "page": "bluezqt/bluezqt-gattserviceremote",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "bluezqt/bluezqt-job"
+            ],
+            "members": [
+                [
+                    "manager",
+                    "manager : Manager*",
+                    "manager-prop"
+                ],
+                [
+                    "manager",
+                    "manager() const : BluezQt::Manager *",
+                    "manager"
+                ],
+                [
+                    "result",
+                    "result(BluezQt::InitManagerJob *)",
+                    "result"
+                ]
+            ],
+            "name": "BluezQt::InitManagerJob",
+            "page": "bluezqt/bluezqt-initmanagerjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "bluezqt/bluezqt-job"
+            ],
+            "members": [
+                [
+                    "manager",
+                    "manager : ObexManager*",
+                    "manager-prop"
+                ],
+                [
+                    "manager",
+                    "manager() const : BluezQt::ObexManager *",
+                    "manager"
+                ],
+                [
+                    "result",
+                    "result(BluezQt::InitObexManagerJob *)",
+                    "result"
+                ]
+            ],
+            "name": "BluezQt::InitObexManagerJob",
+            "page": "bluezqt/bluezqt-initobexmanagerjob",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "reconnectMode",
+                    "reconnectMode : ReconnectMode",
+                    "reconnectMode-prop"
+                ],
+                [
+                    "reconnectMode",
+                    "reconnectMode() const : BluezQt::Input::ReconnectMode",
+                    "reconnectMode"
+                ],
+                [
+                    "reconnectModeChanged",
+                    "reconnectModeChanged(BluezQt::Input::ReconnectMode)",
+                    "reconnectModeChanged"
+                ],
+                [
+                    "toSharedPtr",
+                    "toSharedPtr() const : BluezQt::InputPtr",
+                    "toSharedPtr"
+                ]
+            ],
+            "name": "BluezQt::Input",
+            "page": "bluezqt/bluezqt-input",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "error",
+                    "error : int",
+                    "error-prop"
+                ],
+                [
+                    "errorText",
+                    "errorText : QString",
+                    "errorText-prop"
+                ],
+                [
+                    "finished",
+                    "finished : bool",
+                    "finished-prop"
+                ],
+                [
+                    "running",
+                    "running : bool",
+                    "running-prop"
+                ],
+                [
+                    "Job",
+                    "Job(QObject *)",
+                    "Job"
+                ],
+                [
+                    "doEmitResult",
+                    "doEmitResult()",
+                    "doEmitResult"
+                ],
+                [
+                    "doStart",
+                    "doStart()",
+                    "doStart"
+                ],
+                [
+                    "emitResult",
+                    "emitResult()",
+                    "emitResult"
+                ],
+                [
+                    "error",
+                    "error() const : int",
+                    "error"
+                ],
+                [
+                    "errorText",
+                    "errorText() const : QString",
+                    "errorText"
+                ],
+                [
+                    "exec",
+                    "exec() : bool",
+                    "exec"
+                ],
+                [
+                    "isFinished",
+                    "isFinished() const : bool",
+                    "isFinished"
+                ],
+                [
+                    "isRunning",
+                    "isRunning() const : bool",
+                    "isRunning"
+                ],
+                [
+                    "kill",
+                    "kill()",
+                    "kill"
+                ],
+                [
+                    "setError",
+                    "setError(int)",
+                    "setError"
+                ],
+                [
+                    "setErrorText",
+                    "setErrorText(const QString &)",
+                    "setErrorText"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ]
+            ],
+            "name": "BluezQt::Job",
+            "page": "bluezqt/bluezqt-job",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "LEAdvertisement",
+                    "LEAdvertisement(const QStringList &, QObject *)",
+                    "LEAdvertisement"
+                ],
+                [
+                    "manufacturerData",
+                    "manufacturerData() const : QHash<quint16, QByteArray>",
+                    "manufacturerData"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "release",
+                    "release()",
+                    "release"
+                ],
+                [
+                    "serviceData",
+                    "serviceData() const : QHash<QString, QByteArray>",
+                    "serviceData"
+                ],
+                [
+                    "serviceUuids",
+                    "serviceUuids() const : QStringList",
+                    "serviceUuids"
+                ],
+                [
+                    "setManufacturerData",
+                    "setManufacturerData(const QHash<quint16, QByteArray> &)",
+                    "setManufacturerData"
+                ],
+                [
+                    "setServiceData",
+                    "setServiceData(const QHash<QString, QByteArray> &)",
+                    "setServiceData"
+                ]
+            ],
+            "name": "BluezQt::LEAdvertisement",
+            "page": "bluezqt/bluezqt-leadvertisement",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "registerAdvertisement",
+                    "registerAdvertisement(BluezQt::LEAdvertisement *) : BluezQt::PendingCall *",
+                    "registerAdvertisement"
+                ],
+                [
+                    "unregisterAdvertisement",
+                    "unregisterAdvertisement(BluezQt::LEAdvertisement *) : BluezQt::PendingCall *",
+                    "unregisterAdvertisement"
+                ]
+            ],
+            "name": "BluezQt::LEAdvertisingManager",
+            "page": "bluezqt/bluezqt-leadvertisingmanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "adapters",
+                    "adapters : QList<AdapterPtr>",
+                    "adapters-prop"
+                ],
+                [
+                    "bluetoothBlocked",
+                    "bluetoothBlocked : bool",
+                    "bluetoothBlocked-prop"
+                ],
+                [
+                    "bluetoothOperational",
+                    "bluetoothOperational : bool",
+                    "bluetoothOperational-prop"
+                ],
+                [
+                    "devices",
+                    "devices : QList<DevicePtr>",
+                    "devices-prop"
+                ],
+                [
+                    "initialized",
+                    "initialized : bool",
+                    "initialized-prop"
+                ],
+                [
+                    "operational",
+                    "operational : bool",
+                    "operational-prop"
+                ],
+                [
+                    "rfkill",
+                    "rfkill : BluezQt::Rfkill* const",
+                    "rfkill-prop"
+                ],
+                [
+                    "usableAdapter",
+                    "usableAdapter : AdapterPtr",
+                    "usableAdapter-prop"
+                ],
+                [
+                    "Manager",
+                    "Manager(QObject *)",
+                    "Manager"
+                ],
+                [
+                    "adapterAdded",
+                    "adapterAdded(BluezQt::AdapterPtr)",
+                    "adapterAdded"
+                ],
+                [
+                    "adapterChanged",
+                    "adapterChanged(BluezQt::AdapterPtr)",
+                    "adapterChanged"
+                ],
+                [
+                    "adapterForAddress",
+                    "adapterForAddress(const QString &) const : BluezQt::AdapterPtr",
+                    "adapterForAddress"
+                ],
+                [
+                    "adapterForUbi",
+                    "adapterForUbi(const QString &) const : BluezQt::AdapterPtr",
+                    "adapterForUbi"
+                ],
+                [
+                    "adapterRemoved",
+                    "adapterRemoved(BluezQt::AdapterPtr)",
+                    "adapterRemoved"
+                ],
+                [
+                    "adapters",
+                    "adapters() const : QList<BluezQt::AdapterPtr>",
+                    "adapters"
+                ],
+                [
+                    "allAdaptersRemoved",
+                    "allAdaptersRemoved()",
+                    "allAdaptersRemoved"
+                ],
+                [
+                    "bluetoothBlockedChanged",
+                    "bluetoothBlockedChanged(bool)",
+                    "bluetoothBlockedChanged"
+                ],
+                [
+                    "bluetoothOperationalChanged",
+                    "bluetoothOperationalChanged(bool)",
+                    "bluetoothOperationalChanged"
+                ],
+                [
+                    "deviceAdded",
+                    "deviceAdded(BluezQt::DevicePtr)",
+                    "deviceAdded"
+                ],
+                [
+                    "deviceChanged",
+                    "deviceChanged(BluezQt::DevicePtr)",
+                    "deviceChanged"
+                ],
+                [
+                    "deviceForAddress",
+                    "deviceForAddress(const QString &) const : BluezQt::DevicePtr",
+                    "deviceForAddress"
+                ],
+                [
+                    "deviceForUbi",
+                    "deviceForUbi(const QString &) const : BluezQt::DevicePtr",
+                    "deviceForUbi"
+                ],
+                [
+                    "deviceRemoved",
+                    "deviceRemoved(BluezQt::DevicePtr)",
+                    "deviceRemoved"
+                ],
+                [
+                    "devices",
+                    "devices() const : QList<BluezQt::DevicePtr>",
+                    "devices"
+                ],
+                [
+                    "init",
+                    "init() : BluezQt::InitManagerJob *",
+                    "init"
+                ],
+                [
+                    "isBluetoothBlocked",
+                    "isBluetoothBlocked() const : bool",
+                    "isBluetoothBlocked"
+                ],
+                [
+                    "isBluetoothOperational",
+                    "isBluetoothOperational() const : bool",
+                    "isBluetoothOperational"
+                ],
+                [
+                    "isInitialized",
+                    "isInitialized() const : bool",
+                    "isInitialized"
+                ],
+                [
+                    "isOperational",
+                    "isOperational() const : bool",
+                    "isOperational"
+                ],
+                [
+                    "operationalChanged",
+                    "operationalChanged(bool)",
+                    "operationalChanged"
+                ],
+                [
+                    "registerAgent",
+                    "registerAgent(BluezQt::Agent *) : BluezQt::PendingCall *",
+                    "registerAgent"
+                ],
+                [
+                    "registerProfile",
+                    "registerProfile(BluezQt::Profile *) : BluezQt::PendingCall *",
+                    "registerProfile"
+                ],
+                [
+                    "requestDefaultAgent",
+                    "requestDefaultAgent(BluezQt::Agent *) : BluezQt::PendingCall *",
+                    "requestDefaultAgent"
+                ],
+                [
+                    "rfkill",
+                    "rfkill() const : BluezQt::Rfkill *",
+                    "rfkill"
+                ],
+                [
+                    "setBluetoothBlocked",
+                    "setBluetoothBlocked(bool)",
+                    "setBluetoothBlocked"
+                ],
+                [
+                    "startService",
+                    "startService() : BluezQt::PendingCall *",
+                    "startService"
+                ],
+                [
+                    "unregisterAgent",
+                    "unregisterAgent(BluezQt::Agent *) : BluezQt::PendingCall *",
+                    "unregisterAgent"
+                ],
+                [
+                    "unregisterProfile",
+                    "unregisterProfile(BluezQt::Profile *) : BluezQt::PendingCall *",
+                    "unregisterProfile"
+                ],
+                [
+                    "usableAdapter",
+                    "usableAdapter() const : BluezQt::AdapterPtr",
+                    "usableAdapter"
+                ],
+                [
+                    "usableAdapterChanged",
+                    "usableAdapterChanged(BluezQt::AdapterPtr)",
+                    "usableAdapterChanged"
+                ]
+            ],
+            "name": "BluezQt::Manager",
+            "page": "bluezqt/bluezqt-manager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "registerEndpoint",
+                    "registerEndpoint(BluezQt::MediaEndpoint *) : BluezQt::PendingCall *",
+                    "registerEndpoint"
+                ],
+                [
+                    "unregisterEndpoint",
+                    "unregisterEndpoint(BluezQt::MediaEndpoint *) : BluezQt::PendingCall *",
+                    "unregisterEndpoint"
+                ]
+            ],
+            "name": "BluezQt::Media",
+            "page": "bluezqt/bluezqt-media",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "MediaEndpoint",
+                    "MediaEndpoint(const BluezQt::MediaEndpoint::Configuration &, QObject *)",
+                    "MediaEndpoint"
+                ],
+                [
+                    "clearConfiguration",
+                    "clearConfiguration(const QString &)",
+                    "clearConfiguration"
+                ],
+                [
+                    "configurationCleared",
+                    "configurationCleared(const QString &)",
+                    "configurationCleared"
+                ],
+                [
+                    "configurationSelected",
+                    "configurationSelected(const QByteArray &, const QByteArray &)",
+                    "configurationSelected"
+                ],
+                [
+                    "configurationSet",
+                    "configurationSet(const QString &, const QVariantMap &)",
+                    "configurationSet"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "properties",
+                    "properties() const : const QVariantMap &",
+                    "properties"
+                ],
+                [
+                    "release",
+                    "release()",
+                    "release"
+                ],
+                [
+                    "selectConfiguration",
+                    "selectConfiguration(const QByteArray &, const BluezQt::Request<QByteArray> &)",
+                    "selectConfiguration"
+                ],
+                [
+                    "setConfiguration",
+                    "setConfiguration(const QString &, const QVariantMap &)",
+                    "setConfiguration"
+                ]
+            ],
+            "name": "BluezQt::MediaEndpoint",
+            "page": "bluezqt/bluezqt-mediaendpoint",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "equalizer",
+                    "equalizer : Equalizer",
+                    "equalizer-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "position",
+                    "position : quint32",
+                    "position-prop"
+                ],
+                [
+                    "repeat",
+                    "repeat : Repeat",
+                    "repeat-prop"
+                ],
+                [
+                    "shuffle",
+                    "shuffle : Shuffle",
+                    "shuffle-prop"
+                ],
+                [
+                    "status",
+                    "status : Status",
+                    "status-prop"
+                ],
+                [
+                    "track",
+                    "track : MediaPlayerTrack",
+                    "track-prop"
+                ],
+                [
+                    "equalizer",
+                    "equalizer() const : BluezQt::MediaPlayer::Equalizer",
+                    "equalizer"
+                ],
+                [
+                    "equalizerChanged",
+                    "equalizerChanged(BluezQt::MediaPlayer::Equalizer)",
+                    "equalizerChanged"
+                ],
+                [
+                    "fastForward",
+                    "fastForward() : BluezQt::PendingCall *",
+                    "fastForward"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "nameChanged",
+                    "nameChanged(const QString &)",
+                    "nameChanged"
+                ],
+                [
+                    "next",
+                    "next() : BluezQt::PendingCall *",
+                    "next"
+                ],
+                [
+                    "pause",
+                    "pause() : BluezQt::PendingCall *",
+                    "pause"
+                ],
+                [
+                    "play",
+                    "play() : BluezQt::PendingCall *",
+                    "play"
+                ],
+                [
+                    "position",
+                    "position() const : quint32",
+                    "position"
+                ],
+                [
+                    "positionChanged",
+                    "positionChanged(quint32)",
+                    "positionChanged"
+                ],
+                [
+                    "previous",
+                    "previous() : BluezQt::PendingCall *",
+                    "previous"
+                ],
+                [
+                    "repeat",
+                    "repeat() const : BluezQt::MediaPlayer::Repeat",
+                    "repeat"
+                ],
+                [
+                    "repeatChanged",
+                    "repeatChanged(BluezQt::MediaPlayer::Repeat)",
+                    "repeatChanged"
+                ],
+                [
+                    "rewind",
+                    "rewind() : BluezQt::PendingCall *",
+                    "rewind"
+                ],
+                [
+                    "setEqualizer",
+                    "setEqualizer(BluezQt::MediaPlayer::Equalizer) : BluezQt::PendingCall *",
+                    "setEqualizer"
+                ],
+                [
+                    "setRepeat",
+                    "setRepeat(BluezQt::MediaPlayer::Repeat) : BluezQt::PendingCall *",
+                    "setRepeat"
+                ],
+                [
+                    "setShuffle",
+                    "setShuffle(BluezQt::MediaPlayer::Shuffle) : BluezQt::PendingCall *",
+                    "setShuffle"
+                ],
+                [
+                    "shuffle",
+                    "shuffle() const : BluezQt::MediaPlayer::Shuffle",
+                    "shuffle"
+                ],
+                [
+                    "shuffleChanged",
+                    "shuffleChanged(BluezQt::MediaPlayer::Shuffle)",
+                    "shuffleChanged"
+                ],
+                [
+                    "status",
+                    "status() const : BluezQt::MediaPlayer::Status",
+                    "status"
+                ],
+                [
+                    "statusChanged",
+                    "statusChanged(BluezQt::MediaPlayer::Status)",
+                    "statusChanged"
+                ],
+                [
+                    "stop",
+                    "stop() : BluezQt::PendingCall *",
+                    "stop"
+                ],
+                [
+                    "toSharedPtr",
+                    "toSharedPtr() const : BluezQt::MediaPlayerPtr",
+                    "toSharedPtr"
+                ],
+                [
+                    "track",
+                    "track() const : BluezQt::MediaPlayerTrack",
+                    "track"
+                ],
+                [
+                    "trackChanged",
+                    "trackChanged(BluezQt::MediaPlayerTrack)",
+                    "trackChanged"
+                ]
+            ],
+            "name": "BluezQt::MediaPlayer",
+            "page": "bluezqt/bluezqt-mediaplayer",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "MediaPlayerTrack",
+                    "MediaPlayerTrack()",
+                    "MediaPlayerTrack"
+                ],
+                [
+                    "MediaPlayerTrack",
+                    "MediaPlayerTrack(const BluezQt::MediaPlayerTrack &)",
+                    "MediaPlayerTrack-1"
+                ],
+                [
+                    "album",
+                    "album() const : QString",
+                    "album"
+                ],
+                [
+                    "artist",
+                    "artist() const : QString",
+                    "artist"
+                ],
+                [
+                    "duration",
+                    "duration() const : quint32",
+                    "duration"
+                ],
+                [
+                    "genre",
+                    "genre() const : QString",
+                    "genre"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "numberOfTracks",
+                    "numberOfTracks() const : quint32",
+                    "numberOfTracks"
+                ],
+                [
+                    "title",
+                    "title() const : QString",
+                    "title"
+                ],
+                [
+                    "trackNumber",
+                    "trackNumber() const : quint32",
+                    "trackNumber"
+                ],
+                [
+                    "operator=",
+                    "operator=(const BluezQt::MediaPlayerTrack &) : BluezQt::MediaPlayerTrack &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "BluezQt::MediaPlayerTrack",
+            "page": "bluezqt/bluezqt-mediaplayertrack",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "state",
+                    "state : State",
+                    "state-prop"
+                ],
+                [
+                    "volume",
+                    "volume : quint16",
+                    "volume-prop"
+                ],
+                [
+                    "acquire",
+                    "acquire() : BluezQt::TPendingCall<QDBusUnixFileDescriptor, uint16_t, uint16_t> *",
+                    "acquire"
+                ],
+                [
+                    "audioConfiguration",
+                    "audioConfiguration() const : BluezQt::AudioConfiguration",
+                    "audioConfiguration"
+                ],
+                [
+                    "release",
+                    "release() : BluezQt::TPendingCall<void> *",
+                    "release"
+                ],
+                [
+                    "setVolume",
+                    "setVolume(quint16) : BluezQt::PendingCall *",
+                    "setVolume"
+                ],
+                [
+                    "state",
+                    "state() const : BluezQt::MediaTransport::State",
+                    "state"
+                ],
+                [
+                    "stateChanged",
+                    "stateChanged(BluezQt::MediaTransport::State)",
+                    "stateChanged"
+                ],
+                [
+                    "tryAcquire",
+                    "tryAcquire() : BluezQt::TPendingCall<QDBusUnixFileDescriptor, uint16_t, uint16_t> *",
+                    "tryAcquire"
+                ],
+                [
+                    "volume",
+                    "volume() const : quint16",
+                    "volume"
+                ],
+                [
+                    "volumeChanged",
+                    "volumeChanged(quint16)",
+                    "volumeChanged"
+                ]
+            ],
+            "name": "BluezQt::MediaTransport",
+            "page": "bluezqt/bluezqt-mediatransport",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ObexAgent",
+                    "ObexAgent(QObject *)",
+                    "ObexAgent"
+                ],
+                [
+                    "authorizePush",
+                    "authorizePush(BluezQt::ObexTransferPtr, BluezQt::ObexSessionPtr, const BluezQt::Request<QString> &)",
+                    "authorizePush"
+                ],
+                [
+                    "cancel",
+                    "cancel()",
+                    "cancel"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "release",
+                    "release()",
+                    "release"
+                ]
+            ],
+            "name": "BluezQt::ObexAgent",
+            "page": "bluezqt/bluezqt-obexagent",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ObexFileTransfer",
+                    "ObexFileTransfer(const QDBusObjectPath &, QObject *)",
+                    "ObexFileTransfer"
+                ],
+                [
+                    "changeFolder",
+                    "changeFolder(const QString &) : BluezQt::PendingCall *",
+                    "changeFolder"
+                ],
+                [
+                    "copyFile",
+                    "copyFile(const QString &, const QString &) : BluezQt::PendingCall *",
+                    "copyFile"
+                ],
+                [
+                    "createFolder",
+                    "createFolder(const QString &) : BluezQt::PendingCall *",
+                    "createFolder"
+                ],
+                [
+                    "deleteFile",
+                    "deleteFile(const QString &) : BluezQt::PendingCall *",
+                    "deleteFile"
+                ],
+                [
+                    "getFile",
+                    "getFile(const QString &, const QString &) : BluezQt::PendingCall *",
+                    "getFile"
+                ],
+                [
+                    "listFolder",
+                    "listFolder() : BluezQt::PendingCall *",
+                    "listFolder"
+                ],
+                [
+                    "moveFile",
+                    "moveFile(const QString &, const QString &) : BluezQt::PendingCall *",
+                    "moveFile"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "putFile",
+                    "putFile(const QString &, const QString &) : BluezQt::PendingCall *",
+                    "putFile"
+                ]
+            ],
+            "name": "BluezQt::ObexFileTransfer",
+            "page": "bluezqt/bluezqt-obexfiletransfer",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ObexFileTransferEntry",
+                    "ObexFileTransferEntry()",
+                    "ObexFileTransferEntry"
+                ],
+                [
+                    "ObexFileTransferEntry",
+                    "ObexFileTransferEntry(const BluezQt::ObexFileTransferEntry &)",
+                    "ObexFileTransferEntry-1"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "label",
+                    "label() const : QString",
+                    "label"
+                ],
+                [
+                    "memoryType",
+                    "memoryType() const : QString",
+                    "memoryType"
+                ],
+                [
+                    "modificationTime",
+                    "modificationTime() const : QDateTime",
+                    "modificationTime"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "permissions",
+                    "permissions() const : QString",
+                    "permissions"
+                ],
+                [
+                    "size",
+                    "size() const : quint64",
+                    "size"
+                ],
+                [
+                    "type",
+                    "type() const : BluezQt::ObexFileTransferEntry::Type",
+                    "type"
+                ],
+                [
+                    "operator=",
+                    "operator=(const BluezQt::ObexFileTransferEntry &) : BluezQt::ObexFileTransferEntry &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "BluezQt::ObexFileTransferEntry",
+            "page": "bluezqt/bluezqt-obexfiletransferentry",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "initialized",
+                    "initialized : bool",
+                    "initialized-prop"
+                ],
+                [
+                    "operational",
+                    "operational : bool",
+                    "operational-prop"
+                ],
+                [
+                    "sessions",
+                    "sessions : QList<ObexSessionPtr>",
+                    "sessions-prop"
+                ],
+                [
+                    "ObexManager",
+                    "ObexManager(QObject *)",
+                    "ObexManager"
+                ],
+                [
+                    "createSession",
+                    "createSession(const QString &, const QVariantMap &) : BluezQt::PendingCall *",
+                    "createSession"
+                ],
+                [
+                    "init",
+                    "init() : BluezQt::InitObexManagerJob *",
+                    "init"
+                ],
+                [
+                    "isInitialized",
+                    "isInitialized() const : bool",
+                    "isInitialized"
+                ],
+                [
+                    "isOperational",
+                    "isOperational() const : bool",
+                    "isOperational"
+                ],
+                [
+                    "operationalChanged",
+                    "operationalChanged(bool)",
+                    "operationalChanged"
+                ],
+                [
+                    "registerAgent",
+                    "registerAgent(BluezQt::ObexAgent *) : BluezQt::PendingCall *",
+                    "registerAgent"
+                ],
+                [
+                    "removeSession",
+                    "removeSession(const QDBusObjectPath &) : BluezQt::PendingCall *",
+                    "removeSession"
+                ],
+                [
+                    "sessionAdded",
+                    "sessionAdded(BluezQt::ObexSessionPtr)",
+                    "sessionAdded"
+                ],
+                [
+                    "sessionForPath",
+                    "sessionForPath(const QDBusObjectPath &) const : BluezQt::ObexSessionPtr",
+                    "sessionForPath"
+                ],
+                [
+                    "sessionRemoved",
+                    "sessionRemoved(BluezQt::ObexSessionPtr)",
+                    "sessionRemoved"
+                ],
+                [
+                    "sessions",
+                    "sessions() const : QList<BluezQt::ObexSessionPtr>",
+                    "sessions"
+                ],
+                [
+                    "startService",
+                    "startService() : BluezQt::PendingCall *",
+                    "startService"
+                ],
+                [
+                    "unregisterAgent",
+                    "unregisterAgent(BluezQt::ObexAgent *) : BluezQt::PendingCall *",
+                    "unregisterAgent"
+                ]
+            ],
+            "name": "BluezQt::ObexManager",
+            "page": "bluezqt/bluezqt-obexmanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ObexObjectPush",
+                    "ObexObjectPush(const QDBusObjectPath &, QObject *)",
+                    "ObexObjectPush"
+                ],
+                [
+                    "exchangeBusinessCards",
+                    "exchangeBusinessCards(const QString &, const QString &) : BluezQt::PendingCall *",
+                    "exchangeBusinessCards"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "pullBusinessCard",
+                    "pullBusinessCard(const QString &) : BluezQt::PendingCall *",
+                    "pullBusinessCard"
+                ],
+                [
+                    "sendFile",
+                    "sendFile(const QString &) : BluezQt::PendingCall *",
+                    "sendFile"
+                ]
+            ],
+            "name": "BluezQt::ObexObjectPush",
+            "page": "bluezqt/bluezqt-obexobjectpush",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "channel",
+                    "channel : quint8",
+                    "channel-prop"
+                ],
+                [
+                    "destination",
+                    "destination : QString",
+                    "destination-prop"
+                ],
+                [
+                    "root",
+                    "root : QString",
+                    "root-prop"
+                ],
+                [
+                    "source",
+                    "source : QString",
+                    "source-prop"
+                ],
+                [
+                    "target",
+                    "target : QString",
+                    "target-prop"
+                ],
+                [
+                    "channel",
+                    "channel() const : quint8",
+                    "channel"
+                ],
+                [
+                    "destination",
+                    "destination() const : QString",
+                    "destination"
+                ],
+                [
+                    "getCapabilities",
+                    "getCapabilities() : BluezQt::PendingCall *",
+                    "getCapabilities"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "root",
+                    "root() const : QString",
+                    "root"
+                ],
+                [
+                    "source",
+                    "source() const : QString",
+                    "source"
+                ],
+                [
+                    "target",
+                    "target() const : QString",
+                    "target"
+                ],
+                [
+                    "toSharedPtr",
+                    "toSharedPtr() const : BluezQt::ObexSessionPtr",
+                    "toSharedPtr"
+                ]
+            ],
+            "name": "BluezQt::ObexSession",
+            "page": "bluezqt/bluezqt-obexsession",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "fileName",
+                    "fileName : QString",
+                    "fileName-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "size",
+                    "size : quint64",
+                    "size-prop"
+                ],
+                [
+                    "status",
+                    "status : Status",
+                    "status-prop"
+                ],
+                [
+                    "suspendable",
+                    "suspendable : bool",
+                    "suspendable-prop"
+                ],
+                [
+                    "time",
+                    "time : quint64",
+                    "time-prop"
+                ],
+                [
+                    "transferred",
+                    "transferred : quint64",
+                    "transferred-prop"
+                ],
+                [
+                    "type",
+                    "type : QString",
+                    "type-prop"
+                ],
+                [
+                    "cancel",
+                    "cancel() : BluezQt::PendingCall *",
+                    "cancel"
+                ],
+                [
+                    "fileName",
+                    "fileName() const : QString",
+                    "fileName"
+                ],
+                [
+                    "fileNameChanged",
+                    "fileNameChanged(const QString &)",
+                    "fileNameChanged"
+                ],
+                [
+                    "isSuspendable",
+                    "isSuspendable() const : bool",
+                    "isSuspendable"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "resume",
+                    "resume() : BluezQt::PendingCall *",
+                    "resume"
+                ],
+                [
+                    "size",
+                    "size() const : quint64",
+                    "size"
+                ],
+                [
+                    "status",
+                    "status() const : BluezQt::ObexTransfer::Status",
+                    "status"
+                ],
+                [
+                    "statusChanged",
+                    "statusChanged(BluezQt::ObexTransfer::Status)",
+                    "statusChanged"
+                ],
+                [
+                    "suspend",
+                    "suspend() : BluezQt::PendingCall *",
+                    "suspend"
+                ],
+                [
+                    "time",
+                    "time() const : quint64",
+                    "time"
+                ],
+                [
+                    "toSharedPtr",
+                    "toSharedPtr() const : BluezQt::ObexTransferPtr",
+                    "toSharedPtr"
+                ],
+                [
+                    "transferred",
+                    "transferred() const : quint64",
+                    "transferred"
+                ],
+                [
+                    "transferredChanged",
+                    "transferredChanged(quint64)",
+                    "transferredChanged"
+                ],
+                [
+                    "type",
+                    "type() const : QString",
+                    "type"
+                ]
+            ],
+            "name": "BluezQt::ObexTransfer",
+            "page": "bluezqt/bluezqt-obextransfer",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "error",
+                    "error : int",
+                    "error-prop"
+                ],
+                [
+                    "errorText",
+                    "errorText : QString",
+                    "errorText-prop"
+                ],
+                [
+                    "isFinished",
+                    "isFinished : bool",
+                    "isFinished-prop"
+                ],
+                [
+                    "userData",
+                    "userData : QVariant",
+                    "userData-prop"
+                ],
+                [
+                    "value",
+                    "value : QVariant",
+                    "value-prop"
+                ],
+                [
+                    "values",
+                    "values : QVariantList",
+                    "values-prop"
+                ],
+                [
+                    "error",
+                    "error() const : int",
+                    "error"
+                ],
+                [
+                    "errorText",
+                    "errorText() const : QString",
+                    "errorText"
+                ],
+                [
+                    "finished",
+                    "finished(BluezQt::PendingCall *)",
+                    "finished"
+                ],
+                [
+                    "isFinished",
+                    "isFinished() const : bool",
+                    "isFinished"
+                ],
+                [
+                    "setUserData",
+                    "setUserData(const QVariant &)",
+                    "setUserData"
+                ],
+                [
+                    "userData",
+                    "userData() const : QVariant",
+                    "userData"
+                ],
+                [
+                    "value",
+                    "value() const : QVariant",
+                    "value"
+                ],
+                [
+                    "values",
+                    "values() const : QVariantList",
+                    "values"
+                ],
+                [
+                    "waitForFinished",
+                    "waitForFinished()",
+                    "waitForFinished"
+                ]
+            ],
+            "name": "BluezQt::PendingCall",
+            "page": "bluezqt/bluezqt-pendingcall",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "uuid",
+                    "uuid : QString",
+                    "uuid-prop"
+                ],
+                [
+                    "Profile",
+                    "Profile(QObject *)",
+                    "Profile"
+                ],
+                [
+                    "createSocket",
+                    "createSocket(const QDBusUnixFileDescriptor &) : QSharedPointer<QLocalSocket>",
+                    "createSocket"
+                ],
+                [
+                    "newConnection",
+                    "newConnection(BluezQt::DevicePtr, const QDBusUnixFileDescriptor &, const QVariantMap &, const BluezQt::Request<> &)",
+                    "newConnection"
+                ],
+                [
+                    "objectPath",
+                    "objectPath() const : QDBusObjectPath",
+                    "objectPath"
+                ],
+                [
+                    "release",
+                    "release()",
+                    "release"
+                ],
+                [
+                    "requestDisconnection",
+                    "requestDisconnection(BluezQt::DevicePtr, const BluezQt::Request<> &)",
+                    "requestDisconnection"
+                ],
+                [
+                    "setAutoConnect",
+                    "setAutoConnect(bool)",
+                    "setAutoConnect"
+                ],
+                [
+                    "setChannel",
+                    "setChannel(quint16)",
+                    "setChannel"
+                ],
+                [
+                    "setFeatures",
+                    "setFeatures(quint16)",
+                    "setFeatures"
+                ],
+                [
+                    "setLocalRole",
+                    "setLocalRole(BluezQt::Profile::LocalRole)",
+                    "setLocalRole"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setPsm",
+                    "setPsm(quint16)",
+                    "setPsm"
+                ],
+                [
+                    "setRequireAuthentication",
+                    "setRequireAuthentication(bool)",
+                    "setRequireAuthentication"
+                ],
+                [
+                    "setRequireAuthorization",
+                    "setRequireAuthorization(bool)",
+                    "setRequireAuthorization"
+                ],
+                [
+                    "setService",
+                    "setService(const QString &)",
+                    "setService"
+                ],
+                [
+                    "setServiceRecord",
+                    "setServiceRecord(const QString &)",
+                    "setServiceRecord"
+                ],
+                [
+                    "setVersion",
+                    "setVersion(quint16)",
+                    "setVersion"
+                ],
+                [
+                    "uuid",
+                    "uuid() const : QString",
+                    "uuid"
+                ]
+            ],
+            "name": "BluezQt::Profile",
+            "page": "bluezqt/bluezqt-profile",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Request",
+                    "Request()",
+                    "Request"
+                ],
+                [
+                    "Request",
+                    "Request(const BluezQt::Request<T> &)",
+                    "Request-1"
+                ],
+                [
+                    "accept",
+                    "accept(T) const",
+                    "accept"
+                ],
+                [
+                    "cancel",
+                    "cancel() const",
+                    "cancel"
+                ],
+                [
+                    "reject",
+                    "reject() const",
+                    "reject"
+                ],
+                [
+                    "operator=",
+                    "operator=(const BluezQt::Request<T> &) : BluezQt::Request<T> &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "BluezQt::Request",
+            "page": "bluezqt/bluezqt-request",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "state",
+                    "state : State",
+                    "state-prop"
+                ],
+                [
+                    "Rfkill",
+                    "Rfkill(QObject *)",
+                    "Rfkill"
+                ],
+                [
+                    "block",
+                    "block()",
+                    "block"
+                ],
+                [
+                    "state",
+                    "state() const : BluezQt::Rfkill::State",
+                    "state"
+                ],
+                [
+                    "stateChanged",
+                    "stateChanged(BluezQt::Rfkill::State)",
+                    "stateChanged"
+                ],
+                [
+                    "unblock",
+                    "unblock()",
+                    "unblock"
+                ]
+            ],
+            "name": "BluezQt::Rfkill",
+            "page": "bluezqt/bluezqt-rfkill",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "bluezqt/bluezqt-pendingcall"
+            ],
+            "members": [
+                [
+                    "valueAt",
+                    "valueAt() const : template <int Index> const typename Select<Index, T...>::Type",
+                    "valueAt"
+                ]
+            ],
+            "name": "BluezQt::TPendingCall",
+            "page": "bluezqt/bluezqt-tpendingcall",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "bluezqt",
+    "sections": [
+        {
+            "description": "Qt wrapper for BlueZ 5 DBus API.",
+            "page": "bluezqt/bluezqt-module",
+            "pages": [
+                [
+                    "bluezqt/bluezqt-module",
+                    "BluezQt C++ Classes"
+                ],
+                [
+                    "bluezqt/bluezqt-adapter",
+                    "BluezQt::Adapter"
+                ],
+                [
+                    "bluezqt/bluezqt-agent",
+                    "BluezQt::Agent"
+                ],
+                [
+                    "bluezqt/bluezqt-battery",
+                    "BluezQt::Battery"
+                ],
+                [
+                    "bluezqt/bluezqt-device",
+                    "BluezQt::Device"
+                ],
+                [
+                    "bluezqt/bluezqt-devicesmodel",
+                    "BluezQt::DevicesModel"
+                ],
+                [
+                    "bluezqt/bluezqt-gattapplication",
+                    "BluezQt::GattApplication"
+                ],
+                [
+                    "bluezqt/bluezqt-gattcharacteristic",
+                    "BluezQt::GattCharacteristic"
+                ],
+                [
+                    "bluezqt/bluezqt-gattcharacteristicremote",
+                    "BluezQt::GattCharacteristicRemote"
+                ],
+                [
+                    "bluezqt/bluezqt-gattdescriptor",
+                    "BluezQt::GattDescriptor"
+                ],
+                [
+                    "bluezqt/bluezqt-gattdescriptorremote",
+                    "BluezQt::GattDescriptorRemote"
+                ],
+                [
+                    "bluezqt/bluezqt-gattmanager",
+                    "BluezQt::GattManager"
+                ],
+                [
+                    "bluezqt/bluezqt-gattservice",
+                    "BluezQt::GattService"
+                ],
+                [
+                    "bluezqt/bluezqt-gattserviceremote",
+                    "BluezQt::GattServiceRemote"
+                ],
+                [
+                    "bluezqt/bluezqt-initmanagerjob",
+                    "BluezQt::InitManagerJob"
+                ],
+                [
+                    "bluezqt/bluezqt-initobexmanagerjob",
+                    "BluezQt::InitObexManagerJob"
+                ],
+                [
+                    "bluezqt/bluezqt-input",
+                    "BluezQt::Input"
+                ],
+                [
+                    "bluezqt/bluezqt-job",
+                    "BluezQt::Job"
+                ],
+                [
+                    "bluezqt/bluezqt-leadvertisement",
+                    "BluezQt::LEAdvertisement"
+                ],
+                [
+                    "bluezqt/bluezqt-leadvertisingmanager",
+                    "BluezQt::LEAdvertisingManager"
+                ],
+                [
+                    "bluezqt/bluezqt-manager",
+                    "BluezQt::Manager"
+                ],
+                [
+                    "bluezqt/bluezqt-media",
+                    "BluezQt::Media"
+                ],
+                [
+                    "bluezqt/bluezqt-mediaendpoint",
+                    "BluezQt::MediaEndpoint"
+                ],
+                [
+                    "bluezqt/bluezqt-mediaplayer",
+                    "BluezQt::MediaPlayer"
+                ],
+                [
+                    "bluezqt/bluezqt-mediaplayertrack",
+                    "BluezQt::MediaPlayerTrack"
+                ],
+                [
+                    "bluezqt/bluezqt-mediatransport",
+                    "BluezQt::MediaTransport"
+                ],
+                [
+                    "bluezqt/bluezqt-obexagent",
+                    "BluezQt::ObexAgent"
+                ],
+                [
+                    "bluezqt/bluezqt-obexfiletransfer",
+                    "BluezQt::ObexFileTransfer"
+                ],
+                [
+                    "bluezqt/bluezqt-obexfiletransferentry",
+                    "BluezQt::ObexFileTransferEntry"
+                ],
+                [
+                    "bluezqt/bluezqt-obexmanager",
+                    "BluezQt::ObexManager"
+                ],
+                [
+                    "bluezqt/bluezqt-obexobjectpush",
+                    "BluezQt::ObexObjectPush"
+                ],
+                [
+                    "bluezqt/bluezqt-obexsession",
+                    "BluezQt::ObexSession"
+                ],
+                [
+                    "bluezqt/bluezqt-obextransfer",
+                    "BluezQt::ObexTransfer"
+                ],
+                [
+                    "bluezqt/bluezqt-pendingcall",
+                    "BluezQt::PendingCall"
+                ],
+                [
+                    "bluezqt/bluezqt-profile",
+                    "BluezQt::Profile"
+                ],
+                [
+                    "bluezqt/bluezqt-request",
+                    "BluezQt::Request"
+                ],
+                [
+                    "bluezqt/bluezqt-rfkill",
+                    "BluezQt::Rfkill"
+                ],
+                [
+                    "bluezqt/bluezqt-tpendingcall",
+                    "BluezQt::TPendingCall"
+                ],
+                [
+                    "bluezqt/bluezqt",
+                    "BluezQt Namespace"
+                ],
+                [
+                    "bluezqt/bluezqt-audioconfiguration",
+                    ""
+                ],
+                [
+                    "bluezqt/bluezqt-index",
+                    "BluezQt"
+                ],
+                [
+                    "bluezqt/bluezqt-mediaendpoint-configuration",
+                    ""
+                ],
+                [
+                    "bluezqt/bluezqt-services",
+                    "BluezQt::Services Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "BluezQt C++ Classes"
+        }
+    ]
+}

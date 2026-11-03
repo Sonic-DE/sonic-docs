@@ -1,0 +1,704 @@
+{
+    "classes": [
+        {
+            "bases": [
+                "karchive/karchive"
+            ],
+            "members": [
+                [
+                    "K7Zip",
+                    "K7Zip(QIODevice *)",
+                    "K7Zip"
+                ],
+                [
+                    "K7Zip",
+                    "K7Zip(const QString &)",
+                    "K7Zip-1"
+                ],
+                [
+                    "~K7Zip",
+                    "~K7Zip()",
+                    "dtor.K7Zip"
+                ],
+                [
+                    "openArchive",
+                    "openArchive(QIODevice::OpenMode) : bool",
+                    "openArchive"
+                ],
+                [
+                    "passwordNeeded",
+                    "passwordNeeded() const : bool",
+                    "passwordNeeded"
+                ],
+                [
+                    "setPassword",
+                    "setPassword(const QString &)",
+                    "setPassword"
+                ]
+            ],
+            "name": "K7Zip",
+            "page": "karchive/k7zip",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "karchive/karchive"
+            ],
+            "members": [
+                [
+                    "KAr",
+                    "KAr(QIODevice *)",
+                    "KAr"
+                ],
+                [
+                    "KAr",
+                    "KAr(const QString &)",
+                    "KAr-1"
+                ],
+                [
+                    "~KAr",
+                    "~KAr()",
+                    "dtor.KAr"
+                ]
+            ],
+            "name": "KAr",
+            "page": "karchive/kar",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KArchive",
+                    "KArchive(QIODevice *)",
+                    "KArchive"
+                ],
+                [
+                    "KArchive",
+                    "KArchive(const QString &)",
+                    "KArchive-1"
+                ],
+                [
+                    "addLocalDirectory",
+                    "addLocalDirectory(const QString &, const QString &) : bool",
+                    "addLocalDirectory"
+                ],
+                [
+                    "addLocalFile",
+                    "addLocalFile(const QString &, const QString &) : bool",
+                    "addLocalFile"
+                ],
+                [
+                    "close",
+                    "close() : bool",
+                    "close"
+                ],
+                [
+                    "closeArchive",
+                    "closeArchive() : bool",
+                    "closeArchive"
+                ],
+                [
+                    "createDevice",
+                    "createDevice(QIODevice::OpenMode) : bool",
+                    "createDevice"
+                ],
+                [
+                    "device",
+                    "device() const : QIODevice *",
+                    "device"
+                ],
+                [
+                    "directory",
+                    "directory() const : const KArchiveDirectory *",
+                    "directory"
+                ],
+                [
+                    "doFinishWriting",
+                    "doFinishWriting(qint64) : bool",
+                    "doFinishWriting"
+                ],
+                [
+                    "doPrepareWriting",
+                    "doPrepareWriting(const QString &, const QString &, const QString &, qint64, mode_t, const QDateTime &, const QDateTime &, const QDateTime &) : bool",
+                    "doPrepareWriting"
+                ],
+                [
+                    "doWriteData",
+                    "doWriteData(const char *, qint64) : bool",
+                    "doWriteData"
+                ],
+                [
+                    "doWriteDir",
+                    "doWriteDir(const QString &, const QString &, const QString &, mode_t, const QDateTime &, const QDateTime &, const QDateTime &) : bool",
+                    "doWriteDir"
+                ],
+                [
+                    "doWriteSymLink",
+                    "doWriteSymLink(const QString &, const QString &, const QString &, const QString &, mode_t, const QDateTime &, const QDateTime &, const QDateTime &) : bool",
+                    "doWriteSymLink"
+                ],
+                [
+                    "errorString",
+                    "errorString() const : QString",
+                    "errorString"
+                ],
+                [
+                    "fileName",
+                    "fileName() const : QString",
+                    "fileName"
+                ],
+                [
+                    "findOrCreate",
+                    "findOrCreate(const QString &) : KArchiveDirectory *",
+                    "findOrCreate"
+                ],
+                [
+                    "finishWriting",
+                    "finishWriting(qint64) : bool",
+                    "finishWriting"
+                ],
+                [
+                    "isOpen",
+                    "isOpen() const : bool",
+                    "isOpen"
+                ],
+                [
+                    "mode",
+                    "mode() const : QIODevice::OpenMode",
+                    "mode"
+                ],
+                [
+                    "open",
+                    "open(QIODevice::OpenMode) : bool",
+                    "open"
+                ],
+                [
+                    "openArchive",
+                    "openArchive(QIODevice::OpenMode) : bool",
+                    "openArchive"
+                ],
+                [
+                    "prepareWriting",
+                    "prepareWriting(const QString &, const QString &, const QString &, qint64, mode_t, const QDateTime &, const QDateTime &, const QDateTime &) : bool",
+                    "prepareWriting"
+                ],
+                [
+                    "rootDir",
+                    "rootDir() : KArchiveDirectory *",
+                    "rootDir"
+                ],
+                [
+                    "setDevice",
+                    "setDevice(QIODevice *)",
+                    "setDevice"
+                ],
+                [
+                    "setErrorString",
+                    "setErrorString(const QString &)",
+                    "setErrorString"
+                ],
+                [
+                    "setRootDir",
+                    "setRootDir(KArchiveDirectory *)",
+                    "setRootDir"
+                ],
+                [
+                    "writeData",
+                    "writeData(QByteArrayView) : bool",
+                    "writeData"
+                ],
+                [
+                    "writeData",
+                    "writeData(const char *, qint64) : bool",
+                    "writeData-1"
+                ],
+                [
+                    "writeDir",
+                    "writeDir(const QString &, const QString &, const QString &, mode_t, const QDateTime &, const QDateTime &, const QDateTime &) : bool",
+                    "writeDir"
+                ],
+                [
+                    "writeFile",
+                    "writeFile(const QString &, QByteArrayView, mode_t, const QString &, const QString &, const QDateTime &, const QDateTime &, const QDateTime &) : bool",
+                    "writeFile"
+                ],
+                [
+                    "writeSymLink",
+                    "writeSymLink(const QString &, const QString &, const QString &, const QString &, mode_t, const QDateTime &, const QDateTime &, const QDateTime &) : bool",
+                    "writeSymLink"
+                ]
+            ],
+            "name": "KArchive",
+            "page": "karchive/karchive",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "karchive/karchiveentry"
+            ],
+            "members": [
+                [
+                    "KArchiveDirectory",
+                    "KArchiveDirectory(KArchive *, const QString &, int, const QDateTime &, const QString &, const QString &, const QString &)",
+                    "KArchiveDirectory"
+                ],
+                [
+                    "copyTo",
+                    "copyTo(const QString &, bool) const : bool",
+                    "copyTo"
+                ],
+                [
+                    "entries",
+                    "entries() const : QStringList",
+                    "entries"
+                ],
+                [
+                    "entry",
+                    "entry(const QString &) const : const KArchiveEntry *",
+                    "entry"
+                ],
+                [
+                    "file",
+                    "file(const QString &) const : const KArchiveFile *",
+                    "file"
+                ],
+                [
+                    "removeEntryV2",
+                    "removeEntryV2() : bool",
+                    "removeEntryV2"
+                ]
+            ],
+            "name": "KArchiveDirectory",
+            "page": "karchive/karchivedirectory",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KArchiveEntry",
+                    "KArchiveEntry(KArchive *, const QString &, int, const QDateTime &, const QString &, const QString &, const QString &)",
+                    "KArchiveEntry"
+                ],
+                [
+                    "date",
+                    "date() const : QDateTime",
+                    "date"
+                ],
+                [
+                    "group",
+                    "group() const : QString",
+                    "group"
+                ],
+                [
+                    "isDirectory",
+                    "isDirectory() const : bool",
+                    "isDirectory"
+                ],
+                [
+                    "isFile",
+                    "isFile() const : bool",
+                    "isFile"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "permissions",
+                    "permissions() const : mode_t",
+                    "permissions"
+                ],
+                [
+                    "symLinkTarget",
+                    "symLinkTarget() const : QString",
+                    "symLinkTarget"
+                ],
+                [
+                    "user",
+                    "user() const : QString",
+                    "user"
+                ]
+            ],
+            "name": "KArchiveEntry",
+            "page": "karchive/karchiveentry",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "karchive/karchiveentry"
+            ],
+            "members": [
+                [
+                    "KArchiveFile",
+                    "KArchiveFile(KArchive *, const QString &, int, const QDateTime &, const QString &, const QString &, const QString &, qint64, qint64)",
+                    "KArchiveFile"
+                ],
+                [
+                    "~KArchiveFile",
+                    "~KArchiveFile()",
+                    "dtor.KArchiveFile"
+                ],
+                [
+                    "copyTo",
+                    "copyTo(const QString &) const : bool",
+                    "copyTo"
+                ],
+                [
+                    "createDevice",
+                    "createDevice() const : QIODevice *",
+                    "createDevice"
+                ],
+                [
+                    "data",
+                    "data() const : QByteArray",
+                    "data"
+                ],
+                [
+                    "isFile",
+                    "isFile() const : bool",
+                    "isFile"
+                ],
+                [
+                    "position",
+                    "position() const : qint64",
+                    "position"
+                ],
+                [
+                    "setSize",
+                    "setSize(qint64)",
+                    "setSize"
+                ],
+                [
+                    "size",
+                    "size() const : qint64",
+                    "size"
+                ]
+            ],
+            "name": "KArchiveFile",
+            "page": "karchive/karchivefile",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCompressionDevice",
+                    "KCompressionDevice(const QString &)",
+                    "KCompressionDevice"
+                ],
+                [
+                    "KCompressionDevice",
+                    "KCompressionDevice(const QString &, KCompressionDevice::CompressionType)",
+                    "KCompressionDevice-1"
+                ],
+                [
+                    "KCompressionDevice",
+                    "KCompressionDevice(QIODevice *, bool, KCompressionDevice::CompressionType)",
+                    "KCompressionDevice-2"
+                ],
+                [
+                    "KCompressionDevice",
+                    "KCompressionDevice(std::unique_ptr<QIODevice>, KCompressionDevice::CompressionType, std::optional<qint64>)",
+                    "KCompressionDevice-3"
+                ],
+                [
+                    "~KCompressionDevice",
+                    "~KCompressionDevice()",
+                    "dtor.KCompressionDevice"
+                ],
+                [
+                    "compressionType",
+                    "compressionType() const : KCompressionDevice::CompressionType",
+                    "compressionType"
+                ],
+                [
+                    "compressionTypeForMimeType",
+                    "compressionTypeForMimeType(const QString &) : KCompressionDevice::CompressionType",
+                    "compressionTypeForMimeType"
+                ],
+                [
+                    "error",
+                    "error() const : QFileDevice::FileError",
+                    "error"
+                ],
+                [
+                    "filterForCompressionType",
+                    "filterForCompressionType(KCompressionDevice::CompressionType) : KFilterBase *",
+                    "filterForCompressionType"
+                ],
+                [
+                    "seek",
+                    "seek() : bool",
+                    "seek"
+                ],
+                [
+                    "setOrigFileName",
+                    "setOrigFileName(const QByteArray &)",
+                    "setOrigFileName"
+                ],
+                [
+                    "setSkipHeaders",
+                    "setSkipHeaders()",
+                    "setSkipHeaders"
+                ]
+            ],
+            "name": "KCompressionDevice",
+            "page": "karchive/kcompressiondevice",
+            "qtBases": [
+                [
+                    "QIODevice",
+                    "https://doc.qt.io/qt-6/qiodevice-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "karchive/karchive"
+            ],
+            "members": [
+                [
+                    "KRcc",
+                    "KRcc(const QString &)",
+                    "KRcc"
+                ],
+                [
+                    "~KRcc",
+                    "~KRcc()",
+                    "dtor.KRcc"
+                ],
+                [
+                    "closeArchive",
+                    "closeArchive() : bool",
+                    "closeArchive"
+                ],
+                [
+                    "openArchive",
+                    "openArchive(QIODevice::OpenMode) : bool",
+                    "openArchive"
+                ]
+            ],
+            "name": "KRcc",
+            "page": "karchive/krcc",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "karchive/karchive"
+            ],
+            "members": [
+                [
+                    "KTar",
+                    "KTar(QIODevice *)",
+                    "KTar"
+                ],
+                [
+                    "KTar",
+                    "KTar(const QString &, const QString &)",
+                    "KTar-1"
+                ],
+                [
+                    "~KTar",
+                    "~KTar()",
+                    "dtor.KTar"
+                ],
+                [
+                    "setOrigFileName",
+                    "setOrigFileName(const QByteArray &)",
+                    "setOrigFileName"
+                ]
+            ],
+            "name": "KTar",
+            "page": "karchive/ktar",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "karchive/karchive"
+            ],
+            "members": [
+                [
+                    "KZip",
+                    "KZip(QIODevice *)",
+                    "KZip"
+                ],
+                [
+                    "KZip",
+                    "KZip(const QString &)",
+                    "KZip-1"
+                ],
+                [
+                    "~KZip",
+                    "~KZip()",
+                    "dtor.KZip"
+                ],
+                [
+                    "compression",
+                    "compression() const : KZip::Compression",
+                    "compression"
+                ],
+                [
+                    "extraField",
+                    "extraField() const : KZip::ExtraField",
+                    "extraField"
+                ],
+                [
+                    "setCompression",
+                    "setCompression(KZip::Compression)",
+                    "setCompression"
+                ],
+                [
+                    "setExtraField",
+                    "setExtraField(KZip::ExtraField)",
+                    "setExtraField"
+                ]
+            ],
+            "name": "KZip",
+            "page": "karchive/kzip",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "karchive/karchivefile"
+            ],
+            "members": [
+                [
+                    "KZipFileEntry",
+                    "KZipFileEntry(KZip *, const QString &, int, const QDateTime &, const QString &, const QString &, const QString &, const QString &, qint64, qint64, int, qint64)",
+                    "KZipFileEntry"
+                ],
+                [
+                    "compressedSize",
+                    "compressedSize() const : qint64",
+                    "compressedSize"
+                ],
+                [
+                    "crc32",
+                    "crc32() const : unsigned long",
+                    "crc32"
+                ],
+                [
+                    "createDevice",
+                    "createDevice() const : QIODevice *",
+                    "createDevice"
+                ],
+                [
+                    "data",
+                    "data() const : QByteArray",
+                    "data"
+                ],
+                [
+                    "encoding",
+                    "encoding() const : int",
+                    "encoding"
+                ],
+                [
+                    "headerStart",
+                    "headerStart() const : qint64",
+                    "headerStart"
+                ],
+                [
+                    "path",
+                    "path() const : const QString &",
+                    "path"
+                ],
+                [
+                    "setCRC32",
+                    "setCRC32(unsigned long)",
+                    "setCRC32"
+                ],
+                [
+                    "setCompressedSize",
+                    "setCompressedSize(qint64)",
+                    "setCompressedSize"
+                ],
+                [
+                    "setHeaderStart",
+                    "setHeaderStart(qint64)",
+                    "setHeaderStart"
+                ]
+            ],
+            "name": "KZipFileEntry",
+            "page": "karchive/kzipfileentry",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "karchive",
+    "sections": [
+        {
+            "description": "Reading, creating, and manipulating file archives.",
+            "page": "karchive/karchive-module",
+            "pages": [
+                [
+                    "karchive/karchive-module",
+                    "KArchive C++ Classes"
+                ],
+                [
+                    "karchive/k7zip",
+                    "K7Zip"
+                ],
+                [
+                    "karchive/kar",
+                    "KAr"
+                ],
+                [
+                    "karchive/karchive",
+                    "KArchive"
+                ],
+                [
+                    "karchive/karchivedirectory",
+                    "KArchiveDirectory"
+                ],
+                [
+                    "karchive/karchiveentry",
+                    "KArchiveEntry"
+                ],
+                [
+                    "karchive/karchivefile",
+                    "KArchiveFile"
+                ],
+                [
+                    "karchive/kcompressiondevice",
+                    "KCompressionDevice"
+                ],
+                [
+                    "karchive/krcc",
+                    "KRcc"
+                ],
+                [
+                    "karchive/ktar",
+                    "KTar"
+                ],
+                [
+                    "karchive/kzip",
+                    "KZip"
+                ],
+                [
+                    "karchive/kzipfileentry",
+                    "KZipFileEntry"
+                ],
+                [
+                    "karchive/karchive-index",
+                    "KArchive"
+                ]
+            ],
+            "qml": false,
+            "title": "KArchive C++ Classes"
+        }
+    ]
+}

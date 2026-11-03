@@ -1,0 +1,271 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "alpha2",
+                    "alpha2 : QString",
+                    "alpha2-prop"
+                ],
+                [
+                    "alpha3",
+                    "alpha3 : QString",
+                    "alpha3-prop"
+                ],
+                [
+                    "currencyCode",
+                    "currencyCode : QString",
+                    "currencyCode-prop"
+                ],
+                [
+                    "emojiFlag",
+                    "emojiFlag : QString",
+                    "emojiFlag-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "subdivisions",
+                    "subdivisions : QList<KCountrySubdivision>",
+                    "subdivisions-prop"
+                ],
+                [
+                    "timeZoneIds",
+                    "timeZoneIds : QStringList",
+                    "timeZoneIds-prop"
+                ],
+                [
+                    "KCountry",
+                    "KCountry()",
+                    "KCountry"
+                ],
+                [
+                    "allCountries",
+                    "allCountries() : QList<KCountry>",
+                    "allCountries"
+                ],
+                [
+                    "alpha2",
+                    "alpha2() const : QString",
+                    "alpha2"
+                ],
+                [
+                    "alpha3",
+                    "alpha3() const : QString",
+                    "alpha3"
+                ],
+                [
+                    "country",
+                    "country() const : QLocale::Country",
+                    "country"
+                ],
+                [
+                    "currencyCode",
+                    "currencyCode() const : QString",
+                    "currencyCode"
+                ],
+                [
+                    "emojiFlag",
+                    "emojiFlag() const : QString",
+                    "emojiFlag"
+                ],
+                [
+                    "fromAlpha2",
+                    "fromAlpha2(QStringView) : KCountry",
+                    "fromAlpha2"
+                ],
+                [
+                    "fromAlpha2",
+                    "fromAlpha2(const char *) : KCountry",
+                    "fromAlpha2-1"
+                ],
+                [
+                    "fromAlpha3",
+                    "fromAlpha3(QStringView) : KCountry",
+                    "fromAlpha3"
+                ],
+                [
+                    "fromAlpha3",
+                    "fromAlpha3(const char *) : KCountry",
+                    "fromAlpha3-1"
+                ],
+                [
+                    "fromLocation",
+                    "fromLocation(float, float) : KCountry",
+                    "fromLocation"
+                ],
+                [
+                    "fromName",
+                    "fromName(QStringView) : KCountry",
+                    "fromName"
+                ],
+                [
+                    "fromQLocale",
+                    "fromQLocale(QLocale::Country) : KCountry",
+                    "fromQLocale"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "subdivisions",
+                    "subdivisions() const : QList<KCountrySubdivision>",
+                    "subdivisions"
+                ],
+                [
+                    "timeZoneIds",
+                    "timeZoneIds() const : QList<const char *>",
+                    "timeZoneIds"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KCountry &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KCountry",
+            "page": "ki18nlocaledata/kcountry",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "code",
+                    "code : QString",
+                    "code-prop"
+                ],
+                [
+                    "country",
+                    "country : KCountry",
+                    "country-prop"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-prop"
+                ],
+                [
+                    "parent",
+                    "parent : KCountrySubdivision",
+                    "parent-prop"
+                ],
+                [
+                    "subdivisions",
+                    "subdivisions : QList<KCountrySubdivision>",
+                    "subdivisions-prop"
+                ],
+                [
+                    "timeZoneIds",
+                    "timeZoneIds : QStringList",
+                    "timeZoneIds-prop"
+                ],
+                [
+                    "KCountrySubdivision",
+                    "KCountrySubdivision()",
+                    "KCountrySubdivision"
+                ],
+                [
+                    "code",
+                    "code() const : QString",
+                    "code"
+                ],
+                [
+                    "country",
+                    "country() const : KCountry",
+                    "country"
+                ],
+                [
+                    "fromCode",
+                    "fromCode(QStringView) : KCountrySubdivision",
+                    "fromCode"
+                ],
+                [
+                    "fromCode",
+                    "fromCode(const char *) : KCountrySubdivision",
+                    "fromCode-1"
+                ],
+                [
+                    "fromLocation",
+                    "fromLocation(float, float) : KCountrySubdivision",
+                    "fromLocation"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "parent",
+                    "parent() const : KCountrySubdivision",
+                    "parent"
+                ],
+                [
+                    "subdivisions",
+                    "subdivisions() const : QList<KCountrySubdivision>",
+                    "subdivisions"
+                ],
+                [
+                    "timeZoneIds",
+                    "timeZoneIds() const : QList<const char *>",
+                    "timeZoneIds"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KCountrySubdivision &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KCountrySubdivision",
+            "page": "ki18nlocaledata/kcountrysubdivision",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "ki18nlocaledata",
+    "sections": [
+        {
+            "description": "Access to data about countries and timezones.",
+            "page": "ki18nlocaledata/ki18nlocaledata-module",
+            "pages": [
+                [
+                    "ki18nlocaledata/ki18nlocaledata-module",
+                    "KI18nLocaleData C++ Classes"
+                ],
+                [
+                    "ki18nlocaledata/kcountry",
+                    "KCountry"
+                ],
+                [
+                    "ki18nlocaledata/kcountrysubdivision",
+                    "KCountrySubdivision"
+                ],
+                [
+                    "ki18nlocaledata/ktimezone",
+                    "KTimeZone Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KI18nLocaleData C++ Classes"
+        }
+    ]
+}

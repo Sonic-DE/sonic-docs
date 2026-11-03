@@ -1,0 +1,373 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "buttons",
+                    "buttons : KAbstractConfigModule::Buttons",
+                    "buttons-prop"
+                ],
+                [
+                    "defaultsIndicatorsVisible",
+                    "defaultsIndicatorsVisible : bool",
+                    "defaultsIndicatorsVisible-prop"
+                ],
+                [
+                    "description",
+                    "description : const QString",
+                    "description-prop"
+                ],
+                [
+                    "name",
+                    "name : const QString",
+                    "name-prop"
+                ],
+                [
+                    "needsAuthorization",
+                    "needsAuthorization : bool",
+                    "needsAuthorization-prop"
+                ],
+                [
+                    "needsSave",
+                    "needsSave : bool",
+                    "needsSave-prop"
+                ],
+                [
+                    "representsDefaults",
+                    "representsDefaults : bool",
+                    "representsDefaults-prop"
+                ],
+                [
+                    "supportsInstantApply",
+                    "supportsInstantApply : bool",
+                    "supportsInstantApply-prop"
+                ],
+                [
+                    "KAbstractConfigModule",
+                    "KAbstractConfigModule(QObject *, const KPluginMetaData &)",
+                    "KAbstractConfigModule"
+                ],
+                [
+                    "activationRequested",
+                    "activationRequested(const QVariantList &)",
+                    "activationRequested"
+                ],
+                [
+                    "authActionName",
+                    "authActionName() const : QString",
+                    "authActionName"
+                ],
+                [
+                    "authActionNameChanged",
+                    "authActionNameChanged()",
+                    "authActionNameChanged"
+                ],
+                [
+                    "buttons",
+                    "buttons() const : KAbstractConfigModule::Buttons",
+                    "buttons"
+                ],
+                [
+                    "buttonsChanged",
+                    "buttonsChanged()",
+                    "buttonsChanged"
+                ],
+                [
+                    "defaults",
+                    "defaults()",
+                    "defaults"
+                ],
+                [
+                    "defaultsIndicatorsVisible",
+                    "defaultsIndicatorsVisible() const : bool",
+                    "defaultsIndicatorsVisible"
+                ],
+                [
+                    "defaultsIndicatorsVisibleChanged",
+                    "defaultsIndicatorsVisibleChanged()",
+                    "defaultsIndicatorsVisibleChanged"
+                ],
+                [
+                    "description",
+                    "description() const : QString",
+                    "description"
+                ],
+                [
+                    "load",
+                    "load()",
+                    "load"
+                ],
+                [
+                    "metaData",
+                    "metaData() const : KPluginMetaData",
+                    "metaData"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "needsAuthorization",
+                    "needsAuthorization() const : bool",
+                    "needsAuthorization"
+                ],
+                [
+                    "needsSave",
+                    "needsSave() const : bool",
+                    "needsSave"
+                ],
+                [
+                    "needsSaveChanged",
+                    "needsSaveChanged()",
+                    "needsSaveChanged"
+                ],
+                [
+                    "representsDefaults",
+                    "representsDefaults() const : bool",
+                    "representsDefaults"
+                ],
+                [
+                    "representsDefaultsChanged",
+                    "representsDefaultsChanged()",
+                    "representsDefaultsChanged"
+                ],
+                [
+                    "save",
+                    "save()",
+                    "save"
+                ],
+                [
+                    "setAuthActionName",
+                    "setAuthActionName(const QString &)",
+                    "setAuthActionName"
+                ],
+                [
+                    "setButtons",
+                    "setButtons(const KAbstractConfigModule::Buttons)",
+                    "setButtons"
+                ],
+                [
+                    "setDefaultsIndicatorsVisible",
+                    "setDefaultsIndicatorsVisible(bool)",
+                    "setDefaultsIndicatorsVisible"
+                ],
+                [
+                    "setNeedsSave",
+                    "setNeedsSave(bool)",
+                    "setNeedsSave"
+                ],
+                [
+                    "setRepresentsDefaults",
+                    "setRepresentsDefaults(bool)",
+                    "setRepresentsDefaults"
+                ],
+                [
+                    "setSupportsInstantApply",
+                    "setSupportsInstantApply(bool)",
+                    "setSupportsInstantApply"
+                ],
+                [
+                    "supportsInstantApply",
+                    "supportsInstantApply() const : bool",
+                    "supportsInstantApply"
+                ],
+                [
+                    "supportsInstantApplyChanged",
+                    "supportsInstantApplyChanged()",
+                    "supportsInstantApplyChanged"
+                ]
+            ],
+            "name": "KAbstractConfigModule",
+            "page": "kcmutilscore/kabstractconfigmodule",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KCModuleData",
+                    "KCModuleData(QObject *)",
+                    "KCModuleData"
+                ],
+                [
+                    "autoRegisterSkeletons",
+                    "autoRegisterSkeletons()",
+                    "autoRegisterSkeletons"
+                ],
+                [
+                    "auxiliaryAction",
+                    "auxiliaryAction() const : QAction *",
+                    "auxiliaryAction"
+                ],
+                [
+                    "auxiliaryActionChanged",
+                    "auxiliaryActionChanged(QAction *)",
+                    "auxiliaryActionChanged"
+                ],
+                [
+                    "isDefaults",
+                    "isDefaults() const : bool",
+                    "isDefaults"
+                ],
+                [
+                    "loaded",
+                    "loaded()",
+                    "loaded"
+                ],
+                [
+                    "matchesQuery",
+                    "matchesQuery(const QString &) const : bool",
+                    "matchesQuery"
+                ],
+                [
+                    "registerSkeleton",
+                    "registerSkeleton(KCoreConfigSkeleton *)",
+                    "registerSkeleton"
+                ],
+                [
+                    "relevantChanged",
+                    "relevantChanged(bool)",
+                    "relevantChanged"
+                ],
+                [
+                    "revertToDefaults",
+                    "revertToDefaults()",
+                    "revertToDefaults"
+                ],
+                [
+                    "setAuxiliaryAction",
+                    "setAuxiliaryAction(QAction *)",
+                    "setAuxiliaryAction"
+                ],
+                [
+                    "setRelevant",
+                    "setRelevant(bool)",
+                    "setRelevant"
+                ]
+            ],
+            "name": "KCModuleData",
+            "page": "kcmutilscore/kcmoduledata",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KPluginModel",
+                    "KPluginModel(QObject *)",
+                    "KPluginModel"
+                ],
+                [
+                    "addPlugins",
+                    "addPlugins(const QList<KPluginMetaData> &, const QString &)",
+                    "addPlugins"
+                ],
+                [
+                    "addUnsortablePlugins",
+                    "addUnsortablePlugins(const QList<KPluginMetaData> &, const QString &)",
+                    "addUnsortablePlugins"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "defaulted",
+                    "defaulted(bool)",
+                    "defaulted"
+                ],
+                [
+                    "defaults",
+                    "defaults()",
+                    "defaults"
+                ],
+                [
+                    "findConfigForPluginId",
+                    "findConfigForPluginId(const QString &) const : KPluginMetaData",
+                    "findConfigForPluginId"
+                ],
+                [
+                    "isSaveNeeded",
+                    "isSaveNeeded() : bool",
+                    "isSaveNeeded"
+                ],
+                [
+                    "isSaveNeededChanged",
+                    "isSaveNeededChanged()",
+                    "isSaveNeededChanged"
+                ],
+                [
+                    "load",
+                    "load()",
+                    "load"
+                ],
+                [
+                    "removePlugin",
+                    "removePlugin(const KPluginMetaData &)",
+                    "removePlugin"
+                ],
+                [
+                    "save",
+                    "save()",
+                    "save"
+                ],
+                [
+                    "setConfig",
+                    "setConfig(const KConfigGroup &)",
+                    "setConfig"
+                ]
+            ],
+            "name": "KPluginModel",
+            "page": "kcmutilscore/kpluginmodel",
+            "qtBases": [
+                [
+                    "QAbstractListModel",
+                    "https://doc.qt.io/qt-6/qabstractlistmodel-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kcmutilscore",
+    "sections": [
+        {
+            "description": "Utilities for KDE System Settings modules.",
+            "page": "kcmutilscore/kcmutilscore-module",
+            "pages": [
+                [
+                    "kcmutilscore/kcmutilscore-module",
+                    "KCMUtils Core C++ Classes"
+                ],
+                [
+                    "kcmutilscore/kabstractconfigmodule",
+                    "KAbstractConfigModule"
+                ],
+                [
+                    "kcmutilscore/kcmoduledata",
+                    "KCModuleData"
+                ],
+                [
+                    "kcmutilscore/kpluginmodel",
+                    "KPluginModel"
+                ]
+            ],
+            "qml": false,
+            "title": "KCMUtils Core C++ Classes"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "addMenuItem",
+                    "addMenuItem(const QString &)",
+                    "addMenuItem"
+                ],
+                [
+                    "addMenuItem",
+                    "addMenuItem(QMenuItem *, QMenuItem *)",
+                    "addMenuItem-1"
+                ],
+                [
+                    "addSection",
+                    "addSection(const QString &)",
+                    "addSection"
+                ],
+                [
+                    "clearMenuItems",
+                    "clearMenuItems()",
+                    "clearMenuItems"
+                ],
+                [
+                    "close",
+                    "close()",
+                    "close"
+                ],
+                [
+                    "open",
+                    "open(int, int)",
+                    "open"
+                ],
+                [
+                    "openRelative",
+                    "openRelative()",
+                    "openRelative"
+                ],
+                [
+                    "removeMenuItem",
+                    "removeMenuItem(QMenuItem *)",
+                    "removeMenuItem"
+                ]
+            ],
+            "name": "QMenuProxy",
+            "page": "plasmaextras/qmenuproxy",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "plasmaextras",
+    "sections": [
+        {
+            "description": "",
+            "page": "",
+            "pages": [
+                [
+                    "plasmaextras/qmenuproxy",
+                    "QMenuProxy"
+                ]
+            ],
+            "qml": false,
+            "title": "plasmaextras"
+        },
+        {
+            "description": "Plasma Extra Stuff.",
+            "page": "plasmaextras/org-kde-plasma-extras-qmlmodule",
+            "pages": [
+                [
+                    "plasmaextras/org-kde-plasma-extras-qmlmodule",
+                    "Plasma Extras QML Types"
+                ],
+                [
+                    "plasmaextras/qml-contextualhelpbutton",
+                    "ContextualHelpButton"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-actiontextfield",
+                    "ActionTextField"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-basicplasmoidheading",
+                    "BasicPlasmoidHeading"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-descriptivelabel",
+                    "DescriptiveLabel"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-expandablelistitem",
+                    "ExpandableListItem"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-heading",
+                    "Heading"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-highlight",
+                    "Highlight"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-listitem",
+                    "ListItem"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-listsectionheader",
+                    "ListSectionHeader"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-modelcontextmenu",
+                    "ModelContextMenu"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-passwordfield",
+                    "PasswordField"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-placeholdermessage",
+                    "PlaceholderMessage"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-plasmoidheading",
+                    "PlasmoidHeading"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-representation",
+                    "Representation"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-searchfield",
+                    "SearchField"
+                ],
+                [
+                    "plasmaextras/qml-org-kde-plasma-extras-shadowedlabel",
+                    "ShadowedLabel"
+                ]
+            ],
+            "qml": true,
+            "title": "Plasma Extras QML Types"
+        }
+    ]
+}

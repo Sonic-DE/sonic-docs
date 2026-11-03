@@ -1,0 +1,438 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DomainBrowser",
+                    "DomainBrowser(KDNSSD::DomainBrowser::DomainType, QObject *)",
+                    "DomainBrowser"
+                ],
+                [
+                    "domainAdded",
+                    "domainAdded(const QString &)",
+                    "domainAdded"
+                ],
+                [
+                    "domainRemoved",
+                    "domainRemoved(const QString &)",
+                    "domainRemoved"
+                ],
+                [
+                    "domains",
+                    "domains() const : QStringList",
+                    "domains"
+                ],
+                [
+                    "isRunning",
+                    "isRunning() const : bool",
+                    "isRunning"
+                ],
+                [
+                    "startBrowse",
+                    "startBrowse()",
+                    "startBrowse"
+                ]
+            ],
+            "name": "KDNSSD::DomainBrowser",
+            "page": "kdnssd/kdnssd-domainbrowser",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DomainModel",
+                    "DomainModel(KDNSSD::DomainBrowser *, QObject *)",
+                    "DomainModel"
+                ],
+                [
+                    "hasIndex",
+                    "hasIndex(int, int, const QModelIndex &) const : bool",
+                    "hasIndex"
+                ]
+            ],
+            "name": "KDNSSD::DomainModel",
+            "page": "kdnssd/kdnssd-domainmodel",
+            "qtBases": [
+                [
+                    "QAbstractItemModel",
+                    "https://doc.qt.io/qt-6/qabstractitemmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kdnssd/kdnssd-servicebase"
+            ],
+            "members": [
+                [
+                    "PublicService",
+                    "PublicService(const QString &, const QString &, unsigned int, const QString &, const QStringList &)",
+                    "PublicService"
+                ],
+                [
+                    "isPublished",
+                    "isPublished() const : bool",
+                    "isPublished"
+                ],
+                [
+                    "publish",
+                    "publish() : bool",
+                    "publish"
+                ],
+                [
+                    "publishAsync",
+                    "publishAsync()",
+                    "publishAsync"
+                ],
+                [
+                    "published",
+                    "published(bool)",
+                    "published"
+                ],
+                [
+                    "setDomain",
+                    "setDomain(const QString &)",
+                    "setDomain"
+                ],
+                [
+                    "setPort",
+                    "setPort(unsigned short)",
+                    "setPort"
+                ],
+                [
+                    "setServiceName",
+                    "setServiceName(const QString &)",
+                    "setServiceName"
+                ],
+                [
+                    "setSubTypes",
+                    "setSubTypes(const QStringList &)",
+                    "setSubTypes"
+                ],
+                [
+                    "setTextData",
+                    "setTextData(const QMap<QString, QByteArray> &)",
+                    "setTextData"
+                ],
+                [
+                    "setType",
+                    "setType(const QString &)",
+                    "setType"
+                ],
+                [
+                    "stop",
+                    "stop()",
+                    "stop"
+                ],
+                [
+                    "subtypes",
+                    "subtypes() const : QStringList",
+                    "subtypes"
+                ]
+            ],
+            "name": "KDNSSD::PublicService",
+            "page": "kdnssd/kdnssd-publicservice",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "kdnssd/kdnssd-servicebase"
+            ],
+            "members": [
+                [
+                    "RemoteService",
+                    "RemoteService(const QString &, const QString &, const QString &)",
+                    "RemoteService"
+                ],
+                [
+                    "isResolved",
+                    "isResolved() const : bool",
+                    "isResolved"
+                ],
+                [
+                    "resolve",
+                    "resolve() : bool",
+                    "resolve"
+                ],
+                [
+                    "resolveAsync",
+                    "resolveAsync()",
+                    "resolveAsync"
+                ],
+                [
+                    "resolved",
+                    "resolved(bool)",
+                    "resolved"
+                ]
+            ],
+            "name": "KDNSSD::RemoteService",
+            "page": "kdnssd/kdnssd-remoteservice",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ServiceBase",
+                    "ServiceBase(const QString &, const QString &, const QString &, const QString &, unsigned short)",
+                    "ServiceBase"
+                ],
+                [
+                    "domain",
+                    "domain() const : QString",
+                    "domain"
+                ],
+                [
+                    "hostName",
+                    "hostName() const : QString",
+                    "hostName"
+                ],
+                [
+                    "port",
+                    "port() const : unsigned short",
+                    "port"
+                ],
+                [
+                    "serviceName",
+                    "serviceName() const : QString",
+                    "serviceName"
+                ],
+                [
+                    "textData",
+                    "textData() const : QMap<QString, QByteArray>",
+                    "textData"
+                ],
+                [
+                    "type",
+                    "type() const : QString",
+                    "type"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KDNSSD::ServiceBase &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KDNSSD::ServiceBase &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KDNSSD::ServiceBase",
+            "page": "kdnssd/kdnssd-servicebase",
+            "qtBases": [
+                [
+                    "QSharedData",
+                    "https://doc.qt.io/qt-6/qshareddata-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ServiceBrowser",
+                    "ServiceBrowser(const QString &, bool, const QString &, const QString &)",
+                    "ServiceBrowser"
+                ],
+                [
+                    "finished",
+                    "finished()",
+                    "finished"
+                ],
+                [
+                    "getLocalHostName",
+                    "getLocalHostName() : QString",
+                    "getLocalHostName"
+                ],
+                [
+                    "isAutoResolving",
+                    "isAutoResolving() const : bool",
+                    "isAutoResolving"
+                ],
+                [
+                    "isAvailable",
+                    "isAvailable() : KDNSSD::ServiceBrowser::State",
+                    "isAvailable"
+                ],
+                [
+                    "resolveHostName",
+                    "resolveHostName(const QString &) : QHostAddress",
+                    "resolveHostName"
+                ],
+                [
+                    "serviceAdded",
+                    "serviceAdded(KDNSSD::RemoteService::Ptr)",
+                    "serviceAdded"
+                ],
+                [
+                    "serviceRemoved",
+                    "serviceRemoved(KDNSSD::RemoteService::Ptr)",
+                    "serviceRemoved"
+                ],
+                [
+                    "services",
+                    "services() const : QList<RemoteService::Ptr>",
+                    "services"
+                ],
+                [
+                    "startBrowse",
+                    "startBrowse()",
+                    "startBrowse"
+                ]
+            ],
+            "name": "KDNSSD::ServiceBrowser",
+            "page": "kdnssd/kdnssd-servicebrowser",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ServiceModel",
+                    "ServiceModel(KDNSSD::ServiceBrowser *, QObject *)",
+                    "ServiceModel"
+                ],
+                [
+                    "hasIndex",
+                    "hasIndex(int, int, const QModelIndex &) const : bool",
+                    "hasIndex"
+                ]
+            ],
+            "name": "KDNSSD::ServiceModel",
+            "page": "kdnssd/kdnssd-servicemodel",
+            "qtBases": [
+                [
+                    "QAbstractItemModel",
+                    "https://doc.qt.io/qt-6/qabstractitemmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ServiceTypeBrowser",
+                    "ServiceTypeBrowser(const QString &, QObject *)",
+                    "ServiceTypeBrowser"
+                ],
+                [
+                    "finished",
+                    "finished()",
+                    "finished"
+                ],
+                [
+                    "serviceTypeAdded",
+                    "serviceTypeAdded(const QString &)",
+                    "serviceTypeAdded"
+                ],
+                [
+                    "serviceTypeRemoved",
+                    "serviceTypeRemoved(const QString &)",
+                    "serviceTypeRemoved"
+                ],
+                [
+                    "serviceTypes",
+                    "serviceTypes() const : QStringList",
+                    "serviceTypes"
+                ],
+                [
+                    "startBrowse",
+                    "startBrowse()",
+                    "startBrowse"
+                ]
+            ],
+            "name": "KDNSSD::ServiceTypeBrowser",
+            "page": "kdnssd/kdnssd-servicetypebrowser",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kdnssd",
+    "sections": [
+        {
+            "description": "Interface to system-level multicast DNS service discovery.",
+            "page": "kdnssd/kdnssd-module",
+            "pages": [
+                [
+                    "kdnssd/kdnssd-module",
+                    "KDNSSD C++ Classes"
+                ],
+                [
+                    "kdnssd/kdnssd-domainbrowser",
+                    "KDNSSD::DomainBrowser"
+                ],
+                [
+                    "kdnssd/kdnssd-domainmodel",
+                    "KDNSSD::DomainModel"
+                ],
+                [
+                    "kdnssd/kdnssd-publicservice",
+                    "KDNSSD::PublicService"
+                ],
+                [
+                    "kdnssd/kdnssd-remoteservice",
+                    "KDNSSD::RemoteService"
+                ],
+                [
+                    "kdnssd/kdnssd-servicebase",
+                    "KDNSSD::ServiceBase"
+                ],
+                [
+                    "kdnssd/kdnssd-servicebrowser",
+                    "KDNSSD::ServiceBrowser"
+                ],
+                [
+                    "kdnssd/kdnssd-servicemodel",
+                    "KDNSSD::ServiceModel"
+                ],
+                [
+                    "kdnssd/kdnssd-servicetypebrowser",
+                    "KDNSSD::ServiceTypeBrowser"
+                ],
+                [
+                    "kdnssd/kdnssd",
+                    "KDNSSD Namespace"
+                ],
+                [
+                    "kdnssd/kdnssd-index",
+                    "KDNSSD"
+                ]
+            ],
+            "qml": false,
+            "title": "KDNSSD C++ Classes"
+        }
+    ]
+}

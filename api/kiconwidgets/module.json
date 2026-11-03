@@ -1,0 +1,199 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "icon",
+                    "icon : QString",
+                    "icon-prop"
+                ],
+                [
+                    "iconSize",
+                    "iconSize : int",
+                    "iconSize-prop"
+                ],
+                [
+                    "strictIconSize",
+                    "strictIconSize : bool",
+                    "strictIconSize-prop"
+                ],
+                [
+                    "KIconButton",
+                    "KIconButton(QWidget *)",
+                    "KIconButton"
+                ],
+                [
+                    "buttonIconSize",
+                    "buttonIconSize() const : int",
+                    "buttonIconSize"
+                ],
+                [
+                    "icon",
+                    "icon() const : const QString &",
+                    "icon"
+                ],
+                [
+                    "iconChanged",
+                    "iconChanged(const QString &)",
+                    "iconChanged"
+                ],
+                [
+                    "iconSize",
+                    "iconSize() const : int",
+                    "iconSize"
+                ],
+                [
+                    "resetIcon",
+                    "resetIcon()",
+                    "resetIcon"
+                ],
+                [
+                    "setButtonIconSize",
+                    "setButtonIconSize(int)",
+                    "setButtonIconSize"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(const QIcon &)",
+                    "setIcon"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(const QString &)",
+                    "setIcon-1"
+                ],
+                [
+                    "setIconSize",
+                    "setIconSize(int)",
+                    "setIconSize"
+                ],
+                [
+                    "setIconType",
+                    "setIconType(KIconLoader::Group, KIconLoader::Context, bool)",
+                    "setIconType"
+                ],
+                [
+                    "setStrictIconSize",
+                    "setStrictIconSize(bool)",
+                    "setStrictIconSize"
+                ],
+                [
+                    "strictIconSize",
+                    "strictIconSize() const : bool",
+                    "strictIconSize"
+                ]
+            ],
+            "name": "KIconButton",
+            "page": "kiconwidgets/kiconbutton",
+            "qtBases": [
+                [
+                    "QPushButton",
+                    "https://doc.qt.io/qt-6/qpushbutton-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KIconDialog",
+                    "KIconDialog(QWidget *)",
+                    "KIconDialog"
+                ],
+                [
+                    "getIcon",
+                    "getIcon(KIconLoader::Group, KIconLoader::Context, bool, int, bool, QWidget *, const QString &) : QString",
+                    "getIcon"
+                ],
+                [
+                    "iconSize",
+                    "iconSize() const : int",
+                    "iconSize"
+                ],
+                [
+                    "newIconName",
+                    "newIconName(const QString &)",
+                    "newIconName"
+                ],
+                [
+                    "openDialog",
+                    "openDialog() : QString",
+                    "openDialog"
+                ],
+                [
+                    "setCustomLocation",
+                    "setCustomLocation(const QString &)",
+                    "setCustomLocation"
+                ],
+                [
+                    "setIconSize",
+                    "setIconSize(int)",
+                    "setIconSize"
+                ],
+                [
+                    "setSelectedIcon",
+                    "setSelectedIcon(const QString &)",
+                    "setSelectedIcon"
+                ],
+                [
+                    "setStrictIconSize",
+                    "setStrictIconSize(bool)",
+                    "setStrictIconSize"
+                ],
+                [
+                    "setup",
+                    "setup(KIconLoader::Group, KIconLoader::Context, bool, int, bool, bool, bool)",
+                    "setup"
+                ],
+                [
+                    "showDialog",
+                    "showDialog()",
+                    "showDialog"
+                ],
+                [
+                    "strictIconSize",
+                    "strictIconSize() const : bool",
+                    "strictIconSize"
+                ]
+            ],
+            "name": "KIconDialog",
+            "page": "kiconwidgets/kicondialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "kiconwidgets",
+    "sections": [
+        {
+            "description": "Icon GUI utilities.",
+            "page": "kiconwidgets/kiconwidgets-module",
+            "pages": [
+                [
+                    "kiconwidgets/kiconwidgets-module",
+                    "KIconWidgets C++ Classes"
+                ],
+                [
+                    "kiconwidgets/kiconbutton",
+                    "KIconButton"
+                ],
+                [
+                    "kiconwidgets/kicondialog",
+                    "KIconDialog"
+                ],
+                [
+                    "kiconwidgets/kpixmapsequenceloader",
+                    "KPixmapSequenceLoader Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "KIconWidgets C++ Classes"
+        }
+    ]
+}

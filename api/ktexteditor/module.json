@@ -1,0 +1,3161 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Application",
+                    "Application(QObject *)",
+                    "Application"
+                ],
+                [
+                    "activeMainWindow",
+                    "activeMainWindow() : KTextEditor::MainWindow *",
+                    "activeMainWindow"
+                ],
+                [
+                    "closeDocument",
+                    "closeDocument(KTextEditor::Document *) : bool",
+                    "closeDocument"
+                ],
+                [
+                    "closeDocuments",
+                    "closeDocuments(const QList<KTextEditor::Document *> &) : bool",
+                    "closeDocuments"
+                ],
+                [
+                    "documentCreated",
+                    "documentCreated(KTextEditor::Document *)",
+                    "documentCreated"
+                ],
+                [
+                    "documentDeleted",
+                    "documentDeleted(KTextEditor::Document *)",
+                    "documentDeleted"
+                ],
+                [
+                    "documentWillBeDeleted",
+                    "documentWillBeDeleted(KTextEditor::Document *)",
+                    "documentWillBeDeleted"
+                ],
+                [
+                    "documents",
+                    "documents() : QList<KTextEditor::Document *>",
+                    "documents"
+                ],
+                [
+                    "findUrl",
+                    "findUrl(const QUrl &) : KTextEditor::Document *",
+                    "findUrl"
+                ],
+                [
+                    "mainWindows",
+                    "mainWindows() : QList<KTextEditor::MainWindow *>",
+                    "mainWindows"
+                ],
+                [
+                    "openUrl",
+                    "openUrl(const QUrl &, const QString &) : KTextEditor::Document *",
+                    "openUrl"
+                ],
+                [
+                    "plugin",
+                    "plugin(const QString &) : KTextEditor::Plugin *",
+                    "plugin"
+                ],
+                [
+                    "pluginCreated",
+                    "pluginCreated(const QString &, KTextEditor::Plugin *)",
+                    "pluginCreated"
+                ],
+                [
+                    "pluginDeleted",
+                    "pluginDeleted(const QString &, KTextEditor::Plugin *)",
+                    "pluginDeleted"
+                ],
+                [
+                    "quit",
+                    "quit() : bool",
+                    "quit"
+                ]
+            ],
+            "name": "KTextEditor::Application",
+            "page": "ktexteditor/ktexteditor-application",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Attribute",
+                    "Attribute()",
+                    "Attribute"
+                ],
+                [
+                    "Attribute",
+                    "Attribute(const QString &, KSyntaxHighlighting::Theme::TextStyle)",
+                    "Attribute-1"
+                ],
+                [
+                    "backgroundFillWhitespace",
+                    "backgroundFillWhitespace() const : bool",
+                    "backgroundFillWhitespace"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "defaultStyle",
+                    "defaultStyle() const : KSyntaxHighlighting::Theme::TextStyle",
+                    "defaultStyle"
+                ],
+                [
+                    "dynamicAttribute",
+                    "dynamicAttribute(KTextEditor::Attribute::ActivationType) const : Attribute::Ptr",
+                    "dynamicAttribute"
+                ],
+                [
+                    "fontBold",
+                    "fontBold() const : bool",
+                    "fontBold"
+                ],
+                [
+                    "hasAnyProperty",
+                    "hasAnyProperty() const : bool",
+                    "hasAnyProperty"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "outline",
+                    "outline() const : QBrush",
+                    "outline"
+                ],
+                [
+                    "selectedBackground",
+                    "selectedBackground() const : QBrush",
+                    "selectedBackground"
+                ],
+                [
+                    "selectedForeground",
+                    "selectedForeground() const : QBrush",
+                    "selectedForeground"
+                ],
+                [
+                    "setBackgroundFillWhitespace",
+                    "setBackgroundFillWhitespace(bool)",
+                    "setBackgroundFillWhitespace"
+                ],
+                [
+                    "setDefaultStyle",
+                    "setDefaultStyle(KSyntaxHighlighting::Theme::TextStyle)",
+                    "setDefaultStyle"
+                ],
+                [
+                    "setDynamicAttribute",
+                    "setDynamicAttribute(KTextEditor::Attribute::ActivationType, Attribute::Ptr)",
+                    "setDynamicAttribute"
+                ],
+                [
+                    "setFontBold",
+                    "setFontBold(bool)",
+                    "setFontBold"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setOutline",
+                    "setOutline(const QBrush &)",
+                    "setOutline"
+                ],
+                [
+                    "setSelectedBackground",
+                    "setSelectedBackground(const QBrush &)",
+                    "setSelectedBackground"
+                ],
+                [
+                    "setSelectedForeground",
+                    "setSelectedForeground(const QBrush &)",
+                    "setSelectedForeground"
+                ],
+                [
+                    "setSkipSpellChecking",
+                    "setSkipSpellChecking(bool)",
+                    "setSkipSpellChecking"
+                ],
+                [
+                    "skipSpellChecking",
+                    "skipSpellChecking() const : bool",
+                    "skipSpellChecking"
+                ],
+                [
+                    "operator+=",
+                    "operator+=(const KTextEditor::Attribute &) : KTextEditor::Attribute &",
+                    "operator-2b-eq"
+                ],
+                [
+                    "operator=",
+                    "operator=(const KTextEditor::Attribute &) : KTextEditor::Attribute &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KTextEditor::Attribute",
+            "page": "ktexteditor/ktexteditor-attribute",
+            "qtBases": [
+                [
+                    "QSharedData",
+                    "https://doc.qt.io/qt-6/qshareddata-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "CodeCompletionModel",
+                    "CodeCompletionModel(QObject *)",
+                    "CodeCompletionModel"
+                ],
+                [
+                    "columnCount",
+                    "columnCount(const QModelIndex &) const : int",
+                    "columnCount"
+                ],
+                [
+                    "completionInvoked",
+                    "completionInvoked(KTextEditor::View *, const KTextEditor::Range &, KTextEditor::CodeCompletionModel::InvocationType)",
+                    "completionInvoked"
+                ],
+                [
+                    "executeCompletionItem",
+                    "executeCompletionItem(KTextEditor::View *, const KTextEditor::Range &, const QModelIndex &) const",
+                    "executeCompletionItem"
+                ],
+                [
+                    "hasGroups",
+                    "hasGroups() const : bool",
+                    "hasGroups"
+                ],
+                [
+                    "index",
+                    "index(int, int, const QModelIndex &) const : QModelIndex",
+                    "index"
+                ],
+                [
+                    "itemData",
+                    "itemData(const QModelIndex &) const : QMap<int, QVariant>",
+                    "itemData"
+                ],
+                [
+                    "parent",
+                    "parent(const QModelIndex &) const : QModelIndex",
+                    "parent"
+                ],
+                [
+                    "rowCount",
+                    "rowCount(const QModelIndex &) const : int",
+                    "rowCount"
+                ],
+                [
+                    "waitForReset",
+                    "waitForReset()",
+                    "waitForReset"
+                ]
+            ],
+            "name": "KTextEditor::CodeCompletionModel",
+            "page": "ktexteditor/ktexteditor-codecompletionmodel",
+            "qtBases": [
+                [
+                    "QAbstractItemModel",
+                    "https://doc.qt.io/qt-6/qabstractitemmodel-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "CodeCompletionModelControllerInterface",
+                    "CodeCompletionModelControllerInterface()",
+                    "CodeCompletionModelControllerInterface"
+                ],
+                [
+                    "aborted",
+                    "aborted(KTextEditor::View *)",
+                    "aborted"
+                ],
+                [
+                    "completionRange",
+                    "completionRange(KTextEditor::View *, const KTextEditor::Cursor &) : KTextEditor::Range",
+                    "completionRange"
+                ],
+                [
+                    "filterString",
+                    "filterString(KTextEditor::View *, const KTextEditor::Range &, const KTextEditor::Cursor &) : QString",
+                    "filterString"
+                ],
+                [
+                    "matchingItem",
+                    "matchingItem(const QModelIndex &) : KTextEditor::CodeCompletionModelControllerInterface::MatchReaction",
+                    "matchingItem"
+                ],
+                [
+                    "shouldAbortCompletion",
+                    "shouldAbortCompletion(KTextEditor::View *, const KTextEditor::Range &, const QString &) : bool",
+                    "shouldAbortCompletion"
+                ],
+                [
+                    "shouldExecute",
+                    "shouldExecute(const QModelIndex &, QChar) : bool",
+                    "shouldExecute"
+                ],
+                [
+                    "shouldHideItemsWithEqualNames",
+                    "shouldHideItemsWithEqualNames() const : bool",
+                    "shouldHideItemsWithEqualNames"
+                ],
+                [
+                    "shouldStartCompletion",
+                    "shouldStartCompletion(KTextEditor::View *, const QString &, bool, const KTextEditor::Cursor &) : bool",
+                    "shouldStartCompletion"
+                ],
+                [
+                    "updateCompletionRange",
+                    "updateCompletionRange(KTextEditor::View *, const KTextEditor::Range &) : KTextEditor::Range",
+                    "updateCompletionRange"
+                ]
+            ],
+            "name": "KTextEditor::CodeCompletionModelControllerInterface",
+            "page": "ktexteditor/ktexteditor-codecompletionmodelcontrollerinterface",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Command",
+                    "Command(const QStringList &, QObject *)",
+                    "Command"
+                ],
+                [
+                    "~Command",
+                    "~Command()",
+                    "dtor.Command"
+                ],
+                [
+                    "cmds",
+                    "cmds() const : const QStringList &",
+                    "cmds"
+                ],
+                [
+                    "completionObject",
+                    "completionObject(KTextEditor::View *, const QString &) : KCompletion *",
+                    "completionObject"
+                ],
+                [
+                    "exec",
+                    "exec(KTextEditor::View *, const QString &, QString &, const KTextEditor::Range &) : bool",
+                    "exec"
+                ],
+                [
+                    "help",
+                    "help(KTextEditor::View *, const QString &, QString &) : bool",
+                    "help"
+                ],
+                [
+                    "processText",
+                    "processText(KTextEditor::View *, const QString &)",
+                    "processText"
+                ],
+                [
+                    "supportsRange",
+                    "supportsRange(const QString &) : bool",
+                    "supportsRange"
+                ],
+                [
+                    "wantsToProcessText",
+                    "wantsToProcessText(const QString &) : bool",
+                    "wantsToProcessText"
+                ]
+            ],
+            "name": "KTextEditor::Command",
+            "page": "ktexteditor/ktexteditor-command",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ConfigPage",
+                    "ConfigPage(QWidget *)",
+                    "ConfigPage"
+                ],
+                [
+                    "apply",
+                    "apply()",
+                    "apply"
+                ],
+                [
+                    "changed",
+                    "changed()",
+                    "changed"
+                ],
+                [
+                    "defaults",
+                    "defaults()",
+                    "defaults"
+                ],
+                [
+                    "fullName",
+                    "fullName() const : QString",
+                    "fullName"
+                ],
+                [
+                    "icon",
+                    "icon() const : QIcon",
+                    "icon"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "reset",
+                    "reset()",
+                    "reset"
+                ]
+            ],
+            "name": "KTextEditor::ConfigPage",
+            "page": "ktexteditor/ktexteditor-configpage",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Cursor",
+                    "Cursor()",
+                    "Cursor"
+                ],
+                [
+                    "Cursor",
+                    "Cursor(int, int)",
+                    "Cursor-1"
+                ],
+                [
+                    "atStartOfDocument",
+                    "atStartOfDocument() const : bool",
+                    "atStartOfDocument"
+                ],
+                [
+                    "atStartOfLine",
+                    "atStartOfLine() const : bool",
+                    "atStartOfLine"
+                ],
+                [
+                    "column",
+                    "column() const : int",
+                    "column"
+                ],
+                [
+                    "fromString",
+                    "fromString(QStringView) : KTextEditor::Cursor",
+                    "fromString"
+                ],
+                [
+                    "invalid",
+                    "invalid() : KTextEditor::Cursor",
+                    "invalid"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "line",
+                    "line() const : int",
+                    "line"
+                ],
+                [
+                    "position",
+                    "position(int &, int &) const",
+                    "position"
+                ],
+                [
+                    "setColumn",
+                    "setColumn(int)",
+                    "setColumn"
+                ],
+                [
+                    "setLine",
+                    "setLine(int)",
+                    "setLine"
+                ],
+                [
+                    "setPosition",
+                    "setPosition(KTextEditor::Cursor)",
+                    "setPosition"
+                ],
+                [
+                    "setPosition",
+                    "setPosition(int, int)",
+                    "setPosition-1"
+                ],
+                [
+                    "start",
+                    "start() : KTextEditor::Cursor",
+                    "start"
+                ],
+                [
+                    "toString",
+                    "toString() const : QString",
+                    "toString"
+                ]
+            ],
+            "name": "KTextEditor::Cursor",
+            "page": "ktexteditor/ktexteditor-cursor",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kparts/kparts-readwritepart"
+            ],
+            "members": [
+                [
+                    "Document",
+                    "Document(KTextEditor::DocumentPrivate *, const KPluginMetaData &, QObject *)",
+                    "Document"
+                ],
+                [
+                    "aboutToClose",
+                    "aboutToClose(KTextEditor::Document *)",
+                    "aboutToClose"
+                ],
+                [
+                    "aboutToInvalidateMovingInterfaceContent",
+                    "aboutToInvalidateMovingInterfaceContent(KTextEditor::Document *)",
+                    "aboutToInvalidateMovingInterfaceContent"
+                ],
+                [
+                    "aboutToReload",
+                    "aboutToReload(KTextEditor::Document *)",
+                    "aboutToReload"
+                ],
+                [
+                    "aboutToSave",
+                    "aboutToSave(KTextEditor::Document *)",
+                    "aboutToSave"
+                ],
+                [
+                    "addMark",
+                    "addMark(int, uint)",
+                    "addMark"
+                ],
+                [
+                    "annotationModel",
+                    "annotationModel() const : KTextEditor::AnnotationModel *",
+                    "annotationModel"
+                ],
+                [
+                    "characterAt",
+                    "characterAt(KTextEditor::Cursor) const : QChar",
+                    "characterAt"
+                ],
+                [
+                    "checksum",
+                    "checksum() const : QByteArray",
+                    "checksum"
+                ],
+                [
+                    "clear",
+                    "clear() : bool",
+                    "clear"
+                ],
+                [
+                    "clearMark",
+                    "clearMark(int)",
+                    "clearMark"
+                ],
+                [
+                    "clearMarks",
+                    "clearMarks()",
+                    "clearMarks"
+                ],
+                [
+                    "configChanged",
+                    "configChanged(KTextEditor::Document *)",
+                    "configChanged"
+                ],
+                [
+                    "configKeys",
+                    "configKeys() const : QStringList",
+                    "configKeys"
+                ],
+                [
+                    "configValue",
+                    "configValue(const QString &) : QVariant",
+                    "configValue"
+                ],
+                [
+                    "createView",
+                    "createView(QWidget *, KTextEditor::MainWindow *) : KTextEditor::View *",
+                    "createView"
+                ],
+                [
+                    "cursorToOffset",
+                    "cursorToOffset(KTextEditor::Cursor) const : qsizetype",
+                    "cursorToOffset"
+                ],
+                [
+                    "defaultStyleAt",
+                    "defaultStyleAt(KTextEditor::Cursor) const : KSyntaxHighlighting::Theme::TextStyle",
+                    "defaultStyleAt"
+                ],
+                [
+                    "discardDataRecovery",
+                    "discardDataRecovery()",
+                    "discardDataRecovery"
+                ],
+                [
+                    "documentEnd",
+                    "documentEnd() const : KTextEditor::Cursor",
+                    "documentEnd"
+                ],
+                [
+                    "documentName",
+                    "documentName() const : QString",
+                    "documentName"
+                ],
+                [
+                    "documentNameChanged",
+                    "documentNameChanged(KTextEditor::Document *)",
+                    "documentNameChanged"
+                ],
+                [
+                    "documentRange",
+                    "documentRange() const : KTextEditor::Range",
+                    "documentRange"
+                ],
+                [
+                    "documentReload",
+                    "documentReload() : bool",
+                    "documentReload"
+                ],
+                [
+                    "documentSave",
+                    "documentSave() : bool",
+                    "documentSave"
+                ],
+                [
+                    "documentSaveAs",
+                    "documentSaveAs() : bool",
+                    "documentSaveAs"
+                ],
+                [
+                    "documentSavedOrUploaded",
+                    "documentSavedOrUploaded(KTextEditor::Document *, bool)",
+                    "documentSavedOrUploaded"
+                ],
+                [
+                    "documentUrlChanged",
+                    "documentUrlChanged(KTextEditor::Document *)",
+                    "documentUrlChanged"
+                ],
+                [
+                    "editableMarks",
+                    "editableMarks() const : uint",
+                    "editableMarks"
+                ],
+                [
+                    "editingFinished",
+                    "editingFinished(KTextEditor::Document *)",
+                    "editingFinished"
+                ],
+                [
+                    "editingStarted",
+                    "editingStarted(KTextEditor::Document *)",
+                    "editingStarted"
+                ],
+                [
+                    "embeddedHighlightingModes",
+                    "embeddedHighlightingModes() const : QStringList",
+                    "embeddedHighlightingModes"
+                ],
+                [
+                    "encoding",
+                    "encoding() const : QString",
+                    "encoding"
+                ],
+                [
+                    "endOfLine",
+                    "endOfLine(int) const : KTextEditor::Cursor",
+                    "endOfLine"
+                ],
+                [
+                    "getSaveFileUrl",
+                    "getSaveFileUrl(const QString &, QWidget *) : QUrl",
+                    "getSaveFileUrl"
+                ],
+                [
+                    "highlightingMode",
+                    "highlightingMode() const : QString",
+                    "highlightingMode"
+                ],
+                [
+                    "highlightingModeAt",
+                    "highlightingModeAt(KTextEditor::Cursor) : QString",
+                    "highlightingModeAt"
+                ],
+                [
+                    "highlightingModeChanged",
+                    "highlightingModeChanged(KTextEditor::Document *)",
+                    "highlightingModeChanged"
+                ],
+                [
+                    "highlightingModeSection",
+                    "highlightingModeSection(int) const : QString",
+                    "highlightingModeSection"
+                ],
+                [
+                    "highlightingModes",
+                    "highlightingModes() const : QStringList",
+                    "highlightingModes"
+                ],
+                [
+                    "insertLine",
+                    "insertLine(int, const QString &) : bool",
+                    "insertLine"
+                ],
+                [
+                    "insertLines",
+                    "insertLines(int, const QStringList &) : bool",
+                    "insertLines"
+                ],
+                [
+                    "insertText",
+                    "insertText(KTextEditor::Cursor, const QString &, bool) : bool",
+                    "insertText"
+                ],
+                [
+                    "insertText",
+                    "insertText(KTextEditor::Cursor, const QStringList &, bool) : bool",
+                    "insertText-1"
+                ],
+                [
+                    "isDataRecoveryAvailable",
+                    "isDataRecoveryAvailable() const : bool",
+                    "isDataRecoveryAvailable"
+                ],
+                [
+                    "isEditingTransactionRunning",
+                    "isEditingTransactionRunning() const : bool",
+                    "isEditingTransactionRunning"
+                ],
+                [
+                    "isEmpty",
+                    "isEmpty() const : bool",
+                    "isEmpty"
+                ],
+                [
+                    "isLineModified",
+                    "isLineModified(int) const : bool",
+                    "isLineModified"
+                ],
+                [
+                    "isLineSaved",
+                    "isLineSaved(int) const : bool",
+                    "isLineSaved"
+                ],
+                [
+                    "isLineTouched",
+                    "isLineTouched(int) const : bool",
+                    "isLineTouched"
+                ],
+                [
+                    "isValidTextPosition",
+                    "isValidTextPosition(KTextEditor::Cursor) const : bool",
+                    "isValidTextPosition"
+                ],
+                [
+                    "lastSavedRevision",
+                    "lastSavedRevision() const : qint64",
+                    "lastSavedRevision"
+                ],
+                [
+                    "line",
+                    "line(int) const : QString",
+                    "line"
+                ],
+                [
+                    "lineLength",
+                    "lineLength(int) const : int",
+                    "lineLength"
+                ],
+                [
+                    "lineUnwrapped",
+                    "lineUnwrapped(KTextEditor::Document *, int)",
+                    "lineUnwrapped"
+                ],
+                [
+                    "lineWrapped",
+                    "lineWrapped(KTextEditor::Document *, KTextEditor::Cursor)",
+                    "lineWrapped"
+                ],
+                [
+                    "lines",
+                    "lines() const : int",
+                    "lines"
+                ],
+                [
+                    "lockRevision",
+                    "lockRevision(qint64)",
+                    "lockRevision"
+                ],
+                [
+                    "mark",
+                    "mark(int) : uint",
+                    "mark"
+                ],
+                [
+                    "markChanged",
+                    "markChanged(KTextEditor::Document *, KTextEditor::Mark, KTextEditor::Document::MarkChangeAction)",
+                    "markChanged"
+                ],
+                [
+                    "markClicked",
+                    "markClicked(KTextEditor::Document *, KTextEditor::Mark, bool &)",
+                    "markClicked"
+                ],
+                [
+                    "markContextMenuRequested",
+                    "markContextMenuRequested(KTextEditor::Document *, KTextEditor::Mark, QPoint, bool &)",
+                    "markContextMenuRequested"
+                ],
+                [
+                    "markDescription",
+                    "markDescription(KTextEditor::Document::MarkTypes) const : QString",
+                    "markDescription"
+                ],
+                [
+                    "markIcon",
+                    "markIcon(KTextEditor::Document::MarkTypes) const : QIcon",
+                    "markIcon"
+                ],
+                [
+                    "markToolTipRequested",
+                    "markToolTipRequested(KTextEditor::Document *, KTextEditor::Mark, QPoint, bool &)",
+                    "markToolTipRequested"
+                ],
+                [
+                    "marks",
+                    "marks() : const QHash<int, KTextEditor::Mark *> &",
+                    "marks"
+                ],
+                [
+                    "marksChanged",
+                    "marksChanged(KTextEditor::Document *)",
+                    "marksChanged"
+                ],
+                [
+                    "mimeType",
+                    "mimeType() : QString",
+                    "mimeType"
+                ],
+                [
+                    "mode",
+                    "mode() const : QString",
+                    "mode"
+                ],
+                [
+                    "modeChanged",
+                    "modeChanged(KTextEditor::Document *)",
+                    "modeChanged"
+                ],
+                [
+                    "modeSection",
+                    "modeSection(int) const : QString",
+                    "modeSection"
+                ],
+                [
+                    "modes",
+                    "modes() const : QStringList",
+                    "modes"
+                ],
+                [
+                    "modifiedChanged",
+                    "modifiedChanged(KTextEditor::Document *)",
+                    "modifiedChanged"
+                ],
+                [
+                    "modifiedOnDisk",
+                    "modifiedOnDisk(KTextEditor::Document *, bool, KTextEditor::Document::ModifiedOnDiskReason)",
+                    "modifiedOnDisk"
+                ],
+                [
+                    "newMovingCursor",
+                    "newMovingCursor(KTextEditor::Cursor, KTextEditor::MovingCursor::InsertBehavior) : KTextEditor::MovingCursor *",
+                    "newMovingCursor"
+                ],
+                [
+                    "newMovingRange",
+                    "newMovingRange(KTextEditor::Range, MovingRange::InsertBehaviors, KTextEditor::MovingRange::EmptyBehavior) : KTextEditor::MovingRange *",
+                    "newMovingRange"
+                ],
+                [
+                    "offsetToCursor",
+                    "offsetToCursor(qsizetype) const : KTextEditor::Cursor",
+                    "offsetToCursor"
+                ],
+                [
+                    "openingError",
+                    "openingError() const : bool",
+                    "openingError"
+                ],
+                [
+                    "postMessage",
+                    "postMessage(KTextEditor::Message *) : bool",
+                    "postMessage"
+                ],
+                [
+                    "print",
+                    "print() : bool",
+                    "print"
+                ],
+                [
+                    "printPreview",
+                    "printPreview()",
+                    "printPreview"
+                ],
+                [
+                    "readSessionConfig",
+                    "readSessionConfig(const KConfigGroup &, const QSet<QString> &)",
+                    "readSessionConfig"
+                ],
+                [
+                    "readWriteChanged",
+                    "readWriteChanged(KTextEditor::Document *)",
+                    "readWriteChanged"
+                ],
+                [
+                    "recoverData",
+                    "recoverData()",
+                    "recoverData"
+                ],
+                [
+                    "reloaded",
+                    "reloaded(KTextEditor::Document *)",
+                    "reloaded"
+                ],
+                [
+                    "removeLine",
+                    "removeLine(int) : bool",
+                    "removeLine"
+                ],
+                [
+                    "removeMark",
+                    "removeMark(int, uint)",
+                    "removeMark"
+                ],
+                [
+                    "removeText",
+                    "removeText(KTextEditor::Range, bool) : bool",
+                    "removeText"
+                ],
+                [
+                    "replaceText",
+                    "replaceText(KTextEditor::Range, const QString &, bool) : bool",
+                    "replaceText"
+                ],
+                [
+                    "replaceText",
+                    "replaceText(KTextEditor::Range, const QStringList &, bool) : bool",
+                    "replaceText-1"
+                ],
+                [
+                    "reservedMarkersCount",
+                    "reservedMarkersCount() : int",
+                    "reservedMarkersCount"
+                ],
+                [
+                    "revision",
+                    "revision() const : qint64",
+                    "revision"
+                ],
+                [
+                    "searchText",
+                    "searchText(KTextEditor::Range, const QString &, const KTextEditor::SearchOptions) const : QList<KTextEditor::Range>",
+                    "searchText"
+                ],
+                [
+                    "setAnnotationModel",
+                    "setAnnotationModel(KTextEditor::AnnotationModel *)",
+                    "setAnnotationModel"
+                ],
+                [
+                    "setConfigValue",
+                    "setConfigValue(const QString &, const QVariant &)",
+                    "setConfigValue"
+                ],
+                [
+                    "setEditableMarks",
+                    "setEditableMarks(uint)",
+                    "setEditableMarks"
+                ],
+                [
+                    "setEncoding",
+                    "setEncoding(const QString &) : bool",
+                    "setEncoding"
+                ],
+                [
+                    "setHighlightingMode",
+                    "setHighlightingMode(const QString &) : bool",
+                    "setHighlightingMode"
+                ],
+                [
+                    "setMark",
+                    "setMark(int, uint)",
+                    "setMark"
+                ],
+                [
+                    "setMarkDescription",
+                    "setMarkDescription(KTextEditor::Document::MarkTypes, const QString &)",
+                    "setMarkDescription"
+                ],
+                [
+                    "setMarkIcon",
+                    "setMarkIcon(KTextEditor::Document::MarkTypes, const QIcon &)",
+                    "setMarkIcon"
+                ],
+                [
+                    "setMode",
+                    "setMode(const QString &) : bool",
+                    "setMode"
+                ],
+                [
+                    "setModifiedOnDisk",
+                    "setModifiedOnDisk(KTextEditor::Document::ModifiedOnDiskReason)",
+                    "setModifiedOnDisk"
+                ],
+                [
+                    "setModifiedOnDiskWarning",
+                    "setModifiedOnDiskWarning(bool)",
+                    "setModifiedOnDiskWarning"
+                ],
+                [
+                    "setText",
+                    "setText(const QString &) : bool",
+                    "setText"
+                ],
+                [
+                    "setText",
+                    "setText(const QStringList &) : bool",
+                    "setText-1"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "text",
+                    "text(KTextEditor::Range, bool) const : QString",
+                    "text-1"
+                ],
+                [
+                    "textChanged",
+                    "textChanged(KTextEditor::Document *)",
+                    "textChanged"
+                ],
+                [
+                    "textInserted",
+                    "textInserted(KTextEditor::Document *, KTextEditor::Cursor, const QString &)",
+                    "textInserted"
+                ],
+                [
+                    "textLines",
+                    "textLines(KTextEditor::Range, bool) const : QStringList",
+                    "textLines"
+                ],
+                [
+                    "textRemoved",
+                    "textRemoved(KTextEditor::Document *, KTextEditor::Range, const QString &)",
+                    "textRemoved"
+                ],
+                [
+                    "totalCharacters",
+                    "totalCharacters() const : qsizetype",
+                    "totalCharacters"
+                ],
+                [
+                    "transformCursor",
+                    "transformCursor(KTextEditor::Cursor &, KTextEditor::MovingCursor::InsertBehavior, qint64, qint64)",
+                    "transformCursor"
+                ],
+                [
+                    "transformCursor",
+                    "transformCursor(int &, int &, KTextEditor::MovingCursor::InsertBehavior, qint64, qint64)",
+                    "transformCursor-1"
+                ],
+                [
+                    "transformRange",
+                    "transformRange(KTextEditor::Range &, KTextEditor::MovingRange::InsertBehaviors, KTextEditor::MovingRange::EmptyBehavior, qint64, qint64)",
+                    "transformRange"
+                ],
+                [
+                    "unlockRevision",
+                    "unlockRevision(qint64)",
+                    "unlockRevision"
+                ],
+                [
+                    "viewCreated",
+                    "viewCreated(KTextEditor::Document *, KTextEditor::View *)",
+                    "viewCreated"
+                ],
+                [
+                    "views",
+                    "views() const : QList<KTextEditor::View *>",
+                    "views"
+                ],
+                [
+                    "wordAt",
+                    "wordAt(KTextEditor::Cursor) const : QString",
+                    "wordAt"
+                ],
+                [
+                    "wordRangeAt",
+                    "wordRangeAt(KTextEditor::Cursor) const : KTextEditor::Range",
+                    "wordRangeAt"
+                ],
+                [
+                    "writeSessionConfig",
+                    "writeSessionConfig(KConfigGroup &, const QSet<QString> &)",
+                    "writeSessionConfig"
+                ]
+            ],
+            "name": "KTextEditor::Document",
+            "page": "ktexteditor/ktexteditor-document",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "EditingTransaction",
+                    "EditingTransaction(KTextEditor::Document *)",
+                    "EditingTransaction"
+                ],
+                [
+                    "EditingTransaction",
+                    "EditingTransaction()",
+                    "EditingTransaction-1"
+                ],
+                [
+                    "~EditingTransaction",
+                    "~EditingTransaction()",
+                    "dtor.EditingTransaction"
+                ],
+                [
+                    "finish",
+                    "finish()",
+                    "finish"
+                ],
+                [
+                    "start",
+                    "start()",
+                    "start"
+                ],
+                [
+                    "operator=",
+                    "operator=() : KTextEditor::Document::EditingTransaction &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KTextEditor::Document::EditingTransaction",
+            "page": "ktexteditor/ktexteditor-document-editingtransaction",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DocumentCursor",
+                    "DocumentCursor()",
+                    "DocumentCursor"
+                ],
+                [
+                    "DocumentCursor",
+                    "DocumentCursor(KTextEditor::Document *)",
+                    "DocumentCursor-1"
+                ],
+                [
+                    "DocumentCursor",
+                    "DocumentCursor(KTextEditor::Document *, KTextEditor::Cursor)",
+                    "DocumentCursor-3"
+                ],
+                [
+                    "DocumentCursor",
+                    "DocumentCursor(KTextEditor::Document *, int, int)",
+                    "DocumentCursor-4"
+                ],
+                [
+                    "DocumentCursor",
+                    "DocumentCursor(const KTextEditor::DocumentCursor &)",
+                    "DocumentCursor-2"
+                ],
+                [
+                    "~DocumentCursor",
+                    "~DocumentCursor()",
+                    "dtor.DocumentCursor"
+                ],
+                [
+                    "atEndOfDocument",
+                    "atEndOfDocument() const : bool",
+                    "atEndOfDocument"
+                ],
+                [
+                    "atEndOfLine",
+                    "atEndOfLine() const : bool",
+                    "atEndOfLine"
+                ],
+                [
+                    "atStartOfDocument",
+                    "atStartOfDocument() const : bool",
+                    "atStartOfDocument"
+                ],
+                [
+                    "atStartOfLine",
+                    "atStartOfLine() const : bool",
+                    "atStartOfLine"
+                ],
+                [
+                    "column",
+                    "column() const : int",
+                    "column"
+                ],
+                [
+                    "document",
+                    "document() const : KTextEditor::Document *",
+                    "document"
+                ],
+                [
+                    "gotoNextLine",
+                    "gotoNextLine() : bool",
+                    "gotoNextLine"
+                ],
+                [
+                    "gotoPreviousLine",
+                    "gotoPreviousLine() : bool",
+                    "gotoPreviousLine"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "isValidTextPosition",
+                    "isValidTextPosition() const : bool",
+                    "isValidTextPosition"
+                ],
+                [
+                    "line",
+                    "line() const : int",
+                    "line"
+                ],
+                [
+                    "makeValid",
+                    "makeValid()",
+                    "makeValid"
+                ],
+                [
+                    "move",
+                    "move(int, KTextEditor::DocumentCursor::WrapBehavior) : bool",
+                    "move"
+                ],
+                [
+                    "setColumn",
+                    "setColumn(int)",
+                    "setColumn"
+                ],
+                [
+                    "setLine",
+                    "setLine(int)",
+                    "setLine"
+                ],
+                [
+                    "setPosition",
+                    "setPosition(KTextEditor::Cursor)",
+                    "setPosition"
+                ],
+                [
+                    "setPosition",
+                    "setPosition(int, int)",
+                    "setPosition-1"
+                ],
+                [
+                    "toCursor",
+                    "toCursor() const : KTextEditor::Cursor",
+                    "toCursor"
+                ],
+                [
+                    "Cursor",
+                    "Cursor() const : DocumentCursor::operator",
+                    "operator-KTextEditor-3a-3aCursor"
+                ],
+                [
+                    "operator=",
+                    "operator=(const KTextEditor::DocumentCursor &) : KTextEditor::DocumentCursor &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KTextEditor::DocumentCursor",
+            "page": "ktexteditor/ktexteditor-documentcursor",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Editor",
+                    "Editor(KTextEditor::EditorPrivate *)",
+                    "Editor"
+                ],
+                [
+                    "~Editor",
+                    "~Editor()",
+                    "dtor.Editor"
+                ],
+                [
+                    "aboutData",
+                    "aboutData() const : const KAboutData &",
+                    "aboutData"
+                ],
+                [
+                    "addVariableExpansion",
+                    "addVariableExpansion(const QList<QWidget *> &, const QStringList &) const",
+                    "addVariableExpansion"
+                ],
+                [
+                    "application",
+                    "application() const : KTextEditor::Application *",
+                    "application"
+                ],
+                [
+                    "commandList",
+                    "commandList() const : QStringList",
+                    "commandList"
+                ],
+                [
+                    "commands",
+                    "commands() const : QList<KTextEditor::Command *>",
+                    "commands"
+                ],
+                [
+                    "configChanged",
+                    "configChanged(KTextEditor::Editor *)",
+                    "configChanged"
+                ],
+                [
+                    "configDialog",
+                    "configDialog(QWidget *)",
+                    "configDialog"
+                ],
+                [
+                    "configPage",
+                    "configPage(int, QWidget *) : KTextEditor::ConfigPage *",
+                    "configPage"
+                ],
+                [
+                    "configPages",
+                    "configPages() const : int",
+                    "configPages"
+                ],
+                [
+                    "createDocument",
+                    "createDocument(QObject *) : KTextEditor::Document *",
+                    "createDocument"
+                ],
+                [
+                    "defaultEncoding",
+                    "defaultEncoding() const : QString",
+                    "defaultEncoding"
+                ],
+                [
+                    "documentCreated",
+                    "documentCreated(KTextEditor::Editor *, KTextEditor::Document *)",
+                    "documentCreated"
+                ],
+                [
+                    "documents",
+                    "documents() : QList<KTextEditor::Document *>",
+                    "documents"
+                ],
+                [
+                    "expandText",
+                    "expandText(const QString &, KTextEditor::View *) const : QString",
+                    "expandText"
+                ],
+                [
+                    "expandVariable",
+                    "expandVariable(const QString &, KTextEditor::View *, QString &) const : bool",
+                    "expandVariable"
+                ],
+                [
+                    "font",
+                    "font() const : QFont",
+                    "font"
+                ],
+                [
+                    "instance",
+                    "instance() : KTextEditor::Editor *",
+                    "instance"
+                ],
+                [
+                    "queryCommand",
+                    "queryCommand(const QString &) const : KTextEditor::Command *",
+                    "queryCommand"
+                ],
+                [
+                    "registerVariableMatch",
+                    "registerVariableMatch(const QString &, const QString &, KTextEditor::Editor::ExpandFunction) : bool",
+                    "registerVariableMatch"
+                ],
+                [
+                    "registerVariablePrefix",
+                    "registerVariablePrefix(const QString &, const QString &, KTextEditor::Editor::ExpandFunction) : bool",
+                    "registerVariablePrefix"
+                ],
+                [
+                    "repository",
+                    "repository() const : const KSyntaxHighlighting::Repository &",
+                    "repository"
+                ],
+                [
+                    "repositoryReloaded",
+                    "repositoryReloaded(KTextEditor::Editor *)",
+                    "repositoryReloaded"
+                ],
+                [
+                    "setApplication",
+                    "setApplication(KTextEditor::Application *)",
+                    "setApplication"
+                ],
+                [
+                    "theme",
+                    "theme() const : KSyntaxHighlighting::Theme",
+                    "theme"
+                ],
+                [
+                    "unregisterVariable",
+                    "unregisterVariable(const QString &) : bool",
+                    "unregisterVariable"
+                ]
+            ],
+            "name": "KTextEditor::Editor",
+            "page": "ktexteditor/ktexteditor-editor",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "LineRange",
+                    "LineRange()",
+                    "LineRange"
+                ],
+                [
+                    "LineRange",
+                    "LineRange(int, int)",
+                    "LineRange-1"
+                ],
+                [
+                    "confineToRange",
+                    "confineToRange(KTextEditor::LineRange) : bool",
+                    "confineToRange"
+                ],
+                [
+                    "contains",
+                    "contains(KTextEditor::LineRange) const : bool",
+                    "contains"
+                ],
+                [
+                    "containsLine",
+                    "containsLine(int) const : bool",
+                    "containsLine"
+                ],
+                [
+                    "encompass",
+                    "encompass(KTextEditor::LineRange) const : KTextEditor::LineRange",
+                    "encompass"
+                ],
+                [
+                    "end",
+                    "end() const : int",
+                    "end"
+                ],
+                [
+                    "expandToRange",
+                    "expandToRange(KTextEditor::LineRange) : bool",
+                    "expandToRange"
+                ],
+                [
+                    "fromString",
+                    "fromString(QStringView) : KTextEditor::LineRange",
+                    "fromString"
+                ],
+                [
+                    "intersect",
+                    "intersect(KTextEditor::LineRange) const : KTextEditor::LineRange",
+                    "intersect"
+                ],
+                [
+                    "invalid",
+                    "invalid() : KTextEditor::LineRange",
+                    "invalid"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "numberOfLines",
+                    "numberOfLines() const : int",
+                    "numberOfLines"
+                ],
+                [
+                    "onSingleLine",
+                    "onSingleLine() const : bool",
+                    "onSingleLine"
+                ],
+                [
+                    "overlaps",
+                    "overlaps(KTextEditor::LineRange) const : bool",
+                    "overlaps"
+                ],
+                [
+                    "overlapsLine",
+                    "overlapsLine(int) const : bool",
+                    "overlapsLine"
+                ],
+                [
+                    "setBothLines",
+                    "setBothLines(int)",
+                    "setBothLines"
+                ],
+                [
+                    "setEnd",
+                    "setEnd(int)",
+                    "setEnd"
+                ],
+                [
+                    "setRange",
+                    "setRange(KTextEditor::LineRange)",
+                    "setRange"
+                ],
+                [
+                    "setRange",
+                    "setRange(int, int)",
+                    "setRange-1"
+                ],
+                [
+                    "setStart",
+                    "setStart(int)",
+                    "setStart"
+                ],
+                [
+                    "start",
+                    "start() const : int",
+                    "start"
+                ],
+                [
+                    "toString",
+                    "toString() const : QString",
+                    "toString"
+                ]
+            ],
+            "name": "KTextEditor::LineRange",
+            "page": "ktexteditor/ktexteditor-linerange",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "MainWindow",
+                    "MainWindow(QObject *)",
+                    "MainWindow"
+                ],
+                [
+                    "~MainWindow",
+                    "~MainWindow()",
+                    "dtor.MainWindow"
+                ],
+                [
+                    "activateView",
+                    "activateView(KTextEditor::Document *) : KTextEditor::View *",
+                    "activateView"
+                ],
+                [
+                    "activateWidget",
+                    "activateWidget(QWidget *)",
+                    "activateWidget"
+                ],
+                [
+                    "activeView",
+                    "activeView() : KTextEditor::View *",
+                    "activeView"
+                ],
+                [
+                    "activeWidget",
+                    "activeWidget() : QWidget *",
+                    "activeWidget"
+                ],
+                [
+                    "addWidget",
+                    "addWidget(QWidget *) : bool",
+                    "addWidget"
+                ],
+                [
+                    "addWidgetToViewBar",
+                    "addWidgetToViewBar(KTextEditor::View *, QWidget *)",
+                    "addWidgetToViewBar"
+                ],
+                [
+                    "closeSplitView",
+                    "closeSplitView(KTextEditor::View *) : bool",
+                    "closeSplitView"
+                ],
+                [
+                    "closeView",
+                    "closeView(KTextEditor::View *) : bool",
+                    "closeView"
+                ],
+                [
+                    "createToolView",
+                    "createToolView(KTextEditor::Plugin *, const QString &, KTextEditor::MainWindow::ToolViewPosition, const QIcon &, const QString &) : QWidget *",
+                    "createToolView"
+                ],
+                [
+                    "createViewBar",
+                    "createViewBar(KTextEditor::View *) : QWidget *",
+                    "createViewBar"
+                ],
+                [
+                    "deleteViewBar",
+                    "deleteViewBar(KTextEditor::View *)",
+                    "deleteViewBar"
+                ],
+                [
+                    "guiFactory",
+                    "guiFactory() : KXMLGUIFactory *",
+                    "guiFactory"
+                ],
+                [
+                    "hideToolView",
+                    "hideToolView(QWidget *) : bool",
+                    "hideToolView"
+                ],
+                [
+                    "hideViewBar",
+                    "hideViewBar(KTextEditor::View *)",
+                    "hideViewBar"
+                ],
+                [
+                    "moveToolView",
+                    "moveToolView(QWidget *, KTextEditor::MainWindow::ToolViewPosition) : bool",
+                    "moveToolView"
+                ],
+                [
+                    "openUrl",
+                    "openUrl(const QUrl &, const QString &) : KTextEditor::View *",
+                    "openUrl"
+                ],
+                [
+                    "pluginView",
+                    "pluginView(const QString &) : QObject *",
+                    "pluginView"
+                ],
+                [
+                    "pluginViewCreated",
+                    "pluginViewCreated(const QString &, QObject *)",
+                    "pluginViewCreated"
+                ],
+                [
+                    "pluginViewDeleted",
+                    "pluginViewDeleted(const QString &, QObject *)",
+                    "pluginViewDeleted"
+                ],
+                [
+                    "removeWidget",
+                    "removeWidget(QWidget *) : bool",
+                    "removeWidget"
+                ],
+                [
+                    "showMessage",
+                    "showMessage(const QVariantMap &) : bool",
+                    "showMessage"
+                ],
+                [
+                    "showPluginConfigPage",
+                    "showPluginConfigPage(KTextEditor::Plugin *, int) : bool",
+                    "showPluginConfigPage"
+                ],
+                [
+                    "showToolView",
+                    "showToolView(QWidget *) : bool",
+                    "showToolView"
+                ],
+                [
+                    "showViewBar",
+                    "showViewBar(KTextEditor::View *)",
+                    "showViewBar"
+                ],
+                [
+                    "splitView",
+                    "splitView(Qt::Orientation)",
+                    "splitView"
+                ],
+                [
+                    "unhandledShortcutOverride",
+                    "unhandledShortcutOverride(QEvent *)",
+                    "unhandledShortcutOverride"
+                ],
+                [
+                    "viewChanged",
+                    "viewChanged(KTextEditor::View *)",
+                    "viewChanged"
+                ],
+                [
+                    "viewCreated",
+                    "viewCreated(KTextEditor::View *)",
+                    "viewCreated"
+                ],
+                [
+                    "views",
+                    "views() : QList<KTextEditor::View *>",
+                    "views"
+                ],
+                [
+                    "viewsInSameSplitView",
+                    "viewsInSameSplitView(KTextEditor::View *, KTextEditor::View *) : bool",
+                    "viewsInSameSplitView"
+                ],
+                [
+                    "widgetAdded",
+                    "widgetAdded(QWidget *)",
+                    "widgetAdded"
+                ],
+                [
+                    "widgetRemoved",
+                    "widgetRemoved(QWidget *)",
+                    "widgetRemoved"
+                ],
+                [
+                    "widgets",
+                    "widgets() : QWidgetList",
+                    "widgets"
+                ],
+                [
+                    "window",
+                    "window() : QWidget *",
+                    "window"
+                ]
+            ],
+            "name": "KTextEditor::MainWindow",
+            "page": "ktexteditor/ktexteditor-mainwindow",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Message",
+                    "Message(const QString &, KTextEditor::Message::MessageType)",
+                    "Message"
+                ],
+                [
+                    "~Message",
+                    "~Message()",
+                    "dtor.Message"
+                ],
+                [
+                    "actions",
+                    "actions() const : QList<QAction *>",
+                    "actions"
+                ],
+                [
+                    "addAction",
+                    "addAction(QAction *, bool)",
+                    "addAction"
+                ],
+                [
+                    "autoHide",
+                    "autoHide() const : int",
+                    "autoHide"
+                ],
+                [
+                    "autoHideMode",
+                    "autoHideMode() const : KTextEditor::Message::AutoHideMode",
+                    "autoHideMode"
+                ],
+                [
+                    "closed",
+                    "closed(KTextEditor::Message *)",
+                    "closed"
+                ],
+                [
+                    "document",
+                    "document() const : KTextEditor::Document *",
+                    "document"
+                ],
+                [
+                    "icon",
+                    "icon() const : QIcon",
+                    "icon"
+                ],
+                [
+                    "iconChanged",
+                    "iconChanged(const QIcon &)",
+                    "iconChanged"
+                ],
+                [
+                    "messageType",
+                    "messageType() const : KTextEditor::Message::MessageType",
+                    "messageType"
+                ],
+                [
+                    "position",
+                    "position() const : KTextEditor::Message::MessagePosition",
+                    "position"
+                ],
+                [
+                    "priority",
+                    "priority() const : int",
+                    "priority"
+                ],
+                [
+                    "setAutoHide",
+                    "setAutoHide(int)",
+                    "setAutoHide"
+                ],
+                [
+                    "setAutoHideMode",
+                    "setAutoHideMode(KTextEditor::Message::AutoHideMode)",
+                    "setAutoHideMode"
+                ],
+                [
+                    "setDocument",
+                    "setDocument(KTextEditor::Document *)",
+                    "setDocument"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(const QIcon &)",
+                    "setIcon"
+                ],
+                [
+                    "setPosition",
+                    "setPosition(KTextEditor::Message::MessagePosition)",
+                    "setPosition"
+                ],
+                [
+                    "setPriority",
+                    "setPriority(int)",
+                    "setPriority"
+                ],
+                [
+                    "setText",
+                    "setText(const QString &)",
+                    "setText"
+                ],
+                [
+                    "setView",
+                    "setView(KTextEditor::View *)",
+                    "setView"
+                ],
+                [
+                    "setWordWrap",
+                    "setWordWrap(bool)",
+                    "setWordWrap"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "textChanged",
+                    "textChanged(const QString &)",
+                    "textChanged"
+                ],
+                [
+                    "view",
+                    "view() const : KTextEditor::View *",
+                    "view"
+                ],
+                [
+                    "wordWrap",
+                    "wordWrap() const : bool",
+                    "wordWrap"
+                ]
+            ],
+            "name": "KTextEditor::Message",
+            "page": "ktexteditor/ktexteditor-message",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "MovingCursor",
+                    "MovingCursor()",
+                    "MovingCursor"
+                ],
+                [
+                    "MovingCursor",
+                    "MovingCursor()",
+                    "MovingCursor-1"
+                ],
+                [
+                    "~MovingCursor",
+                    "~MovingCursor()",
+                    "dtor.MovingCursor"
+                ],
+                [
+                    "atEndOfDocument",
+                    "atEndOfDocument() const : bool",
+                    "atEndOfDocument"
+                ],
+                [
+                    "atEndOfLine",
+                    "atEndOfLine() const : bool",
+                    "atEndOfLine"
+                ],
+                [
+                    "atStartOfDocument",
+                    "atStartOfDocument() const : bool",
+                    "atStartOfDocument"
+                ],
+                [
+                    "atStartOfLine",
+                    "atStartOfLine() const : bool",
+                    "atStartOfLine"
+                ],
+                [
+                    "column",
+                    "column() const : int",
+                    "column"
+                ],
+                [
+                    "document",
+                    "document() const : KTextEditor::Document *",
+                    "document"
+                ],
+                [
+                    "gotoNextLine",
+                    "gotoNextLine() : bool",
+                    "gotoNextLine"
+                ],
+                [
+                    "gotoPreviousLine",
+                    "gotoPreviousLine() : bool",
+                    "gotoPreviousLine"
+                ],
+                [
+                    "insertBehavior",
+                    "insertBehavior() const : KTextEditor::MovingCursor::InsertBehavior",
+                    "insertBehavior"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "isValidTextPosition",
+                    "isValidTextPosition() const : bool",
+                    "isValidTextPosition"
+                ],
+                [
+                    "line",
+                    "line() const : int",
+                    "line"
+                ],
+                [
+                    "move",
+                    "move(int, KTextEditor::MovingCursor::WrapBehavior) : bool",
+                    "move"
+                ],
+                [
+                    "range",
+                    "range() const : KTextEditor::MovingRange *",
+                    "range"
+                ],
+                [
+                    "setColumn",
+                    "setColumn(int)",
+                    "setColumn"
+                ],
+                [
+                    "setInsertBehavior",
+                    "setInsertBehavior(KTextEditor::MovingCursor::InsertBehavior)",
+                    "setInsertBehavior"
+                ],
+                [
+                    "setLine",
+                    "setLine(int)",
+                    "setLine"
+                ],
+                [
+                    "setPosition",
+                    "setPosition(KTextEditor::Cursor)",
+                    "setPosition"
+                ],
+                [
+                    "setPosition",
+                    "setPosition(int, int)",
+                    "setPosition-1"
+                ],
+                [
+                    "toCursor",
+                    "toCursor() const : const KTextEditor::Cursor",
+                    "toCursor"
+                ],
+                [
+                    "Cursor",
+                    "Cursor() const : MovingCursor::operator",
+                    "operator-KTextEditor-3a-3aCursor"
+                ],
+                [
+                    "operator=",
+                    "operator=() : KTextEditor::MovingCursor &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KTextEditor::MovingCursor",
+            "page": "ktexteditor/ktexteditor-movingcursor",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "MovingRange",
+                    "MovingRange()",
+                    "MovingRange"
+                ],
+                [
+                    "MovingRange",
+                    "MovingRange()",
+                    "MovingRange-1"
+                ],
+                [
+                    "~MovingRange",
+                    "~MovingRange()",
+                    "dtor.MovingRange"
+                ],
+                [
+                    "attribute",
+                    "attribute() const : const Attribute::Ptr &",
+                    "attribute"
+                ],
+                [
+                    "attributeOnlyForViews",
+                    "attributeOnlyForViews() const : bool",
+                    "attributeOnlyForViews"
+                ],
+                [
+                    "contains",
+                    "contains(KTextEditor::Cursor) const : bool",
+                    "contains"
+                ],
+                [
+                    "contains",
+                    "contains(const KTextEditor::Range &) const : bool",
+                    "contains-1"
+                ],
+                [
+                    "containsColumn",
+                    "containsColumn(int) const : bool",
+                    "containsColumn"
+                ],
+                [
+                    "containsLine",
+                    "containsLine(int) const : bool",
+                    "containsLine"
+                ],
+                [
+                    "document",
+                    "document() const : KTextEditor::Document *",
+                    "document"
+                ],
+                [
+                    "emptyBehavior",
+                    "emptyBehavior() const : KTextEditor::MovingRange::EmptyBehavior",
+                    "emptyBehavior"
+                ],
+                [
+                    "end",
+                    "end() const : const KTextEditor::MovingCursor &",
+                    "end"
+                ],
+                [
+                    "feedback",
+                    "feedback() const : KTextEditor::MovingRangeFeedback *",
+                    "feedback"
+                ],
+                [
+                    "insertBehaviors",
+                    "insertBehaviors() const : KTextEditor::MovingRange::InsertBehaviors",
+                    "insertBehaviors"
+                ],
+                [
+                    "isEmpty",
+                    "isEmpty() const : bool",
+                    "isEmpty"
+                ],
+                [
+                    "numberOfLines",
+                    "numberOfLines() const : int",
+                    "numberOfLines"
+                ],
+                [
+                    "onSingleLine",
+                    "onSingleLine() const : bool",
+                    "onSingleLine"
+                ],
+                [
+                    "overlaps",
+                    "overlaps(const KTextEditor::Range &) const : bool",
+                    "overlaps"
+                ],
+                [
+                    "overlapsColumn",
+                    "overlapsColumn(int) const : bool",
+                    "overlapsColumn"
+                ],
+                [
+                    "overlapsLine",
+                    "overlapsLine(int) const : bool",
+                    "overlapsLine"
+                ],
+                [
+                    "setAttribute",
+                    "setAttribute(Attribute::Ptr)",
+                    "setAttribute"
+                ],
+                [
+                    "setAttributeOnlyForViews",
+                    "setAttributeOnlyForViews(bool)",
+                    "setAttributeOnlyForViews"
+                ],
+                [
+                    "setEmptyBehavior",
+                    "setEmptyBehavior(KTextEditor::MovingRange::EmptyBehavior)",
+                    "setEmptyBehavior"
+                ],
+                [
+                    "setFeedback",
+                    "setFeedback(KTextEditor::MovingRangeFeedback *)",
+                    "setFeedback"
+                ],
+                [
+                    "setInsertBehaviors",
+                    "setInsertBehaviors(KTextEditor::MovingRange::InsertBehaviors)",
+                    "setInsertBehaviors"
+                ],
+                [
+                    "setRange",
+                    "setRange(KTextEditor::Range)",
+                    "setRange"
+                ],
+                [
+                    "setRange",
+                    "setRange(KTextEditor::Range, Attribute::Ptr)",
+                    "setRange-1"
+                ],
+                [
+                    "setRange",
+                    "setRange(KTextEditor::Range, Attribute::Ptr, qreal)",
+                    "setRange-2"
+                ],
+                [
+                    "setRange",
+                    "setRange(KTextEditor::Cursor, KTextEditor::Cursor)",
+                    "setRange-3"
+                ],
+                [
+                    "setView",
+                    "setView(KTextEditor::View *)",
+                    "setView"
+                ],
+                [
+                    "setZDepth",
+                    "setZDepth(qreal)",
+                    "setZDepth"
+                ],
+                [
+                    "start",
+                    "start() const : const KTextEditor::MovingCursor &",
+                    "start"
+                ],
+                [
+                    "toLineRange",
+                    "toLineRange() const : KTextEditor::LineRange",
+                    "toLineRange"
+                ],
+                [
+                    "toRange",
+                    "toRange() const : const KTextEditor::Range",
+                    "toRange"
+                ],
+                [
+                    "view",
+                    "view() const : KTextEditor::View *",
+                    "view"
+                ],
+                [
+                    "zDepth",
+                    "zDepth() const : qreal",
+                    "zDepth"
+                ],
+                [
+                    "Range",
+                    "Range() const : MovingRange::operator",
+                    "operator-KTextEditor-3a-3aRange"
+                ],
+                [
+                    "operator=",
+                    "operator=() : KTextEditor::MovingRange &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "KTextEditor::MovingRange",
+            "page": "ktexteditor/ktexteditor-movingrange",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "MovingRangeFeedback",
+                    "MovingRangeFeedback()",
+                    "MovingRangeFeedback"
+                ],
+                [
+                    "~MovingRangeFeedback",
+                    "~MovingRangeFeedback()",
+                    "dtor.MovingRangeFeedback"
+                ],
+                [
+                    "caretEnteredRange",
+                    "caretEnteredRange(KTextEditor::MovingRange *, KTextEditor::View *)",
+                    "caretEnteredRange"
+                ],
+                [
+                    "caretExitedRange",
+                    "caretExitedRange(KTextEditor::MovingRange *, KTextEditor::View *)",
+                    "caretExitedRange"
+                ],
+                [
+                    "mouseEnteredRange",
+                    "mouseEnteredRange(KTextEditor::MovingRange *, KTextEditor::View *)",
+                    "mouseEnteredRange"
+                ],
+                [
+                    "mouseExitedRange",
+                    "mouseExitedRange(KTextEditor::MovingRange *, KTextEditor::View *)",
+                    "mouseExitedRange"
+                ],
+                [
+                    "rangeEmpty",
+                    "rangeEmpty(KTextEditor::MovingRange *)",
+                    "rangeEmpty"
+                ],
+                [
+                    "rangeInvalid",
+                    "rangeInvalid(KTextEditor::MovingRange *)",
+                    "rangeInvalid"
+                ]
+            ],
+            "name": "KTextEditor::MovingRangeFeedback",
+            "page": "ktexteditor/ktexteditor-movingrangefeedback",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Range",
+                    "Range()",
+                    "Range"
+                ],
+                [
+                    "Range",
+                    "Range(KTextEditor::Cursor, KTextEditor::Cursor)",
+                    "Range-1"
+                ],
+                [
+                    "Range",
+                    "Range(KTextEditor::Cursor, int)",
+                    "Range-2"
+                ],
+                [
+                    "Range",
+                    "Range(KTextEditor::Cursor, int, int)",
+                    "Range-3"
+                ],
+                [
+                    "Range",
+                    "Range(int, int, int, int)",
+                    "Range-4"
+                ],
+                [
+                    "boundaryAtCursor",
+                    "boundaryAtCursor(KTextEditor::Cursor) const : bool",
+                    "boundaryAtCursor"
+                ],
+                [
+                    "columnWidth",
+                    "columnWidth() const : int",
+                    "columnWidth"
+                ],
+                [
+                    "confineToRange",
+                    "confineToRange(KTextEditor::Range) : bool",
+                    "confineToRange"
+                ],
+                [
+                    "contains",
+                    "contains(KTextEditor::Cursor) const : bool",
+                    "contains"
+                ],
+                [
+                    "contains",
+                    "contains(KTextEditor::Range) const : bool",
+                    "contains-1"
+                ],
+                [
+                    "containsColumn",
+                    "containsColumn(int) const : bool",
+                    "containsColumn"
+                ],
+                [
+                    "containsLine",
+                    "containsLine(int) const : bool",
+                    "containsLine"
+                ],
+                [
+                    "encompass",
+                    "encompass(KTextEditor::Range) const : KTextEditor::Range",
+                    "encompass"
+                ],
+                [
+                    "end",
+                    "end() const : KTextEditor::Cursor",
+                    "end"
+                ],
+                [
+                    "expandToRange",
+                    "expandToRange(KTextEditor::Range) : bool",
+                    "expandToRange"
+                ],
+                [
+                    "fromString",
+                    "fromString(QStringView) : KTextEditor::Range",
+                    "fromString"
+                ],
+                [
+                    "intersect",
+                    "intersect(KTextEditor::Range) const : KTextEditor::Range",
+                    "intersect"
+                ],
+                [
+                    "invalid",
+                    "invalid() : KTextEditor::Range",
+                    "invalid"
+                ],
+                [
+                    "isEmpty",
+                    "isEmpty() const : bool",
+                    "isEmpty"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "numberOfLines",
+                    "numberOfLines() const : int",
+                    "numberOfLines"
+                ],
+                [
+                    "onSingleLine",
+                    "onSingleLine() const : bool",
+                    "onSingleLine"
+                ],
+                [
+                    "overlaps",
+                    "overlaps(KTextEditor::Range) const : bool",
+                    "overlaps"
+                ],
+                [
+                    "overlapsColumn",
+                    "overlapsColumn(int) const : bool",
+                    "overlapsColumn"
+                ],
+                [
+                    "overlapsLine",
+                    "overlapsLine(int) const : bool",
+                    "overlapsLine"
+                ],
+                [
+                    "setBothColumns",
+                    "setBothColumns(int)",
+                    "setBothColumns"
+                ],
+                [
+                    "setBothLines",
+                    "setBothLines(int)",
+                    "setBothLines"
+                ],
+                [
+                    "setEnd",
+                    "setEnd(KTextEditor::Cursor)",
+                    "setEnd"
+                ],
+                [
+                    "setRange",
+                    "setRange(KTextEditor::Range)",
+                    "setRange"
+                ],
+                [
+                    "setRange",
+                    "setRange(KTextEditor::Cursor, KTextEditor::Cursor)",
+                    "setRange-1"
+                ],
+                [
+                    "setStart",
+                    "setStart(KTextEditor::Cursor)",
+                    "setStart"
+                ],
+                [
+                    "start",
+                    "start() const : KTextEditor::Cursor",
+                    "start"
+                ],
+                [
+                    "toLineRange",
+                    "toLineRange() const : KTextEditor::LineRange",
+                    "toLineRange"
+                ],
+                [
+                    "toString",
+                    "toString() const : QString",
+                    "toString"
+                ]
+            ],
+            "name": "KTextEditor::Range",
+            "page": "ktexteditor/ktexteditor-range",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kxmlgui/kxmlguiclient"
+            ],
+            "members": [
+                [
+                    "View",
+                    "View(KTextEditor::ViewPrivate *, QWidget *)",
+                    "View"
+                ],
+                [
+                    "~View",
+                    "~View()",
+                    "dtor.View"
+                ],
+                [
+                    "abortCompletion",
+                    "abortCompletion()",
+                    "abortCompletion"
+                ],
+                [
+                    "annotationActivated",
+                    "annotationActivated(KTextEditor::View *, int)",
+                    "annotationActivated"
+                ],
+                [
+                    "annotationBorderVisibilityChanged",
+                    "annotationBorderVisibilityChanged(KTextEditor::View *, bool)",
+                    "annotationBorderVisibilityChanged"
+                ],
+                [
+                    "annotationContextMenuAboutToShow",
+                    "annotationContextMenuAboutToShow(KTextEditor::View *, QMenu *, int)",
+                    "annotationContextMenuAboutToShow"
+                ],
+                [
+                    "annotationItemDelegate",
+                    "annotationItemDelegate() const : KTextEditor::AbstractAnnotationItemDelegate *",
+                    "annotationItemDelegate"
+                ],
+                [
+                    "annotationModel",
+                    "annotationModel() const : KTextEditor::AnnotationModel *",
+                    "annotationModel"
+                ],
+                [
+                    "blockSelection",
+                    "blockSelection() const : bool",
+                    "blockSelection"
+                ],
+                [
+                    "codeCompletionModels",
+                    "codeCompletionModels() const : QList<KTextEditor::CodeCompletionModel *>",
+                    "codeCompletionModels"
+                ],
+                [
+                    "configChanged",
+                    "configChanged(KTextEditor::View *)",
+                    "configChanged"
+                ],
+                [
+                    "configKeys",
+                    "configKeys() const : QStringList",
+                    "configKeys"
+                ],
+                [
+                    "configValue",
+                    "configValue(const QString &) : QVariant",
+                    "configValue"
+                ],
+                [
+                    "contextMenu",
+                    "contextMenu() const : QMenu *",
+                    "contextMenu"
+                ],
+                [
+                    "contextMenuAboutToShow",
+                    "contextMenuAboutToShow(KTextEditor::View *, QMenu *)",
+                    "contextMenuAboutToShow"
+                ],
+                [
+                    "coordinatesToCursor",
+                    "coordinatesToCursor(const QPoint &) const : KTextEditor::Cursor",
+                    "coordinatesToCursor"
+                ],
+                [
+                    "coordinatesToCursor",
+                    "coordinatesToCursor(QPoint, KTextEditor::View::CoordinatesToCursorFlags) const : KTextEditor::Cursor",
+                    "coordinatesToCursor-1"
+                ],
+                [
+                    "cursorPosition",
+                    "cursorPosition() const : KTextEditor::Cursor",
+                    "cursorPosition"
+                ],
+                [
+                    "cursorPositionChanged",
+                    "cursorPositionChanged(KTextEditor::View *, KTextEditor::Cursor)",
+                    "cursorPositionChanged"
+                ],
+                [
+                    "cursorPositionCoordinates",
+                    "cursorPositionCoordinates() const : QPoint",
+                    "cursorPositionCoordinates"
+                ],
+                [
+                    "cursorPositionVirtual",
+                    "cursorPositionVirtual() const : KTextEditor::Cursor",
+                    "cursorPositionVirtual"
+                ],
+                [
+                    "cursorPositions",
+                    "cursorPositions() const : QList<KTextEditor::Cursor>",
+                    "cursorPositions"
+                ],
+                [
+                    "cursorToCoordinate",
+                    "cursorToCoordinate(KTextEditor::Cursor) const : QPoint",
+                    "cursorToCoordinate"
+                ],
+                [
+                    "defaultContextMenu",
+                    "defaultContextMenu(QMenu *) const : QMenu *",
+                    "defaultContextMenu"
+                ],
+                [
+                    "defaultStyleAttribute",
+                    "defaultStyleAttribute(KSyntaxHighlighting::Theme::TextStyle) const : QExplicitlySharedDataPointer<KTextEditor::Attribute>",
+                    "defaultStyleAttribute"
+                ],
+                [
+                    "displayRangeChanged",
+                    "displayRangeChanged(KTextEditor::View *)",
+                    "displayRangeChanged"
+                ],
+                [
+                    "document",
+                    "document() const : KTextEditor::Document *",
+                    "document"
+                ],
+                [
+                    "editorWidget",
+                    "editorWidget() const : QWidget *",
+                    "editorWidget"
+                ],
+                [
+                    "evaluateScript",
+                    "evaluateScript(const QString &, QVariant *) : bool",
+                    "evaluateScript"
+                ],
+                [
+                    "firstDisplayedLine",
+                    "firstDisplayedLine(KTextEditor::View::LineType) const : int",
+                    "firstDisplayedLine"
+                ],
+                [
+                    "focusIn",
+                    "focusIn(KTextEditor::View *)",
+                    "focusIn"
+                ],
+                [
+                    "focusOut",
+                    "focusOut(KTextEditor::View *)",
+                    "focusOut"
+                ],
+                [
+                    "forceCompletion",
+                    "forceCompletion()",
+                    "forceCompletion"
+                ],
+                [
+                    "fromEditorWidget",
+                    "fromEditorWidget(QWidget *) : KTextEditor::View *",
+                    "fromEditorWidget"
+                ],
+                [
+                    "horizontalScrollBar",
+                    "horizontalScrollBar() const : QScrollBar *",
+                    "horizontalScrollBar"
+                ],
+                [
+                    "horizontalScrollPositionChanged",
+                    "horizontalScrollPositionChanged(KTextEditor::View *)",
+                    "horizontalScrollPositionChanged"
+                ],
+                [
+                    "insertTemplate",
+                    "insertTemplate(KTextEditor::Cursor, const QString &, const QString &) : bool",
+                    "insertTemplate"
+                ],
+                [
+                    "insertText",
+                    "insertText(const QString &) : bool",
+                    "insertText"
+                ],
+                [
+                    "isAnnotationBorderVisible",
+                    "isAnnotationBorderVisible() const : bool",
+                    "isAnnotationBorderVisible"
+                ],
+                [
+                    "isAutomaticInvocationEnabled",
+                    "isAutomaticInvocationEnabled() const : bool",
+                    "isAutomaticInvocationEnabled"
+                ],
+                [
+                    "isCompletionActive",
+                    "isCompletionActive() const : bool",
+                    "isCompletionActive"
+                ],
+                [
+                    "isLineVisible",
+                    "isLineVisible(int) const : bool",
+                    "isLineVisible"
+                ],
+                [
+                    "isStatusBarEnabled",
+                    "isStatusBarEnabled() const : bool",
+                    "isStatusBarEnabled"
+                ],
+                [
+                    "lastDisplayedLine",
+                    "lastDisplayedLine(KTextEditor::View::LineType) const : int",
+                    "lastDisplayedLine"
+                ],
+                [
+                    "lineAttributes",
+                    "lineAttributes(int) : QList<KTextEditor::AttributeBlock>",
+                    "lineAttributes"
+                ],
+                [
+                    "mainWindow",
+                    "mainWindow() const : KTextEditor::MainWindow *",
+                    "mainWindow"
+                ],
+                [
+                    "maxScrollPosition",
+                    "maxScrollPosition() const : KTextEditor::Cursor",
+                    "maxScrollPosition"
+                ],
+                [
+                    "mousePositionChanged",
+                    "mousePositionChanged(KTextEditor::View *, KTextEditor::Cursor)",
+                    "mousePositionChanged"
+                ],
+                [
+                    "mouseTrackingEnabled",
+                    "mouseTrackingEnabled() const : bool",
+                    "mouseTrackingEnabled"
+                ],
+                [
+                    "print",
+                    "print() : bool",
+                    "print"
+                ],
+                [
+                    "printPreview",
+                    "printPreview()",
+                    "printPreview"
+                ],
+                [
+                    "readSessionConfig",
+                    "readSessionConfig(const KConfigGroup &, const QSet<QString> &)",
+                    "readSessionConfig"
+                ],
+                [
+                    "realToVisibleLine",
+                    "realToVisibleLine(int) const : int",
+                    "realToVisibleLine"
+                ],
+                [
+                    "registerCompletionModel",
+                    "registerCompletionModel(KTextEditor::CodeCompletionModel *)",
+                    "registerCompletionModel"
+                ],
+                [
+                    "registerInlineNoteProvider",
+                    "registerInlineNoteProvider(KTextEditor::InlineNoteProvider *)",
+                    "registerInlineNoteProvider"
+                ],
+                [
+                    "registerTextHintProvider",
+                    "registerTextHintProvider(KTextEditor::TextHintProvider *)",
+                    "registerTextHintProvider"
+                ],
+                [
+                    "removeSelection",
+                    "removeSelection() : bool",
+                    "removeSelection"
+                ],
+                [
+                    "removeSelectionText",
+                    "removeSelectionText() : bool",
+                    "removeSelectionText"
+                ],
+                [
+                    "selection",
+                    "selection() const : bool",
+                    "selection"
+                ],
+                [
+                    "selectionChanged",
+                    "selectionChanged(KTextEditor::View *)",
+                    "selectionChanged"
+                ],
+                [
+                    "selectionRange",
+                    "selectionRange() const : KTextEditor::Range",
+                    "selectionRange"
+                ],
+                [
+                    "selectionRanges",
+                    "selectionRanges() const : QList<KTextEditor::Range>",
+                    "selectionRanges"
+                ],
+                [
+                    "selectionText",
+                    "selectionText() const : QString",
+                    "selectionText"
+                ],
+                [
+                    "setAnnotationBorderVisible",
+                    "setAnnotationBorderVisible(bool)",
+                    "setAnnotationBorderVisible"
+                ],
+                [
+                    "setAnnotationItemDelegate",
+                    "setAnnotationItemDelegate(KTextEditor::AbstractAnnotationItemDelegate *)",
+                    "setAnnotationItemDelegate"
+                ],
+                [
+                    "setAnnotationModel",
+                    "setAnnotationModel(KTextEditor::AnnotationModel *)",
+                    "setAnnotationModel"
+                ],
+                [
+                    "setAnnotationUniformItemSizes",
+                    "setAnnotationUniformItemSizes(bool)",
+                    "setAnnotationUniformItemSizes"
+                ],
+                [
+                    "setAutomaticInvocationEnabled",
+                    "setAutomaticInvocationEnabled(bool)",
+                    "setAutomaticInvocationEnabled"
+                ],
+                [
+                    "setBlockSelection",
+                    "setBlockSelection(bool) : bool",
+                    "setBlockSelection"
+                ],
+                [
+                    "setConfigValue",
+                    "setConfigValue(const QString &, const QVariant &)",
+                    "setConfigValue"
+                ],
+                [
+                    "setContextMenu",
+                    "setContextMenu(QMenu *)",
+                    "setContextMenu"
+                ],
+                [
+                    "setCursorPosition",
+                    "setCursorPosition(KTextEditor::Cursor) : bool",
+                    "setCursorPosition"
+                ],
+                [
+                    "setCursorPositions",
+                    "setCursorPositions(const QList<KTextEditor::Cursor> &)",
+                    "setCursorPositions"
+                ],
+                [
+                    "setHorizontalScrollPosition",
+                    "setHorizontalScrollPosition(int)",
+                    "setHorizontalScrollPosition"
+                ],
+                [
+                    "setMouseTrackingEnabled",
+                    "setMouseTrackingEnabled(bool) : bool",
+                    "setMouseTrackingEnabled"
+                ],
+                [
+                    "setScrollPosition",
+                    "setScrollPosition(KTextEditor::Cursor)",
+                    "setScrollPosition"
+                ],
+                [
+                    "setSelection",
+                    "setSelection(KTextEditor::Range) : bool",
+                    "setSelection"
+                ],
+                [
+                    "setSelections",
+                    "setSelections(const QList<KTextEditor::Range> &)",
+                    "setSelections"
+                ],
+                [
+                    "setStatusBarEnabled",
+                    "setStatusBarEnabled(bool)",
+                    "setStatusBarEnabled"
+                ],
+                [
+                    "setTextHintDelay",
+                    "setTextHintDelay(int)",
+                    "setTextHintDelay"
+                ],
+                [
+                    "setViewInputMode",
+                    "setViewInputMode(KTextEditor::View::InputMode)",
+                    "setViewInputMode"
+                ],
+                [
+                    "startCompletion",
+                    "startCompletion(KTextEditor::Range, KTextEditor::CodeCompletionModel *)",
+                    "startCompletion"
+                ],
+                [
+                    "startCompletion",
+                    "startCompletion(const KTextEditor::Range &, const QList<KTextEditor::CodeCompletionModel *> &, KTextEditor::CodeCompletionModel::InvocationType)",
+                    "startCompletion-1"
+                ],
+                [
+                    "statusBarEnabledChanged",
+                    "statusBarEnabledChanged(KTextEditor::View *, bool)",
+                    "statusBarEnabledChanged"
+                ],
+                [
+                    "textAreaRect",
+                    "textAreaRect() const : QRect",
+                    "textAreaRect"
+                ],
+                [
+                    "textHintDelay",
+                    "textHintDelay() const : int",
+                    "textHintDelay"
+                ],
+                [
+                    "textInserted",
+                    "textInserted(KTextEditor::View *, KTextEditor::Cursor, const QString &)",
+                    "textInserted"
+                ],
+                [
+                    "theme",
+                    "theme() const : KSyntaxHighlighting::Theme",
+                    "theme"
+                ],
+                [
+                    "uniformAnnotationItemSizes",
+                    "uniformAnnotationItemSizes() const : bool",
+                    "uniformAnnotationItemSizes"
+                ],
+                [
+                    "unregisterCompletionModel",
+                    "unregisterCompletionModel(KTextEditor::CodeCompletionModel *)",
+                    "unregisterCompletionModel"
+                ],
+                [
+                    "unregisterInlineNoteProvider",
+                    "unregisterInlineNoteProvider(KTextEditor::InlineNoteProvider *)",
+                    "unregisterInlineNoteProvider"
+                ],
+                [
+                    "unregisterTextHintProvider",
+                    "unregisterTextHintProvider(KTextEditor::TextHintProvider *)",
+                    "unregisterTextHintProvider"
+                ],
+                [
+                    "verticalScrollBar",
+                    "verticalScrollBar() const : QScrollBar *",
+                    "verticalScrollBar"
+                ],
+                [
+                    "verticalScrollPositionChanged",
+                    "verticalScrollPositionChanged(KTextEditor::View *, KTextEditor::Cursor)",
+                    "verticalScrollPositionChanged"
+                ],
+                [
+                    "viewInputMode",
+                    "viewInputMode() const : KTextEditor::View::InputMode",
+                    "viewInputMode"
+                ],
+                [
+                    "viewInputModeChanged",
+                    "viewInputModeChanged(KTextEditor::View *, KTextEditor::View::InputMode)",
+                    "viewInputModeChanged"
+                ],
+                [
+                    "viewInputModeHuman",
+                    "viewInputModeHuman() const : QString",
+                    "viewInputModeHuman"
+                ],
+                [
+                    "viewMode",
+                    "viewMode() const : KTextEditor::View::ViewMode",
+                    "viewMode"
+                ],
+                [
+                    "viewModeChanged",
+                    "viewModeChanged(KTextEditor::View *, KTextEditor::View::ViewMode)",
+                    "viewModeChanged"
+                ],
+                [
+                    "viewModeHuman",
+                    "viewModeHuman() const : QString",
+                    "viewModeHuman"
+                ],
+                [
+                    "visibleLines",
+                    "visibleLines() const : int",
+                    "visibleLines"
+                ],
+                [
+                    "visibleToRealLine",
+                    "visibleToRealLine(int) const : int",
+                    "visibleToRealLine"
+                ],
+                [
+                    "writeSessionConfig",
+                    "writeSessionConfig(KConfigGroup &, const QSet<QString> &)",
+                    "writeSessionConfig"
+                ]
+            ],
+            "name": "KTextEditor::View",
+            "page": "ktexteditor/ktexteditor-view",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "ktexteditor",
+    "sections": [
+        {
+            "description": "KTextEditor is a full text editor component.",
+            "page": "ktexteditor/ktexteditor-module",
+            "pages": [
+                [
+                    "ktexteditor/ktexteditor-module",
+                    "KTextEditor C++ Classes"
+                ],
+                [
+                    "ktexteditor/ktexteditor-application",
+                    "KTextEditor::Application"
+                ],
+                [
+                    "ktexteditor/ktexteditor-attribute",
+                    "KTextEditor::Attribute"
+                ],
+                [
+                    "ktexteditor/ktexteditor-codecompletionmodel",
+                    "KTextEditor::CodeCompletionModel"
+                ],
+                [
+                    "ktexteditor/ktexteditor-codecompletionmodelcontrollerinterface",
+                    "KTextEditor::CodeCompletionModelControllerInterface"
+                ],
+                [
+                    "ktexteditor/ktexteditor-command",
+                    "KTextEditor::Command"
+                ],
+                [
+                    "ktexteditor/ktexteditor-configpage",
+                    "KTextEditor::ConfigPage"
+                ],
+                [
+                    "ktexteditor/ktexteditor-cursor",
+                    "KTextEditor::Cursor"
+                ],
+                [
+                    "ktexteditor/ktexteditor-document",
+                    "KTextEditor::Document"
+                ],
+                [
+                    "ktexteditor/ktexteditor-document-editingtransaction",
+                    "KTextEditor::Document::EditingTransaction"
+                ],
+                [
+                    "ktexteditor/ktexteditor-documentcursor",
+                    "KTextEditor::DocumentCursor"
+                ],
+                [
+                    "ktexteditor/ktexteditor-editor",
+                    "KTextEditor::Editor"
+                ],
+                [
+                    "ktexteditor/ktexteditor-linerange",
+                    "KTextEditor::LineRange"
+                ],
+                [
+                    "ktexteditor/ktexteditor-mainwindow",
+                    "KTextEditor::MainWindow"
+                ],
+                [
+                    "ktexteditor/ktexteditor-message",
+                    "KTextEditor::Message"
+                ],
+                [
+                    "ktexteditor/ktexteditor-movingcursor",
+                    "KTextEditor::MovingCursor"
+                ],
+                [
+                    "ktexteditor/ktexteditor-movingrange",
+                    "KTextEditor::MovingRange"
+                ],
+                [
+                    "ktexteditor/ktexteditor-movingrangefeedback",
+                    "KTextEditor::MovingRangeFeedback"
+                ],
+                [
+                    "ktexteditor/ktexteditor-range",
+                    "KTextEditor::Range"
+                ],
+                [
+                    "ktexteditor/ktexteditor-view",
+                    "KTextEditor::View"
+                ],
+                [
+                    "ktexteditor/ktexteditor",
+                    "KTextEditor Namespace"
+                ],
+                [
+                    "ktexteditor/ktexteditor-index",
+                    "KTextEditor"
+                ]
+            ],
+            "qml": false,
+            "title": "KTextEditor C++ Classes"
+        }
+    ]
+}

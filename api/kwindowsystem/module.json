@@ -1,0 +1,2214 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KSelectionOwner",
+                    "KSelectionOwner(xcb_atom_t, int, QObject *)",
+                    "KSelectionOwner"
+                ],
+                [
+                    "KSelectionOwner",
+                    "KSelectionOwner(const char *, int, QObject *)",
+                    "KSelectionOwner-1"
+                ],
+                [
+                    "KSelectionOwner",
+                    "KSelectionOwner(const char *, xcb_connection_t *, xcb_window_t, QObject *)",
+                    "KSelectionOwner-2"
+                ],
+                [
+                    "KSelectionOwner",
+                    "KSelectionOwner(xcb_atom_t, xcb_connection_t *, xcb_window_t, QObject *)",
+                    "KSelectionOwner-3"
+                ],
+                [
+                    "~KSelectionOwner",
+                    "~KSelectionOwner()",
+                    "dtor.KSelectionOwner"
+                ],
+                [
+                    "claim",
+                    "claim(bool, bool)",
+                    "claim"
+                ],
+                [
+                    "claimedOwnership",
+                    "claimedOwnership()",
+                    "claimedOwnership"
+                ],
+                [
+                    "failedToClaimOwnership",
+                    "failedToClaimOwnership()",
+                    "failedToClaimOwnership"
+                ],
+                [
+                    "genericReply",
+                    "genericReply(xcb_atom_t, xcb_atom_t, xcb_window_t) : bool",
+                    "genericReply"
+                ],
+                [
+                    "getAtoms",
+                    "getAtoms()",
+                    "getAtoms"
+                ],
+                [
+                    "lostOwnership",
+                    "lostOwnership()",
+                    "lostOwnership"
+                ],
+                [
+                    "ownerWindow",
+                    "ownerWindow() const : xcb_window_t",
+                    "ownerWindow"
+                ],
+                [
+                    "release",
+                    "release()",
+                    "release"
+                ],
+                [
+                    "replyTargets",
+                    "replyTargets(xcb_atom_t, xcb_window_t)",
+                    "replyTargets"
+                ],
+                [
+                    "setData",
+                    "setData(uint32_t, uint32_t)",
+                    "setData"
+                ]
+            ],
+            "name": "KSelectionOwner",
+            "page": "kwindowsystem/kselectionowner",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KSelectionWatcher",
+                    "KSelectionWatcher(xcb_atom_t, int, QObject *)",
+                    "KSelectionWatcher"
+                ],
+                [
+                    "KSelectionWatcher",
+                    "KSelectionWatcher(const char *, int, QObject *)",
+                    "KSelectionWatcher-1"
+                ],
+                [
+                    "KSelectionWatcher",
+                    "KSelectionWatcher(const char *, xcb_connection_t *, xcb_window_t, QObject *)",
+                    "KSelectionWatcher-2"
+                ],
+                [
+                    "KSelectionWatcher",
+                    "KSelectionWatcher(xcb_atom_t, xcb_connection_t *, xcb_window_t, QObject *)",
+                    "KSelectionWatcher-3"
+                ],
+                [
+                    "lostOwner",
+                    "lostOwner()",
+                    "lostOwner"
+                ],
+                [
+                    "newOwner",
+                    "newOwner(xcb_window_t)",
+                    "newOwner"
+                ],
+                [
+                    "owner",
+                    "owner() : xcb_window_t",
+                    "owner"
+                ]
+            ],
+            "name": "KSelectionWatcher",
+            "page": "kwindowsystem/kselectionwatcher",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KStartupInfo",
+                    "KStartupInfo(int, QObject *)",
+                    "KStartupInfo"
+                ],
+                [
+                    "appStarted",
+                    "appStarted()",
+                    "appStarted"
+                ],
+                [
+                    "appStarted",
+                    "appStarted(const QByteArray &)",
+                    "appStarted-1"
+                ],
+                [
+                    "checkStartup",
+                    "checkStartup(WId) : KStartupInfo::startup_t",
+                    "checkStartup"
+                ],
+                [
+                    "checkStartup",
+                    "checkStartup(WId, KStartupInfoData &) : KStartupInfo::startup_t",
+                    "checkStartup-1"
+                ],
+                [
+                    "checkStartup",
+                    "checkStartup(WId, KStartupInfoId &) : KStartupInfo::startup_t",
+                    "checkStartup-2"
+                ],
+                [
+                    "checkStartup",
+                    "checkStartup(WId, KStartupInfoId &, KStartupInfoData &) : KStartupInfo::startup_t",
+                    "checkStartup-3"
+                ],
+                [
+                    "createNewStartupId",
+                    "createNewStartupId() : QByteArray",
+                    "createNewStartupId"
+                ],
+                [
+                    "createNewStartupIdForTimestamp",
+                    "createNewStartupIdForTimestamp(quint32) : QByteArray",
+                    "createNewStartupIdForTimestamp"
+                ],
+                [
+                    "gotNewStartup",
+                    "gotNewStartup(const KStartupInfoId &, const KStartupInfoData &)",
+                    "gotNewStartup"
+                ],
+                [
+                    "gotRemoveStartup",
+                    "gotRemoveStartup(const KStartupInfoId &, const KStartupInfoData &)",
+                    "gotRemoveStartup"
+                ],
+                [
+                    "gotStartupChange",
+                    "gotStartupChange(const KStartupInfoId &, const KStartupInfoData &)",
+                    "gotStartupChange"
+                ],
+                [
+                    "resetStartupEnv",
+                    "resetStartupEnv()",
+                    "resetStartupEnv"
+                ],
+                [
+                    "sendChange",
+                    "sendChange(const KStartupInfoId &, const KStartupInfoData &) : bool",
+                    "sendChange"
+                ],
+                [
+                    "sendChangeXcb",
+                    "sendChangeXcb(xcb_connection_t *, int, const KStartupInfoId &, const KStartupInfoData &) : bool",
+                    "sendChangeXcb"
+                ],
+                [
+                    "sendFinish",
+                    "sendFinish(const KStartupInfoId &) : bool",
+                    "sendFinish"
+                ],
+                [
+                    "sendFinish",
+                    "sendFinish(const KStartupInfoId &, const KStartupInfoData &) : bool",
+                    "sendFinish-1"
+                ],
+                [
+                    "sendFinishXcb",
+                    "sendFinishXcb(xcb_connection_t *, int, const KStartupInfoId &) : bool",
+                    "sendFinishXcb"
+                ],
+                [
+                    "sendFinishXcb",
+                    "sendFinishXcb(xcb_connection_t *, int, const KStartupInfoId &, const KStartupInfoData &) : bool",
+                    "sendFinishXcb-1"
+                ],
+                [
+                    "sendStartup",
+                    "sendStartup(const KStartupInfoId &, const KStartupInfoData &) : bool",
+                    "sendStartup"
+                ],
+                [
+                    "sendStartupXcb",
+                    "sendStartupXcb(xcb_connection_t *, int, const KStartupInfoId &, const KStartupInfoData &) : bool",
+                    "sendStartupXcb"
+                ],
+                [
+                    "setNewStartupId",
+                    "setNewStartupId(QWindow *, const QByteArray &)",
+                    "setNewStartupId"
+                ],
+                [
+                    "setStartupId",
+                    "setStartupId(const QByteArray &)",
+                    "setStartupId"
+                ],
+                [
+                    "setTimeout",
+                    "setTimeout(unsigned int)",
+                    "setTimeout"
+                ],
+                [
+                    "windowStartupId",
+                    "windowStartupId(WId) : QByteArray",
+                    "windowStartupId"
+                ]
+            ],
+            "name": "KStartupInfo",
+            "page": "kwindowsystem/kstartupinfo",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KStartupInfoData",
+                    "KStartupInfoData()",
+                    "KStartupInfoData"
+                ],
+                [
+                    "KStartupInfoData",
+                    "KStartupInfoData(const KStartupInfoData &)",
+                    "KStartupInfoData-1"
+                ],
+                [
+                    "WMClass",
+                    "WMClass() const : QByteArray",
+                    "WMClass"
+                ],
+                [
+                    "addPid",
+                    "addPid(pid_t)",
+                    "addPid"
+                ],
+                [
+                    "applicationId",
+                    "applicationId() const : QString",
+                    "applicationId"
+                ],
+                [
+                    "bin",
+                    "bin() const : const QString &",
+                    "bin"
+                ],
+                [
+                    "description",
+                    "description() const : const QString &",
+                    "description"
+                ],
+                [
+                    "desktop",
+                    "desktop() const : int",
+                    "desktop"
+                ],
+                [
+                    "findDescription",
+                    "findDescription() const : const QString &",
+                    "findDescription"
+                ],
+                [
+                    "findIcon",
+                    "findIcon() const : const QString &",
+                    "findIcon"
+                ],
+                [
+                    "findName",
+                    "findName() const : const QString &",
+                    "findName"
+                ],
+                [
+                    "findWMClass",
+                    "findWMClass() const : const QByteArray",
+                    "findWMClass"
+                ],
+                [
+                    "hostname",
+                    "hostname() const : QByteArray",
+                    "hostname"
+                ],
+                [
+                    "icon",
+                    "icon() const : const QString &",
+                    "icon"
+                ],
+                [
+                    "is_pid",
+                    "is_pid(pid_t) const : bool",
+                    "is_pid"
+                ],
+                [
+                    "name",
+                    "name() const : const QString &",
+                    "name"
+                ],
+                [
+                    "pids",
+                    "pids() const : QList<pid_t>",
+                    "pids"
+                ],
+                [
+                    "screen",
+                    "screen() const : int",
+                    "screen"
+                ],
+                [
+                    "setApplicationId",
+                    "setApplicationId(const QString &)",
+                    "setApplicationId"
+                ],
+                [
+                    "setBin",
+                    "setBin(const QString &)",
+                    "setBin"
+                ],
+                [
+                    "setDescription",
+                    "setDescription(const QString &)",
+                    "setDescription"
+                ],
+                [
+                    "setDesktop",
+                    "setDesktop(int)",
+                    "setDesktop"
+                ],
+                [
+                    "setHostname",
+                    "setHostname(const QByteArray &)",
+                    "setHostname"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(const QString &)",
+                    "setIcon"
+                ],
+                [
+                    "setName",
+                    "setName(const QString &)",
+                    "setName"
+                ],
+                [
+                    "setScreen",
+                    "setScreen(int)",
+                    "setScreen"
+                ],
+                [
+                    "setSilent",
+                    "setSilent(KStartupInfoData::TriState)",
+                    "setSilent"
+                ],
+                [
+                    "setWMClass",
+                    "setWMClass(const QByteArray &)",
+                    "setWMClass"
+                ],
+                [
+                    "setXinerama",
+                    "setXinerama(int)",
+                    "setXinerama"
+                ],
+                [
+                    "silent",
+                    "silent() const : KStartupInfoData::TriState",
+                    "silent"
+                ],
+                [
+                    "update",
+                    "update(const KStartupInfoData &)",
+                    "update"
+                ],
+                [
+                    "xinerama",
+                    "xinerama() const : int",
+                    "xinerama"
+                ]
+            ],
+            "name": "KStartupInfoData",
+            "page": "kwindowsystem/kstartupinfodata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KStartupInfoId",
+                    "KStartupInfoId()",
+                    "KStartupInfoId"
+                ],
+                [
+                    "KStartupInfoId",
+                    "KStartupInfoId(const KStartupInfoId &)",
+                    "KStartupInfoId-1"
+                ],
+                [
+                    "id",
+                    "id() const : const QByteArray &",
+                    "id"
+                ],
+                [
+                    "initId",
+                    "initId(const QByteArray &)",
+                    "initId"
+                ],
+                [
+                    "isNull",
+                    "isNull() const : bool",
+                    "isNull"
+                ],
+                [
+                    "setupStartupEnv",
+                    "setupStartupEnv() const : bool",
+                    "setupStartupEnv"
+                ],
+                [
+                    "timestamp",
+                    "timestamp() const : unsigned long",
+                    "timestamp"
+                ],
+                [
+                    "operator!=",
+                    "operator!=(const KStartupInfoId &) const : bool",
+                    "operator-not-eq"
+                ],
+                [
+                    "operator==",
+                    "operator==(const KStartupInfoId &) const : bool",
+                    "operator-eq-eq"
+                ]
+            ],
+            "name": "KStartupInfoId",
+            "page": "kwindowsystem/kstartupinfoid",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "exportToplevel",
+                    "exportToplevel(QWindow *) : QFuture<QString>",
+                    "exportToplevel"
+                ],
+                [
+                    "lastInputSerial",
+                    "lastInputSerial(QWindow *) : quint32",
+                    "lastInputSerial"
+                ],
+                [
+                    "self",
+                    "self() : KWaylandExtras *",
+                    "self"
+                ],
+                [
+                    "setXdgToplevelDescription",
+                    "setXdgToplevelDescription(QWindow *, const QString &)",
+                    "setXdgToplevelDescription"
+                ],
+                [
+                    "setXdgToplevelTag",
+                    "setXdgToplevelTag(QWindow *, const QString &)",
+                    "setXdgToplevelTag"
+                ],
+                [
+                    "unexportToplevel",
+                    "unexportToplevel(QWindow *)",
+                    "unexportToplevel"
+                ],
+                [
+                    "xdgActivationToken",
+                    "xdgActivationToken(QWindow *, const QString &) : QFuture<QString>",
+                    "xdgActivationToken"
+                ],
+                [
+                    "xdgActivationToken",
+                    "xdgActivationToken(QWindow *, uint32_t, const QString &) : QFuture<QString>",
+                    "xdgActivationToken-1"
+                ]
+            ],
+            "name": "KWaylandExtras",
+            "page": "kwindowsystem/kwaylandextras",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KWindowInfo",
+                    "KWindowInfo(WId, NET::Properties, NET::Properties2)",
+                    "KWindowInfo"
+                ],
+                [
+                    "actionSupported",
+                    "actionSupported(NET::Action) const : bool",
+                    "actionSupported"
+                ],
+                [
+                    "activities",
+                    "activities() const : QStringList",
+                    "activities"
+                ],
+                [
+                    "applicationMenuObjectPath",
+                    "applicationMenuObjectPath() const : QByteArray",
+                    "applicationMenuObjectPath"
+                ],
+                [
+                    "applicationMenuServiceName",
+                    "applicationMenuServiceName() const : QByteArray",
+                    "applicationMenuServiceName"
+                ],
+                [
+                    "clientMachine",
+                    "clientMachine() const : QByteArray",
+                    "clientMachine"
+                ],
+                [
+                    "desktop",
+                    "desktop() const : int",
+                    "desktop"
+                ],
+                [
+                    "desktopFileName",
+                    "desktopFileName() const : QByteArray",
+                    "desktopFileName"
+                ],
+                [
+                    "extendedStrut",
+                    "extendedStrut() const : NETExtendedStrut",
+                    "extendedStrut"
+                ],
+                [
+                    "frameGeometry",
+                    "frameGeometry() const : QRect",
+                    "frameGeometry"
+                ],
+                [
+                    "geometry",
+                    "geometry() const : QRect",
+                    "geometry"
+                ],
+                [
+                    "groupLeader",
+                    "groupLeader() const : WId",
+                    "groupLeader"
+                ],
+                [
+                    "gtkApplicationId",
+                    "gtkApplicationId() const : QByteArray",
+                    "gtkApplicationId"
+                ],
+                [
+                    "hasState",
+                    "hasState(NET::States) const : bool",
+                    "hasState"
+                ],
+                [
+                    "iconName",
+                    "iconName() const : QString",
+                    "iconName"
+                ],
+                [
+                    "isMinimized",
+                    "isMinimized() const : bool",
+                    "isMinimized"
+                ],
+                [
+                    "isOnCurrentDesktop",
+                    "isOnCurrentDesktop() const : bool",
+                    "isOnCurrentDesktop"
+                ],
+                [
+                    "isOnDesktop",
+                    "isOnDesktop(int) const : bool",
+                    "isOnDesktop"
+                ],
+                [
+                    "mappingState",
+                    "mappingState() const : NET::MappingState",
+                    "mappingState"
+                ],
+                [
+                    "name",
+                    "name() const : QString",
+                    "name"
+                ],
+                [
+                    "onAllDesktops",
+                    "onAllDesktops() const : bool",
+                    "onAllDesktops"
+                ],
+                [
+                    "pid",
+                    "pid() const : int",
+                    "pid"
+                ],
+                [
+                    "state",
+                    "state() const : NET::States",
+                    "state"
+                ],
+                [
+                    "transientFor",
+                    "transientFor() const : WId",
+                    "transientFor"
+                ],
+                [
+                    "valid",
+                    "valid(bool) const : bool",
+                    "valid"
+                ],
+                [
+                    "visibleIconName",
+                    "visibleIconName() const : QString",
+                    "visibleIconName"
+                ],
+                [
+                    "visibleIconNameWithState",
+                    "visibleIconNameWithState() const : QString",
+                    "visibleIconNameWithState"
+                ],
+                [
+                    "visibleName",
+                    "visibleName() const : QString",
+                    "visibleName"
+                ],
+                [
+                    "visibleNameWithState",
+                    "visibleNameWithState() const : QString",
+                    "visibleNameWithState"
+                ],
+                [
+                    "win",
+                    "win() const : WId",
+                    "win"
+                ],
+                [
+                    "windowClassClass",
+                    "windowClassClass() const : QByteArray",
+                    "windowClassClass"
+                ],
+                [
+                    "windowClassName",
+                    "windowClassName() const : QByteArray",
+                    "windowClassName"
+                ],
+                [
+                    "windowRole",
+                    "windowRole() const : QByteArray",
+                    "windowRole"
+                ],
+                [
+                    "windowType",
+                    "windowType(NET::WindowTypes) const : NET::WindowType",
+                    "windowType"
+                ]
+            ],
+            "name": "KWindowInfo",
+            "page": "kwindowsystem/kwindowinfo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "bottomLeftTile",
+                    "bottomLeftTile() const : KWindowShadowTile::Ptr",
+                    "bottomLeftTile"
+                ],
+                [
+                    "bottomRightTile",
+                    "bottomRightTile() const : KWindowShadowTile::Ptr",
+                    "bottomRightTile"
+                ],
+                [
+                    "bottomTile",
+                    "bottomTile() const : KWindowShadowTile::Ptr",
+                    "bottomTile"
+                ],
+                [
+                    "create",
+                    "create() : bool",
+                    "create"
+                ],
+                [
+                    "destroy",
+                    "destroy()",
+                    "destroy"
+                ],
+                [
+                    "isCreated",
+                    "isCreated() const : bool",
+                    "isCreated"
+                ],
+                [
+                    "leftTile",
+                    "leftTile() const : KWindowShadowTile::Ptr",
+                    "leftTile"
+                ],
+                [
+                    "padding",
+                    "padding() const : QMargins",
+                    "padding"
+                ],
+                [
+                    "rightTile",
+                    "rightTile() const : KWindowShadowTile::Ptr",
+                    "rightTile"
+                ],
+                [
+                    "setBottomLeftTile",
+                    "setBottomLeftTile(KWindowShadowTile::Ptr)",
+                    "setBottomLeftTile"
+                ],
+                [
+                    "setBottomRightTile",
+                    "setBottomRightTile(KWindowShadowTile::Ptr)",
+                    "setBottomRightTile"
+                ],
+                [
+                    "setBottomTile",
+                    "setBottomTile(KWindowShadowTile::Ptr)",
+                    "setBottomTile"
+                ],
+                [
+                    "setLeftTile",
+                    "setLeftTile(KWindowShadowTile::Ptr)",
+                    "setLeftTile"
+                ],
+                [
+                    "setPadding",
+                    "setPadding(const QMargins &)",
+                    "setPadding"
+                ],
+                [
+                    "setRightTile",
+                    "setRightTile(KWindowShadowTile::Ptr)",
+                    "setRightTile"
+                ],
+                [
+                    "setTopLeftTile",
+                    "setTopLeftTile(KWindowShadowTile::Ptr)",
+                    "setTopLeftTile"
+                ],
+                [
+                    "setTopRightTile",
+                    "setTopRightTile(KWindowShadowTile::Ptr)",
+                    "setTopRightTile"
+                ],
+                [
+                    "setTopTile",
+                    "setTopTile(KWindowShadowTile::Ptr)",
+                    "setTopTile"
+                ],
+                [
+                    "setWindow",
+                    "setWindow(QWindow *)",
+                    "setWindow"
+                ],
+                [
+                    "topLeftTile",
+                    "topLeftTile() const : KWindowShadowTile::Ptr",
+                    "topLeftTile"
+                ],
+                [
+                    "topRightTile",
+                    "topRightTile() const : KWindowShadowTile::Ptr",
+                    "topRightTile"
+                ],
+                [
+                    "topTile",
+                    "topTile() const : KWindowShadowTile::Ptr",
+                    "topTile"
+                ],
+                [
+                    "window",
+                    "window() const : QWindow *",
+                    "window"
+                ]
+            ],
+            "name": "KWindowShadow",
+            "page": "kwindowsystem/kwindowshadow",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KWindowShadowTile",
+                    "KWindowShadowTile()",
+                    "KWindowShadowTile"
+                ],
+                [
+                    "create",
+                    "create() : bool",
+                    "create"
+                ],
+                [
+                    "image",
+                    "image() const : QImage",
+                    "image"
+                ],
+                [
+                    "isCreated",
+                    "isCreated() const : bool",
+                    "isCreated"
+                ],
+                [
+                    "setImage",
+                    "setImage(const QImage &)",
+                    "setImage"
+                ]
+            ],
+            "name": "KWindowShadowTile",
+            "page": "kwindowsystem/kwindowshadowtile",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "isPlatformX11",
+                    "isPlatformX11 : const bool",
+                    "isPlatformX11-prop"
+                ],
+                [
+                    "isPlatformWayland",
+                    "isPlatformWayland : const bool",
+                    "isPlatformWayland-prop"
+                ],
+                [
+                    "showingDesktop",
+                    "showingDesktop : bool",
+                    "showingDesktop-prop"
+                ],
+                [
+                    "activateWindow",
+                    "activateWindow(QWindow *, long)",
+                    "activateWindow"
+                ],
+                [
+                    "isPlatformX11",
+                    "isPlatformX11() : bool",
+                    "isPlatformX11"
+                ],
+                [
+                    "isPlatformWayland",
+                    "isPlatformWayland() : bool",
+                    "isPlatformWayland"
+                ],
+                [
+                    "platform",
+                    "platform() : KWindowSystem::Platform",
+                    "platform"
+                ],
+                [
+                    "setCurrentXdgActivationToken",
+                    "setCurrentXdgActivationToken(const QString &)",
+                    "setCurrentXdgActivationToken"
+                ],
+                [
+                    "setMainWindow",
+                    "setMainWindow(QWindow *, WId)",
+                    "setMainWindow"
+                ],
+                [
+                    "setMainWindow",
+                    "setMainWindow(QWindow *, const QString &)",
+                    "setMainWindow-1"
+                ],
+                [
+                    "setShowingDesktop",
+                    "setShowingDesktop(bool)",
+                    "setShowingDesktop"
+                ],
+                [
+                    "showingDesktop",
+                    "showingDesktop() : bool",
+                    "showingDesktop"
+                ],
+                [
+                    "showingDesktopChanged",
+                    "showingDesktopChanged(bool)",
+                    "showingDesktopChanged"
+                ],
+                [
+                    "updateStartupId",
+                    "updateStartupId(QWindow *)",
+                    "updateStartupId"
+                ]
+            ],
+            "name": "KWindowSystem",
+            "page": "kwindowsystem/kwindowsystem",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "compositingActive",
+                    "compositingActive : bool",
+                    "compositingActive-prop"
+                ],
+                [
+                    "activateWindow",
+                    "activateWindow(WId, long)",
+                    "activateWindow"
+                ],
+                [
+                    "activeWindow",
+                    "activeWindow() : WId",
+                    "activeWindow"
+                ],
+                [
+                    "activeWindowChanged",
+                    "activeWindowChanged(WId)",
+                    "activeWindowChanged"
+                ],
+                [
+                    "clearState",
+                    "clearState(WId, NET::States)",
+                    "clearState"
+                ],
+                [
+                    "compositingActive",
+                    "compositingActive() : bool",
+                    "compositingActive"
+                ],
+                [
+                    "compositingChanged",
+                    "compositingChanged(bool)",
+                    "compositingChanged"
+                ],
+                [
+                    "currentDesktop",
+                    "currentDesktop() : int",
+                    "currentDesktop"
+                ],
+                [
+                    "currentDesktopChanged",
+                    "currentDesktopChanged(int)",
+                    "currentDesktopChanged"
+                ],
+                [
+                    "desktopName",
+                    "desktopName(int) : QString",
+                    "desktopName"
+                ],
+                [
+                    "desktopNamesChanged",
+                    "desktopNamesChanged()",
+                    "desktopNamesChanged"
+                ],
+                [
+                    "forceActiveWindow",
+                    "forceActiveWindow(WId, long)",
+                    "forceActiveWindow"
+                ],
+                [
+                    "hasWId",
+                    "hasWId(WId) : bool",
+                    "hasWId"
+                ],
+                [
+                    "icon",
+                    "icon(WId, int, int, bool) : QPixmap",
+                    "icon"
+                ],
+                [
+                    "icon",
+                    "icon(WId, int, int, bool, int) : QPixmap",
+                    "icon-1"
+                ],
+                [
+                    "icon",
+                    "icon(WId, int, int, bool, int, NETWinInfo *) : QPixmap",
+                    "icon-2"
+                ],
+                [
+                    "mapViewport",
+                    "mapViewport() : bool",
+                    "mapViewport"
+                ],
+                [
+                    "minimizeWindow",
+                    "minimizeWindow(WId)",
+                    "minimizeWindow"
+                ],
+                [
+                    "numberOfDesktops",
+                    "numberOfDesktops() : int",
+                    "numberOfDesktops"
+                ],
+                [
+                    "numberOfDesktopsChanged",
+                    "numberOfDesktopsChanged(int)",
+                    "numberOfDesktopsChanged"
+                ],
+                [
+                    "readNameProperty",
+                    "readNameProperty(WId, unsigned long) : QString",
+                    "readNameProperty"
+                ],
+                [
+                    "self",
+                    "self() : KX11Extras *",
+                    "self"
+                ],
+                [
+                    "setCurrentDesktop",
+                    "setCurrentDesktop(int)",
+                    "setCurrentDesktop"
+                ],
+                [
+                    "setDesktopName",
+                    "setDesktopName(int, const QString &)",
+                    "setDesktopName"
+                ],
+                [
+                    "setExtendedStrut",
+                    "setExtendedStrut(WId, qreal, qreal, qreal, qreal, qreal, qreal, qreal, qreal, qreal, qreal, qreal, qreal)",
+                    "setExtendedStrut"
+                ],
+                [
+                    "setOnActivities",
+                    "setOnActivities(WId, const QStringList &)",
+                    "setOnActivities"
+                ],
+                [
+                    "setOnAllDesktops",
+                    "setOnAllDesktops(WId, bool)",
+                    "setOnAllDesktops"
+                ],
+                [
+                    "setOnDesktop",
+                    "setOnDesktop(WId, int)",
+                    "setOnDesktop"
+                ],
+                [
+                    "setState",
+                    "setState(WId, NET::States)",
+                    "setState"
+                ],
+                [
+                    "setStrut",
+                    "setStrut(WId, qreal, qreal, qreal, qreal)",
+                    "setStrut"
+                ],
+                [
+                    "setType",
+                    "setType(WId, NET::WindowType)",
+                    "setType"
+                ],
+                [
+                    "stackingOrder",
+                    "stackingOrder() : QList<WId>",
+                    "stackingOrder"
+                ],
+                [
+                    "stackingOrderChanged",
+                    "stackingOrderChanged()",
+                    "stackingOrderChanged"
+                ],
+                [
+                    "strutChanged",
+                    "strutChanged()",
+                    "strutChanged"
+                ],
+                [
+                    "unminimizeWindow",
+                    "unminimizeWindow(WId)",
+                    "unminimizeWindow"
+                ],
+                [
+                    "windowAdded",
+                    "windowAdded(WId)",
+                    "windowAdded"
+                ],
+                [
+                    "windowChanged",
+                    "windowChanged(WId, NET::Properties, NET::Properties2)",
+                    "windowChanged"
+                ],
+                [
+                    "windowRemoved",
+                    "windowRemoved(WId)",
+                    "windowRemoved"
+                ],
+                [
+                    "windows",
+                    "windows() : QList<WId>",
+                    "windows"
+                ],
+                [
+                    "workArea",
+                    "workArea(int) : QRect",
+                    "workArea"
+                ],
+                [
+                    "workArea",
+                    "workArea(const QList<WId> &, int) : QRect",
+                    "workArea-1"
+                ],
+                [
+                    "workAreaChanged",
+                    "workAreaChanged()",
+                    "workAreaChanged"
+                ]
+            ],
+            "name": "KX11Extras",
+            "page": "kwindowsystem/kx11extras",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "timestampCompare",
+                    "timestampCompare(unsigned long, unsigned long) : int",
+                    "timestampCompare"
+                ],
+                [
+                    "timestampDiff",
+                    "timestampDiff(unsigned long, unsigned long) : int",
+                    "timestampDiff"
+                ],
+                [
+                    "typeMatchesMask",
+                    "typeMatchesMask(NET::WindowType, NET::WindowTypes) : bool",
+                    "typeMatchesMask"
+                ]
+            ],
+            "name": "NET",
+            "page": "kwindowsystem/net",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kwindowsystem/net"
+            ],
+            "members": [
+                [
+                    "NETRootInfo",
+                    "NETRootInfo(xcb_connection_t *, NET::Properties, NET::Properties2, int, bool)",
+                    "NETRootInfo-1"
+                ],
+                [
+                    "NETRootInfo",
+                    "NETRootInfo(xcb_connection_t *, xcb_window_t, const char *, NET::Properties, NET::WindowTypes, NET::States, NET::Properties2, NET::Actions, int, bool)",
+                    "NETRootInfo-2"
+                ],
+                [
+                    "NETRootInfo",
+                    "NETRootInfo(const NETRootInfo &)",
+                    "NETRootInfo"
+                ],
+                [
+                    "activate",
+                    "activate()",
+                    "activate"
+                ],
+                [
+                    "activeWindow",
+                    "activeWindow() const : xcb_window_t",
+                    "activeWindow"
+                ],
+                [
+                    "addClient",
+                    "addClient(xcb_window_t)",
+                    "addClient"
+                ],
+                [
+                    "changeActiveWindow",
+                    "changeActiveWindow(xcb_window_t, NET::RequestSource, xcb_timestamp_t, xcb_window_t)",
+                    "changeActiveWindow"
+                ],
+                [
+                    "changeCurrentDesktop",
+                    "changeCurrentDesktop(int)",
+                    "changeCurrentDesktop"
+                ],
+                [
+                    "changeDesktopGeometry",
+                    "changeDesktopGeometry(int, const NETSize &)",
+                    "changeDesktopGeometry"
+                ],
+                [
+                    "changeDesktopViewport",
+                    "changeDesktopViewport(int, const NETPoint &)",
+                    "changeDesktopViewport"
+                ],
+                [
+                    "changeNumberOfDesktops",
+                    "changeNumberOfDesktops(int)",
+                    "changeNumberOfDesktops"
+                ],
+                [
+                    "changeShowingDesktop",
+                    "changeShowingDesktop(bool)",
+                    "changeShowingDesktop"
+                ],
+                [
+                    "clientList",
+                    "clientList() const : const xcb_window_t *",
+                    "clientList"
+                ],
+                [
+                    "clientListCount",
+                    "clientListCount() const : int",
+                    "clientListCount"
+                ],
+                [
+                    "clientListStacking",
+                    "clientListStacking() const : const xcb_window_t *",
+                    "clientListStacking"
+                ],
+                [
+                    "clientListStackingCount",
+                    "clientListStackingCount() const : int",
+                    "clientListStackingCount"
+                ],
+                [
+                    "closeWindow",
+                    "closeWindow(xcb_window_t)",
+                    "closeWindow"
+                ],
+                [
+                    "closeWindowRequest",
+                    "closeWindowRequest(xcb_window_t)",
+                    "closeWindowRequest"
+                ],
+                [
+                    "currentDesktop",
+                    "currentDesktop(bool) const : int",
+                    "currentDesktop"
+                ],
+                [
+                    "desktopGeometry",
+                    "desktopGeometry() const : NETSize",
+                    "desktopGeometry"
+                ],
+                [
+                    "desktopLayoutColumnsRows",
+                    "desktopLayoutColumnsRows() const : QSize",
+                    "desktopLayoutColumnsRows"
+                ],
+                [
+                    "desktopLayoutCorner",
+                    "desktopLayoutCorner() const : NET::DesktopLayoutCorner",
+                    "desktopLayoutCorner"
+                ],
+                [
+                    "desktopLayoutOrientation",
+                    "desktopLayoutOrientation() const : NET::Orientation",
+                    "desktopLayoutOrientation"
+                ],
+                [
+                    "desktopName",
+                    "desktopName(int) const : const char *",
+                    "desktopName"
+                ],
+                [
+                    "desktopViewport",
+                    "desktopViewport(int) const : NETPoint",
+                    "desktopViewport"
+                ],
+                [
+                    "event",
+                    "event(xcb_generic_event_t *) : NET::Properties",
+                    "event"
+                ],
+                [
+                    "event",
+                    "event(xcb_generic_event_t *, NET::Properties *, NET::Properties2 *)",
+                    "event-1"
+                ],
+                [
+                    "gotPing",
+                    "gotPing(xcb_window_t, xcb_timestamp_t)",
+                    "gotPing"
+                ],
+                [
+                    "isSupported",
+                    "isSupported(NET::Property) const : bool",
+                    "isSupported"
+                ],
+                [
+                    "isSupported",
+                    "isSupported(NET::Action) const : bool",
+                    "isSupported-1"
+                ],
+                [
+                    "isSupported",
+                    "isSupported(NET::Property2) const : bool",
+                    "isSupported-2"
+                ],
+                [
+                    "isSupported",
+                    "isSupported(NET::State) const : bool",
+                    "isSupported-3"
+                ],
+                [
+                    "isSupported",
+                    "isSupported(NET::WindowTypeMask) const : bool",
+                    "isSupported-4"
+                ],
+                [
+                    "moveResize",
+                    "moveResize(xcb_window_t, int, int, unsigned long, xcb_button_t, NET::RequestSource)",
+                    "moveResize"
+                ],
+                [
+                    "moveResizeRequest",
+                    "moveResizeRequest(xcb_window_t, int, int, NET::Direction, xcb_button_t, NET::RequestSource)",
+                    "moveResizeRequest"
+                ],
+                [
+                    "moveResizeWindow",
+                    "moveResizeWindow(xcb_window_t, int, int, int, int, int)",
+                    "moveResizeWindow"
+                ],
+                [
+                    "moveResizeWindowRequest",
+                    "moveResizeWindowRequest(xcb_window_t, int, int, int, int, int)",
+                    "moveResizeWindowRequest"
+                ],
+                [
+                    "numberOfDesktops",
+                    "numberOfDesktops(bool) const : int",
+                    "numberOfDesktops"
+                ],
+                [
+                    "passedActions",
+                    "passedActions() const : NET::Actions",
+                    "passedActions"
+                ],
+                [
+                    "passedProperties2",
+                    "passedProperties2() const : NET::Properties2",
+                    "passedProperties2"
+                ],
+                [
+                    "passedProperties",
+                    "passedProperties() const : NET::Properties",
+                    "passedProperties"
+                ],
+                [
+                    "passedStates",
+                    "passedStates() const : NET::States",
+                    "passedStates"
+                ],
+                [
+                    "passedWindowTypes",
+                    "passedWindowTypes() const : NET::WindowTypes",
+                    "passedWindowTypes"
+                ],
+                [
+                    "removeClient",
+                    "removeClient(xcb_window_t)",
+                    "removeClient"
+                ],
+                [
+                    "restackRequest",
+                    "restackRequest(xcb_window_t, NET::RequestSource, xcb_window_t, int, xcb_timestamp_t)",
+                    "restackRequest"
+                ],
+                [
+                    "restackWindow",
+                    "restackWindow(xcb_window_t, NET::RequestSource, xcb_window_t, int, xcb_timestamp_t)",
+                    "restackWindow"
+                ],
+                [
+                    "rootWindow",
+                    "rootWindow() const : xcb_window_t",
+                    "rootWindow"
+                ],
+                [
+                    "sendPing",
+                    "sendPing(xcb_window_t, xcb_timestamp_t)",
+                    "sendPing"
+                ],
+                [
+                    "setActiveWindow",
+                    "setActiveWindow(xcb_window_t)",
+                    "setActiveWindow"
+                ],
+                [
+                    "setActiveWindow",
+                    "setActiveWindow(xcb_window_t, NET::RequestSource, xcb_timestamp_t, xcb_window_t)",
+                    "setActiveWindow-1"
+                ],
+                [
+                    "setClientList",
+                    "setClientList(const xcb_window_t *, unsigned int)",
+                    "setClientList"
+                ],
+                [
+                    "setClientListStacking",
+                    "setClientListStacking(const xcb_window_t *, unsigned int)",
+                    "setClientListStacking"
+                ],
+                [
+                    "setCurrentDesktop",
+                    "setCurrentDesktop(int, bool)",
+                    "setCurrentDesktop"
+                ],
+                [
+                    "setDesktopGeometry",
+                    "setDesktopGeometry(const NETSize &)",
+                    "setDesktopGeometry"
+                ],
+                [
+                    "setDesktopLayout",
+                    "setDesktopLayout(NET::Orientation, int, int, NET::DesktopLayoutCorner)",
+                    "setDesktopLayout"
+                ],
+                [
+                    "setDesktopName",
+                    "setDesktopName(int, const char *)",
+                    "setDesktopName"
+                ],
+                [
+                    "setDesktopViewport",
+                    "setDesktopViewport(int, const NETPoint &)",
+                    "setDesktopViewport"
+                ],
+                [
+                    "setNumberOfDesktops",
+                    "setNumberOfDesktops(int)",
+                    "setNumberOfDesktops"
+                ],
+                [
+                    "setShowingDesktop",
+                    "setShowingDesktop(bool)",
+                    "setShowingDesktop"
+                ],
+                [
+                    "setSupported",
+                    "setSupported(NET::Property, bool)",
+                    "setSupported"
+                ],
+                [
+                    "setSupported",
+                    "setSupported(NET::Action, bool)",
+                    "setSupported-1"
+                ],
+                [
+                    "setSupported",
+                    "setSupported(NET::Property2, bool)",
+                    "setSupported-2"
+                ],
+                [
+                    "setSupported",
+                    "setSupported(NET::State, bool)",
+                    "setSupported-3"
+                ],
+                [
+                    "setSupported",
+                    "setSupported(NET::WindowTypeMask, bool)",
+                    "setSupported-4"
+                ],
+                [
+                    "setVirtualRoots",
+                    "setVirtualRoots(const xcb_window_t *, unsigned int)",
+                    "setVirtualRoots"
+                ],
+                [
+                    "setWorkArea",
+                    "setWorkArea(int, const NETRect &)",
+                    "setWorkArea"
+                ],
+                [
+                    "showWindowMenu",
+                    "showWindowMenu(xcb_window_t, int, int, int)",
+                    "showWindowMenu"
+                ],
+                [
+                    "showWindowMenuRequest",
+                    "showWindowMenuRequest(xcb_window_t, int, int, int)",
+                    "showWindowMenuRequest"
+                ],
+                [
+                    "showingDesktop",
+                    "showingDesktop() const : bool",
+                    "showingDesktop"
+                ],
+                [
+                    "supportWindow",
+                    "supportWindow() const : xcb_window_t",
+                    "supportWindow"
+                ],
+                [
+                    "supportedActions",
+                    "supportedActions() const : NET::Actions",
+                    "supportedActions"
+                ],
+                [
+                    "supportedProperties2",
+                    "supportedProperties2() const : NET::Properties2",
+                    "supportedProperties2"
+                ],
+                [
+                    "supportedProperties",
+                    "supportedProperties() const : NET::Properties",
+                    "supportedProperties"
+                ],
+                [
+                    "supportedStates",
+                    "supportedStates() const : NET::States",
+                    "supportedStates"
+                ],
+                [
+                    "supportedWindowTypes",
+                    "supportedWindowTypes() const : NET::WindowTypes",
+                    "supportedWindowTypes"
+                ],
+                [
+                    "virtualRoots",
+                    "virtualRoots() const : const xcb_window_t *",
+                    "virtualRoots"
+                ],
+                [
+                    "virtualRootsCount",
+                    "virtualRootsCount() const : int",
+                    "virtualRootsCount"
+                ],
+                [
+                    "virtual_hook",
+                    "virtual_hook(int, void *)",
+                    "virtual_hook"
+                ],
+                [
+                    "wmName",
+                    "wmName() const : const char *",
+                    "wmName"
+                ],
+                [
+                    "workArea",
+                    "workArea(int) const : NETRect",
+                    "workArea"
+                ],
+                [
+                    "xcbConnection",
+                    "xcbConnection() const : xcb_connection_t *",
+                    "xcbConnection"
+                ],
+                [
+                    "operator=",
+                    "operator=(const NETRootInfo &) : const NETRootInfo &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "NETRootInfo",
+            "page": "kwindowsystem/netrootinfo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "kwindowsystem/net"
+            ],
+            "members": [
+                [
+                    "NETWinInfo",
+                    "NETWinInfo(xcb_connection_t *, xcb_window_t, xcb_window_t, NET::Properties, NET::Properties2, NET::Role)",
+                    "NETWinInfo-1"
+                ],
+                [
+                    "NETWinInfo",
+                    "NETWinInfo(const NETWinInfo &)",
+                    "NETWinInfo"
+                ],
+                [
+                    "activities",
+                    "activities() const : const char *",
+                    "activities"
+                ],
+                [
+                    "allowedActions",
+                    "allowedActions() const : NET::Actions",
+                    "allowedActions"
+                ],
+                [
+                    "appMenuObjectPath",
+                    "appMenuObjectPath() const : const char *",
+                    "appMenuObjectPath"
+                ],
+                [
+                    "appMenuServiceName",
+                    "appMenuServiceName() const : const char *",
+                    "appMenuServiceName"
+                ],
+                [
+                    "changeDesktop",
+                    "changeDesktop(int)",
+                    "changeDesktop"
+                ],
+                [
+                    "changeFullscreenMonitors",
+                    "changeFullscreenMonitors(NETFullscreenMonitors)",
+                    "changeFullscreenMonitors"
+                ],
+                [
+                    "changeState",
+                    "changeState(NET::States, NET::States)",
+                    "changeState"
+                ],
+                [
+                    "clientMachine",
+                    "clientMachine() const : const char *",
+                    "clientMachine"
+                ],
+                [
+                    "desktop",
+                    "desktop(bool) const : int",
+                    "desktop"
+                ],
+                [
+                    "desktopFileName",
+                    "desktopFileName() const : const char *",
+                    "desktopFileName"
+                ],
+                [
+                    "event",
+                    "event(xcb_generic_event_t *) : NET::Properties",
+                    "event"
+                ],
+                [
+                    "event",
+                    "event(xcb_generic_event_t *, NET::Properties *, NET::Properties2 *)",
+                    "event-1"
+                ],
+                [
+                    "extendedStrut",
+                    "extendedStrut() const : NETExtendedStrut",
+                    "extendedStrut"
+                ],
+                [
+                    "frameExtents",
+                    "frameExtents() const : NETStrut",
+                    "frameExtents"
+                ],
+                [
+                    "frameOverlap",
+                    "frameOverlap() const : NETStrut",
+                    "frameOverlap"
+                ],
+                [
+                    "fullscreenMonitors",
+                    "fullscreenMonitors() const : NETFullscreenMonitors",
+                    "fullscreenMonitors"
+                ],
+                [
+                    "groupLeader",
+                    "groupLeader() const : xcb_window_t",
+                    "groupLeader"
+                ],
+                [
+                    "gtkApplicationId",
+                    "gtkApplicationId() const : const char *",
+                    "gtkApplicationId"
+                ],
+                [
+                    "gtkFrameExtents",
+                    "gtkFrameExtents() const : NETStrut",
+                    "gtkFrameExtents"
+                ],
+                [
+                    "handledIcons",
+                    "handledIcons() const : bool",
+                    "handledIcons"
+                ],
+                [
+                    "hasNETSupport",
+                    "hasNETSupport() const : bool",
+                    "hasNETSupport"
+                ],
+                [
+                    "hasWindowType",
+                    "hasWindowType() const : bool",
+                    "hasWindowType"
+                ],
+                [
+                    "icccmIconPixmap",
+                    "icccmIconPixmap() const : xcb_pixmap_t",
+                    "icccmIconPixmap"
+                ],
+                [
+                    "icccmIconPixmapMask",
+                    "icccmIconPixmapMask() const : xcb_pixmap_t",
+                    "icccmIconPixmapMask"
+                ],
+                [
+                    "icon",
+                    "icon(int, int) const : NETIcon",
+                    "icon"
+                ],
+                [
+                    "iconGeometry",
+                    "iconGeometry() const : NETRect",
+                    "iconGeometry"
+                ],
+                [
+                    "iconName",
+                    "iconName() const : const char *",
+                    "iconName"
+                ],
+                [
+                    "iconSizes",
+                    "iconSizes() const : const int *",
+                    "iconSizes"
+                ],
+                [
+                    "initialMappingState",
+                    "initialMappingState() const : NET::MappingState",
+                    "initialMappingState"
+                ],
+                [
+                    "input",
+                    "input() const : bool",
+                    "input"
+                ],
+                [
+                    "isBlockingCompositing",
+                    "isBlockingCompositing() const : bool",
+                    "isBlockingCompositing"
+                ],
+                [
+                    "kdeGeometry",
+                    "kdeGeometry(NETRect &, NETRect &)",
+                    "kdeGeometry"
+                ],
+                [
+                    "mappingState",
+                    "mappingState() const : NET::MappingState",
+                    "mappingState"
+                ],
+                [
+                    "name",
+                    "name() const : const char *",
+                    "name"
+                ],
+                [
+                    "opacity",
+                    "opacity() const : unsigned long",
+                    "opacity"
+                ],
+                [
+                    "opacityF",
+                    "opacityF() const : qreal",
+                    "opacityF"
+                ],
+                [
+                    "opaqueRegion",
+                    "opaqueRegion() const : std::vector<NETRect>",
+                    "opaqueRegion"
+                ],
+                [
+                    "passedProperties2",
+                    "passedProperties2() const : NET::Properties2",
+                    "passedProperties2"
+                ],
+                [
+                    "passedProperties",
+                    "passedProperties() const : NET::Properties",
+                    "passedProperties"
+                ],
+                [
+                    "pid",
+                    "pid() const : int",
+                    "pid"
+                ],
+                [
+                    "protocols",
+                    "protocols() const : NET::Protocols",
+                    "protocols"
+                ],
+                [
+                    "setActivities",
+                    "setActivities(const char *)",
+                    "setActivities"
+                ],
+                [
+                    "setAllowedActions",
+                    "setAllowedActions(NET::Actions)",
+                    "setAllowedActions"
+                ],
+                [
+                    "setAppMenuObjectPath",
+                    "setAppMenuObjectPath(const char *)",
+                    "setAppMenuObjectPath"
+                ],
+                [
+                    "setAppMenuServiceName",
+                    "setAppMenuServiceName(const char *)",
+                    "setAppMenuServiceName"
+                ],
+                [
+                    "setBlockingCompositing",
+                    "setBlockingCompositing(bool)",
+                    "setBlockingCompositing"
+                ],
+                [
+                    "setDesktop",
+                    "setDesktop(int, bool)",
+                    "setDesktop"
+                ],
+                [
+                    "setDesktopFileName",
+                    "setDesktopFileName(const char *)",
+                    "setDesktopFileName"
+                ],
+                [
+                    "setExtendedStrut",
+                    "setExtendedStrut(const NETExtendedStrut &)",
+                    "setExtendedStrut"
+                ],
+                [
+                    "setFrameExtents",
+                    "setFrameExtents(NETStrut)",
+                    "setFrameExtents"
+                ],
+                [
+                    "setFrameOverlap",
+                    "setFrameOverlap(NETStrut)",
+                    "setFrameOverlap"
+                ],
+                [
+                    "setFullscreenMonitors",
+                    "setFullscreenMonitors(NETFullscreenMonitors)",
+                    "setFullscreenMonitors"
+                ],
+                [
+                    "setGtkFrameExtents",
+                    "setGtkFrameExtents(NETStrut)",
+                    "setGtkFrameExtents"
+                ],
+                [
+                    "setHandledIcons",
+                    "setHandledIcons(bool)",
+                    "setHandledIcons"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(NETIcon, bool)",
+                    "setIcon"
+                ],
+                [
+                    "setIconGeometry",
+                    "setIconGeometry(NETRect)",
+                    "setIconGeometry"
+                ],
+                [
+                    "setIconName",
+                    "setIconName(const char *)",
+                    "setIconName"
+                ],
+                [
+                    "setName",
+                    "setName(const char *)",
+                    "setName"
+                ],
+                [
+                    "setOpacity",
+                    "setOpacity(unsigned long)",
+                    "setOpacity"
+                ],
+                [
+                    "setOpacityF",
+                    "setOpacityF(qreal)",
+                    "setOpacityF"
+                ],
+                [
+                    "setPid",
+                    "setPid(int)",
+                    "setPid"
+                ],
+                [
+                    "setStartupId",
+                    "setStartupId(const char *)",
+                    "setStartupId"
+                ],
+                [
+                    "setState",
+                    "setState(NET::States, NET::States)",
+                    "setState"
+                ],
+                [
+                    "setUserTime",
+                    "setUserTime(xcb_timestamp_t)",
+                    "setUserTime"
+                ],
+                [
+                    "setVisibleIconName",
+                    "setVisibleIconName(const char *)",
+                    "setVisibleIconName"
+                ],
+                [
+                    "setVisibleName",
+                    "setVisibleName(const char *)",
+                    "setVisibleName"
+                ],
+                [
+                    "setWindowType",
+                    "setWindowType(NET::WindowType)",
+                    "setWindowType"
+                ],
+                [
+                    "startupId",
+                    "startupId() const : const char *",
+                    "startupId"
+                ],
+                [
+                    "state",
+                    "state() const : NET::States",
+                    "state"
+                ],
+                [
+                    "supportsProtocol",
+                    "supportsProtocol(NET::Protocol) const : bool",
+                    "supportsProtocol"
+                ],
+                [
+                    "transientFor",
+                    "transientFor() const : xcb_window_t",
+                    "transientFor"
+                ],
+                [
+                    "urgency",
+                    "urgency() const : bool",
+                    "urgency"
+                ],
+                [
+                    "userTime",
+                    "userTime() const : xcb_timestamp_t",
+                    "userTime"
+                ],
+                [
+                    "visibleIconName",
+                    "visibleIconName() const : const char *",
+                    "visibleIconName"
+                ],
+                [
+                    "visibleName",
+                    "visibleName() const : const char *",
+                    "visibleName"
+                ],
+                [
+                    "windowClassClass",
+                    "windowClassClass() const : const char *",
+                    "windowClassClass"
+                ],
+                [
+                    "windowClassName",
+                    "windowClassName() const : const char *",
+                    "windowClassName"
+                ],
+                [
+                    "windowRole",
+                    "windowRole() const : const char *",
+                    "windowRole"
+                ],
+                [
+                    "windowType",
+                    "windowType(NET::WindowTypes) const : NET::WindowType",
+                    "windowType"
+                ],
+                [
+                    "xcbConnection",
+                    "xcbConnection() const : xcb_connection_t *",
+                    "xcbConnection"
+                ]
+            ],
+            "name": "NETWinInfo",
+            "page": "kwindowsystem/netwininfo",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "kwindowsystem",
+    "sections": [
+        {
+            "description": "Access to the windowing system.",
+            "page": "kwindowsystem/kwindowsystem-module",
+            "pages": [
+                [
+                    "kwindowsystem/kwindowsystem-module",
+                    "KWindowSystem C++ Classes"
+                ],
+                [
+                    "kwindowsystem/kselectionowner",
+                    "KSelectionOwner"
+                ],
+                [
+                    "kwindowsystem/kselectionwatcher",
+                    "KSelectionWatcher"
+                ],
+                [
+                    "kwindowsystem/kstartupinfo",
+                    "KStartupInfo"
+                ],
+                [
+                    "kwindowsystem/kstartupinfodata",
+                    "KStartupInfoData"
+                ],
+                [
+                    "kwindowsystem/kstartupinfoid",
+                    "KStartupInfoId"
+                ],
+                [
+                    "kwindowsystem/kwaylandextras",
+                    "KWaylandExtras"
+                ],
+                [
+                    "kwindowsystem/kwindowinfo",
+                    "KWindowInfo"
+                ],
+                [
+                    "kwindowsystem/kwindowshadow",
+                    "KWindowShadow"
+                ],
+                [
+                    "kwindowsystem/kwindowshadowtile",
+                    "KWindowShadowTile"
+                ],
+                [
+                    "kwindowsystem/kwindowsystem",
+                    "KWindowSystem"
+                ],
+                [
+                    "kwindowsystem/kx11extras",
+                    "KX11Extras"
+                ],
+                [
+                    "kwindowsystem/net",
+                    "NET"
+                ],
+                [
+                    "kwindowsystem/netrootinfo",
+                    "NETRootInfo"
+                ],
+                [
+                    "kwindowsystem/netwininfo",
+                    "NETWinInfo"
+                ],
+                [
+                    "kwindowsystem/kkeyserver",
+                    "KKeyServer Namespace"
+                ],
+                [
+                    "kwindowsystem/kusertimestamp",
+                    "KUserTimestamp Namespace"
+                ],
+                [
+                    "kwindowsystem/kwindoweffects",
+                    "KWindowEffects Namespace"
+                ],
+                [
+                    "kwindowsystem/kwindowsystem-index",
+                    "KWindowSystem"
+                ],
+                [
+                    "kwindowsystem/netextendedstrut",
+                    ""
+                ],
+                [
+                    "kwindowsystem/netfullscreenmonitors",
+                    ""
+                ],
+                [
+                    "kwindowsystem/neticon",
+                    ""
+                ],
+                [
+                    "kwindowsystem/netpoint",
+                    ""
+                ],
+                [
+                    "kwindowsystem/netrect",
+                    ""
+                ],
+                [
+                    "kwindowsystem/netsize",
+                    ""
+                ],
+                [
+                    "kwindowsystem/netstrut",
+                    ""
+                ]
+            ],
+            "qml": false,
+            "title": "KWindowSystem C++ Classes"
+        },
+        {
+            "description": "Access to the windowing system.",
+            "page": "kwindowsystem/org-kde-kwindowsystem-qmlmodule",
+            "pages": [
+                [
+                    "kwindowsystem/org-kde-kwindowsystem-qmlmodule",
+                    "KWindowSystem QML Types"
+                ],
+                [
+                    "kwindowsystem/qml-org-kde-kwindowsystem-kwindowsystem",
+                    "KWindowSystem"
+                ],
+                [
+                    "kwindowsystem/qml-org-kde-kwindowsystem-kx11extras",
+                    "KX11Extras"
+                ]
+            ],
+            "qml": true,
+            "title": "KWindowSystem QML Types"
+        }
+    ]
+}

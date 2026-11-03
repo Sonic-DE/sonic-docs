@@ -1,0 +1,605 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ConfigDialog",
+                    "ConfigDialog(QWidget *)",
+                    "ConfigDialog"
+                ],
+                [
+                    "configChanged",
+                    "configChanged()",
+                    "configChanged"
+                ],
+                [
+                    "language",
+                    "language() const : QString",
+                    "language"
+                ],
+                [
+                    "languageChanged",
+                    "languageChanged(const QString &)",
+                    "languageChanged"
+                ],
+                [
+                    "setLanguage",
+                    "setLanguage(const QString &)",
+                    "setLanguage"
+                ],
+                [
+                    "slotApply",
+                    "slotApply()",
+                    "slotApply"
+                ],
+                [
+                    "slotOk",
+                    "slotOk()",
+                    "slotOk"
+                ]
+            ],
+            "name": "Sonnet::ConfigDialog",
+            "page": "sonnetui/sonnet-configdialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "backgroundCheckingButtonShown",
+                    "backgroundCheckingButtonShown : bool",
+                    "backgroundCheckingButtonShown-prop"
+                ],
+                [
+                    "ignoreList",
+                    "ignoreList : QStringList",
+                    "ignoreList-prop"
+                ],
+                [
+                    "language",
+                    "language : QString",
+                    "language-prop"
+                ],
+                [
+                    "preferredLanguages",
+                    "preferredLanguages : QStringList",
+                    "preferredLanguages-prop"
+                ],
+                [
+                    "showNoBackendFound",
+                    "showNoBackendFound : bool",
+                    "showNoBackendFound-prop"
+                ],
+                [
+                    "ConfigView",
+                    "ConfigView(QWidget *)",
+                    "ConfigView"
+                ],
+                [
+                    "backgroundCheckingButtonShown",
+                    "backgroundCheckingButtonShown() const : bool",
+                    "backgroundCheckingButtonShown"
+                ],
+                [
+                    "configChanged",
+                    "configChanged()",
+                    "configChanged"
+                ],
+                [
+                    "ignoreList",
+                    "ignoreList() const : QStringList",
+                    "ignoreList"
+                ],
+                [
+                    "language",
+                    "language() const : QString",
+                    "language"
+                ],
+                [
+                    "noBackendFoundVisible",
+                    "noBackendFoundVisible() const : bool",
+                    "noBackendFoundVisible"
+                ],
+                [
+                    "preferredLanguages",
+                    "preferredLanguages() const : QStringList",
+                    "preferredLanguages"
+                ],
+                [
+                    "setBackgroundCheckingButtonShown",
+                    "setBackgroundCheckingButtonShown()",
+                    "setBackgroundCheckingButtonShown"
+                ],
+                [
+                    "setIgnoreList",
+                    "setIgnoreList(const QStringList &)",
+                    "setIgnoreList"
+                ],
+                [
+                    "setLanguage",
+                    "setLanguage(const QString &)",
+                    "setLanguage"
+                ],
+                [
+                    "setNoBackendFoundVisible",
+                    "setNoBackendFoundVisible(bool)",
+                    "setNoBackendFoundVisible"
+                ],
+                [
+                    "setPreferredLanguages",
+                    "setPreferredLanguages(const QStringList &)",
+                    "setPreferredLanguages"
+                ]
+            ],
+            "name": "Sonnet::ConfigView",
+            "page": "sonnetui/sonnet-configview",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ConfigWidget",
+                    "ConfigWidget(QWidget *)",
+                    "ConfigWidget"
+                ],
+                [
+                    "backgroundCheckingButtonShown",
+                    "backgroundCheckingButtonShown() const : bool",
+                    "backgroundCheckingButtonShown"
+                ],
+                [
+                    "configChanged",
+                    "configChanged()",
+                    "configChanged"
+                ],
+                [
+                    "language",
+                    "language() const : QString",
+                    "language"
+                ],
+                [
+                    "save",
+                    "save()",
+                    "save"
+                ],
+                [
+                    "setBackgroundCheckingButtonShown",
+                    "setBackgroundCheckingButtonShown()",
+                    "setBackgroundCheckingButtonShown"
+                ],
+                [
+                    "setLanguage",
+                    "setLanguage(const QString &)",
+                    "setLanguage"
+                ],
+                [
+                    "slotDefault",
+                    "slotDefault()",
+                    "slotDefault"
+                ],
+                [
+                    "slotIgnoreWordAdded",
+                    "slotIgnoreWordAdded()",
+                    "slotIgnoreWordAdded"
+                ],
+                [
+                    "slotIgnoreWordRemoved",
+                    "slotIgnoreWordRemoved()",
+                    "slotIgnoreWordRemoved"
+                ]
+            ],
+            "name": "Sonnet::ConfigWidget",
+            "page": "sonnetui/sonnet-configwidget",
+            "qtBases": [
+                [
+                    "QWidget",
+                    "https://doc.qt.io/qt-6/qwidget-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Dialog",
+                    "Dialog(Sonnet::BackgroundChecker *, QWidget *)",
+                    "Dialog"
+                ],
+                [
+                    "activeAutoCorrect",
+                    "activeAutoCorrect(bool)",
+                    "activeAutoCorrect"
+                ],
+                [
+                    "autoCorrect",
+                    "autoCorrect(const QString &, const QString &)",
+                    "autoCorrect"
+                ],
+                [
+                    "buffer",
+                    "buffer() const : QString",
+                    "buffer"
+                ],
+                [
+                    "cancel",
+                    "cancel()",
+                    "cancel"
+                ],
+                [
+                    "languageChanged",
+                    "languageChanged(const QString &)",
+                    "languageChanged"
+                ],
+                [
+                    "misspelling",
+                    "misspelling(const QString &, int)",
+                    "misspelling"
+                ],
+                [
+                    "originalBuffer",
+                    "originalBuffer() const : QString",
+                    "originalBuffer"
+                ],
+                [
+                    "replace",
+                    "replace(const QString &, int, const QString &)",
+                    "replace"
+                ],
+                [
+                    "setBuffer",
+                    "setBuffer()",
+                    "setBuffer"
+                ],
+                [
+                    "setSpellCheckContinuedAfterReplacement",
+                    "setSpellCheckContinuedAfterReplacement(bool)",
+                    "setSpellCheckContinuedAfterReplacement"
+                ],
+                [
+                    "show",
+                    "show()",
+                    "show"
+                ],
+                [
+                    "showProgressDialog",
+                    "showProgressDialog(int)",
+                    "showProgressDialog"
+                ],
+                [
+                    "showSpellCheckCompletionMessage",
+                    "showSpellCheckCompletionMessage(bool)",
+                    "showSpellCheckCompletionMessage"
+                ],
+                [
+                    "spellCheckDone",
+                    "spellCheckDone(const QString &)",
+                    "spellCheckDone"
+                ],
+                [
+                    "spellCheckStatus",
+                    "spellCheckStatus()",
+                    "spellCheckStatus"
+                ],
+                [
+                    "stop",
+                    "stop()",
+                    "stop"
+                ]
+            ],
+            "name": "Sonnet::Dialog",
+            "page": "sonnetui/sonnet-dialog",
+            "qtBases": [
+                [
+                    "QDialog",
+                    "https://doc.qt.io/qt-6/qdialog-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "DictionaryComboBox",
+                    "DictionaryComboBox(QWidget *)",
+                    "DictionaryComboBox"
+                ],
+                [
+                    "assignByDictionnary",
+                    "assignByDictionnary(const QString &) : bool",
+                    "assignByDictionnary"
+                ],
+                [
+                    "assignDictionnaryName",
+                    "assignDictionnaryName(const QString &) : bool",
+                    "assignDictionnaryName"
+                ],
+                [
+                    "currentDictionary",
+                    "currentDictionary() const : QString",
+                    "currentDictionary"
+                ],
+                [
+                    "currentDictionaryName",
+                    "currentDictionaryName() const : QString",
+                    "currentDictionaryName"
+                ],
+                [
+                    "dictionaryChanged",
+                    "dictionaryChanged(const QString &)",
+                    "dictionaryChanged"
+                ],
+                [
+                    "dictionaryNameChanged",
+                    "dictionaryNameChanged(const QString &)",
+                    "dictionaryNameChanged"
+                ],
+                [
+                    "reloadCombo",
+                    "reloadCombo()",
+                    "reloadCombo"
+                ],
+                [
+                    "setCurrentByDictionary",
+                    "setCurrentByDictionary(const QString &)",
+                    "setCurrentByDictionary"
+                ],
+                [
+                    "setCurrentByDictionaryName",
+                    "setCurrentByDictionaryName(const QString &)",
+                    "setCurrentByDictionaryName"
+                ]
+            ],
+            "name": "Sonnet::DictionaryComboBox",
+            "page": "sonnetui/sonnet-dictionarycombobox",
+            "qtBases": [
+                [
+                    "QComboBox",
+                    "https://doc.qt.io/qt-6/qcombobox-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Highlighter",
+                    "Highlighter(QPlainTextEdit *, const QColor &)",
+                    "Highlighter"
+                ],
+                [
+                    "Highlighter",
+                    "Highlighter(QTextEdit *, const QColor &)",
+                    "Highlighter-1"
+                ],
+                [
+                    "activeChanged",
+                    "activeChanged(const QString &)",
+                    "activeChanged"
+                ],
+                [
+                    "addWordToDictionary",
+                    "addWordToDictionary(const QString &)",
+                    "addWordToDictionary"
+                ],
+                [
+                    "autoDetectLanguageDisabled",
+                    "autoDetectLanguageDisabled() const : bool",
+                    "autoDetectLanguageDisabled"
+                ],
+                [
+                    "automatic",
+                    "automatic() const : bool",
+                    "automatic"
+                ],
+                [
+                    "checkerEnabledByDefault",
+                    "checkerEnabledByDefault() const : bool",
+                    "checkerEnabledByDefault"
+                ],
+                [
+                    "currentLanguage",
+                    "currentLanguage() const : QString",
+                    "currentLanguage"
+                ],
+                [
+                    "ignoreWord",
+                    "ignoreWord(const QString &)",
+                    "ignoreWord"
+                ],
+                [
+                    "intraWordEditing",
+                    "intraWordEditing() const : bool",
+                    "intraWordEditing"
+                ],
+                [
+                    "isActive",
+                    "isActive() const : bool",
+                    "isActive"
+                ],
+                [
+                    "isWordMisspelled",
+                    "isWordMisspelled(const QString &) : bool",
+                    "isWordMisspelled"
+                ],
+                [
+                    "setActive",
+                    "setActive(bool)",
+                    "setActive"
+                ],
+                [
+                    "setAutoDetectLanguageDisabled",
+                    "setAutoDetectLanguageDisabled(bool)",
+                    "setAutoDetectLanguageDisabled"
+                ],
+                [
+                    "setAutomatic",
+                    "setAutomatic(bool)",
+                    "setAutomatic"
+                ],
+                [
+                    "setCurrentLanguage",
+                    "setCurrentLanguage(const QString &)",
+                    "setCurrentLanguage"
+                ],
+                [
+                    "setDocument",
+                    "setDocument(QTextDocument *)",
+                    "setDocument"
+                ],
+                [
+                    "setIntraWordEditing",
+                    "setIntraWordEditing(bool)",
+                    "setIntraWordEditing"
+                ],
+                [
+                    "setMisspelled",
+                    "setMisspelled(int, int)",
+                    "setMisspelled"
+                ],
+                [
+                    "setMisspelledColor",
+                    "setMisspelledColor(const QColor &)",
+                    "setMisspelledColor"
+                ],
+                [
+                    "slotAutoDetection",
+                    "slotAutoDetection()",
+                    "slotAutoDetection"
+                ],
+                [
+                    "slotRehighlight",
+                    "slotRehighlight()",
+                    "slotRehighlight"
+                ],
+                [
+                    "spellCheckerFound",
+                    "spellCheckerFound() const : bool",
+                    "spellCheckerFound"
+                ],
+                [
+                    "suggestionsForWord",
+                    "suggestionsForWord(const QString &, int) : QStringList",
+                    "suggestionsForWord"
+                ],
+                [
+                    "suggestionsForWord",
+                    "suggestionsForWord(const QString &, const QTextCursor &, int) : QStringList",
+                    "suggestionsForWord-1"
+                ],
+                [
+                    "unsetMisspelled",
+                    "unsetMisspelled(int, int)",
+                    "unsetMisspelled"
+                ]
+            ],
+            "name": "Sonnet::Highlighter",
+            "page": "sonnetui/sonnet-highlighter",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "SpellCheckDecorator",
+                    "SpellCheckDecorator(QPlainTextEdit *)",
+                    "SpellCheckDecorator"
+                ],
+                [
+                    "SpellCheckDecorator",
+                    "SpellCheckDecorator(QTextEdit *)",
+                    "SpellCheckDecorator-1"
+                ],
+                [
+                    "highlighter",
+                    "highlighter() const : Sonnet::Highlighter *",
+                    "highlighter"
+                ],
+                [
+                    "isSpellCheckingEnabledForBlock",
+                    "isSpellCheckingEnabledForBlock(const QString &) const : bool",
+                    "isSpellCheckingEnabledForBlock"
+                ],
+                [
+                    "setHighlighter",
+                    "setHighlighter(Sonnet::Highlighter *)",
+                    "setHighlighter"
+                ]
+            ],
+            "name": "Sonnet::SpellCheckDecorator",
+            "page": "sonnetui/sonnet-spellcheckdecorator",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "sonnetui",
+    "sections": [
+        {
+            "description": "SonnetUi is a plugin-based spell checking library for Qt-based applications.",
+            "page": "sonnetui/sonnetui-module",
+            "pages": [
+                [
+                    "sonnetui/sonnetui-module",
+                    "Sonnet Ui C++ Classes"
+                ],
+                [
+                    "sonnetui/sonnet-configdialog",
+                    "Sonnet::ConfigDialog"
+                ],
+                [
+                    "sonnetui/sonnet-configview",
+                    "Sonnet::ConfigView"
+                ],
+                [
+                    "sonnetui/sonnet-configwidget",
+                    "Sonnet::ConfigWidget"
+                ],
+                [
+                    "sonnetui/sonnet-dialog",
+                    "Sonnet::Dialog"
+                ],
+                [
+                    "sonnetui/sonnet-dictionarycombobox",
+                    "Sonnet::DictionaryComboBox"
+                ],
+                [
+                    "sonnetui/sonnet-highlighter",
+                    "Sonnet::Highlighter"
+                ],
+                [
+                    "sonnetui/sonnet-spellcheckdecorator",
+                    "Sonnet::SpellCheckDecorator"
+                ],
+                [
+                    "sonnetui/sonnet-sub-sonnetui",
+                    "Sonnet Namespace"
+                ]
+            ],
+            "qml": false,
+            "title": "Sonnet Ui C++ Classes"
+        }
+    ]
+}
