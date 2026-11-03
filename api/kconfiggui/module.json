@@ -1,0 +1,52 @@
+{
+    "description": "Persistent platform-independent application settings.",
+    "module": "kconfiggui",
+    "modulePage": "kconfiggui/kconfiggui-module",
+    "pages": [
+        [
+            "kconfiggui/kconfiggui-module",
+            "KConfigGui C++ Classes"
+        ],
+        [
+            "kconfiggui/kconfigloader",
+            "KConfigLoader"
+        ],
+        [
+            "kconfiggui/kconfigskeleton",
+            "KConfigSkeleton"
+        ],
+        [
+            "kconfiggui/kconfigskeleton-itemcolor",
+            "KConfigSkeleton::ItemColor"
+        ],
+        [
+            "kconfiggui/kconfigskeleton-itemfont",
+            "KConfigSkeleton::ItemFont"
+        ],
+        [
+            "kconfiggui/kstandardshortcut-standardshortcutwatcher",
+            "KStandardShortcut::StandardShortcutWatcher"
+        ],
+        [
+            "kconfiggui/kwindowstatesaver",
+            "KWindowStateSaver"
+        ],
+        [
+            "kconfiggui/kconfiggui",
+            "KConfigGui Namespace"
+        ],
+        [
+            "kconfiggui/kstandardactions",
+            "KStandardActions Namespace"
+        ],
+        [
+            "kconfiggui/kstandardshortcut",
+            "KStandardShortcut Namespace"
+        ],
+        [
+            "kconfiggui/kwindowconfig",
+            "KWindowConfig Namespace"
+        ]
+    ],
+    "title": "KConfigGui C++ Classes"
+}

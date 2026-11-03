@@ -15,6 +15,11 @@ using and developing Sonic-DE.
 - [Dependencies](developer/dependencies.md) lists what a build host needs.
 - [Troubleshooting](developer/troubleshooting.md) collects known build problems.
 
+## API reference
+
+The [SonicDE API Reference](/api) documents the SonicDE libraries' classes and QML types. It is
+generated from the documentation comments in their source code.
+
 ## Contributing to these pages
 
 Every page here is a Markdown file in the

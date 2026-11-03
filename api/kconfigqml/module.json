@@ -1,0 +1,28 @@
+{
+    "description": "Persistent platform-independent application settings.",
+    "module": "kconfigqml",
+    "modulePage": "kconfigqml/kconfigqml-module",
+    "pages": [
+        [
+            "kconfigqml/kconfigqml-module",
+            "KConfigQml C++ Classes"
+        ],
+        [
+            "kconfigqml/kconfigpropertymap",
+            "KConfigPropertyMap"
+        ],
+        [
+            "kconfigqml/org-kde-config-qmlmodule",
+            "KConfig QML Types"
+        ],
+        [
+            "kconfigqml/qml-org-kde-config-kauthorized",
+            "KAuthorized QML Type (Singleton)"
+        ],
+        [
+            "kconfigqml/qml-org-kde-config-windowstatesaver",
+            "WindowStateSaver QML Type"
+        ]
+    ],
+    "title": "KConfigQml C++ Classes"
+}
