@@ -11,12 +11,13 @@ Markdown; pages are never edited on the site itself.
 ```
 toc.yaml               table of contents: the site's navigation and page order
 home.md                the documentation's front page
-getting-started/
+user/                  guides for people using Sonic-DE
+developer/             guides for people developing Sonic-DE and its apps
   building.md          building Sonic-DE with sonicde-builder
   dependencies.md      the packages each platform needs
   troubleshooting.md
-user/                  guides for people using Sonic-DE
-developer/             guides for people developing Sonic-DE and its apps
+api/                   the generated API reference (don't edit; see below)
+reference/             Markdown elements the site supports
 LICENSE
 ```
 
@@ -38,8 +39,10 @@ per page; don't assume one licence for every page.
 
 ## API reference
 
-The API reference for the Sonic-DE libraries isn't written here. It's generated from the
-source code's documentation comments and published separately.
+The API reference for the Sonic-DE libraries isn't written by hand. `docbook2markdown6`
+generates `api/` from the source code's documentation comments, and the site publishes it
+at `/api`, separately from these guides. Fix mistakes in the comments in the source, not in
+`api/`, which is replaced on every generation.
 
 ## Licence
 

@@ -8,12 +8,12 @@ description: User and developer documentation for Sonic-DE, the KDE-derived desk
 Sonic-DE is a fork of KDE with full X11 compatibility. This documentation covers building,
 using and developing Sonic-DE.
 
-## Where to start
+## Developing Sonic-DE
 
-- [Building Sonic-DE](getting-started/building.md) explains how to fetch and build the whole
+- [Building Sonic-DE](developer/building.md) explains how to fetch and build the whole
   desktop from source with sonicde-builder.
-- [Dependencies](getting-started/dependencies.md) lists what a build host needs.
-- [Troubleshooting](getting-started/troubleshooting.md) collects known build problems.
+- [Dependencies](developer/dependencies.md) lists what a build host needs.
+- [Troubleshooting](developer/troubleshooting.md) collects known build problems.
 
 ## Contributing to these pages
 
