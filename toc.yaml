@@ -1,8 +1,10 @@
 rootPage: home
 sections:
-  Developing SonicDE:
+  Overview:
     pages:
       home: Introduction
+  Developing SonicDE:
+    pages:
       developer/building: Building Sonic-DE
       developer/dependencies: Dependencies
       developer/troubleshooting: Troubleshooting
