@@ -7,8 +7,9 @@ description: "Convert values in different physical units."
 
 Convert values in different physical units. [More...](#details)
 
-- Header: KUnitConversion
-- CMake: find\_package(KF6 REQUIRED COMPONENTS UnitConversion) target\_link\_libraries(mytarget PRIVATE KF6::UnitConversion)
+- **Header:** `#include <KUnitConversion>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS UnitConversion)`  
+  `target_link_libraries(mytarget PRIVATE KF6::UnitConversion)`
 
 ## Detailed Description {#details}
 

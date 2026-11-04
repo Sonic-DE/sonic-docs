@@ -61,17 +61,17 @@ Readonly property that points to the item that will act as a physical handle for
 
 ### handleClosedIcon group {#handleClosedIcon-prop}
 
-**handleClosedIcon.color : color**
+### handleClosedIcon.color : color {#handleClosedIcon.color-prop}
 
-**handleClosedIcon.fromControlsIcon : function**
+### handleClosedIcon.fromControlsIcon : function {#handleClosedIcon.fromControlsIcon-prop}
 
-**handleClosedIcon.height : real**
+### handleClosedIcon.height : real {#handleClosedIcon.height-prop}
 
-**handleClosedIcon.name : string**
+### handleClosedIcon.name : string {#handleClosedIcon.name-prop}
 
-**handleClosedIcon.source : var**
+### handleClosedIcon.source : var {#handleClosedIcon.source-prop}
 
-**handleClosedIcon.width : real**
+### handleClosedIcon.width : real {#handleClosedIcon.width-prop}
 
 This grouped property holds the description of an optional icon.
 

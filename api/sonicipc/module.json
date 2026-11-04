@@ -1,0 +1,336 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Client",
+                    "Client(quint16, qint64, QObject *)",
+                    "Client"
+                ],
+                [
+                    "connectToServer",
+                    "connectToServer(const QString &)",
+                    "connectToServer"
+                ],
+                [
+                    "connected",
+                    "connected(Sonic::Ipc::Connection *)",
+                    "connected"
+                ],
+                [
+                    "connection",
+                    "connection() const : Sonic::Ipc::Connection *",
+                    "connection"
+                ],
+                [
+                    "connectionFailed",
+                    "connectionFailed(const QString &)",
+                    "connectionFailed"
+                ],
+                [
+                    "disconnectFromServer",
+                    "disconnectFromServer()",
+                    "disconnectFromServer"
+                ],
+                [
+                    "request",
+                    "request(const QString &, quint32, QByteArrayView, quint16, int, QString *, qint64) : std::optional<Sonic::Ipc::Frame>",
+                    "request"
+                ],
+                [
+                    "setReconnectInterval",
+                    "setReconnectInterval(int)",
+                    "setReconnectInterval"
+                ],
+                [
+                    "versionRejected",
+                    "versionRejected(quint16)",
+                    "versionRejected"
+                ]
+            ],
+            "name": "Sonic::Ipc::Client",
+            "page": "sonicipc/sonic-ipc-client",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Connection",
+                    "Connection(QLocalSocket *, quint16, qint64, QObject *)",
+                    "Connection"
+                ],
+                [
+                    "disconnected",
+                    "disconnected()",
+                    "disconnected"
+                ],
+                [
+                    "frameReceived",
+                    "frameReceived(quint32, const QByteArray &)",
+                    "frameReceived"
+                ],
+                [
+                    "peerCredentials",
+                    "peerCredentials() const : std::optional<Sonic::Ipc::Connection::PeerCredentials>",
+                    "peerCredentials"
+                ],
+                [
+                    "protocolError",
+                    "protocolError(const QString &)",
+                    "protocolError"
+                ],
+                [
+                    "protocolVersion",
+                    "protocolVersion() const : quint16",
+                    "protocolVersion"
+                ],
+                [
+                    "send",
+                    "send(quint32, QByteArrayView) : bool",
+                    "send"
+                ],
+                [
+                    "sendBlocking",
+                    "sendBlocking(quint32, QByteArrayView, int) : bool",
+                    "sendBlocking"
+                ],
+                [
+                    "socket",
+                    "socket() const : QLocalSocket *",
+                    "socket"
+                ],
+                [
+                    "versionRejected",
+                    "versionRejected(quint16)",
+                    "versionRejected"
+                ],
+                [
+                    "waitForFrame",
+                    "waitForFrame(int) : std::optional<Sonic::Ipc::Frame>",
+                    "waitForFrame"
+                ]
+            ],
+            "name": "Sonic::Ipc::Connection",
+            "page": "sonicipc/sonic-ipc-connection",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "gid",
+                    "gid : qint64",
+                    "gid-var"
+                ],
+                [
+                    "pid",
+                    "pid : qint64",
+                    "pid-var"
+                ],
+                [
+                    "uid",
+                    "uid : qint64",
+                    "uid-var"
+                ]
+            ],
+            "name": "Sonic::Ipc::Connection::PeerCredentials",
+            "page": "sonicipc/sonic-ipc-connection-peercredentials",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "VersionRejected",
+                    "VersionRejected : const quint32",
+                    "VersionRejected-var"
+                ],
+                [
+                    "payload",
+                    "payload : QByteArray",
+                    "payload-var"
+                ],
+                [
+                    "type",
+                    "type : quint32",
+                    "type-var"
+                ]
+            ],
+            "name": "Sonic::Ipc::Frame",
+            "page": "sonicipc/sonic-ipc-frame",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "FrameReader",
+                    "FrameReader(quint16, qint64)",
+                    "FrameReader"
+                ],
+                [
+                    "error",
+                    "error() const : Sonic::Ipc::FrameReader::Error",
+                    "error"
+                ],
+                [
+                    "errorString",
+                    "errorString() const : QString",
+                    "errorString"
+                ],
+                [
+                    "feed",
+                    "feed(QByteArrayView)",
+                    "feed"
+                ],
+                [
+                    "next",
+                    "next() : std::optional<Sonic::Ipc::Frame>",
+                    "next"
+                ],
+                [
+                    "peerProtocolVersion",
+                    "peerProtocolVersion() const : quint16",
+                    "peerProtocolVersion"
+                ]
+            ],
+            "name": "Sonic::Ipc::FrameReader",
+            "page": "sonicipc/sonic-ipc-framereader",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Server",
+                    "Server(QObject *)",
+                    "Server"
+                ],
+                [
+                    "broadcast",
+                    "broadcast(quint32, QByteArrayView)",
+                    "broadcast"
+                ],
+                [
+                    "close",
+                    "close()",
+                    "close"
+                ],
+                [
+                    "connections",
+                    "connections() const : QList<Sonic::Ipc::Connection *>",
+                    "connections"
+                ],
+                [
+                    "errorString",
+                    "errorString() const : QString",
+                    "errorString"
+                ],
+                [
+                    "fullServerName",
+                    "fullServerName() const : QString",
+                    "fullServerName"
+                ],
+                [
+                    "listen",
+                    "listen(const QString &, Sonic::Ipc::Server::Access, quint16, qint64) : bool",
+                    "listen"
+                ],
+                [
+                    "newConnection",
+                    "newConnection(Sonic::Ipc::Connection *)",
+                    "newConnection"
+                ],
+                [
+                    "userSocketPath",
+                    "userSocketPath(const QString &) : QString",
+                    "userSocketPath"
+                ]
+            ],
+            "name": "Sonic::Ipc::Server",
+            "page": "sonicipc/sonic-ipc-server",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "sonicipc",
+    "sections": [
+        {
+            "description": "Framed peer-to-peer messages over local sockets.",
+            "page": "sonicipc/sonicipc-module",
+            "pages": [
+                [
+                    "sonicipc/sonicipc-module",
+                    "Sonic IPC C++ Classes"
+                ],
+                [
+                    "sonicipc/sonic-ipc-client",
+                    "Sonic::Ipc::Client"
+                ],
+                [
+                    "sonicipc/sonic-ipc-connection",
+                    "Sonic::Ipc::Connection"
+                ],
+                [
+                    "sonicipc/sonic-ipc-connection-peercredentials",
+                    "Sonic::Ipc::Connection::PeerCredentials"
+                ],
+                [
+                    "sonicipc/sonic-ipc-frame",
+                    "Sonic::Ipc::Frame"
+                ],
+                [
+                    "sonicipc/sonic-ipc-framereader",
+                    "Sonic::Ipc::FrameReader"
+                ],
+                [
+                    "sonicipc/sonic-ipc-server",
+                    "Sonic::Ipc::Server"
+                ],
+                [
+                    "sonicipc/sonic-ipc",
+                    "Sonic::Ipc Namespace"
+                ],
+                [
+                    "sonicipc/sonic-ipc-crc32",
+                    "Sonic::Ipc::Crc32 Namespace"
+                ],
+                [
+                    "sonicipc/sonic-sub-sonicipc",
+                    "Sonic Namespace"
+                ],
+                [
+                    "sonicipc/sonicipc-index",
+                    "Sonic IPC"
+                ]
+            ],
+            "qml": false,
+            "title": "Sonic IPC C++ Classes"
+        }
+    ]
+}

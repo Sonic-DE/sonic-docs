@@ -1,14 +1,17 @@
 ---
-title: ""
+title: "Attica::Target Struct"
 description: "The target in a build service."
 ---
 
-# 
+# Attica::Target Struct
 
 The target in a build service. [More...](#details)
 
-- Header: Attica/BuildService
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Attica) target\_link\_libraries(mytarget PRIVATE KF6::Attica)
+- **Header:** `#include <Attica/BuildService>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Attica)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Attica)`
+
+[List of all members, including inherited members](attica-target-members.md)
 
 ## Detailed Description {#details}
 

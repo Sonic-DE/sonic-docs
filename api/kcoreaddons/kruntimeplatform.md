@@ -7,8 +7,9 @@ description: "Utility functions around the runtime platform."
 
 Utility functions around the runtime platform. [More...](#details)
 
-- Header: KRuntimePlatform
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <KRuntimePlatform>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
 
 ## Detailed Description {#details}
 

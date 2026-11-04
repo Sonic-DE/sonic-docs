@@ -75,15 +75,15 @@ This property was introduced in Qt 6.10.
 
 ### emptyIcon group {#emptyIcon-prop}
 
-**emptyIcon.color : color**
+### emptyIcon.color : color {#emptyIcon.color-prop}
 
-**emptyIcon.height : int**
+### emptyIcon.height : int {#emptyIcon.height-prop}
 
-**emptyIcon.name : string**
+### emptyIcon.name : string {#emptyIcon.name-prop}
 
-**emptyIcon.source : string**
+### emptyIcon.source : string {#emptyIcon.source-prop}
 
-**emptyIcon.width : int**
+### emptyIcon.width : int {#emptyIcon.width-prop}
 
 This property holds an alias to the placeholder message icon displayed when the internal list view is empty.
 
@@ -113,13 +113,13 @@ This property holds an alias to the right actions of the search field.
 
 ### section group {#section-prop}
 
-**section.criteria : enumeration**
+### section.criteria : enumeration {#section.criteria-prop}
 
-**section.delegate : Component**
+### section.delegate : Component {#section.delegate-prop}
 
-**section.labelPositioning : enumneration**
+### section.labelPositioning : enumneration {#section.labelPositioning-prop}
 
-**section.property : string**
+### section.property : string {#section.property-prop}
 
 This property holds an alias to the section component of the internal [ListView](https://doc.qt.io/qt-6/qml-qtquick-listview.html).
 

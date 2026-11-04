@@ -7,8 +7,9 @@ description: "Provides a set of standardized KGuiItems."
 
 Provides a set of standardized KGuiItems. [More...](#details)
 
-- Header: KStandardGuiItem
-- CMake: find\_package(KF6 REQUIRED COMPONENTS WidgetsAddons) target\_link\_libraries(mytarget PRIVATE KF6::WidgetsAddons)
+- **Header:** `#include <KStandardGuiItem>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS WidgetsAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::WidgetsAddons)`
 
 ## Detailed Description {#details}
 

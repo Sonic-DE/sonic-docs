@@ -7,8 +7,9 @@ description: "Interfaces to system mDNS service discovery."
 
 Interfaces to system mDNS service discovery. [More...](#details)
 
-- Header: KDNSSD
-- CMake: find\_package(KF6 REQUIRED COMPONENTS DNSSD) target\_link\_libraries(mytarget PRIVATE KF6::DNSSD)
+- **Header:** `#include <KDNSSD>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS DNSSD)`  
+  `target_link_libraries(mytarget PRIVATE KF6::DNSSD)`
 
 ## Detailed Description {#details}
 

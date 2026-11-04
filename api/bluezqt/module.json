@@ -422,6 +422,16 @@
             "bases": [
             ],
             "members": [
+            ],
+            "name": "BluezQt::AudioConfiguration",
+            "page": "bluezqt/bluezqt-audioconfiguration",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
                 [
                     "percentage",
                     "percentage : int",
@@ -2222,6 +2232,26 @@
             ],
             "members": [
                 [
+                    "codec",
+                    "codec : BluezQt::MediaEndpoint::Codec",
+                    "codec-var"
+                ],
+                [
+                    "role",
+                    "role : BluezQt::MediaEndpoint::Role",
+                    "role-var"
+                ]
+            ],
+            "name": "BluezQt::MediaEndpoint::Configuration",
+            "page": "bluezqt/bluezqt-mediaendpoint-configuration",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
                     "equalizer",
                     "equalizer : Equalizer",
                     "equalizer-prop"
@@ -3362,6 +3392,10 @@
                     "BluezQt::Agent"
                 ],
                 [
+                    "bluezqt/bluezqt-audioconfiguration",
+                    "BluezQt::AudioConfiguration"
+                ],
+                [
                     "bluezqt/bluezqt-battery",
                     "BluezQt::Battery"
                 ],
@@ -3442,6 +3476,10 @@
                     "BluezQt::MediaEndpoint"
                 ],
                 [
+                    "bluezqt/bluezqt-mediaendpoint-configuration",
+                    "BluezQt::MediaEndpoint::Configuration"
+                ],
+                [
                     "bluezqt/bluezqt-mediaplayer",
                     "BluezQt::MediaPlayer"
                 ],
@@ -3506,16 +3544,8 @@
                     "BluezQt Namespace"
                 ],
                 [
-                    "bluezqt/bluezqt-audioconfiguration",
-                    ""
-                ],
-                [
                     "bluezqt/bluezqt-index",
                     "BluezQt"
-                ],
-                [
-                    "bluezqt/bluezqt-mediaendpoint-configuration",
-                    ""
                 ],
                 [
                     "bluezqt/bluezqt-services",

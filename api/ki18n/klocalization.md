@@ -7,9 +7,10 @@ description: "Namespace containing helpers for localization. This namespace was 
 
 Namespace containing helpers for localization. This namespace was introduced in Qt 6.5. [More...](#details)
 
-- Header: KLocalization
-- Since: Qt 6.5
-- CMake: find\_package(KF6 REQUIRED COMPONENTS I18n) target\_link\_libraries(mytarget PRIVATE KF6::I18n)
+- **Header:** `#include <KLocalization>`
+- **Since:** Qt 6.5
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS I18n)`  
+  `target_link_libraries(mytarget PRIVATE KF6::I18n)`
 
 ## Detailed Description {#details}
 

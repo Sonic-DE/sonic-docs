@@ -7,8 +7,9 @@ description: "Manager for Qt widget styles."
 
 Manager for Qt widget styles. [More...](#details)
 
-- Header: KStyleManager
-- CMake: find\_package(KF6 REQUIRED COMPONENTS ConfigWidgets) target\_link\_libraries(mytarget PRIVATE KF6::ConfigWidgets)
+- **Header:** `#include <KStyleManager>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS ConfigWidgets)`  
+  `target_link_libraries(mytarget PRIVATE KF6::ConfigWidgets)`
 
 ## Detailed Description {#details}
 

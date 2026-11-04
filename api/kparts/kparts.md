@@ -7,8 +7,9 @@ description: "Plugin framework for user interface components."
 
 Plugin framework for user interface components. [More...](#details)
 
-- Header: KParts
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Parts) target\_link\_libraries(mytarget PRIVATE KF6::Parts)
+- **Header:** `#include <KParts>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Parts)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Parts)`
 
 ## Detailed Description {#details}
 

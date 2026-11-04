@@ -7,8 +7,9 @@ description: "Installation and loading of additional content (ex: scripts, image
 
 Installation and loading of additional content (ex: scripts, images...) as packages.. [More...](#details)
 
-- Header: KPackage
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Package) target\_link\_libraries(mytarget PRIVATE KF6::Package)
+- **Header:** `#include <KPackage>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Package)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Package)`
 
 ## Detailed Description {#details}
 

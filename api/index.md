@@ -93,7 +93,14 @@ Reference documentation for the SonicDE libraries, generated from their source c
 - [Prison Scanner C++ Classes](prisonscanner/prisonscanner-module.md): Barcode Scanning.
 - [Purpose C++ Classes](purpose/purpose-module.md): Framework for providing abstractions to get the developer's purposes fulfilled.
 - [PurposeWidgets C++ Classes](purposewidgets/purposewidgets-module.md): Framework for providing abstractions to get the developer's purposes fulfilled.
+- [SignOn Client Library C++ Classes](signonqt6/signonqt6-module.md): The Single Sign On client library for Qt applications.
+- [SignOn Extension C++ Classes](signonextension/signonextension-module.md): The interface of signond extensions.
+- [SignOn Plugin C++ Classes](signonplugins/signonplugins-module.md): The interface of Single Sign On authentication plugins.
 - [Solid C++ Classes](solid/solid-module.md): Hardware Abstraction Framework.
+- [Sonic Init Info C++ Classes](sonicinitinfo/sonicinitinfo-module.md): Runtime information about the init system and seat manager.
+- [Sonic IPC C++ Classes](sonicipc/sonicipc-module.md): Framed peer-to-peer messages over local sockets.
+- [Sonic Logging C++ Classes](soniclogging/soniclogging-module.md): The SonicDE message handler and logging API.
+- [Sonic VIA C++ Classes](sonicvia/sonicvia-module.md): Lighting control for QMK keyboards over the VIA protocol.
 - [Sonnet Core C++ Classes](sonnetcore/sonnetcore-module.md): Sonnet is a plugin-based spell checking library for Qt-based applications.
 - [Sonnet Ui C++ Classes](sonnetui/sonnetui-module.md): SonnetUi is a plugin-based spell checking library for Qt-based applications.
 - [Syndication C++ Classes](syndication/syndication-module.md): RSS/Atom parser library.

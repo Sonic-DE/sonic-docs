@@ -97,17 +97,17 @@ This property holds the link embedded in the message text that the user is hover
 
 ### icon group {#icon-prop}
 
-**icon.color : color**
+### icon.color : color {#icon.color-prop}
 
-**icon.fromControlsIcon : function**
+### icon.fromControlsIcon : function {#icon.fromControlsIcon-prop}
 
-**icon.height : real**
+### icon.height : real {#icon.height-prop}
 
-**icon.name : string**
+### icon.name : string {#icon.name-prop}
 
-**icon.source : var**
+### icon.source : var {#icon.source-prop}
 
-**icon.width : real**
+### icon.width : real {#icon.width-prop}
 
 This grouped property holds the description of an optional icon.
 

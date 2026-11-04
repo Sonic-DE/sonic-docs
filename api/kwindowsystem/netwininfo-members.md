@@ -44,6 +44,7 @@ This is the complete list of members for [NETWinInfo](netwininfo.md), including 
 - [kdeGeometry(NETRect &, NETRect &)](netwininfo.md#kdeGeometry)
 - [mappingState() const : NET::MappingState](netwininfo.md#mappingState)
 - [name() const : const char \*](netwininfo.md#name)
+- [OnAllDesktops : const int](netwininfo.md#OnAllDesktops-var)
 - [opacity() const : unsigned long](netwininfo.md#opacity)
 - [opacityF() const : qreal](netwininfo.md#opacityF)
 - [opaqueRegion() const : std::vector\<NETRect\>](netwininfo.md#opaqueRegion)

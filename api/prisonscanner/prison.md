@@ -7,8 +7,9 @@ description: "Barcode Scanning."
 
 Barcode Scanning. [More...](#details)
 
-- Header: Prison
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Prison) target\_link\_libraries(mytarget PRIVATE KF6::PrisonScanner)
+- **Header:** `#include <Prison>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Prison)`  
+  `target_link_libraries(mytarget PRIVATE KF6::PrisonScanner)`
 
 ## Detailed Description {#details}
 

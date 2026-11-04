@@ -69,17 +69,17 @@ This property was introduced in Qt 6.25.
 
 ### icon group {#icon-prop}
 
-**icon.color : color**
+### icon.color : color {#icon.color-prop}
 
-**icon.fromControlsIcon : function**
+### icon.fromControlsIcon : function {#icon.fromControlsIcon-prop}
 
-**icon.height : real**
+### icon.height : real {#icon.height-prop}
 
-**icon.name : string**
+### icon.name : string {#icon.name-prop}
 
-**icon.source : var**
+### icon.source : var {#icon.source-prop}
 
-**icon.width : real**
+### icon.width : real {#icon.width-prop}
 
 This grouped property determines the appearance of the optional icon.
 

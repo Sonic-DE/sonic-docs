@@ -1,14 +1,17 @@
 ---
-title: ""
+title: "Attica::Field Struct"
 description: "Field as set for the class Publisher."
 ---
 
-# 
+# Attica::Field Struct
 
 Field as set for the class Publisher. [More...](#details)
 
-- Header: Attica/Publisher
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Attica) target\_link\_libraries(mytarget PRIVATE KF6::Attica)
+- **Header:** `#include <Attica/Publisher>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Attica)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Attica)`
+
+[List of all members, including inherited members](attica-field-members.md)
 
 ## Detailed Description {#details}
 

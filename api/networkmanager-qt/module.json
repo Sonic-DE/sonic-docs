@@ -443,6 +443,11 @@
                     "vpi",
                     "vpi() const : quint32",
                     "vpi"
+                ],
+                [
+                    "d_ptr",
+                    "d_ptr : NetworkManager::AdslSettingPrivate *",
+                    "d_ptr-var"
                 ]
             ],
             "name": "NetworkManager::AdslSetting",

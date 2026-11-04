@@ -7,8 +7,9 @@ description: "Save and load window sizes into a config."
 
 Save and load window sizes into a config. [More...](#details)
 
-- Header: KWindowConfig
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Config) target\_link\_libraries(mytarget PRIVATE KF6::ConfigGui)
+- **Header:** `#include <KWindowConfig>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
+  `target_link_libraries(mytarget PRIVATE KF6::ConfigGui)`
 
 ## Detailed Description {#details}
 

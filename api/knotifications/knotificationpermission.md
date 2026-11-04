@@ -7,9 +7,10 @@ description: "Check or request permissions to show notifications on platforms wh
 
 Check or request permissions to show notifications on platforms where that is necessary. This namespace was introduced in Qt 6.0. [More...](#details)
 
-- Header: KNotificationPermission
-- Since: Qt 6.0
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Notifications) target\_link\_libraries(mytarget PRIVATE KF6::Notifications)
+- **Header:** `#include <KNotificationPermission>`
+- **Since:** Qt 6.0
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Notifications)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Notifications)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "Large set of desktop widgets."
 
 Large set of desktop widgets. [More...](#details)
 
-- Header: KPassword
-- CMake: find\_package(KF6 REQUIRED COMPONENTS WidgetsAddons) target\_link\_libraries(mytarget PRIVATE KF6::WidgetsAddons)
+- **Header:** `#include <KPassword>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS WidgetsAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::WidgetsAddons)`
 
 ## Detailed Description {#details}
 

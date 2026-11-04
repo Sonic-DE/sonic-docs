@@ -7,8 +7,9 @@ description: "Utility methods to generate documentation in various format from D
 
 Utility methods to generate documentation in various format from DocBook files. [More...](#details)
 
-- Header: docbookxslt.h
-- CMake: find\_package(KF6 REQUIRED COMPONENTS DocTools) target\_link\_libraries(mytarget PRIVATE KF6::DocTools)
+- **Header:** `#include <docbookxslt.h>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS DocTools)`  
+  `target_link_libraries(mytarget PRIVATE KF6::DocTools)`
 
 ## Detailed Description {#details}
 

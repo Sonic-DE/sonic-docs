@@ -24,17 +24,17 @@ A pie chart with text in the middle. [More...](#details)
 
 ### range group {#range-prop}
 
-**range.automatic : bool**
+### range.automatic : bool {#range.automatic-prop}
 
-**range.distance : real**
+### range.distance : real {#range.distance-prop}
 
-**range.from : real**
+### range.from : real {#range.from-prop}
 
-**range.increment : real**
+### range.increment : real {#range.increment-prop}
 
-**range.minimum : real**
+### range.minimum : real {#range.minimum-prop}
 
-**range.to : real**
+### range.to : real {#range.to-prop}
 
 The range of values to display in this [PieChartControl](qml-org-kde-quickcharts-controls-piechartcontrol.md).
 

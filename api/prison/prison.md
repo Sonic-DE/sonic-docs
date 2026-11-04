@@ -7,8 +7,9 @@ description: "Provides classes and methods for generating barcodes."
 
 Provides classes and methods for generating barcodes. [More...](#details)
 
-- Header: Prison/Prison
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Prison) target\_link\_libraries(mytarget PRIVATE KF6::Prison)
+- **Header:** `#include <Prison/Prison>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Prison)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Prison)`
 
 ## Detailed Description {#details}
 

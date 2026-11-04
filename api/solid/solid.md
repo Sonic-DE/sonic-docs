@@ -7,8 +7,9 @@ description: "Hardware Abstraction Framework."
 
 Hardware Abstraction Framework. [More...](#details)
 
-- Header: Solid/SolidNamespace
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Solid) target\_link\_libraries(mytarget PRIVATE KF6::Solid)
+- **Header:** `#include <Solid/SolidNamespace>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Solid)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Solid)`
 
 ## Detailed Description {#details}
 

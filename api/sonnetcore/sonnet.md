@@ -7,8 +7,9 @@ description: "Spelling framework for Qt."
 
 Spelling framework for Qt. [More...](#details)
 
-- Header: Sonnet
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Sonnet) target\_link\_libraries(mytarget PRIVATE KF6::SonnetCore)
+- **Header:** `#include <Sonnet>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Sonnet)`  
+  `target_link_libraries(mytarget PRIVATE KF6::SonnetCore)`
 
 ## Detailed Description {#details}
 

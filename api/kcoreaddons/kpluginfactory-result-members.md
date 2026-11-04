@@ -8,4 +8,8 @@ parent: "kcoreaddons/kpluginfactory-result"
 
 This is the complete list of members for [KPluginFactory::Result](kpluginfactory-result.md), including inherited members.
 
+- [errorReason : KPluginFactory::ResultErrorReason](kpluginfactory-result.md#errorReason-var)
+- [errorString : QString](kpluginfactory-result.md#errorString-var)
+- [errorText : QString](kpluginfactory-result.md#errorText-var)
 - [operator bool() const](kpluginfactory-result.md#operator-bool)
+- [plugin : T \*](kpluginfactory-result.md#plugin-var)

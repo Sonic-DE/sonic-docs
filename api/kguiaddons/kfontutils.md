@@ -7,8 +7,9 @@ description: "Provides utility functions for font data."
 
 Provides utility functions for font data. [More...](#details)
 
-- Header: KFontUtils
-- CMake: find\_package(KF6 REQUIRED COMPONENTS GuiAddons) target\_link\_libraries(mytarget PRIVATE KF6::GuiAddons)
+- **Header:** `#include <KFontUtils>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS GuiAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::GuiAddons)`
 
 ## Detailed Description {#details}
 

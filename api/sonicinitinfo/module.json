@@ -1,0 +1,60 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "fsRoot",
+                    "fsRoot : QString",
+                    "fsRoot-var"
+                ],
+                [
+                    "procRoot",
+                    "procRoot : QString",
+                    "procRoot-var"
+                ],
+                [
+                    "useDBus",
+                    "useDBus : bool",
+                    "useDBus-var"
+                ]
+            ],
+            "name": "Sonic::InitInfo::Environment",
+            "page": "sonicinitinfo/sonic-initinfo-environment",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "sonicinitinfo",
+    "sections": [
+        {
+            "description": "Runtime information about the init system and seat manager.",
+            "page": "sonicinitinfo/sonicinitinfo-module",
+            "pages": [
+                [
+                    "sonicinitinfo/sonicinitinfo-module",
+                    "Sonic Init Info C++ Classes"
+                ],
+                [
+                    "sonicinitinfo/sonic-initinfo-environment",
+                    "Sonic::InitInfo::Environment"
+                ],
+                [
+                    "sonicinitinfo/sonic-initinfo",
+                    "Sonic::InitInfo Namespace"
+                ],
+                [
+                    "sonicinitinfo/sonic-sub-sonicinitinfo",
+                    "Sonic Namespace"
+                ],
+                [
+                    "sonicinitinfo/sonicinitinfo-index",
+                    "Sonic Init Info"
+                ]
+            ],
+            "qml": false,
+            "title": "Sonic Init Info C++ Classes"
+        }
+    ]
+}

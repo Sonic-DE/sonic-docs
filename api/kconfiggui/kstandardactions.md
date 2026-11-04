@@ -7,9 +7,10 @@ description: "Convenience methods to access all standard KDE actions. This names
 
 Convenience methods to access all standard KDE actions. This namespace was introduced in Qt 6.3. [More...](#details)
 
-- Header: KStandardActions
-- Since: Qt 6.3
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Config) target\_link\_libraries(mytarget PRIVATE KF6::ConfigGui)
+- **Header:** `#include <KStandardActions>`
+- **Since:** Qt 6.3
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
+  `target_link_libraries(mytarget PRIVATE KF6::ConfigGui)`
 
 ## Detailed Description {#details}
 

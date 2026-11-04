@@ -87,6 +87,26 @@
         },
         {
             "bases": [
+            ],
+            "members": [
+                [
+                    "actions",
+                    "actions : QList<QAction *>",
+                    "actions-var"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-var"
+                ]
+            ],
+            "name": "KCommandBar::ActionGroup",
+            "page": "kconfigwidgets/kcommandbar-actiongroup",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
                 "kwidgetsaddons/kpagedialog"
             ],
             "members": [
@@ -606,6 +626,10 @@
                     "KCommandBar"
                 ],
                 [
+                    "kconfigwidgets/kcommandbar-actiongroup",
+                    "KCommandBar::ActionGroup"
+                ],
+                [
                     "kconfigwidgets/kconfigdialog",
                     "KConfigDialog"
                 ],
@@ -636,10 +660,6 @@
                 [
                     "kconfigwidgets/kcolorschememenu",
                     "KColorSchemeMenu Namespace"
-                ],
-                [
-                    "kconfigwidgets/kcommandbar-actiongroup",
-                    ""
                 ],
                 [
                     "kconfigwidgets/kconfigwidgets-index",

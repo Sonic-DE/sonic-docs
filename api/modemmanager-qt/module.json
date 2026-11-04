@@ -1820,6 +1820,31 @@
         },
         {
             "bases": [
+            ],
+            "members": [
+                [
+                    "data",
+                    "data : QByteArray",
+                    "data-var"
+                ],
+                [
+                    "number",
+                    "number : QString",
+                    "number-var"
+                ],
+                [
+                    "text",
+                    "text : QString",
+                    "text-var"
+                ]
+            ],
+            "name": "ModemManager::ModemMessaging::Message",
+            "page": "modemmanager-qt/modemmanager-modemmessaging-message",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
                 "modemmanager-qt/modemmanager-interface"
             ],
             "members": [
@@ -2787,6 +2812,10 @@
                     "ModemManager::ModemMessaging"
                 ],
                 [
+                    "modemmanager-qt/modemmanager-modemmessaging-message",
+                    "ModemManager::ModemMessaging::Message"
+                ],
+                [
                     "modemmanager-qt/modemmanager-modemoma",
                     "ModemManager::ModemOma"
                 ],
@@ -2825,10 +2854,6 @@
                 [
                     "modemmanager-qt/modemmanager",
                     "ModemManager Namespace"
-                ],
-                [
-                    "modemmanager-qt/modemmanager-modemmessaging-message",
-                    ""
                 ],
                 [
                     "modemmanager-qt/modemmanager-qt-index",

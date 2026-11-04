@@ -7,8 +7,9 @@ description: "KLanguageName is a helper namespace that returns the name of a giv
 
 [KLanguageName](klanguagename.md) is a helper namespace that returns the name of a given language code. [More...](#details)
 
-- Header: KLanguageName
-- CMake: find\_package(KF6 REQUIRED COMPONENTS ConfigWidgets) target\_link\_libraries(mytarget PRIVATE KF6::ConfigWidgets)
+- **Header:** `#include <KLanguageName>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS ConfigWidgets)`  
+  `target_link_libraries(mytarget PRIVATE KF6::ConfigWidgets)`
 
 ## Detailed Description {#details}
 

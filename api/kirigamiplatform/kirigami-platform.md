@@ -7,8 +7,9 @@ description: "Platform Integration Components."
 
 Platform Integration Components. [More...](#details)
 
-- Header: Platform
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KirigamiPlatform) target\_link\_libraries(mytarget PRIVATE KF6::KirigamiPlatform)
+- **Header:** `#include <Platform>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KirigamiPlatform)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KirigamiPlatform)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "The CalendarEvents namespace."
 
 The [CalendarEvents](calendarevents.md) namespace. [More...](#details)
 
-- Header: CalendarEvents
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CalendarEvents) target\_link\_libraries(mytarget PRIVATE KF6::CalendarEvents)
+- **Header:** `#include <CalendarEvents>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CalendarEvents)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CalendarEvents)`
 
 ## Detailed Description {#details}
 

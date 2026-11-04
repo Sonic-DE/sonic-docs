@@ -21,17 +21,17 @@ This property specifies which borders are shown.
 
 ### fixedMargins group {#fixedMargins-prop}
 
-**fixedMargins.bottom : qreal**
+### fixedMargins.bottom : qreal {#fixedMargins.bottom-prop}
 
-**fixedMargins.horizontal : qreal**
+### fixedMargins.horizontal : qreal {#fixedMargins.horizontal-prop}
 
-**fixedMargins.left : qreal**
+### fixedMargins.left : qreal {#fixedMargins.left-prop}
 
-**fixedMargins.right : qreal**
+### fixedMargins.right : qreal {#fixedMargins.right-prop}
 
-**fixedMargins.top : qreal**
+### fixedMargins.top : qreal {#fixedMargins.top-prop}
 
-**fixedMargins.vertical : qreal**
+### fixedMargins.vertical : qreal {#fixedMargins.vertical-prop}
 
 This property holds the fixed margins of the frame which are used regardless of any margins being enabled or not.
 
@@ -47,33 +47,33 @@ Example: "widgets/background"
 
 ### inset group {#inset-prop}
 
-**inset.bottom : qreal**
+### inset.bottom : qreal {#inset.bottom-prop}
 
-**inset.horizontal : qreal**
+### inset.horizontal : qreal {#inset.horizontal-prop}
 
-**inset.left : qreal**
+### inset.left : qreal {#inset.left-prop}
 
-**inset.right : qreal**
+### inset.right : qreal {#inset.right-prop}
 
-**inset.top : qreal**
+### inset.top : qreal {#inset.top-prop}
 
-**inset.vertical : qreal**
+### inset.vertical : qreal {#inset.vertical-prop}
 
 This property holds the frame's inset.
 
 ### margins group {#margins-prop}
 
-**margins.bottom : qreal**
+### margins.bottom : qreal {#margins.bottom-prop}
 
-**margins.horizontal : qreal**
+### margins.horizontal : qreal {#margins.horizontal-prop}
 
-**margins.left : qreal**
+### margins.left : qreal {#margins.left-prop}
 
-**margins.right : qreal**
+### margins.right : qreal {#margins.right-prop}
 
-**margins.top : qreal**
+### margins.top : qreal {#margins.top-prop}
 
-**margins.vertical : qreal**
+### margins.vertical : qreal {#margins.vertical-prop}
 
 This property holds the frame's margins.
 

@@ -7,8 +7,9 @@ description: "Qt wrapper for modemmanager API."
 
 Qt wrapper for modemmanager API. [More...](#details)
 
-- Header: ModemManager
-- CMake: find\_package(KF6 REQUIRED COMPONENTS ModemManagerQt) target\_link\_libraries(mytarget PRIVATE KF6::ModemManagerQt)
+- **Header:** `#include <ModemManager>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS ModemManagerQt)`  
+  `target_link_libraries(mytarget PRIVATE KF6::ModemManagerQt)`
 
 ## Detailed Description {#details}
 

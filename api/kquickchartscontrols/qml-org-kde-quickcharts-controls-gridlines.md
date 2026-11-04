@@ -24,26 +24,26 @@ An item that renders a set of lines to make a grid for a chart. [More...](#detai
 
 ### major group {#major-prop}
 
-**major.color : color**
+### major.color : color {#major.color-prop}
 
-**major.count : int**
+### major.count : int {#major.count-prop}
 
-**major.frequency : int**
+### major.frequency : int {#major.frequency-prop}
 
-**major.lineWidth : real**
+### major.lineWidth : real {#major.lineWidth-prop}
 
-**major.visible : bool**
+### major.visible : bool {#major.visible-prop}
 
 ### minor group {#minor-prop}
 
-**minor.color : color**
+### minor.color : color {#minor.color-prop}
 
-**minor.count : int**
+### minor.count : int {#minor.count-prop}
 
-**minor.frequency : int**
+### minor.frequency : int {#minor.frequency-prop}
 
-**minor.lineWidth : real**
+### minor.lineWidth : real {#minor.lineWidth-prop}
 
-**minor.visible : bool**
+### minor.visible : bool {#minor.visible-prop}
 
 ### spacing : real {#spacing-prop}

@@ -7,8 +7,9 @@ description: "Framework for collecting feedback from application users via telem
 
 Framework for collecting feedback from application users via telemetry and targeted surveys.. [More...](#details)
 
-- Header: KUserFeedback
-- CMake: find\_package(KF6 REQUIRED COMPONENTS UserFeedbackCore) target\_link\_libraries(mytarget PRIVATE KF6::UserFeedbackCore)
+- **Header:** `#include <KUserFeedback>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS UserFeedbackCore)`  
+  `target_link_libraries(mytarget PRIVATE KF6::UserFeedbackCore)`
 
 ## Detailed Description {#details}
 

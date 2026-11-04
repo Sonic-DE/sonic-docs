@@ -1069,6 +1069,46 @@
             ],
             "members": [
                 [
+                    "length",
+                    "length : int",
+                    "length-var"
+                ],
+                [
+                    "start",
+                    "start : int",
+                    "start-var"
+                ]
+            ],
+            "name": "KFuzzyMatcher::Range",
+            "page": "kcoreaddons/kfuzzymatcher-range",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "matched",
+                    "matched : bool",
+                    "matched-var"
+                ],
+                [
+                    "score",
+                    "score : int",
+                    "score-var"
+                ]
+            ],
+            "name": "KFuzzyMatcher::Result",
+            "page": "kcoreaddons/kfuzzymatcher-result",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
                     "capabilities",
                     "capabilities : const Capabilities",
                     "capabilities-prop"
@@ -1872,6 +1912,26 @@
                     "operator bool",
                     "operator bool() const",
                     "operator-bool"
+                ],
+                [
+                    "errorReason",
+                    "errorReason : KPluginFactory::ResultErrorReason",
+                    "errorReason-var"
+                ],
+                [
+                    "errorString",
+                    "errorString : QString",
+                    "errorString-var"
+                ],
+                [
+                    "errorText",
+                    "errorText : QString",
+                    "errorText-var"
+                ],
+                [
+                    "plugin",
+                    "plugin : T *",
+                    "plugin-var"
                 ]
             ],
             "name": "KPluginFactory::Result",
@@ -2348,6 +2408,26 @@
             ],
             "members": [
                 [
+                    "arguments",
+                    "arguments : const QStringList",
+                    "arguments-var"
+                ],
+                [
+                    "program",
+                    "program : const QString",
+                    "program-var"
+                ]
+            ],
+            "name": "KSandbox::ProcessContext",
+            "page": "kcoreaddons/ksandbox-processcontext",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
                     "KSharedDataCache",
                     "KSharedDataCache(const QString &, unsigned int, unsigned int)",
                     "KSharedDataCache"
@@ -2783,6 +2863,14 @@
                     "KFormat"
                 ],
                 [
+                    "kcoreaddons/kfuzzymatcher-range",
+                    "KFuzzyMatcher::Range"
+                ],
+                [
+                    "kcoreaddons/kfuzzymatcher-result",
+                    "KFuzzyMatcher::Result"
+                ],
+                [
                     "kcoreaddons/kjob",
                     "KJob"
                 ],
@@ -2829,6 +2917,10 @@
                 [
                     "kcoreaddons/kprocesslist-kprocessinfo",
                     "KProcessList::KProcessInfo"
+                ],
+                [
+                    "kcoreaddons/ksandbox-processcontext",
+                    "KSandbox::ProcessContext"
                 ],
                 [
                     "kcoreaddons/kshareddatacache",
@@ -2879,14 +2971,6 @@
                     "KFuzzyMatcher Namespace"
                 ],
                 [
-                    "kcoreaddons/kfuzzymatcher-range",
-                    ""
-                ],
-                [
-                    "kcoreaddons/kfuzzymatcher-result",
-                    ""
-                ],
-                [
                     "kcoreaddons/kjsonutils",
                     "KJsonUtils Namespace"
                 ],
@@ -2917,10 +3001,6 @@
                 [
                     "kcoreaddons/ksandbox",
                     "KSandbox Namespace"
-                ],
-                [
-                    "kcoreaddons/ksandbox-processcontext",
-                    ""
                 ],
                 [
                     "kcoreaddons/kshell",

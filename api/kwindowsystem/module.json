@@ -1235,6 +1235,191 @@
         },
         {
             "bases": [
+            ],
+            "members": [
+                [
+                    "NETExtendedStrut",
+                    "NETExtendedStrut()",
+                    "NETExtendedStrut"
+                ],
+                [
+                    "bottom_end",
+                    "bottom_end : int",
+                    "bottom_end-var"
+                ],
+                [
+                    "bottom_start",
+                    "bottom_start : int",
+                    "bottom_start-var"
+                ],
+                [
+                    "bottom_width",
+                    "bottom_width : int",
+                    "bottom_width-var"
+                ],
+                [
+                    "left_end",
+                    "left_end : int",
+                    "left_end-var"
+                ],
+                [
+                    "left_start",
+                    "left_start : int",
+                    "left_start-var"
+                ],
+                [
+                    "left_width",
+                    "left_width : int",
+                    "left_width-var"
+                ],
+                [
+                    "right_end",
+                    "right_end : int",
+                    "right_end-var"
+                ],
+                [
+                    "right_start",
+                    "right_start : int",
+                    "right_start-var"
+                ],
+                [
+                    "right_width",
+                    "right_width : int",
+                    "right_width-var"
+                ],
+                [
+                    "top_end",
+                    "top_end : int",
+                    "top_end-var"
+                ],
+                [
+                    "top_start",
+                    "top_start : int",
+                    "top_start-var"
+                ],
+                [
+                    "top_width",
+                    "top_width : int",
+                    "top_width-var"
+                ]
+            ],
+            "name": "NETExtendedStrut",
+            "page": "kwindowsystem/netextendedstrut",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "NETFullscreenMonitors",
+                    "NETFullscreenMonitors()",
+                    "NETFullscreenMonitors"
+                ],
+                [
+                    "isSet",
+                    "isSet() const : bool",
+                    "isSet"
+                ],
+                [
+                    "bottom",
+                    "bottom : int",
+                    "bottom-var"
+                ],
+                [
+                    "left",
+                    "left : int",
+                    "left-var"
+                ],
+                [
+                    "right",
+                    "right : int",
+                    "right-var"
+                ],
+                [
+                    "top",
+                    "top : int",
+                    "top-var"
+                ]
+            ],
+            "name": "NETFullscreenMonitors",
+            "page": "kwindowsystem/netfullscreenmonitors",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "NETIcon",
+                    "NETIcon()",
+                    "NETIcon"
+                ],
+                [
+                    "data",
+                    "data : unsigned char *",
+                    "data-var"
+                ],
+                [
+                    "size",
+                    "size : NETSize",
+                    "size-var"
+                ]
+            ],
+            "name": "NETIcon",
+            "page": "kwindowsystem/neticon",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "NETPoint",
+                    "NETPoint()",
+                    "NETPoint"
+                ],
+                [
+                    "x",
+                    "x : int",
+                    "x-var"
+                ],
+                [
+                    "y",
+                    "y : int",
+                    "y-var"
+                ]
+            ],
+            "name": "NETPoint",
+            "page": "kwindowsystem/netpoint",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "pos",
+                    "pos : NETPoint",
+                    "pos-var"
+                ],
+                [
+                    "size",
+                    "size : NETSize",
+                    "size-var"
+                ]
+            ],
+            "name": "NETRect",
+            "page": "kwindowsystem/netrect",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
                 "kwindowsystem/net"
             ],
             "members": [
@@ -1656,6 +1841,66 @@
         },
         {
             "bases": [
+            ],
+            "members": [
+                [
+                    "NETSize",
+                    "NETSize()",
+                    "NETSize"
+                ],
+                [
+                    "height",
+                    "height : int",
+                    "height-var"
+                ],
+                [
+                    "width",
+                    "width : int",
+                    "width-var"
+                ]
+            ],
+            "name": "NETSize",
+            "page": "kwindowsystem/netsize",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "NETStrut",
+                    "NETStrut()",
+                    "NETStrut"
+                ],
+                [
+                    "bottom",
+                    "bottom : int",
+                    "bottom-var"
+                ],
+                [
+                    "left",
+                    "left : int",
+                    "left-var"
+                ],
+                [
+                    "right",
+                    "right : int",
+                    "right-var"
+                ],
+                [
+                    "top",
+                    "top : int",
+                    "top-var"
+                ]
+            ],
+            "name": "NETStrut",
+            "page": "kwindowsystem/netstrut",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
                 "kwindowsystem/net"
             ],
             "members": [
@@ -2068,6 +2313,11 @@
                     "xcbConnection",
                     "xcbConnection() const : xcb_connection_t *",
                     "xcbConnection"
+                ],
+                [
+                    "OnAllDesktops",
+                    "OnAllDesktops : const int",
+                    "OnAllDesktops-var"
                 ]
             ],
             "name": "NETWinInfo",
@@ -2135,8 +2385,36 @@
                     "NET"
                 ],
                 [
+                    "kwindowsystem/netextendedstrut",
+                    "NETExtendedStrut"
+                ],
+                [
+                    "kwindowsystem/netfullscreenmonitors",
+                    "NETFullscreenMonitors"
+                ],
+                [
+                    "kwindowsystem/neticon",
+                    "NETIcon"
+                ],
+                [
+                    "kwindowsystem/netpoint",
+                    "NETPoint"
+                ],
+                [
+                    "kwindowsystem/netrect",
+                    "NETRect"
+                ],
+                [
                     "kwindowsystem/netrootinfo",
                     "NETRootInfo"
+                ],
+                [
+                    "kwindowsystem/netsize",
+                    "NETSize"
+                ],
+                [
+                    "kwindowsystem/netstrut",
+                    "NETStrut"
                 ],
                 [
                     "kwindowsystem/netwininfo",
@@ -2157,34 +2435,6 @@
                 [
                     "kwindowsystem/kwindowsystem-index",
                     "KWindowSystem"
-                ],
-                [
-                    "kwindowsystem/netextendedstrut",
-                    ""
-                ],
-                [
-                    "kwindowsystem/netfullscreenmonitors",
-                    ""
-                ],
-                [
-                    "kwindowsystem/neticon",
-                    ""
-                ],
-                [
-                    "kwindowsystem/netpoint",
-                    ""
-                ],
-                [
-                    "kwindowsystem/netrect",
-                    ""
-                ],
-                [
-                    "kwindowsystem/netsize",
-                    ""
-                ],
-                [
-                    "kwindowsystem/netstrut",
-                    ""
                 ]
             ],
             "qml": false,

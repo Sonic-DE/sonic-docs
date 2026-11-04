@@ -7,8 +7,9 @@ description: "Utility functions around libexec."
 
 Utility functions around libexec. [More...](#details)
 
-- Header: KLibexec
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <KLibexec>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
 
 ## Detailed Description {#details}
 

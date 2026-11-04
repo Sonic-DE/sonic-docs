@@ -70,17 +70,17 @@ When set, instead of rendering a full circle, the pie will be rendered as an arc
 
 ### range group {#range-prop}
 
-**range.automatic : bool**
+### range.automatic : bool {#range.automatic-prop}
 
-**range.distance : real**
+### range.distance : real {#range.distance-prop}
 
-**range.from : real**
+### range.from : real {#range.from-prop}
 
-**range.increment : real**
+### range.increment : real {#range.increment-prop}
 
-**range.minimum : real**
+### range.minimum : real {#range.minimum-prop}
 
-**range.to : real**
+### range.to : real {#range.to-prop}
 
 The range of values to display in this [PieChart](qml-org-kde-quickcharts-piechart.md).
 

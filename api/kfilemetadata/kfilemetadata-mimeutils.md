@@ -7,8 +7,9 @@ description: "The MimeUtils namespace."
 
 The [MimeUtils](kfilemetadata-mimeutils.md) namespace. [More...](#details)
 
-- Header: MimeUtils
-- CMake: find\_package(KF6 REQUIRED COMPONENTS FileMetaData) target\_link\_libraries(mytarget PRIVATE KF6::FileMetaData)
+- **Header:** `#include <MimeUtils>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS FileMetaData)`  
+  `target_link_libraries(mytarget PRIVATE KF6::FileMetaData)`
 
 ## Detailed Description {#details}
 

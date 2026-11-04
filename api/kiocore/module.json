@@ -1255,6 +1255,66 @@
                     "setModified",
                     "setModified(bool)",
                     "setModified"
+                ],
+                [
+                    "caption",
+                    "caption : QString",
+                    "caption-var"
+                ],
+                [
+                    "comment",
+                    "comment : QString",
+                    "comment-var"
+                ],
+                [
+                    "commentLabel",
+                    "commentLabel : QString",
+                    "commentLabel-var"
+                ],
+                [
+                    "digestInfo",
+                    "digestInfo : QString",
+                    "digestInfo-var"
+                ],
+                [
+                    "keepPassword",
+                    "keepPassword : bool",
+                    "keepPassword-var"
+                ],
+                [
+                    "password",
+                    "password : QString",
+                    "password-var"
+                ],
+                [
+                    "prompt",
+                    "prompt : QString",
+                    "prompt-var"
+                ],
+                [
+                    "readOnly",
+                    "readOnly : bool",
+                    "readOnly-var"
+                ],
+                [
+                    "realmValue",
+                    "realmValue : QString",
+                    "realmValue-var"
+                ],
+                [
+                    "url",
+                    "url : QUrl",
+                    "url-var"
+                ],
+                [
+                    "username",
+                    "username : QString",
+                    "username-var"
+                ],
+                [
+                    "verifyPath",
+                    "verifyPath : bool",
+                    "verifyPath-var"
                 ]
             ],
             "name": "KIO::AuthInfo",
@@ -3194,6 +3254,16 @@
             "bases": [
             ],
             "members": [
+            ],
+            "name": "KProtocolInfo::ExtraField",
+            "page": "kiocore/kprotocolinfo-extrafield",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
                 [
                     "autoResume",
                     "autoResume() : bool",
@@ -3910,6 +3980,10 @@
                     "KProtocolInfo"
                 ],
                 [
+                    "kiocore/kprotocolinfo-extrafield",
+                    "KProtocolInfo::ExtraField"
+                ],
+                [
                     "kiocore/kprotocolmanager",
                     "KProtocolManager"
                 ],
@@ -3948,10 +4022,6 @@
                 [
                     "kiocore/kio-index",
                     "KIO"
-                ],
-                [
-                    "kiocore/kprotocolinfo-extrafield",
-                    ""
                 ],
                 [
                     "kiocore/krecentdirs",

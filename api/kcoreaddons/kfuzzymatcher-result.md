@@ -1,14 +1,17 @@
 ---
-title: ""
+title: "KFuzzyMatcher::Result Struct"
 description: "The result of a fuzzy match."
 ---
 
-# 
+# KFuzzyMatcher::Result Struct
 
 The result of a fuzzy match. [More...](#details)
 
-- Header: Result
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <Result>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
+
+[List of all members, including inherited members](kfuzzymatcher-result-members.md)
 
 ## Detailed Description {#details}
 

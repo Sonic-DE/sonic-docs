@@ -7,8 +7,9 @@ description: "This namespace contains functions to handle crashes."
 
 This namespace contains functions to handle crashes. [More...](#details)
 
-- Header: KCrash
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Crash) target\_link\_libraries(mytarget PRIVATE KF6::Crash)
+- **Header:** `#include <KCrash>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Crash)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Crash)`
 
 ## Detailed Description {#details}
 

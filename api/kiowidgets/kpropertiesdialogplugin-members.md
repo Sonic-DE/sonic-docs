@@ -13,6 +13,7 @@ This is the complete list of members for [KPropertiesDialogPlugin](kpropertiesdi
 - [changed()](kpropertiesdialogplugin.md#changed)
 - [fontHeight() const : int](kpropertiesdialogplugin.md#fontHeight)
 - [isDirty() const : bool](kpropertiesdialogplugin.md#isDirty)
+- [properties : KPropertiesDialog \*const](kpropertiesdialogplugin.md#properties-var)
 - [setDirty(bool)](kpropertiesdialogplugin.md#setDirty)
 
 KPropertiesDialogPlugin also inherits the members of [QObject](https://doc.qt.io/qt-6/qobject-members.html).

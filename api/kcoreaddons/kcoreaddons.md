@@ -7,8 +7,9 @@ description: "Provides utility functions for metadata about the KCoreAddons libr
 
 Provides utility functions for metadata about the [KCoreAddons](kcoreaddons-module.md) library. [More...](#details)
 
-- Header: KCoreAddons
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <KCoreAddons>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
 
 ## Detailed Description {#details}
 

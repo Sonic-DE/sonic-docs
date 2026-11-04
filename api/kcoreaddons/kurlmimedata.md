@@ -7,8 +7,9 @@ description: "Utility functions for using URLs in QMimeData."
 
 Utility functions for using URLs in [QMimeData](https://doc.qt.io/qt-6/qmimedata.html). [More...](#details)
 
-- Header: KUrlMimeData
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <KUrlMimeData>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "A collection of functions for the conversion of key presses and th
 
 A collection of functions for the conversion of key presses and their modifiers from the window system specific format to the generic format and vice-versa. [More...](#details)
 
-- Header: KKeyServer
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KWindowSystem) target\_link\_libraries(mytarget PRIVATE KF6::KWindowSystem)
+- **Header:** `#include <KKeyServer>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KWindowSystem)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KWindowSystem)`
 
 ## Detailed Description {#details}
 

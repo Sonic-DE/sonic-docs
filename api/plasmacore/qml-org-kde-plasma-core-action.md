@@ -23,9 +23,9 @@ Defaults to false.
 
 ### icon group {#icon-prop}
 
-**icon.icon : QIcon**
+### icon.icon : QIcon {#icon.icon-prop}
 
-**icon.name : string**
+### icon.name : string {#icon.name-prop}
 
 ### isSeparator : bool {#isSeparator-prop}
 

@@ -7,8 +7,9 @@ description: "Access to the windowing system.."
 
 Access to the windowing system.. [More...](#details)
 
-- Header: KUserTimestamp
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KWindowSystem) target\_link\_libraries(mytarget PRIVATE KF6::KWindowSystem)
+- **Header:** `#include <KUserTimestamp>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KWindowSystem)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KWindowSystem)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "This namespace provides a method for starting the file types edito
 
 This namespace provides a method for starting the file types editor. [More...](#details)
 
-- Header: KMimeTypeEditor
-- CMake: find\_package(KF6 REQUIRED COMPONENTS WidgetsAddons) target\_link\_libraries(mytarget PRIVATE KF6::WidgetsAddons)
+- **Header:** `#include <KMimeTypeEditor>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS WidgetsAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::WidgetsAddons)`
 
 ## Detailed Description {#details}
 

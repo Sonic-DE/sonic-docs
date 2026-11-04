@@ -7,9 +7,10 @@ description: "Methods for determining the sunrise and sunset times for a given d
 
 Methods for determining the sunrise and sunset times for a given date and Earth location. Use [SunEvents](kholidays-sunevents.md) instead. **This namespace is deprecated since 6.15. We strongly advise against using it in new code.** [More...](#details)
 
-- Header: KHolidays/SunRiseSet
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Holidays) target\_link\_libraries(mytarget PRIVATE KF6::Holidays)
-- Status: Deprecated since 6.15
+- **Header:** `#include <KHolidays/SunRiseSet>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Holidays)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Holidays)`
+- **Status:** Deprecated since 6.15
 
 **This namespace is deprecated since 6.15. We strongly advise against using it in new code.**
 

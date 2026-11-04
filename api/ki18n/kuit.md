@@ -7,8 +7,9 @@ description: "Global constants and functions related to KUIT markup."
 
 Global constants and functions related to KUIT markup. [More...](#details)
 
-- Header: Kuit
-- CMake: find\_package(KF6 REQUIRED COMPONENTS I18n) target\_link\_libraries(mytarget PRIVATE KF6::I18n)
+- **Header:** `#include <Kuit>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS I18n)`  
+  `target_link_libraries(mytarget PRIVATE KF6::I18n)`
 
 ## Detailed Description {#details}
 

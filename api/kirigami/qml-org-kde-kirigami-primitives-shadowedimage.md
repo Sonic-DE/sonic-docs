@@ -50,9 +50,9 @@ Set this to false if you want the main thread to load the image, which blocks it
 
 ### border group {#border-prop}
 
-**border.color : real**
+### border.color : real {#border.color-prop}
 
-**border.width : real**
+### border.width : real {#border.width-prop}
 
 This property holds the border's properties of the image.
 
@@ -68,13 +68,13 @@ This will be visible if the image has transparency.
 
 ### corners group {#corners-prop}
 
-**corners.bottomLeftRadius : real**
+### corners.bottomLeftRadius : real {#corners.bottomLeftRadius-prop}
 
-**corners.bottomRightRadius : real**
+### corners.bottomRightRadius : real {#corners.bottomRightRadius-prop}
 
-**corners.topLeftRadius : real**
+### corners.topLeftRadius : real {#corners.topLeftRadius-prop}
 
-**corners.topRightRadius : real**
+### corners.topRightRadius : real {#corners.topRightRadius-prop}
 
 This property holds the corner radius properties of the image.
 
@@ -100,13 +100,13 @@ This property holds the corner radius of the image.
 
 ### shadow group {#shadow-prop}
 
-**shadow.color : real**
+### shadow.color : real {#shadow.color-prop}
 
-**shadow.size : real**
+### shadow.size : real {#shadow.size-prop}
 
-**shadow.xOffset : real**
+### shadow.xOffset : real {#shadow.xOffset-prop}
 
-**shadow.yOffset : real**
+### shadow.yOffset : real {#shadow.yOffset-prop}
 
 This property holds shadow's properties group.
 

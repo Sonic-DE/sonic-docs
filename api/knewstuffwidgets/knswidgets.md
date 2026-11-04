@@ -7,8 +7,9 @@ description: "Contains UX widgets for KNewStuffCore."
 
 Contains UX widgets for [KNewStuffCore](../knewstuffcore/knewstuffcore-module.md). [More...](#details)
 
-- Header: KNSWidgets
-- CMake: find\_package(KF6 REQUIRED COMPONENTS NewStuff) target\_link\_libraries(mytarget PRIVATE KF6::NewStuff)
+- **Header:** `#include <KNSWidgets>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS NewStuff)`  
+  `target_link_libraries(mytarget PRIVATE KF6::NewStuff)`
 
 ## Detailed Description {#details}
 

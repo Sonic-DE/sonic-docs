@@ -7,8 +7,9 @@ description: "Network transparent access to files and data."
 
 Network transparent access to files and data. [More...](#details)
 
-- Header: KRecentDirs
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KIO) target\_link\_libraries(mytarget PRIVATE KF6::KIOCore)
+- **Header:** `#include <KRecentDirs>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KIO)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KIOCore)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "Text encoding."
 
 Text encoding. [More...](#details)
 
-- Header: KEmailAddress
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Codecs) target\_link\_libraries(mytarget PRIVATE KF6::Codecs)
+- **Header:** `#include <KEmailAddress>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Codecs)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Codecs)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "Execute actions as privileged user."
 
 Execute actions as privileged user. [More...](#details)
 
-- Header: KAuth
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Auth) target\_link\_libraries(mytarget PRIVATE KF6::AuthCore)
+- **Header:** `#include <KAuth>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Auth)`  
+  `target_link_libraries(mytarget PRIVATE KF6::AuthCore)`
 
 ## Detailed Description {#details}
 

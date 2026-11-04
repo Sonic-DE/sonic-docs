@@ -7,8 +7,9 @@ description: "Runtime style extensions."
 
 Runtime style extensions. [More...](#details)
 
-- Header: KStyleExtensions
-- CMake: find\_package(KF6 REQUIRED COMPONENTS WidgetsAddons) target\_link\_libraries(mytarget PRIVATE KF6::WidgetsAddons)
+- **Header:** `#include <KStyleExtensions>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS WidgetsAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::WidgetsAddons)`
 
 ## Detailed Description {#details}
 

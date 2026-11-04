@@ -7,8 +7,9 @@ description: "Full text editor component."
 
 Full text editor component. [More...](#details)
 
-- Header: KTextEditor/Editor
-- CMake: find\_package(KF6 REQUIRED COMPONENTS TextEditor) target\_link\_libraries(mytarget PRIVATE KF6::TextEditor)
+- **Header:** `#include <KTextEditor/Editor>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS TextEditor)`  
+  `target_link_libraries(mytarget PRIVATE KF6::TextEditor)`
 
 ## Detailed Description {#details}
 

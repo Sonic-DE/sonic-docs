@@ -7,8 +7,9 @@ description: "Interface-related functions."
 
 Interface-related functions. [More...](#details)
 
-- Header: KConfigGui
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Config) target\_link\_libraries(mytarget PRIVATE KF6::ConfigGui)
+- **Header:** `#include <KConfigGui>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
+  `target_link_libraries(mytarget PRIVATE KF6::ConfigGui)`
 
 ## Detailed Description {#details}
 

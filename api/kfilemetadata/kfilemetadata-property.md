@@ -7,8 +7,9 @@ description: "The Property namespace."
 
 The Property namespace. [More...](#details)
 
-- Header: Property
-- CMake: find\_package(KF6 REQUIRED COMPONENTS FileMetaData) target\_link\_libraries(mytarget PRIVATE KF6::FileMetaData)
+- **Header:** `#include <Property>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS FileMetaData)`  
+  `target_link_libraries(mytarget PRIVATE KF6::FileMetaData)`
 
 ## Detailed Description {#details}
 

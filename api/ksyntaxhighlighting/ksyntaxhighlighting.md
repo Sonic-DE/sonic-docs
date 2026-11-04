@@ -7,8 +7,9 @@ description: "Syntax highlighting engine for Kate syntax definitions."
 
 Syntax highlighting engine for Kate syntax definitions. [More...](#details)
 
-- Header: KSyntaxHighlighting
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KSyntaxHighlighting) target\_link\_libraries(mytarget PRIVATE KF6::KSyntaxHighlighting)
+- **Header:** `#include <KSyntaxHighlighting>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KSyntaxHighlighting)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KSyntaxHighlighting)`
 
 ## Detailed Description {#details}
 

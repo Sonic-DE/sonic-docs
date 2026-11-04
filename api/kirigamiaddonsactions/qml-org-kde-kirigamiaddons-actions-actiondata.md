@@ -165,17 +165,17 @@ ActionData {
 
 ### icon group {#icon-prop}
 
-**icon.cache : bool**
+### icon.cache : bool {#icon.cache-prop}
 
-**icon.color : color**
+### icon.color : color {#icon.color-prop}
 
-**icon.height : real**
+### icon.height : real {#icon.height-prop}
 
-**icon.name : string**
+### icon.name : string {#icon.name-prop}
 
-**icon.source : string**
+### icon.source : string {#icon.source-prop}
 
-**icon.width : real**
+### icon.width : real {#icon.width-prop}
 
 Description for the icon to use, which can be specified by name or path.
 

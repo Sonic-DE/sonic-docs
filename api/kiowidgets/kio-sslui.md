@@ -7,8 +7,9 @@ description: "UI methods for handling SSL errors."
 
 UI methods for handling SSL errors. [More...](#details)
 
-- Header: KIO/SslUi
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KIO) target\_link\_libraries(mytarget PRIVATE KF6::KIOWidgets)
+- **Header:** `#include <KIO/SslUi>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KIO)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KIOWidgets)`
 
 ## Detailed Description {#details}
 

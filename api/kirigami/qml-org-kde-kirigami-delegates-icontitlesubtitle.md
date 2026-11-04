@@ -67,17 +67,17 @@ The font used to display the title.
 
 ### icon group {#icon-prop}
 
-**icon.color : color**
+### icon.color : color {#icon.color-prop}
 
-**icon.fromControlsIcon : function**
+### icon.fromControlsIcon : function {#icon.fromControlsIcon-prop}
 
-**icon.height : real**
+### icon.height : real {#icon.height-prop}
 
-**icon.name : string**
+### icon.name : string {#icon.name-prop}
 
-**icon.source : var**
+### icon.source : var {#icon.source-prop}
 
-**icon.width : real**
+### icon.width : real {#icon.width-prop}
 
 Grouped property for icon properties.
 

@@ -7,8 +7,9 @@ description: "Atom parser and model classes, representing Atom 1.0 documents."
 
 Atom parser and model classes, representing Atom 1.0 documents. [More...](#details)
 
-- Header: Atom
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Syndication) target\_link\_libraries(mytarget PRIVATE KF6::Syndication)
+- **Header:** `#include <Atom>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Syndication)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Syndication)`
 
 ## Detailed Description {#details}
 

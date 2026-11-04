@@ -7,9 +7,10 @@ description: "Helper methods for locating and loading parts. This namespace was 
 
 Helper methods for locating and loading parts. This namespace was introduced in KParts 5.69. [More...](#details)
 
-- Header: KParts/PartLoader
-- Since: KParts 5.69
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Parts) target\_link\_libraries(mytarget PRIVATE KF6::Parts)
+- **Header:** `#include <KParts/PartLoader>`
+- **Since:** KParts 5.69
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Parts)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Parts)`
 
 ## Detailed Description {#details}
 

@@ -1,14 +1,17 @@
 ---
-title: ""
+title: "KNSCore::Entry::DownloadLinkInformation Struct"
 description: "Describes a download link option for an Entry."
 ---
 
-# 
+# KNSCore::Entry::DownloadLinkInformation Struct
 
 Describes a download link option for an Entry. [More...](#details)
 
-- Header: DownloadLinkInformation
-- CMake: find\_package(KF6 REQUIRED COMPONENTS NewStuff) target\_link\_libraries(mytarget PRIVATE KF6::NewStuff)
+- **Header:** `#include <DownloadLinkInformation>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS NewStuff)`  
+  `target_link_libraries(mytarget PRIVATE KF6::NewStuff)`
+
+[List of all members, including inherited members](knscore-entry-downloadlinkinformation-members.md)
 
 ## Detailed Description {#details}
 

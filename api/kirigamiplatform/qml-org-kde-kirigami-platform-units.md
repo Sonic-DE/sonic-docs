@@ -43,19 +43,19 @@ See [Tick, tock, tick - Hugs and life in 3 second intervals (Psychology Today)](
 
 ### iconSizes group {#iconSizes-prop}
 
-**iconSizes.enormous : int**
+### iconSizes.enormous : int {#iconSizes.enormous-prop}
 
-**iconSizes.huge : int**
+### iconSizes.huge : int {#iconSizes.huge-prop}
 
-**iconSizes.large : int**
+### iconSizes.large : int {#iconSizes.large-prop}
 
-**iconSizes.medium : int**
+### iconSizes.medium : int {#iconSizes.medium-prop}
 
-**iconSizes.sizeForLabels : int**
+### iconSizes.sizeForLabels : int {#iconSizes.sizeForLabels-prop}
 
-**iconSizes.small : int**
+### iconSizes.small : int {#iconSizes.small-prop}
 
-**iconSizes.smallMedium : int**
+### iconSizes.smallMedium : int {#iconSizes.smallMedium-prop}
 
 The units.iconSizes group provides access to platform-dependent icon sizing.
 

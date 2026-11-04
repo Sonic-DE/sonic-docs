@@ -1,0 +1,287 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ViaCommand",
+                    "ViaCommand(ViaCommandId, const QByteArray &)",
+                    "ViaCommand"
+                ],
+                [
+                    "commandId",
+                    "commandId() const : ViaCommandId",
+                    "commandId"
+                ],
+                [
+                    "customGetValue",
+                    "customGetValue(LightingChannel, RgbValueId) : ViaCommand",
+                    "customGetValue"
+                ],
+                [
+                    "customSave",
+                    "customSave() : ViaCommand",
+                    "customSave"
+                ],
+                [
+                    "customSetValue",
+                    "customSetValue(LightingChannel, RgbValueId, const QByteArray &) : ViaCommand",
+                    "customSetValue"
+                ],
+                [
+                    "getProtocolVersion",
+                    "getProtocolVersion() : ViaCommand",
+                    "getProtocolVersion"
+                ],
+                [
+                    "payload",
+                    "payload() const : QByteArray",
+                    "payload"
+                ],
+                [
+                    "toReport",
+                    "toReport() const : QByteArray",
+                    "toReport"
+                ]
+            ],
+            "name": "ViaCommand",
+            "page": "sonicvia/viacommand",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ViaDevice",
+                    "ViaDevice(QString)",
+                    "ViaDevice"
+                ],
+                [
+                    "close",
+                    "close() : bool",
+                    "close"
+                ],
+                [
+                    "devicePath",
+                    "devicePath() const : QString",
+                    "devicePath"
+                ],
+                [
+                    "isOpen",
+                    "isOpen() const : bool",
+                    "isOpen"
+                ],
+                [
+                    "lastError",
+                    "lastError() const : QString",
+                    "lastError"
+                ],
+                [
+                    "open",
+                    "open() : bool",
+                    "open"
+                ],
+                [
+                    "sendReport",
+                    "sendReport(const QByteArray &) : QByteArray",
+                    "sendReport"
+                ]
+            ],
+            "name": "ViaDevice",
+            "page": "sonicvia/viadevice",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "discoverViaKeyboards",
+                    "discoverViaKeyboards() : QVector<ViaKeyboardInfo>",
+                    "discoverViaKeyboards"
+                ]
+            ],
+            "name": "ViaDiscovery",
+            "page": "sonicvia/viadiscovery",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "brightness",
+                    "brightness : quint8",
+                    "brightness-var"
+                ],
+                [
+                    "hue",
+                    "hue : quint8",
+                    "hue-var"
+                ],
+                [
+                    "saturation",
+                    "saturation : quint8",
+                    "saturation-var"
+                ]
+            ],
+            "name": "ViaHsv",
+            "page": "sonicvia/viahsv",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "manufacturer",
+                    "manufacturer : QString",
+                    "manufacturer-var"
+                ],
+                [
+                    "path",
+                    "path : QString",
+                    "path-var"
+                ],
+                [
+                    "pid",
+                    "pid : quint16",
+                    "pid-var"
+                ],
+                [
+                    "product",
+                    "product : QString",
+                    "product-var"
+                ],
+                [
+                    "vid",
+                    "vid : quint16",
+                    "vid-var"
+                ]
+            ],
+            "name": "ViaKeyboardInfo",
+            "page": "sonicvia/viakeyboardinfo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "ViaProtocol",
+                    "ViaProtocol(ViaDevice &, quint16)",
+                    "ViaProtocol"
+                ],
+                [
+                    "applyColor",
+                    "applyColor(const QColor &) : bool",
+                    "applyColor"
+                ],
+                [
+                    "getEffect",
+                    "getEffect(LightingChannel, quint8 &) : bool",
+                    "getEffect"
+                ],
+                [
+                    "getLightingValue",
+                    "getLightingValue(LightingChannel, RgbValueId, QByteArray &) : bool",
+                    "getLightingValue"
+                ],
+                [
+                    "hasLightingSupport",
+                    "hasLightingSupport() : bool",
+                    "hasLightingSupport"
+                ],
+                [
+                    "hsvFromColor",
+                    "hsvFromColor(const QColor &) : ViaHsv",
+                    "hsvFromColor"
+                ],
+                [
+                    "protocolVersion",
+                    "protocolVersion() const : quint16",
+                    "protocolVersion"
+                ],
+                [
+                    "queryProtocolVersion",
+                    "queryProtocolVersion(ViaDevice &) : quint16",
+                    "queryProtocolVersion"
+                ],
+                [
+                    "saveSettings",
+                    "saveSettings() : bool",
+                    "saveSettings"
+                ],
+                [
+                    "setBrightness",
+                    "setBrightness(LightingChannel, quint8) : bool",
+                    "setBrightness"
+                ],
+                [
+                    "setColor",
+                    "setColor(LightingChannel, quint8, quint8) : bool",
+                    "setColor"
+                ],
+                [
+                    "setLightingValue",
+                    "setLightingValue(LightingChannel, RgbValueId, const QByteArray &) : bool",
+                    "setLightingValue"
+                ]
+            ],
+            "name": "ViaProtocol",
+            "page": "sonicvia/viaprotocol",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "sonicvia",
+    "sections": [
+        {
+            "description": "Lighting control for QMK keyboards over the VIA protocol.",
+            "page": "sonicvia/sonicvia-module",
+            "pages": [
+                [
+                    "sonicvia/sonicvia-module",
+                    "Sonic VIA C++ Classes"
+                ],
+                [
+                    "sonicvia/viacommand",
+                    "ViaCommand"
+                ],
+                [
+                    "sonicvia/viadevice",
+                    "ViaDevice"
+                ],
+                [
+                    "sonicvia/viadiscovery",
+                    "ViaDiscovery"
+                ],
+                [
+                    "sonicvia/viahsv",
+                    "ViaHsv"
+                ],
+                [
+                    "sonicvia/viakeyboardinfo",
+                    "ViaKeyboardInfo"
+                ],
+                [
+                    "sonicvia/viaprotocol",
+                    "ViaProtocol"
+                ],
+                [
+                    "sonicvia/sonicvia-index",
+                    "Sonic VIA"
+                ]
+            ],
+            "qml": false,
+            "title": "Sonic VIA C++ Classes"
+        }
+    ]
+}

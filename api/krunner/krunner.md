@@ -7,8 +7,9 @@ description: "Framework for Plasma runners."
 
 Framework for Plasma runners. [More...](#details)
 
-- Header: KRunner
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Runner) target\_link\_libraries(mytarget PRIVATE KF6::Runner)
+- **Header:** `#include <KRunner>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Runner)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Runner)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "The functions in this namespace allow actions to be restricted bas
 
 The functions in this namespace allow actions to be restricted based on the URL they operate on (see the [KAuthorized](../kconfigcore/kauthorized.md) namespace in [KConfig](../kconfigcore/kconfig.md)). [More...](#details)
 
-- Header: KUrlAuthorized
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KIO) target\_link\_libraries(mytarget PRIVATE KF6::KIOCore)
+- **Header:** `#include <KUrlAuthorized>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KIO)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KIOCore)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "Qt wrapper for BlueZ 5 DBus API."
 
 Qt wrapper for BlueZ 5 DBus API. [More...](#details)
 
-- Header: BluezQt
-- CMake: find\_package(KF6 REQUIRED COMPONENTS BluezQt) target\_link\_libraries(mytarget PRIVATE KF6::BluezQt)
+- **Header:** `#include <BluezQt>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS BluezQt)`  
+  `target_link_libraries(mytarget PRIVATE KF6::BluezQt)`
 
 ## Detailed Description {#details}
 
@@ -28,7 +29,7 @@ Bluetooth adapter.
 
 Bluetooth agent.
 
-### BluezQt::AudioConfiguration
+### struct [BluezQt::AudioConfiguration](bluezqt-audioconfiguration.md)
 
 ### class [Battery](bluezqt-battery.md)
 

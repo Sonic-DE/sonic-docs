@@ -7,8 +7,9 @@ description: "Icon GUI utilities."
 
 Icon GUI utilities. [More...](#details)
 
-- Header: KPixmapSequenceLoader
-- CMake: find\_package(KF6 REQUIRED COMPONENTS IconWidgets) target\_link\_libraries(mytarget PRIVATE KF6::IconWidgets)
+- **Header:** `#include <KPixmapSequenceLoader>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS IconWidgets)`  
+  `target_link_libraries(mytarget PRIVATE KF6::IconWidgets)`
 
 ## Detailed Description {#details}
 

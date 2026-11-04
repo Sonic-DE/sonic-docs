@@ -7,9 +7,10 @@ description: "Event-handling utilities for QLineEdit instances. This namespace w
 
 Event-handling utilities for [QLineEdit](https://doc.qt.io/qt-6/qlineedit.html) instances. This namespace was introduced in Qt 6.0. [More...](#details)
 
-- Header: KLineEditEventHandler
-- Since: Qt 6.0
-- CMake: find\_package(KF6 REQUIRED COMPONENTS WidgetsAddons) target\_link\_libraries(mytarget PRIVATE KF6::WidgetsAddons)
+- **Header:** `#include <KLineEditEventHandler>`
+- **Since:** Qt 6.0
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS WidgetsAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::WidgetsAddons)`
 
 ## Detailed Description {#details}
 

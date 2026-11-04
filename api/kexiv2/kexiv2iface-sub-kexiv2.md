@@ -7,8 +7,9 @@ description: "Exiv2 library interface."
 
 Exiv2 library interface. [More...](#details)
 
-- Header: KExiv2Iface
-- CMake: find\_package(KExiv2Qt6 REQUIRED) target\_link\_libraries(mytarget PRIVATE KExiv2Qt6)
+- **Header:** `#include <KExiv2Iface>`
+- **CMake:** `find_package(KExiv2Qt6 REQUIRED)`  
+  `target_link_libraries(mytarget PRIVATE KExiv2Qt6)`
 
 ## Detailed Description {#details}
 

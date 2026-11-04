@@ -7,8 +7,9 @@ description: "Library for extracting the text and metadata from a number of diff
 
 Library for extracting the text and metadata from a number of different files. [More...](#details)
 
-- Header: KFileMetaData/Types
-- CMake: find\_package(KF6 REQUIRED COMPONENTS FileMetaData) target\_link\_libraries(mytarget PRIVATE KF6::FileMetaData)
+- **Header:** `#include <KFileMetaData/Types>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS FileMetaData)`  
+  `target_link_libraries(mytarget PRIVATE KF6::FileMetaData)`
 
 ## Detailed Description {#details}
 

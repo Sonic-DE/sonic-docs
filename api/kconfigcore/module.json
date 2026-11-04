@@ -1196,6 +1196,41 @@
         },
         {
             "bases": [
+            ],
+            "members": [
+                [
+                    "label",
+                    "label : QString",
+                    "label-var"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-var"
+                ],
+                [
+                    "toolTip",
+                    "toolTip : QString",
+                    "toolTip-var"
+                ],
+                [
+                    "value",
+                    "value : QString",
+                    "value-var"
+                ],
+                [
+                    "whatsThis",
+                    "whatsThis : QString",
+                    "whatsThis-var"
+                ]
+            ],
+            "name": "KCoreConfigSkeleton::ItemEnum::Choice",
+            "page": "kconfigcore/kcoreconfigskeleton-itemenum-choice",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
                 "kconfigcore/kconfigskeletongenericitem"
             ],
             "members": [
@@ -1906,6 +1941,10 @@
                     "KCoreConfigSkeleton::ItemEnum"
                 ],
                 [
+                    "kconfigcore/kcoreconfigskeleton-itemenum-choice",
+                    "KCoreConfigSkeleton::ItemEnum::Choice"
+                ],
+                [
                     "kconfigcore/kcoreconfigskeleton-itemint",
                     "KCoreConfigSkeleton::ItemInt"
                 ],
@@ -2016,10 +2055,6 @@
                 [
                     "kconfigcore/kconfupdate",
                     "kconf_update Tool"
-                ],
-                [
-                    "kconfigcore/kcoreconfigskeleton-itemenum-choice",
-                    ""
                 ]
             ],
             "qml": false,

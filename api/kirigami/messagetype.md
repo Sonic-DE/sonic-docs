@@ -7,7 +7,7 @@ description: "The severity of a message, used by InlineMessage and other compone
 
 The severity of a message, used by [InlineMessage](qml-org-kde-kirigami-inlinemessage.md) and other components that display status messages. [More...](#details)
 
-- Header: MessageType
+- **Header:** `#include <MessageType>`
 
 ## Detailed Description {#details}
 

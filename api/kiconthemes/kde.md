@@ -7,8 +7,9 @@ description: "Icon GUI utilities."
 
 Icon GUI utilities. [More...](#details)
 
-- Header: KDE
-- CMake: find\_package(KF6 REQUIRED COMPONENTS IconThemes) target\_link\_libraries(mytarget PRIVATE KF6::IconThemes)
+- **Header:** `#include <KDE>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS IconThemes)`  
+  `target_link_libraries(mytarget PRIVATE KF6::IconThemes)`
 
 ## Detailed Description {#details}
 

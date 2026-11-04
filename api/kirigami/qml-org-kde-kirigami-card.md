@@ -34,17 +34,17 @@ The actions will be represented by a list of ToolButtons with an overflow menu w
 
 ### banner group {#banner-prop}
 
-**\[read-only\] banner.source : url**
+### \[read-only\] banner.source : url {#banner.source-prop}
 
-**\[read-only\] banner.title : string**
+### \[read-only\] banner.title : string {#banner.title-prop}
 
-**\[read-only\] banner.titleAlignment : Qt.Alignment**
+### \[read-only\] banner.titleAlignment : Qt.Alignment {#banner.titleAlignment-prop}
 
-**\[read-only\] banner.titleIcon : string**
+### \[read-only\] banner.titleIcon : string {#banner.titleIcon-prop}
 
-**\[read-only\] banner.titleLevel : int**
+### \[read-only\] banner.titleLevel : int {#banner.titleLevel-prop}
 
-**\[read-only\] banner.titleWrapMode : QtQuick.Text.wrapMode**
+### \[read-only\] banner.titleWrapMode : QtQuick.Text.wrapMode {#banner.titleWrapMode-prop}
 
 This grouped property controls the banner image present in the header.
 

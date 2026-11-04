@@ -7,8 +7,9 @@ description: "Dates for holidays and other special events."
 
 Dates for holidays and other special events. [More...](#details)
 
-- Header: KHolidays
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Holidays) target\_link\_libraries(mytarget PRIVATE KF6::Holidays)
+- **Header:** `#include <KHolidays>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Holidays)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Holidays)`
 
 ## Detailed Description {#details}
 

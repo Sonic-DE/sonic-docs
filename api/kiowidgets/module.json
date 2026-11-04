@@ -1275,6 +1275,11 @@
                     "setDirty",
                     "setDirty(bool)",
                     "setDirty"
+                ],
+                [
+                    "properties",
+                    "properties : KPropertiesDialog *const",
+                    "properties-var"
                 ]
             ],
             "name": "KPropertiesDialogPlugin",

@@ -32,17 +32,17 @@ When true, Y values will be added on top of each other. The precise meaning of t
 
 ### xRange group {#xRange-prop}
 
-**xRange.automatic : bool**
+### xRange.automatic : bool {#xRange.automatic-prop}
 
-**xRange.distance : real**
+### xRange.distance : real {#xRange.distance-prop}
 
-**xRange.from : real**
+### xRange.from : real {#xRange.from-prop}
 
-**xRange.increment : real**
+### xRange.increment : real {#xRange.increment-prop}
 
-**xRange.minimum : real**
+### xRange.minimum : real {#xRange.minimum-prop}
 
-**xRange.to : real**
+### xRange.to : real {#xRange.to-prop}
 
 The range of values on the X axis.
 
@@ -60,17 +60,17 @@ increment: The amount with which the range increases. The total range will be li
 
 ### yRange group {#yRange-prop}
 
-**yRange.automatic : bool**
+### yRange.automatic : bool {#yRange.automatic-prop}
 
-**yRange.distance : real**
+### yRange.distance : real {#yRange.distance-prop}
 
-**yRange.from : real**
+### yRange.from : real {#yRange.from-prop}
 
-**yRange.increment : real**
+### yRange.increment : real {#yRange.increment-prop}
 
-**yRange.minimum : real**
+### yRange.minimum : real {#yRange.minimum-prop}
 
-**yRange.to : real**
+### yRange.to : real {#yRange.to-prop}
 
 The range of values on the Y axis.
 

@@ -7,8 +7,9 @@ description: "This namespace contains functions for fuzzy matching a list of str
 
 This namespace contains functions for fuzzy matching a list of strings against a pattern. [More...](#details)
 
-- Header: KFuzzyMatcher
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <KFuzzyMatcher>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
 
 ## Detailed Description {#details}
 
@@ -57,9 +58,9 @@ Q_SLOT void setFilterString(const QString &string)
 
 ## Classes {#classes}
 
-### KFuzzyMatcher::Range
+### struct [KFuzzyMatcher::Range](kfuzzymatcher-range.md)
 
-### KFuzzyMatcher::Result
+### struct [KFuzzyMatcher::Result](kfuzzymatcher-result.md)
 
 ## Type Documentation {#type-documentation}
 

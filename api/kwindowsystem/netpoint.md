@@ -1,14 +1,21 @@
 ---
-title: ""
+title: "NETPoint Struct"
 description: "Simple point class for NET classes."
 ---
 
-# 
+# NETPoint Struct
 
 Simple point class for NET classes. [More...](#details)
 
-- Header: netwm\_def.h
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KWindowSystem) target\_link\_libraries(mytarget PRIVATE KF6::KWindowSystem)
+- **Header:** `#include <netwm_def.h>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KWindowSystem)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KWindowSystem)`
+
+[List of all members, including inherited members](netpoint-members.md)
+
+## Public Functions
+
+- [NETPoint()](#NETPoint)
 
 ## Detailed Description {#details}
 

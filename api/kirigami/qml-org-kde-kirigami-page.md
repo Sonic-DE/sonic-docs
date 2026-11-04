@@ -64,15 +64,15 @@ If the Page is not in a [PageRow](qml-org-kde-kirigami-pagerow.md), by default t
 
 ### icon group {#icon-prop}
 
-**icon.color : color**
+### icon.color : color {#icon.color-prop}
 
-**icon.height : int**
+### icon.height : int {#icon.height-prop}
 
-**icon.name : string**
+### icon.name : string {#icon.name-prop}
 
-**icon.source : string**
+### icon.source : string {#icon.source-prop}
 
-**icon.width : int**
+### icon.width : int {#icon.width-prop}
 
 This holds the icon that represents this page.
 

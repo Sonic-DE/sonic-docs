@@ -7,8 +7,9 @@ description: "Drag-and-drop and clipboard mimedata manipulation for QColor objec
 
 Drag-and-drop and clipboard mimedata manipulation for [QColor](https://doc.qt.io/qt-6/qcolor.html) objects. [More...](#details)
 
-- Header: KColorMimeData
-- CMake: find\_package(KF6 REQUIRED COMPONENTS GuiAddons) target\_link\_libraries(mytarget PRIVATE KF6::GuiAddons)
+- **Header:** `#include <KColorMimeData>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS GuiAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::GuiAddons)`
 
 ## Detailed Description {#details}
 

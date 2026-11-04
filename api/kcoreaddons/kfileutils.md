@@ -7,8 +7,9 @@ description: "A namespace for KFileUtils globals."
 
 A namespace for [KFileUtils](kfileutils.md) globals. [More...](#details)
 
-- Header: KFileUtils
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <KFileUtils>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
 
 ## Detailed Description {#details}
 

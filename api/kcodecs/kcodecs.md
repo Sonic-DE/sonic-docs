@@ -7,8 +7,9 @@ description: "A collection of commonly used encoding and decoding algorithms."
 
 A collection of commonly used encoding and decoding algorithms. [More...](#details)
 
-- Header: KCodecs
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Codecs) target\_link\_libraries(mytarget PRIVATE KF6::Codecs)
+- **Header:** `#include <KCodecs>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Codecs)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Codecs)`
 
 ## Detailed Description {#details}
 

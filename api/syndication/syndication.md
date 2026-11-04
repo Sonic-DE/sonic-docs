@@ -7,8 +7,9 @@ description: "RSS/Atom parser library."
 
 RSS/Atom parser library. [More...](#details)
 
-- Header: Syndication/Global
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Syndication) target\_link\_libraries(mytarget PRIVATE KF6::Syndication)
+- **Header:** `#include <Syndication/Global>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Syndication)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Syndication)`
 
 ## Detailed Description {#details}
 

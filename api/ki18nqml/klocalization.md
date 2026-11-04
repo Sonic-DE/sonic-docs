@@ -7,8 +7,9 @@ description: "Namespace containing helpers for localization."
 
 Namespace containing helpers for localization. [More...](#details)
 
-- Header: KLocalization
-- CMake: find\_package(KF6 REQUIRED COMPONENTS I18n) target\_link\_libraries(mytarget PRIVATE KF6::I18nQml)
+- **Header:** `#include <KLocalization>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS I18n)`  
+  `target_link_libraries(mytarget PRIVATE KF6::I18nQml)`
 
 ## Detailed Description {#details}
 

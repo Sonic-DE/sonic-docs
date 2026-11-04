@@ -7,8 +7,9 @@ description: "Provides utility functions for access to help manuals."
 
 Provides utility functions for access to help manuals. [More...](#details)
 
-- Header: KHelpClient
-- CMake: find\_package(KF6 REQUIRED COMPONENTS ConfigWidgets) target\_link\_libraries(mytarget PRIVATE KF6::ConfigWidgets)
+- **Header:** `#include <KHelpClient>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS ConfigWidgets)`  
+  `target_link_libraries(mytarget PRIVATE KF6::ConfigWidgets)`
 
 ## Detailed Description {#details}
 

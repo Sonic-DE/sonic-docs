@@ -1,14 +1,17 @@
 ---
-title: ""
+title: "NETRect Struct"
 description: "Simple rectangle class for NET classes."
 ---
 
-# 
+# NETRect Struct
 
 Simple rectangle class for NET classes. [More...](#details)
 
-- Header: NETRect
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KWindowSystem) target\_link\_libraries(mytarget PRIVATE KF6::KWindowSystem)
+- **Header:** `#include <NETRect>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KWindowSystem)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KWindowSystem)`
+
+[List of all members, including inherited members](netrect-members.md)
 
 ## Detailed Description {#details}
 

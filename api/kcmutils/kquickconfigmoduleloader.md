@@ -7,8 +7,9 @@ description: "Utilities for KDE System Settings modules."
 
 Utilities for KDE System Settings modules. [More...](#details)
 
-- Header: KQuickConfigModuleLoader
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KCMUtilsQuick) target\_link\_libraries(mytarget PRIVATE KF6::KCMUtilsQuick)
+- **Header:** `#include <KQuickConfigModuleLoader>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KCMUtilsQuick)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KCMUtilsQuick)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "Convenience methods to access all standard KDE actions."
 
 Convenience methods to access all standard KDE actions. [More...](#details)
 
-- Header: KStandardAction
-- CMake: find\_package(KF6 REQUIRED COMPONENTS ConfigWidgets) target\_link\_libraries(mytarget PRIVATE KF6::ConfigWidgets)
+- **Header:** `#include <KStandardAction>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS ConfigWidgets)`  
+  `target_link_libraries(mytarget PRIVATE KF6::ConfigWidgets)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "The Attica namespace."
 
 The Attica namespace. [More...](#details)
 
-- Header: Attica
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Attica) target\_link\_libraries(mytarget PRIVATE KF6::Attica)
+- **Header:** `#include <Attica>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Attica)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Attica)`
 
 ## Detailed Description {#details}
 
@@ -82,7 +83,7 @@ Represents a download item.
 
 Represents a single event.
 
-### Attica::Field
+### struct [Attica::Field](attica-field.md)
 
 ### class [Folder](attica-folder.md)
 
@@ -184,7 +185,7 @@ Represents a put job.
 
 Represents a remote account.
 
-### Attica::Target
+### struct [Attica::Target](attica-target.md)
 
 ### class [Topic](attica-topic.md)
 

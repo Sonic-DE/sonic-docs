@@ -7,8 +7,9 @@ description: "Namespace for common standardized window effects."
 
 Namespace for common standardized window effects. [More...](#details)
 
-- Header: KWindowEffects
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KWindowSystem) target\_link\_libraries(mytarget PRIVATE KF6::KWindowSystem)
+- **Header:** `#include <KWindowEffects>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KWindowSystem)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KWindowSystem)`
 
 ## Detailed Description {#details}
 

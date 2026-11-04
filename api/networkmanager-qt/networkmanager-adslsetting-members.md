@@ -10,6 +10,7 @@ This is the complete list of members for [NetworkManager::AdslSetting](networkma
 
 - [AdslSetting()](networkmanager-adslsetting.md#AdslSetting)
 - [AdslSetting(const NetworkManager::AdslSetting::Ptr &)](networkmanager-adslsetting.md#AdslSetting-1)
+- [d\_ptr : NetworkManager::AdslSettingPrivate \*](networkmanager-adslsetting.md#d_ptr-var)
 - [encapsulation() const : NetworkManager::AdslSetting::Encapsulation](networkmanager-adslsetting.md#encapsulation)
 - [fromMap(const QVariantMap &)](networkmanager-setting.md#fromMap)
 - [isNull() const : bool](networkmanager-setting.md#isNull)

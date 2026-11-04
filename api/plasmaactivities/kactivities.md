@@ -7,8 +7,9 @@ description: "Namespace for everything in libkactivities."
 
 Namespace for everything in libkactivities. [More...](#details)
 
-- Header: KActivities/Version
-- CMake: find\_package(Plasma REQUIRED COMPONENTS Activities) target\_link\_libraries(mytarget PRIVATE Plasma::Activities)
+- **Header:** `#include <KActivities/Version>`
+- **CMake:** `find_package(Plasma REQUIRED COMPONENTS Activities)`  
+  `target_link_libraries(mytarget PRIVATE Plasma::Activities)`
 
 ## Detailed Description {#details}
 

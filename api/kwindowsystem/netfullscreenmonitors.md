@@ -1,14 +1,22 @@
 ---
-title: ""
+title: "NETFullscreenMonitors Struct"
 description: "Simple multiple monitor topology class for NET classes."
 ---
 
-# 
+# NETFullscreenMonitors Struct
 
 Simple multiple monitor topology class for NET classes. [More...](#details)
 
-- Header: NETFullscreenMonitors
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KWindowSystem) target\_link\_libraries(mytarget PRIVATE KF6::KWindowSystem)
+- **Header:** `#include <NETFullscreenMonitors>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KWindowSystem)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KWindowSystem)`
+
+[List of all members, including inherited members](netfullscreenmonitors-members.md)
+
+## Public Functions
+
+- [NETFullscreenMonitors()](#NETFullscreenMonitors)
+- [bool isSet() const](#isSet)
 
 ## Detailed Description {#details}
 

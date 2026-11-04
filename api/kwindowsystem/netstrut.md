@@ -1,15 +1,22 @@
 ---
-title: ""
+title: "NETStrut Struct"
 description: "Simple strut class for NET classes. This struct is deprecated. We strongly advise against using it in new code."
 ---
 
-# 
+# NETStrut Struct
 
 Simple strut class for NET classes. **This struct is deprecated. We strongly advise against using it in new code.** [More...](#details)
 
-- Header: NETStrut
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KWindowSystem) target\_link\_libraries(mytarget PRIVATE KF6::KWindowSystem)
-- Status: Deprecated
+- **Header:** `#include <NETStrut>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KWindowSystem)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KWindowSystem)`
+- **Status:** Deprecated
+
+[List of all members, including inherited members](netstrut-members.md)
+
+## Public Functions
+
+- [NETStrut()](#NETStrut)
 
 **This struct is deprecated. We strongly advise against using it in new code.**
 

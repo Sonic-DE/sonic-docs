@@ -7,8 +7,9 @@ description: "Framework for providing abstractions to get the developer's purpos
 
 Framework for providing abstractions to get the developer's purposes fulfilled.. [More...](#details)
 
-- Header: Purpose
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Purpose) target\_link\_libraries(mytarget PRIVATE KF6::Purpose)
+- **Header:** `#include <Purpose>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Purpose)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Purpose)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "The KSvg namespace."
 
 The [KSvg](ksvg-module.md) namespace. [More...](#details)
 
-- Header: KSvg
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Svg) target\_link\_libraries(mytarget PRIVATE KF6::Svg)
+- **Header:** `#include <KSvg>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Svg)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Svg)`
 
 ## Detailed Description {#details}
 

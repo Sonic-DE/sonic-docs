@@ -1,14 +1,17 @@
 ---
-title: ""
+title: "KCoreConfigSkeleton::ItemEnum::Choice Struct"
 description: "Provides strongly typed enum options for use with KConfigXT."
 ---
 
-# 
+# KCoreConfigSkeleton::ItemEnum::Choice Struct
 
 Provides strongly typed enum options for use with KConfigXT. [More...](#details)
 
-- Header: Choice
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Config) target\_link\_libraries(mytarget PRIVATE KF6::ConfigCore)
+- **Header:** `#include <Choice>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Config)`  
+  `target_link_libraries(mytarget PRIVATE KF6::ConfigCore)`
+
+[List of all members, including inherited members](kcoreconfigskeleton-itemenum-choice-members.md)
 
 ## Detailed Description {#details}
 

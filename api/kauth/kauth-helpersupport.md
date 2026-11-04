@@ -7,8 +7,9 @@ description: "Support class with some KAUTHCORE_EXPORT methods useful to the hel
 
 Support class with some KAUTHCORE\_EXPORT methods useful to the helper's code. [More...](#details)
 
-- Header: KAuth/HelperSupport
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Auth) target\_link\_libraries(mytarget PRIVATE KF6::AuthCore)
+- **Header:** `#include <KAuth/HelperSupport>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Auth)`  
+  `target_link_libraries(mytarget PRIVATE KF6::AuthCore)`
 
 ## Detailed Description {#details}
 

@@ -7,8 +7,9 @@ description: "Qt wrapper for NetworkManager API."
 
 Qt wrapper for NetworkManager API. [More...](#details)
 
-- Header: NetworkManager
-- CMake: find\_package(KF6 REQUIRED COMPONENTS NetworkManagerQt) target\_link\_libraries(mytarget PRIVATE KF6::NetworkManagerQt)
+- **Header:** `#include <NetworkManager>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS NetworkManagerQt)`  
+  `target_link_libraries(mytarget PRIVATE KF6::NetworkManagerQt)`
 
 ## Detailed Description {#details}
 

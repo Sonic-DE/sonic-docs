@@ -54,6 +54,41 @@
             ],
             "members": [
                 [
+                    "dayLabel",
+                    "dayLabel : QString",
+                    "dayLabel-var"
+                ],
+                [
+                    "label",
+                    "label : QString",
+                    "label-var"
+                ],
+                [
+                    "monthLabel",
+                    "monthLabel : QString",
+                    "monthLabel-var"
+                ],
+                [
+                    "priority",
+                    "priority : CalendarEvents::CalendarEventsPlugin::SubLabelPriority",
+                    "priority-var"
+                ],
+                [
+                    "yearLabel",
+                    "yearLabel : QString",
+                    "yearLabel-var"
+                ]
+            ],
+            "name": "CalendarEvents::CalendarEventsPlugin::SubLabel",
+            "page": "calendarevents/calendarevents-calendareventsplugin-sublabel",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
                     "EventData",
                     "EventData()",
                     "EventData"
@@ -195,6 +230,10 @@
                     "CalendarEvents::CalendarEventsPlugin"
                 ],
                 [
+                    "calendarevents/calendarevents-calendareventsplugin-sublabel",
+                    "CalendarEvents::CalendarEventsPlugin::SubLabel"
+                ],
+                [
                     "calendarevents/calendarevents-eventdata",
                     "CalendarEvents::EventData"
                 ],
@@ -205,10 +244,6 @@
                 [
                     "calendarevents/calendarevents",
                     "CalendarEvents Namespace"
-                ],
-                [
-                    "calendarevents/calendarevents-calendareventsplugin-sublabel",
-                    ""
                 ],
                 [
                     "calendarevents/kdeclarative-index",

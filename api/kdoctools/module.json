@@ -4,6 +4,21 @@
             "bases": [
             ],
             "members": [
+                [
+                    "resolveLink",
+                    "resolveLink(const QString &, const DocBook2Markdown::PageAnchors &, const QString &) const : QString",
+                    "resolveLink"
+                ],
+                [
+                    "setIndexAggregates",
+                    "setIndexAggregates(QHash<QString, DocBook2Markdown::IndexAggregate>)",
+                    "setIndexAggregates"
+                ],
+                [
+                    "setModuleAnchors",
+                    "setModuleAnchors(QHash<QString, DocBook2Markdown::PageAnchors>)",
+                    "setModuleAnchors"
+                ]
             ],
             "name": "DocBook2Markdown::Converter",
             "page": "kdoctools/docbook2markdown-converter",

@@ -7,8 +7,9 @@ description: "Stand-alone implementation of the Kate syntax highlighting engine.
 
 Stand-alone implementation of the Kate syntax highlighting engine. [More...](#details)
 
-- Header: KSyntaxHighlighting/WildcardMatcher
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KSyntaxHighlighting) target\_link\_libraries(mytarget PRIVATE KF6::KSyntaxHighlighting)
+- **Header:** `#include <KSyntaxHighlighting/WildcardMatcher>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KSyntaxHighlighting)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KSyntaxHighlighting)`
 
 ## Detailed Description {#details}
 

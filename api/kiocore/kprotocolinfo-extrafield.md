@@ -1,14 +1,21 @@
 ---
-title: ""
+title: "KProtocolInfo::ExtraField Struct"
 description: "Network transparent access to files and data."
 ---
 
-# 
+# KProtocolInfo::ExtraField Struct
 
 Network transparent access to files and data. [More...](#details)
 
-- Header: ExtraField
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KIO) target\_link\_libraries(mytarget PRIVATE KF6::KIOCore)
+- **Header:** `#include <ExtraField>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KIO)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KIOCore)`
+
+[List of all members, including inherited members](kprotocolinfo-extrafield-members.md)
+
+## Public Types
+
+- [enum ExtraField::Type](#Type-enum)
 
 ## Detailed Description {#details}
 

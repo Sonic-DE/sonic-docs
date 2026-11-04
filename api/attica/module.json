@@ -1575,6 +1575,41 @@
             ],
             "members": [
                 [
+                    "fieldsize",
+                    "fieldsize : int",
+                    "fieldsize-var"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-var"
+                ],
+                [
+                    "options",
+                    "options : QStringList",
+                    "options-var"
+                ],
+                [
+                    "required",
+                    "required : bool",
+                    "required-var"
+                ],
+                [
+                    "type",
+                    "type : QString",
+                    "type-var"
+                ]
+            ],
+            "name": "Attica::Field",
+            "page": "attica/attica-field",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
                     "Folder",
                     "Folder()",
                     "Folder"
@@ -3537,6 +3572,26 @@
             ],
             "members": [
                 [
+                    "id",
+                    "id : QString",
+                    "id-var"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-var"
+                ]
+            ],
+            "name": "Attica::Target",
+            "page": "attica/attica-target",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
                     "Topic",
                     "Topic()",
                     "Topic"
@@ -3702,6 +3757,10 @@
                     "Attica::Event"
                 ],
                 [
+                    "attica/attica-field",
+                    "Attica::Field"
+                ],
+                [
                     "attica/attica-folder",
                     "Attica::Folder"
                 ],
@@ -3802,6 +3861,10 @@
                     "Attica::RemoteAccount"
                 ],
                 [
+                    "attica/attica-target",
+                    "Attica::Target"
+                ],
+                [
                     "attica/attica-topic",
                     "Attica::Topic"
                 ],
@@ -3810,16 +3873,8 @@
                     "Attica Namespace"
                 ],
                 [
-                    "attica/attica-field",
-                    ""
-                ],
-                [
                     "attica/attica-index",
                     "Attica"
-                ],
-                [
-                    "attica/attica-target",
-                    ""
                 ]
             ],
             "qml": false,

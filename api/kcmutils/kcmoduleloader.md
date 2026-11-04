@@ -7,8 +7,9 @@ description: "Loads a KCModule."
 
 Loads a [KCModule](kcmodule.md). [More...](#details)
 
-- Header: KCModuleLoader
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KCMUtils) target\_link\_libraries(mytarget PRIVATE KF6::KCMUtils)
+- **Header:** `#include <KCModuleLoader>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KCMUtils)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KCMUtils)`
 
 ## Detailed Description {#details}
 

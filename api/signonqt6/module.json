@@ -1,0 +1,776 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AuthService",
+                    "AuthService(QObject *)",
+                    "AuthService"
+                ],
+                [
+                    "~AuthService",
+                    "~AuthService()",
+                    "dtor.AuthService"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "cleared",
+                    "cleared()",
+                    "cleared"
+                ],
+                [
+                    "error",
+                    "error(const SignOn::Error &)",
+                    "error"
+                ],
+                [
+                    "identities",
+                    "identities(const QList<SignOn::IdentityInfo> &)",
+                    "identities"
+                ],
+                [
+                    "mechanismsAvailable",
+                    "mechanismsAvailable(const QString &, const QStringList &)",
+                    "mechanismsAvailable"
+                ],
+                [
+                    "methodsAvailable",
+                    "methodsAvailable(const QStringList &)",
+                    "methodsAvailable"
+                ],
+                [
+                    "queryIdentities",
+                    "queryIdentities(const SignOn::AuthService::IdentityFilter &)",
+                    "queryIdentities"
+                ],
+                [
+                    "queryMechanisms",
+                    "queryMechanisms(const QString &)",
+                    "queryMechanisms"
+                ],
+                [
+                    "queryMethods",
+                    "queryMethods()",
+                    "queryMethods"
+                ]
+            ],
+            "name": "SignOn::AuthService",
+            "page": "signonqt6/signon-authservice",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "IdentityRegExp",
+                    "IdentityRegExp(const QString &)",
+                    "IdentityRegExp"
+                ],
+                [
+                    "IdentityRegExp",
+                    "IdentityRegExp(const SignOn::AuthService::IdentityRegExp &)",
+                    "IdentityRegExp-1"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "pattern",
+                    "pattern() const : QString",
+                    "pattern"
+                ]
+            ],
+            "name": "SignOn::AuthService::IdentityRegExp",
+            "page": "signonqt6/signon-authservice-identityregexp",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "cancel",
+                    "cancel()",
+                    "cancel"
+                ],
+                [
+                    "challenge",
+                    "challenge(const SignOn::SessionData &, const QString &)",
+                    "challenge"
+                ],
+                [
+                    "error",
+                    "error(const SignOn::Error &)",
+                    "error"
+                ],
+                [
+                    "mechanismsAvailable",
+                    "mechanismsAvailable(const QStringList &)",
+                    "mechanismsAvailable"
+                ],
+                [
+                    "name",
+                    "name() const : const QString",
+                    "name"
+                ],
+                [
+                    "process",
+                    "process(const SignOn::SessionData &, const QString &)",
+                    "process"
+                ],
+                [
+                    "queryAvailableMechanisms",
+                    "queryAvailableMechanisms(const QStringList &)",
+                    "queryAvailableMechanisms"
+                ],
+                [
+                    "request",
+                    "request(const SignOn::SessionData &, const QString &)",
+                    "request"
+                ],
+                [
+                    "response",
+                    "response(const SignOn::SessionData &)",
+                    "response"
+                ],
+                [
+                    "stateChanged",
+                    "stateChanged(SignOn::AuthSession::AuthSessionState, const QString &)",
+                    "stateChanged"
+                ]
+            ],
+            "name": "SignOn::AuthSession",
+            "page": "signonqt6/signon-authsession",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "Error",
+                    "Error()",
+                    "Error"
+                ],
+                [
+                    "Error",
+                    "Error(int, const QString &)",
+                    "Error-2"
+                ],
+                [
+                    "Error",
+                    "Error(const SignOn::Error &)",
+                    "Error-1"
+                ],
+                [
+                    "~Error",
+                    "~Error()",
+                    "dtor.Error"
+                ],
+                [
+                    "message",
+                    "message() const : QString",
+                    "message"
+                ],
+                [
+                    "setMessage",
+                    "setMessage(const QString &)",
+                    "setMessage"
+                ],
+                [
+                    "setType",
+                    "setType(int)",
+                    "setType"
+                ],
+                [
+                    "type",
+                    "type() const : int",
+                    "type"
+                ],
+                [
+                    "operator=",
+                    "operator=(const SignOn::Error &) : SignOn::Error &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "SignOn::Error",
+            "page": "signonqt6/signon-error",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "~Identity",
+                    "~Identity()",
+                    "dtor.Identity"
+                ],
+                [
+                    "addReference",
+                    "addReference(const QString &)",
+                    "addReference"
+                ],
+                [
+                    "createSession",
+                    "createSession(const QString &) : SignOn::AuthSessionP",
+                    "createSession"
+                ],
+                [
+                    "credentialsStored",
+                    "credentialsStored(const quint32)",
+                    "credentialsStored"
+                ],
+                [
+                    "destroySession",
+                    "destroySession(const SignOn::AuthSessionP &)",
+                    "destroySession"
+                ],
+                [
+                    "error",
+                    "error(const SignOn::Error &)",
+                    "error"
+                ],
+                [
+                    "existingIdentity",
+                    "existingIdentity(const quint32, QObject *) : SignOn::Identity *",
+                    "existingIdentity"
+                ],
+                [
+                    "id",
+                    "id() const : quint32",
+                    "id"
+                ],
+                [
+                    "info",
+                    "info(const SignOn::IdentityInfo &)",
+                    "info"
+                ],
+                [
+                    "methodsAvailable",
+                    "methodsAvailable(const QStringList &)",
+                    "methodsAvailable"
+                ],
+                [
+                    "newIdentity",
+                    "newIdentity(const SignOn::IdentityInfo &, QObject *) : SignOn::Identity *",
+                    "newIdentity"
+                ],
+                [
+                    "queryAvailableMethods",
+                    "queryAvailableMethods()",
+                    "queryAvailableMethods"
+                ],
+                [
+                    "queryInfo",
+                    "queryInfo()",
+                    "queryInfo"
+                ],
+                [
+                    "referenceAdded",
+                    "referenceAdded()",
+                    "referenceAdded"
+                ],
+                [
+                    "referenceRemoved",
+                    "referenceRemoved()",
+                    "referenceRemoved"
+                ],
+                [
+                    "remove",
+                    "remove()",
+                    "remove"
+                ],
+                [
+                    "removeReference",
+                    "removeReference(const QString &)",
+                    "removeReference"
+                ],
+                [
+                    "removed",
+                    "removed()",
+                    "removed"
+                ],
+                [
+                    "requestCredentialsUpdate",
+                    "requestCredentialsUpdate(const QString &)",
+                    "requestCredentialsUpdate"
+                ],
+                [
+                    "secretVerified",
+                    "secretVerified(const bool)",
+                    "secretVerified"
+                ],
+                [
+                    "signOut",
+                    "signOut()",
+                    "signOut"
+                ],
+                [
+                    "signedOut",
+                    "signedOut()",
+                    "signedOut"
+                ],
+                [
+                    "storeCredentials",
+                    "storeCredentials(const SignOn::IdentityInfo &)",
+                    "storeCredentials"
+                ],
+                [
+                    "userVerified",
+                    "userVerified(const bool)",
+                    "userVerified"
+                ],
+                [
+                    "verifySecret",
+                    "verifySecret(const QString &)",
+                    "verifySecret"
+                ],
+                [
+                    "verifyUser",
+                    "verifyUser(const QString &)",
+                    "verifyUser"
+                ],
+                [
+                    "verifyUser",
+                    "verifyUser(const QVariantMap &)",
+                    "verifyUser-1"
+                ]
+            ],
+            "name": "SignOn::Identity",
+            "page": "signonqt6/signon-identity",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "IdentityInfo",
+                    "IdentityInfo()",
+                    "IdentityInfo"
+                ],
+                [
+                    "IdentityInfo",
+                    "IdentityInfo(const QString &, const QString &, const QMap<SignOn::MethodName, SignOn::MechanismsList> &)",
+                    "IdentityInfo-2"
+                ],
+                [
+                    "IdentityInfo",
+                    "IdentityInfo(const SignOn::IdentityInfo &)",
+                    "IdentityInfo-1"
+                ],
+                [
+                    "~IdentityInfo",
+                    "~IdentityInfo()",
+                    "dtor.IdentityInfo"
+                ],
+                [
+                    "accessControlList",
+                    "accessControlList() const : QStringList",
+                    "accessControlList"
+                ],
+                [
+                    "accessControlListFull",
+                    "accessControlListFull() const : SignOn::SecurityContextList",
+                    "accessControlListFull"
+                ],
+                [
+                    "caption",
+                    "caption() const : const QString",
+                    "caption"
+                ],
+                [
+                    "id",
+                    "id() const : quint32",
+                    "id"
+                ],
+                [
+                    "isStoringSecret",
+                    "isStoringSecret() const : bool",
+                    "isStoringSecret"
+                ],
+                [
+                    "mechanisms",
+                    "mechanisms(const SignOn::MethodName &) const : SignOn::MechanismsList",
+                    "mechanisms"
+                ],
+                [
+                    "methods",
+                    "methods() const : QList<SignOn::MethodName>",
+                    "methods"
+                ],
+                [
+                    "owner",
+                    "owner() const : QString",
+                    "owner"
+                ],
+                [
+                    "realms",
+                    "realms() const : QStringList",
+                    "realms"
+                ],
+                [
+                    "refCount",
+                    "refCount() const : qint32",
+                    "refCount"
+                ],
+                [
+                    "removeMethod",
+                    "removeMethod(const SignOn::MethodName &)",
+                    "removeMethod"
+                ],
+                [
+                    "secret",
+                    "secret() const : QString",
+                    "secret"
+                ],
+                [
+                    "setAccessControlList",
+                    "setAccessControlList(const QStringList &)",
+                    "setAccessControlList"
+                ],
+                [
+                    "setAccessControlList",
+                    "setAccessControlList(const SignOn::SecurityContextList &)",
+                    "setAccessControlList-1"
+                ],
+                [
+                    "setCaption",
+                    "setCaption(const QString &)",
+                    "setCaption"
+                ],
+                [
+                    "setId",
+                    "setId(const quint32)",
+                    "setId"
+                ],
+                [
+                    "setMethod",
+                    "setMethod(const SignOn::MethodName &, const SignOn::MechanismsList &)",
+                    "setMethod"
+                ],
+                [
+                    "setOwner",
+                    "setOwner(const QString &)",
+                    "setOwner"
+                ],
+                [
+                    "setRealms",
+                    "setRealms(const QStringList &)",
+                    "setRealms"
+                ],
+                [
+                    "setRefCount",
+                    "setRefCount(qint32)",
+                    "setRefCount"
+                ],
+                [
+                    "setSecret",
+                    "setSecret(const QString &, const bool)",
+                    "setSecret"
+                ],
+                [
+                    "setStoreSecret",
+                    "setStoreSecret(const bool)",
+                    "setStoreSecret"
+                ],
+                [
+                    "setType",
+                    "setType(SignOn::IdentityInfo::CredentialsType)",
+                    "setType"
+                ],
+                [
+                    "setUserName",
+                    "setUserName(const QString &)",
+                    "setUserName"
+                ],
+                [
+                    "type",
+                    "type() const : SignOn::IdentityInfo::CredentialsType",
+                    "type"
+                ],
+                [
+                    "userName",
+                    "userName() const : const QString",
+                    "userName"
+                ],
+                [
+                    "operator=",
+                    "operator=(const SignOn::IdentityInfo &) : SignOn::IdentityInfo &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "SignOn::IdentityInfo",
+            "page": "signonqt6/signon-identityinfo",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "SecurityContext",
+                    "SecurityContext()",
+                    "SecurityContext"
+                ],
+                [
+                    "SecurityContext",
+                    "SecurityContext(const QString &, const QString &)",
+                    "SecurityContext-1"
+                ],
+                [
+                    "applicationContext",
+                    "applicationContext() const : QString",
+                    "applicationContext"
+                ],
+                [
+                    "setApplicationContext",
+                    "setApplicationContext(const QString &)",
+                    "setApplicationContext"
+                ],
+                [
+                    "setSystemContext",
+                    "setSystemContext(const QString &)",
+                    "setSystemContext"
+                ],
+                [
+                    "systemContext",
+                    "systemContext() const : QString",
+                    "systemContext"
+                ]
+            ],
+            "name": "SignOn::SecurityContext",
+            "page": "signonqt6/signon-securitycontext",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "SessionData",
+                    "SessionData(const QVariantMap &)",
+                    "SessionData"
+                ],
+                [
+                    "SessionData",
+                    "SessionData(const SignOn::SessionData &)",
+                    "SessionData-1"
+                ],
+                [
+                    "data",
+                    "data() const : template <typename T> T",
+                    "data"
+                ],
+                [
+                    "getAccessControlTokens",
+                    "getAccessControlTokens() const : QStringList",
+                    "getAccessControlTokens"
+                ],
+                [
+                    "getProperty",
+                    "getProperty(const QString &) const : const QVariant",
+                    "getProperty"
+                ],
+                [
+                    "propertyNames",
+                    "propertyNames() const : const QStringList",
+                    "propertyNames"
+                ],
+                [
+                    "setCaption",
+                    "setCaption(const QString &)",
+                    "setCaption"
+                ],
+                [
+                    "Caption",
+                    "Caption() const : QString",
+                    "Caption"
+                ],
+                [
+                    "setNetworkProxy",
+                    "setNetworkProxy(const QString &)",
+                    "setNetworkProxy"
+                ],
+                [
+                    "NetworkProxy",
+                    "NetworkProxy() const : QString",
+                    "NetworkProxy"
+                ],
+                [
+                    "setNetworkTimeout",
+                    "setNetworkTimeout(const quint32 &)",
+                    "setNetworkTimeout"
+                ],
+                [
+                    "NetworkTimeout",
+                    "NetworkTimeout() const : quint32",
+                    "NetworkTimeout"
+                ],
+                [
+                    "setRealm",
+                    "setRealm(const QString &)",
+                    "setRealm"
+                ],
+                [
+                    "Realm",
+                    "Realm() const : QString",
+                    "Realm"
+                ],
+                [
+                    "setRenewToken",
+                    "setRenewToken(const bool &)",
+                    "setRenewToken"
+                ],
+                [
+                    "RenewToken",
+                    "RenewToken() const : bool",
+                    "RenewToken"
+                ],
+                [
+                    "setSecret",
+                    "setSecret(const QString &)",
+                    "setSecret"
+                ],
+                [
+                    "Secret",
+                    "Secret() const : QString",
+                    "Secret"
+                ],
+                [
+                    "setUiPolicy",
+                    "setUiPolicy(const int &)",
+                    "setUiPolicy"
+                ],
+                [
+                    "UiPolicy",
+                    "UiPolicy() const : int",
+                    "UiPolicy"
+                ],
+                [
+                    "setUserName",
+                    "setUserName(const QString &)",
+                    "setUserName"
+                ],
+                [
+                    "UserName",
+                    "UserName() const : QString",
+                    "UserName"
+                ],
+                [
+                    "setWindowId",
+                    "setWindowId(const quint32 &)",
+                    "setWindowId"
+                ],
+                [
+                    "WindowId",
+                    "WindowId() const : quint32",
+                    "WindowId"
+                ],
+                [
+                    "toMap",
+                    "toMap() const : QVariantMap",
+                    "toMap"
+                ],
+                [
+                    "operator+=",
+                    "operator+=(const SignOn::SessionData &) : SignOn::SessionData &",
+                    "operator-2b-eq"
+                ],
+                [
+                    "operator=",
+                    "operator=(const SignOn::SessionData &) : SignOn::SessionData &",
+                    "operator-eq"
+                ]
+            ],
+            "name": "SignOn::SessionData",
+            "page": "signonqt6/signon-sessiondata",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "signonqt6",
+    "sections": [
+        {
+            "description": "The Single Sign On client library for Qt applications.",
+            "page": "signonqt6/signonqt6-module",
+            "pages": [
+                [
+                    "signonqt6/signonqt6-module",
+                    "SignOn Client Library C++ Classes"
+                ],
+                [
+                    "signonqt6/signon-authservice",
+                    "SignOn::AuthService"
+                ],
+                [
+                    "signonqt6/signon-authservice-identityregexp",
+                    "SignOn::AuthService::IdentityRegExp"
+                ],
+                [
+                    "signonqt6/signon-authsession",
+                    "SignOn::AuthSession"
+                ],
+                [
+                    "signonqt6/signon-error",
+                    "SignOn::Error"
+                ],
+                [
+                    "signonqt6/signon-identity",
+                    "SignOn::Identity"
+                ],
+                [
+                    "signonqt6/signon-identityinfo",
+                    "SignOn::IdentityInfo"
+                ],
+                [
+                    "signonqt6/signon-securitycontext",
+                    "SignOn::SecurityContext"
+                ],
+                [
+                    "signonqt6/signon-sessiondata",
+                    "SignOn::SessionData"
+                ],
+                [
+                    "signonqt6/signon",
+                    "SignOn Namespace"
+                ],
+                [
+                    "signonqt6/signonqt6-index",
+                    "SignOn Client Library"
+                ]
+            ],
+            "qml": false,
+            "title": "SignOn Client Library C++ Classes"
+        }
+    ]
+}

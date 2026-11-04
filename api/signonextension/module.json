@@ -1,0 +1,710 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AbstractAccessControlManager",
+                    "AbstractAccessControlManager(QObject *)",
+                    "AbstractAccessControlManager"
+                ],
+                [
+                    "~AbstractAccessControlManager",
+                    "~AbstractAccessControlManager()",
+                    "dtor.AbstractAccessControlManager"
+                ],
+                [
+                    "appIdOfPeer",
+                    "appIdOfPeer(const QDBusConnection &, const QDBusMessage &) : QString",
+                    "appIdOfPeer"
+                ],
+                [
+                    "handleRequest",
+                    "handleRequest(const SignOn::AccessRequest &) : SignOn::AccessReply *",
+                    "handleRequest"
+                ],
+                [
+                    "isPeerAllowedToAccess",
+                    "isPeerAllowedToAccess(const QDBusConnection &, const QDBusMessage &, const QString &) : bool",
+                    "isPeerAllowedToAccess"
+                ],
+                [
+                    "keychainWidgetAppId",
+                    "keychainWidgetAppId() : QString",
+                    "keychainWidgetAppId"
+                ]
+            ],
+            "name": "SignOn::AbstractAccessControlManager",
+            "page": "signonextension/signon-abstractaccesscontrolmanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AbstractCryptoManager",
+                    "AbstractCryptoManager(QObject *)",
+                    "AbstractCryptoManager"
+                ],
+                [
+                    "~AbstractCryptoManager",
+                    "~AbstractCryptoManager()",
+                    "dtor.AbstractCryptoManager"
+                ],
+                [
+                    "addEncryptionKey",
+                    "addEncryptionKey(const SignOn::Key &, const SignOn::Key &) : bool",
+                    "addEncryptionKey"
+                ],
+                [
+                    "backupFiles",
+                    "backupFiles() const : QStringList",
+                    "backupFiles"
+                ],
+                [
+                    "deleteFileSystem",
+                    "deleteFileSystem() : bool",
+                    "deleteFileSystem"
+                ],
+                [
+                    "encryptionKey",
+                    "encryptionKey() const : SignOn::Key",
+                    "encryptionKey"
+                ],
+                [
+                    "encryptionKeyInUse",
+                    "encryptionKeyInUse(const SignOn::Key &) : bool",
+                    "encryptionKeyInUse"
+                ],
+                [
+                    "fileSystemIsMounted",
+                    "fileSystemIsMounted() const : bool",
+                    "fileSystemIsMounted"
+                ],
+                [
+                    "fileSystemIsSetup",
+                    "fileSystemIsSetup() const : bool",
+                    "fileSystemIsSetup"
+                ],
+                [
+                    "fileSystemMountPath",
+                    "fileSystemMountPath() const : QString",
+                    "fileSystemMountPath"
+                ],
+                [
+                    "fileSystemMounted",
+                    "fileSystemMounted()",
+                    "fileSystemMounted"
+                ],
+                [
+                    "fileSystemUnmounting",
+                    "fileSystemUnmounting()",
+                    "fileSystemUnmounting"
+                ],
+                [
+                    "initialize",
+                    "initialize(const QVariantMap &) : bool",
+                    "initialize"
+                ],
+                [
+                    "mountFileSystem",
+                    "mountFileSystem() : bool",
+                    "mountFileSystem"
+                ],
+                [
+                    "removeEncryptionKey",
+                    "removeEncryptionKey(const SignOn::Key &, const SignOn::Key &) : bool",
+                    "removeEncryptionKey"
+                ],
+                [
+                    "setEncryptionKey",
+                    "setEncryptionKey(const SignOn::Key &)",
+                    "setEncryptionKey"
+                ],
+                [
+                    "setFileSystemMounted",
+                    "setFileSystemMounted(bool)",
+                    "setFileSystemMounted"
+                ],
+                [
+                    "setFileSystemSetup",
+                    "setFileSystemSetup(bool)",
+                    "setFileSystemSetup"
+                ],
+                [
+                    "setupFileSystem",
+                    "setupFileSystem() : bool",
+                    "setupFileSystem"
+                ],
+                [
+                    "unmountFileSystem",
+                    "unmountFileSystem() : bool",
+                    "unmountFileSystem"
+                ]
+            ],
+            "name": "SignOn::AbstractCryptoManager",
+            "page": "signonextension/signon-abstractcryptomanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AbstractKeyAuthorizer",
+                    "AbstractKeyAuthorizer(SignOn::KeyHandler *, QObject *)",
+                    "AbstractKeyAuthorizer"
+                ],
+                [
+                    "~AbstractKeyAuthorizer",
+                    "~AbstractKeyAuthorizer()",
+                    "dtor.AbstractKeyAuthorizer"
+                ],
+                [
+                    "keyAuthorizationQueried",
+                    "keyAuthorizationQueried(const SignOn::Key, int)",
+                    "keyAuthorizationQueried"
+                ],
+                [
+                    "keyHandler",
+                    "keyHandler() const : SignOn::KeyHandler *",
+                    "keyHandler"
+                ],
+                [
+                    "queryKeyAuthorization",
+                    "queryKeyAuthorization(const SignOn::Key &, SignOn::AbstractKeyAuthorizer::Reason)",
+                    "queryKeyAuthorization"
+                ]
+            ],
+            "name": "SignOn::AbstractKeyAuthorizer",
+            "page": "signonextension/signon-abstractkeyauthorizer",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AbstractKeyManager",
+                    "AbstractKeyManager(QObject *)",
+                    "AbstractKeyManager"
+                ],
+                [
+                    "~AbstractKeyManager",
+                    "~AbstractKeyManager()",
+                    "dtor.AbstractKeyManager"
+                ],
+                [
+                    "describeKey",
+                    "describeKey(const SignOn::Key &) : QString",
+                    "describeKey"
+                ],
+                [
+                    "keyDisabled",
+                    "keyDisabled(const SignOn::Key)",
+                    "keyDisabled"
+                ],
+                [
+                    "keyInserted",
+                    "keyInserted(const SignOn::Key)",
+                    "keyInserted"
+                ],
+                [
+                    "keyRemoved",
+                    "keyRemoved(const SignOn::Key)",
+                    "keyRemoved"
+                ],
+                [
+                    "queryKeys",
+                    "queryKeys()",
+                    "queryKeys"
+                ],
+                [
+                    "setup",
+                    "setup()",
+                    "setup"
+                ]
+            ],
+            "name": "SignOn::AbstractKeyManager",
+            "page": "signonextension/signon-abstractkeymanager",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AbstractSecretsStorage",
+                    "AbstractSecretsStorage(QObject *)",
+                    "AbstractSecretsStorage"
+                ],
+                [
+                    "checkPassword",
+                    "checkPassword(const quint32, const QString &, const QString &) : bool",
+                    "checkPassword"
+                ],
+                [
+                    "clear",
+                    "clear() : bool",
+                    "clear"
+                ],
+                [
+                    "clearError",
+                    "clearError()",
+                    "clearError"
+                ],
+                [
+                    "close",
+                    "close() : bool",
+                    "close"
+                ],
+                [
+                    "initialize",
+                    "initialize(const QVariantMap &) : bool",
+                    "initialize"
+                ],
+                [
+                    "isOpen",
+                    "isOpen() const : bool",
+                    "isOpen"
+                ],
+                [
+                    "lastError",
+                    "lastError() const : SignOn::CredentialsDBError",
+                    "lastError"
+                ],
+                [
+                    "loadCredentials",
+                    "loadCredentials(const quint32, QString &, QString &) : bool",
+                    "loadCredentials"
+                ],
+                [
+                    "loadData",
+                    "loadData(quint32, quint32) : QVariantMap",
+                    "loadData"
+                ],
+                [
+                    "removeCredentials",
+                    "removeCredentials(const quint32) : bool",
+                    "removeCredentials"
+                ],
+                [
+                    "removeData",
+                    "removeData(quint32, quint32) : bool",
+                    "removeData"
+                ],
+                [
+                    "setIsOpen",
+                    "setIsOpen(bool)",
+                    "setIsOpen"
+                ],
+                [
+                    "setLastError",
+                    "setLastError(const SignOn::CredentialsDBError &)",
+                    "setLastError"
+                ],
+                [
+                    "storeData",
+                    "storeData(quint32, quint32, const QVariantMap &) : bool",
+                    "storeData"
+                ],
+                [
+                    "updateCredentials",
+                    "updateCredentials(const quint32, const QString &, const QString &) : bool",
+                    "updateCredentials"
+                ]
+            ],
+            "name": "SignOn::AbstractSecretsStorage",
+            "page": "signonextension/signon-abstractsecretsstorage",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AccessReply",
+                    "AccessReply(const SignOn::AccessRequest &, QObject *)",
+                    "AccessReply"
+                ],
+                [
+                    "accept",
+                    "accept()",
+                    "accept"
+                ],
+                [
+                    "decline",
+                    "decline()",
+                    "decline"
+                ],
+                [
+                    "finished",
+                    "finished()",
+                    "finished"
+                ],
+                [
+                    "isAccepted",
+                    "isAccepted() const : bool",
+                    "isAccepted"
+                ],
+                [
+                    "request",
+                    "request() const : const SignOn::AccessRequest &",
+                    "request"
+                ]
+            ],
+            "name": "SignOn::AccessReply",
+            "page": "signonextension/signon-accessreply",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AccessRequest",
+                    "AccessRequest()",
+                    "AccessRequest"
+                ],
+                [
+                    "AccessRequest",
+                    "AccessRequest(const SignOn::AccessRequest &)",
+                    "AccessRequest-1"
+                ],
+                [
+                    "identity",
+                    "identity() const : quint32",
+                    "identity"
+                ],
+                [
+                    "peerConnection",
+                    "peerConnection() const : const QDBusConnection &",
+                    "peerConnection"
+                ],
+                [
+                    "peerMessage",
+                    "peerMessage() const : const QDBusMessage &",
+                    "peerMessage"
+                ],
+                [
+                    "setIdentity",
+                    "setIdentity(quint32)",
+                    "setIdentity"
+                ],
+                [
+                    "setPeer",
+                    "setPeer(const QDBusConnection &, const QDBusMessage &)",
+                    "setPeer"
+                ]
+            ],
+            "name": "SignOn::AccessRequest",
+            "page": "signonextension/signon-accessrequest",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "CredentialsDBError",
+                    "CredentialsDBError(const QString &, SignOn::CredentialsDBError::ErrorType)",
+                    "CredentialsDBError"
+                ],
+                [
+                    "clear",
+                    "clear()",
+                    "clear"
+                ],
+                [
+                    "isValid",
+                    "isValid() const : bool",
+                    "isValid"
+                ],
+                [
+                    "setText",
+                    "setText(const QString &)",
+                    "setText"
+                ],
+                [
+                    "setType",
+                    "setType(SignOn::CredentialsDBError::ErrorType)",
+                    "setType"
+                ],
+                [
+                    "text",
+                    "text() const : QString",
+                    "text"
+                ],
+                [
+                    "type",
+                    "type() const : SignOn::CredentialsDBError::ErrorType",
+                    "type"
+                ]
+            ],
+            "name": "SignOn::CredentialsDBError",
+            "page": "signonextension/signon-credentialsdberror",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "keyManager",
+                    "keyManager(QObject *) const : SignOn::AbstractKeyManager *",
+                    "keyManager"
+                ]
+            ],
+            "name": "SignOn::ExtensionInterface",
+            "page": "signonextension/signon-extensioninterface",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "signonextension/signon-extensioninterface"
+            ],
+            "members": [
+                [
+                    "keyAuthorizer",
+                    "keyAuthorizer(SignOn::KeyHandler *, QObject *) const : SignOn::AbstractKeyAuthorizer *",
+                    "keyAuthorizer"
+                ]
+            ],
+            "name": "SignOn::ExtensionInterface2",
+            "page": "signonextension/signon-extensioninterface2",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+                "signonextension/signon-extensioninterface2"
+            ],
+            "members": [
+                [
+                    "accessControlManager",
+                    "accessControlManager(QObject *) const : SignOn::AbstractAccessControlManager *",
+                    "accessControlManager"
+                ],
+                [
+                    "cryptoManager",
+                    "cryptoManager(QObject *) const : SignOn::AbstractCryptoManager *",
+                    "cryptoManager"
+                ],
+                [
+                    "secretsStorage",
+                    "secretsStorage(QObject *) const : SignOn::AbstractSecretsStorage *",
+                    "secretsStorage"
+                ]
+            ],
+            "name": "SignOn::ExtensionInterface3",
+            "page": "signonextension/signon-extensioninterface3",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "KeyHandler",
+                    "KeyHandler(QObject *)",
+                    "KeyHandler"
+                ],
+                [
+                    "~KeyHandler",
+                    "~KeyHandler()",
+                    "dtor.KeyHandler"
+                ],
+                [
+                    "authorizeKey",
+                    "authorizeKey(const SignOn::Key &, SignOn::KeyHandler::AuthorizeFlags) : bool",
+                    "authorizeKey"
+                ],
+                [
+                    "canAddKeyAuthorization",
+                    "canAddKeyAuthorization() const : bool",
+                    "canAddKeyAuthorization"
+                ],
+                [
+                    "cryptoManager",
+                    "cryptoManager() const : SignOn::AbstractCryptoManager *",
+                    "cryptoManager"
+                ],
+                [
+                    "initialize",
+                    "initialize(SignOn::AbstractCryptoManager *, const SignOn::KeyManagersList &)",
+                    "initialize"
+                ],
+                [
+                    "insertedKeys",
+                    "insertedKeys() const : QSet<SignOn::Key>",
+                    "insertedKeys"
+                ],
+                [
+                    "isReady",
+                    "isReady() const : bool",
+                    "isReady"
+                ],
+                [
+                    "keyAuthorizationRevoked",
+                    "keyAuthorizationRevoked(const SignOn::Key)",
+                    "keyAuthorizationRevoked"
+                ],
+                [
+                    "keyAuthorized",
+                    "keyAuthorized(const SignOn::Key)",
+                    "keyAuthorized"
+                ],
+                [
+                    "keyDisabled",
+                    "keyDisabled(const SignOn::Key)",
+                    "keyDisabled"
+                ],
+                [
+                    "keyInserted",
+                    "keyInserted(const SignOn::Key)",
+                    "keyInserted"
+                ],
+                [
+                    "keyIsAuthorized",
+                    "keyIsAuthorized(const SignOn::Key &) const : bool",
+                    "keyIsAuthorized"
+                ],
+                [
+                    "keyRemoved",
+                    "keyRemoved(const SignOn::Key)",
+                    "keyRemoved"
+                ],
+                [
+                    "lastAuthorizedKeyRemoved",
+                    "lastAuthorizedKeyRemoved(const SignOn::Key)",
+                    "lastAuthorizedKeyRemoved"
+                ],
+                [
+                    "ready",
+                    "ready()",
+                    "ready"
+                ],
+                [
+                    "revokeKeyAuthorization",
+                    "revokeKeyAuthorization(const SignOn::Key &) : bool",
+                    "revokeKeyAuthorization"
+                ]
+            ],
+            "name": "SignOn::KeyHandler",
+            "page": "signonextension/signon-keyhandler",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        }
+    ],
+    "module": "signonextension",
+    "sections": [
+        {
+            "description": "The interface of signond extensions.",
+            "page": "signonextension/signonextension-module",
+            "pages": [
+                [
+                    "signonextension/signonextension-module",
+                    "SignOn Extension C++ Classes"
+                ],
+                [
+                    "signonextension/signon-abstractaccesscontrolmanager",
+                    "SignOn::AbstractAccessControlManager"
+                ],
+                [
+                    "signonextension/signon-abstractcryptomanager",
+                    "SignOn::AbstractCryptoManager"
+                ],
+                [
+                    "signonextension/signon-abstractkeyauthorizer",
+                    "SignOn::AbstractKeyAuthorizer"
+                ],
+                [
+                    "signonextension/signon-abstractkeymanager",
+                    "SignOn::AbstractKeyManager"
+                ],
+                [
+                    "signonextension/signon-abstractsecretsstorage",
+                    "SignOn::AbstractSecretsStorage"
+                ],
+                [
+                    "signonextension/signon-accessreply",
+                    "SignOn::AccessReply"
+                ],
+                [
+                    "signonextension/signon-accessrequest",
+                    "SignOn::AccessRequest"
+                ],
+                [
+                    "signonextension/signon-credentialsdberror",
+                    "SignOn::CredentialsDBError"
+                ],
+                [
+                    "signonextension/signon-extensioninterface",
+                    "SignOn::ExtensionInterface"
+                ],
+                [
+                    "signonextension/signon-extensioninterface2",
+                    "SignOn::ExtensionInterface2"
+                ],
+                [
+                    "signonextension/signon-extensioninterface3",
+                    "SignOn::ExtensionInterface3"
+                ],
+                [
+                    "signonextension/signon-keyhandler",
+                    "SignOn::KeyHandler"
+                ],
+                [
+                    "signonextension/signon-sub-signonextension",
+                    "SignOn Namespace"
+                ],
+                [
+                    "signonextension/signonextension-index",
+                    "SignOn Extension Development"
+                ]
+            ],
+            "qml": false,
+            "title": "SignOn Extension C++ Classes"
+        }
+    ]
+}

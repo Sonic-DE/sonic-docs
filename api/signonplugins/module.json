@@ -1,0 +1,330 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "AuthPluginInterface",
+                    "AuthPluginInterface(QObject *)",
+                    "AuthPluginInterface"
+                ],
+                [
+                    "~AuthPluginInterface",
+                    "~AuthPluginInterface()",
+                    "dtor.AuthPluginInterface"
+                ],
+                [
+                    "abort",
+                    "abort()",
+                    "abort"
+                ],
+                [
+                    "cancel",
+                    "cancel()",
+                    "cancel"
+                ],
+                [
+                    "error",
+                    "error(const SignOn::Error &)",
+                    "error"
+                ],
+                [
+                    "mechanisms",
+                    "mechanisms() const : QStringList",
+                    "mechanisms"
+                ],
+                [
+                    "process",
+                    "process(const SignOn::SessionData &, const QString &)",
+                    "process"
+                ],
+                [
+                    "refresh",
+                    "refresh(const SignOn::UiSessionData &)",
+                    "refresh"
+                ],
+                [
+                    "refreshed",
+                    "refreshed(const SignOn::UiSessionData &)",
+                    "refreshed"
+                ],
+                [
+                    "result",
+                    "result(const SignOn::SessionData &)",
+                    "result"
+                ],
+                [
+                    "statusChanged",
+                    "statusChanged(const AuthPluginState, const QString &)",
+                    "statusChanged"
+                ],
+                [
+                    "store",
+                    "store(const SignOn::SessionData &)",
+                    "store"
+                ],
+                [
+                    "type",
+                    "type() const : QString",
+                    "type"
+                ],
+                [
+                    "userActionFinished",
+                    "userActionFinished(const SignOn::UiSessionData &)",
+                    "userActionFinished"
+                ],
+                [
+                    "userActionRequired",
+                    "userActionRequired(const SignOn::UiSessionData &)",
+                    "userActionRequired"
+                ]
+            ],
+            "name": "AuthPluginInterface",
+            "page": "signonplugins/authplugininterface",
+            "qtBases": [
+                [
+                    "QObject",
+                    "https://doc.qt.io/qt-6/qobject-members.html"
+                ]
+            ]
+        },
+        {
+            "bases": [
+                "signonqt6/signon-sessiondata"
+            ],
+            "members": [
+                [
+                    "UiSessionData",
+                    "UiSessionData(const QVariantMap &)",
+                    "UiSessionData"
+                ],
+                [
+                    "setCaptchaImage",
+                    "setCaptchaImage(const QByteArray &)",
+                    "setCaptchaImage"
+                ],
+                [
+                    "CaptchaImage",
+                    "CaptchaImage() const : QByteArray",
+                    "CaptchaImage"
+                ],
+                [
+                    "setCaptchaResponse",
+                    "setCaptchaResponse(const QString &)",
+                    "setCaptchaResponse"
+                ],
+                [
+                    "CaptchaResponse",
+                    "CaptchaResponse() const : QString",
+                    "CaptchaResponse"
+                ],
+                [
+                    "setCaptchaUrl",
+                    "setCaptchaUrl(const QString &)",
+                    "setCaptchaUrl"
+                ],
+                [
+                    "CaptchaUrl",
+                    "CaptchaUrl() const : QString",
+                    "CaptchaUrl"
+                ],
+                [
+                    "setCaption",
+                    "setCaption(const QString &)",
+                    "setCaption"
+                ],
+                [
+                    "Caption",
+                    "Caption() const : QString",
+                    "Caption"
+                ],
+                [
+                    "setConfirm",
+                    "setConfirm(const bool &)",
+                    "setConfirm"
+                ],
+                [
+                    "Confirm",
+                    "Confirm() const : bool",
+                    "Confirm"
+                ],
+                [
+                    "setFinalUrl",
+                    "setFinalUrl(const QString &)",
+                    "setFinalUrl"
+                ],
+                [
+                    "FinalUrl",
+                    "FinalUrl() const : QString",
+                    "FinalUrl"
+                ],
+                [
+                    "setForgotPassword",
+                    "setForgotPassword(const QString &)",
+                    "setForgotPassword"
+                ],
+                [
+                    "ForgotPassword",
+                    "ForgotPassword() const : QString",
+                    "ForgotPassword"
+                ],
+                [
+                    "setForgotPasswordUrl",
+                    "setForgotPasswordUrl(const QString &)",
+                    "setForgotPasswordUrl"
+                ],
+                [
+                    "ForgotPasswordUrl",
+                    "ForgotPasswordUrl() const : QString",
+                    "ForgotPasswordUrl"
+                ],
+                [
+                    "setIcon",
+                    "setIcon(const QString &)",
+                    "setIcon"
+                ],
+                [
+                    "Icon",
+                    "Icon() const : QString",
+                    "Icon"
+                ],
+                [
+                    "setOpenUrl",
+                    "setOpenUrl(const QString &)",
+                    "setOpenUrl"
+                ],
+                [
+                    "OpenUrl",
+                    "OpenUrl() const : QString",
+                    "OpenUrl"
+                ],
+                [
+                    "setQueryErrorCode",
+                    "setQueryErrorCode(const int &)",
+                    "setQueryErrorCode"
+                ],
+                [
+                    "QueryErrorCode",
+                    "QueryErrorCode() const : int",
+                    "QueryErrorCode"
+                ],
+                [
+                    "setQueryMessage",
+                    "setQueryMessage(const QString &)",
+                    "setQueryMessage"
+                ],
+                [
+                    "QueryMessage",
+                    "QueryMessage() const : QString",
+                    "QueryMessage"
+                ],
+                [
+                    "setQueryMessageId",
+                    "setQueryMessageId(const int &)",
+                    "setQueryMessageId"
+                ],
+                [
+                    "QueryMessageId",
+                    "QueryMessageId() const : int",
+                    "QueryMessageId"
+                ],
+                [
+                    "setQueryPassword",
+                    "setQueryPassword(const bool &)",
+                    "setQueryPassword"
+                ],
+                [
+                    "QueryPassword",
+                    "QueryPassword() const : bool",
+                    "QueryPassword"
+                ],
+                [
+                    "setQueryUserName",
+                    "setQueryUserName(const bool &)",
+                    "setQueryUserName"
+                ],
+                [
+                    "QueryUserName",
+                    "QueryUserName() const : bool",
+                    "QueryUserName"
+                ],
+                [
+                    "setRememberPassword",
+                    "setRememberPassword(const bool &)",
+                    "setRememberPassword"
+                ],
+                [
+                    "RememberPassword",
+                    "RememberPassword() const : bool",
+                    "RememberPassword"
+                ],
+                [
+                    "setShowRealm",
+                    "setShowRealm(const bool &)",
+                    "setShowRealm"
+                ],
+                [
+                    "ShowRealm",
+                    "ShowRealm() const : bool",
+                    "ShowRealm"
+                ],
+                [
+                    "setTitle",
+                    "setTitle(const QString &)",
+                    "setTitle"
+                ],
+                [
+                    "Title",
+                    "Title() const : QString",
+                    "Title"
+                ],
+                [
+                    "setUrlResponse",
+                    "setUrlResponse(const QString &)",
+                    "setUrlResponse"
+                ],
+                [
+                    "UrlResponse",
+                    "UrlResponse() const : QString",
+                    "UrlResponse"
+                ]
+            ],
+            "name": "SignOn::UiSessionData",
+            "page": "signonplugins/signon-uisessiondata",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "signonplugins",
+    "sections": [
+        {
+            "description": "The interface of Single Sign On authentication plugins.",
+            "page": "signonplugins/signonplugins-module",
+            "pages": [
+                [
+                    "signonplugins/signonplugins-module",
+                    "SignOn Plugin C++ Classes"
+                ],
+                [
+                    "signonplugins/authplugininterface",
+                    "AuthPluginInterface"
+                ],
+                [
+                    "signonplugins/signon-uisessiondata",
+                    "SignOn::UiSessionData"
+                ],
+                [
+                    "signonplugins/signon-sub-signonplugins",
+                    "SignOn Namespace"
+                ],
+                [
+                    "signonplugins/signonplugins-index",
+                    "SignOn Plugin Development"
+                ]
+            ],
+            "qml": false,
+            "title": "SignOn Plugin C++ Classes"
+        }
+    ]
+}

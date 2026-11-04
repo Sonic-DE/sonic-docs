@@ -1,0 +1,90 @@
+{
+    "classes": [
+        {
+            "bases": [
+            ],
+            "members": [
+                [
+                    "binaryName",
+                    "binaryName : QString",
+                    "binaryName-var"
+                ],
+                [
+                    "dropDebugCategoryExact",
+                    "dropDebugCategoryExact : QStringList",
+                    "dropDebugCategoryExact-var"
+                ],
+                [
+                    "dropDebugCategoryPrefixes",
+                    "dropDebugCategoryPrefixes : QStringList",
+                    "dropDebugCategoryPrefixes-var"
+                ],
+                [
+                    "dropDebugMessageSubstrings",
+                    "dropDebugMessageSubstrings : QStringList",
+                    "dropDebugMessageSubstrings-var"
+                ],
+                [
+                    "journald",
+                    "journald : bool",
+                    "journald-var"
+                ],
+                [
+                    "mirrorToStderr",
+                    "mirrorToStderr : bool",
+                    "mirrorToStderr-var"
+                ],
+                [
+                    "mirrorToStderrWhenTty",
+                    "mirrorToStderrWhenTty : bool",
+                    "mirrorToStderrWhenTty-var"
+                ],
+                [
+                    "rotateOnStartup",
+                    "rotateOnStartup : bool",
+                    "rotateOnStartup-var"
+                ],
+                [
+                    "writeLogFile",
+                    "writeLogFile : bool",
+                    "writeLogFile-var"
+                ]
+            ],
+            "name": "Sonic::Logging::Options",
+            "page": "soniclogging/sonic-logging-options",
+            "qtBases": [
+            ]
+        }
+    ],
+    "module": "soniclogging",
+    "sections": [
+        {
+            "description": "The SonicDE message handler and logging API.",
+            "page": "soniclogging/soniclogging-module",
+            "pages": [
+                [
+                    "soniclogging/soniclogging-module",
+                    "Sonic Logging C++ Classes"
+                ],
+                [
+                    "soniclogging/sonic-logging-options",
+                    "Sonic::Logging::Options"
+                ],
+                [
+                    "soniclogging/sonic-logging",
+                    "Sonic::Logging Namespace"
+                ],
+                [
+                    "soniclogging/sonic-sub-soniclogging",
+                    "Sonic Namespace"
+                ],
+                [
+                    "soniclogging/soniclogging-index",
+                    "Sonic Logging"
+                ]
+            ],
+            "qml": false,
+            "title": "Sonic Logging C++ Classes"
+        }
+    ]
+}

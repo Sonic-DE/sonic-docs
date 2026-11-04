@@ -1,14 +1,17 @@
 ---
-title: ""
+title: "CalendarEvents::CalendarEventsPlugin::SubLabel Struct"
 description: "Plugin System for Calendar Events."
 ---
 
-# 
+# CalendarEvents::CalendarEventsPlugin::SubLabel Struct
 
 Plugin System for Calendar Events. [More...](#details)
 
-- Header: SubLabel
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CalendarEvents) target\_link\_libraries(mytarget PRIVATE KF6::CalendarEvents)
+- **Header:** `#include <SubLabel>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CalendarEvents)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CalendarEvents)`
+
+[List of all members, including inherited members](calendarevents-calendareventsplugin-sublabel-members.md)
 
 ## Detailed Description {#details}
 

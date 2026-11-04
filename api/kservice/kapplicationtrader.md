@@ -7,8 +7,9 @@ description: "The application trader is a convenient way to find installed appli
 
 The application trader is a convenient way to find installed applications based on specific criteria (association with a MIME type, name contains Foo, etc.). [More...](#details)
 
-- Header: KApplicationTrader
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Service) target\_link\_libraries(mytarget PRIVATE KF6::Service)
+- **Header:** `#include <KApplicationTrader>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Service)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Service)`
 
 ## Detailed Description {#details}
 

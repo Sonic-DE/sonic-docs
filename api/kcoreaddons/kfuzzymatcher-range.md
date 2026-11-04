@@ -1,14 +1,17 @@
 ---
-title: ""
+title: "KFuzzyMatcher::Range Struct"
 description: "A range representing a matched sequence in a string."
 ---
 
-# 
+# KFuzzyMatcher::Range Struct
 
 A range representing a matched sequence in a string. [More...](#details)
 
-- Header: Range
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <Range>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
+
+[List of all members, including inherited members](kfuzzymatcher-range-members.md)
 
 ## Detailed Description {#details}
 

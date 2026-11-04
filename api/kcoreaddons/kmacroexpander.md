@@ -7,8 +7,9 @@ description: "A group of functions providing macro expansion (substitution) in s
 
 A group of functions providing macro expansion (substitution) in strings, optionally with quoting appropriate for shell execution. [More...](#details)
 
-- Header: KMacroExpander
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <KMacroExpander>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
 
 ## Detailed Description {#details}
 

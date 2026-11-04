@@ -7,9 +7,10 @@ description: "Scans a still image for barcodes. This namespace was introduced in
 
 Scans a still image for barcodes. This namespace was introduced in Qt 6.3. [More...](#details)
 
-- Header: Prison/ImageScanner
-- Since: Qt 6.3
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Prison) target\_link\_libraries(mytarget PRIVATE KF6::PrisonScanner)
+- **Header:** `#include <Prison/ImageScanner>`
+- **Since:** Qt 6.3
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Prison)`  
+  `target_link_libraries(mytarget PRIVATE KF6::PrisonScanner)`
 
 ## Detailed Description {#details}
 

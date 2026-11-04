@@ -7,14 +7,15 @@ description: "Utility functions for use inside application sandboxes such as Fla
 
 Utility functions for use inside application sandboxes such as Flatpak or Snap. [More...](#details)
 
-- Header: KSandbox
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <KSandbox>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
 
 ## Detailed Description {#details}
 
 ## Classes {#classes}
 
-### KSandbox::ProcessContext
+### struct [KSandbox::ProcessContext](ksandbox-processcontext.md)
 
 ## Function Documentation {#function-documentation}
 

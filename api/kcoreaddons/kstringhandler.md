@@ -7,8 +7,9 @@ description: "This namespace contains utility functions for handling strings."
 
 This namespace contains utility functions for handling strings. [More...](#details)
 
-- Header: KStringHandler
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <KStringHandler>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
 
 ## Detailed Description {#details}
 

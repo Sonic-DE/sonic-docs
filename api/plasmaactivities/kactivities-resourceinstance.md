@@ -7,8 +7,9 @@ description: "Library for interacting with Plasma Activities."
 
 Library for interacting with Plasma Activities. [More...](#details)
 
-- Header: KActivities/ResourceInstance
-- CMake: find\_package(Plasma REQUIRED COMPONENTS Activities) target\_link\_libraries(mytarget PRIVATE Plasma::Activities)
+- **Header:** `#include <KActivities/ResourceInstance>`
+- **CMake:** `find_package(Plasma REQUIRED COMPONENTS Activities)`  
+  `target_link_libraries(mytarget PRIVATE Plasma::Activities)`
 
 ## Detailed Description {#details}
 

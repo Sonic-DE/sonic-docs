@@ -1,14 +1,21 @@
 ---
-title: ""
+title: "NETSize Struct"
 description: "Simple size class for NET classes."
 ---
 
-# 
+# NETSize Struct
 
 Simple size class for NET classes. [More...](#details)
 
-- Header: NETSize
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KWindowSystem) target\_link\_libraries(mytarget PRIVATE KF6::KWindowSystem)
+- **Header:** `#include <NETSize>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KWindowSystem)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KWindowSystem)`
+
+[List of all members, including inherited members](netsize-members.md)
+
+## Public Functions
+
+- [NETSize()](#NETSize)
 
 ## Detailed Description {#details}
 

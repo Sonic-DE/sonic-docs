@@ -7,8 +7,9 @@ description: "Provides functions that creates undo/redo actions for a QUndoStack
 
 Provides functions that creates undo/redo actions for a [QUndoStack](https://doc.qt.io/qt-6/qundostack.html) with KDE's default icons and shortcuts. [More...](#details)
 
-- Header: KUndoActions
-- CMake: find\_package(KF6 REQUIRED COMPONENTS XmlGui) target\_link\_libraries(mytarget PRIVATE KF6::XmlGui)
+- **Header:** `#include <KUndoActions>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS XmlGui)`  
+  `target_link_libraries(mytarget PRIVATE KF6::XmlGui)`
 
 ## Detailed Description {#details}
 

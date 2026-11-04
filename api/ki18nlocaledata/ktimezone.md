@@ -7,8 +7,9 @@ description: "Timezone localization methods."
 
 Timezone localization methods. [More...](#details)
 
-- Header: KTimeZone
-- CMake: find\_package(KF6 REQUIRED COMPONENTS I18n) target\_link\_libraries(mytarget PRIVATE KF6::I18nLocaleData)
+- **Header:** `#include <KTimeZone>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS I18n)`  
+  `target_link_libraries(mytarget PRIVATE KF6::I18nLocaleData)`
 
 ## Detailed Description {#details}
 

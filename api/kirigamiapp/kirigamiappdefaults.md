@@ -7,8 +7,9 @@ description: "Contains a function to apply useful default Qt options for Kirigam
 
 Contains a function to apply useful default Qt options for Kirigami apps. [More...](#details)
 
-- Header: KirigamiAppDefaults
-- CMake: find\_package(KF6 REQUIRED COMPONENTS KirigamiAddons) target\_link\_libraries(mytarget PRIVATE KF6::KirigamiAddons)
+- **Header:** `#include <KirigamiAppDefaults>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KirigamiAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KirigamiAddons)`
 
 ## Detailed Description {#details}
 

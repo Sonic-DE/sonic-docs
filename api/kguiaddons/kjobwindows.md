@@ -7,8 +7,9 @@ description: "Associate jobs with a window."
 
 Associate jobs with a window. [More...](#details)
 
-- Header: KJobWindows
-- CMake: find\_package(KF6 REQUIRED COMPONENTS GuiAddons) target\_link\_libraries(mytarget PRIVATE KF6::GuiAddons)
+- **Header:** `#include <KJobWindows>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS GuiAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::GuiAddons)`
 
 ## Detailed Description {#details}
 

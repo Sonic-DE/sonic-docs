@@ -7,9 +7,10 @@ description: "Thread-safe variants of strerror that return different string type
 
 Thread-safe variants of strerror that return different string types. This namespace was introduced in Qt 6.31. [More...](#details)
 
-- Header: KSafeStringError
-- Since: Qt 6.31
-- CMake: find\_package(KF6 REQUIRED COMPONENTS CoreAddons) target\_link\_libraries(mytarget PRIVATE KF6::CoreAddons)
+- **Header:** `#include <KSafeStringError>`
+- **Since:** Qt 6.31
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS CoreAddons)`  
+  `target_link_libraries(mytarget PRIVATE KF6::CoreAddons)`
 
 ## Detailed Description {#details}
 

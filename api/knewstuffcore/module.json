@@ -733,6 +733,56 @@
             ],
             "members": [
                 [
+                    "descriptionLink",
+                    "descriptionLink : QString",
+                    "descriptionLink-var"
+                ],
+                [
+                    "distributionType",
+                    "distributionType : QString",
+                    "distributionType-var"
+                ],
+                [
+                    "id",
+                    "id : int",
+                    "id-var"
+                ],
+                [
+                    "isDownloadtypeLink",
+                    "isDownloadtypeLink : bool",
+                    "isDownloadtypeLink-var"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-var"
+                ],
+                [
+                    "priceAmount",
+                    "priceAmount : QString",
+                    "priceAmount-var"
+                ],
+                [
+                    "size",
+                    "size : quint64",
+                    "size-var"
+                ],
+                [
+                    "tags",
+                    "tags : QStringList",
+                    "tags-var"
+                ]
+            ],
+            "name": "KNSCore::Entry::DownloadLinkInformation",
+            "page": "knewstuffcore/knscore-entry-downloadlinkinformation",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+                [
                     "contactEmail",
                     "contactEmail : QString",
                     "contactEmail-prop"
@@ -1011,6 +1061,51 @@
             "bases": [
             ],
             "members": [
+                [
+                    "displayName",
+                    "displayName : QString",
+                    "displayName-var"
+                ],
+                [
+                    "id",
+                    "id : QString",
+                    "id-var"
+                ],
+                [
+                    "name",
+                    "name : QString",
+                    "name-var"
+                ]
+            ],
+            "name": "KNSCore::Provider::CategoryMetadata",
+            "page": "knewstuffcore/knscore-provider-categorymetadata",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "KNSCore::Provider::SearchPreset",
+            "page": "knewstuffcore/knscore-provider-searchpreset",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
+            ],
+            "name": "KNSCore::Provider::SearchRequest",
+            "page": "knewstuffcore/knscore-provider-searchrequest",
+            "qtBases": [
+            ]
+        },
+        {
+            "bases": [
+            ],
+            "members": [
             ],
             "name": "KNSCore::ProvidersModel",
             "page": "knewstuffcore/knscore-providersmodel",
@@ -1253,8 +1348,24 @@
                     "KNSCore::Entry"
                 ],
                 [
+                    "knewstuffcore/knscore-entry-downloadlinkinformation",
+                    "KNSCore::Entry::DownloadLinkInformation"
+                ],
+                [
                     "knewstuffcore/knscore-provider",
                     "KNSCore::Provider"
+                ],
+                [
+                    "knewstuffcore/knscore-provider-categorymetadata",
+                    "KNSCore::Provider::CategoryMetadata"
+                ],
+                [
+                    "knewstuffcore/knscore-provider-searchpreset",
+                    "KNSCore::Provider::SearchPreset"
+                ],
+                [
+                    "knewstuffcore/knscore-provider-searchrequest",
+                    "KNSCore::Provider::SearchRequest"
                 ],
                 [
                     "knewstuffcore/knscore-providersmodel",
@@ -1293,24 +1404,8 @@
                     "KNSCore Namespace"
                 ],
                 [
-                    "knewstuffcore/knscore-entry-downloadlinkinformation",
-                    ""
-                ],
-                [
                     "knewstuffcore/knscore-errorcode",
                     "KNSCore::ErrorCode Namespace"
-                ],
-                [
-                    "knewstuffcore/knscore-provider-categorymetadata",
-                    ""
-                ],
-                [
-                    "knewstuffcore/knscore-provider-searchpreset",
-                    ""
-                ],
-                [
-                    "knewstuffcore/knscore-provider-searchrequest",
-                    ""
                 ]
             ],
             "qml": false,

@@ -19,9 +19,9 @@ This item will render a rectangle, with a shadow below it. The rendering is done
 
 ### border group {#border-prop}
 
-**border.color : color**
+### border.color : color {#border.color-prop}
 
-**border.width : real**
+### border.width : real {#border.width-prop}
 
 This property holds the border's grouped property.
 
@@ -48,13 +48,13 @@ default: Qt.white
 
 ### corners group {#corners-prop}
 
-**corners.bottomLeftRadius : real**
+### corners.bottomLeftRadius : real {#corners.bottomLeftRadius-prop}
 
-**corners.bottomRightRadius : real**
+### corners.bottomRightRadius : real {#corners.bottomRightRadius-prop}
 
-**corners.topLeftRadius : real**
+### corners.topLeftRadius : real {#corners.topLeftRadius-prop}
 
-**corners.topRightRadius : real**
+### corners.topRightRadius : real {#corners.topRightRadius-prop}
 
 This property holds the corners grouped property
 
@@ -97,13 +97,13 @@ default: RenderType.Auto
 
 ### shadow group {#shadow-prop}
 
-**shadow.color : color**
+### shadow.color : color {#shadow.color-prop}
 
-**shadow.size : real**
+### shadow.size : real {#shadow.size-prop}
 
-**shadow.xOffset : real**
+### shadow.xOffset : real {#shadow.xOffset-prop}
 
-**shadow.yOffset : real**
+### shadow.yOffset : real {#shadow.yOffset-prop}
 
 This property group holds the shadow's properties.
 

@@ -7,8 +7,9 @@ description: "The KNewStuff core."
 
 The KNewStuff core. [More...](#details)
 
-- Header: KNSCore
-- CMake: find\_package(KF6 REQUIRED COMPONENTS NewStuff) target\_link\_libraries(mytarget PRIVATE KF6::NewStuff)
+- **Header:** `#include <KNSCore>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS NewStuff)`  
+  `target_link_libraries(mytarget PRIVATE KF6::NewStuff)`
 
 ## Detailed Description {#details}
 

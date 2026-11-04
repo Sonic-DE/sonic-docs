@@ -7,8 +7,9 @@ description: "Barcode formats detectable by Prison::VideoScanner."
 
 Barcode formats detectable by [Prison::VideoScanner](prison-videoscanner.md). [More...](#details)
 
-- Header: Prison/Format
-- CMake: find\_package(KF6 REQUIRED COMPONENTS Prison) target\_link\_libraries(mytarget PRIVATE KF6::PrisonScanner)
+- **Header:** `#include <Prison/Format>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Prison)`  
+  `target_link_libraries(mytarget PRIVATE KF6::PrisonScanner)`
 
 ## Detailed Description {#details}
 
