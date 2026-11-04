@@ -339,6 +339,8 @@ In other words:
 
 ## Running the application
 
+Run the `pip` commands on this page in the [virtual environment](app.md#setting-up-the-project) you created, never against your system Python: activate it first with `source env/bin/activate`.
+
 From inside the `simplemdviewer/` directory, install it in development mode and run it:
 
 ```bash

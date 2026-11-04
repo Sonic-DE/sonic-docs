@@ -25,8 +25,9 @@ This tier is for people building Sonic-DE from source or contributing to it.
 - [KAuth](developer/kauth/introduction.md): running privileged parts of your application.
 - [Desktop integration](developer/additional/desktop-file.md): desktop files, icons, cursor
   themes and session management.
-- [D-Bus](developer/dbus/introduction.md): how SonicDE's processes talk to each other, and
-  how to call and offer D-Bus interfaces from your own code.
+- [D-Bus](developer/dbus/introduction.md): how to call and offer D-Bus interfaces from your
+  own code. SonicDE is gradually moving its own communication between processes to
+  [Sonic IPC](/docs/api/sonicipc/sonicipc-index).
 
 To write applications or plugins against the Sonic-DE libraries, see the
 [API Documentation](/docs/api).

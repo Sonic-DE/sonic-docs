@@ -63,6 +63,38 @@ sections:
       developer/plasma/widget/index: Desktop widget tutorial
       developer/plasma/widget/setup: Setup
       developer/plasma/widget/testing: Testing
+      developer/plasma/widget/porting-kf6: Porting widgets to KF6
+      developer/plasma/widget/qml: QML
+      developer/plasma/widget/properties: Widget properties
+      developer/plasma/widget/configuration: Configuration
+      developer/plasma/widget/examples: Widget examples
+      developer/plasma/widget/plasma-qml-api: The widget QML API
+      developer/plasma/widget/c-api: C++ API
+      developer/plasma/widget/translations-i18n: Translations
+  Desktop scripting:
+    pages:
+      developer/plasma/scripting/index: Desktop scripting
+      developer/plasma/scripting/api: Scripting API
+      developer/plasma/scripting/examples: Scripting examples
+      developer/plasma/scripting/templates: Layout templates
+      developer/plasma/scripting/keys: Configuration keys
+  KRunner plugins:
+    pages:
+      developer/plasma/krunner/index: KRunner C++ plugins
+      developer/plasma/krunner/metadata: KRunner metadata format
+  SonicWin scripts and effects:
+    pages:
+      developer/plasma/kwin/index: SonicWin scripting tutorial
+      developer/plasma/kwin/api: SonicWin scripting API
+      developer/plasma/kwineffect/index: Effects
+      developer/plasma/aurorae/index: Aurorae window decorations
+      developer/plasma/windowswitcher/index: Task switchers
+  Other plugins:
+    pages:
+      developer/plasma/wallpapers/index: Wallpapers
+      developer/plasma/comic-plugin/index: Comic plugins
+      developer/plasma/comic-plugin/example: Comic plugin example
+      developer/plasma/comic-plugin/debugging: Debugging comic plugins
   Python with Kirigami:
     pages:
       developer/python/app: A full Python + Kirigami application

@@ -75,7 +75,7 @@ A plugin written in QML that draws the desktop wallpaper. You choose and configu
 
 ## Window decoration
 
-Handles the theme and button style of the window titlebar. A window decoration can be created by editing SVG files (Aurorae) or by writing a C++ plugin with [KDecoration](/docs/api/kdecoration).
+Handles the theme and button style of the window titlebar. A window decoration can be created by editing SVG files (Aurorae) or by writing a C++ plugin with [KDecoration](https://github.com/Sonic-DE/sonic-decoration).
 
 * System/default: `/usr/share/aurorae/themes/` (usually empty)
 * User installed: `~/.local/share/aurorae/themes/` ([KDE Store category](https://store.kde.org/browse/cat/114/order/latest/))

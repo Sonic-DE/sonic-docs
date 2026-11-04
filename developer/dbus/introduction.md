@@ -12,6 +12,8 @@ checked_against: sonic-workspace d0b84fd142, sonic-screenlocker 0ed103d7, sonic-
 
 [D-Bus](https://www.freedesktop.org/wiki/Software/dbus/) is a free and open source inter-process communication (IPC) mechanism from the [freedesktop.org](https://freedesktop.org) project. Many applications use it, and many freedesktop.org standards are built on it, such as [Desktop Notifications](https://specifications.freedesktop.org/notification-spec), [media player control](https://specifications.freedesktop.org/mpris-spec) and [XDG desktop portals](https://github.com/flatpak/xdg-desktop-portal).
 
+> **Note:** D-Bus isn't the only IPC mechanism in SonicDE. SonicDE is gradually replacing it in its own components with [Sonic IPC](/docs/api/sonicipc/sonicipc-index) (`sonic-frameworks-ipc`), a small library built on Unix domain sockets. D-Bus remains the way to talk to freedesktop services and other applications.
+
 IPC means getting information from one process to another: exchanging data, calling methods and listening to events.
 
 On the desktop, IPC is used for scripting (a script controls running applications), for access to central services, and for coordination between several instances of cooperating applications.
