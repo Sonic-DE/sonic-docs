@@ -1,0 +1,98 @@
+---
+title: Background SVG format
+description: The format of desktop theme background SVGs.
+source_url: https://develop.kde.org/docs/plasma/theme/background-svg/
+source_authors: [Benjamin Flesch, Carl Schwan, Chris Holland, Dolphin von Chips, Johannes Zarl-Zierl, Kunda Ki, Mikhail Zolotukhin, Niccolò Venerandi, Nicolas Fella, Robert Kucsora, Taro Tanaka, Thiago Sueto, nobkd nobkd, obno sim]
+license: CC BY-SA 4.0
+license_url: https://creativecommons.org/licenses/by-sa/4.0/
+checked_against: "FrameSvg and DialogShadows code in sonic-frameworks-svg and sonic-interface-libraries; hints absent from that code left out"
+---
+
+# Background SVG format
+
+
+Many desktop theme SVGs follow a common format for their background elements, either fully (like all `background.svg` versions) or partially, with modifications (like `lineedit.svg`, `dragger.svg` and `glowbar.svg`).
+
+The element IDs for all SVG files are listed in the [Theme Elements Reference](elements.md), including all SVG files that differ from the background SVG format, with a listing of elements according to their placement.
+
+All background SVGs (except for wallpaper images) must have SVG elements that have the following element ID parts representing their *position*, all of which will be painted at the *native* size (and can therefore be bitmaps), except for `center` which will be scaled.
+
+For brevity's sake, the many element ID parts available in the current Background SVG Format and in the [Theme Elements Reference](elements.md) are bundled together into semantic groups for easier reading using square brackets `[]`:
+
+* **`[position]`**
+  * **`[position]`** can be:
+    * `top`: the top bar between the two top corners
+    * `topright`: the top right corner
+    * `right`: the right bar between the two right corners
+    * `bottomright`: the bottom right corner
+    * `bottom`: the bottom bar between the two bottom corners
+    * `bottomleft`: the bottom left corner
+    * `left`: the left bar between the two left corners
+    * `topleft`: the top left corner
+    * `center`: the center fill; it *will* be scaled, so it should be an actual SVG element
+
+The set of nine elements with position IDs put together is called a *frame*. Frames are typically found in buttons or containments, the latter being the space where some additional content is stored, like panels, desktop widgets or dialogs.
+
+Some Plasma components may use the above named ID names with prefixes, as mentioned in [Position and meaning of element IDs in desktop theme SVG files](svg.md#element-id-positions). For example, if you inspect [widgets/panel-background.svg](elements.md#widgetspanel-backgroundsvg), the panel placed on the left side of the screen uses the "west" prefix (`west-topleft`, `west-topright`, etc.). The cardinal directions available are `north`, `east`, `south` and `west` and they are further referenced as `[cardinaldirection]`:
+
+* **`[cardinaldirection]`**
+  * **`[cardinaldirection]`** can be:
+    * `north`
+    * `east`
+    * `south`
+    * `west`
+
+Cardinal directions are particularly useful, for instance, when combined with the `center` element ID to have panels with different colors depending on their position on the screen, among other special use cases like [widgets/tabbar.svg](elements.md#widgetstabbarsvg).
+
+Following this format, something like `west-topleft` can then be referenced as `[cardinaldirection]-[position]`. If we compare `top`, `west-right` and `north-left`, we would have something like:
+
+| CARDINALDIRECTION | POSITION | RESULT       |
+|-------------------|----------|--------------|
+|                   |  top     | top          |
+| west              |  right   | west-right   |
+| north             |  center  | north-center |
+
+So far, this works for plain backgrounds without shadows or background masks. To create those, you can use the `shadow` and `mask` prefixes to make frames that follow the same structure:
+
+* **`shadow-[position]`**: each element can use SVG effects like gradients and alpha channels to create shadows that will show up in your backgrounds
+* **`mask-[position]`**: all elements for the mask should be black
+
+Shadows and background masks cannot use cardinal directions.
+
+Additionally, elements with a few hint IDs can be used to control the rendering of the backgrounds:
+
+* **`[hint]`**
+  * **`[hint]`** can be:
+    * `hint-stretch-borders`: if it exists, the borders will not be tiled but rather stretched to fill the entire area
+    * `hint-tile-center`: if it exists, the center will not be scaled but rather tiled to fit, that is, the pattern with this hint will be repeated until it fills the entire area (optional, from 4.1 and later).
+    * `hint-no-border-padding`:  if it exists, padding will not be added for the borders, and content will fill the entire area (including borders).
+    * `hint-compose-over-border`: if it exists, the `center` element will be drawn with the same size as the full image, composed under the borders and shaped with the alpha mask frame, which has to be present in order to make this hint work (optional).
+* **`[prefix]-hint-[direction]-inset`**: the spacing between the borders and the SVG's bounding rectangle, which may include things such as drop shadows. `[direction]` can be `top`, `right`, `bottom` or `left`.
+* **`[prefix]-hint-[direction]-margin`**: Use these optional hints if you want different margins than the border size in the SVG. height of these hints are used, for the `left` and `right` margins, the width.
+  * **`[prefix]`** is optional and depends on the SVG frame. For example, `mask` or `shadow`. A few other desktop theme SVGs use some modification of the prefix: [lineedit](elements.md#widgetslineeditsvg) uses `[state]`, [frame](elements.md#widgetsframesvg) uses `[3dlook]`, [listitem](elements.md#widgetslistitemsvg) uses `[type]`.
+  * **`[direction]`** is like the above.
+
+
+Next there can optionally be another element with an ID **overlay** (or **[prefix]-overlay** if it applies to a frame with a different prefix). It will be rendered over the frame like a watermark, with the rules given from the following **mutually exclusive** hints:
+
+* `hint-overlay-tile-horizontal`: tile the overlay horizontally; in other words, repeat the same pattern across the overlay
+* `hint-overlay-tile-vertical`: tile the overlay vertically
+* `hint-overlay-stretch`: the overlay will be stretched
+* `hint-overlay-pos-right`: align the overlay to the right of the background rather than to the left
+* `hint-overlay-pos-bottom`: align the overlay at the bottom of the background rather than at the top
+
+To summarize, here is a table of example element IDs used in backgrounds:
+
+| CARDINALDIRECTION | SHADOW/MASK | POSITION/HINT        | RESULT                  |
+| ----------------- | ----------- | -------------------- | ----------------------- |
+|                   |             | left                 | left                    |
+| west              |             | top                  | west-top                |
+|                   | shadow      | topright             | shadow-topright         |
+|                   | mask        | bottom               | mask-bottom             |
+|                   |             | hint-stretch-borders | hint-stretch-borders    |
+|                   | shadow      | hint-top-margin      | shadow-hint-top-margin  |
+| east              |             | hint-bottom-margin   | east-hint-bottom-margin |
+
+The last element ID is special and needs a section of its own:
+
+* `current-color-scheme`: if it exists, it is replaced by a CSS style with colors from the current color scheme. See [System and Accent Colors](colors.md) for details.

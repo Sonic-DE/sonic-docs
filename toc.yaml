@@ -12,3 +12,100 @@ sections:
       developer/building: Building Sonic-DE
       developer/dependencies: Dependencies
       developer/troubleshooting: Troubleshooting
+      developer/common-programming-mistakes: Common programming mistakes
+  "Tutorial: Kirigami":
+    pages:
+      developer/kirigami/setup-cpp: Setup with C++
+      developer/kirigami/setup-python: Setup with Python
+      developer/kirigami/pages: Explaining pages
+      developer/kirigami/list-views: Layouts, ListViews, and Cards
+      developer/kirigami/actions: Adding actions
+      developer/kirigami/dialog: Adding a dialog
+      developer/kirigami/separate-files: Using separate files in a C++ project
+      developer/kirigami/next-steps: Next steps
+      developer/kirigami/colors: Colors and themes
+      developer/kirigami/typography: Typography
+      developer/kirigami/page-row-and-page-stack: Page rows and page stacks
+      developer/kirigami/scrollable-pages: Scrollable pages and list views
+      developer/kirigami/listview-components: List views
+      developer/kirigami/actions-based-components: Actions based components
+      developer/kirigami/action-toolbars: Action toolbars
+      developer/kirigami/cards: Cards
+      developer/kirigami/drawers: Drawers
+      developer/kirigami/dialogs: Dialog types
+      developer/kirigami/chips: Chips
+      developer/kirigami/controls: Controls and interactive elements
+      developer/kirigami/form-layouts: Form layouts
+      developer/kirigami/inline-messages: Inline messages
+      developer/kirigami/progress-bars: Progress bars and indicators
+      developer/kirigami/understanding-cmakelists: Understanding CMakeLists
+      developer/kirigami/main-cpp: Figuring out main.cpp
+      developer/kirigami/connect-backend: Connect logic to your QML user interface
+      developer/kirigami/connect-models: Connect C++ models to your QML user interface
+      developer/kirigami/about-page: About page
+      developer/kirigami/addons-introduction: Introduction to Kirigami Addons
+      developer/kirigami/addons-about: FormCard About pages
+      developer/kirigami/addons-delegates: Form delegates in your settings pages
+  Themes and plugins:
+    pages:
+      developer/plasma/index: Overview
+  Desktop themes:
+    pages:
+      developer/plasma/theme/quickstart: Quickstart
+      developer/plasma/theme/details: Understanding desktop themes
+      developer/plasma/theme/svg: SVG elements and Inkscape
+      developer/plasma/theme/background-svg: Background SVG format
+      developer/plasma/theme/colors: System and accent colors
+      developer/plasma/theme/elements: Theme elements reference
+      developer/plasma/theme/porting-to-plasma6: Porting themes to Plasma 6
+  Desktop widgets:
+    pages:
+      developer/plasma/widget/index: Desktop widget tutorial
+      developer/plasma/widget/setup: Setup
+      developer/plasma/widget/testing: Testing
+  Python with Kirigami:
+    pages:
+      developer/python/app: A full Python + Kirigami application
+      developer/python/package: Creating a Python package
+      developer/python/bindings: Using Python bindings
+  "Tutorial: KXmlGui":
+    pages:
+      developer/kxmlgui/index: Getting started with KXmlGui
+      developer/kxmlgui/hello-world: Hello World!
+      developer/kxmlgui/main-window: Creating the main window
+      developer/kxmlgui/using-actions: Using actions
+      developer/kxmlgui/saving-and-loading: Saving and loading
+      developer/kxmlgui/command-line: Command line interface
+  Configuration:
+    pages:
+      developer/configuration/introduction: Introduction to KConfig
+      developer/configuration/kconfig-xt: Using KConfig XT
+      developer/configuration/kcm: Settings module (KCM) development
+      developer/configuration/porting-kcms-kf6: Porting KCMs to KDE Frameworks 6
+      developer/configuration/configdialog: KConfigDialog
+      developer/configuration/updating-config-files: Updating KConfig files
+  Libraries:
+    pages:
+      developer/libraries/karchive: KArchive
+      developer/libraries/kidletime: KIdleTime
+      developer/libraries/knotification: KNotification
+      developer/libraries/solid: Solid
+      developer/libraries/sonnet: Sonnet
+  KAuth:
+    pages:
+      developer/kauth/introduction: KAuth
+      developer/kauth/using-actions: Using actions in your applications
+  Desktop integration:
+    pages:
+      developer/additional/desktop-file: Desktop file
+      developer/additional/icons: Icons
+      developer/additional/cursor-theme: Create your own mouse cursor theme
+      developer/additional/session-management: Session management
+  D-Bus:
+    pages:
+      developer/dbus/introduction: Introduction to D-Bus
+      developer/dbus/accessing-interfaces: Accessing D-Bus interfaces
+      developer/dbus/intermediate: Intermediate D-Bus
+      developer/dbus/creating-interfaces: Creating D-Bus interfaces
+      developer/dbus/custom-types: Using custom types with D-Bus
+      developer/dbus/autostart-services: D-Bus autostart services

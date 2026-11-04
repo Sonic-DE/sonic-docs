@@ -82,7 +82,7 @@ Tells what borders are enabled of its background
 
 **Notifier signal:**
 
-- `void` **paddingChanged**()
+- `void` **[paddingChanged](plasmaquick-plasmawindow.md#leftPadding-prop)**()
 
 ### \[read-only\] leftPadding : qreal {#leftPadding-prop}
 
@@ -92,7 +92,7 @@ Tells what borders are enabled of its background
 
 **Notifier signal:**
 
-- `void` **[paddingChanged](plasmaquick-plasmawindow.md#bottomPadding-prop)**()
+- `void` **paddingChanged**()
 
 ### mainItem : QQuickItem\* {#mainItem-prop}
 
@@ -115,7 +115,7 @@ The main QML item that will be displayed in the Dialog
 
 **Notifier signal:**
 
-- `void` **[paddingChanged](plasmaquick-plasmawindow.md#bottomPadding-prop)**()
+- `void` **[paddingChanged](plasmaquick-plasmawindow.md#leftPadding-prop)**()
 
 ### \[read-only\] topPadding : qreal {#topPadding-prop}
 
@@ -125,7 +125,7 @@ The main QML item that will be displayed in the Dialog
 
 **Notifier signal:**
 
-- `void` **[paddingChanged](plasmaquick-plasmawindow.md#bottomPadding-prop)**()
+- `void` **[paddingChanged](plasmaquick-plasmawindow.md#leftPadding-prop)**()
 
 ## Member Function Documentation {#member-function-documentation}
 

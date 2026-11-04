@@ -73,13 +73,13 @@ aboutData: {
 
 This property holds a link to a "Donate" page.
 
-Default: "https://www.kde.org/donate" when the application ID starts with "org.kde.", otherwise empty.
+Default: the application's [KAboutData](../kcoreaddons/kaboutdata.md) donation URL, otherwise empty, as SonicDE has no donation page yet.
 
 ### getInvolvedUrl : url {#getInvolvedUrl-prop}
 
 This property holds a link to a "Get Involved" page.
 
-Default: "https://community.kde.org/Get_Involved" when the application ID starts with "org.kde.", otherwise empty.
+Default: "https://github.com/Sonic-DE" when the application ID starts with "org.sonicde." or "org.kde.", otherwise empty.
 
 ### showLibraries : bool {#showLibraries-prop}
 
