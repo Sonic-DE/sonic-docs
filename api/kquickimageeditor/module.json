@@ -18,9 +18,13 @@
     "module": "kquickimageeditor",
     "sections": [
         {
-            "description": "",
-            "page": "",
+            "description": "C++ classes behind the KQuickImageEditor QML types.",
+            "page": "kquickimageeditor/kquickimageeditor-module",
             "pages": [
+                [
+                    "kquickimageeditor/kquickimageeditor-module",
+                    "KQuickImageEditor C++ Classes"
+                ],
                 [
                     "kquickimageeditor/selecteditemwrapper",
                     "SelectedItemWrapper"
@@ -31,7 +35,7 @@
                 ]
             ],
             "qml": false,
-            "title": "kquickimageeditor"
+            "title": "KQuickImageEditor C++ Classes"
         },
         {
             "description": "QML components providing basic image editing capabilities.",

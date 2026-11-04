@@ -322,9 +322,13 @@
     "module": "kirigamiaddonsactions",
     "sections": [
         {
-            "description": "",
-            "page": "",
+            "description": "C++ classes behind the Kirigami Addons Actions QML types.",
+            "page": "kirigamiaddonsactions/kirigamiaddonsactions-module",
             "pages": [
+                [
+                    "kirigamiaddonsactions/kirigamiaddonsactions-module",
+                    "Kirigami Addons Actions C++ Classes"
+                ],
                 [
                     "kirigamiaddonsactions/abstractkirigamiapplication",
                     "AbstractKirigamiApplication"
@@ -339,7 +343,7 @@
                 ]
             ],
             "qml": false,
-            "title": "kirigamiaddonsactions"
+            "title": "Kirigami Addons Actions C++ Classes"
         },
         {
             "description": "Experimental native menu types for the Kirigami Addons actions module.",

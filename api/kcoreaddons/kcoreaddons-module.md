@@ -49,6 +49,7 @@ Provides core non-GUI functionality. [More...](#details)
 - [KMemoryInfo](kmemoryinfo.md): The KMemoryInfo class provides an interface to get memory information (RAM/SWAP).
 - [KNetworkMounts](knetworkmounts.md)
 - [KOSRelease](kosrelease.md): The OSRelease class parses /etc/os-release files.
+- [KPluginFactory::Result](kpluginfactory-result.md)
 - [KPluginFactory](kpluginfactory.md): KPluginFactory provides a convenient way to provide factory-style plugins.
 - [KPluginMetaData](kpluginmetadata.md): This class allows easily accessing some standardized values from the JSON metadata that can be embedded into Qt plugins.
 - [KProcess](kprocess.md): Child process invocation, monitoring and control.

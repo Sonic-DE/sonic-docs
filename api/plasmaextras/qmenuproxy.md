@@ -33,9 +33,9 @@ Plasma Extras QML Module. [More...](#details)
 
 An Item provides a menu for use in context specific situations. You can specify the position for the menu to open by setting its visualParent. MenuItems should be used to draw entries in the menu. The [open](qmenuproxy.md#open)() function opens up the menu at the given visualParent.
 
-Example usage: @code import org.kde.plasma.extras 2.0 as PlasmaExtras
+Example usage: @code import org.kde.plasma.extras 2.0 as [PlasmaExtras](plasmaextras-module.md)
 
-\[...\] PlasmaExtras.Menu { id: menu ... PlasmaExtras.[MenuItem](https://doc.qt.io/qt-6/qml-qtquick-controls-menuitem.html) { text: "Delete" onClicked: { myListItem.remove(); } } } PlasmaExtras.Button { id: btn onClicked: { menu.visualParent = btn menu.[open](qmenuproxy.md#open)() } } \[...\] @endcode
+\[...\] [PlasmaExtras](plasmaextras-module.md).Menu { id: menu ... [PlasmaExtras](plasmaextras-module.md).[MenuItem](https://doc.qt.io/qt-6/qml-qtquick-controls-menuitem.html) { text: "Delete" onClicked: { myListItem.remove(); } } } [PlasmaExtras](plasmaextras-module.md).Button { id: btn onClicked: { menu.visualParent = btn menu.[open](qmenuproxy.md#open)() } } \[...\] @endcode
 
 ## Member Type Documentation {#member-type-documentation}
 

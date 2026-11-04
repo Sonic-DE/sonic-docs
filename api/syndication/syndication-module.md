@@ -15,6 +15,7 @@ RSS/Atom parser library. [More...](#details)
 ## Classes {#classes}
 
 - [Syndication::AbstractParser](syndication-abstractparser.md): Interface for all parsers.
+- [Syndication::Atom::Category](syndication-atom-category.md): A category for categorizing items or whole feeds.
 - [Syndication::Atom::Content](syndication-atom-content.md): The content element either contains or links the content of an entry.
 - [Syndication::Atom::Entry](syndication-atom-entry.md): An Atom entry, equivalent to the "items" in the RSS world.
 - [Syndication::Atom::EntryDocument](syndication-atom-entrydocument.md): An Atom 1.0 Entry Document, containing a single Atom entry outside of the context of a feed.
@@ -22,6 +23,7 @@ RSS/Atom parser library. [More...](#details)
 - [Syndication::Atom::Generator](syndication-atom-generator.md): Description of the agent used to generate the feed.
 - [Syndication::Atom::Link](syndication-atom-link.md): A link, pointing to webpages, media files on the web ("podcast"), related content, etc. See rel() for details.
 - [Syndication::Atom::Parser](syndication-atom-parser.md): parser implementation for Atom 1.0 and 0.3.
+- [Syndication::Atom::Person](syndication-atom-person.md): Describes a person, with name and optional URI and e-mail address. Used to describe authors and contributors of feeds/entries.
 - [Syndication::Atom::Source](syndication-atom-source.md): If an entry was copied from another feed, this class contains a description of the source feed.
 - [Syndication::Category](syndication-category.md): A category for categorizing items or whole feeds.
 - [Syndication::DataRetriever](syndication-dataretriever.md): Abstract baseclass for all data retriever classes.

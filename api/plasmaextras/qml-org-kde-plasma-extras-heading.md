@@ -42,6 +42,6 @@ The level determines how big the section header is display, values between 1 (bi
 
 The type of the heading. This can be:
 
-- PlasmaExtras.Heading.Type.Normal: Create a normal heading (default)
-- PlasmaExtras.Heading.Type.Primary: Makes the heading more prominent. Useful when making the heading bigger is not enough.
-- PlasmaExtras.Heading.Type.Secondary: Makes the heading less prominent. Useful when an heading is for a less important section in an application.
+- [PlasmaExtras](plasmaextras-module.md).Heading.Type.Normal: Create a normal heading (default)
+- [PlasmaExtras](plasmaextras-module.md).Heading.Type.Primary: Makes the heading more prominent. Useful when making the heading bigger is not enough.
+- [PlasmaExtras](plasmaextras-module.md).Heading.Type.Secondary: Makes the heading less prominent. Useful when an heading is for a less important section in an application.

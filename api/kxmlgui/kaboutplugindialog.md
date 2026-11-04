@@ -8,6 +8,8 @@ description: "This class provides a standard \"About Plugin\" dialog box."
 This class provides a standard "About Plugin" dialog box. [More...](#details)
 
 - **Header:** `#include <KAboutPluginDialog>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS XmlGui)`  
+  `target_link_libraries(mytarget PRIVATE KF6::XmlGui)`
 - **Inherits:** [QDialog](https://doc.qt.io/qt-6/qdialog.html)
 
 [List of all members, including inherited members](kaboutplugindialog-members.md)

@@ -841,6 +841,27 @@ sections:
       kirigamiaddonsactionslabs/org-kde-kirigamiaddons-actions-labs-qmlmodule: "Kirigami Addons Actions (Labs) QML Types"
       kirigamiaddonsactionslabs/qml-org-kde-kirigamiaddons-actions-labs-nativemenubar: "NativeMenuBar"
       kirigamiaddonsactionslabs/qml-org-kde-kirigamiaddons-actions-labs-nativemenuitem: "NativeMenuItem"
+  "Kirigami Addons Actions C++ Classes":
+    pages:
+      kirigamiaddonsactions/kirigamiaddonsactions-module: "Kirigami Addons Actions C++ Classes"
+      kirigamiaddonsactions/abstractkirigamiapplication: "AbstractKirigamiApplication"
+      kirigamiaddonsactions/kirigamiactioncollection: "KirigamiActionCollection"
+      kirigamiaddonsactions/org-kde-kirigamiaddons-actions-qmlmodule: "Kirigami Addons Actions QML Types"
+  "Kirigami Addons Actions (Labs) QML Types (kirigamiaddonsactions)":
+    pages:
+      kirigamiaddonsactions/org-kde-kirigamiaddons-actions-labs-qmlmodule: "Kirigami Addons Actions (Labs) QML Types"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actioncollection: "ActionCollection"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actioncontext: "ActionContext"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actiondata: "ActionData"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actiongroup: "ActionGroup"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actionmenu: "ActionMenu"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actionmenubar: "ActionMenuBar"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actionmenupopup: "ActionMenuPopup"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-icongroup: "IconGroup"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-labs-nativemenubar: "NativeMenuBar"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-labs-nativemenuitem: "NativeMenuItem"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-standardactiondata: "StandardActionData"
+      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-statefulwindow: "StatefulWindow"
   "Kirigami Addons App C++ Classes":
     pages:
       kirigamiapp/kirigamiapp-module: "Kirigami Addons App C++ Classes"
@@ -954,26 +975,6 @@ sections:
       kirigamiplatform/qml-org-kde-kirigami-platform-toolsarearegion: "ToolsAreaRegion"
       kirigamiplatform/qml-org-kde-kirigami-platform-toolsareawindowbackground: "ToolsAreaWindowBackground"
       kirigamiplatform/qml-org-kde-kirigami-platform-units: "Units (Singleton)"
-  "kirigamiaddonsactions":
-    pages:
-      kirigamiaddonsactions/abstractkirigamiapplication: "AbstractKirigamiApplication"
-      kirigamiaddonsactions/kirigamiactioncollection: "KirigamiActionCollection"
-      kirigamiaddonsactions/org-kde-kirigamiaddons-actions-qmlmodule: "Kirigami Addons Actions QML Types"
-  "Kirigami Addons Actions (Labs) QML Types (kirigamiaddonsactions)":
-    pages:
-      kirigamiaddonsactions/org-kde-kirigamiaddons-actions-labs-qmlmodule: "Kirigami Addons Actions (Labs) QML Types"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actioncollection: "ActionCollection"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actioncontext: "ActionContext"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actiondata: "ActionData"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actiongroup: "ActionGroup"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actionmenu: "ActionMenu"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actionmenubar: "ActionMenuBar"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-actionmenupopup: "ActionMenuPopup"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-icongroup: "IconGroup"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-labs-nativemenubar: "NativeMenuBar"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-labs-nativemenuitem: "NativeMenuItem"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-standardactiondata: "StandardActionData"
-      kirigamiaddonsactions/qml-org-kde-kirigamiaddons-actions-statefulwindow: "StatefulWindow"
   "kirigamiaddonscomponents":
     pages:
       kirigamiaddonscomponents/kirigami-addons-index: "Kirigami Addons"
@@ -1213,8 +1214,9 @@ sections:
       kquickcontrolsaddons/qml-org-kde-kquickcontrols-addons-mouseeventlistener: "MouseEventListener"
       kquickcontrolsaddons/qml-org-kde-kquickcontrols-addons-qimageitem: "QImageItem"
       kquickcontrolsaddons/qml-org-kde-kquickcontrols-addons-qpixmapitem: "QPixMapItem"
-  "kquickimageeditor":
+  "KQuickImageEditor C++ Classes":
     pages:
+      kquickimageeditor/kquickimageeditor-module: "KQuickImageEditor C++ Classes"
       kquickimageeditor/selecteditemwrapper: "SelectedItemWrapper"
       kquickimageeditor/kquickimageeditor-index: "KQuickImageEditor"
   "KQuickImageEditor QML Types":
@@ -1741,6 +1743,45 @@ sections:
       plasmacomponents/qml-org-kde-plasma-components-toolbar: "ToolBar"
       plasmacomponents/qml-org-kde-plasma-components-toolbutton: "ToolButton"
       plasmacomponents/qml-org-kde-plasma-components-tooltip: "ToolTip"
+  "Plasma Core C++ Classes":
+    pages:
+      plasmacore/plasmacore-module: "Plasma Core C++ Classes"
+      plasmacore/tooltipdialog: "ToolTipDialog"
+  "Plasma Core QML Types":
+    pages:
+      plasmacore/org-kde-plasma-core-qmlmodule: "Plasma Core QML Types"
+      plasmacore/qml-defaulttooltip: "DefaultToolTip"
+      plasmacore/qml-dialogbackground: "DialogBackground"
+      plasmacore/qml-org-kde-plasma-core-action: "Action"
+      plasmacore/qml-org-kde-plasma-core-appletpopup: "AppletPopup"
+      plasmacore/qml-org-kde-plasma-core-dialog: "Dialog"
+      plasmacore/qml-org-kde-plasma-core-popupplasmawindow: "PopupPlasmaWindow"
+      plasmacore/qml-org-kde-plasma-core-tooltiparea: "ToolTipArea"
+      plasmacore/qml-org-kde-plasma-core-window: "Window"
+      plasmacore/qml-org-kde-plasma-core-windowthumbnail: "WindowThumbnail"
+  "Plasma Extras C++ Classes":
+    pages:
+      plasmaextras/plasmaextras-module: "Plasma Extras C++ Classes"
+      plasmaextras/qmenuproxy: "QMenuProxy"
+  "Plasma Extras QML Types":
+    pages:
+      plasmaextras/org-kde-plasma-extras-qmlmodule: "Plasma Extras QML Types"
+      plasmaextras/qml-contextualhelpbutton: "ContextualHelpButton"
+      plasmaextras/qml-org-kde-plasma-extras-actiontextfield: "ActionTextField"
+      plasmaextras/qml-org-kde-plasma-extras-basicplasmoidheading: "BasicPlasmoidHeading"
+      plasmaextras/qml-org-kde-plasma-extras-descriptivelabel: "DescriptiveLabel"
+      plasmaextras/qml-org-kde-plasma-extras-expandablelistitem: "ExpandableListItem"
+      plasmaextras/qml-org-kde-plasma-extras-heading: "Heading"
+      plasmaextras/qml-org-kde-plasma-extras-highlight: "Highlight"
+      plasmaextras/qml-org-kde-plasma-extras-listitem: "ListItem"
+      plasmaextras/qml-org-kde-plasma-extras-listsectionheader: "ListSectionHeader"
+      plasmaextras/qml-org-kde-plasma-extras-modelcontextmenu: "ModelContextMenu"
+      plasmaextras/qml-org-kde-plasma-extras-passwordfield: "PasswordField"
+      plasmaextras/qml-org-kde-plasma-extras-placeholdermessage: "PlaceholderMessage"
+      plasmaextras/qml-org-kde-plasma-extras-plasmoidheading: "PlasmoidHeading"
+      plasmaextras/qml-org-kde-plasma-extras-representation: "Representation"
+      plasmaextras/qml-org-kde-plasma-extras-searchfield: "SearchField"
+      plasmaextras/qml-org-kde-plasma-extras-shadowedlabel: "ShadowedLabel"
   "Plasma Quick C++ Classes":
     pages:
       plasmaquick/plasmaquick-module: "Plasma Quick C++ Classes"
@@ -1765,43 +1806,6 @@ sections:
       plasmaquick/qml-org-kde-plasma-plasmoid-plasmoiditem: "PlasmoidItem"
       plasmaquick/qml-org-kde-plasma-plasmoid-wallpaperitem: "WallpaperItem"
       plasmaquick/qml-types: "Types"
-  "plasmacore":
-    pages:
-      plasmacore/tooltipdialog: "ToolTipDialog"
-  "Plasma Core QML Types":
-    pages:
-      plasmacore/org-kde-plasma-core-qmlmodule: "Plasma Core QML Types"
-      plasmacore/qml-defaulttooltip: "DefaultToolTip"
-      plasmacore/qml-dialogbackground: "DialogBackground"
-      plasmacore/qml-org-kde-plasma-core-action: "Action"
-      plasmacore/qml-org-kde-plasma-core-appletpopup: "AppletPopup"
-      plasmacore/qml-org-kde-plasma-core-dialog: "Dialog"
-      plasmacore/qml-org-kde-plasma-core-popupplasmawindow: "PopupPlasmaWindow"
-      plasmacore/qml-org-kde-plasma-core-tooltiparea: "ToolTipArea"
-      plasmacore/qml-org-kde-plasma-core-window: "Window"
-      plasmacore/qml-org-kde-plasma-core-windowthumbnail: "WindowThumbnail"
-  "plasmaextras":
-    pages:
-      plasmaextras/qmenuproxy: "QMenuProxy"
-  "Plasma Extras QML Types":
-    pages:
-      plasmaextras/org-kde-plasma-extras-qmlmodule: "Plasma Extras QML Types"
-      plasmaextras/qml-contextualhelpbutton: "ContextualHelpButton"
-      plasmaextras/qml-org-kde-plasma-extras-actiontextfield: "ActionTextField"
-      plasmaextras/qml-org-kde-plasma-extras-basicplasmoidheading: "BasicPlasmoidHeading"
-      plasmaextras/qml-org-kde-plasma-extras-descriptivelabel: "DescriptiveLabel"
-      plasmaextras/qml-org-kde-plasma-extras-expandablelistitem: "ExpandableListItem"
-      plasmaextras/qml-org-kde-plasma-extras-heading: "Heading"
-      plasmaextras/qml-org-kde-plasma-extras-highlight: "Highlight"
-      plasmaextras/qml-org-kde-plasma-extras-listitem: "ListItem"
-      plasmaextras/qml-org-kde-plasma-extras-listsectionheader: "ListSectionHeader"
-      plasmaextras/qml-org-kde-plasma-extras-modelcontextmenu: "ModelContextMenu"
-      plasmaextras/qml-org-kde-plasma-extras-passwordfield: "PasswordField"
-      plasmaextras/qml-org-kde-plasma-extras-placeholdermessage: "PlaceholderMessage"
-      plasmaextras/qml-org-kde-plasma-extras-plasmoidheading: "PlasmoidHeading"
-      plasmaextras/qml-org-kde-plasma-extras-representation: "Representation"
-      plasmaextras/qml-org-kde-plasma-extras-searchfield: "SearchField"
-      plasmaextras/qml-org-kde-plasma-extras-shadowedlabel: "ShadowedLabel"
   "Prison C++ Classes":
     pages:
       prison/prison-module: "Prison C++ Classes"

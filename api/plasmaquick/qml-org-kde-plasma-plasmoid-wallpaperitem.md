@@ -24,7 +24,7 @@ This property was introduced in Qt 6.0.
 
 ### contextualActions : list\<QAction\> {#contextualActions-prop}
 
-Actions to be added in the desktop context menu. To instantiate QActions in a declarative way, PlasmaCore.Action {} can be used
+Actions to be added in the desktop context menu. To instantiate QActions in a declarative way, [PlasmaCore](../plasmacore/plasmacore-module.md).Action {} can be used
 
 ### loading : bool {#loading-prop}
 

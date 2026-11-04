@@ -57,5 +57,6 @@ Open Collaboration Service client library. [More...](#details)
 - [Attica::PutJob](attica-putjob.md): Represents a put job.
 - [Attica::RemoteAccount](attica-remoteaccount.md): Represents a remote account.
 - [Attica::Target](attica-target.md): The target in a build service.
+- [Attica::Topic](attica-topic.md): Represents a topic.
 
 ## Detailed Description {#details}

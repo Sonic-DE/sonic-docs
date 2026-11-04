@@ -20,16 +20,20 @@
     "module": "plasmacore",
     "sections": [
         {
-            "description": "",
-            "page": "",
+            "description": "C++ classes behind the Plasma Core QML types.",
+            "page": "plasmacore/plasmacore-module",
             "pages": [
+                [
+                    "plasmacore/plasmacore-module",
+                    "Plasma Core C++ Classes"
+                ],
                 [
                     "plasmacore/tooltipdialog",
                     "ToolTipDialog"
                 ]
             ],
             "qml": false,
-            "title": "plasmacore"
+            "title": "Plasma Core C++ Classes"
         },
         {
             "description": "Plasma Stuff.",

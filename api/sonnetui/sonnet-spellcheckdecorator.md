@@ -8,6 +8,8 @@ description: "Connects a Sonnet::Highlighter to a QTextEdit extending the contex
 Connects a [Sonnet::Highlighter](sonnet-highlighter.md) to a [QTextEdit](https://doc.qt.io/qt-6/qtextedit.html) extending the context menu of the text edit with spell check suggestions. [More...](#details)
 
 - **Header:** `#include <Sonnet/SpellCheckDecorator>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Sonnet)`  
+  `target_link_libraries(mytarget PRIVATE KF6::SonnetUi)`
 - **Inherits:** [QObject](https://doc.qt.io/qt-6/qobject.html)
 
 [List of all members, including inherited members](sonnet-spellcheckdecorator-members.md)

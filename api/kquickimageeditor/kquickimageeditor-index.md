@@ -13,13 +13,13 @@ Using a Qt module's C++ API requires linking against the module library, either 
 
 ### Building with CMake {#building-with-cmake}
 
-To import only the KQuickImageEditor QML modules:
+To import only the [KQuickImageEditor](kquickimageeditor-module.md) QML modules:
 
 ```cpp
 ecm_find_qml_module(org.kde.kquickimageeditor REQUIRED)
 ```
 
-To import KQuickImageEditor into your project using CMake:
+To import [KQuickImageEditor](kquickimageeditor-module.md) into your project using CMake:
 
 ```cpp
 find_package(KQuickImageEditor REQUIRED)
@@ -28,6 +28,7 @@ find_package(KQuickImageEditor REQUIRED)
 ## API Reference {#api-reference}
 
 - [KQuickImageEditor QML Types](org-kde-kquickimageeditor-qmlmodule.md)
+- [KQuickImageEditor C++ Classes](kquickimageeditor-module.md)
 
 ## Licenses {#licenses}
 

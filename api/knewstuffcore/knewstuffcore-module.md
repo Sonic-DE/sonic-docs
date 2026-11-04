@@ -15,6 +15,7 @@ Provides Stuff. [More...](#details)
 ## Classes {#classes}
 
 - [KNSCore::Author](knscore-author.md): KNewStuff author information.
+- [KNSCore::CategoryMetadata](knscore-categorymetadata.md): Describes a category.
 - [KNSCore::CommentsModel](knscore-commentsmodel.md): A model which takes care of the comments for a single Entry.
 - [KNSCore::EngineBase](knscore-enginebase.md): KNewStuff engine.
 - [KNSCore::Entry](knscore-entry.md): KNewStuff data entry container.

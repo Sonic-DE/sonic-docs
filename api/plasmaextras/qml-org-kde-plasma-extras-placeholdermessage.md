@@ -185,8 +185,8 @@ Optional; if not defined, the message will have no large text label text. If bot
 
 The type of the message. This can be:
 
-- PlasmaExtras.[PlaceholderMessage](qml-org-kde-plasma-extras-placeholdermessage.md).Type.Actionable: Makes it more attention-getting. Useful when the user is expected to interact with the message.
-- PlasmaExtras.[PlaceholderMessage](qml-org-kde-plasma-extras-placeholdermessage.md).Type.Informational: Makes it less prominent. Useful when the message in only informational.
+- [PlasmaExtras](plasmaextras-module.md).[PlaceholderMessage](qml-org-kde-plasma-extras-placeholdermessage.md).Type.Actionable: Makes it more attention-getting. Useful when the user is expected to interact with the message.
+- [PlasmaExtras](plasmaextras-module.md).[PlaceholderMessage](qml-org-kde-plasma-extras-placeholdermessage.md).Type.Informational: Makes it less prominent. Useful when the message in only informational.
    
    By default if an [helpfulAction](qml-org-kde-plasma-extras-placeholdermessage.md#helpfulAction-prop) is provided this will be of type Actionable otherwise of type Informational.
 

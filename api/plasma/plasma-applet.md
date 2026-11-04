@@ -283,7 +283,7 @@ Display hints that come from the containment that suggest the applet how to look
 
 Actions to be added in the plasmoid's context menu.
 
-Use PlasmaCore.Action to instantiate QActions declaratively.
+Use [PlasmaCore](../plasmacore/plasmacore-module.md).Action to instantiate QActions declaratively.
 
 **Access functions:**
 

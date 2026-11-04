@@ -8,6 +8,8 @@ description: "QML components providing basic image editing capabilities."
 QML components providing basic image editing capabilities. [More...](#details)
 
 - **Header:** `#include <SelectedItemWrapper>`
+- **CMake:** `find_package(KQuickImageEditor REQUIRED)`  
+  `target_link_libraries(mytarget PRIVATE KQuickImageEditor)`
 - **Inherits:** [QObject](https://doc.qt.io/qt-6/qobject.html)
 
 [List of all members, including inherited members](selecteditemwrapper-members.md)

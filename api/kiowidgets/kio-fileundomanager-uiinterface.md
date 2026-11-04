@@ -8,6 +8,8 @@ description: "productname."
 productname. [More...](#details)
 
 - **Header:** `#include <UiInterface>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KIO)`  
+  `target_link_libraries(mytarget PRIVATE KF6::KIOWidgets)`
 
 [List of all members, including inherited members](kio-fileundomanager-uiinterface-members.md)
 

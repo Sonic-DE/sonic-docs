@@ -15,6 +15,7 @@ description: "SonnetUi is a plugin-based spell checking library for Qt-based app
 - [Sonnet::Dialog](sonnet-dialog.md): Spellcheck dialog.
 - [Sonnet::DictionaryComboBox](sonnet-dictionarycombobox.md): A combo box for selecting the dictionary used for spell checking.
 - [Sonnet::Highlighter](sonnet-highlighter.md): The sonnet Highlighter.
+- [Sonnet::SpellCheckDecorator](sonnet-spellcheckdecorator.md): Connects a Sonnet::Highlighter to a QTextEdit extending the context menu of the text edit with spell check suggestions.
 
 ## Detailed Description {#details}
 

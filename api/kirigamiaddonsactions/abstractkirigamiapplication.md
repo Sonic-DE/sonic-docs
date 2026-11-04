@@ -8,6 +8,8 @@ description: "The main container for your actions."
 The main container for your actions. [More...](#details)
 
 - **Header:** `#include <AbstractKirigamiApplication>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KirigamiAddons)`  
+  `target_link_libraries(mytarget PRIVATE KirigamiAddonsStatefulApp)`
 - **Inherits:** [QObject](https://doc.qt.io/qt-6/qobject.html)
 
 [List of all members, including inherited members](abstractkirigamiapplication-members.md)

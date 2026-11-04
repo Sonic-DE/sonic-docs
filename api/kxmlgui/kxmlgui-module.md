@@ -14,6 +14,7 @@ description: "KXmlGui is a collection of convenience classes and widgets to mana
 ## Classes {#classes}
 
 - [KAboutApplicationDialog](kaboutapplicationdialog.md): Standard "About Application" dialog box.
+- [KAboutPluginDialog](kaboutplugindialog.md): This class provides a standard "About Plugin" dialog box.
 - [KActionCategory](kactioncategory.md): Categorize actions for KShortcutsEditor.
 - [KActionCollection](kactioncollection.md): A container for a set of QAction objects.
 - [KBugReport](kbugreport.md): A dialog box for sending bug reports.

@@ -58,16 +58,20 @@
     "module": "plasmaextras",
     "sections": [
         {
-            "description": "",
-            "page": "",
+            "description": "C++ classes behind the Plasma Extras QML types.",
+            "page": "plasmaextras/plasmaextras-module",
             "pages": [
+                [
+                    "plasmaextras/plasmaextras-module",
+                    "Plasma Extras C++ Classes"
+                ],
                 [
                     "plasmaextras/qmenuproxy",
                     "QMenuProxy"
                 ]
             ],
             "qml": false,
-            "title": "plasmaextras"
+            "title": "Plasma Extras C++ Classes"
         },
         {
             "description": "Plasma Extra Stuff.",

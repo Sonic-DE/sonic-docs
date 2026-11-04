@@ -50,7 +50,7 @@ Display hints that come from the containment that suggest how the plasmoid shoul
 
 Actions to be added in the plasmoid's context menu.
 
-Use PlasmaCore.Action to instantiate QActions declaratively.
+Use [PlasmaCore](../plasmacore/plasmacore-module.md).Action to instantiate QActions declaratively.
 
 ### \[read-only\] Plasmoid.effectiveBackgroundHints : Plasma.Types.BackgroundHints {#effectiveBackgroundHints-attached-prop}
 

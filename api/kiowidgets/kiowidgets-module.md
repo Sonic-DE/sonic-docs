@@ -24,6 +24,7 @@ Network transparent access to files and data. [More...](#details)
 - [KIO::DeleteOrTrashJob](kio-deleteortrashjob.md): This job asks the user for confirmation to delete or move to Trash a list of URLs; or if the job is constructed with AskUserActionInterface::EmptyTrash, to empty the Trash.
 - [KIO::DropJob](kio-dropjob.md): A KIO job that handles dropping into a file-manager-like view.
 - [KIO::FileUndoManager](kio-fileundomanager.md): Makes it possible to undo KIO jobs.
+- [KIO::FileUndoManager::UiInterface](kio-fileundomanager-uiinterface.md)
 - [KIO::JobUiDelegate](kio-jobuidelegate.md)
 - [KIO::KUriFilterSearchProviderActions](kio-kurifiltersearchprovideractions.md): This class is a manager for web shortcuts.
 - [KIO::PasteJob](kio-pastejob.md): A KIO job that handles pasting the clipboard contents.

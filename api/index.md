@@ -49,9 +49,9 @@ Reference documentation for the SonicDE libraries, generated from their source c
 - [KIO Gui C++ Classes](kiogui/kiogui-module.md): GUI-related functionality for KIO.
 - [KIO Widgets C++ Classes](kiowidgets/kiowidgets-module.md): Network transparent access to files and data.
 - [kirigami](kirigami/kirigami-index.md)
+- [Kirigami Addons Actions C++ Classes](kirigamiaddonsactions/kirigamiaddonsactions-module.md): C++ classes behind the Kirigami Addons Actions QML types.
 - [Kirigami Addons App C++ Classes](kirigamiapp/kirigamiapp-module.md): Helpers for setting up Kirigami applications.
 - [Kirigami Platform C++ Classes](kirigamiplatform/kirigamiplatform-module.md): Platform Integration Components.
-- [kirigamiaddonsactions](kirigamiaddonsactions/abstractkirigamiapplication.md)
 - [kirigamiaddonscomponents](kirigamiaddonscomponents/kirigami-addons-index.md)
 - [kirigamiaddonsonboarding](kirigamiaddonsonboarding/kirigamiaddonsonboarding-onboardingtutorial-cmakelists-txt.md)
 - [KItemModels C++ Classes](kitemmodels/kitemmodels-module.md): Models for Qt Model/View system.
@@ -66,7 +66,7 @@ Reference documentation for the SonicDE libraries, generated from their source c
 - [KParts C++ Classes](kparts/kparts-module.md): Plugin framework for user interface components.
 - [KPty C++ Classes](kpty/kpty-module.md): Interfacing with pseudo terminal devices.
 - [kquickcharts](kquickcharts/kquickcharts-index.md)
-- [kquickimageeditor](kquickimageeditor/selecteditemwrapper.md)
+- [KQuickImageEditor C++ Classes](kquickimageeditor/kquickimageeditor-module.md): C++ classes behind the KQuickImageEditor QML types.
 - [KRunner C++ Classes](krunner/krunner-module.md): Framework for Plasma runners.
 - [KService C++ Classes](kservice/kservice-module.md): KService allows to query information about installed applications and their associated file types.
 - [KStatusNotifierItem C++ Classes](kstatusnotifieritem/kstatusnotifieritem-module.md): Components to make a tray icon available over D-Bus.
@@ -86,9 +86,9 @@ Reference documentation for the SonicDE libraries, generated from their source c
 - [NetworkManagerQt C++ Classes](networkmanager-qt/networkmanagerqt-module.md): Qt wrapper for NetworkManager API.
 - [Plasma Activities C++ Classes](plasmaactivities/plasmaactivities-module.md): Library for interacting with Plasma Activities.
 - [Plasma C++ Classes](plasma/plasma-module.md): Plasma.
+- [Plasma Core C++ Classes](plasmacore/plasmacore-module.md): C++ classes behind the Plasma Core QML types.
+- [Plasma Extras C++ Classes](plasmaextras/plasmaextras-module.md): C++ classes behind the Plasma Extras QML types.
 - [Plasma Quick C++ Classes](plasmaquick/plasmaquick-module.md): Plasma.
-- [plasmacore](plasmacore/tooltipdialog.md)
-- [plasmaextras](plasmaextras/qmenuproxy.md)
 - [Prison C++ Classes](prison/prison-module.md): Barcode Rendering.
 - [Prison Scanner C++ Classes](prisonscanner/prisonscanner-module.md): Barcode Scanning.
 - [Purpose C++ Classes](purpose/purpose-module.md): Framework for providing abstractions to get the developer's purposes fulfilled.

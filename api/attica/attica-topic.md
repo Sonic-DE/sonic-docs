@@ -8,6 +8,8 @@ description: "Represents a topic."
 Represents a topic. [More...](#details)
 
 - **Header:** `#include <Attica/Topic>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS Attica)`  
+  `target_link_libraries(mytarget PRIVATE KF6::Attica)`
 
 [List of all members, including inherited members](attica-topic-members.md)
 

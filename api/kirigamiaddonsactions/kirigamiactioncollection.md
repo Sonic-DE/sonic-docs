@@ -8,6 +8,8 @@ description: "The C++ counterpart of the ActionCollection QML type."
 The C++ counterpart of the [ActionCollection](qml-org-kde-kirigamiaddons-actions-actioncollection.md) QML type. [More...](#details)
 
 - **Header:** `#include <KirigamiActionCollection>`
+- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KirigamiAddons)`  
+  `target_link_libraries(mytarget PRIVATE KirigamiAddonsStatefulApp)`
 - **Inherits:** [QObject](https://doc.qt.io/qt-6/qobject.html)
 
 [List of all members, including inherited members](kirigamiactioncollection-members.md)

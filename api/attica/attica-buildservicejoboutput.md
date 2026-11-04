@@ -7,7 +7,7 @@ description: "Represents the ouput of a build service job."
 
 Represents the ouput of a build service job. [More...](#details)
 
-- **Header:** `#include <BuildServiceJobOutput>`
+- **Header:** `#include <Attica/BuildServiceJobOutput>`
 - **CMake:** `find_package(KF6 REQUIRED COMPONENTS Attica)`  
   `target_link_libraries(mytarget PRIVATE KF6::Attica)`
 
