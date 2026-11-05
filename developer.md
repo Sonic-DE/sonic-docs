@@ -32,6 +32,8 @@ This tier is for people building Sonic-DE from source or contributing to it.
 - [Sensor faces](developer/sensor-faces.md): create new display styles for System Monitor.
 - [System administration](developer/administration/index.md): lock down deployments with Kiosk,
   and set default favorites, About page branding and portal permissions.
+- [Mobile interface](developer/mobile/index.md): the shell for phones, porting a device and the
+  telephony stack.
 - [D-Bus](developer/dbus/introduction.md): how to call and offer D-Bus interfaces from your
   own code. SonicDE is gradually moving its own communication between processes to
   [Sonic IPC](/docs/api/sonicipc/sonicipc-index).

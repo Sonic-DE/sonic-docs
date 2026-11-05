@@ -143,6 +143,19 @@ sections:
       developer/administration/menu: Menu favorites
       developer/administration/about-branding: About page branding
       developer/administration/portal-permissions: Portal pre-authorization
+  Mobile interface:
+    pages:
+      developer/mobile/index: Mobile interface
+      developer/mobile/running-apps: Execute applications
+      developer/mobile/porting: Porting a new device
+      developer/mobile/telephony/index: Telephony stack
+      developer/mobile/telephony/kernel-layer: Kernel layer
+      developer/mobile/telephony/system-daemon/index: System daemon
+      developer/mobile/telephony/system-daemon/modem-manager: ModemManager
+      developer/mobile/telephony/system-daemon/ofono: Testing with oFono Phonesim
+      developer/mobile/telephony/session-daemons: Session daemons
+      developer/mobile/telephony/qml-plugin: QML plugin
+      developer/mobile/telephony/applications: Applications
   Desktop integration:
     pages:
       developer/additional/desktop-file: Desktop file
