@@ -134,6 +134,15 @@ sections:
   System Monitor:
     pages:
       developer/sensor-faces: Creating sensor faces
+  System administration:
+    pages:
+      developer/administration/index: System administration
+      developer/administration/kiosk/index: Kiosk
+      developer/administration/kiosk/introduction: Introduction to Kiosk
+      developer/administration/kiosk/keys: Kiosk keys
+      developer/administration/menu: Menu favorites
+      developer/administration/about-branding: About page branding
+      developer/administration/portal-permissions: Portal pre-authorization
   Desktop integration:
     pages:
       developer/additional/desktop-file: Desktop file

@@ -30,6 +30,8 @@ This tier is for people building Sonic-DE from source or contributing to it.
   wallpapers and comic plugins.
 - [Ecco](developer/ecco/index.md): add your own actions to the file manager's context menu.
 - [Sensor faces](developer/sensor-faces.md): create new display styles for System Monitor.
+- [System administration](developer/administration/index.md): lock down deployments with Kiosk,
+  and set default favorites, About page branding and portal permissions.
 - [D-Bus](developer/dbus/introduction.md): how to call and offer D-Bus interfaces from your
   own code. SonicDE is gradually moving its own communication between processes to
   [Sonic IPC](/docs/api/sonicipc/sonicipc-index).
