@@ -5,7 +5,7 @@ source_url: https://develop.kde.org/docs/plasma/kwineffect/
 source_authors: [Carl Schwan, Joshua Wug, Vlad Zahorodnii]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "org.kde.kwin registrations in sonic-win/src/scripting/scripting.cpp, the effect package structure, examples/quick-effect; a test effect installed with kpackagetool6 and loaded on sonic-win under Xvfb with OpenGL compositing. The gesture crash was reproduced under gdb. On Xvfb WindowThumbnail stops at a division by the output's 0 Hz refresh rate, so thumbnails, input and the configuration dialog were not seen working."
+checked_against: "org.kde.kwin registrations in sonic-win/src/scripting/scripting.cpp, the effect package structure, examples/quick-effect; test effects loaded through D-Bus on sonic-win under Xvfb with OpenGL compositing and captured from that display, showing the delegate, Text, WindowThumbnail in a WindowModel grid and the color from main.xml; gesture handlers load without activating. Not exercised: input, the shortcut and screen edge triggers, SceneView.screen.name on screen (off-screen in the test), and the configuration dialog."
 ---
 
 # SonicWin effects
@@ -56,7 +56,7 @@ kpackagetool6 --type KWin/Effect --install package/
 
 SonicWin has an example effect you can copy in [`examples/quick-effect`](https://github.com/Sonic-DE/sonic-win/tree/master/examples/quick-effect). It also has a `CMakeLists.txt`, an alternative way to install the effect, with `cmake --install builddir`.
 
-> **Warning:** Don't use `PinchGestureHandler` or `SwipeGestureHandler` in your effect. On SonicWin, loading an effect with a `PinchGestureHandler` crashes the window manager, and `SwipeGestureHandler` takes the same code path. The example in `examples/quick-effect` currently has a `PinchGestureHandler`, so remove it from your copy.
+> **Note:** `org.kde.kwin` also has `PinchGestureHandler` and `SwipeGestureHandler`, which `examples/quick-effect` uses. SonicWin doesn't recognize gestures on X11, so they load but never activate. Give your effect another way to start, such as a shortcut or screen edge.
 
 ## Hello world
 

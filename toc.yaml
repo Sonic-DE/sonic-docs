@@ -127,6 +127,13 @@ sections:
     pages:
       developer/kauth/introduction: KAuth
       developer/kauth/using-actions: Using actions in your applications
+  Ecco:
+    pages:
+      developer/ecco/index: Ecco
+      developer/ecco/service-menus: Creating service menus
+  System Monitor:
+    pages:
+      developer/sensor-faces: Creating sensor faces
   Desktop integration:
     pages:
       developer/additional/desktop-file: Desktop file

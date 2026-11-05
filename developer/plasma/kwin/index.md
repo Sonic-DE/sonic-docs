@@ -5,7 +5,7 @@ source_url: https://develop.kde.org/docs/plasma/kwin/
 source_authors: [Alexander Lohnau, Carl Schwan, Chris Holland, Denis Štogl, Emil Sonnenschein, Hynek Schlindenbuch, Ian Canino, Jade Lovelace, Kunda Ki, Marius Bosler, Marius P, Mikhail Zolotukhin, Sebastian Kügler, Shalok Shalom, Thiago Sueto, Vlad Zahorodnii, Zren (Chris Holland)]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "src/scripting and kcms in sonic-win; the tutorial script packaged, installed with kpackagetool6, enabled through kwinrc and exercised on sonic-win on a private Xvfb and D-Bus, reporting through callDBus. The output of print() was not seen in that setup, so the journal command is unconfirmed; the configuration dialog was not opened."
+checked_against: "src/scripting and kcms in sonic-win; the tutorial script packaged, installed with kpackagetool6, enabled through kwinrc and exercised on sonic-win on a private Xvfb and D-Bus, reporting through callDBus. print() and console.* seen on stderr as js: from sonic-win --replace with stderr redirected and QT_FORCE_STDERR_LOGGING=1; the console's file argument opened a script in KWin mode. Not run: the journal command (the test host has no systemd), and the configuration dialog."
 ---
 
 # SonicWin scripting tutorial
@@ -19,6 +19,8 @@ The easiest way to test scripts is the interactive console. Open it by typing `w
 ```bash
 plasma-interactiveconsole --kwin
 ```
+
+To open a script file straight away, add its path: `wm console /path/to/file.js` in KRunner, or `plasma-interactiveconsole --kwin /path/to/file.js` in a terminal.
 
 The console sends a script to the window manager, which loads and runs it. Output isn't shown in the console window; see [Output](#output).
 
@@ -106,7 +108,13 @@ The [API documentation](api.md) lists the available objects and functions.
 
 `print(...)` prints the given arguments. `console.log()` does the same, and is preferred in QML scripts.
 
-The output of scripts goes to the journal:
+The output goes through Qt's logging, with the category `js`, so where it ends up depends on how the window manager was started. The surest way to see it while developing is to replace the running window manager from a terminal, where each line starts with `js:`:
+
+```bash
+sonic-win --replace
+```
+
+On a system with systemd, it can also go to the journal:
 
 ```bash
 journalctl -f QT_CATEGORY=js QT_CATEGORY=kwin_scripting

@@ -60,7 +60,7 @@ Functions:
 - `setActivityName(string activityId, string name)`: sets the name of an activity
 - `string currentActivity()`: the ID of the current activity
 - `setCurrentActivity(string activityId)`: switches to an activity
-- `string createActivity(string name[, string plugin])`: creates an activity. The `plugin` argument currently has no effect: the desktop is an `org.kde.plasma.folder` even with `org.kde.desktopcontainment` passed.
+- `string createActivity(string name[, string plugin])`: creates an activity. `plugin` is the containment type of its desktops, one of `knownActivityTypes`. Without it, the default type is used.
 
 ## Desktops
 

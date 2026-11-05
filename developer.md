@@ -25,6 +25,11 @@ This tier is for people building Sonic-DE from source or contributing to it.
 - [KAuth](developer/kauth/introduction.md): running privileged parts of your application.
 - [Desktop integration](developer/additional/desktop-file.md): desktop files, icons, cursor
   themes and session management.
+- [Themes and plugins](developer/plasma/index.md): desktop themes, widgets, desktop scripting,
+  KRunner plugins, SonicWin scripts and effects, window decorations, task switchers,
+  wallpapers and comic plugins.
+- [Ecco](developer/ecco/index.md): add your own actions to the file manager's context menu.
+- [Sensor faces](developer/sensor-faces.md): create new display styles for System Monitor.
 - [D-Bus](developer/dbus/introduction.md): how to call and offer D-Bus interfaces from your
   own code. SonicDE is gradually moving its own communication between processes to
   [Sonic IPC](/docs/api/sonicipc/sonicipc-index).

@@ -96,6 +96,8 @@ kwriteconfig6 --file ~/.config/QtProject/qtlogging.ini --group "Rules" --key "qm
 qml.debug=true
 ```
 
+`plasmoidviewer` and `sonicshell` log through Sonic Logging, which writes to `~/.local/state/sonic/<program>.log` and also shows the lines in the terminal when you run the program from one. So if you redirect a program's output to a file or a pipe, look in that log instead.
+
 You should now see output when you add `console.log()` statements to your widget. You can place them in any function, like the `Component.onCompleted` signal handler:
 
 ```qml

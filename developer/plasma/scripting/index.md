@@ -73,6 +73,8 @@ plasma-interactiveconsole --plasma
 
 Enter a script in the window and its output appears in the lower half. `Ctrl+E` runs the script, and scripts can be saved to and loaded from disk.
 
+To open a script file straight away, add its path: `desktop console /path/to/file.js` in KRunner, or `plasma-interactiveconsole --plasma /path/to/file.js` in a terminal.
+
 ### From the terminal
 
 The shell runs a script through its D-Bus method `evaluateScript`, and returns what the script prints:
