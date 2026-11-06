@@ -14,8 +14,6 @@ Ecco is SonicDE's default file manager. It concentrates on one task, managing fi
 
 Please report problems and feature requests in the [Ecco issue tracker](https://github.com/Sonic-DE/sonic-ecco/issues).
 
-> **Note:** Ecco is being renamed from Dolphin. Until the rename is finished, you'll still see the name Dolphin in some places, such as the window title and the `dolphin` command. The screenshots on this page show the older name and artwork.
-
 ## The user interface
 
 ![Ecco's default user interface](images/ecco/default-ui.png)
