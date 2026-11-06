@@ -23,7 +23,7 @@ Formerly called a "Look and Feel", it bundles a [panel layout template](#panel-l
 
 ## Desktop theme
 
-Also called a Plasma Style, it controls the visual styling of panels, widgets, OSD popups, the lock screen and the logout screen. A desktop theme can include its own color scheme, which overrides the system color scheme for desktop elements.
+Also called a Desktop Style, it controls the visual styling of panels, widgets, OSD popups, the lock screen and the logout screen. A desktop theme can include its own color scheme, which overrides the system color scheme for desktop elements.
 
 * System/default: `/usr/share/plasma/desktoptheme/` ([GitHub](https://github.com/Sonic-DE/sonic-interface-libraries/tree/master/src/desktoptheme))
 * User installed: `~/.local/share/plasma/desktoptheme/` ([KDE Store category](https://store.kde.org/browse/cat/104/order/latest/))

@@ -33,6 +33,8 @@ By default, starting Screenies shows the rectangular region selector. The [Gener
 
 Without a capture, Screenies shows its main window, where you choose how to take a screenshot:
 
+![The Screenies main window](images/screenies/MainWindow.png)
+
 - **Rectangular Region:** Select a rectangular region of your desktop with your mouse. It may spread across several screens. See [Selecting a region](#selecting-a-region).
 - **All Screens:** Captures your entire desktop across all outputs, including all monitors and projectors.
 - **All Screens (Scaled to same size):** Captures all screens as above, scaling them to the same size.
@@ -79,6 +81,8 @@ After saving, Screenies shows a message with a link to the file, and offers **Op
 
 ### Annotating
 
+![The annotation editor](images/screenies/Annotate.png)
+
 The annotation tools are **Select**, **Crop**, **Freehand**, **Highlighter**, **Line**, **Arrow**, **Rectangle**, **Ellipse**, **Pixelate**, **Blur**, **Text** and **Number**. Depending on the tool, the options toolbar sets the stroke width and color, fill color, strength of the effect, font, font color, number, and shadow.
 
 With **Freehand**, holding Shift snaps to straight lines. With **Line**, it snaps to 45 degree increments.
@@ -113,6 +117,8 @@ Open them with **Configure Screenies…** (Ctrl+Shift+,).
 
 ### General
 
+![The General settings](images/screenies/ApplicationPreferences.png)
+
 - **When launching Screenies:** Choose between taking a rectangular screenshot (the default), taking a full screen screenshot, using the last-used capture mode, or not taking a screenshot automatically.
 - **After taking a screenshot:** **Save file to default folder** saves automatically. Then choose between **Do not copy anything**, **Copy image to clipboard** and **Copy file location to clipboard**. You must be running a clipboard manager to keep the path or image in the clipboard after Screenies quits.
 - **Press screenshot key to:** When a screenshot shortcut is pressed while Screenies is running, choose between taking a new screenshot, opening a new Screenies window, and returning focus to the existing window.
@@ -123,6 +129,8 @@ Open them with **Configure Screenies…** (Ctrl+Shift+,).
 - **Languages for OCR:** Chooses the languages for text extraction. **Close after extraction** closes Screenies after extracting text.
 
 ### Image Saving
+
+![The save options](images/screenies/SaveOptions.png)
 
 - **Save Location:** The folder used when you press **Save**. By default, it's your Pictures folder.
 - **Compression Quality:** The image quality when saving with lossy image formats like JPEG. Higher values give better quality but increase the file size.

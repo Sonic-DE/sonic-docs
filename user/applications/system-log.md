@@ -53,6 +53,8 @@ You can also open any other log file with **File > Open**, or by passing its add
 
 When you start System Log, it opens the Journald log by default, if that's available. If the files of the startup log don't exist, the tab stays empty. You can choose another log from the **Logs** menu, where less common ones are under **Services** and **Others**, or from the toolbar. You can choose which log opens at startup [in the settings](#general).
 
+![System Log's first launch](images/system-log/first-opening.png)
+
 Log files are usually in the `/var/log` folder, which is often protected against normal users. If a message says you don't have sufficient permissions to read a file, you need to run System Log as an administrator (commonly named root).
 
 ### Sorting log lines

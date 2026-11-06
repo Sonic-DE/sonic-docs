@@ -28,6 +28,8 @@ All three do the same thing. To quit, press Ctrl+Q or close the window.
 
 The side of the window lists the pages, grouped into the categories below, with a search field to find them. Select a page to show it in the main area.
 
+![The Info Center window](images/info-center/kinfocenter.png)
+
 ### Pages that show a tool's output
 
 Most pages run a command-line tool and show what it prints. They share these actions:

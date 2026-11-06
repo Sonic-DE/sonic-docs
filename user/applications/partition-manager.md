@@ -35,6 +35,8 @@ To work on a single device or partition, start it with the `--device` option, fo
 
 ## The main window
 
+![Partition Manager's main window](images/partition-manager/mainwindow.png)
+
 Besides the main view, which shows the selected device in a graphical and a tree view, Partition Manager uses panels to display information and allow selections.
 
 - **Menu bar:** All commands are described in the [command reference](#command-reference).
@@ -125,6 +127,8 @@ The source partition here is “sdb1”, which is mounted, as shown by the lock 
 After unmounting, the lock icon has gone and you can select [Partition > Copy](#the-partition-menu). This puts “sdb1” in Partition Manager's clipboard: it's now the partition that will be inserted when you select [Partition > Paste](#the-partition-menu).
 
 The destination device in this how-to is “/dev/sdc”, and the partition to overwrite is “sdc5”. Click the device in the Devices panel, click “sdc5” and select [Partition > Paste](#the-partition-menu). Partition Manager warns you that all data on “sdc5” will be lost. After you confirm, the copy operation is added to the list of pending operations. The insert dialog you'd see when pasting into an unallocated area isn't needed, because the start and end of the pasted partition are set by the overwritten partition.
+
+![The copy operation in the list of pending operations](images/partition-manager/copy_howto_2.png)
 
 Now select [Edit > Apply](#the-edit-menu) and the partition is copied. See the [how-to on resizing partitions](#how-to-resizing-a-partition) for details about applying operations.
 

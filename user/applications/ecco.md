@@ -188,6 +188,8 @@ Enable the filter bar by pressing Ctrl+I or `/`, or via **Edit > Filter…**, th
 
 Press Ctrl+F or use **Edit > Search…** to open the search bar, set up to search within the current folder and any subfolders. Start typing and the search starts immediately.
 
+![Searching files and for content in files](images/ecco/baloo-search.png)
+
 The search is case insensitive and doesn't require surrounding wildcards (`*foo*` and `foo` are equivalent), but you can use wildcards inside the search term: `*` matches zero or more characters, and `?` matches one single character.
 
 The search bar's options choose:
@@ -196,6 +198,8 @@ The search bar's options choose:
 - **Search using:** **File Indexing** or **Simple search**. File indexing is set up in System Settings' File Search module.
 - Whether to search file names, file contents, or both.
 - With file indexing, filters for **File Type**, **Modified since**, **Rating** and **Tags**. You can also search for a tag by typing `tag:foo`.
+
+![Searching with more options](images/ecco/baloo-search-more-options.png)
 
 Use the save button to save a search to the Places panel so you can quickly access it again.
 
@@ -238,6 +242,8 @@ This group has five tabs.
 
 **Folders & Tabs:**
 
+![The startup settings](images/ecco/preferences-startup.png)
+
 - **Show on startup** chooses what opens at startup: **Folders, tabs, and window state from last time**, or a home location that you can type, choose in a dialog, or set with **Use Current Location** or **Use Default Location**. When restoring the last session:
   - Launching Ecco without any locations restores the session.
   - Rebooting with Ecco open restores the session when the system comes back.
@@ -274,6 +280,10 @@ This group has five tabs.
 
 **General:**
 
+![The general behavior settings](images/ecco/preferences-general-behavior.png)
+
+![The navigation settings](images/ecco/preferences-navigation.png)
+
 - **Display style** chooses between **Use common display style for all folders** and **Remember display style for each folder**. Some special views such as search, recent files and the trash still use a custom style. You can also have locations which mostly contain media files use the icons view mode.
 - **Browse compressed files as folders** opens archives inside Ecco instead of in an external application.
 - **Open folders during drag operations** opens a folder when you drag an item and hover over it for a short time, which lets you move or copy items quickly to folders several levels down.
@@ -293,6 +303,8 @@ This group has five tabs.
 
 ##### Icons, Compact and Details
 
+![The Icons view settings](images/ecco/preferences-viewmodes-icons.png)
+
 All three tabs have:
 
 - Sliders for the **Default icon size** and **Preview icon size**, used when previews are off and on respectively. The icon size can also be changed with the zoom slider in the status bar.
@@ -310,6 +322,8 @@ The option to open items with a single or double click is a system-wide setting 
 
 This group chooses what is shown in the context menu that appears when clicking a file or folder with the right mouse button. Use **Download Services…** to fetch additional services.
 
+![The context menu settings](images/ecco/preferences-context-menu.png)
+
 If you have installed Ecco's plugins for Bazaar, Mercurial, Git or Subversion, they are shown in this list. When they are enabled and you enter a folder under version control, the version state (locally changed, up to date, and so on) is indicated by icons and the context menu has additional entries such as commit, update, add and remove.
 
 The list also chooses whether commands such as Delete, Copy To and Move To, Add to Places, Sort By, View Mode, Open in New Tab, Open in New Window, Open in Split View, Copy Location, Duplicate Here, Open Terminal, and copying or moving to the other split view are shown.
@@ -318,12 +332,16 @@ Ecco has to be restarted to activate the changes for some of these settings.
 
 #### Trash
 
+![The trash settings](images/ecco/preferences-trash.png)
+
 - Files which are older than a configurable number of days can be deleted automatically.
 - The size of the trash can be limited to a configurable percentage of the disk size. If this limit is reached, a warning can be issued, or the oldest or largest files can be deleted automatically.
 
 #### User Feedback
 
 When Ecco is built with feedback support, this group lets you choose whether and how much information on your use of Ecco is contributed to its developers.
+
+![The user feedback settings](images/ecco/preferences-user-feedback.png)
 
 ### Folder display style
 
@@ -342,6 +360,8 @@ The display style can be configured in the View menu, and some of it (such as th
 #### The View Display Style dialog
 
 This dialog, opened with **View > Adjust View Display Style…**, quickly modifies the display styles for many folders at once: the current folder, the current folder including all subfolders, or all folders, depending on your choice in the **Apply to** section.
+
+![The View Display Style dialog](images/ecco/viewproperties-dialog.png)
 
 If **Use as default view settings** is enabled, the chosen properties are also used for all folders which don't have customized properties yet.
 

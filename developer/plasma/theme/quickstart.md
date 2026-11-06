@@ -98,7 +98,7 @@ create a new theme.
 
 * If you have not already done so, copy your new theme folder to `~/.local/share/plasma/desktoptheme`.
 
-* Choose the theme in System Settings -> Appearance -> Plasma Style, run `plasma-apply-desktoptheme mytheme`, or edit your `~/.config/plasmarc` to point to the new theme. This may require restarting the shell.
+* Choose the theme in System Settings -> Appearance -> Desktop Style, run `plasma-apply-desktoptheme mytheme`, or edit your `~/.config/plasmarc` to point to the new theme. This may require restarting the shell.
 
 * Carefully check the appearance of all new theme elements.
 
