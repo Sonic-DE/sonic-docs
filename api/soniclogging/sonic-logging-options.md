@@ -49,7 +49,11 @@ Mirror lines to stderr when it is a terminal and not already the journal.
 
 ### bool Options::rotateOnStartup {#rotateOnStartup-var}
 
-Rotate to \<file\>.last on every run instead of by size.
+Also rotate to \<file\>.last on every run. A program running as root then rotates only on startup, not by size.
+
+### qint64 Options::rotationSizeBytes {#rotationSizeBytes-var}
+
+Rotate to \<file\>.last once the file passes this size. Zero or less turns rotation by size off.
 
 ### bool Options::writeLogFile {#writeLogFile-var}
 

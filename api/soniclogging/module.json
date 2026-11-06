@@ -45,6 +45,11 @@
                     "rotateOnStartup-var"
                 ],
                 [
+                    "rotationSizeBytes",
+                    "rotationSizeBytes : qint64",
+                    "rotationSizeBytes-var"
+                ],
+                [
                     "writeLogFile",
                     "writeLogFile : bool",
                     "writeLogFile-var"

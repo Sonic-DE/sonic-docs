@@ -16,4 +16,5 @@ This is the complete list of members for [Sonic::Logging::Options](sonic-logging
 - [mirrorToStderr : bool](sonic-logging-options.md#mirrorToStderr-var)
 - [mirrorToStderrWhenTty : bool](sonic-logging-options.md#mirrorToStderrWhenTty-var)
 - [rotateOnStartup : bool](sonic-logging-options.md#rotateOnStartup-var)
+- [rotationSizeBytes : qint64](sonic-logging-options.md#rotationSizeBytes-var)
 - [writeLogFile : bool](sonic-logging-options.md#writeLogFile-var)
