@@ -17,3 +17,5 @@ The user documentation is still being written. Pages so far:
   recordings.
 - [Clipboard](user/applications/clipboard.md): keep a history of what you copy and run actions on
   it.
+- [Partition Manager](user/applications/partition-manager.md): manage disks, partitions and file
+  systems.

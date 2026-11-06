@@ -10,6 +10,7 @@ sections:
       user/applications/terminal: Terminal
       user/applications/screenies: Screenies
       user/applications/clipboard: Clipboard
+      user/applications/partition-manager: Partition Manager
   Developing SonicDE:
     pages:
       developer: Developer Documentation
