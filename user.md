@@ -19,3 +19,4 @@ The user documentation is still being written. Pages so far:
   it.
 - [Partition Manager](user/applications/partition-manager.md): manage disks, partitions and file
   systems.
+- [System Log](user/applications/system-log.md): read and filter your computer's log files.

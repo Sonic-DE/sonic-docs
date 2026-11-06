@@ -11,6 +11,7 @@ sections:
       user/applications/screenies: Screenies
       user/applications/clipboard: Clipboard
       user/applications/partition-manager: Partition Manager
+      user/applications/system-log: System Log
   Developing SonicDE:
     pages:
       developer: Developer Documentation
