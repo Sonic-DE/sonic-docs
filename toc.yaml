@@ -6,6 +6,7 @@ sections:
   Using SonicDE:
     pages:
       user: User Documentation
+      user/applications/ecco: Ecco file manager
   Developing SonicDE:
     pages:
       developer: Developer Documentation
