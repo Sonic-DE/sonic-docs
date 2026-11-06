@@ -37,6 +37,8 @@ This tier is for people building Sonic-DE from source or contributing to it.
 - [D-Bus](developer/dbus/introduction.md): how to call and offer D-Bus interfaces from your
   own code. SonicDE is gradually moving its own communication between processes to
   [Sonic IPC](/docs/api/sonicipc/sonicipc-index).
+- [Human Interface Guidelines](developer/hig/index.md): how to design applications and icons
+  that feel at home on SonicDE.
 
 To write applications or plugins against the Sonic-DE libraries, see the
 [API Documentation](/docs/api).

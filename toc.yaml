@@ -7,6 +7,9 @@ sections:
     pages:
       user: User Documentation
       user/applications/ecco: Ecco file manager
+      user/applications/terminal: Terminal
+      user/applications/screenies: Screenies
+      user/applications/clipboard: Clipboard
   Developing SonicDE:
     pages:
       developer: Developer Documentation
@@ -171,3 +174,30 @@ sections:
       developer/dbus/creating-interfaces: Creating D-Bus interfaces
       developer/dbus/custom-types: Using custom types with D-Bus
       developer/dbus/autostart-services: D-Bus autostart services
+  Human Interface Guidelines:
+    pages:
+      developer/hig/index: Overview
+      developer/hig/app-design: What makes a SonicDE application?
+      developer/hig/simple-by-default: Simple by default
+      developer/hig/powerful-when-needed: Powerful when needed
+      developer/hig/layout-and-navigation: Layout and navigation
+      developer/hig/displaying-content: Displaying content
+      developer/hig/getting-input: Getting input
+      developer/hig/status-changes: Communicating status changes
+      developer/hig/text-and-labels: Text and labels
+      developer/hig/accessibility: Accessibility and inclusiveness
+  Icon guidelines:
+    pages:
+      developer/hig/icons/index: Icons
+      developer/hig/icons/localization: Icon localization
+      developer/hig/icons/monochrome/index: Monochromatic icons
+      developer/hig/icons/monochrome/action: Action icons
+      developer/hig/icons/monochrome/status: Status icons
+      developer/hig/icons/monochrome/emblem: Emblem icons
+      developer/hig/icons/monochrome/places: Monochrome places icons
+      developer/hig/icons/monochrome/mimetype: Monochrome MIME type icons
+      developer/hig/icons/colorful/index: Colorful icons
+      developer/hig/icons/colorful/application: Application icons
+      developer/hig/icons/colorful/category-preferences: Category and preferences icons
+      developer/hig/icons/colorful/places: Colorful places icons
+      developer/hig/icons/colorful/mimetype: Colorful MIME type icons
