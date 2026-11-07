@@ -286,4 +286,4 @@ In the kcfg file you can specify the translation's context for \<tooltip\>, \<wh
 </entry>
 ```
 
-For more information on translation context and how to write good translatable text, please refer to [https://api.kde.org/frameworks/ki18n/html/prg_guide.html](https://api.kde.org/frameworks/ki18n/html/prg_guide.html)
+For more information on translation context and how to write good translatable text, please refer to [Writing Good Contexts](https://github.com/Sonic-DE/sonic-frameworks-internationalization/blob/master/docs/programmers-guide.md#writing-good-contexts).

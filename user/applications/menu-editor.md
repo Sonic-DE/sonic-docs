@@ -1,5 +1,5 @@
 ---
-title: Menu Editor
+title: SonicDE Menu Editor
 description: Edit the menu of your application launchers.
 source_url: https://invent.kde.org/plasma/kmenuedit/-/blob/master/doc/index.docbook
 source_authors: [Milos Prudek, Anne-Marie Mahfouf, Lauri Watts, Virgil J. Nisly]
@@ -8,9 +8,9 @@ license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
 checked_against: "sonic-launcher-menu-edit 0bc6dd1e (basictab.cpp, kmenuedit.cpp, kmenueditui.rc, treeview.cpp, preferencesdlg.cpp, main.cpp) and the launcher applets in sonic-desktop-interface; read from code, not clicked through"
 ---
 
-# Menu Editor
+# SonicDE Menu Editor
 
-Menu Editor lets you edit the menu of your application launchers. Start it by right-clicking the application launcher button on the panel and choosing **Edit Applications…**, or by typing `kmenuedit` in KRunner.
+SonicDE Menu Editor lets you edit the menu of your application launchers. Start it by right-clicking the application launcher button on the panel and choosing **Edit Applications…**, or by typing `kmenuedit` in KRunner.
 
 With it you can:
 
@@ -25,13 +25,13 @@ By default, all applications installed on the computer appear in the application
 The tree view has two types of entry:
 
 - **Submenu:** Only the name, comment and description fields and the button to select an icon are enabled, and the Advanced tab is disabled. A submenu can hold more submenus and items.
-- **Items:** The data for an application. See [Using Menu Editor](#using-menu-editor).
+- **Items:** The data for an application. See [Using SonicDE Menu Editor](#using-sonicde-menu-editor).
 
 The tree view has two modes, normal and with hidden entries. To see the latter, enable **Show hidden entries** on the **General options** page of the settings.
 
 Many more entries appear with hidden entries shown. Several seem to be duplicates but have different command options. You should usually leave these alone, or you risk breaking some functionality of the system.
 
-With hidden entries shown, there's a special submenu at the top level, `.hidden [Hidden]`, which can't be edited. All deleted items are shown in it the next time you start Menu Editor. Entries in this submenu can't be deleted, and they reappear at the next start.
+With hidden entries shown, there's a special submenu at the top level, `.hidden [Hidden]`, which can't be edited. All deleted items are shown in it the next time you start SonicDE Menu Editor. Entries in this submenu can't be deleted, and they reappear at the next start.
 
 ## Use cases
 
@@ -45,7 +45,7 @@ Use the options in **Edit > Sort** to sort by name or description. If you use th
 
 Grouping your frequently used submenus or items, for example at the top of the menu, makes selecting them easier. To change the order of items or submenus, use **Move Up** and **Move Down** in the toolbar or the menu.
 
-All application launchers use the order of submenus defined in Menu Editor.
+All application launchers use the order of submenus defined in SonicDE Menu Editor.
 
 ### Removing items from the menu view
 
@@ -77,7 +77,7 @@ Each application's shortcut is stored in `kglobalshortcutsrc`, in the folder giv
 
 This example adds Firefox to the Internet submenu.
 
-1. Right-click the application launcher and click **Edit Applications…**. In Menu Editor, select **Internet**.
+1. Right-click the application launcher and click **Edit Applications…**. In SonicDE Menu Editor, select **Internet**.
 
    ![Selecting Internet](images/menu-editor/selectinternet.png)
 
@@ -122,7 +122,7 @@ For example, to have Firefox start at `www.example.org`, use `%u www.example.org
 
 Most applications accept additional options, such as a profile name in Terminal. To see all the options for an application, run `applicationname --help` in Terminal.
 
-## Using Menu Editor
+## Using SonicDE Menu Editor
 
 The left panel shows the application launcher's structure, with a search field above it. When you browse items there, the right panel shows detailed information for the highlighted item.
 
@@ -158,7 +158,7 @@ Most actions in the menu bar are also in the context menu that opens when you ri
 - **File > New Separator:** Adds a separator.
 - **File > Save:** Saves the menu.
 - **File > File Actions:** **Copy Location**, **Open Containing Folder** and **Properties** for the selected entry.
-- **File > Quit:** Quits Menu Editor.
+- **File > Quit:** Quits SonicDE Menu Editor.
 - **Edit > Move Up** and **Edit > Move Down:** Move the selected item within its submenu.
 - **Edit > Cut:** Cuts the current item to the clipboard. To move an item, cut it, go to the destination in the left panel, and paste it.
 - **Edit > Copy:** Copies the current item to the clipboard. You can paste the same item many times.

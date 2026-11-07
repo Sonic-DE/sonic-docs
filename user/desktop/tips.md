@@ -122,7 +122,7 @@ Open the application launcher and right-click the application.
 
 ![Editing an application from the launcher](images/tips-gpu-menu.png)
 
-In the [Menu Editor](../applications/menu-editor.md), open the **Advanced** tab and tick **Run using dedicated graphics card**.
+In the [SonicDE Menu Editor](../applications/menu-editor.md), open the **Advanced** tab and tick **Run using dedicated graphics card**.
 
 ![The dedicated graphics card option](images/tips-gpu-dialog.png)
 

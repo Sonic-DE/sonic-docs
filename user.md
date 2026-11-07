@@ -22,7 +22,7 @@ The user documentation is still being written. Pages so far:
 - [System Log](user/applications/system-log.md): read and filter your computer's log files.
 - [Info Center](user/applications/info-center.md): see a detailed overview of your system and its
   hardware.
-- [Menu Editor](user/applications/menu-editor.md): edit the menu of your application launchers.
+- [SonicDE Menu Editor](user/applications/menu-editor.md): edit the menu of your application launchers.
 - [Font Viewer](user/applications/font-viewer.md): view and install fonts.
 - [Network Folder Wizard](user/applications/network-folder-wizard.md): add network folders to your
   desktop.
@@ -47,8 +47,9 @@ The user documentation is still being written. Pages so far:
   [transparency and blur](user/tutorials/transparency-and-blur.md),
   [pointer settings for large displays](user/tutorials/pointer-large-displays.md),
   [opening a console](user/tutorials/open-a-console.md),
-  [changing the default settings](user/tutorials/modify-defaults.md) and
-  [changing the desktop language](user/tutorials/change-language.md).
+  [changing the default settings](user/tutorials/modify-defaults.md),
+  [changing the desktop language](user/tutorials/change-language.md) and
+  [testing loose binding on your video card](user/tutorials/test-loose-binding.md).
 - [Glossary](user/glossary.md): plain explanations of the terms you'll meet.
 - [Mobile interface](user/mobile.md) and [TV interface](user/tv.md): SonicDE on tablets, phones and
   televisions.

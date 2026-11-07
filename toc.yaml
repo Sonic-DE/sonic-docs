@@ -44,6 +44,7 @@ sections:
       user/tutorials/open-a-console: Opening a console
       user/tutorials/modify-defaults: Changing the default settings
       user/tutorials/change-language: Changing the desktop language
+      user/tutorials/test-loose-binding: Testing loose binding on your video card
       user/glossary: Glossary
       user/mobile: Mobile interface
       user/tv: TV interface
@@ -71,7 +72,7 @@ sections:
       user/applications/browser-integration: Browser integration
       user/applications/network-troubleshooting: Network troubleshooting
       user/applications/sonicwin: SonicWin window manager
-      user/applications/menu-editor: Menu Editor
+      user/applications/menu-editor: SonicDE Menu Editor
       user/applications/font-viewer: Font Viewer
       user/applications/network-folder-wizard: Network Folder Wizard
       user/applications/run-as-another-user: Running programs as another user

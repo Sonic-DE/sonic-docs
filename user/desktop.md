@@ -51,7 +51,7 @@ The default panel holds a few widgets, starting from the left with the applicati
 
 You can use it to start applications, open recent files and use the logout and shutdown options. The layout is optimized for the most common use, starting an application.
 
-Its sidebar lists your **Favorites**, **All Applications** and the application categories, and the tabs at the bottom switch between **Applications** and **Places**. To add an application to your favorites, right-click it and select **Add to Favorites**, or add it directly to the panel or desktop. Right-clicking the launcher button also offers **Edit Applications…**, which opens the [Menu Editor](applications/menu-editor.md).
+Its sidebar lists your **Favorites**, **All Applications** and the application categories, and the tabs at the bottom switch between **Applications** and **Places**. To add an application to your favorites, right-click it and select **Add to Favorites**, or add it directly to the panel or desktop. Right-clicking the launcher button also offers **Edit Applications…**, which opens the [SonicDE Menu Editor](applications/menu-editor.md).
 
 ### Application Menu
 
