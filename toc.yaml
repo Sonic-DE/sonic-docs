@@ -78,6 +78,10 @@ sections:
       user/applications/run-as-another-user: Running programs as another user
       user/applications/authentication-agent: Authentication agent
       user/applications/kde-wallet: KDE Wallet
+      user/applications/vaults: Vaults
+      user/applications/welcome-center: Welcome Center
+      user/applications/crash-handler: Crash Handler
+      user/applications/network-files: Opening network files in any application
   System Settings:
     pages:
       user/settings/index: System Settings
@@ -168,6 +172,7 @@ sections:
       developer/dependencies: Dependencies
       developer/troubleshooting: Troubleshooting
       developer/common-programming-mistakes: Common programming mistakes
+      developer/ssh-password-prompt: SSH password prompt
   "Tutorial: Kirigami":
     pages:
       developer/kirigami/setup-cpp: Setup with C++

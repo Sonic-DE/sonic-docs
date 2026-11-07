@@ -18,6 +18,8 @@ This tier is for people building Sonic-DE from source or contributing to it.
 - [Getting started with KXmlGui](developer/kxmlgui/index.md): a tutorial that builds a small
   text editor with SonicDE's libraries.
 - [Common programming mistakes](developer/common-programming-mistakes.md) in C++ and Qt code.
+- [SSH password prompt](developer/ssh-password-prompt.md): ask for SSH passphrases in a window
+  with `ksshaskpass`, and save them in KDE Wallet.
 - [Configuration](developer/configuration/introduction.md): storing settings with KConfig and
   KConfig XT, settings modules (KCMs) and configuration updates.
 - [Libraries](developer/libraries/karchive.md): archives, idle time, notifications, hardware

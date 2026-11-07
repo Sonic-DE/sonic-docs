@@ -31,6 +31,12 @@ The user documentation is still being written. Pages so far:
 - [Authentication agent](user/applications/authentication-agent.md): how the desktop asks for your
   password when a program needs more privileges.
 - [KDE Wallet](user/applications/kde-wallet.md): how your saved passwords are kept.
+- [Vaults](user/applications/vaults.md): keep sensitive files in encrypted folders.
+- [Welcome Center](user/applications/welcome-center.md): the tour that introduces SonicDE.
+- [Crash Handler](user/applications/crash-handler.md): what happens when an application crashes,
+  and how to report it.
+- [Opening network files in any application](user/applications/network-files.md): how applications
+  that only understand local files reach network locations.
 - [System Settings](user/settings/index.md): configure your desktop from one place.
 - [The SonicDE desktop](user/desktop.md): panels, widgets, launchers and search.
 - [Network and file protocols](user/protocols/index.md): the addresses you can use in Ecco and file
