@@ -4,7 +4,7 @@ description: Let other computers connect to your desktop with apps that support 
 source_authors: [SonicDE contributors]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "sonic-rdp-server 8fa334a (src/kcm/ui/, src/kcm/kcmkrdpserver.cpp, krdpserversettings.kcfg, server/SessionController.cpp, README.md), xdg-desktop-portal-sonicde (src/desktopportal.cpp, src/remotedesktop.cpp); written from the code, not clicked through or built, because the test machine's FreeRDP has no server support"
+checked_against: "sonic-rdp-server 8fa334a (src/kcm/ui/, src/kcm/kcmkrdpserver.cpp, krdpserversettings.kcfg, server/SessionController.cpp, README.md), xdg-desktop-portal-sonicde (src/desktopportal.cpp, src/remotedesktop.cpp); written from the code, and the module opened from a staged build on a private X server; no RDP client has connected to it"
 ---
 
 # Remote Desktop
@@ -25,7 +25,7 @@ Your system also has to support H.264 video encoding. If it doesn't, the module 
 
 These are the accounts that can connect. They're separate from your computer's accounts, apart from your own system account, which logs in with your system password when it's turned on.
 
-Click **Add New…** to add a user with a **Username** and **Password**. Each user has buttons to modify and remove it. Passwords are kept in your password manager, and the module reports any error it has reaching it.
+Click **Add New…** to add a user with a **Username** and **Password**. Each user has buttons to modify and remove it. Passwords are kept in your password manager, normally [KDE Wallet](../applications/kde-wallet.md), and the module reports any error it has reaching it.
 
 ## Server settings
 

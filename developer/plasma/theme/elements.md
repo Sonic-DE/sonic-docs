@@ -132,7 +132,7 @@ A horizontal meter that serves as a progressbar. Used, for instance, in the Batt
 
 ### widgets/bar_meter_vertical.svg
 
-A vertical meter that serves as a vertical progressbar. It has the same format of [bar_meter_horizontal.svg](#widgetsbar_meter_horizontalsvg).
+A vertical meter that serves as a vertical progressbar. It has the same format of [bar_meter_horizontal.svg](#widgetsbarmeterhorizontalsvg).
 
 ### widgets/branding.svg
 

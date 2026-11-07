@@ -30,7 +30,7 @@ while user-installed themes go in `~/.local/share/plasma/desktoptheme/`.
 You can also find [desktop themes on the KDE Store](https://store.kde.org/browse/cat/104/order/latest/). Edit the `metadata.json` file
 in the theme folder to match your theme name.
 
-See [Theme Metadata](details.md#theme-metadata">}}) if you need help.
+See [Theme Metadata](details.md#theme-metadata) if you need help.
 
 > **Important:** Prior to KDE Frameworks 6, themes used a `metadata.desktop` file instead of `metadata.json`.
 
@@ -55,7 +55,7 @@ mv ./default ./mytheme
 Open the SVG file associated with the Plasma element you would like to theme
 (panel background, clock, etc.) in an SVG editor (e.g. Inkscape).
 
-See [Theme Location, Structure and Definition](details.md#structure) to understand how desktop themes are organized, and the [Theme Elements Reference]({{< ref "theme-elements.md">}}) to understand what each SVG file does.
+See [Theme Location, Structure and Definition](details.md#structure) to understand how desktop themes are organized, and the [Theme Elements Reference](elements.md) to understand what each SVG file does.
 
 ### Step 3: Edit each element {#edit}
 

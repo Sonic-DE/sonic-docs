@@ -53,7 +53,7 @@ The modules you see depend on what's installed and on your hardware.
 
 - **Mouse & Touchpad:** [Mouse](mouse.md), [Touchpad](touchpad.md), [Screen Edges](screen-edges.md)
 - **Keyboard:** [Keyboard](keyboard.md), [Shortcuts](shortcuts.md), [On-Screen Keyboard](on-screen-keyboard.md)
-- **Touchscreen:** Touchscreen, [Touchscreen Gestures](touchscreen-gestures.md)
+- **Touchscreen:** [Touchscreen Gestures](touchscreen-gestures.md)
 - **Display & Monitor:** [Display Configuration](display-configuration.md), [Compositor](compositor.md), [Gamma](monitor-gamma.md), [Night Light](night-light.md)
 - [Accessibility](accessibility.md), [Drawing Tablet](drawing-tablet.md), [Game Controller](game-controller.md), [Sound](sound.md)
 

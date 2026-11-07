@@ -69,7 +69,7 @@ All the settings below and other options, such as the sorting of the files in th
 
 ![The view with items shown in groups](images/ecco/grouping-view.png)
 
-#### Information in the view
+#### Information in the view {#information-in-the-view}
 
 In all view modes Ecco shows at least an icon and a name for each item. Using **Show Additional Information** in the View menu, or the context menu of the header in Details mode, you can select more information for each item, such as size, date, type, rating, tags or comment.
 
@@ -274,7 +274,7 @@ This group has five tabs.
 - **Make location bar editable** starts the location bar in editable mode instead of bread crumb mode.
 - **Show full path inside location bar** shows the full path of the current location in bread crumb mode. Otherwise, a shortened path is shown if it begins with the path of one of the places in the Places panel.
 
-#### View
+#### View {#view}
 
 This group has five tabs.
 
@@ -301,7 +301,7 @@ This group has five tabs.
 - **Permissions style** chooses between symbolic (`drwxr-xr-x`), numeric (`755`) and combined.
 - **Long file names** chooses whether the file name is shortened in the middle or at the end.
 
-##### Icons, Compact and Details
+##### Icons, Compact and Details {#icons-compact-and-details}
 
 ![The Icons view settings](images/ecco/preferences-viewmodes-icons.png)
 
@@ -318,7 +318,7 @@ Each tab then has its own settings:
 
 The option to open items with a single or double click is a system-wide setting in System Settings' General Behavior module.
 
-#### Context Menu
+#### Context Menu {#context-menu}
 
 This group chooses what is shown in the context menu that appears when clicking a file or folder with the right mouse button. Use **Download Services…** to fetch additional services.
 
@@ -357,7 +357,7 @@ The following settings control how the contents of a folder are displayed:
 
 The display style can be configured in the View menu, and some of it (such as the view mode) with toolbar buttons.
 
-#### The View Display Style dialog
+#### The View Display Style dialog {#the-view-display-style-dialog}
 
 This dialog, opened with **View > Adjust View Display Style…**, quickly modifies the display styles for many folders at once: the current folder, the current folder including all subfolders, or all folders, depending on your choice in the **Apply to** section.
 

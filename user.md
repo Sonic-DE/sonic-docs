@@ -30,6 +30,7 @@ The user documentation is still being written. Pages so far:
   another user with `kdesu`.
 - [Authentication agent](user/applications/authentication-agent.md): how the desktop asks for your
   password when a program needs more privileges.
+- [KDE Wallet](user/applications/kde-wallet.md): how your saved passwords are kept.
 - [System Settings](user/settings/index.md): configure your desktop from one place.
 - [The SonicDE desktop](user/desktop.md): panels, widgets, launchers and search.
 - [Network and file protocols](user/protocols/index.md): the addresses you can use in Ecco and file

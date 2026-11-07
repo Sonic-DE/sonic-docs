@@ -77,6 +77,7 @@ sections:
       user/applications/network-folder-wizard: Network Folder Wizard
       user/applications/run-as-another-user: Running programs as another user
       user/applications/authentication-agent: Authentication agent
+      user/applications/kde-wallet: KDE Wallet
   System Settings:
     pages:
       user/settings/index: System Settings

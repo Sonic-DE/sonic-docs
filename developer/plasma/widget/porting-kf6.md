@@ -59,7 +59,7 @@ Methods already present in Plasma 5:
 * `adjustToAvailableScreenRegion`
 * `openContextMenu`
 
-In Plasma 6, a new method `AppletInterface *itemFor(Plasma::Applet *applet)` has been added, which is used to get the `AppletItem` instance of a given `Applet`. NOTE: it may return null when invoked before `componentComplete` of the `ContainmentItem` is executed (FIXME).
+In Plasma 6, a new method `AppletInterface *itemFor(Plasma::Applet *applet)` has been added, which is used to get the `AppletItem` instance of a given `Applet`. NOTE: it may return null when invoked before `componentComplete` of the `ContainmentItem` is executed.
 
 ### Porting an existing plasmoid
 The main thing to consider is adapting to the new subdivision of API between `PlasmoidItem` and `Plasmoid`. In general, you will need to take the following steps:
