@@ -44,6 +44,22 @@ The ninth column is SonicWin's processor use, as a percentage of one core. Run i
 
 ## 3. Turn on loose binding
 
+First note your video card for the report. Run:
+
+```bash
+glxinfo -B | grep 'renderer string'
+```
+
+`glxinfo` comes with your distribution's Mesa utilities package. It prints a line like this:
+
+```text
+OpenGL renderer string: AMD Radeon RX 9060 XT (radeonsi, gfx1200, ACO, DRM 3.64, 7.2.13-gentoo-dist-bin)
+```
+
+The report needs the card's name, the driver and the chip. On an AMD card those are the first three parts, so here that's `AMD Radeon RX 9060 XT, radeonsi, gfx1200`. Other cards print a different line: copy it from after `OpenGL renderer string:` up to the first version number.
+
+Then turn on loose binding:
+
 ```bash
 kwriteconfig6 --file kwinrc --group Compositing --key GLStrictBinding --type bool false
 ```
@@ -76,7 +92,7 @@ Log out and back in. If your desktop is too broken to use, switch to a text cons
 
 ## 6. Report your results
 
-[Open an issue](https://github.com/Sonic-DE/sonic-win/issues) titled `Loose binding test: <your video card>`, and copy in this template:
+[Open an issue](https://github.com/Sonic-DE/sonic-win/issues) titled `Loose binding test: ` followed by the video card you noted in step 3, and copy in this template:
 
 ```markdown
 **Result:** works / has problems
