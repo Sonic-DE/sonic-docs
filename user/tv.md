@@ -12,6 +12,10 @@ checked_against: "sonic-tv-interface; the application recommendations come from 
 
 `sonic-tv-interface` provides SonicDE's interface for televisions.
 
+## On-screen keyboard
+
+When a text field gets focus, for example the search field, the on-screen keyboard opens. That works with a remote or game controller too, so you can type without a physical keyboard.
+
 ## Third-party applications
 
 These applications aren't part of SonicDE, but they suit a TV.
