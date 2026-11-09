@@ -70,6 +70,10 @@ The keys move in the direction you'd expect, including diagonally. The 5 key cli
 - **Maximum speed:** The fastest the pointer can move, in pixels per second.
 - **Pointer acceleration:** How much acceleration is applied.
 
+## Dwell Clicker
+
+This clicks for you when you hold the mouse pointer still, for people who find pressing mouse buttons hard. **Click when pointer remains still** turns it on. **Motion Threshold**, **Delay Time**, **Dwell Time** and **Dwell Color** set how still the pointer has to be, how long it waits and the color of the ring that shows the click coming. See [Dwell clicking](../accessibility/dwell-clicking.md) for how to use it and choose the type of click.
+
 ## Activation Shortcuts
 
 **Activation shortcuts** turns on keyboard gestures for these features:

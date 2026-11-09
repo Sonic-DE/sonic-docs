@@ -12,5 +12,6 @@ checked_against: "sonic-desktop-interface (kcms/access, kaccess), sonic-win (src
 
 - [Getting started with screen readers](getting-started.md) gives an overview of setting up applications with a screen reader.
 - [Accessibility on the desktop](desktop.md) shows how to use assistive features on the desktop.
+- [Dwell clicking](dwell-clicking.md) shows how to click by holding the mouse pointer still.
 - [Application overview](applications.md) lists applications and how accessible they are with a screen reader.
 - The [Accessibility](../settings/accessibility.md) module in System Settings holds the settings.

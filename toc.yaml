@@ -27,6 +27,7 @@ sections:
       user/accessibility/index: Accessibility
       user/accessibility/getting-started: Getting started with screen readers
       user/accessibility/desktop: Accessibility on the desktop
+      user/accessibility/dwell-clicking: Dwell clicking
       user/accessibility/applications: Application overview
       user/administration/index: Administration
       user/administration/configuration-files: Configuration files
