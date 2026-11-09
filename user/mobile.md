@@ -10,7 +10,7 @@ checked_against: "sonic-mobile-interface and the developer/mobile pages in sonic
 
 # Mobile interface
 
-`sonic-mobile-interface` provides SonicDE's interface for touch devices such as tablets and phones. For developers, see [Mobile interface](../developer/mobile/index.md).
+`sonic-mobile-interface` provides SonicDE's interface for touch devices such as tablets and phones. To use it, choose **SonicDE Mobile** from the list of sessions on the login screen. For developers, see [Mobile interface](../developer/mobile/index.md).
 
 ## Devices reported to work
 

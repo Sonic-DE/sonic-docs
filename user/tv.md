@@ -10,7 +10,7 @@ checked_against: "sonic-tv-interface; the application recommendations come from 
 
 # TV interface
 
-`sonic-tv-interface` provides SonicDE's interface for televisions.
+`sonic-tv-interface` provides SonicDE's interface for televisions. To use it, choose **SonicDE TV** from the list of sessions on the login screen.
 
 ## On-screen keyboard
 
