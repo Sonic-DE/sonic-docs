@@ -21,7 +21,7 @@ The mobile interface runs on X11, like the rest of SonicDE. It hasn't been tried
 
 - **You move around with the buttons on the navigation panel** at the bottom of the screen. Swiping gestures, such as swiping up to see your open applications, don't work yet.
 - **The on-screen keyboard is Sonic Keyboard.** It opens by itself when you tap a text field.
-- **There's no Waydroid support for Android apps, and no screen recording quick setting,** because both need Wayland.
+- **There's no screen recording quick setting** yet.
 
 ## First start
 

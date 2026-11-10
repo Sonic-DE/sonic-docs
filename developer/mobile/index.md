@@ -20,7 +20,7 @@ The shell runs on X11, and its session starts through `startplasma-x11`. It hasn
 
 - **Navigation uses the panel's buttons.** Touch gestures such as swiping up for the task switcher aren't available, because SonicWin's gesture handlers don't activate on X11.
 - **The on-screen keyboard is Sonic Keyboard.** It runs inside each application and opens when a text field gets focus, so the panel's keyboard buttons only control a keyboard in the shell itself.
-- **There is no Waydroid integration or screen recording quick setting,** as both depend on Wayland.
+- **There is no screen recording quick setting.** The upstream one records a Wayland screencast stream (`TaskManager.ScreencastingRequest`), so `quicksettings/record` isn't built.
 - **Quick settings can't appear over the lock screen.** Raising a window over the locker is a Wayland feature, and `RaiseLockscreen` does nothing here.
 
 ## In this section
