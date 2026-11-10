@@ -17,6 +17,7 @@ The window's tools area: the titlebar and the toolbars and main menu bar under i
 
 - [KToolsArea::Colors colors(const KSharedConfigPtr &scheme, const KToolsArea::Settings &settings)](#colors)
 - [QList\<KToolsArea::Exception\> exceptions(const KSharedConfigPtr &scheme)](#exceptions)
+- [bool followDecoration(const KSharedConfigPtr &scheme, bool supported)](#followDecoration)
 - [bool migrateFromSilver(const KSharedConfigPtr &scheme)](#migrateFromSilver)
 - [KToolsArea::Settings settings(const KSharedConfigPtr &scheme, const QString &name = QString())](#settings)
 - [QString snapshot(const KSharedConfigPtr &scheme)](#snapshot)
@@ -38,6 +39,10 @@ The tools area colours for `settings` with the colour scheme `scheme`.
 ### \[static\] QList\<KToolsArea::Exception\> KToolsArea::exceptions(const KSharedConfigPtr &*scheme*) {#exceptions}
 
 The exceptions, the built-in default ones first.
+
+### \[static\] bool KToolsArea::followDecoration(const KSharedConfigPtr &*scheme*, bool *supported*) {#followDecoration}
+
+Follows the window decoration: one that doesn't draw a translucent tools area (`supported` false) turns the tools area off, recording that it did (`DisabledByDecoration`); a supporting one turns a tools area turned off that way back on. Returns whether it changed anything.
 
 ### \[static\] bool KToolsArea::migrateFromSilver(const KSharedConfigPtr &*scheme*) {#migrateFromSilver}
 

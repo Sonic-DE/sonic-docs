@@ -10,6 +10,7 @@ This is the complete list of members for [KToolsArea](ktoolsarea.md), including 
 
 - [colors(const KSharedConfigPtr &, const KToolsArea::Settings &) : KToolsArea::Colors](ktoolsarea.md#colors)
 - [exceptions(const KSharedConfigPtr &) : QList\<KToolsArea::Exception\>](ktoolsarea.md#exceptions)
+- [followDecoration(const KSharedConfigPtr &, bool) : bool](ktoolsarea.md#followDecoration)
 - [migrateFromSilver(const KSharedConfigPtr &) : bool](ktoolsarea.md#migrateFromSilver)
 - [settings(const KSharedConfigPtr &, const QString &) : KToolsArea::Settings](ktoolsarea.md#settings)
 - [snapshot(const KSharedConfigPtr &) : QString](ktoolsarea.md#snapshot)

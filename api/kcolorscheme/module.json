@@ -238,6 +238,11 @@
                     "exceptions"
                 ],
                 [
+                    "followDecoration",
+                    "followDecoration(const KSharedConfigPtr &, bool) : bool",
+                    "followDecoration"
+                ],
+                [
                     "migrateFromSilver",
                     "migrateFromSilver(const KSharedConfigPtr &) : bool",
                     "migrateFromSilver"

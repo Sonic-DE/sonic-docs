@@ -36,6 +36,8 @@ The preview of each style has an edit button, **Edit Theme…**, to open its set
 
 ### Titlebar opacity
 
+Titlebar opacity needs a style that supports it, such as Silver. Choosing a style without it, such as Breeze, turns these settings off. Going back to a style that supports them turns them on again, as you left them.
+
 - **Active window** and **Inactive window:** How transparent the titlebar is, from **Transparent** to **Opaque**.
 - **Always make maximized titlebars opaque.**
 - **Blur titlebars that have transparency.**
