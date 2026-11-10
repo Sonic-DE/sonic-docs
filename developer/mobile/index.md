@@ -20,7 +20,7 @@ The shell runs on X11, and its session starts through `startplasma-x11`. It hasn
 
 - **Navigation uses the panel's buttons.** Touch gestures such as swiping up for the task switcher aren't available, because SonicWin's gesture handlers don't activate on X11.
 - **The on-screen keyboard is Sonic Keyboard.** It runs inside each application and opens when a text field gets focus, so the panel's keyboard buttons only control a keyboard in the shell itself.
-- **There is no screen recording quick setting.** The upstream one records a Wayland screencast stream (`TaskManager.ScreencastingRequest`), so `quicksettings/record` isn't built.
+- **Screen recording reads the X server directly.** Upstream's quick setting records a Wayland screencast stream through PipeWire. SonicDE's starts the `sonic-mobile-screenrecorder` helper from the libexec directory, which grabs the screen with `xcb_get_image` and encodes it with Qt Multimedia (VP9 in WebM, else H.264 in MP4), outside the shell's process. SIGTERM stops it and finishes the file.
 - **Quick settings can't appear over the lock screen.** Raising a window over the locker is a Wayland feature, and `RaiseLockscreen` does nothing here.
 
 ## In this section

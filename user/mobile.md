@@ -21,7 +21,6 @@ The mobile interface runs on X11, like the rest of SonicDE. It hasn't been tried
 
 - **You move around with the buttons on the navigation panel** at the bottom of the screen. Swiping gestures, such as swiping up to see your open applications, don't work yet.
 - **The on-screen keyboard is Sonic Keyboard.** It opens by itself when you tap a text field.
-- **There's no screen recording quick setting** yet.
 
 ## First start
 
@@ -51,7 +50,9 @@ The settings window also has **Change Homescreen**, where **Select Homescreen** 
 
 ## Quick settings
 
-Pull down from the top of the screen for the action drawer with your quick settings: **Wi-Fi**, **Mobile Data**, **Hotspot**, **Bluetooth**, **Airplane Mode**, **Sound**, **Battery**, **Flashlight**, **Night Color**, **Do Not Disturb**, **Caffeine** (stops the device going to sleep), **Auto-rotate**, **Display Config**, **Screenshot**, **Docked Mode**, **Auto Hide Panels**, **Virtual Keyboard**, **Settings** and **Shut Down**.
+Pull down from the top of the screen for the action drawer with your quick settings: **Wi-Fi**, **Mobile Data**, **Hotspot**, **Bluetooth**, **Airplane Mode**, **Sound**, **Battery**, **Flashlight**, **Night Color**, **Do Not Disturb**, **Caffeine** (stops the device going to sleep), **Auto-rotate**, **Display Config**, **Screenshot**, **Record Screen**, **Docked Mode**, **Auto Hide Panels**, **Virtual Keyboard**, **Settings** and **Shut Down**.
+
+**Record Screen** records the screen as a video, without sound or the mouse pointer. Tap it to start; the drawer closes so you can show what you want. Open the drawer and tap it again to stop. A notification tells you where the video was saved, in your Videos folder.
 
 To change their order, hide some, or choose how the drawer opens, see [Mobile settings](mobile-settings.md#shell).
 
