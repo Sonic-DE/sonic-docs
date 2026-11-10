@@ -22,6 +22,8 @@ There are two types of service:
 
 To change a service's status, select it in the list and use **Start Service** or **Stop Service**. Some services turn themselves off again when started by hand, if they aren't useful in the current environment.
 
+One of the startup services is the [Free Space Notifier](../desktop/free-space-notifier.md), which warns you when a disk is nearly full. Turning its warning off in its own settings stops the service and turns off its automatic loading here; start it again here to get the warnings back.
+
 The list can be filtered to **All Services**, **Running** or **Not Running**.
 
 If you're turning something off here to work around an issue, please also report a bug about it.

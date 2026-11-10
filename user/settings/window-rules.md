@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/kwin-x11/-/blob/master/doc/windowspeci
 source_authors: [Lauri Watts, KDE UserBase contributors]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-win 4cf630dd38 (src/kcms/rules); read from code, not clicked through"
+checked_against: "sonic-win a4e76b52c5 (src/kcms/rules); read from code, not clicked through"
 ---
 
 # Window Rules
@@ -123,13 +123,9 @@ Yes/No settings turn a property on or off. It can help to read them literally: S
 - **Ignore global shortcuts:** Stops global shortcuts, as set in [Shortcuts](shortcuts.md), from working while the window is active.
 - **Closeable:** Whether the window can be closed from its titlebar. A terminal may still be closed by ending its shell.
 - **Desktop file name:** The application's desktop file, used for things like its icon.
-- **Window type:** Changes the window to **Normal window**, **Dialog window**, **Utility window**, **Dock (panel)**, **Toolbar**, **Torn-off menu**, **Splash screen**, **Desktop**, **Standalone menubar** or **On-screen display**, and it takes on that type's characteristics.
-- **Layer:** The window's stacking layer.
 - **Block compositing:** Turns off compositing while *any* matching window exists. It comes back on when the last one closes.
+- **Layer:** Forces the window into a stacking layer, which decides what it can cover and what covers it. From bottom to top: **Desktop**, **Below**, **Normal**, **Above**, **Notification**, **Fullscreen**, **Popup**, **Critical notification**, **On-screen display** and **Overlay**.
 - **Adaptive sync** and **Allow tearing**, where they're supported.
-
-> [!WARNING]
-> Use Window type with care, because it can have unwanted results. For example, the window manager closes a splash screen when you click it.
 
 ## Examples
 

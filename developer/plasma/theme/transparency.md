@@ -1,7 +1,7 @@
 ---
 title: Transparency and the unified header
 description: How a desktop style follows the transparency set in Desktop Style settings, and how popup headings and window decorations form one see-through header.
-checked_against: "sonic-frameworks-svg (ImageSetPrivate::readDesktopThemeOpacity), sonic-interface-libraries (default and Silver desktop themes), sonic-workspace (kcms/desktoptheme), sonic-win (DecorationBridge), Qt 6.11.3"
+checked_against: "sonic-frameworks-svg (ImageSetPrivate::readDesktopThemeOpacity), sonic-interface-libraries (default and Silver desktop themes), sonic-workspace (kcms/desktoptheme), sonic-win (DecorationBridge), sonic-frameworks-color-scheme (src/ktoolsarea.h, src/ktoolsarea.cpp), Qt 6.11.3"
 ---
 
 # Transparency and the unified header
@@ -98,3 +98,38 @@ When SonicWin loads a decoration without it, it turns the tools area off (`Enabl
 that it did (`DisabledByDecoration=true`), so toolbars don't stay see-through under a solid titlebar.
 When it loads a decoration with the marker, it turns a tools area it turned off back on. A tools area
 the user turned off stays off.
+
+### Reading the settings in code {#ktoolsarea}
+
+Read the tools area through [`KToolsArea`](/docs/api/kcolorscheme/ktoolsarea) (`#include <KToolsArea>`,
+`KF6::ColorScheme`), not by reading `[ToolsArea]` yourself, so that the decoration, the app style, the
+platform theme and the settings pages always agree:
+
+```cpp
+const KSharedConfigPtr kdeglobals = KSharedConfig::openConfig(QStringLiteral("kdeglobals"));
+const KToolsArea::Settings settings = KToolsArea::settings(kdeglobals, QCoreApplication::applicationName());
+if (settings.enabled) {
+    const KToolsArea::Colors colors = KToolsArea::colors(kdeglobals, settings);
+    // colors.palette's Window colour carries the opacity when colors.headerColors and
+    // settings.applyOpacityToHeader are set
+}
+```
+
+- `settings(scheme, name)` returns the `[ToolsArea]` keys (`Enabled`, `ActiveOpacity`, `InactiveOpacity`,
+  `ApplyOpacityToHeader`, `MatchApplicationColor`, `BlurBehind`, `OpaqueWhenMaximized`, `SeparatorColor`,
+  `HideTitleBar`), with the first enabled exception whose `Pattern` matches `name` applied on top. Pass
+  the application name or the window class; an empty name skips the exceptions. Opacities are percent.
+- Exceptions are the `[ToolsArea][Application <n>]` groups, a regular expression in `Pattern` plus any of
+  the keys above. Built-in default exceptions come first and can only be switched off, with
+  `[ToolsArea][Default Application <n>]` `Enabled=false`. `exceptions()` and `writeExceptions()` read and
+  write them.
+- `colors(scheme, settings)` gives the palette to draw with: the scheme's Header colours (or the Window
+  colours without a Header set), the opacity as the Window colour's alpha when header colours apply and `ApplyOpacityToHeader` is on, a
+  `translucent` flag, and the separator colour (`SeparatorColor`, or one mixed from the Window and
+  WindowText colours).
+- `writeSettings()` writes the keys and sets `Enabled=true`. A writer then sends
+  `KGlobalSettings.notifyChange` itself; readers reload on it. `snapshot()` returns every `[ToolsArea]`
+  entry as text, to tell whether anything changed.
+- `followDecoration(scheme, supported)` is what SonicWin calls with the `X-SonicDE-ToolsArea` marker, as
+  described above. `migrateFromSilver()` moves the settings the Silver theme kept in `silverrc` before
+  the tools area existed, once.

@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/plasma-desktop/-/blob/master/doc/kcont
 source_authors: [Yuri Chornoivan]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-desktop-interface fad996458a (kcms/activities); read from code, not clicked through"
+checked_against: "sonic-desktop-interface fad996458a (kcms/activities, applets/showActivityManager); read from code, not clicked through"
 ---
 
 # Activities
@@ -32,3 +32,15 @@ The configure button opens **Activity Settings**, where you can change:
 **Create New…** below the list opens **Create a New Activity**, which is similar to the settings dialog.
 
 The delete button removes an activity after you confirm.
+
+## Activity widgets
+
+Two widgets help you work with activities from a panel or the desktop:
+
+- The **Activity Pager** shows a preview of each activity. See [Activity Pager](../desktop/pager.md#activity-pager).
+- **Show Activity Manager** is a button that opens and closes the activity manager, where you can switch between your activities. Its context menu has **Configure Activities…**, which opens this module.
+
+The settings of **Show Activity Manager**, on its **Appearance** page:
+
+- **Icon:** **Show the current activity icon**, or **Show the generic activity icon**.
+- **Title:** **Show the current activity name** shows the name next to the icon. On a vertical panel only the icon is shown.

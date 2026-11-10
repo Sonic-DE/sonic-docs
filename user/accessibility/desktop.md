@@ -12,7 +12,7 @@ checked_against: "sonic-desktop-interface (kaccess/kaccess.cpp, kcms/access), so
 
 The desktop has a number of features for improved accessibility. To use them, you must first turn them on. The zoom function is an exception: it's on by default, but can be turned off.
 
-To turn an accessibility function on or off, go to System Settings and find the page for it in the [Accessibility](../settings/accessibility.md) module or the [Desktop Effects](../settings/desktop-effects.md) module.
+To turn an accessibility function on or off, go to System Settings and find the page for it in the [Accessibility](../settings/accessibility.md) module. A few aids for finding the mouse pointer are in the [Desktop Effects](../settings/desktop-effects.md) module.
 
 ## Turning on accessibility
 
@@ -36,20 +36,36 @@ To start Orca after logging in:
 
 ### Turning on visual aids
 
-Desktop effects include several accessibility features, including full-screen zoom, color inversion and help with finding the mouse pointer.
+The window manager has several visual aids, including zoom, color inversion and help with finding the mouse pointer. They need desktop effects to be on.
 
-You'll find the settings for these in the [Desktop Effects](../settings/desktop-effects.md) module.
+Zoom and color inversion are set in the [Accessibility](../settings/accessibility.md) module, on its **Zoom & Magnifier** and **Invert** pages. The aids for finding the mouse pointer, such as **Track Mouse** and **Mouse Click Animation**, are in the [Desktop Effects](../settings/desktop-effects.md) module, and their settings are described in [Effect settings](../settings/effect-settings.md).
 
-#### Full-screen magnification
+#### Magnification
 
-Meta++ and Meta+- zoom in and out.
+On the **Zoom & Magnifier** page, **Zoom:** chooses how the screen is enlarged:
 
-The scale factor and mouse pointer tracking can be adjusted in the effect's settings. For a fixed-size zoom window, use the Magnifier effect rather than the Zoom effect.
+- **Full screen** enlarges the whole screen. This is on by default.
+- **Magnify region** enlarges only a box around the mouse pointer, whose **Width:** and **Height:** you can set.
+- **Disabled** turns magnification off.
+
+The page also sets the **Zoom factor:**, how the pointer looks and how the enlarged area follows it. See [Accessibility](../settings/accessibility.md) for all its settings. Its **Configure Shortcuts…** button changes the keys below.
+
+- Meta++ (or Meta+=) zooms in, and Meta+- zooms out.
+- Meta+0 goes back to normal size with **Full screen**. With **Magnify region**, it turns the magnifier on and off.
+
+Full-screen zoom has more shortcuts:
+
+- Meta+F5 moves the mouse pointer to the part of the screen that has the focus, and Meta+F6 to the center of the enlarged area.
+- Four more shortcuts move the enlarged area left, right, up and down without moving the pointer. They have no keys by default; set them with **Configure Shortcuts…**.
 
 #### Inverting colors
 
+Color inversion is off by default. To use it, check **Enable** next to **Invert:** on the **Invert** page of the Accessibility module. Then:
+
 - Meta+Ctrl+I inverts colors for the entire screen.
 - Meta+Ctrl+U inverts colors for the current window.
+
+**Configure Shortcuts…** on the same page changes these keys.
 
 ## Keyboard navigation
 
@@ -61,6 +77,14 @@ The scale factor and mouse pointer tracking can be adjusted in the effect's sett
 ### Reaching the panels
 
 Meta+Alt+P moves between the panels. Navigate the panel with the arrow keys, and activate an entry with Space or Return.
+
+Each panel can also have its own **Focus shortcut:**, set in its Panel Settings. It gives the keyboard to that panel, and pressing it again gives the keyboard back to your window.
+
+- A panel that hides itself appears at once, and stays until you press the shortcut again, press Escape or click somewhere else.
+- While one of the panel's menus is open, the panel keeps the keyboard, so the keys go to that menu.
+- Escape goes first to the menu or widget that's using it, and only then closes the panel.
+
+See [Using a panel with the keyboard](../desktop/panels.md#using-a-panel-with-the-keyboard).
 
 ### Window management
 
@@ -79,4 +103,5 @@ The lock screen is accessible.
 - Ctrl+Alt+L or Meta+L locks the screen.
 - Use Tab to move around the lock screen when it's active. There is one text field for the password. Type your password and press Enter to unlock.
 - There are additional buttons for shutting down and restarting.
+- The **Virtual Keyboard** button at the bottom opens the on-screen keyboard. When more than one keyboard layout is set up, a button next to it, **Switch layout**, changes the layout. See [Unlocking](../settings/screen-locking.md#unlocking).
 - The username can be navigated with the left and right arrow keys to switch between users and start new sessions.

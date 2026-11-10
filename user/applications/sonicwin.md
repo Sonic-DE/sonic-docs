@@ -20,9 +20,9 @@ SonicWin supports *compositing*, which uses the graphics hardware for effects wh
 
 Right-click a window's titlebar, or use [System Settings](../settings/index.md), to configure SonicWin. For example, the [Task Switcher](../settings/task-switcher.md) module changes how the window list looks when you switch windows. Press Alt+Tab and keep Alt pressed. You can then press Tab to move through the windows, or activate the one you want with the mouse. Pressing Alt+Tab quickly takes you to the next window in the queue.
 
-Choose the effects you want in the [Desktop Effects](../settings/desktop-effects.md) module. The [Compositor](../settings/compositor.md) module has the compositing options, including **Enable on startup** and the animation speed.
+Choose the effects you want in the [Desktop Effects](../settings/desktop-effects.md) module. The [Compositor](../settings/compositor.md) module has the compositing options, such as **Enable on startup**, and the [Animations](../settings/animations.md) module sets the animation speed and which animation plays for each window event.
 
-Effects such as the Magic Lamp minimize animation give your windows a more natural feel. SonicWin checks the capabilities of your hardware so that people with low-end hardware aren't given an unusable setup, and if needed it scales its effects down. You can change settings like the animation speed to fine-tune your experience. To turn compositing off or back on, press Shift+Alt+F12.
+Effects such as the Magic Lamp minimize animation give your windows a more natural feel. SonicWin checks the capabilities of your hardware so that people with low-end hardware aren't given an unusable setup, and if needed it scales its effects down. You can change settings like the animation speed in the [Animations](../settings/animations.md) module to fine-tune your experience. To turn compositing off or back on, press Shift+Alt+F12.
 
 ## Tutorials
 
@@ -64,7 +64,7 @@ Open the [Window Decorations](../settings/window-decorations.md) module. There a
 
 ![Configuring the button size](images/sonicwin/button-size.png)
 
-- With the default style, open its settings and set **Button size** to **Tiny** or **Small**.
+- With the default style, Silver, open its settings and set **Icon size:** on the **Buttons** tab to **8 - Tiny** or **14 - Small**. See [Silver Settings](../settings/silver-settings.md#buttons).
 - Use another style with smaller window decorations.
 
 Both give you slim, functional window titles and borders.

@@ -12,7 +12,7 @@ checked_against: "sonic-desktop-interface fad996458a (solid-device-automounter/k
 
 This module configures automatic mounting of disks and volumes. With it turned on, you don't need to use the Disks & Devices widget or the file manager's places panel to get to a device you've just plugged in.
 
-The list contains the storage devices known to the system, grouped into **Attached Devices** and **Disconnected Devices**, under an **All Known Devices** entry.
+The list contains the storage devices known to the system, grouped into **Attached Devices** and **Disconnected Devices**, under a top entry for all of them. That entry is called **All Devices** while **Automatically mount removable media that have never been mounted before** is checked, and **All Known Devices** while it isn't.
 
 - **On Login:** The device is automatically mounted when you log in.
 - **On Attach:** The device is automatically mounted when it's plugged in.

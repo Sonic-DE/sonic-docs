@@ -5,14 +5,14 @@ source_url: https://userbase.kde.org/Plasma/Panels
 source_authors: [KDE UserBase contributors]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "sonic-desktop-interface (desktoppackage/contents/configuration/PanelConfiguration.qml, desktop context menu), sonic-workspace (shell/); read from code, not clicked through"
+checked_against: "sonic-desktop-interface (desktoppackage/contents/configuration/PanelConfiguration.qml, desktoppackage/contents/views/Panel.qml, layout-templates/), sonic-workspace (shell/panelview.cpp, shell/shellcorona.cpp), sonic-silver (layout-templates/org.kde.silver.plasma.desktop.bottomPanel); read from code, not clicked through"
 ---
 
 # Panels
 
 ![The default panel, in an older version](images/panel-default.png)
 
-A panel is a widget container that can sit on any side of the screen. There can be several panels on the screen, or even on the same side. The default layout is one panel across the bottom of the desktop with these widgets: the [application menu](kickoff.md), the [pager](pager.md), the [task manager](tasks.md), the [system tray](system-tray.md) (including things like power management if you're on a laptop), the [digital clock](clocks.md) and peek at desktop.
+A panel is a widget container that can sit on any side of the screen. There can be several panels on the screen, or even on the same side. The default layout, from the **Silver Light - Bottom Panel** [global theme](../settings/global-theme.md), is one panel across the bottom of the desktop with these widgets: the [Application Launcher](kickoff.md), the [pager](pager.md), the [Task Manager](tasks.md) with your file manager and your web browser pinned to it, the [system tray](system-tray.md) (including things like power management if you're on a laptop), the [digital clock](clocks.md) and [Peek at Desktop](desktop-buttons.md). If your system language usually needs an input method, such as Chinese, Japanese, Korean or Hindi, the panel also gets the [Input Method Panel](input-method-panel.md) widget.
 
 ## Configuration
 
@@ -38,10 +38,34 @@ In Edit Mode, widgets in the panel can be arranged by dragging them. Widgets ali
   - **Adaptive:** Makes the panel opaque when any windows are touching it, and translucent otherwise.
   - **Opaque:** Makes the panel always opaque.
   - **Translucent:** Makes the panel always translucent.
-- **Floating:** Adds some margin around the panel when no windows are touching it.
-- **Focus shortcut:** Sets a shortcut that focuses the panel when it isn't visible.
+
+  If your desktop style doesn't support these choices, a help button next to **Opacity** says so.
+- **Floating:**
+  - **Disabled:** Neither the panel nor its widgets float.
+  - **Applets only:** The panel stays against the screen edge, and the widgets on it are drawn as floating.
+  - **Panel and applets:** The panel floats away from the screen edge with some margin around it.
+- **Panel Height:** or **Panel Width:** The thickness of the panel. A vertical panel shows **Panel Width:**.
+- **Focus shortcut:** Sets a keyboard shortcut for this panel. See [Using a panel with the keyboard](#using-a-panel-with-the-keyboard).
+
+If the panel's settings are a combination that isn't supported, a warning appears with a **Fix it** button, which puts **Floating** and **Opacity** back to their defaults.
 
 **Add New** adds **Widgets…**, which opens a sidebar from which you can drag widgets into the panel, a **Spacer** or a **Margins Separator**. A spacer normally uses as much space as possible. In Edit Mode, you can give it a fixed size instead.
+
+At the bottom of Panel Settings:
+
+- **Delete Panel** removes the panel. You can undo this.
+- **Clone Panel** creates a new panel with the same settings and widgets. Arrows appear at the edges of each screen: click one to choose where the copy goes.
+- **Exit Edit Mode** closes Panel Settings. If you started Edit Mode from the desktop, this button is called **Close**.
+
+## Using a panel with the keyboard
+
+The panel's **Focus shortcut** gives the keyboard to that panel. Press it again to give the keyboard back to the window you were using. Meta+Alt+P does the same for all your panels in turn: each press moves to the next panel, and after the last one the keyboard goes back to your window.
+
+While a panel has the keyboard, the arrow keys move between its widgets, and Space or Return activates one.
+
+- A panel that hides itself (**Auto hide** or **Dodge windows**) appears as soon as you press its shortcut, and stays until you press the shortcut again, press Escape or click somewhere else.
+- While one of the panel's menus or dialogs is open, the panel keeps the keyboard, so the keys go to that menu or dialog.
+- Escape goes first to the menu or widget that's using it. Only when nothing in the panel needs it does Escape close the panel and give the keyboard back.
 
 ## Adding panels
 
@@ -49,9 +73,13 @@ Having more than one panel on your desktop is useful if you want a more flexible
 
 ![A desktop with a floating, centered vertical panel with an application launcher and icons-only task manager, and a second, horizontal panel at the top of the screen with a global menu, system tray and clock](images/panel-multiple.png)
 
-To add a new panel, right-click the desktop and choose **Add Panel**.
+To add a new panel, right-click the desktop and choose **Add Panel**, then pick the kind of panel:
 
-If more than one kind of panel is installed, you can choose between them. **Default Panel** creates a panel with all the default widgets, and **Empty Panel** adds a blank one with none in it.
+- **Default Panel:** A panel with the standard widgets: the Application Launcher, the pager, the Icons-Only Task Manager, the system tray, the digital clock and Peek at Desktop.
+- **Empty Panel:** A blank panel with no widgets in it.
+- **Application Menu Bar:** A thin panel at the top of the screen holding the [Global Menu](global-menu.md), which shows the menu bar of the active application.
+- **Silver Bottom Panel** and **Silver Left Panel:** The panels of the Silver look, at the bottom or the left of the screen, with the Application Launcher, the pager, a task manager with your file manager and web browser pinned, the system tray, the digital clock and Peek at Desktop. The bottom one has the Task Manager, which is what SonicDE starts with; the left one has the Icons-Only Task Manager.
+- **Terminal Panel:** A panel at the top of the screen that hides itself and holds the [Terminal Panel](widgets.md#terminal-panel) widget, a full terminal that comes down when you need it.
 
 ## Under the hood
 

@@ -5,20 +5,20 @@ source_url: https://invent.kde.org/plasma/plasma-workspace/-/blob/master/doc/kco
 source_authors: [Andrew Lake, Carl Schwan]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-workspace e4f0096493 (kcms/desktoptheme); read from code, not clicked through"
+checked_against: "sonic-workspace (kcms/desktoptheme), sonic-interface-libraries (desktoptheme), sonic-theme-sdk (themeexplorer); read from code, not clicked through"
 ---
 
 # Desktop Style
 
-The style defines how the parts of the desktop, such as panels and widgets, are displayed. In this module you can install, choose and remove styles.
+The style defines how the parts of the desktop, such as panels and widgets, are displayed. In this module you can install, choose and remove styles. SonicDE comes with **Silver Light** and **Silver Dark**, which match the Silver window borders and application style.
 
 ![The Desktop Style module](images/desktop-style/main.png)
 
-You can filter the list with the search field, and the box next to it shows **All themes**, **Light themes**, **Dark themes** or **Color scheme compatible** themes.
+You can filter the list with the search field, and the box next to it shows **All themes**, **Light themes**, **Dark themes** or **Color scheme compatible** themes. Styles that take their colors from your [color scheme](colors.md) say **Follows color scheme** under their name.
 
 Hover over a style to reveal its remove button. To undo it, click the undo button. Styles marked for removal are deleted when you click **Apply**, and you can't undo that. You can't delete system-installed styles or the active one.
 
-If the Plasma Theme Explorer from `plasma-sdk` is installed, hovering over a style also offers **Edit Theme…**.
+If the [Plasma Theme Explorer](../applications/theme-explorer.md) from the `sonic-theme-sdk` package is installed, hovering over a style also offers **Edit Theme…**, which opens the style in it.
 
 For more technical information, see [Understanding desktop themes](../../developer/plasma/theme/details.md).
 

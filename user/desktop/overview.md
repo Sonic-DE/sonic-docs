@@ -51,7 +51,7 @@ By default, there is one panel at the bottom of the screen. You can add more, mo
 
 ![Widgets, in an older version](images/overview-widgets.png)
 
-SonicDE supports widgets written for its desktop, also known as plasmoids. More can be found and installed with the **Get New Widgets…** button. See [Installing widgets](installing-widgets.md).
+SonicDE supports widgets written for its desktop, also known as plasmoids. More can be found and installed with the **Get New…** button in **Add Widgets**. See [Installing widgets](installing-widgets.md).
 
 To see the widgets installed on your system and ready to use, right-click the desktop or a panel, choose **Enter Edit Mode**, then open **Add Widgets**.
 

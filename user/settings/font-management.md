@@ -23,7 +23,9 @@ There are 4 special predefined font groups:
 
 To add a font to a group, drag it from the list of fonts onto the group. To remove a font from a group, drag it onto All Fonts.
 
-Below this list are buttons to create a new group, remove a group, and enable or disable the fonts in the current group. The context menu of the list has more items to print font samples and export a group to an archive.
+Below this list are buttons to create a new group, remove a group, and enable or disable the fonts in the current group. The context menu of the list has more items, such as **Rename…** for your own groups, and items to print font samples and export a group to an archive.
+
+**Print…** opens **Print Font Samples**, where **Select size to print font:** chooses **Waterfall**, which prints each font at several sizes, or one size of **12pt**, **18pt**, **24pt**, **36pt** or **48pt**.
 
 ### Enabling and disabling
 
@@ -39,7 +41,7 @@ The main display is a list of the installed fonts, grouped by family name. The n
   - Bold
   - Bold Italic
 
-To install a font, press **Install from File…** and select the fonts you want. The selected group controls where they're installed.
+To install a font, press **Install from File…** and select the fonts you want. The selected group controls where they're installed. If **All Fonts** or **Unclassified** is selected, **Where to Install** asks whether to install them for **Personal** use, available only to you, or for the whole **System**, available to all users.
 
 To uninstall fonts, select them in the list and press the delete button.
 
@@ -47,16 +49,16 @@ The right mouse button opens a context menu with more actions, such as Enable, D
 
 ### Filtering
 
-A text field above the list filters the fonts by these categories:
+A text field above the list filters the fonts. **Set Criteria** next to it chooses what the text is matched against:
 
-1. Family
-2. Style
-3. Foundry
-4. FontConfig match, which lets you enter a family name and see the family FontConfig would actually use
-5. Font file type
-6. Font file name
-7. Font file location
-8. Writing system
+1. **Family**
+2. **Style**
+3. **Foundry**
+4. **FontConfig Match**, which lets you enter a family name and see the family FontConfig would actually use
+5. **File Type**
+6. **File Name**
+7. **File Location**
+8. **Writing System**
 
 ### Getting new fonts
 

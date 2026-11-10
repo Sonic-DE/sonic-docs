@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/kwin-x11/-/blob/master/doc/windowbehav
 source_authors: [Mike McBride, Jost Schenck, Natalie Clarius]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-win 4cf630dd38 (src/kcms/options); read from code, not clicked through"
+checked_against: "sonic-win a4e76b52c5 (src/kcms/options); read from code, not clicked through"
 ---
 
 # Window Behavior
@@ -77,6 +77,7 @@ This tab sets what happens when you click on window titlebars.
 - **Horizontally maximize:** Resizes it to the width of the screen.
 - **Minimize:** Hides it, and you can restore it with the task manager or task switcher.
 - **Shade:** Reduces it to just the titlebar. Double-clicking the titlebar again restores it.
+- **Lower:** Moves it below the other windows.
 - **Close:** Closes it.
 - **Show on all desktops:** Makes it visible on all virtual desktops.
 - **Do nothing.**
@@ -105,6 +106,12 @@ This sets what happens when you single-click a window's titlebar or frame. You c
 - **Show actions menu:** Opens a menu of window commands, such as Move to Desktop, Move to Screen, Maximize, Minimize and Close.
 - **Do nothing.**
 
+For an **Inactive** window there are three more choices, which also make it the active window:
+
+- **Activate and raise:** Activates the window and brings it to the top.
+- **Activate and lower:** Activates the window and moves it to the bottom of the stack.
+- **Activate:** Activates the window without changing where it is in the stack.
+
 **Maximize window by double clicking its frame** does just that.
 
 ### Maximize button actions
@@ -126,7 +133,7 @@ For the buttons:
 
 **Activate, pass click and raise on release** doesn't work on X11.
 
-For the **Mouse wheel**:
+**Mouse wheel:**
 
 - **Scroll:** Just scrolls the content.
 - **Activate and scroll:** Makes the window active and scrolls.
@@ -181,10 +188,6 @@ The placement policy sets where a new window appears. With several monitors, it'
 
 > [!TIP]
 > To make some windows appear on specific positions, screens or virtual desktops, use [Window Rules](window-rules.md).
-
-### Special windows
-
-**Hide utility windows for inactive applications** hides utility windows, such as tool windows and torn-off menus, of inactive applications, and shows them only when the application becomes active. Applications have to mark their windows with the proper type for this to work.
 
 ### Virtual Desktop behavior
 

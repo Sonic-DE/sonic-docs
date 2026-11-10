@@ -47,7 +47,7 @@ Besides the main view, which shows the selected device in a graphical and a tree
 - **Information panel:** Shows details about the selected device or partition. It's hidden the first time you run Partition Manager.
 - **Pending Operations panel:** Lists all operations that will run once you choose [Edit > Apply](#the-edit-menu).
 - **Status bar:** Shows how many operations are pending.
-- **Log Output panel:** Shows log information, which mostly matters to advanced users. It's hidden the first time you run Partition Manager.
+- **Log Output panel:** Shows log information, which mostly matters to advanced users. It's hidden the first time you run Partition Manager. Right-click it for **Clear Log**, which empties the panel, and **Save Log**, which saves its contents to a file.
 
 ## How-to: resizing a partition
 
@@ -275,7 +275,7 @@ New, Resize/Move, Delete, Shred, Paste and Check are unavailable on a read-only 
 
 ### The Settings and Help menus
 
-Partition Manager has the common **Settings** and **Help** menus, including the toolbar and shortcut configuration, with an extra **Panels Shown** submenu to turn the Devices, Pending Operations, Information and Log Output panels on and off.
+Partition Manager has the common **Settings** and **Help** menus, including the toolbar and shortcut configuration, with an extra **Panels Shown** submenu to turn the Devices, Pending Operations, Information and Log Output panels on and off. The Help menu also has **About KPMcore Library**, which shows information about the library Partition Manager uses for its disk operations.
 
 ## Settings
 

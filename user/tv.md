@@ -1,20 +1,39 @@
 ---
 title: TV interface
-description: SonicDE's interface for televisions, with recommended third-party applications.
+description: SonicDE's interface for televisions, its settings, and recommended third-party applications.
 source_url: https://userbase.kde.org/Plasma_Bigscreen
 source_authors: [KDE UserBase contributors]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "sonic-tv-interface; the application recommendations come from https://userbase.kde.org/Plasma_Bigscreen/Third_Party_Apps and weren't retested; Flatpak links left out"
+checked_against: "sonic-tv-interface (bin/, containments/homescreen/, settingsapp/, uvcviewer/, RELEASE-NOTES.md); the application recommendations come from https://userbase.kde.org/Plasma_Bigscreen/Third_Party_Apps and weren't retested; Flatpak links left out"
 ---
 
 # TV interface
 
-`sonic-tv-interface` provides SonicDE's interface for televisions. To use it, choose **SonicDE TV** from the list of sessions on the login screen.
+`sonic-tv-interface` provides SonicDE's interface for televisions, made to be used from the sofa with a TV remote or a game controller. To use it, choose **SonicDE TV** from the list of sessions on the login screen.
+
+> [!NOTE]
+> The TV session used to have another name on the login screen. If you used it before upgrading, choose **SonicDE TV** once more.
+
+## Current status
+
+The TV interface runs on X11, like the rest of SonicDE.
+
+## Getting around
+
+The home overlay has buttons for **Search**, **Tasks**, which shows your open applications and can close them all, and **Settings**. Each of these, and the home screen itself, can also have a keyboard shortcut; see [TV settings](tv-settings.md#system).
 
 ## On-screen keyboard
 
 When a text field gets focus, for example the search field, the on-screen keyboard opens. That works with a remote or game controller too, so you can type without a physical keyboard.
+
+## Settings
+
+The TV interface has its own settings application, made to be used with a remote or controller. See [TV settings](tv-settings.md).
+
+## UVC Viewer
+
+**UVC Viewer** shows the picture from a USB camera or video capture device on the TV, for example to watch a games console or set-top box through a USB capture device. See [UVC Viewer](applications/uvc-viewer.md).
 
 ## Third-party applications
 

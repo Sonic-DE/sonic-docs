@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/kinfocenter/-/blob/master/doc/index.do
 source_authors: [Mike McBride]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-system-info 5cda34c9 (kcms, src/CommandOutputContext.cpp, src/qml/CommandOutputKCM.qml, categories) and sonic-system-settings 2bfb209b (app/main.cpp, app/SettingsBase.cpp); read from code, not clicked through"
+checked_against: "sonic-system-info 5cda34c9 (kcms, src/CommandOutputContext.cpp, src/qml/CommandOutputKCM.qml, categories; About, Energy and tool-output pages rechecked at ae84fcfd), sonic-disks 1a83753 (src/kcm/kcm_disks.json, src/kcm/ui) and sonic-system-settings 2bfb209b (app/main.cpp, app/SettingsBase.cpp); read from code, not clicked through"
 ---
 
 # Info Center
@@ -38,21 +38,23 @@ Most pages run a command-line tool and show what it prints. They share these act
 - **Filter** opens a bar that limits the page to text matching what you type.
 - **Pause Refreshing** and **Resume Refreshing** appear on pages that update by themselves.
 
-If the tool isn't installed, the page says “Could not load page content” and names the tool. You may be able to install it using your package manager. The message also suggests reporting it to your distribution, since it's a packaging issue.
+If the tool isn't installed, the page says “Could not load page content” and names the tool. You may be able to install it using your package manager. The message also suggests reporting it to your distribution, since it's a packaging issue, and its **Report to** button (followed by your distribution's name) opens your distribution's bug tracker.
 
 ## Basic Information
 
 ### About this System
 
-A brief summary of your system: the operating system, the versions of SonicDE, its Frameworks, Qt and the kernel, and the graphics platform. The hardware section shows the processors, memory and graphics processors, and the manufacturer, product name and system version where available. The serial number stays hidden until you click **Show**.
+A brief summary of your system: the operating system, the versions of SonicDE, its Frameworks, Qt and the kernel, and the graphics platform. The hardware section shows the processors, memory and graphics processors, and the manufacturer, product name and system version where available. The serial number stays hidden until you click **Show**, which shows it in a small window with a **Copy** button.
 
 **Copy Details** copies this information, in the current language or in English. Use it if you ask for help in support channels or report a bug.
+
+The same page is also in System Settings. There, a **Launch Info Center…** button opens Info Center for more detailed information.
 
 ### Energy
 
 Shows the charge history and power consumption of your batteries, and details about them. If your computer has no battery or other power information, the page says so.
 
-- **The graph** shows **Charge Percentage** or **Energy Consumption** over a period you choose, from the last hour to the last 7 days.
+- **The graph** shows **Charge Percentage** or **Energy Consumption** over a period you choose, from the last hour to the last 7 days. The **Refresh** button next to the period reloads it.
 - **Battery:** whether it's rechargeable, its charge state and current charge, its health and charge cycles, its vendor, model and serial number, and its technology.
 - **Energy:** consumption, voltage, remaining energy, last full charge and original charge capacity.
 - **Environment:** temperature.
@@ -88,6 +90,18 @@ Details of your installed memory modules, from `dmidecode`. Reading these needs 
 ### PCI
 
 The PCI bus and the cards and other devices on it, from `lspci -v`. Each entry begins with a bus, device and function number.
+
+### SMART Status
+
+The health of your storage devices, as their S.M.A.R.T. firmware reports it. Each device has a card that says whether it's working as expected, shows early signs of malfunction (with a list of them), or reports problems that may mean it's about to fail. In the last two cases, back up your data.
+
+- **Ignore** stops checking a device for failures, and **Monitor** starts again.
+- **Show Details** opens the device's full report, with **Copy to Clipboard**.
+- **Open Partition Manager** and **Perform Backup**, at the top, start [Partition Manager](partition-manager.md) or the backup tool when they're installed.
+
+If no device supports S.M.A.R.T., the page says “No S.M.A.R.T. devices found.”
+
+See [SMART Status](smart-status.md) for the warnings and what to do.
 
 ### Sensors
 

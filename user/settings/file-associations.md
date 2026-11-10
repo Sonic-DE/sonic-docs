@@ -65,6 +65,8 @@ Usually, files are selected by suffix. Files ending in `.wav` are sound files in
 
 The asterisk (`*`) is a wildcard that matches any number of characters. For example, `*.pdf` matches `Datafile.pdf`, `Graphics.pdf` and `User.pdf`, but not `PDF`, `Datafile.PDF` or `.pdf`.
 
+To add a pattern, click **Add...** next to the list, type it into **Extension:** in the **Add New Extension** dialog and click **OK**. To remove one, select it and click **Remove**.
+
 > [!TIP]
 > It's useful to have multiple patterns, such as one for lower case and one for upper case, so that the file type is determined more accurately.
 
@@ -109,3 +111,7 @@ Since the order matters, select an application and click **Move Up** or **Move D
 ### Saving your changes
 
 Click **Apply** to make your changes permanent.
+
+## Editing a single file type
+
+You don't have to open this module to change one file type. In a file's **Properties** dialog, the **General** tab has **Change…** next to the application that opens it. It opens the File Type Editor, a window titled **Edit File Type** followed by the type's name, with the same **General** and **Embedding** tabs as this module. For a file with no registered type, the button is **Create…** instead, and the window, titled **Create New File Type**, creates a type for it.

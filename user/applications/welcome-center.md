@@ -4,7 +4,7 @@ description: The short tour that introduces SonicDE when you first log in.
 source_authors: [SonicDE contributors]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "sonic-welcome-center 30afb72d (README.md, src/main.cpp, src/config.kcfg, src/kded/daemon.cpp, src/release.cpp, src/qml/Main.qml, src/qml/footers/, src/qml/pages/); written from the code, and the Powerful When Needed page and --help run from a staged build on a private X server"
+checked_against: "sonic-welcome-center 30afb72d, Enjoy It! and Network pages rechecked at 3f95336c (README.md, src/qml/ContributionCard.qml, src/main.cpp, src/config.kcfg, src/kded/daemon.cpp, src/release.cpp, src/qml/Main.qml, src/qml/footers/, src/qml/pages/); written from the code, and the Powerful When Needed page and --help run from a staged build on a private X server"
 ---
 
 # Welcome Center
@@ -15,12 +15,12 @@ Use **Next** and **Back** to move between pages. **Skip** closes the tour at any
 
 ## The pages
 
-- **Welcome:** Introduces SonicDE, or your distribution if it adds its own text, and can tell you more about both.
-- **Access the Internet:** Shows the network widget so you can connect. Once you're connected, it says **You're connected**. If network support isn't installed, it says so and asks you to report that to your distribution.
+- **Welcome:** Introduces SonicDE, or your distribution if it adds its own text, and can tell you more about both. Sonron, the SonicDE mascot, greets you here, unless your distribution shows its own picture.
+- **Access the Internet:** Shows the network widget so you can connect. Once you're connected, it says **You're connected**, and if you connect while this page is showing, the tour moves on to the next page by itself. If network support isn't installed, it says so and asks you to report that to your distribution.
 - **Simple by Default:** Explains the desktop, panel, Application Launcher, Task Manager, System Tray, Digital Clock and Peek at Desktop. Click an item in the picture to read about it.
 - **Powerful When Needed:** Has cards for features you may want later: **Keyboard Shortcuts**, **Overview**, **KRunner**, **KDE Connect**, **Activities** and **Vaults**. Click a card to read about it.
 - **Share Anonymous Usage Information:** Lets you choose how much anonymous usage information to share. You can also change this later in System Settings.
-- **Enjoy It!:** Has links to the SonicDE community and to help, and to the **Supporting Members** list.
+- **Enjoy It!:** Shows a picture of Sonron and has links to learn more about the SonicDE community and to find help, and a card with **Make a donation** and **Get involved**.
 
 Your distribution can add its own pages before the last one.
 

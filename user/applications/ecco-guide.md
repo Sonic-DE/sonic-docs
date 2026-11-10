@@ -14,7 +14,7 @@ This is a guided tour of Ecco, SonicDE's file manager. It shows how to use Ecco 
 
 ![The Ecco window](images/ecco-guide/window.png)
 
-When you open Ecco from the application launcher, it shows your [Home folder](../glossary.md) unless you've chosen another location in its settings.
+When you open Ecco from the application launcher, where it's listed as **Dolphin**, it shows your [Home folder](../glossary.md) unless you've chosen another location in its settings.
 
 To open a file or go to a folder, double-click it. To open them with a single click instead, change the **Clicking files or folders** option in the [General Behavior](../settings/general-behavior.md) module.
 
@@ -115,7 +115,7 @@ In Details mode, all files are listed in a table, with additional information sh
 
 The Name column is always shown. Clicking a column's header sorts the table by that column, and clicking the same header again reverses the order.
 
-Folders can be displayed as a tree. A small arrow appears next to each folder, and clicking it expands the folder, showing the subfolders and files inside it in the same table. Clicking it again closes the folder. To turn this off, go to **Settings > Configure Ecco > View**, open the Details tab and clear **Folders: Expandable**.
+Folders can be displayed as a tree. A small arrow appears next to each folder, and clicking it expands the folder, showing the subfolders and files inside it in the same table. Clicking it again closes the folder. To turn this off, go to **Settings > Configure Dolphin… > View**, open the Details tab and clear **Folders: Expandable**.
 
 ### Setting defaults for all folders
 
@@ -233,7 +233,7 @@ X-KDE-InitialPreference=3
 
 Edits to system files are lost when the package is updated, so copy the file to `~/.local/share/applications` first if you want them to stay.
 
-Ecco also offers a quick way to change a **single** association. Right-click the file and choose **Properties**. On the **Type** line there is a **Change…** button. Click it to add or change an association.
+Ecco also offers a quick way to change a **single** association. Right-click the file and choose [**Properties**](../dialogs/properties.md). On the **Open with:** line there is a **Change…** button (**Create…** for an unknown file type). Click it to add or change an association.
 
 The same works on a folder, for instance to choose a different file manager or add another image viewer to the possible associations.
 

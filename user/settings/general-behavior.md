@@ -12,7 +12,7 @@ checked_against: "sonic-desktop-interface fad996458a (kcms/workspaceoptions); re
 
 This module configures general workspace behavior.
 
-## Desktop
+## Plasma
 
 **Allow Plasma to show:**
 
@@ -31,7 +31,6 @@ This module configures general workspace behavior.
 - **Clicking files or folders:**
   - **Selects them:** Files and folders must be double-clicked to open, and a single click selects them. This is the default.
   - **Opens them:** Files and folders open with a single click. To select them, click their selection markers, drag a rectangle around them or Ctrl+click.
-- **Middle-click:** **Pastes selected text** makes middle-clicking in a text field paste the selection. The system has to be restarted for a change here to take effect, and the module offers a **Restart** button.
 - **Double-click interval:** Two clicks within this time count as a double-click. Some applications may not honor this. Double-click the test folder to check it: if it doesn't change its appearance, increase the interval.
 
 ## Drag and Drop
@@ -43,8 +42,7 @@ This module configures general workspace behavior.
 
 ## Touch
 
-**Enable Tablet Mode.** In tablet mode, the virtual keyboard appears when needed.
+**Enable Tablet Mode:**
 
-- **Automatically enable as needed:** Turns it on whenever the system detects a touchscreen but no mouse or touchpad, for example when a transformable laptop's keyboard is flipped around or detached.
-- **Always enabled:** Use this if you mainly use the desktop with a touchscreen.
-- **Never enabled:** Use this if you don't need tablet mode on your device.
+- **Never enabled:** Tablet mode stays off. Use this if you don't need tablet mode on your device.
+- **Always enabled:** Tablet mode is always on. Use this if you mainly use the desktop with a touchscreen.

@@ -38,6 +38,12 @@ In Unicode Block and Unicode Script preview, hovering over a character shows a t
 
 If a font file has several faces, **Show Face** chooses which one to preview.
 
+## Opening and printing
+
+**File > Open** (also on the toolbar) opens a font file to view. The file dialog lists TrueType, OpenType, PostScript type 1 and bitmap fonts.
+
+**File > Print** prints a preview of the font, with sample text in a range of sizes. It's only available for fonts that are installed, not for a font file you've only opened.
+
 ## Installing a font
 
 To install a font you downloaded from the Internet, click **Install…** in the lower-right corner.

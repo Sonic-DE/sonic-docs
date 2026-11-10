@@ -5,7 +5,7 @@ source_url: https://userbase.kde.org/Plasma/Kickoff
 source_authors: [KDE UserBase contributors]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "sonic-desktop-interface (applets/kickoff/); read from code, not clicked through"
+checked_against: "sonic-desktop-interface (applets/kickoff/), sonic-workspace (applets/kicker/actionlist.cpp); read from code, not clicked through"
 ---
 
 # Application Launcher
@@ -30,7 +30,7 @@ This tab gives you access to your applications and favorites.
 
 ![Dragging to sort favorites](images/kickoff-drag-favorites.png)
 
-The favorites section is where you can pin your favorite applications. Drag and drop an entry to sort it your way. Right-clicking an entry gives you more options: you can remove it with **Remove from Favorites**, or copy it to the panel with **Add to Panel** or to the desktop with **Add to Desktop**.
+The favorites section is where you can pin your favorite applications. Drag and drop an entry to sort it your way. Right-clicking an entry gives you more options: you can remove it with **Remove from Favorites**, or copy it to the panel with **Add to Panel (Widget)** or to the desktop with **Add to Desktop**.
 
 ### Applications
 
@@ -38,7 +38,7 @@ The favorites section is where you can pin your favorite applications. Drag and 
 
 ![Clicking a letter goes to the first item in that section](images/kickoff-sections.png)
 
-This section gives you access to all installed applications, divided into categories such as Office or Internet. There is also an **All Applications** section. Hover over a category to see the applications in it. Right-click an application to get options such as **Add to Favorites**, **Add to Panel** and **Add to Desktop**.
+This section gives you access to all installed applications, divided into categories such as Office or Internet. There is also an **All Applications** section. Hover over a category to see the applications in it. Right-click an application to get options such as **Add to Favorites**, **Add to Panel (Widget)** and **Add to Desktop**.
 
 ## The Places tab
 
@@ -76,7 +76,20 @@ Instead of browsing through tabs and categories, you can simply enter a search t
 
 ![A program on the panel](images/kickoff-on-panel.png)
 
-Applications can be added to the desktop and panels. Right-click one and choose **Add to Desktop** or **Add to Panel**.
+Applications can be added to the desktop and panels. Right-click one and choose **Add to Desktop** or **Add to Panel (Widget)**.
+
+## Editing the menu
+
+Right-click the launcher button and choose **Edit Applications…** to open the [SonicDE Menu Editor](../applications/menu-editor.md), where you can change the entries in the menu.
+
+## The launcher button
+
+To change how the launcher button looks, right-click it and choose **Configure Application Launcher…**. On the **General** page:
+
+- **Icon:** Click the icon to open a menu: **Choose…** picks another icon, **Reset to default icon** goes back to the standard one, and **Remove icon** shows no icon, so the button only shows its text label. **Remove icon** is only available when the button has a text label and the panel isn't vertical.
+- **Text label:** Type a label to show next to the icon. The clear button in the field, **Reset menu label**, removes the label again, and brings the default icon back if the button had none. A text label can't be set when the panel is vertical.
+
+The other settings on this page are described in [The SonicDE desktop](../desktop.md#application-launcher-settings).
 
 ## Alternative launchers
 

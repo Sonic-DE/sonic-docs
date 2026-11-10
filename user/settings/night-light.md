@@ -22,15 +22,19 @@ Night Light is a blue light filter that makes the colors on your screen warmer. 
 
 While you move a temperature slider, the screen briefly previews that color, and the current value appears in kelvin.
 
+Between the switching times and the sliders, a timeline shows the color temperature over the day. Hover over it to see when the color begins changing to night time and when it's fully changed, and the same for the morning.
+
 ## Suspending it for a while
 
-The Night Light section of the Brightness & Color widget in the system tray can suspend the filter and resume it, for example while you work on images. You can also give **Suspend/Resume Night Light** a key in the [Shortcuts](shortcuts.md) module, as it has none by default. A message on the screen tells you when Night Light is suspended or resumed.
+The Night Light section of the [Brightness & Color](../desktop/brightness-and-color.md) widget in the system tray can suspend the filter and resume it, for example while you work on images. You can also give **Suspend/Resume Night Light** a key in the [Shortcuts](shortcuts.md) module, as it has none by default. A message on the screen tells you when Night Light is suspended or resumed.
 
 ## Day-Night Cycle
 
 This separate module, under **Language & Time**, sets the times that Night Light and other time-based features, such as dynamic wallpapers, follow.
 
+At the top, a chart shows the sun's path through the day. Hover over **Sunrise** or **Sunset** to see when each one starts and ends.
+
 **Determine sunrise and sunset times** can be:
 
-- **Based on device's location:** Choose **Automatically detect location**, which uses a location service such as GeoClue2 to update your location from time to time, or **Use manual location**, then enter a latitude and longitude or click your location on the map. Times can't be worked out during polar day or polar night, and the module tells you to choose custom times instead.
+- **Based on device's location:** Choose **Automatically detect location**, which uses a location service such as GeoClue2 to update your location from time to time, or **Use manual location**, then enter a latitude and longitude or click your location on the map. **Zoom in** and **Zoom out** buttons on the map help you find it. Times can't be worked out during polar day or polar night, and the module tells you to choose custom times instead.
 - **Using custom times:** Enter **Sunrise** and **Sunset** times, and a **Transition duration**, in minutes, for the change between them.

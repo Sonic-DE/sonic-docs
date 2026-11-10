@@ -73,7 +73,7 @@ You can select another column to filter only that one. For example, in the Syste
 
 **Select priorities** lets you choose which log levels to show. **Settings > Show Filter Bar** hides or shows the bar.
 
-To find text without hiding other lines, use **Edit > Find**.
+To find text without hiding other lines, use **Edit > Find**. The find bar has **Next** and **Previous**, **Match case** for a case-sensitive search, and **Highlight all** to mark every match.
 
 ## Other features
 
@@ -95,7 +95,7 @@ Select the lines you want, then choose **Save As…**, **Print Selection…**, *
 
 ### Adding a log entry
 
-**File > Add Log Entry…** opens a dialog for sending a message to the log system, with a priority, facility and tag you can choose. It uses the `logger` command.
+**File > Add Log Entry…** opens a dialog for sending a message to the log system, with a priority, facility and tag you can choose. Type the **Message:**, or choose **File content:** to log the contents of a file instead. **Log process identifier** adds the process ID to the entry. It uses the `logger` command.
 
 ## Monitoring
 
@@ -121,6 +121,8 @@ You can open several logs at once in multiple tabs. Use the **Window** menu to o
 ### Log pages
 
 Most logs have their own page with the list of files to read. Files are read in the order of the list. Compressed and plain text files are accepted, and you can use the `*` wildcard to select several files when adding them.
+
+The X Session Log page reads a single file, chosen with **Log file:**. **Ignore Xorg errors** leaves out the common X.org error lines listed on the page.
 
 The Journald page has its own options instead:
 

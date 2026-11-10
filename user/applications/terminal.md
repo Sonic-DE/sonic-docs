@@ -5,12 +5,12 @@ source_url: https://invent.kde.org/utilities/konsole/-/blob/master/doc/manual/in
 source_authors: [Jonathan Singer, Kurt Hindenburg, Ahmad Samir]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-terminal ca24c235e (konsoleui.rc, sessionui.rc, Application.cpp, MainWindow.cpp, ViewManager.cpp, SessionController.cpp, qml/Configure*.qml, qml/EditProfile*.qml); read from code, not clicked through"
+checked_against: "sonic-terminal 342e7db0a (konsoleui.rc, sessionui.rc, main.cpp, Application.cpp, MainWindow.cpp, ViewManager.cpp, SessionController.cpp, ShortcutStore.cpp, quick/PanelOpen.cpp, qml/Configure*.qml, qml/EditProfile*.qml, qml/TabTitleFields.qml); read from code, not clicked through"
 ---
 
 # Terminal
 
-Terminal is SonicDE's terminal emulator, often referred to as a terminal or a shell. It emulates a command line interface in a text only window. Its command is `konsole`, and you'll also see that name in its settings files and in its D-Bus names.
+Terminal is SonicDE's terminal emulator, often referred to as a terminal or a shell. It emulates a command line interface in a text only window. Its command is `konsole`, and you'll also see that name in its settings files and in its D-Bus names. The application launcher lists it as **Konsole** (Terminal), and its window and menus use the name Konsole too, for example in **Settings > Configure Konsole…**.
 
 Terminal typically runs a command shell, an application that executes commands that you type. The shell it runs depends on your account settings. Consult your operating system documentation to find out what the shell is, how to configure it and how to use it.
 
@@ -53,6 +53,101 @@ To create a new profile:
 5. Enter a command just as you normally would if you opened a new shell and were going to issue that command. For the first example above, you might type `ssh administration`.
 6. On the other pages of the dialog, configure this session's appearance. You can configure a different font, color scheme, `$TERM` type and many other settings for each session.
 7. Press **OK**. The new profile is now available.
+
+On the Profiles page you can also give each profile a keyboard shortcut in the **Shortcut** column, and make the selected profile the one new sessions use with **Set as Default**.
+
+## Profile settings
+
+**Settings > Edit Current Profile…** opens the profile editor. Its pages are General, Tabs, Appearance, Scrolling, Keyboard, Mouse and Advanced. Changes apply to every session that uses the profile.
+
+### General
+
+On the **General Settings** tab, besides the profile name, icon, **Command:** and **Initial directory:**:
+
+- **Default profile** makes this profile the one new sessions use.
+- **Start in same directory as current session:** a new tab or split starts in the working directory of the session you opened it from, instead of the initial directory.
+- **Enter same container as current session:** when you open a new tab or split from a session inside a Toolbox or Distrobox container, the new one enters the same container.
+- **Always start in container:** starts every session of this profile inside the container you pick. If containers can't be used, a message above the list says why.
+- **Environment:** with **Edit...** sets environment variables for sessions of this profile.
+- **Initial terminal size:** sets the number of columns and rows of a new window. These only take effect when **Remember window size** is turned off in **Settings > Configure Konsole… > General**.
+- **Terminal bell mode:** chooses what happens when a program rings the bell: **System Bell**, **System Notifications**, **Visual Bell** or **Ignore Bell Events**.
+
+The **Semantic Integration** tab is described in [Semantic shell integration](#semantic-shell-integration).
+
+### Tabs
+
+- **Tab Titles:** **Tab title format:**, **Remote tab title format:**, **Tab Color:** and **Activity Tab Color:**, the color a tab takes when it shows activity. The tokens you can use are listed under [Configure tab settings dialog](#configure-tab-settings-dialog).
+- **Tab Monitoring:** **Threshold for continuous silence:** is how many seconds without output count as silence for **Monitor for Silence**.
+
+### Appearance
+
+The **Color scheme & font** tab:
+
+- Pick a color scheme from the list. **New...** creates a scheme based on the selected one, **Edit...** changes it, **Remove** deletes the selected scheme, **Defaults** resets a changed scheme to its original settings, and **Get New...** downloads schemes made by others.
+- **Font:** with **Choose...** sets the font. **Smooth fonts** turns on antialiasing, and **Draw intense colors in bold font** shows intense colors in bold.
+- **Use line characters contained in font** draws box and frame lines with the font's own characters instead of Terminal's built-in drawing. **Use unicode Braille characters contained in font** does the same for Braille characters.
+
+The **Cursor** tab:
+
+- **Shape:** **Block**, **I-Beam** or **Underline**.
+- **Color:** **Match current character** gives the cursor the color of the character under it; **Custom cursor color** uses the fixed **Cursor:** and **Text:** colors you pick.
+- **Blinking:** makes the cursor blink, and **Animation:** makes it move smoothly.
+
+The **Miscellaneous** tab:
+
+- **Terminal contents:** **Line spacing:** and **Margins:** in pixels, and **Align to center:** to keep the text area in the middle of the window.
+- **Window:** **Show hint for terminal size after resizing** shows the size in columns and lines in the middle of the window after you resize it. **Display Vertical line at column:** draws a guide line.
+- **Inactive Terminals:** **Darken** dims the views that don't have the focus, by the **Darkening strength:** you choose.
+- **Active Terminals:** **Border** draws a border of the chosen **Color:** around the view that has the focus.
+- **Always invert the colors of selected text** shows the selection by swapping text and background colors.
+
+The **Complex Text Layout** tab is described in [Complex text layout](#complex-text-layout).
+
+### Scrolling
+
+- **Scrollback:** **Fixed size:** with a number of lines, **Unlimited** or **None** (see [Scrollback](#scrollback)). Unlimited scrollback is written unencrypted to temporary files.
+- **Scroll Page Up/Down:** **Half screen height** or **Full screen height**.
+- **Scrollbar position:** **Right side**, **Left side** or **Hidden**.
+- **Highlight the lines coming into view** marks the lines that scroll into view.
+- **Reflow lines when terminal resizes** rewraps long lines when the window gets wider or narrower.
+- **Color of scrollbar markers:** and **Size of each marker (as a percentage of scrollbar length):** set the markers drawn on the scrollbar.
+- **Color of scrollbar search highlighting lines:** and **Search highlighting line opacity:** set how search matches are marked on the scrollbar.
+
+### Keyboard
+
+The key binding schemas, described in [Terminal key bindings](#terminal-key-bindings).
+
+### Mouse
+
+On the **Text interaction** tab:
+
+- **Word characters:** the characters that count as part of a word when you double-click to select a word.
+- **Triple-click selects:** **The whole line**, or **From mouse position to the end of line**.
+- **Middle-click pastes:** **From clipboard** or **From selection**.
+- **Copy options:** **Copy on select** copies selected text to the clipboard straight away; **Copy text as HTML** keeps the formatting, fonts and colors; **Trim leading spaces** and **Trim trailing spaces** remove spaces from the copied text.
+
+On the **Miscellaneous** tab:
+
+- **Underline links** and **Underline files** underline links, email addresses and file names when the mouse pointer is over them.
+- **Text Editor Command:** chooses the editor that opens a file name found in the output, at its line and column. Pick a custom command with **Edit...**.
+- **Open files/links by direct click** opens them with a plain click.
+- **Allow escape sequences for links** lets programs print links whose text differs from their address. A warning explains that this can hide where a link really goes. **Allowed link formats:** limits which kinds of link are allowed, such as `http://`, `https://` and `file://`.
+- **Require Ctrl key for drag & drop** and **Disable drag & drop menu for files & URLs**, described in [Drag and drop](#drag-and-drop).
+- **Enable Alternate Screen buffer scrolling** makes the mouse wheel send Up and Down keys to programs such as `less`.
+- **Allow Ctrl+scrollwheel to zoom text size** turns Ctrl+Wheel zooming on or off.
+- **Preview Colors on hover** shows a swatch next to the pointer when it's over a hexadecimal color.
+- **Allow terminal applications to handle clicks and drags** lets programs with mouse support use the mouse by default. You can also switch this while a program runs.
+
+### Advanced
+
+- **Key combination to show URL hints:** the keys (**Shift**, **Ctrl**, **Alt**, **Meta**) that show numbered hints next to links, so you can open one from the keyboard.
+- **Reverse URL hint numbering** numbers the hints from the bottom up.
+- **Allow blinking text** lets programs make text blink.
+- **Flow control** lets Ctrl+S suspend the output.
+- **Default character encoding:** the encoding new sessions of this profile use.
+- **Shortcut for peeking the primary screen:** a key combination that shows the normal screen while a full-screen program, such as `vim` or `less`, is running.
+- **Set interval between autosaves:** how often, in milliseconds, **Auto Save Output As…** writes to its file.
+- **Line Numbers:** described in [Visual hints](#visual-hints).
 
 ## Mouse buttons
 
@@ -147,12 +242,12 @@ Semantic shell integration needs to be set up in the shell. Pressing Ctrl+Alt+] 
 The Complex Text Layout tab of the Appearance page in the Edit Profile dialog has options that control the rendering of text.
 
 - **Word mode:** Some strings are displayed on the screen as a whole, instead of a character at a time. This allows Qt to render text correctly when the shape of a character depends on the characters before or after it. This might result in incorrect position of some characters. Spaces always break strings, so they're always in the correct positions, which ensures that characters are never too far from their correct position.
-- **Use the same attributes for each whole word:** Words are rendered with the same attributes (text color, bold, italic, etc.). If an attribute changes mid-word, it only takes effect after the end of the word. When this is disabled, a new word starts when attributes change, which results in characters changing shape and position when moving the cursor or selecting text.
+- **Use the same attributes for whole word:** Words are rendered with the same attributes (text color, bold, italic, etc.). If an attribute changes mid-word, it only takes effect after the end of the word. When this is disabled, a new word starts when attributes change, which results in characters changing shape and position when moving the cursor or selecting text.
 - **ASCII characters:** Groups ASCII characters into words as described above. The most noticeable effect is that this shows programming ligatures, for fonts that support them. For example, the string `<=` may be displayed as ⩽.
 - **Brahmic scripts characters:** Groups Brahmic characters as described above. Without this option (depending on the font) some words may not be connected as they should. With it, Brahmic characters may appear out of position.
 - **Emoji Font:** Specifies the font to use for Unicode emoji characters. If not set, the default profile font is used, or the system may use a fallback font if the glyphs are missing from this font.
 - **Bi-Directional text rendering:** Reorders right-to-left characters so Arabic and Hebrew texts appear correctly.
-- **Force LTR line direction:** Lines are always left to right. Without this, each line's direction is determined by the first character with strong directionality.
+- **force LTR line direction:** Lines are always left to right. Without this, each line's direction is determined by the first character with strong directionality.
 - **Table characters BiDi mode override:** Considers graphic table characters as strong LTR characters. This allows tables containing RTL characters to display correctly, but might cause incorrect order if those characters are used in RTL texts.
 - **Override wcwidth:** Problematic characters follow the Unicode standard, rather than glibc's `wcwidth()`. Currently only the soft hyphen (Unicode 0x00AD), which has a wcwidth of 1 and a Unicode width of 0, is affected. Generally, disable this when mainly using those characters on the command line, and enable it when they are only displayed.
 
@@ -213,17 +308,20 @@ The menu bar is at the top of the Terminal window. If it's hidden, **Show Menu B
 
 - **Split View > Split View Left/Right** (Ctrl+( ): Splits the current tab into left and right views. Any output on one view is duplicated in the other view.
 - **Split View > Split View Top/Bottom** (Ctrl+) ): Splits the current tab into top and bottom views. Any output on one view is duplicated in the other view.
+- **Split View > Split View Left/Right from next tab** and **Split View Top/Bottom from next tab:** Moves the next tab into a split of the current one. These are only available when the window has more than one tab.
 - **Split View > Expand View** (Ctrl+Shift+]): Makes the current view larger.
 - **Split View > Shrink View** (Ctrl+Shift+[): Makes the current view smaller.
 - **Split View > Toggle maximize current view** (Ctrl+Shift+E): Toggles the current view between its current size and the maximum size.
 - **Split View > Equal size to all views:** Sets the same size for all views.
+
+  The **Split View** button on the toolbar, also in the menu button, has a few more items: **Split View Automatically** (Ctrl+\*) splits left/right when the view is wider than it is tall and top/bottom otherwise, **Split View Automatically from next tab** does the same with the next tab, and **Load a new tab with layout 2x2 terminals**, **Load a new tab with layout 2x1 terminals** and **Load a new tab with layout 1x2 terminals** open a new tab that's already split.
 - **Detach Current Tab:** Opens the current tab in a separate window. Quitting the previous window doesn't affect the new one.
 - **Detach Current View** (Ctrl+Shift+H): Opens the current split view in a separate window.
 - **Save Tab Layout…:** Saves the tab layout of the current view to a layout file which can be loaded later.
-- **Load Tab Layout…:** Loads a layout saved with the item above. The default layouts (2x2, 2x1 and 1x2) can be loaded via the toolbar.
+- **Load Tab Layout…:** Loads a layout saved with the item above. The built-in 2x2, 2x1 and 1x2 layouts are in the **Split View** button on the toolbar.
 - **One-Shot Monitors:** The monitors below notify only once, and are then disabled.
 - **Monitor for Prompt:** Toggles monitoring the current tab for a shell prompt, and shows a notification when one is displayed. Only shown when semantic integration is enabled in the shell.
-- **Monitor for Silence:** Toggles monitoring the current tab for lack of activity. By default, after 10 seconds of inactivity, an info icon appears on the tab. Change the type of alert in **Settings > Configure Notifications**.
+- **Monitor for Silence:** Toggles monitoring the current tab for lack of activity. By default, after 10 seconds of inactivity, an info icon appears on the tab. Change the number of seconds with **Threshold for continuous silence:** on the Tabs page of the profile editor. Change the type of alert in **Settings > Configure Notifications**.
 - **Monitor for Activity:** Toggles monitoring the current tab for activity. Upon any activity, an info icon appears on the tab. Change the type of alert in **Settings > Configure Notifications**.
 - **Monitor for Process Finishing:** Toggles monitoring the current tab for the process finishing. When it does, Terminal shows the notification “The process '\<name\>' has finished running in session '\<session\>'.”
 - **Read-only:** Toggles the session to be read-only: no input is accepted, and drag and drop is disabled.
@@ -259,7 +357,9 @@ This lists the installed plugins, which include **Quick Commands** and **SSH Man
 - **Full Screen Mode** (F11): Toggles filling the entire screen.
 - **Toolbars Shown:** Toggles the toolbars.
 - **Configure Language…:** Chooses an interface translation.
-- **Configure Keyboard Shortcuts…:** Opens the keyboard shortcut editor.
+- **Configure Keyboard Shortcuts…:** Opens the [keyboard shortcut editor](../dialogs/shortcuts-and-toolbars.md#configure-keyboard-shortcuts).
+
+  Your shortcuts are saved in `~/.config/konsolerc`, in the `[ActionShortcuts]` group. Shortcuts you set in an older version were kept in separate files; the first time Terminal starts, it moves them into `konsolerc` once.
 
   Terminal has a few special shortcuts with no menu item:
 
@@ -271,9 +371,9 @@ This lists the installed plugins, which include **Quick Commands** and **SSH Man
   | Ctrl+Alt+Right | Move tab right |
   | Ctrl+Shift+Insert | Paste selection |
 
-- **Configure Toolbars…:** Opens the toolbar configuration window.
-- **Configure Notifications…:** Opens the notifications editor.
-- **Configure Terminal…:** Opens the settings dialog, which has these pages:
+- **Configure Toolbars…:** Opens the [toolbar configuration window](../dialogs/shortcuts-and-toolbars.md#configure-toolbars).
+- **Configure Notifications…:** Opens the [notifications editor](../dialogs/application-menus.md#configure-notifications).
+- **Configure Konsole…:** Opens the settings dialog, which has these pages:
   - **General:** Remembering the window size, running all windows in a single process, re-using an existing process, enabling menu accelerators, showing the window title on the titlebar, removing the window titlebar and frame, focusing terminals when the mouse pointer moves over them, enabling the security sensitive parts of the D-Bus API, forcing new tabs, and showing progress in the taskbar. It also configures search: case sensitivity, regular expressions, highlighting all matches, searching backwards and not wrapping. You can also enable all “Don't Ask Again” messages again here.
   - **Profiles:** Creating and handling [profiles](#profiles).
   - **Tab Bar / Splitters:**
@@ -366,6 +466,10 @@ When Terminal is started from the command line, these options modify its behavio
 - `-e command`: Executes `command` instead of the normal shell. This option catches all following arguments and executes them as `command`, so it should always be the last option.
 
 Terminal also accepts generic Qt and KDE Frameworks 6 options; see the `qt6options` and `kf6options` man pages.
+
+### With the Terminal Panel widget
+
+When a panel has the Terminal Panel widget, starting Terminal without a command (plain `konsole`, or with only `--workdir` or `--new-tab`) doesn't open a window. Instead, the panel comes out with a new tab, ready for typing, in the given working directory if there is one. Starting Terminal with a command, with `--separate`, or with any other option still opens a window, and so does **Open a New Window** in the launcher entry's menu, which runs `konsole --separate`.
 
 ## Scripting Terminal
 

@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/plasma-desktop/-/blob/master/doc/plasm
 source_authors: [Sebastian Kügler, Claus Christensen]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-desktop-interface e9d54dc6bd (applets, containments, desktoppackage, kcms/runners), sonic-workspace b0aba3b309 (shell, applets, krunner), sonic-win 4cf630dd38 (src/useractions.cpp) and sonic-system-monitor; read from code, not clicked through"
+checked_against: "sonic-desktop-interface e9d54dc6bd (applets, containments, desktoppackage, kcms/runners; desktoppackage/contents/configuration and containments/desktop/package/contents/ui rechecked at 649680b89c), sonic-workspace b0aba3b309 (shell, applets, krunner), sonic-win 4cf630dd38 (src/useractions.cpp) and sonic-system-monitor; read from code, not clicked through"
 ---
 
 # The SonicDE desktop
@@ -49,7 +49,7 @@ The default panel holds a few widgets, starting from the left with the applicati
 
 ![The Application Launcher](images/desktop/application-launcher.png)
 
-You can use it to start applications, open recent files and use the logout and shutdown options. The layout is optimized for the most common use, starting an application.
+You can use it to start applications, open recent files and use the logout and shutdown options, which can open the [logout screen](desktop/logout-screen.md). The layout is optimized for the most common use, starting an application.
 
 Its sidebar lists your **Favorites**, **All Applications** and the application categories, and the tabs at the bottom switch between **Applications** and **Places**. To add an application to your favorites, right-click it and select **Add to Favorites**, or add it directly to the panel or desktop. Right-clicking the launcher button also offers **Edit Applications…**, which opens the [SonicDE Menu Editor](applications/menu-editor.md).
 
@@ -116,11 +116,11 @@ Some entries are hidden to save space. To show them, click the small arrow in th
 
 ### Digital Clock
 
-The right-most widget in the default panel is the Digital Clock. It can show the time in different time zones, and adjusts its font size to the area it's given by the panel. Its settings choose what's shown, such as the date, seconds and time zone. If you want to display more information, make the panel larger or put the clock on the desktop, where it can grow freely.
+Near the right end of the default panel, just before Peek at Desktop, is the Digital Clock. It can show the time in different time zones, and adjusts its font size to the area it's given by the panel. Its settings choose what's shown, such as the date, seconds and time zone. If you want to display more information, make the panel larger or put the clock on the desktop, where it can grow freely.
 
 ### Pager
 
-An optional item on your panel is the Pager, which lets you switch between your [virtual desktops](settings/virtual-desktops.md). Its settings include **Show window outlines**, **Show application icons on window outlines**, **Show only current screen**, **Navigation wraps around**, **Layout**, **Text display** and what **Selecting current** does.
+An optional item on your panel is the Pager, which lets you switch between your [virtual desktops](settings/virtual-desktops.md). Its settings include **Show window outlines**, **Show application icons on window outlines**, **Show only current screen**, **Navigation wraps around**, **Text display** and what **Selecting current virtual desktop** does. See [Pager](desktop/pager.md).
 
 ## Panel settings
 
@@ -135,10 +135,11 @@ These settings let you reposition, resize and realign the panel. The widgets on 
 - **Width** or **Height:** **Fill width** or **Fill height**, **Fit content**, or **Custom**.
 - **Visibility:** **Always visible**, **Auto hide**, **Dodge windows** or **Windows go below**.
 - **Opacity:** **Adaptive**, **Opaque** or **Translucent**, where the [Desktop Style](settings/desktop-style.md) supports it.
-- **Floating:** Whether the panel and its widgets float away from the screen edge.
+- **Floating:** **Disabled**, **Applets only** or **Panel and applets**: whether the widgets, or the panel and its widgets, float away from the screen edge.
+- **Panel Height:** or **Panel Width:** The thickness of the panel.
 - **Focus shortcut:** A keyboard shortcut to move focus to the panel. Meta+Alt+P moves focus between panels.
 
-**Add New** adds **Widgets…**, a **Spacer** or a **Margins Separator**. **Manage Desktops and Panels…** gives an overview of all of them.
+**Add New** adds **Widgets…**, a **Spacer** or a **Margins Separator**. **Delete Panel** removes the panel, and **Clone Panel** makes a copy of it with the same settings and widgets. **Manage Desktops and Panels…** gives an overview of all of them. See [Panels](desktop/panels.md) for more.
 
 ## Adding widgets
 
@@ -146,19 +147,26 @@ In Edit Mode, you can add and remove widgets on a panel or the desktop. Open **A
 
 ![Add Widgets](images/desktop/add-widgets.png)
 
-**Get New Widgets** lets you install widgets you've downloaded, or download new ones. Widgets you install this way work just like preinstalled ones. To create your own, see [Desktop widget tutorial](../developer/plasma/widget/index.md).
+**Get New…** lets you install widgets you've downloaded, or download new ones. Widgets you install this way work just like preinstalled ones. To create your own, see [Desktop widget tutorial](../developer/plasma/widget/index.md).
 
 ## The desktop itself
 
 The desktop is another containment, one that doesn't put size limits on its widgets, so they can be moved and sized freely. In Edit Mode, a widget shows a frame when you move the mouse over it, with buttons to resize, configure and remove it.
 
-Right-clicking the desktop also lets you configure the wallpaper, the layout and the mouse actions, and download new wallpapers.
+Right-clicking the desktop also lets you configure the [wallpaper](desktop/wallpapers.md), the layout and the [mouse actions](desktop/mouse-actions.md), and download new wallpapers.
 
 ![Desktop settings](images/desktop/desktop-settings.png)
 
+The desktop settings have two pages:
+
+- **Wallpaper:**
+  - **Layout:** The kind of desktop, for example **Desktop** or **Folder View**. A changed layout has to be applied with **Apply Now** before you can change anything else.
+  - **Wallpaper type:** How the wallpaper is drawn, for example a single image, a slideshow or a plain color. The settings below change with the type. **Get New Plugins…** downloads more wallpaper types. See [Wallpapers](desktop/wallpapers.md).
+- **Mouse Actions:** What mouse buttons and the scroll wheel do on the empty desktop. **Add Action** adds a new one. See [Mouse actions](desktop/mouse-actions.md).
+
 To change the style or download a new one, use [Desktop Style](settings/desktop-style.md) in System Settings.
 
-With applications open, it quickly gets hard to see your widgets. Ctrl+F12 shows the desktop in front of them, and Meta+D is **Peek at Desktop**.
+With applications open, it quickly gets hard to see your widgets. Ctrl+F12 shows the desktop in front of them, and Meta+D is **Peek at Desktop**. The [Peek at Desktop and Minimize All Windows](desktop/desktop-buttons.md) widgets do the same from a panel.
 
 ## Folder View
 
@@ -170,7 +178,31 @@ It also supports basic file management, such as moving, copying, cutting and pas
 
 ![Folder View](images/desktop/folder-view.png)
 
-If you select the Folder View layout in the desktop settings, the whole desktop is one Folder View, like a traditional desktop. Its settings have **Location**, **Icons** and **Filter** pages.
+If you select the Folder View layout in the desktop settings, the whole desktop is one Folder View, like a traditional desktop. Its settings have **Location**, **Icons** and **Filter** pages. Some settings only appear for a Folder View widget, and some only for the Folder View desktop.
+
+**Location:**
+
+- **Show:** **Desktop folder**, **Files linked to the current activity**, a **Places panel item:** chosen from your places, or a **Custom location:** where you type a path or URL.
+- **Title:** (widget only) **None**, **Default**, **Full path** or **Custom**, with a title you type.
+
+**Icons:**
+
+- **Panel button:** (widget in a panel only) **Use a custom icon** for the button that opens the folder. Click the icon to **Choose…** one, or **Clear Icon**.
+- **View mode:** (widget in a panel only) **List** or **Grid**.
+- **Arrangement:** **In Rows** or **In Columns**. **Sort Alignment:** **Left-to-Right** or **Right-to-Left**.
+- **Lock in place:** (desktop only) Stops icons from being moved.
+- **Sort by:** **Manual**, **Name**, **Size**, **Type** or **Date**, with **Descending** and **Folders first**.
+- **Icon size:** A slider from **Small** to **Large**.
+- **Label width:** **Narrow**, **Medium** or **Wide**. **Text lines:** How many lines of the name are shown under each icon.
+- **When hovering over icons:** **Show tooltips**, **Show selection markers** (only when a single click opens files) and **Show folder preview popups** (not in a panel).
+- **Typing on the desktop:** (not in a panel) **Selects items**, or **Activates KRunner** to search for what you type.
+- **Rename:** **Rename inline by clicking selected item's text** (only when a double click opens files).
+- **Previews:** **Show preview thumbnails** shows small previews of file contents. **Configure Preview Plugins…** chooses which kinds of files get them.
+
+**Filter:**
+
+- **Files:** **Show all**, **Show matching** or **Hide matching**. With the last two, **File name pattern:** and **File types:** choose which files match.
+- **Show hidden files:** Shows files whose names start with a dot.
 
 ## KRunner
 
@@ -186,7 +218,7 @@ KRunner supports desktop actions, which are additional actions an application of
 
 Pressing the Down key in an empty KRunner shows a history of recent searches. After you use a search result, its query moves to the top, so repeatedly used commands never fall out of the list. You can remove single entries with their button, or clear the whole history in the settings.
 
-To see what's going on in your system, Meta+Esc opens System Monitor, which lists running processes with options to monitor and kill them.
+To see what's going on in your system, Meta+Esc opens [System Monitor](applications/system-monitor.md), which lists running processes with options to monitor and kill them.
 
 ## Activities
 

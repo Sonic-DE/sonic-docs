@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/plasma-desktop/-/blob/master/doc/kcont
 source_authors: [Mike McBride]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-desktop-interface fad996458a (kcms/keyboard); read from code, not clicked through"
+checked_against: "sonic-desktop-interface fad996458a (kcms/keyboard, applets/keyboardlayout); read from code, not clicked through"
 ---
 
 # Keyboard
@@ -37,12 +37,31 @@ A spare layout replaces the last main layout when it's chosen.
 
 ### Switching
 
+**Change layout shortcut:**, below the layout list, sets the shortcut that moves to the next layout. The default is Meta+Alt+K. It's the same shortcut as **Change layout:** under **Configure Switching…**, so you can set it in either place.
+
 **Configure Switching…** has these settings:
 
 - **Switching layout affects:** **All windows**, **All windows on current desktop**, **All windows of current application** or **Current window only**.
 - **Show OSD popup on layout change.**
 - **Shortcuts:** **Change layout** and **Switch to last used layout**.
 - **Legacy Shortcuts:** **Change layout** and **Alternative symbols**, which are handled by X11. They allow finer control of modifier-only shortcuts and have slightly better support on X11 in edge cases. Modifier keys can be used to type additional characters, symbols and diacritical marks.
+
+## The Keyboard Layout widget
+
+When you have more than one layout, the **Keyboard Layout** widget shows the current one in the [system tray](../desktop/system-tray.md). You can also add it to a panel or the desktop as a widget of its own.
+
+- Click it to switch to the next layout.
+- Right-click it to choose any of your layouts from a list. Each entry shows the layout's flag and full name.
+- Hover over it to see the full name of the current layout.
+
+With only one layout, the widget stays out of the way: the system tray hides it completely, even from its popup, unless you set its entry to **Always show** or check **Always show all** in the tray's settings. As a widget of its own on a panel or the desktop, it stays visible.
+
+To change how it looks, right-click it and open its settings. **Display style:** has two choices:
+
+- The layout's country code as text, for example **US**. This is the default.
+- The country's flag, drawn with the Noto Color Emoji font. Install that font if the flags don't look right.
+
+**Layouts:** **Configure…** opens this module on its layouts page.
 
 ## Key bindings
 

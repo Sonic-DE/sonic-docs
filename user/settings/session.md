@@ -16,7 +16,7 @@ Session management is the desktop's ability to save the state of applications an
 
 ## General
 
-**Ask for confirmation** on shutdown, restart and logout shows the logout confirmation screen when you do any of those. If it's off, your computer logs out, shuts down, and so on immediately after you click the button.
+**Ask for confirmation** on shutdown, restart and logout shows the [logout confirmation screen](../desktop/logout-screen.md) when you do any of those. If it's off, your computer logs out, shuts down, and so on immediately after you click the button.
 
 ## Session Restore
 

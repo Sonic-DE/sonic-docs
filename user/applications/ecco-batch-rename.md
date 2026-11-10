@@ -22,3 +22,5 @@ The `#` symbol anywhere in the name is replaced with a number, starting with 1 f
 - `####` is replaced by 0001, 0002, 0003, 0030, 0150 and so on
 
 The dialog also lets you choose whether the new name replaces the filename or goes before or after it. See [Renaming a batch of files](ecco.md#renaming-a-batch-of-files) for more.
+
+Numbering is the **Enumerate** choice under **How to rename:**. The same window can also **Replace text** in every name (**Replacing:** and **With:**), or **Add text** (**Add Text:**, **Before filename** or **After filename**). **Preview:** shows the new names before anything changes. See [Renaming several items at once](../dialogs/file-operations.md#renaming-several-items-at-once).

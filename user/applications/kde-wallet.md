@@ -9,7 +9,7 @@ checked_against: "sonic-frameworks-keyring d0ad3f16 (README.md, src/kwalletsetti
 
 # KDE Wallet
 
-KDE Wallet keeps passwords and other secrets for your applications in an encrypted file, so you don't have to type them each time. For example, the [Remote Desktop](../settings/remote-desktop.md) module, network folders and the SSH passphrase prompt can all save passwords in it.
+KDE Wallet keeps passwords and other secrets for your applications in an encrypted file, so you don't have to type them each time. For example, network folders and the SSH passphrase prompt can both save passwords in it.
 
 It runs in the background and has no window of its own. You'll see it when an application needs a wallet that isn't open yet.
 
@@ -22,7 +22,17 @@ The first time an application asks for a wallet, a **KDE Wallet Service** window
 
 Click **Cancel** to refuse the application's request. No wallet is created, and the application has to manage without it.
 
+If you chose the classic type, a second **KDE Wallet Service** window asks you to choose a password for the new wallet. Type it in **Password:** and again in **Verify:**. The **Password strength meter:** shows how hard the password would be to guess, and a weak one gets a **Low Password Strength** warning that lets you use it anyway or pick another. See [Password dialogs](../dialogs/password-dialogs.md) for more about these fields.
+
 > **Warning:** Keep your wallet password safe. The contents are encrypted with it, so a forgotten password means losing what's in the wallet.
+
+## Opening a locked wallet
+
+When an application needs a classic wallet that isn't open yet, a **KDE Wallet Service** window says which wallet was requested and asks for its password. If the password is wrong, the window stays open, says the wallet couldn't be opened, and lets you try again. **Cancel** refuses the request, and the application carries on without the wallet.
+
+If the application asking isn't the active window, the password window can end up hidden behind other windows. A notification then says that an application has requested to open the wallet, naming the wallet, with a **Switch there** button that brings the password window to the front. The notification closes by itself once that window is active.
+
+If applications try more than five times in a row to use a wallet that isn't open to them, a message warns that there have been repeated failed attempts to gain access to a wallet and that an application may be misbehaving.
 
 ## Unlocking the wallet when you log in
 

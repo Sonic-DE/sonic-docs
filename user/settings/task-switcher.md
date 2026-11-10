@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/kwin-x11/-/blob/master/doc/kwintabbox-
 source_authors: [Martin Gräßlin]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-win 4cf630dd38 (src/kcms/tabbox); read from code, not clicked through"
+checked_against: "sonic-win a4e76b52c5 (src/kcms/tabbox, src/tabbox), sonic-workspace-addons (kwin/windowswitchers); read from code, not clicked through"
 ---
 
 # Task Switcher
@@ -18,9 +18,24 @@ It's often opened with Alt+Tab, but you can change this. It shows a list of the 
 
 Because there are so many options, you can define two sets of settings, **Main** and **Alternative**, each with its own shortcuts. The options for each are presented in four groups.
 
+If the [Window Behavior](window-behavior.md) module is set to give focus to the window under the mouse, the module shows the message "Focus policy settings limit the functionality of navigating through windows." above the tabs, and its settings are greyed out.
+
 ## Visualization
 
 These options control how the list of windows is displayed. Choose one from the list, and the button next to it shows a preview or its own settings. **Get New Task Switcher Styles…** downloads and installs many more.
+
+SonicDE comes with these styles:
+
+- **Thumbnail Grid**, the default: a small grid of window thumbnails.
+- **Large Icons:** large icons stand for the windows.
+- **Compact:** a compact list.
+- **Cover Switch:** window thumbnails on a 3D carousel.
+- **Flip Switch:** window thumbnails as a 3D deck of cards.
+- **Sidebar:** a vertical sidebar.
+
+All but Thumbnail Grid come with the SonicDE add-ons package. Installed global themes that come with their own style add it to the list too.
+
+The checkbox in front of the list turns the visualization on. If you uncheck it, nothing is shown while you switch: each press of the shortcut moves to the next window, and releasing it activates that window.
 
 **Show selected window** highlights the selected window by fading out all the others. This needs desktop effects.
 

@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/system/wacomtablet/-/blob/master/doc/user/ind
 source_authors: [Jörg Ehrichs]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-drawing-tablet 2f3caac1 (src/kcmodule, src/kded, src/applet, src/tabletfinder, README.md); read from code, not clicked through"
+checked_against: "sonic-drawing-tablet c885556 (src/kcmodule, src/kded, src/applet, src/tabletfinder, README.md); read from code, not clicked through"
 ---
 
 # Drawing Tablet
@@ -28,7 +28,7 @@ You can change a profile on the fly, and it directly changes how your tablet beh
 > [!NOTE]
 > The [tablet daemon](#tablet-daemon) must be running in the background to change the profiles and apply them to the tablet. It does all the work, and the module only changes the profile settings for it.
 
-If your tablet isn't recognized, **Manually register a tablet device** opens a tool that asks you to describe your device.
+If your tablet isn't recognized, **Manually register a tablet device** opens a tool that asks you to describe your device. See [Registering a drawing tablet](../applications/tablet-finder.md).
 
 ## General
 
@@ -116,6 +116,8 @@ This dialog sets the available tablet area for each selected screen space. To ke
 **Toggle Screen** switches between full screen, meaning all connected monitors, and each individual monitor. The settings are saved for each screen configuration, and applied to the tablet whenever the global shortcut switches the screen.
 
 You can map the screen to the **Full Tablet** or just a defined **Tablet Area**, in the tablet pane on the right. **Lock proportions** locks or unlocks the area's proportions.
+
+To set the area exactly, type the numbers under **Tablet area fine tuning**: the **Width** and **Height** of the area, and its **Left margin** and **Top margin** from the tablet's edges.
 
 To keep the tablet's aspect ratio with the current screen selection, press **Set Screen Proportions**, and the tablet area is calculated and changed automatically.
 

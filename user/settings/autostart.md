@@ -25,12 +25,14 @@ Some applications handle autostart on their own. You might turn it on or off in 
 
 ## Managing items
 
-Each entry shows the icon and name of the program or script. Hover over it to reveal these buttons:
+Each entry shows the icon and name of the program or script, with these buttons beside it:
 
-- **See properties:** Changes the properties of a program or login script. The default command comes from the `Exec` key of its `.desktop` file. A logout script's command is its path and can't be changed.
+- **See properties:** Shown for programs and login scripts. Changes their properties. The default command comes from the `Exec` key of its `.desktop` file.
 - **Remove entry:** Immediately removes the `.desktop` file for the program, or the script or symbolic link.
 
 If a script isn't executable, the module says so and offers **Make Executable**.
+
+When the list is empty, it shows **No user-specified autostart items**; use **Add New** to add some.
 
 ## Adding items
 
@@ -42,7 +44,9 @@ If a script isn't executable, the module says so and offers **Make Executable**.
 
 ## Status and logs
 
-On systems using systemd, selecting an application shows details of its systemd unit: its **Name**, its **Status**, when it was **Last activated** and its logs from the journal, with **Start** and **Stop** buttons. If it hasn't been started yet, details become available after a restart.
+On systems using systemd, each application and login script shows the state of its systemd unit at the right of its row. A failed unit is shown in red. **Not autostarted yet** means the unit doesn't exist yet; it appears after the next restart.
+
+Selecting an application or login script shows details of its systemd unit: its **Name:**, its **Status:**, when it was **Last activated on:** and its logs from the journal, with **Start** and **Stop** buttons. If the logs can't be loaded, the page says **Unable to load logs. Try refreshing.** and offers **Refresh** to try again.
 
 ## Turning off items from your distribution
 

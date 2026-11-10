@@ -46,7 +46,7 @@ In the Task Manager's settings, clear **Show an indicator when a task is playing
 
 ### Turn off middle-click paste on the desktop
 
-Right-click the desktop and choose **Desktop and Wallpaper**. On the **Mouse Actions** page, remove the Middle-Button action.
+Right-click the desktop and choose **Desktop and Wallpaper**. On the **Mouse Actions** page, remove the Middle-Button action. See [Mouse actions](mouse-actions.md) for the other things that page can do.
 
 ### Turn off a screen corner
 
@@ -58,7 +58,7 @@ In the [Shortcuts](../settings/shortcuts.md) module, under SonicWin, set **Switc
 
 ### Don't switch desktops when scrolling over the wallpaper
 
-Right-click the desktop and choose **Desktop and Wallpaper**. On the **Mouse Actions** page, remove the vertical scroll action that switches desktops.
+SonicDE doesn't switch desktops when you scroll over the desktop, unless a mouse action for it has been added. To remove it, right-click the desktop and choose **Desktop and Wallpaper**. On the **Mouse Actions** page, remove the Vertical-Scroll line that uses **Switch Desktop**.
 
 ### Turn off the bouncing cursor when applications open
 
@@ -134,7 +134,7 @@ This is the default. If it isn't working, make sure your launcher widget has a g
 
 ### Don't open the launcher with the Meta key
 
-In the [Shortcuts](../settings/shortcuts.md) module, under SonicShell, find **Activate Application Launcher** and turn off Meta.
+In the [Shortcuts](../settings/shortcuts.md) module, under Sonic Shell, find **Activate Application Launcher** and turn off Meta.
 
 ## Lock screen
 

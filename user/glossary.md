@@ -112,9 +112,11 @@ More information: [The Qt toolkit on Wikipedia](https://en.wikipedia.org/wiki/Qt
 
 Provides a single interface for hardware management. Its backends are pluggable, which helps developers write less code and keep it independent of the platform.
 
-## SonicShell
+## Sonic Shell
 
 The part of the desktop that you can see. It's the glue between the desktop, panels and widgets.
+
+Sonic Shell replaces the older Plasma shell. The first time it starts, it takes over your panels, desktop widgets, their settings and the shell's keyboard shortcuts from the older shell, if you used it before. Nothing needs to be done by hand, the old settings are left as they were, and settings Sonic Shell already has are never overwritten.
 
 More information: [Desktop overview](desktop/overview.md)
 

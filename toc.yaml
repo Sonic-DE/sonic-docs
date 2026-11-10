@@ -9,19 +9,39 @@ sections:
       user/desktop: The SonicDE desktop
       user/desktop/overview: Desktop overview
       user/desktop/panels: Panels
+      user/desktop/wallpapers: Wallpapers
+      user/desktop/mouse-actions: Mouse actions
       user/desktop/widgets: Widgets
+      user/desktop/addon-widgets: More widgets
       user/desktop/installing-widgets: Installing widgets
       user/desktop/launchers: Application launchers
       user/desktop/kickoff: Application Launcher
       user/desktop/application-menu: Application Menu
       user/desktop/application-dashboard: Application Dashboard
       user/desktop/krunner: KRunner
+      user/desktop/search-widget: Search widget
       user/desktop/tasks: Task Manager
       user/desktop/pager: Pager
+      user/desktop/desktop-buttons: Peek at Desktop and Minimize All Windows
       user/desktop/system-tray: System Tray
+      user/desktop/notifications: Notifications
+      user/desktop/media-player: Media Player
+      user/desktop/camera-indicator: Camera Indicator
       user/desktop/device-notifier: Disks & Devices
+      user/desktop/free-space-notifier: Free Space Notifier
+      user/desktop/power-and-battery: Power & Battery
+      user/desktop/brightness-and-color: Brightness & Color
       user/desktop/clocks: Clocks
+      user/desktop/global-menu: Global Menu
+      user/desktop/lock-logout: Lock/Logout
+      user/desktop/activity-bar: Activity Bar
+      user/desktop/icon-widget: Icon widget
+      user/desktop/system-monitor-widget: System Monitor Sensor widget
+      user/desktop/trashcan: Trashcan
+      user/desktop/input-method-panel: Input Method Panel
       user/desktop/color-picker: Color Picker
+      user/desktop/more-wallpapers: More wallpaper types
+      user/desktop/logout-screen: Logout screen
       user/desktop/tips: Desktop tips
       user/desktop/global-theme-package: Creating a global theme package
       user/accessibility/index: Accessibility
@@ -36,7 +56,9 @@ sections:
       user/administration/environment-variables: Environment variables
       user/administration/session-environment-variables: Session environment variables
       user/administration/startup: Desktop startup sequence
+      user/administration/login-manager: Login manager administration
       user/administration/caches: Caches
+      user/administration/logs: Logs
       user/tutorials/compose-key: Using the Compose key
       user/tutorials/keyboard: Keyboard actions
       user/tutorials/hotkeys: Custom shortcuts
@@ -48,7 +70,9 @@ sections:
       user/tutorials/test-loose-binding: Testing loose binding on your video card
       user/glossary: Glossary
       user/mobile: Mobile interface
+      user/mobile-settings: Mobile settings
       user/tv: TV interface
+      user/tv-settings: TV settings
       user/applications/ecco: Ecco file manager
       user/applications/ecco-tips: Ecco overview and troubleshooting
       user/applications/ecco-guide: Getting around Ecco
@@ -62,12 +86,15 @@ sections:
       user/applications/clipboard: Clipboard
       user/applications/clipboard-overview: Clipboard overview
       user/applications/clipboard-pastebin: Sending clips to a pastebin
+      user/applications/emoji-selector: Emoji Selector
       user/applications/partition-manager: Partition Manager
       user/applications/partition-manager-overview: Partition Manager overview
+      user/applications/smart-status: SMART Status
       user/applications/system-log: System Log
       user/applications/system-log-overview: System Log overview
       user/applications/info-center: Info Center
       user/applications/info-center-overview: Info Center overview
+      user/applications/system-monitor: System Monitor
       user/applications/bluetooth-overview: Bluetooth overview
       user/applications/file-indexing: File indexing and tags
       user/applications/browser-integration: Browser integration
@@ -75,20 +102,42 @@ sections:
       user/applications/sonicwin: SonicWin window manager
       user/applications/menu-editor: SonicDE Menu Editor
       user/applications/font-viewer: Font Viewer
+      user/applications/theme-explorer: Plasma Theme Explorer
       user/applications/network-folder-wizard: Network Folder Wizard
       user/applications/run-as-another-user: Running programs as another user
       user/applications/authentication-agent: Authentication agent
+      user/applications/portal-dialogs: Permission and portal dialogs
       user/applications/kde-wallet: KDE Wallet
       user/applications/vaults: Vaults
       user/applications/welcome-center: Welcome Center
       user/applications/crash-handler: Crash Handler
+      user/applications/print-queue: Print Queue
+      user/applications/uvc-viewer: UVC Viewer
       user/applications/network-files: Opening network files in any application
+  Common dialogs:
+    pages:
+      user/dialogs/index: Common dialogs
+      user/dialogs/file-dialog: Open and Save dialogs
+      user/dialogs/properties: Properties dialog
+      user/dialogs/file-operations: File operation dialogs
+      user/dialogs/application-menus: Common application menus
+      user/dialogs/shortcuts-and-toolbars: Shortcuts and toolbars in applications
+      user/dialogs/password-dialogs: Password dialogs
+      user/dialogs/check-spelling: Check Spelling
+      user/dialogs/get-new-stuff: Getting new add-ons
+      user/dialogs/font-chooser: Choosing a font
+      user/desktop/not-responding: When an application stops responding
   System Settings:
     pages:
       user/settings/index: System Settings
+      user/settings/quick-settings: Quick Settings
       user/settings/accessibility: Accessibility
       user/settings/activities: Activities
+      user/settings/animations: Animations
       user/settings/application-style: Application Style
+      user/settings/silver-settings: Silver Settings
+      user/settings/breeze-settings: Breeze settings
+      user/settings/oxygen-settings: Oxygen settings
       user/settings/autostart: Autostart
       user/settings/background-services: Background Services
       user/settings/bluetooth: Bluetooth
@@ -99,7 +148,6 @@ sections:
       user/settings/display-configuration: Display Configuration
       user/settings/firewall: Firewall
       user/settings/night-light: Night Light
-      user/settings/remote-desktop: Remote Desktop
       user/settings/login-screen: Login Screen
       user/settings/online-accounts: Online Accounts
       user/settings/printers: Printers
@@ -109,10 +157,12 @@ sections:
       user/settings/default-applications: Default Applications
       user/settings/session: Desktop Session
       user/settings/desktop-effects: Desktop Effects
+      user/settings/effect-settings: Effect settings
       user/settings/desktop-style: Desktop Style
       user/settings/device-actions: Device Actions
       user/settings/device-automount: Device Auto-Mount
       user/settings/drawing-tablet: Drawing Tablet
+      user/applications/tablet-finder: Registering a drawing tablet
       user/settings/file-associations: File Associations
       user/settings/file-search: File Search
       user/settings/font-management: Font Management
@@ -123,10 +173,12 @@ sections:
       user/settings/global-theme: Global Theme
       user/settings/icons: Icons
       user/settings/keyboard: Keyboard
+      user/settings/kwin-scripts: KWin Scripts
       user/settings/locations: Locations
       user/settings/mouse: Mouse
       user/settings/notifications: Notifications
       user/settings/on-screen-keyboard: On-Screen Keyboard
+      user/settings/plasma-renderer: Plasma Renderer
       user/settings/pointers: Pointers
       user/settings/power-management: Power Management
       user/settings/proxy: Proxy
@@ -138,11 +190,16 @@ sections:
       user/settings/sound: Sound
       user/settings/spell-check: Spell Check
       user/settings/splash-screen: Splash Screen
+      user/settings/system-sounds: System Sounds
       user/settings/task-switcher: Task Switcher
+      user/settings/thunderbolt: Thunderbolt
       user/settings/touchscreen-gestures: Touchscreen Gestures
       user/settings/trash: Trash
       user/settings/virtual-desktops: Virtual Desktops
+      user/settings/vpn: VPN connections
+      user/settings/wallpaper: Wallpaper
       user/settings/web-shortcuts: Web Search Keywords
+      user/settings/wifi-networking: Wi-Fi & Networking
       user/settings/window-behavior: Window Behavior
       user/settings/window-decorations: Window Decorations
       user/settings/window-rules: Window Rules
@@ -171,6 +228,8 @@ sections:
       developer: Developer Documentation
       developer/building: Building Sonic-DE
       developer/dependencies: Dependencies
+      developer/api-reference: Generating the API reference
+      developer/login-manager-packaging: Packaging the login manager
       developer/troubleshooting: Troubleshooting
       developer/common-programming-mistakes: Common programming mistakes
       developer/ssh-password-prompt: SSH password prompt
@@ -285,6 +344,9 @@ sections:
       developer/libraries/knotification: KNotification
       developer/libraries/solid: Solid
       developer/libraries/sonnet: Sonnet
+      developer/libraries/sonic-logging: Sonic Logging
+      developer/libraries/sonic-ipc: Sonic IPC
+      developer/libraries/sonic-init-info: Sonic Init Info
   KAuth:
     pages:
       developer/kauth/introduction: KAuth
@@ -293,6 +355,9 @@ sections:
     pages:
       developer/ecco/index: Ecco
       developer/ecco/service-menus: Creating service menus
+  Terminal:
+    pages:
+      developer/terminal-embedding: Embedding the terminal
   System Monitor:
     pages:
       developer/sensor-faces: Creating sensor faces

@@ -10,7 +10,7 @@ checked_against: "sonic-ecco e905af7d5 (dolphinui.rc, dolphinmainwindow.cpp, dol
 
 # Ecco file manager
 
-Ecco is SonicDE's default file manager. It concentrates on one task, managing files, and its interface is designed around it.
+Ecco is SonicDE's default file manager. It concentrates on one task, managing files, and its interface is designed around it. The application launcher lists it as **Dolphin** (File Manager), and its window and settings use the name Dolphin too; its command is `dolphin`.
 
 Please report problems and feature requests in the [Ecco issue tracker](https://github.com/Sonic-DE/sonic-ecco/issues).
 
@@ -20,7 +20,7 @@ Please report problems and feature requests in the [Ecco issue tracker](https://
 
 The elements of the default user interface are:
 
-- **The toolbar**, for quick access to frequently used actions. To customize it, click it with the right mouse button and choose **Configure Toolbars…**, or use **Configure Toolbars…** from the menu button at the right of the toolbar.
+- **The toolbar**, for quick access to frequently used actions. To customize it, click it with the right mouse button and choose **Configure Toolbars…**, or use **Configure Toolbars…** from the menu button at the right of the toolbar. See [Shortcuts and toolbars in applications](../dialogs/shortcuts-and-toolbars.md).
 
   ![The default toolbar](images/ecco/toolbar.png)
 
@@ -211,15 +211,17 @@ Click a device in the Places panel to mount it and open it in Ecco.
 
 ### Undo actions
 
-Ecco can undo changes you've made to files. For example, if you moved a file to the trash, Ecco can move it back to its original location. Press Ctrl+Z or select **Edit > Undo: (action name)**.
+Ecco can undo changes you've made to files. For example, if you moved a file to the trash, Ecco can move it back to its original location. Press Ctrl+Z or select **Edit > Undo: (action name)**. After undoing, **Redo** (Ctrl+Shift+Z) does the action again; it's in the Edit menu and in the menu button.
 
 ### Renaming a batch of files
 
 Ecco can rename several files at the same time. Each file gets the name you specify, including a number, for example Image1.jpg, Image2.jpg, Image3.jpg. This can be useful for pictures taken with a digital camera.
 
-Select the files, then press F2 or use **File > Rename…**. Enter the name you want. The `#` character must be present within the name, and it is replaced by a different consecutive number for each file.
+Select the files, then press F2 or use **File > Rename…**. The **Rename Items** window opens. **How to rename:** offers **Enumerate**, **Replace text** and **Add text**, and remembers the one you used last. With **Enumerate**, enter the name you want: each `#` in it is replaced by a different consecutive number for each file. When the name replaces the whole filename (**Replace filename**), it must contain a `#`.
 
 If all file extensions in your selection are different, the name of all files can be changed without using a `#` placeholder while preserving the file extensions. This is useful, for example, to rename a video file and all associated subtitle files, which have the same file name but different extensions.
+
+See [Renaming several items at once](../dialogs/file-operations.md#renaming-several-items-at-once) for all the options.
 
 ### Comparing a selection of files or folders
 
@@ -234,7 +236,7 @@ Ecco distinguishes two kinds of settings:
 
 ### The settings dialog
 
-Open it with **Settings > Configure Ecco…**, or the same item in the menu button. The settings are divided into groups which are listed on the left of the dialog.
+Open it with **Settings > Configure Dolphin…**, or the same item in the menu button. The settings are divided into groups which are listed on the left of the dialog.
 
 #### Interface
 
@@ -249,7 +251,7 @@ This group has five tabs.
   - Rebooting with Ecco open restores the session when the system comes back.
   - Launching Ecco with locations shows those locations instead.
   - If Ecco is already running and a new window is opened, the new window shows a single tab with the location that was visible in the existing window.
-- **Keep a single Ecco window, opening new folders in tabs** controls whether a folder opened from another application opens in a new tab of the running window or in a new window.
+- **Keep a single Dolphin window, opening new folders in tabs** controls whether a folder opened from another application opens in a new tab of the running window or in a new window.
 - **Show full path in title bar** makes it easy to distinguish folders with the same name.
 - **Show filter bar** controls whether the [filter bar](#filtering-files) is shown at startup.
 - **Always show tab bar** and **Show close button on tabs** control the tab bar.
@@ -320,7 +322,7 @@ The option to open items with a single or double click is a system-wide setting 
 
 #### Context Menu {#context-menu}
 
-This group chooses what is shown in the context menu that appears when clicking a file or folder with the right mouse button. Use **Download Services…** to fetch additional services.
+This group chooses what is shown in the context menu that appears when clicking a file or folder with the right mouse button. Type in the **Search…** field to filter the list. Use **Download Services…** to fetch additional services, and **Shortcuts…** to open the keyboard shortcut editor, where you can give context menu services a shortcut.
 
 ![The context menu settings](images/ecco/preferences-context-menu.png)
 
@@ -402,6 +404,8 @@ By default the menu bar is not shown. All actions described here are available f
 ### The Edit menu
 
 **Undo**: Undoes the last action performed by Ecco.
+
+**Redo**: Does an undone action again.
 
 **Cut**: Cuts the selected items.
 
@@ -487,4 +491,4 @@ By default the menu bar is not shown. All actions described here are available f
 
 ### The Settings and Help menus
 
-Ecco has the usual Settings and Help menu items, for configuring shortcuts and toolbars, opening its settings, reporting bugs and showing information about the application.
+Ecco has the usual Settings and Help menu items, for configuring shortcuts and toolbars, opening its settings, reporting bugs and showing information about the application. **Window Color Scheme**, in the Settings menu and in the menu button's Configure submenu, picks a color scheme for Ecco's windows only.

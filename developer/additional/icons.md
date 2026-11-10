@@ -20,6 +20,10 @@ SonicDE and the other major Linux desktops follow the freedesktop.org [Icon Them
 
 SonicDE's Icon Explorer (`iconexplorer`, in `sonic-theme-sdk`) searches the icons of your icon theme. You can search for icons by name and by category, see an icon with different color schemes, and compare it with other icon themes.
 
+- **Color scheme:**, in the toolbar, previews the icons with another color scheme, so you can check that they follow it.
+- For the selected icon: **Open with External Program**, **Open Containing Folder**, **Copy Name to Clipboard** and **View in Other Icon Themes**.
+- **Take Screenshot…** saves an image of the selected icon at every size, in **Breeze Colors**, **Breeze Dark Colors**, **Breeze (Normal) and Breeze Dark**, or the **Active Color Scheme**. **File > Export Montage with Color Scheme…** in the global menu does the same.
+
 ## Example
 
 In a QtWidgets application:

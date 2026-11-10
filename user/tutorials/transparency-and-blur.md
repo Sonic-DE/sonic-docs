@@ -5,7 +5,7 @@ source_url: https://userbase.kde.org/Tutorials/Force_Transparency_And_Blur
 source_authors: [KDE UserBase contributors]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "sonic-win (src/kcms/rules, src/plugins/blur/blur.cpp); read from code, not clicked through"
+checked_against: "sonic-win (src/kcms/rules, src/kcms/scripts, src/plugins/blur/blur.cpp, blur_config.ui); read from code, not clicked through"
 ---
 
 # Forcing transparency and blur
@@ -42,6 +42,8 @@ if [[ $(ps --no-header -p $PPID -o comm) =~ '^yakuake|sonic-ecco$' ]]; then
 fi
 ```
 
-SonicWin scripts from the [KDE Store](https://store.kde.org/p/1294604/) can do the same thing. Manage them in the SonicWin Scripts module.
+SonicWin scripts from the [KDE Store](https://store.kde.org/p/1294604/) can do the same thing. Manage them in the [KWin Scripts](../settings/kwin-scripts.md) module.
 
 Menus are the exception: **Blur menus** in the blur effect's settings decides for every see-through menu, whether the menu asks for blur itself (as Silver's do) or is made see-through by the Translucency effect. Turned off, no menu is blurred.
+
+The blur effect's settings set how the blur looks, separately for windows (**Blur windows**) and for menus (**Blur menus**): **Blur strength:**, **Noise strength:** and **Saturation strength:**. See [Effect settings](../settings/effect-settings.md#blur) for what they do.

@@ -10,7 +10,7 @@ checked_against: "sonic-network-manager (applet/, kcms/, kded/), the stage's org
 
 # Network troubleshooting
 
-On most Linux distributions, the NetworkManager service provides control of network connections that you can configure yourself. In SonicDE, the Networks widget in the system tray and the Wi-Fi & Networking module in System Settings are the main user interfaces to NetworkManager.
+On most Linux distributions, the NetworkManager service provides control of network connections that you can configure yourself. In SonicDE, the Networks widget in the system tray and the Wi-Fi & Networking module in System Settings are the main user interfaces to NetworkManager. [Wi-Fi & Networking](../settings/wifi-networking.md) describes how to use them, and [VPN connections](../settings/vpn.md) covers VPNs.
 
 ## The stack
 

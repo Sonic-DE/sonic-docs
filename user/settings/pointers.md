@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/plasma-workspace/-/blob/master/doc/kco
 source_authors: [Mike McBride, Brad Hards, Lauri Watts, Natalie Clarius]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-workspace e4f0096493 (kcms/cursortheme); read from code, not clicked through"
+checked_against: "sonic-workspace (kcms/cursortheme, startkde), sonic-silver (cursors); read from code, not clicked through"
 ---
 
 # Pointers
@@ -18,9 +18,11 @@ This module lets you select a pointer theme and configure an animation for launc
 
 To use a pointer theme, select it and click **Apply**.
 
-Hover over a theme in the list to reveal its remove button. You can't remove system-installed themes or the active one.
+SonicDE comes with two Silver pointer themes: **Silver Light**, used by the light [Silver global themes](global-theme.md#the-silver-themes) and when no pointer theme has been chosen, and **Silver**, the dark one used by the dark Silver global themes.
 
-**Get New…** downloads more themes from the Internet, and **Install from File…** installs theme files you've downloaded or otherwise obtained.
+Hover over a theme in the list to reveal its remove button. You can't remove system-installed themes or the active one. A removed theme is only marked for removal until you click **Apply**; until then, **Don’t delete this pointer theme** brings it back.
+
+**Get New…** downloads more themes from the Internet (see [Getting new add-ons](../dialogs/get-new-stuff.md)), and **Install from File…** installs theme files you've downloaded or otherwise obtained.
 
 ![Getting new pointer themes](images/pointers/get-new-stuff.png)
 

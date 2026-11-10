@@ -23,6 +23,8 @@ This section gives system administrators who are rolling out or managing SonicDE
 - [Environment variables](environment-variables.md): The environment variables that influence SonicDE and how its applications behave.
 - [Session environment variables](session-environment-variables.md): How to set environment variables for your whole session.
 - [Desktop startup sequence](startup.md): The desktop's visible components and background services, how they start, and how to change them.
+- [Login manager administration](login-manager.md): Make Sonic Login Manager your login manager, configure it for everyone and find its logs.
+- [Logs](logs.md): Where SonicDE programs write their logs, and where to find the desktop's, the login manager's and the screen locker's.
 - [Desktop scripting](../../developer/plasma/scripting/index.md): Manage the desktop shell's desktops, panels and widgets with scripts written in JavaScript.
 
 ## User and group profiles

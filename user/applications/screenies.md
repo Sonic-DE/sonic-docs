@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/spectacle/-/blob/master/doc/index.docb
 source_authors: [Boudhayan Gupta, Richard J. Moore, Matthias Ettrich]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-screenies fa4059b5 (Gui/*.qml, Gui/SettingsDialog, Gui/SelectionEditor.cpp, ExportManager.cpp, ShortcutActions.cpp, SpectacleCore.cpp, CommandLineOptions.h, Platforms/VideoPlatformX11.cpp); read from code, not clicked through"
+checked_against: "sonic-screenies 48423e1d (Gui/*.qml, Gui/ExportMenu.cpp, Gui/SettingsDialog, Gui/SelectionEditor.cpp, ExportManager.cpp, ShortcutActions.cpp, SpectacleCore.cpp, CommandLineOptions.h, Platforms/VideoPlatformX11.cpp); read from code, not clicked through"
 ---
 
 # Screenies
@@ -89,9 +89,11 @@ With **Freehand**, holding Shift snaps to straight lines. With **Line**, it snap
 
 Undo and Redo work with their usual shortcuts.
 
+**Zoom:**, on the options toolbar at the bottom while you annotate, changes how large the screenshot is shown, in steps of 25%. It doesn't change the saved image.
+
 ### Extracting text
 
-**Export > Extract Text** recognizes text in the image with Tesseract OCR, in the languages set in the [General](#general) settings. Language data needs to be installed for each language you want to use.
+**Export > Extract Text** recognizes text in the image with Tesseract OCR, in the languages set in the [General](#general) settings. To use just one language this time, pick it in **Export > Extract Text by Language** instead. Language data needs to be installed for each language you want to use.
 
 ### Drag and drop
 
@@ -113,20 +115,20 @@ Recording needs an encoder for one of the supported formats, WebM with VP9 or MP
 
 ## Settings
 
-Open them with **Configure Screenies…** (Ctrl+Shift+,).
+Open them with **Configure Sonic Screenies…** (Ctrl+Shift+,).
 
 ### General
 
 ![The General settings](images/screenies/ApplicationPreferences.png)
 
-- **When launching Screenies:** Choose between taking a rectangular screenshot (the default), taking a full screen screenshot, using the last-used capture mode, or not taking a screenshot automatically.
+- **When launching Sonic Screenies:** Choose between taking a rectangular screenshot (the default), taking a full screen screenshot, using the last-used capture mode, or not taking a screenshot automatically.
 - **After taking a screenshot:** **Save file to default folder** saves automatically. Then choose between **Do not copy anything**, **Copy image to clipboard** and **Copy file location to clipboard**. You must be running a clipboard manager to keep the path or image in the clipboard after Screenies quits.
-- **Press screenshot key to:** When a screenshot shortcut is pressed while Screenies is running, choose between taking a new screenshot, opening a new Screenies window, and returning focus to the existing window.
+- **Press screenshot key to:** When a screenshot shortcut is pressed while Screenies is running, choose between **Take a new Screenshot**, **Open a new Sonic Screenies window** and **Return focus to Sonic Screenies**.
 - **Use light background:** Uses a light background color to mask the cropped-out area in the region selector. This may make dark cursors easier to see.
 - **Show magnifier:** Shows a magnifier in the region selector: never, always, or while holding Shift (the default).
 - **Accept on click-and-release:** Accepts the selected region as soon as the mouse button is released. When selecting a new region without a saved one available, clicking, dragging and releasing captures the region immediately. When a saved region is shown, it can be manipulated further, and accepting it requires Enter or a double click. Clicking and dragging outside of it captures the new region immediately.
 - **Remember selected area:** Screenies remembers a selection until you close it, by default. You can also choose never or always.
-- **Languages for OCR:** Chooses the languages for text extraction. **Close after extraction** closes Screenies after extracting text.
+- **Languages for OCR:** Chooses the languages for text extraction. **Close after extraction (skips auto-save)** closes Screenies after extracting text, without saving the screenshot automatically.
 
 ### Image Saving
 

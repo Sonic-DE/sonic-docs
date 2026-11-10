@@ -16,6 +16,7 @@ SonicDE comes with several launchers:
 - **[Application Dashboard](application-dashboard.md):** A fullscreen launcher with applications sorted into categories.
 - **[Application Menu](application-menu.md):** A classic hierarchical menu that's easily customized to give quick access to useful applications and services.
 - **[KRunner](krunner.md):** Replaces the "run command" dialog. It blurs the lines between task manager, desktop search, application launcher and command executor, and gives you a quick way to run applications or open documents, among other things.
+- **[Search](search-widget.md):** A search field on a panel or the desktop that finds the same things as KRunner, so you can search and launch without opening KRunner.
 
 Others, such as Excalibur and Tiled Menu, are available from the [KDE Store](https://store.kde.org/browse/cat/398/order/latest/).
 

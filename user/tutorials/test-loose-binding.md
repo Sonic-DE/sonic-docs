@@ -11,7 +11,7 @@ checked_against: "sonic-win 4cf630dd38 (src/options.cpp, src/compositor_x11.cpp,
 
 We'd like results from as many video cards as possible, including reports where nothing went wrong.
 
-When a window changes, [SonicWin](../applications/sonicwin.md) normally binds its image to the graphics card again, which is called *strict binding*. *Loose binding* skips that step. On one AMD Radeon card it lowered the total processor use of an animation by 6-7%, but it could show old window contents on other hardware. Intel's driver had loose binding turned off in 2014 for causing problems. That's why it's only on by default for AMD cards with `gfx1200` or `gfx1201` in the renderer string, and other cards need testing first.
+When a window changes, [SonicWin](../applications/sonicwin.md) normally binds its image to the graphics card again, which is called *strict binding*. *Loose binding* skips that step. On one AMD Radeon card it lowered the total processor use of an animation by 6-7%, but it could show old window contents on other hardware. Intel's driver had loose binding turned off in 2014 for causing problems. That's why, apart from setups that have long used it, such as NVIDIA's own driver, it's only on by default for AMD cards with `gfx1200` or `gfx1201` in the renderer string, and other cards need testing first.
 
 This only changes one setting, and you can undo it at any time. You'll need to log out and back in a few times, and to [open a console](open-a-console.md) to run the commands.
 
@@ -31,6 +31,16 @@ glStrictBinding: true
 ```
 
 If it says `glStrictBinding: false`, your setup already uses loose binding, so there's nothing to test.
+
+## If your card uses loose binding by default
+
+On AMD Radeon RX 9060 and RX 9070 cards, and others with `gfx1200` or `gfx1201` in the renderer string, loose binding is already on. If you see windows that don't update until you click or move them, or other old contents, turn strict binding back on:
+
+```bash
+kwriteconfig6 --file kwinrc --group Compositing --key GLStrictBinding --type bool true
+```
+
+Log out and back in, and check that the command from step 1 now says `glStrictBinding: true`. Once `GLStrictBinding` is set, SonicWin uses your choice instead of deciding by the video card. Please also [report the problem](#6-report-your-results), so we can find out which cards loose binding doesn't suit. To let SonicWin decide again, delete the setting as in [step 5](#5-go-back-to-the-normal-setting).
 
 ## 2. Measure processor use with the normal setting
 

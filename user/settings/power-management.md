@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/powerdevil/-/blob/master/doc/kcm/index
 source_authors: [Dario Freddi, Jakob Petsovits]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-power-management f8d903869 (kcm, runners, PowerDevilProfileSettings.kcfg); read from code, not clicked through"
+checked_against: "sonic-power-management f835ef7d3 (kcm, runners, daemon/controllers/softwarebrightness.cpp, PowerDevilProfileSettings.kcfg), sonic-win a4e76b52c5 (src/colors/colormanager.cpp, colordevice.cpp); read from code, not clicked through"
 ---
 
 # Power Management
@@ -28,6 +28,8 @@ There are common situations where you expect the system to sleep, shut down or p
 - **Show logout screen:** Show a dialog with options to sleep, hibernate, shut down or log out. This is only available for the physical power button.
 - **Turn off screen:** Fade to black and turn off the display backlight.
 
+Under the laptop lid setting, **Even when an external monitor is connected** runs the lid action even while another monitor is plugged in. When it's unticked, closing the lid does nothing as long as an external monitor is connected, so you can keep working on that monitor.
+
 **When sleeping, enter** selects the exact mode:
 
 - **Standby:** Saves the session to memory. It enters sleep and wakes up quickly. Battery-powered systems often last between a day and 1 to 2 weeks in this state. It's also known as “suspend to RAM”.
@@ -42,9 +44,15 @@ Displays and keyboard backlights account for much of the power use of an otherwi
 - **Dim automatically:** Reduces screen brightness after a period of inactivity. It returns to its previous level when you're active again.
 - **Turn off screen:** Fades to black and turns off the backlight after a period of inactivity, and turns on again when you're active. You can set a shorter time for when the screen is locked.
 
+### Displays without a backlight
+
+Many external monitors don't let the computer change their brightness. On those displays, SonicDE dims the picture itself instead, so the brightness settings above, the brightness keys and the [Brightness & Color](../desktop/brightness-and-color.md) widget still work. Where a display does have hardware brightness control, that's used instead.
+
+Software dimming works together with [Night Light](night-light.md): the two are combined rather than one replacing the other. Each display's level is remembered separately and comes back the next time you log in. The brightness slider never takes the picture completely black this way, so you can always see enough to turn it up again.
+
 ## Other Settings
 
-- **Switch to power profile:** Sets the system's performance for each power state. A profile such as **Power Save**, **Balanced** or **Performance** trades performance against power use, which also affects heat and fan noise. You can also change it at any time with the desktop's power widget and keyboard shortcuts, which doesn't affect this setting.
+- **Switch to power profile:** Sets the system's performance for each power state. A profile such as **Power Save**, **Balanced** or **Performance** trades performance against power use, which also affects heat and fan noise. **Leave unchanged** keeps whichever profile is active. You can also change it at any time with the [Power & Battery](../desktop/power-and-battery.md) widget and keyboard shortcuts, which doesn't affect this setting.
 - **Run command or script:** A command or script to run when switching power states, or after a period of inactivity.
 
 ## Advanced Power Settings
@@ -77,12 +85,15 @@ Some systems need the power cable unplugged and reconnected before these setting
 
 ### Other advanced settings
 
-**Media playback** can **Pause media players when suspending**. **Related pages** link to the relevant parts of other modules, such as [Notifications](notifications.md), [Shortcuts](shortcuts.md), [Desktop Session](session.md) and [Activities](activities.md).
+**Media playback** can **Pause media players when suspending**. **Related pages** link to the relevant parts of other modules: [Notifications](notifications.md), [Shortcuts](shortcuts.md), [Screen Locking](screen-locking.md), [Desktop Session](session.md) and [Activities](activities.md).
 
 ## Using power management from KRunner
 
 You can control power management through KRunner, which you open with Alt+F2, using these keywords:
 
-- `power profile`: Choose a power profile from the matches shown.
-- `screen brightness` or `dim screen`: Control screen brightness. Enter a value after the keyword, such as `screen brightness 50`, to set it.
-- `suspend`, `sleep`, `hibernate`, `to ram` or `to disk`: Put your computer into a low-power mode, from the methods shown.
+- `screen brightness` or `dim screen` followed by a number, such as `screen brightness 50`: Sets the screen brightness to that percentage. `dim screen` on its own offers **Dim screen totally** and **Dim screen by half**.
+- `sleep`, `suspend`, `power` or `to ram`: Offers **Sleep**.
+- `hibernate` or `to disk`: Offers **Hibernate**.
+- `hybrid sleep` or `hybrid`: Offers **Hybrid sleep**.
+
+Each sleep mode is only offered if your system supports it.

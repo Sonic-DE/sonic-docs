@@ -24,7 +24,7 @@ All three do the same thing. To quit, press Ctrl+Q or close the window.
 
 ## The window
 
-The sidebar lists the categories, with a search field at the top. Selecting a category shows its modules, and selecting a module shows its options in the main area. Some categories contain subcategories, and **Back** returns from one. Quick Settings is the page that appears when System Settings starts.
+The sidebar lists the categories, with a search field at the top. Selecting a category shows its modules, and selecting a module shows its options in the main area. Some categories contain subcategories, and **Back** returns from one. [Quick Settings](quick-settings.md) is the page that appears when System Settings starts.
 
 To find a setting, type keywords into the search field. Only the matching modules stay in the list.
 
@@ -60,23 +60,23 @@ The modules you see depend on what's installed and on your hardware.
 ### Connected Devices
 
 - **Disks & Cameras:** [Device Actions](device-actions.md), [Device Auto-Mount](device-automount.md)
-- [Bluetooth](bluetooth.md), [Printers](printers.md), Thunderbolt
+- [Bluetooth](bluetooth.md), [Printers](printers.md), [Thunderbolt](thunderbolt.md)
 
 ### Networking
 
-- **Wi-Fi & Internet:** Wi-Fi & Networking, [Connection Preferences](connection-preferences.md), [Proxy](proxy.md), [Firewall](firewall.md)
+- **Wi-Fi & Internet:** [Wi-Fi & Networking](wifi-networking.md) (with [VPN connections](vpn.md)), [Connection Preferences](connection-preferences.md), [Proxy](proxy.md), [Firewall](firewall.md)
 - [Online Accounts](online-accounts.md)
 
 ### Appearance & Style
 
-- **Colors & Themes:** [Global Theme](global-theme.md), [Colors](colors.md), [Application Style](application-style.md), [Desktop Style](desktop-style.md), [Window Decorations](window-decorations.md), [Icons](icons.md), [Pointers](pointers.md), System Sounds, [Splash Screen](splash-screen.md)
+- **Colors & Themes:** [Global Theme](global-theme.md), [Colors](colors.md), [Application Style](application-style.md), [Desktop Style](desktop-style.md), [Window Decorations](window-decorations.md), [Icons](icons.md), [Pointers](pointers.md), [System Sounds](system-sounds.md), [Splash Screen](splash-screen.md). The Silver, Breeze and Oxygen styles have their own settings, opened from Application Style and Window Decorations: [Silver Settings](silver-settings.md), [Breeze settings](breeze-settings.md) and [Oxygen settings](oxygen-settings.md).
 - **Text & Fonts:** [Fonts](fonts.md), [Font Management](font-management.md)
-- Animations, Wallpaper
+- [Animations](animations.md), [Wallpaper](wallpaper.md)
 
 ### Apps & Windows
 
 - **Default Applications:** [Default Applications](default-applications.md), [File Associations](file-associations.md)
-- **Window Management:** [Window Behavior](window-behavior.md), [Task Switcher](task-switcher.md), [Desktop Effects](desktop-effects.md), [Virtual Desktops](virtual-desktops.md), [Window Rules](window-rules.md), KWin Scripts
+- **Window Management:** [Window Behavior](window-behavior.md), [Task Switcher](task-switcher.md), [Desktop Effects](desktop-effects.md), [Effect settings](effect-settings.md), [Virtual Desktops](virtual-desktops.md), [Window Rules](window-rules.md), [KWin Scripts](kwin-scripts.md)
 - [Activities](activities.md), [Notifications](notifications.md)
 
 ### Workspace
@@ -86,7 +86,7 @@ The modules you see depend on what's installed and on your hardware.
 
 ### Security & Privacy
 
-[Login Screen](login-screen.md), [Recent Files](recent-files.md), [Remote Desktop](remote-desktop.md), [Screen Locking](screen-locking.md), User Feedback
+[Login Screen](login-screen.md), [Recent Files](recent-files.md), [Screen Locking](screen-locking.md)
 
 ### Language & Time
 
@@ -100,6 +100,8 @@ The modules you see depend on what's installed and on your hardware.
 ## Running individual modules
 
 You can run a module without opening the whole window using `kcmshell6`. Type `kcmshell6 --list` to see the available modules, and `kcmshell6` with a module's name to open it, for example `kcmshell6 kcm_kscreen`.
+
+Some modules only open this way, because they aren't listed in the System Settings window. One is [Plasma Renderer](plasma-renderer.md) (`kcmshell6 kcm_qtquicksettings`).
 
 To open a module in the System Settings window instead, use `systemsettings` with its name, for example `systemsettings kcm_kscreen`.
 

@@ -19,6 +19,11 @@ This module sets the applications that handle basic tasks. Applications sometime
 
 Click the box of the component you want to configure and select your favorite. Choose **Other…** to open the application chooser and select one manually.
 
-If an application may not be able to open all the file types of that kind, the module says so. **View Details** shows which types, and you can set how they open with **Force All to Open in** that application or **Configure Manually…**.
+If an application may not be able to open all the file types of that kind, the module says so. **View Details** opens the details for the chosen application:
+
+- **This application can also open these file types:** File types the application supports that currently open in another application, each with the application that opens it now. **Open All in** that application makes it open all of them.
+- **This application does not advertise support for the following file types, but may be able to open them anyway:** File types the application doesn't list. **Force All to Open in** that application makes it open them anyway.
+
+**Configure Manually…** at the bottom opens [File Associations](file-associations.md) to set the file types one by one.
 
 To set which application opens a specific file type, see [File Associations](file-associations.md).

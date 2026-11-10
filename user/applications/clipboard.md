@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/plasma-workspace/-/blob/master/doc/kli
 source_authors: [Philip Rodrigues]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-workspace e4f0096493 (klipper/configdialog.cpp, klipper.cpp, klipper.kcfg, editcommanddialog.cpp, clipcommandprocess.cpp, applets/clipboard); read from code, not clicked through"
+checked_against: "sonic-workspace 808d83b2eb (klipper/configdialog.cpp, klipper.cpp, klipper.kcfg, editactiondialog.cpp, editcommanddialog.cpp, clipcommandprocess.cpp, declarative/qml, applets/clipboard); read from code, not clicked through"
 ---
 
 # Clipboard
@@ -26,7 +26,17 @@ To display the clipboard history, click the icon. You can also press Meta+V to s
 
 ![The Clipboard widget](images/clipboard/klipper-widget.png)
 
-Hover over an entry with the mouse pointer and four icons appear, which let you invoke an action, show the barcode, edit the content or remove the entry from the history. Use [Screenies](screenies.md) to capture barcodes and save them.
+Hover over an entry with the mouse pointer and buttons appear for it:
+
+- **Invoke action** shows the [actions](#actions) for the entry.
+- **Show QR code** shows the entry as a QR code (text entries only).
+- **Edit contents** lets you change the entry (text entries only).
+- **Remove from history** deletes the entry.
+- **Star** marks the entry as a favorite. On a starred entry, the button reads **Remove Star**.
+
+Once at least one entry is starred, two tabs appear under the search field: **All History** shows every entry, and **Starred Only** shows only the starred ones.
+
+On the QR code page, **Change the QR code type** switches between **QR Code**, **Data Matrix**, **Aztec**, **Code 39**, **Code 93** and **Code 128**. **Copy** puts an image of the code on the clipboard, so you can paste it into another application. **Return to Clipboard** takes you back to the history.
 
 You can search through the history by opening it and typing your query. The results update as you type. To clear the history, click the icon at the right of the search field.
 
@@ -67,8 +77,6 @@ To change how they work together, select **Configure Clipboard…** from the con
   - **Text selected with the pointer or keyboard** saves selections to the history even if they weren't explicitly copied. Text copied explicitly is always saved unless it's marked as a password.
   - **Image data copied explicitly** stores images in the history, for example layers and selections copied in image editors.
 
-**Prevent the clipboard from being cleared** doesn't allow the clipboard to be emptied, for example when an application exits.
-
 ### Action Menu
 
 - **Show action popup menu:**
@@ -84,10 +92,23 @@ To change how they work together, select **Configure Clipboard…** from the con
 
 When a match pattern matches the clipboard contents, its commands appear in the popup menu and can be executed.
 
-- **To edit an expression or action:** Double-click it or select it and press **Edit Action…**.
-- **To add one:** Click **Add Action…** to add a regular expression to match. The Clipboard uses Qt's [`QRegularExpression`](https://doc.qt.io/qt-6/qregularexpression.html#details), which uses Perl Compatible Regular Expressions. You can add a description of the expression (such as “HTTP URL”).
+- **To edit an expression or action:** Double-click it or select it and press **Edit Action...**.
+- **To add one:** Click **Add Action...** to add a regular expression to match. The Clipboard uses Qt's [`QRegularExpression`](https://doc.qt.io/qt-6/qregularexpression.html#details), which uses Perl Compatible Regular Expressions.
+- **To delete one:** Select it and press **Delete Action**. After you confirm, the action and all of its commands are removed.
 
-In the dialog, add commands to execute. For each one, you can set the command, a description, and what happens with the command's output: **Ignore**, **Replace Clipboard** or **Add to Clipboard**.
+The **Action Properties** dialog has these settings:
+
+- **Match pattern:** The regular expression to match against the clipboard.
+- **Description:** A description of the expression, such as “HTTP URL”.
+- **Include in automatic popup:** The commands for this match are included in the automatic action pop-up, if it's turned on on the [Action Menu](#action-menu) page. When this is off, they still appear when you open the menu with the **Manually Invoke Action on Current Clipboard** shortcut.
+- The list of commands, managed with **Add Command...**, **Edit Command...** and **Delete Command**. Its **Output** column shows **Ignore**, **Replace Clipboard** or **Add to Clipboard** for each command.
+
+The **Command Properties** dialog sets up one command:
+
+- **Command:** The command and its arguments.
+- **Description:** A description of the command.
+- **Output from command:** What happens to the command's standard output: **Ignore**, **Replace current clipboard** or **Append to clipboard**.
+- **Icon:** The icon shown next to the command in the action menu. A button next to it resets the icon to the default for the command.
 
 `%s` in the command line is replaced with the clipboard contents. For example, if your command is `xdg-open %s` and your clipboard contents are `/home/phil/textfile`, the command `xdg-open /home/phil/textfile` is run. To include `%s` itself in the command line, escape it with a backslash: `\%s`.
 

@@ -23,7 +23,9 @@ Each entry shows an example of what its setting looks like. As well as numbers, 
 
 **Modify…** on the language entry shows your languages. **Add More…** lists the available languages and shows your selected one first. If it shows “No Language Configured”, you're using the language set by the system. If the language you want isn't listed, install it using the usual method for your system. Add languages in the order you want to see them in your applications.
 
-You can remove a language by selecting it and clicking the remove button, and change the order of preference with the buttons next to it.
+With only one language set, **Change Language** next to it picks a different one. With several, you can remove a language with the remove button next to it, and change the order of preference by dragging a language by its handle or with **Move to top**.
+
+If English is at the top with other languages below it, the module warns that some applications won't behave as expected. To use your system in English, remove all other languages.
 
 ## Formats
 
@@ -33,4 +35,4 @@ If you need different individual settings, select a locale for **Numbers**, **Ti
 
 Changing a language automatically changes the settings for numbers, currency and so on to the matching country or region. The configuration file is `~/.config/plasma-localerc`.
 
-Changes take effect the next time you log in. On some systems the module first generates the locale files it needs, and tells you when that's finished.
+Changes take effect the next time you log in, and the module offers **Restart now**, which asks whether to restart the computer. On some systems the module first generates the locale files it needs, and tells you when that's finished.

@@ -19,20 +19,24 @@ You can use them wherever you'd normally use an address, such as KRunner, which 
 
 ## The list
 
-The list shows the names of the keywords you've defined. You can click a column heading to change the sort order, and resize the columns.
+The list has three columns: **Name** is the search provider, **Keywords** lists the keywords that call it, and **Preferred** has a checkbox for each one. You can click a column heading to change the sort order, and resize the columns.
 
-**Enable Web search keywords** has to be checked for this feature to work. **New…**, **Edit…** and **Delete** create, change and remove keywords.
+To find an entry quickly, type in the **Search...** field above the list. The list then only shows entries whose name or keywords contain what you typed. The button at the end of the field clears it.
+
+**Enable Web search keywords** has to be checked for this feature to work. The **How do these work?** link next to it shows a short explanation with an example. **New…**, **Edit…** and **Delete** create, change and remove keywords.
 
 If **Use preferred keywords only** is checked, only the keywords marked in the **Preferred** column are used where only a few can be shown at once.
 
 - **Default Web search keyword:** The search engine used in input boxes that look things up automatically when you type words instead of an address. Select **None** to turn this off.
-- **Keyword delimiter:** The character separating the keyword from what's being searched for.
+- **Keyword delimiter:** The character separating the keyword from what's being searched for: **Colon**, as in `gg:my query`, or **Space**, as in `gg my query`.
 
 ## Editing a keyword
 
 Double-click an entry or click **Edit…** to see its details: its **Name**, its **URL** and its **Keywords**, which you type wherever addresses are expected. A provider can have several keywords, separated by commas. **Character set** chooses the encoding for the query.
 
-Most URLs have `\{@}` in them. These four characters are a placeholder, replaced by whatever you type after the colon between the keyword and your query. The button at the right of the field adds it.
+Most URLs have `\{@}` in them. These four characters are a placeholder, replaced by whatever you type after the colon between the keyword and your query. The button at the right of the field, **Insert query placeholder**, adds it.
+
+If you click **OK** and the URL has no placeholder, a warning says the same page will always be opened, whatever you type after the keyword. Click **Keep It** to save the URL as it is, or **Cancel** to go back and change it.
 
 Suppose the URL is `https://www.google.com/search?q=\{@}`, and `gg` is its keyword. Typing `gg:alpha` is the same as `https://www.google.com/search?q=alpha`. Whatever you type replaces `\{@}`, after being converted to the search provider's character set and URL-encoded. Only the `\{@}` part is changed. The rest should already be URL-encoded and is left alone.
 

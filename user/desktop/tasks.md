@@ -40,13 +40,44 @@ To open the Task Manager's settings, right-click it and choose **Configure Task 
 
 ![The Behavior settings](images/task-manager-behavior.png)
 
-These settings are particularly useful:
+Some settings only appear in the standard Task Manager and not in the [Icons-Only Task Manager](#icons-only-task-manager), and the other way round. This is noted below.
 
-- **Grouping and sorting:** In the **Group** list, choose **By program name** or **Do not group**. You can also choose **Group only when the Task Manager is full**. In the **Sort** list, choose **Do not sort**, **Manually**, **Alphabetically**, **By desktop**, **By activity** or **By horizontal window position**.
-- **Filters:** Several options limit the tasks shown to the ones you want to see: those from the current screen, the current desktop or the current activity, or those that are minimized.
-- **More than one row:** If you use many applications at once, it can help to set a multi-column view on the **Appearance** page.
-- **Window previews:** **Show small window previews when hovering over tasks** shows a small preview of the task.
-- **Audio:** **Show an indicator when a task is playing audio** marks applications that play audio with a small loudspeaker symbol, which makes it easier to tell where sound is coming from.
+### Appearance
+
+**General:**
+
+- **Show small window previews when hovering over tasks:** Hovering over a task shows a small preview of its window.
+- **Hide other windows when hovering over previews:** While you hover over a preview, the other windows are hidden so you can see that window clearly. When previews are off, this setting is called **Hide other windows when hovering over tooltips**.
+- **Show an indicator when a task is playing audio:** Marks applications that play audio with a small loudspeaker symbol, which makes it easier to tell where sound is coming from.
+- **Mute task when clicking indicator:** Clicking the loudspeaker symbol mutes that application. This needs the audio indicator to be on.
+- **Show media and volume controls in tooltip:** Adds playback and volume controls to the task's tooltip.
+- **Fill free space on panel:** The Task Manager grows to use the free space in the panel.
+
+The audio settings need the sound system support to be installed; otherwise they're greyed out.
+
+- **Maximum task width:** (standard Task Manager on a horizontal panel only) How wide a task button may get: **Narrow**, **Medium** or **Wide**.
+- **Use multi-row view:** (**Use multi-column view:** on a vertical panel) Puts tasks in more than one row or column: **Never**, **When panel is low on space and thick enough**, or **Always when panel is thick enough**.
+- **Maximum rows:** (**Maximum columns:** on a vertical panel) The most rows or columns of tasks to use.
+- **Spacing between icons:** (Icons-Only Task Manager only) **Small**, **Normal** or **Large**.
+
+### Behavior
+
+- **Group:** **Do not group** or **By program name**.
+- **Clicking grouped task:** What happens when you click a group:
+  - **Cycles through tasks:** Each click brings up the next window of the group.
+  - **Shows small window previews:** Shows previews of the group's windows.
+  - **Shows large window previews:** Shows the group's windows side by side. If the window manager can't do this, a message says so and a textual list is shown instead.
+  - **Shows textual list:** Shows a list of the group's windows.
+- **Combine into single button** and **Group only when the Task Manager is full:** (standard Task Manager only) How groups are shown.
+- **Sort:** **Do not sort**, **Manually**, **Alphabetically**, **By desktop**, **By activity** or **By horizontal window position**.
+- **Keep launchers separate:** (standard Task Manager only, with **Manually** sorting) Keeps pinned launchers apart from the running tasks.
+- **Hide launchers after application startup:** (standard Task Manager only) A pinned launcher disappears while its application is running.
+- **Clicking active task:** **Minimizes the task** when it's checked.
+- **Middle-clicking any task:** **Does nothing**, **Closes window or group**, **Opens a new window**, **Minimizes/Restores window or group**, **Toggles grouping** or **Brings it to the current virtual desktop**.
+- **Scrolling behavior:** What the mouse wheel does over the Task Manager: **Does nothing**, **Cycles through all tasks**, **Cycles through the hovered task’s windows** or **Adjusts the hovered task’s volume**. **Skip minimized tasks** leaves minimized windows out when cycling.
+- **Show only tasks:** Limits the tasks shown to those **From the current desktop**, **From the current activity**, **From the current screen** or **That are minimized**.
+- **When panel is hidden:** **Unhide when a window wants attention** shows a hidden panel when a window asks for your attention. If you turn this off, a message suggests first looking for a setting in the application that asks for attention too often.
+- **New tasks appear:** Whether new tasks are added **To the right** or **To the left** of the existing ones (**On the bottom** or **On the top** on a vertical panel).
 
 ## Alternative task managers
 
@@ -64,4 +95,11 @@ The Icons-Only Task Manager shows tasks by their icon only, without the window t
 
 ![The Window List](images/task-manager-window-list.png)
 
-With the Window List, the task manager shrinks to a single icon. Clicking the icon opens the list of tasks. This widget has virtually no settings.
+With the Window List, the task manager shrinks to a single button that shows the active application. Clicking the button opens a menu of your open windows; choose one to switch to it.
+
+Its settings, on the **General** page:
+
+- **For active application, show:** **Icon and name**, **Icon** or **Name**. On a vertical panel only the icon can be shown, and on the desktop this setting doesn't apply; a note says so.
+- **Open on hover:** **Enabled, with delay:** opens the menu when the pointer rests on the button, after the number of milliseconds you set. The default is off, with a delay of 300 ms.
+- **Show only windows:** **From the current desktop**, **From the current activity**, **From the current screen** or **That are minimized**. The first two are on by default.
+- **Sort:** **By time opened**, **Alphabetically**, **Alphabetically, grouped by virtual desktop** (the default), **Alphabetically, grouped by activity**, **By last activated time** or **By horizontal window position**.

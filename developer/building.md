@@ -52,6 +52,16 @@ Useful options:
 | `--clean-first` | Clean before building |
 | `--install` | Install to the system after the full build succeeds |
 
+## Leaving Night Light out of SonicWin
+
+SonicWin (`sonic-win`) builds Night Light, with its `org.kde.KWin.NightLight` D-Bus
+interface, when the CMake option `KWIN_BUILD_NIGHTLIGHT` is on, which is the default. It
+then needs `KNightTime` from `sonic-night-light`.
+
+A slimmer system can leave Night Light out by adding `-DKWIN_BUILD_NIGHTLIGHT=OFF` to
+`cmake-extra-args` in `config/sonicde/packages/sonicde/sonic-win.yaml`. SonicWin then doesn't
+look for `KNightTime`, and the software brightness test, which needs Night Light, isn't run.
+
 ## Install
 
 `./build-all --install` deploys only after every package has built. Only the deployment step

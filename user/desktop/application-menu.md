@@ -42,6 +42,7 @@ The search field lets you search for applications, and also for files, bookmarks
 
 In the settings you can choose:
 
+- **Icon:** Click the icon to open a menu: **Choose…** picks another icon for the launcher button, and **Reset to default icon** goes back to the standard one.
 - **Show applications as:** The name, the description, or both.
 - **Behavior:** Sort applications alphabetically, flatten sub-menus to a single level, show icons on the root level of the menu, and highlight newly installed applications.
 - **Show categories:** Which recent or often used applications, files and places to show.

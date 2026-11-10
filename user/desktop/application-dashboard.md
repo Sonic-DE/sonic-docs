@@ -32,8 +32,9 @@ To see a list of recently used files, select **Recent Files**.
 
 To open the settings dialog, right-click the Application Dashboard's icon in the panel and choose **Configure Application Dashboard…**. You can set:
 
-- Whether applications are shown by name, by description or both
-- Whether lists are sorted alphabetically
-- Whether to show the recent or often used applications, files and places
-- Whether items in categories are sorted by recently used or often used
-- Whether search includes bookmarks, files and emails
+- **Icon:** The icon of the launcher button. Click it to open a menu: **Choose…** picks another icon, and **Reset to default icon** goes back to the standard one.
+- **Behavior:** **Sort applications alphabetically**, and **Highlight newly-installed applications**, which marks applications you've installed recently.
+- **Show categories:** Whether to show the recent or often used applications, files and places.
+- **Sort items in categories by:** **Recently used** or **Often used**.
+- **Search:** **Expand search to bookmarks, files and emails**.
+- **Appearance:** **Prefer Dark Mode when available** draws the dashboard with your color scheme's complementary colors, which usually have a dark background.
