@@ -217,6 +217,7 @@ sections:
       developer/plasma/theme/svg: SVG elements and Inkscape
       developer/plasma/theme/background-svg: Background SVG format
       developer/plasma/theme/colors: System and accent colors
+      developer/plasma/theme/transparency: Transparency and the unified header
       developer/plasma/theme/elements: Theme elements reference
       developer/plasma/theme/porting-to-plasma6: Porting themes to Plasma 6
   Desktop widgets:

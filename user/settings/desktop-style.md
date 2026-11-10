@@ -26,3 +26,21 @@ For more technical information, see [Understanding desktop themes](../../develop
 - **Install from File…:** Opens a file dialog to point to a style you've downloaded, as a `.zip`, `.tar.gz` or `.tar.bz2` file. It's then installed and added to the list.
 
 ![Getting new styles](images/desktop-style/get-new-theme.png)
+
+## Configuring the desktop style
+
+**Configure Desktop Style…** has settings for styles that support them, such as Silver Light and Silver
+Dark. Other styles keep their own look, and the page says so when one of them is selected.
+
+### Transparency
+
+How see-through the desktop is.
+
+- **Use these settings instead of the desktop style's own:** Turns the settings below on. Moving a
+  slider turns it on for you.
+- **Panels**, **Pop-ups**, **Tooltips** and **Desktop widgets:** How transparent each one is, from
+  **Transparent** to **Opaque**. Pop-ups include their top and bottom bars, such as the search field
+  and buttons in the application launcher. Desktop widgets are only see-through while the Blur desktop
+  effect is on.
+
+Changes show straight away when you click **Apply**.

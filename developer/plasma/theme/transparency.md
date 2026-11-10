@@ -1,0 +1,100 @@
+---
+title: Transparency and the unified header
+description: How a desktop style follows the transparency set in Desktop Style settings, and how popup headings and window decorations form one see-through header.
+checked_against: "sonic-frameworks-svg (ImageSetPrivate::readDesktopThemeOpacity), sonic-interface-libraries (default and Silver desktop themes), sonic-workspace (kcms/desktoptheme), sonic-win (DecorationBridge), Qt 6.11.3"
+---
+
+# Transparency and the unified header
+
+## Following the transparency settings {#follow}
+
+The Transparency section of **System Settings → Desktop Style → Configure Desktop Style…** sets how
+see-through panels, pop-ups, tooltips and desktop widgets are. It works like [accent colors](colors.md): one desktop-wide setting,
+applied to every desktop style that asks for it. Styles that don't ask keep their own transparency.
+
+A style asks for it with one line in its `colors` file, next to `FollowAccentColor`:
+
+```ini
+[General]
+FollowAccentColor=true
+FollowDesktopThemeOpacity=true
+```
+
+The settings live in `kdeglobals`:
+
+```ini
+[DesktopThemeOpacity]
+Enabled=true
+Panels=70
+Popups=85
+Tooltips=85
+Widgets=80
+```
+
+Values are percent. A missing key uses the default shown here. With `Enabled=false` (the default), or in a
+style without `FollowDesktopThemeOpacity=true`, nothing changes.
+
+## Marking the see-through parts {#classes}
+
+SonicDE adds one CSS rule per surface to the stylesheet it puts into every theme SVG, next to the
+`.ColorScheme-…` color rules:
+
+| Class | Surface | Files |
+| --- | --- | --- |
+| `SonicOpacity-Panel` | panels | `widgets/panel-background` |
+| `SonicOpacity-Popup` | pop-ups | `dialogs/background` |
+| `SonicOpacity-Tooltip` | tooltips | `widgets/tooltip` |
+| `SonicOpacity-Widget` | desktop widgets | the `blurred-*` prefix of `widgets/background` |
+
+Give the class to each see-through fill, next to its color class, and put the style's own opacity in
+the **`opacity` attribute**:
+
+```xml
+<rect id="rect4138" style="fill:currentColor" opacity="0.85"
+      class="ColorScheme-Background SonicOpacity-Popup" width="32" height="32" />
+```
+
+- Never put that opacity inside `style=""`. An inline style wins over the generated rule, so the setting
+  would have no effect. Measured with Qt 6.11.3: `opacity="0.75"` with a 0.25 rule draws at 0.25;
+  `style="opacity:0.75"` with the same rule stays at 0.75.
+- The file needs the `<style id="current-color-scheme">` element (see [System and accent
+  colors](colors.md)); the rules are only added to files that have it.
+- Tag the plain files and the `translucent/` ones. The desktop shell uses `translucent/` when the blur
+  effect is on, the plain files when compositing is on without blur, and `opaque/` without compositing.
+  Leave `opaque/` alone.
+- Only tag the fills. Edge highlights, shadows (`shadow-*`), masks (`mask-*`) and hints keep their values.
+- Without the setting, the attribute is used and the style looks exactly as before.
+
+The default and Silver themes in sonic-interface-libraries show the full set.
+
+## The unified header {#header}
+
+### Pop-up headings
+
+A pop-up's header and footer, such as the search bar and the buttons along the bottom of the
+application launcher, are drawn from `widgets/plasmoidheading`, on top of the pop-up's background. To
+keep them as see-through as the rest of the pop-up, the heading draws **no fill**, only its separator
+lines (`ColorScheme-Frame`): give the fill paths `opacity="0"` and keep the elements, so the frame sizes
+and margins stay the same. Any fill there would stack on the pop-up's own and look more solid.
+
+### Window decorations
+
+The titlebar and the toolbars and menu bars under it can be one see-through surface, the tools area.
+Its settings are shared desktop-wide in the `[ToolsArea]` group of `kdeglobals`, set in **Window
+Decorations → Configure Titlebar…**, and read through `KToolsArea` in sonic-frameworks-color-scheme by
+the decoration, the app style and the Qt Quick platform integration.
+
+A window decoration that draws a see-through titlebar from these settings says so in its plugin
+metadata:
+
+```json
+{
+    "KPlugin": { "Name": "Silver" },
+    "X-SonicDE-ToolsArea": true
+}
+```
+
+When SonicWin loads a decoration without it, it turns the tools area off (`Enabled=false`) and records
+that it did (`DisabledByDecoration=true`), so toolbars don't stay see-through under a solid titlebar.
+When it loads a decoration with the marker, it turns a tools area it turned off back on. A tools area
+the user turned off stays off.

@@ -43,3 +43,5 @@ fi
 ```
 
 SonicWin scripts from the [KDE Store](https://store.kde.org/p/1294604/) can do the same thing. Manage them in the SonicWin Scripts module.
+
+Menus are the exception: **Blur menus** in the blur effect's settings decides for every see-through menu, whether the menu asks for blur itself (as Silver's do) or is made see-through by the Translucency effect. Turned off, no menu is blurred.
