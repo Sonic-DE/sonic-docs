@@ -9,7 +9,7 @@ checked_against: "sonic-terminal 342e7db0a (src/CMakeLists.txt, src/quick/Termin
 
 # Embedding the terminal
 
-Sonic Terminal's window is drawn with QML, and other programs can show the same terminal through two QML modules that `sonic-terminal` installs. Ecco's terminal panel and the Terminal Panel widget use them. They replace the old Konsole KPart for SonicDE programs.
+Sonic Terminal's window is drawn with QML, and other programs can show the same terminal through two QML modules that `sonic-terminal` installs. Ecco's terminal panel and the Terminal Panel and Terminal widgets use them. They replace the old Konsole KPart for SonicDE programs.
 
 ## The QML modules
 

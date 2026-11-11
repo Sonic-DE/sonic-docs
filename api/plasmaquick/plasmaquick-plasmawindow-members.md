@@ -8,6 +8,8 @@ parent: "plasmaquick/plasmaquick-plasmawindow"
 
 This is the complete list of members for [PlasmaQuick::PlasmaWindow](plasmaquick-plasmawindow.md), including inherited members.
 
+- [backgroundCutout : QRect](plasmaquick-plasmawindow.md#backgroundCutout-prop)
+- [backgroundCutoutBlur : bool](plasmaquick-plasmawindow.md#backgroundCutoutBlur-prop)
 - [backgroundHints : BackgroundHints](plasmaquick-plasmawindow.md#backgroundHints-prop)
 - [borders : Qt::Edges](plasmaquick-plasmawindow.md#borders-prop)
 - [bottomPadding : qreal](plasmaquick-plasmawindow.md#bottomPadding-prop)

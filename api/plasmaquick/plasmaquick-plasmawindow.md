@@ -21,6 +21,8 @@ Creates a [QQuickWindow](https://doc.qt.io/qt-6/qquickwindow.html) themed in a P
 
 ## Properties
 
+- [backgroundCutout : QRect](#backgroundCutout-prop)
+- [backgroundCutoutBlur : bool](#backgroundCutoutBlur-prop)
 - [backgroundHints : BackgroundHints](#backgroundHints-prop)
 - [borders : Qt::Edges](#borders-prop)
 - [\[read-only\] bottomPadding : qreal](#bottomPadding-prop)
@@ -47,6 +49,32 @@ Creates a [QQuickWindow](https://doc.qt.io/qt-6/qquickwindow.html) themed in a P
 | `PlasmaQuick::PlasmaWindow::SolidBackground` | `1` | The solid version of the background is preferred |
 
 ## Property Documentation {#property-documentation}
+
+### backgroundCutout : QRect {#backgroundCutout-prop}
+
+Part of the window, for an item that draws its own background there: the window draws no background, blur or contrast in it. Empty for none.
+
+**Access functions:**
+
+- `QRect` **backgroundCutout**() const
+- `void` **setBackgroundCutout**(const `QRect` &*cutout*)
+
+**Notifier signal:**
+
+- `void` **backgroundCutoutChanged**()
+
+### backgroundCutoutBlur : bool {#backgroundCutoutBlur-prop}
+
+Whether what is behind the cutout gets blurred.
+
+**Access functions:**
+
+- `bool` **backgroundCutoutBlur**() const
+- `void` **setBackgroundCutoutBlur**(`bool` *blur*)
+
+**Notifier signal:**
+
+- `void` **[backgroundCutoutChanged](plasmaquick-plasmawindow.md#backgroundCutout-prop)**()
 
 ### backgroundHints : BackgroundHints {#backgroundHints-prop}
 
@@ -82,7 +110,7 @@ Tells what borders are enabled of its background
 
 **Notifier signal:**
 
-- `void` **[paddingChanged](plasmaquick-plasmawindow.md#leftPadding-prop)**()
+- `void` **[paddingChanged](plasmaquick-plasmawindow.md#rightPadding-prop)**()
 
 ### \[read-only\] leftPadding : qreal {#leftPadding-prop}
 
@@ -92,7 +120,7 @@ Tells what borders are enabled of its background
 
 **Notifier signal:**
 
-- `void` **paddingChanged**()
+- `void` **[paddingChanged](plasmaquick-plasmawindow.md#rightPadding-prop)**()
 
 ### mainItem : QQuickItem\* {#mainItem-prop}
 
@@ -115,7 +143,7 @@ The main QML item that will be displayed in the Dialog
 
 **Notifier signal:**
 
-- `void` **[paddingChanged](plasmaquick-plasmawindow.md#leftPadding-prop)**()
+- `void` **paddingChanged**()
 
 ### \[read-only\] topPadding : qreal {#topPadding-prop}
 
@@ -125,7 +153,7 @@ The main QML item that will be displayed in the Dialog
 
 **Notifier signal:**
 
-- `void` **[paddingChanged](plasmaquick-plasmawindow.md#leftPadding-prop)**()
+- `void` **[paddingChanged](plasmaquick-plasmawindow.md#rightPadding-prop)**()
 
 ## Member Function Documentation {#member-function-documentation}
 

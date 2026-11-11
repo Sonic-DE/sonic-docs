@@ -1,11 +1,11 @@
 ---
 title: Widgets
-description: A few useful widgets, including Disks & Devices, Weather, Sonic Menu, Terminal Panel and the battery widget.
+description: A few useful widgets, including Disks & Devices, Weather, Sonic Menu, Terminal Panel, Terminal and the battery widget.
 source_url: https://userbase.kde.org/Plasma/Plasmoids
 source_authors: [KDE UserBase contributors]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "sonic-workspace (applets/devicenotifier), sonic-workspace-addons (applets/weather, applets/sonicmenu, applets/terminalpanel), sonic-terminal (src/quick/TerminalHost.cpp), the stage's battery applet and module; read from code, not clicked through"
+checked_against: "sonic-workspace (applets/devicenotifier), sonic-workspace-addons (applets/weather, applets/sonicmenu, applets/terminalpanel, applets/terminalapplet), sonic-workspace (components/shellprivate, shell/shellcorona.cpp), sonic-desktop-interface (containments/panel, PanelConfiguration.qml), sonic-interface-libraries (plasmaquick/plasmawindow.cpp, plasma/containment.cpp), sonic-terminal (src/quick/TerminalHost.cpp), the stage's battery applet and module; read from code, not clicked through"
 ---
 
 # Widgets
@@ -57,17 +57,36 @@ To change the menu, right-click the widget and choose **Configure Sonic Menu...*
 
 ### Terminal Panel
 
-The **Terminal Panel** widget puts a full [Terminal](../applications/terminal.md), with its tabs, split views and toolbars, inside a panel. The quickest way to get one is to right-click the desktop, choose **Add Panel** and then **Terminal Panel**. That creates a panel at the top of the screen that hides itself and holds the widget.
+The **Terminal Panel** puts a full [Terminal](../applications/terminal.md), with its tabs, split views and toolbars, inside a panel. To get one, right-click the desktop, choose **Add Panel** and then **Terminal Panel**. That creates a panel at the top of the screen that hides itself and holds the terminal. It isn't in the Add Widgets list.
 
 - Click the panel's terminal to type in it. When you click somewhere else, the keyboard goes back to your windows and the panel can hide again.
-- While the widget is in a panel, starting Terminal without a command, for example from the application launcher, doesn't open a new window. The panel comes out instead, with a new tab ready for typing. See [With the Terminal Panel widget](../applications/terminal.md#with-the-terminal-panel-widget) for which ways of starting Terminal still open a window.
-- If you close the last tab, the widget starts a new terminal, so the panel is never empty.
+- While the terminal is in a panel, starting Terminal without a command, for example from the application launcher, doesn't open a new window. The panel comes out instead, with a new tab ready for typing. See [With the Terminal Panel widget](../applications/terminal.md#with-the-terminal-panel-widget) for which ways of starting Terminal still open a window.
+- If you close the last tab, for example by typing `exit`, the panel closes, with a new terminal ready for next time.
 - Your color scheme's transparency and blur apply behind the terminal text, while the tabs and toolbars keep the panel's look.
+- The panel holds only the terminal: it offers no **Add Widgets**, widgets can't be dragged onto it, and it can't be cloned.
+- You can have one Terminal Panel or one [Terminal](#terminal) widget, not both and not two of either. While one exists, neither is offered under Add Panel or Add Widgets.
 
-Right-click the tab bar or a toolbar for a menu with the panel's own actions, for adding widgets and opening the panel's settings, and **Configure Terminal…**, which opens Terminal's own settings. The widget's settings, under **Configure Terminal Panel...** in the widget's context menu, are:
+Right-click the tab bar or a toolbar for a menu with the panel's settings and **Configure Terminal…**, which opens Terminal's own settings. The widget's settings, under **Configure Terminal Panel...** in the widget's context menu, are:
 
 - **Minimum width:** The narrowest the terminal gets, in pixels, from 100 to 10000. The default is 480.
 - **Profile:** The name of the Terminal profile to start with. Leave it empty to use your default profile.
+
+### Terminal
+
+The **Terminal** widget is the same terminal as the Terminal Panel, in a popup from a button in your panel. Add it from **Add Widgets**.
+
+- Click the button to open the terminal and type in it. Click the button again, or somewhere else, to close it.
+- Drag the popup's edges to resize it. It keeps that size the next time it opens.
+- While the widget is in a panel, starting Terminal without a command opens the popup with a new tab ready for typing, as with the Terminal Panel.
+- The popup stays open while Terminal's own menus and dialogs, such as editing a profile, are open, and has the keyboard again when you close them.
+- If you close the last tab, for example by typing `exit`, the popup closes, with a new terminal ready for next time.
+- Your color scheme's transparency and blur apply behind the terminal text.
+- As with the Terminal Panel, only one Terminal Panel or Terminal widget can exist, and cloning a panel doesn't copy the widget.
+
+Right-click the tab bar or a toolbar for **Configure Terminal…**, which opens Terminal's own settings. Right-click the widget's button and choose **Configure Terminal...** for the widget's settings:
+
+- **General:** **Profile:**, the name of the Terminal profile to start with. Leave it empty to use your default profile.
+- **Keyboard Shortcuts:** A shortcut that opens and closes the popup from anywhere. There is none until you set one; clear it to turn it off again.
 
 ## The world outside
 

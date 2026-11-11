@@ -469,7 +469,7 @@ Terminal also accepts generic Qt and KDE Frameworks 6 options; see the `qt6optio
 
 ### With the Terminal Panel widget
 
-When a panel has the Terminal Panel widget, starting Terminal without a command (plain `konsole`, or with only `--workdir` or `--new-tab`) doesn't open a window. Instead, the panel comes out with a new tab, ready for typing, in the given working directory if there is one. Starting Terminal with a command, with `--separate`, or with any other option still opens a window, and so does **Open a New Window** in the launcher entry's menu, which runs `konsole --separate`.
+When a panel has the Terminal Panel widget, or the [Terminal](../desktop/widgets.md#terminal) widget, starting Terminal without a command (plain `konsole`, or with only `--workdir` or `--new-tab`) doesn't open a window. Instead, the panel comes out, or the Terminal widget's popup opens, with a new tab, ready for typing, in the given working directory if there is one. Starting Terminal with a command, with `--separate`, or with any other option still opens a window, and so does **Open a New Window** in the launcher entry's menu, which runs `konsole --separate`.
 
 ## Scripting Terminal
 

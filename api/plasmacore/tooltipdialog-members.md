@@ -9,6 +9,8 @@ parent: "plasmacore/tooltipdialog"
 This is the complete list of members for [ToolTipDialog](tooltipdialog.md), including inherited members.
 
 - [animated : bool](../plasmaquick/plasmaquick-popupplasmawindow.md#animated-prop)
+- [backgroundCutout : QRect](../plasmaquick/plasmaquick-plasmawindow.md#backgroundCutout-prop)
+- [backgroundCutoutBlur : bool](../plasmaquick/plasmaquick-plasmawindow.md#backgroundCutoutBlur-prop)
 - [backgroundHints : BackgroundHints](../plasmaquick/plasmaquick-plasmawindow.md#backgroundHints-prop)
 - [borders : Qt::Edges](../plasmaquick/plasmaquick-plasmawindow.md#borders-prop)
 - [bottomPadding : qreal](../plasmaquick/plasmaquick-plasmawindow.md#bottomPadding-prop)

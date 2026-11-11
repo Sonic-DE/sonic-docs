@@ -28,7 +28,7 @@ Install one with:
 kpackagetool6 --type=Plasma/LayoutTemplate -i /path/to/package
 ```
 
-`metadata.json` has the usual [KPluginMetaData](/docs/api/kcoreaddons/kpluginmetadata) entries, such as `Name` and `Id`, and `KPackageStructure` must be `Plasma/LayoutTemplate`. `X-Plasma-Shell` names the shell the template is for, and `X-Plasma-ContainmentCategories` says what kind of layout it is.
+`metadata.json` has the usual [KPluginMetaData](/docs/api/kcoreaddons/kpluginmetadata) entries, such as `Name` and `Id`, and `KPackageStructure` must be `Plasma/LayoutTemplate`. `X-Plasma-Shell` names the shell the template is for, and `X-Plasma-ContainmentCategories` says what kind of layout it is. `X-SonicDE-HiddenWhilePlaced`, a list of widget `Id`s, leaves the template out of the Add Panel menu while any of those widgets is placed anywhere; see [Where a widget can be placed](../widget/setup.md#where-a-widget-can-be-placed).
 
 ```json
 {

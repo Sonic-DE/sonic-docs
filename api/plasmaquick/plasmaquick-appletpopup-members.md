@@ -10,6 +10,8 @@ This is the complete list of members for [PlasmaQuick::AppletPopup](plasmaquick-
 
 - [animated : bool](plasmaquick-popupplasmawindow.md#animated-prop)
 - [appletInterface : QQuickItem\*](plasmaquick-appletpopup.md#appletInterface-prop)
+- [backgroundCutout : QRect](plasmaquick-plasmawindow.md#backgroundCutout-prop)
+- [backgroundCutoutBlur : bool](plasmaquick-plasmawindow.md#backgroundCutoutBlur-prop)
 - [backgroundHints : BackgroundHints](plasmaquick-plasmawindow.md#backgroundHints-prop)
 - [borders : Qt::Edges](plasmaquick-plasmawindow.md#borders-prop)
 - [bottomPadding : qreal](plasmaquick-plasmawindow.md#bottomPadding-prop)

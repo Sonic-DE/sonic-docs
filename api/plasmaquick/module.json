@@ -238,6 +238,16 @@
             ],
             "members": [
                 [
+                    "backgroundCutout",
+                    "backgroundCutout : QRect",
+                    "backgroundCutout-prop"
+                ],
+                [
+                    "backgroundCutoutBlur",
+                    "backgroundCutoutBlur : bool",
+                    "backgroundCutoutBlur-prop"
+                ],
+                [
                     "backgroundHints",
                     "backgroundHints : BackgroundHints",
                     "backgroundHints-prop"

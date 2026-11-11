@@ -79,7 +79,7 @@ To add a new panel, right-click the desktop and choose **Add Panel**, then pick 
 - **Empty Panel:** A blank panel with no widgets in it.
 - **Application Menu Bar:** A thin panel at the top of the screen holding the [Global Menu](global-menu.md), which shows the menu bar of the active application.
 - **Silver Bottom Panel** and **Silver Left Panel:** The panels of the Silver look, at the bottom or the left of the screen, with the Application Launcher, the pager, a task manager with your file manager and web browser pinned, the system tray, the digital clock and Peek at Desktop. The bottom one has the Task Manager, which is what SonicDE starts with; the left one has the Icons-Only Task Manager.
-- **Terminal Panel:** A panel at the top of the screen that hides itself and holds the [Terminal Panel](widgets.md#terminal-panel) widget, a full terminal that comes down when you need it.
+- **Terminal Panel:** A panel at the top of the screen that hides itself and holds the [Terminal Panel](widgets.md#terminal-panel) widget, a full terminal that comes down when you need it. It isn't offered while a Terminal Panel or a [Terminal](widgets.md#terminal) widget already exists.
 
 ## Under the hood
 
