@@ -309,6 +309,7 @@ sections:
       developer/plasma/kwin/api: SonicWin scripting API
       developer/plasma/kwineffect/index: Effects
       developer/plasma/aurorae/index: Aurorae window decorations
+      developer/plasma/titlebar-menu/index: Application menus in window decorations
       developer/plasma/windowswitcher/index: Task switchers
   Other plugins:
     pages:

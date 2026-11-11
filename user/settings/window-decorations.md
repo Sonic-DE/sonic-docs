@@ -42,6 +42,15 @@ This part sets where the buttons are on the titlebar. Drag buttons between the l
 
 - **Close windows by double clicking the menu button:** An extra way of closing, useful if you've removed the Close button. When you turn it on, a tip reminds you: **Click and hold on the menu button to show the menu.**
 - **Show titlebar button tooltips:** Shows tooltips when you hover over the buttons.
+- **Application menu button style:** How the **Application menu** button shows the menus (File, Edit, View…) of the application whose window it's in:
+  - **Single menu button:** one button that drops down the menus as a list. This is the default.
+  - **Always shown:** the menus sit as labels in the titlebar where the button is, left or right. The title moves aside to make room; menus that don't fit go into a menu button at the end.
+  - **Shown on hover:** the same labels, but they only appear while the pointer is over the titlebar or a menu is open. The title fades out while they fade in.
+
+  Click a label to open its menu. While one is open, Left and Right open the next menu, and moving the pointer over another label opens that one.
+- **Show a search button with the application menu:** Adds a magnifier next to the menus. Type at least three letters to find any menu item by name, then click the result, or press Down and Enter.
+
+The application's own menu bar is hidden while its menus are in the titlebar. These two options need the **Application menu** button in the titlebar, and a window decoration style that supports them, such as Silver; otherwise they're greyed out with a note saying why. Other styles keep showing the single button.
 
 ### Titlebar opacity
 

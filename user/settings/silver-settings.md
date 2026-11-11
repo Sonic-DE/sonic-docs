@@ -75,6 +75,8 @@ The **Presets...** button at the top right is described in [Presets](#presets) b
 
 The titlebar's transparency and blur are set in [Window Decorations](window-decorations.md) under **Configure Titlebar…**, because they're shared by every window decoration and also apply to applications drawn with Qt Quick.
 
+Silver can show an application's menus in the titlebar, in the colours of its **Application menu** button. That's also set under **Configure Titlebar…**, with **Application menu button style**.
+
 ### Window
 
 - **Shadows:** **Shadow Style...** opens a dialog for the shadow's **Size:** (**None**, **Small**, **Medium**, **Large** or **Very Large**), strength and **Colour:**.
