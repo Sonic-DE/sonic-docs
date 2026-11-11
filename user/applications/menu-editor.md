@@ -71,7 +71,7 @@ There's no way to transfer menu settings with the interface, so copy these files
 - `desktop-directories`, in the folder given by `qtpaths --paths GenericDataLocation`, contains desktop files for the submenus you created.
 - `applications/`, in the same folder, contains the desktop files for the custom items you created.
 
-Each application's shortcut is stored in `kglobalshortcutsrc`, in the folder given by `qtpaths --paths GenericConfigLocation`. Exporting and importing doesn't work, because the UUIDs of the shortcuts don't match between systems, even though the `.desktop` files are the same. You have to assign all the shortcuts again by hand.
+Each application's shortcut is stored in `sonicglobalshortcutsrc`, in the folder given by `qtpaths --paths GenericConfigLocation`. Exporting and importing doesn't work, because the UUIDs of the shortcuts don't match between systems, even though the `.desktop` files are the same. You have to assign all the shortcuts again by hand.
 
 ## Adding a menu entry
 
