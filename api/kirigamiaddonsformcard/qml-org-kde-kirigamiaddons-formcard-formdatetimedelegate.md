@@ -5,16 +5,16 @@ description: "FormDateTimeDelegate is a delegate for FormCard that lets the user
 
 # FormDateTimeDelegate QML Type
 
-[FormDateTimeDelegate](qml-org-kde-kirigamiaddons-formcard-formdatetimedelegate.md) is a delegate for [FormCard](qml-org-kde-kirigamiaddons-formcard-formcard.md) that lets the user enter either a date, a time or both. [More...](#details)
+[FormDateTimeDelegate](qml-org-kde-kirigamiaddons-formcard-formdatetimedelegate.md) is a delegate for [FormCard](qml-org-kde-kirigamiaddons-formcard-templates-formcard.md) that lets the user enter either a date, a time or both. [More...](#details)
 
 - Import Statement: import org.kde.kirigamiaddons.formcard
 - Inherits: [AbstractFormDelegate](qml-org-kde-kirigamiaddons-formcard-abstractformdelegate.md)
 
 ## Detailed Description {#details}
 
-This component allows to define a [minimumDate](qml-org-kde-kirigamiaddons-formcard-formdatetimedelegate.md#minimumDate-prop) and [maximumDate](qml-org-kde-kirigamiaddons-formcard-formdatetimedelegate.md#maximumDate-prop) to restrict the date that the user is allowed to enter.
+This component allows one to define a [minimumDate](qml-org-kde-kirigamiaddons-formcard-formdatetimedelegate.md#minimumDate-prop) and [maximumDate](qml-org-kde-kirigamiaddons-formcard-formdatetimedelegate.md#maximumDate-prop) to restrict the date that the user is allowed to enter.
 
-You should not add a label but instead use the above [FormHeader](qml-org-kde-kirigamiaddons-formcard-formheader.md) to specify what the form delegate refers to.
+You should not add a label but instead use the above [FormHeader](qml-org-kde-kirigamiaddons-formcard-templates-formheader.md) to specify what the form delegate refers to.
 
 ```qml
 import org.kde.kirigamiaddons.formcard as FormCard

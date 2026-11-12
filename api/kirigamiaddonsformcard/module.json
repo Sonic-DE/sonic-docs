@@ -4,6 +4,18 @@
     "module": "kirigamiaddonsformcard",
     "sections": [
         {
+            "description": "",
+            "page": "",
+            "pages": [
+                [
+                    "kirigamiaddonsformcard/org-kde-kirigamiaddons-formcard-templates-qmlmodule",
+                    "Kirigami Addons FormCard Templates"
+                ]
+            ],
+            "qml": false,
+            "title": "kirigamiaddonsformcard"
+        },
+        {
             "description": "Form controls for settings pages and dialogs.",
             "page": "kirigamiaddonsformcard/org-kde-kirigamiaddons-formcard-qmlmodule",
             "pages": [
@@ -142,6 +154,26 @@
                 [
                     "kirigamiaddonsformcard/qml-org-kde-kirigamiaddons-formcard-formtextfielddelegate",
                     "FormTextFieldDelegate"
+                ],
+                [
+                    "kirigamiaddonsformcard/qml-org-kde-kirigamiaddons-formcard-templates-formcard",
+                    "FormCard"
+                ],
+                [
+                    "kirigamiaddonsformcard/qml-org-kde-kirigamiaddons-formcard-templates-formcarddialog",
+                    "FormCardDialog"
+                ],
+                [
+                    "kirigamiaddonsformcard/qml-org-kde-kirigamiaddons-formcard-templates-formdelegatebackground",
+                    "FormDelegateBackground"
+                ],
+                [
+                    "kirigamiaddonsformcard/qml-org-kde-kirigamiaddons-formcard-templates-formgridcontainer",
+                    "FormGridContainer"
+                ],
+                [
+                    "kirigamiaddonsformcard/qml-org-kde-kirigamiaddons-formcard-templates-formheader",
+                    "FormHeader"
                 ]
             ],
             "qml": true,

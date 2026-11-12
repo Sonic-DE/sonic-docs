@@ -7,11 +7,11 @@ description: "QML types for selecting dates and times.."
 
 QML types for selecting dates and times.. [More...](#details)
 
-- Inherits: [RowLayout](https://doc.qt.io/qt-6/qml-qtquick-layouts-rowlayout.html)
+- Inherits: [ColumnLayout](https://doc.qt.io/qt-6/qml-qtquick-layouts-columnlayout.html)
 
 ## Detailed Description {#details}
 
-A large time picker represented as a clock.
+A time picker with labeled hour and minute fields.
 
 ## Property Documentation {#property-documentation}
 

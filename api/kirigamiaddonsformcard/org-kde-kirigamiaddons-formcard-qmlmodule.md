@@ -7,7 +7,7 @@ description: "Form controls for settings pages and dialogs."
 
 Form controls for settings pages and dialogs.
 
-The [FormCard](qml-org-kde-kirigamiaddons-formcard-formcard.md) module provides controls for settings pages and other forms. Import it with an alias so that its types are easy to distinguish from regular Qt Quick Controls:
+The [FormCard](qml-org-kde-kirigamiaddons-formcard-templates-formcard.md) module provides controls for settings pages and other forms. Import it with an alias so that its types are easy to distinguish from regular Qt Quick Controls:
 
 ```qml
 import org.kde.kirigamiaddons.formcard as FormCard
@@ -15,7 +15,7 @@ import org.kde.kirigamiaddons.formcard as FormCard
 
 ## Organizing a form {#organizing-a-form}
 
-A [FormCardPage](qml-org-kde-kirigamiaddons-formcard-formcardpage.md) is a scrollable page that arranges form sections. Each section normally has a [FormHeader](qml-org-kde-kirigamiaddons-formcard-formheader.md) followed by a [FormCard](qml-org-kde-kirigamiaddons-formcard-formcard.md). Put the header beside the card in the page, not inside it. The card holds one or more form delegates, such as [FormSwitchDelegate](qml-org-kde-kirigamiaddons-formcard-formswitchdelegate.md), [FormSliderDelegate](qml-org-kde-kirigamiaddons-formcard-formsliderdelegate.md), [FormTextFieldDelegate](qml-org-kde-kirigamiaddons-formcard-formtextfielddelegate.md), or [FormButtonDelegate](qml-org-kde-kirigamiaddons-formcard-formbuttondelegate.md). The card lays out its delegates vertically and supplies their shared background.
+A [FormCardPage](qml-org-kde-kirigamiaddons-formcard-formcardpage.md) is a scrollable page that arranges form sections. Each section normally has a [FormHeader](qml-org-kde-kirigamiaddons-formcard-templates-formheader.md) followed by a [FormCard](qml-org-kde-kirigamiaddons-formcard-templates-formcard.md). Put the header beside the card in the page, not inside it. The card holds one or more form delegates, such as [FormSwitchDelegate](qml-org-kde-kirigamiaddons-formcard-formswitchdelegate.md), [FormSliderDelegate](qml-org-kde-kirigamiaddons-formcard-formsliderdelegate.md), [FormTextFieldDelegate](qml-org-kde-kirigamiaddons-formcard-formtextfielddelegate.md), or [FormButtonDelegate](qml-org-kde-kirigamiaddons-formcard-formbuttondelegate.md). The card lays out its delegates vertically and supplies their shared background.
 
 ```qml
 import org.kde.kirigamiaddons.formcard as FormCard
@@ -41,7 +41,7 @@ FormCard.FormCardPage {
 }
 ```
 
-Add another header and card for another section. The card's [FormCard::autoSeparators](qml-org-kde-kirigamiaddons-formcard-formcard.md#autoSeparators-prop) property inserts separators between visible delegates when enabled. You can also add [FormDelegateSeparator](qml-org-kde-kirigamiaddons-formcard-formdelegateseparator.md) explicitly when you need to control where a separator appears.
+Add another header and card for another section. The card's [FormCard::autoSeparators](qml-org-kde-kirigamiaddons-formcard-templates-formcard.md#autoSeparators-prop) property inserts separators between visible delegates when enabled. You can also add [FormDelegateSeparator](qml-org-kde-kirigamiaddons-formcard-formdelegateseparator.md) explicitly when you need to control where a separator appears.
 
 ## Creating a custom delegate {#creating-a-custom-delegate}
 
@@ -65,11 +65,11 @@ FormCard.AbstractFormDelegate {
 }
 ```
 
-Use `CounterDelegate` inside a [FormCard](qml-org-kde-kirigamiaddons-formcard-formcard.md), just like the built-in delegates. The inherited `text` property also gives this clickable delegate an accessible name. To remove the default background for a different design, set `background: null`.
+Use `CounterDelegate` inside a [FormCard](qml-org-kde-kirigamiaddons-formcard-templates-formcard.md), just like the built-in delegates. The inherited `text` property also gives this clickable delegate an accessible name. To remove the default background for a different design, set `background: null`.
 
 ## Using delegates in a dialog {#using-delegates-in-a-dialog}
 
-[FormCardDialog](qml-org-kde-kirigamiaddons-formcard-formcarddialog.md) provides a dialog header, a vertical layout for form delegates, and optional standard buttons. Place delegates directly inside it; no [FormCard](qml-org-kde-kirigamiaddons-formcard-formcard.md) or [FormCardPage](qml-org-kde-kirigamiaddons-formcard-formcardpage.md) is needed. Use `standardButtons` to choose the actions and handle `onAccepted` or `onRejected` as with a Qt Quick Controls Dialog:
+[FormCardDialog](qml-org-kde-kirigamiaddons-formcard-templates-formcarddialog.md) provides a dialog header, a vertical layout for form delegates, and optional standard buttons. Place delegates directly inside it; no [FormCard](qml-org-kde-kirigamiaddons-formcard-templates-formcard.md) or [FormCardPage](qml-org-kde-kirigamiaddons-formcard-formcardpage.md) is needed. Use `standardButtons` to choose the actions and handle `onAccepted` or `onRejected` as with a Qt Quick Controls Dialog:
 
 ```qml
 import org.kde.kirigamiaddons.formcard as FormCard
@@ -96,9 +96,9 @@ FormCard.FormCardDialog {
 }
 ```
 
-Call `dialog.open()` from the action that should show the form. Custom delegates based on [AbstractFormDelegate](qml-org-kde-kirigamiaddons-formcard-abstractformdelegate.md) can also be placed directly in a [FormCardDialog](qml-org-kde-kirigamiaddons-formcard-formcarddialog.md).
+Call `dialog.open()` from the action that should show the form. Custom delegates based on [AbstractFormDelegate](qml-org-kde-kirigamiaddons-formcard-abstractformdelegate.md) can also be placed directly in a [FormCardDialog](qml-org-kde-kirigamiaddons-formcard-templates-formcarddialog.md).
 
-*See also* [FormCardPage](qml-org-kde-kirigamiaddons-formcard-formcardpage.md), [FormCard](qml-org-kde-kirigamiaddons-formcard-formcard.md), [FormCardDialog](qml-org-kde-kirigamiaddons-formcard-formcarddialog.md), [AbstractFormDelegate](qml-org-kde-kirigamiaddons-formcard-abstractformdelegate.md)
+*See also* [FormCardPage](qml-org-kde-kirigamiaddons-formcard-formcardpage.md), [FormCard](qml-org-kde-kirigamiaddons-formcard-templates-formcard.md), [FormCardDialog](qml-org-kde-kirigamiaddons-formcard-templates-formcarddialog.md), [AbstractFormDelegate](qml-org-kde-kirigamiaddons-formcard-abstractformdelegate.md)
 
 ## Contents
 

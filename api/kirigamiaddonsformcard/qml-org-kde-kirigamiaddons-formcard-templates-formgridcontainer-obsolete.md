@@ -1,12 +1,12 @@
 ---
 title: "Obsolete Members for FormGridContainer"
 description: "Deprecated members of FormGridContainer QML Type."
-parent: "kirigamiaddonsformcard/qml-org-kde-kirigamiaddons-formcard-formgridcontainer"
+parent: "kirigamiaddonsformcard/qml-org-kde-kirigamiaddons-formcard-templates-formgridcontainer"
 ---
 
 # Obsolete Members for FormGridContainer
 
-**The following members of QML type [FormGridContainer](qml-org-kde-kirigamiaddons-formcard-formgridcontainer.md) are deprecated.** We strongly advise against using them in new code.
+**The following members of QML type [FormGridContainer](qml-org-kde-kirigamiaddons-formcard-templates-formgridcontainer.md) are deprecated.** We strongly advise against using them in new code.
 
 ## Properties
 

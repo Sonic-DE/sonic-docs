@@ -41,6 +41,17 @@ initialProperties: () => {
 }
 ```
 
+### keywords : list\<string\> {#keywords-prop}
+
+Additional search terms for this module, also used when searchable is false.
+
+```qml
+keywords: [
+    i18nc("@info:search keyword", "Hotkey"),
+    i18nc("@info:search keyword", "Key binding")
+]
+```
+
 ### \[required\] moduleId : string {#moduleId-prop}
 
 This property holds the id of the module for when it needs to be referenced.
@@ -50,6 +61,12 @@ Primary use case is for setting a default module in [ConfigurationView](qml-org-
 ### \[required\] page : var {#page-prop}
 
 This property holds a function that returns a Component.
+
+### \[default: true\] searchable : bool {#searchable-prop}
+
+Whether this module can appear in search results.
+
+Set this to false for pages that do not contain searchable settings. Built-in [FormCard](../kirigamiaddonsformcard/qml-org-kde-kirigamiaddons-formcard-templates-formcard.md) About pages are excluded automatically.
 
 ### \[required\] text : string {#text-prop}
 

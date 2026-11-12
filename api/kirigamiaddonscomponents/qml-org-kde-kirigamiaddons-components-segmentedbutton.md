@@ -8,14 +8,8 @@ description: "Segmented button component."
 Segmented button component. [More...](#details)
 
 - Import Statement: import org.kde.kirigamiaddons.components
-- Inherits: [RowLayout](https://doc.qt.io/qt-6/qml-qtquick-layouts-rowlayout.html)
+- Inherits: [SegmentedButton](qml-org-kde-kirigamiaddons-components-templates-segmentedbutton.md)
 
 ## Detailed Description {#details}
 
 This holds multiple buttons.
-
-## Property Documentation {#property-documentation}
-
-### actions : list\<Action\> {#actions-prop}
-
-This property holds individual actions representing the buttons of the segmented button.

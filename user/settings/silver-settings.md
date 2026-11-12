@@ -51,7 +51,7 @@ Click **Apply** to use your changes, or **Defaults** to go back to Silver's stan
 
 ### Transparency
 
-**Menu:** How see-through menus are, from **Transparent** to **Opaque**. Menus are opaque by default.
+How see-through menus are is set in [Transparency](transparency.md#menus), shared with the Breeze style.
 
 ## Window decoration
 
@@ -73,7 +73,7 @@ The **Presets...** button at the top right is described in [Presets](#presets) b
 - **Titlebar Spacing...** opens a dialog for the titlebar's top, bottom, left and right margins, separate top and bottom margins for maximized windows, and the title alignment: **Left**, **Centre**, **Centre (Full Width)** or **Right**.
 - **On active window:** **Draw titlebar background gradient**, **Draw separator under titlebar**, **Make title bold** and **Underline title**.
 
-The titlebar's transparency and blur are set in [Window Decorations](window-decorations.md) under **Configure Titlebar…**, because they're shared by every window decoration and also apply to applications drawn with Qt Quick.
+The titlebar's transparency and blur are set in [Transparency](transparency.md#titlebars), because they're shared by every window decoration and also apply to applications drawn with Qt Quick.
 
 Silver can show an application's menus in the titlebar, in the colours of its **Application menu** button. That's also set under **Configure Titlebar…**, with **Application menu button style**.
 
@@ -106,7 +106,7 @@ A preset is a complete set of Silver window decoration settings with a name. **P
 
 Silver comes with these presets: **Silver**, **Glassy Silver**, **SuessigSilver**, **Silver-Aurorae**, **Breeze Original**, **Chroma**, **ClassiK v3**, **ClassikStyles**, **Defenestrated 7**, **Defenestrated 8**, **Defenestrated 10**, **Defenestrated 11**, **Eaten Fruits**, **Garden Ornaments**, **KLCXP**, **Opal Fruits** and **Plastik**.
 
-Loading a preset also sets the shared titlebar transparency settings in [Window Decorations](window-decorations.md#titlebar-opacity), such as the opacity and blur, and saving a preset records them. Silver doesn't keep its own copy of these settings: if you used them in Silver's settings before, they were moved over to the shared settings automatically.
+Loading a preset also sets the shared titlebar transparency settings in [Transparency](transparency.md#titlebars), such as the opacity and blur, and saving a preset records them. Silver doesn't keep its own copy of these settings: if you used them in Silver's settings before, they were moved over to the shared settings automatically.
 
 ### From the command line
 

@@ -53,6 +53,7 @@ Reference documentation for the SonicDE libraries, generated from their source c
 - [Kirigami Addons App C++ Classes](kirigamiapp/kirigamiapp-module.md): Helpers for setting up Kirigami applications.
 - [Kirigami Platform C++ Classes](kirigamiplatform/kirigamiplatform-module.md): Platform Integration Components.
 - [kirigamiaddonscomponents](kirigamiaddonscomponents/kirigami-addons-index.md)
+- [kirigamiaddonsformcard](kirigamiaddonsformcard/org-kde-kirigamiaddons-formcard-templates-qmlmodule.md)
 - [kirigamiaddonsonboarding](kirigamiaddonsonboarding/kirigamiaddonsonboarding-onboardingtutorial-cmakelists-txt.md)
 - [KItemModels C++ Classes](kitemmodels/kitemmodels-module.md): Models for Qt Model/View system.
 - [KItemViews C++ Classes](kitemviews/kitemviews-module.md): Set of item views extending the Qt model-view framework.

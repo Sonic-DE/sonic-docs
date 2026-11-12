@@ -1,6 +1,6 @@
 ---
 title: Window Decorations
-description: Select a style for window borders, titlebar buttons and titlebar opacity.
+description: Select a style for window borders and titlebar buttons.
 source_url: https://invent.kde.org/plasma/kwin-x11/-/blob/master/doc/kwindecoration-x11/index.docbook
 source_authors: [Rik Hemsley]
 license: GFDL 1.2 or later
@@ -52,28 +52,7 @@ This part sets where the buttons are on the titlebar. Drag buttons between the l
 
 The application's own menu bar is hidden while its menus are in the titlebar. These two options need the **Application menu** button in the titlebar, and a window decoration style that supports them, such as Silver; otherwise they're greyed out with a note saying why. Other styles keep showing the single button.
 
-### Titlebar opacity
+### Titlebar transparency
 
-These settings make the titlebar see-through. They're shared by every window decoration that supports them, and by the toolbars and menu bars of applications, including modern applications drawn with Qt Quick, so a window's whole top area looks the same. Open applications follow your changes straight away.
-
-Titlebar transparency is off until you change one of these settings and apply it, or load a [Silver preset](silver-settings.md#presets) that uses it.
-
-Titlebar opacity needs a style that supports it, such as Silver. Choosing a style without it, such as Breeze, turns these settings off. Going back to a style that supports them turns them on again, as you left them.
-
-- **Active window** and **Inactive window:** How transparent the titlebar is, from **Transparent** to **Opaque**.
-- **Always make maximized titlebars opaque.**
-- **Blur titlebars that have transparency.**
-- **Apply these opacity settings to the entire header area (toolbars and menu bars).**
-- **Match the titlebar to the application colour.**
-
-Loading a Silver preset sets these settings for you, and saving a preset records them. If you set titlebar transparency in Silver's own settings before, those settings were moved here automatically.
-
-### Exceptions
-
-An exception changes only the titlebar opacity settings above, for the applications it matches.
-
-**Add Exception** adds one. Enter an application name or window class as a regular expression, then check each setting you want to change for those applications: **Active window opacity:** and **Inactive window opacity:** with their own percentages, and **Override:** for each of the other settings. Settings you leave unchecked follow the settings above.
-
-The check box at the start of each exception, **Use this exception**, turns it on and off without deleting it. **Remove Exception** deletes it.
-
-Exceptions marked **Default** come with SonicDE. You can't change or remove them, only switch them off with **Use this exception**.
+How see-through the titlebar is, and its per-application exceptions, are set in
+[Transparency](transparency.md#titlebars), for window decoration styles that support it, such as Silver.

@@ -5,10 +5,10 @@ description: "A dialog designed to use FormCard delegates as its content."
 
 # FormCardDialog QML Type
 
-A dialog designed to use [FormCard](qml-org-kde-kirigamiaddons-formcard-formcard.md) delegates as its content. [More...](#details)
+A dialog designed to use [FormCard](qml-org-kde-kirigamiaddons-formcard-templates-formcard.md) delegates as its content. [More...](#details)
 
 - Import Statement: import org.kde.kirigamiaddons.formcard
-- Inherits: [Dialog](https://doc.qt.io/qt-6/qml-qtquick-controls-dialog.html)
+- Inherits: [FormCardDialog](qml-org-kde-kirigamiaddons-formcard-templates-formcarddialog.md)
 
 ## Detailed Description {#details}
 
@@ -36,11 +36,3 @@ FormCard.FormCardDialog {
     }
 }
 ```
-
-## Property Documentation {#property-documentation}
-
-### \[default: false\] autoSeparators : bool {#autoSeparators-prop}
-
-Whether to insert a [FormDelegateSeparator](qml-org-kde-kirigamiaddons-formcard-formdelegateseparator.md) between visible delegates.
-
-This also works for delegates created by a Repeater. Do not add explicit separators when this property is enabled.

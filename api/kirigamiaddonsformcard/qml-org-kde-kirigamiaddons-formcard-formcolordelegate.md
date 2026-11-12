@@ -5,7 +5,7 @@ description: "A FormCard delegate for colors."
 
 # FormColorDelegate QML Type
 
-A [FormCard](qml-org-kde-kirigamiaddons-formcard-formcard.md) delegate for colors. [More...](#details)
+A [FormCard](qml-org-kde-kirigamiaddons-formcard-templates-formcard.md) delegate for colors. [More...](#details)
 
 - Import Statement: import org.kde.kirigamiaddons.formcard
 - Inherits: [AbstractFormDelegate](qml-org-kde-kirigamiaddons-formcard-abstractformdelegate.md)

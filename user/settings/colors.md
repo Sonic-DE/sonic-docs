@@ -21,7 +21,7 @@ SonicDE comes with these color schemes from Silver:
 - **Sonic Colorful Dark**
 - **Opal Fruits Light (Silver)** and **Opal Fruits Dark (Silver)**
 
-The see-through title bars and toolbars of the Silver look aren't part of the color scheme. They're set in [Window Decorations](window-decorations.md#configuring-the-titlebar) with **Configure Titlebar…**, and the transparency of panels and pop-ups in [Desktop Style](desktop-style.md#transparency).
+The see-through title bars and toolbars of the Silver look aren't part of the color scheme. They're set in [Transparency](transparency.md), along with the transparency of panels, pop-ups and menus.
 
 You can filter the list with the search field, and the box next to it shows **All schemes**, **Light schemes** or **Dark schemes**.
 

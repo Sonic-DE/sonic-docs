@@ -37,7 +37,7 @@ To change Breeze's settings, click **Configure Style…** on the Breeze preview 
 
 ### Transparency
 
-**Menu:** How see-through menus are, from **Transparent** to **Opaque**.
+How see-through menus are is set in [Transparency](transparency.md#menus), shared with the Silver style.
 
 ## Breeze Window Decoration
 

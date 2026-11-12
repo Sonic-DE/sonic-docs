@@ -243,9 +243,19 @@
                     "followDecoration"
                 ],
                 [
+                    "menuOpacity",
+                    "menuOpacity(const KSharedConfigPtr &) : int",
+                    "menuOpacity"
+                ],
+                [
                     "migrateFromSilver",
                     "migrateFromSilver(const KSharedConfigPtr &) : bool",
                     "migrateFromSilver"
+                ],
+                [
+                    "migrateMenuOpacity",
+                    "migrateMenuOpacity(const KSharedConfigPtr &) : bool",
+                    "migrateMenuOpacity"
                 ],
                 [
                     "settings",
@@ -261,6 +271,11 @@
                     "writeExceptions",
                     "writeExceptions(const KSharedConfigPtr &, const QList<KToolsArea::Exception> &)",
                     "writeExceptions"
+                ],
+                [
+                    "writeMenuOpacity",
+                    "writeMenuOpacity(const KSharedConfigPtr &, int)",
+                    "writeMenuOpacity"
                 ],
                 [
                     "writeSettings",

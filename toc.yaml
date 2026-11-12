@@ -194,6 +194,7 @@ sections:
       user/settings/task-switcher: Task Switcher
       user/settings/thunderbolt: Thunderbolt
       user/settings/touchscreen-gestures: Touchscreen Gestures
+      user/settings/transparency: Transparency
       user/settings/trash: Trash
       user/settings/virtual-desktops: Virtual Desktops
       user/settings/vpn: VPN connections

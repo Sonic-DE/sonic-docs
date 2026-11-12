@@ -36,19 +36,11 @@ Implementations may add custom graphics which will be clipped along with the res
 
 This property holds the color to use for this avatar.
 
-### \[read-only\] defaultInitialsColor : color {#defaultInitialsColor-prop}
-
-This property holds the default color of the avatar's initials.
-
 ### imageMode : int {#imageMode-prop}
 
 This property holds how the avatar should be shown.
 
 *See also* [Avatar.imageMode](qml-org-kde-kirigamiaddons-components-avatar.md#imageMode-prop)
-
-### initialsColor : color {#initialsColor-prop}
-
-This property holds the color of the avatar's initials.
 
 ### initialsMode : int {#initialsMode-prop}
 

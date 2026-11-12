@@ -12,7 +12,7 @@ A context menu that can appear as a standard menu, bottom drawer, or dialog. [Mo
 
 ## Detailed Description {#details}
 
-Add [QtQuick Controls actions](https://doc.qt.io/qt-6/qml-qtquick-controls-action.html) or [Kirigami actions](../kirigami/qml-org-kde-kirigami-action.md) as child items. Kirigami actions can contain nested actions. By default, the menu uses a standard context menu on desktop and a bottom drawer on mobile. A Kirigami action's `displayComponent` can provide a custom delegate in [BottomDrawer](qml-org-kde-kirigamiaddons-components-bottomdrawer.md) and Dialog modes.
+Add [QtQuick Controls actions](https://doc.qt.io/qt-6/qml-qtquick-controls-action.html) or [Kirigami actions](../kirigami/qml-org-kde-kirigami-action.md) as child items. Kirigami actions can contain nested actions. By default, the menu uses a standard context menu on desktop and a bottom drawer on mobile. A Kirigami action's `displayComponent` can provide a custom delegate in [BottomDrawer](qml-org-kde-kirigamiaddons-components-templates-bottomdrawer.md) and Dialog modes.
 
 ```qml
 import QtQuick.Controls as Controls
@@ -136,7 +136,7 @@ Each item can be a [QtQuick Controls action](https://doc.qt.io/qt-6/qml-qtquick-
 
 The presentation used to display the context menu.
 
-By default, this is [ContextMenu](https://doc.qt.io/qt-6/qml-qtquick-controls-contextmenu.html) on desktop and [BottomDrawer](qml-org-kde-kirigamiaddons-components-bottomdrawer.md) on mobile.
+By default, this is [ContextMenu](https://doc.qt.io/qt-6/qml-qtquick-controls-contextmenu.html) on desktop and [BottomDrawer](qml-org-kde-kirigamiaddons-components-templates-bottomdrawer.md) on mobile.
 
 | Constant | Description |
 | --- | --- |
@@ -148,7 +148,7 @@ By default, this is [ContextMenu](https://doc.qt.io/qt-6/qml-qtquick-controls-co
 
 Optional item displayed above the actions in the menu.
 
-> **Note:** This item is shown only at the top level in [BottomDrawer](qml-org-kde-kirigamiaddons-components-bottomdrawer.md) and Dialog display modes. It is not shown in [ContextMenu](https://doc.qt.io/qt-6/qml-qtquick-controls-contextmenu.html) mode.
+> **Note:** This item is shown only at the top level in [BottomDrawer](qml-org-kde-kirigamiaddons-components-templates-bottomdrawer.md) and Dialog display modes. It is not shown in [ContextMenu](https://doc.qt.io/qt-6/qml-qtquick-controls-contextmenu.html) mode.
 
 ### opened : bool {#opened-prop}
 

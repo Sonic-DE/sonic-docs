@@ -5,14 +5,14 @@ description: "A FormCard delegate that allows switching between multiple options
 
 # FormRadioSelectorDelegate QML Type
 
-A [FormCard](qml-org-kde-kirigamiaddons-formcard-formcard.md) delegate that allows switching between multiple options. [More...](#details)
+A [FormCard](qml-org-kde-kirigamiaddons-formcard-templates-formcard.md) delegate that allows switching between multiple options. [More...](#details)
 
 - Import Statement: import org.kde.kirigamiaddons.formcard
 - Inherits: [AbstractFormDelegate](qml-org-kde-kirigamiaddons-formcard-abstractformdelegate.md)
 
 ## Detailed Description {#details}
 
-This wraps a [RadioSelector](../kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-radioselector.md).
+This wraps a [RadioSelector](../kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-templates-radioselector.md).
 
 Example:
 

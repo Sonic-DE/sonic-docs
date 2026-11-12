@@ -8,6 +8,7 @@ description: "This component is a button that can be displayed at the bottom of 
 This component is a button that can be displayed at the bottom of a page. [More...](#details)
 
 - Import Statement: import org.kde.kirigamiaddons.components
+- Inherits: [FloatingButton](qml-org-kde-kirigamiaddons-components-templates-floatingbutton.md)
 
 ## Detailed Description {#details}
 
@@ -37,25 +38,3 @@ Kirigami.ScrollablePage {
     }
 }
 ```
-
-## Property Documentation {#property-documentation}
-
-### \[default: 0\] bottomMargin : real {#bottomMargin-prop}
-
-Extra clickable area that adjusts both paddings and insets.
-
-### \[default: 0\] leftMargin : real {#leftMargin-prop}
-
-Extra clickable area that adjusts both paddings and insets.
-
-### \[default: 0\] margins : real {#margins-prop}
-
-Extra clickable area that adjusts both paddings and insets.
-
-### \[default: 0\] rightMargin : real {#rightMargin-prop}
-
-Extra clickable area that adjusts both paddings and insets.
-
-### \[default: 0\] topMargin : real {#topMargin-prop}
-
-Extra clickable area that adjusts both paddings and insets.

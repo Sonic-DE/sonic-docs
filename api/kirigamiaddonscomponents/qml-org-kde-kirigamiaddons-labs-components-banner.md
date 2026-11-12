@@ -14,7 +14,7 @@ An banner Item with support for informational, positive, warning and error types
 
 ## Detailed Description {#details}
 
-Banner can be used to inform or interact with the user without requiring the use of a dialog and are positionned in the footer or header of a page. For inline content, see Kirigami.[InlineMessage](../kirigami/qml-org-kde-kirigami-inlinemessage.md).
+Banner can be used to inform or interact with the user without requiring the use of a dialog and are positioned in the footer or header of a page. For inline content, see Kirigami.[InlineMessage](../kirigami/qml-org-kde-kirigami-inlinemessage.md).
 
 The Banner is hidden by default.
 

@@ -38,12 +38,6 @@ This property holds the color to use for this avatar.
 
 If not explicitly set, this defaults to generating a color from the name.
 
-### \[read-only\] defaultInitialsColor : color {#defaultInitialsColor-prop}
-
-This property holds the default color of the avatar's initials.
-
-It depends on the avatar's color.
-
 ### iconSource : var {#iconSource-prop}
 
 This property holds avatar's icon source.
@@ -65,14 +59,6 @@ Possible values are:
 | Avatar.ImageMode.AlwaysShowImage | Always try to show the image even if it hasn't loaded yet or is undefined. |
 | Avatar.ImageMode.AdaptiveImageOrInitals | Show the image if it is valid or initials if it is not. |
 | Avatar.ImageMode.AlwaysShowInitials | Always show initials. |
-
-### initialsColor : color {#initialsColor-prop}
-
-This property holds the color of the avatar's initials.
-
-If not explicitly set, this defaults to [defaultInitialsColor](qml-org-kde-kirigamiaddons-components-avatar.md#defaultInitialsColor-prop).
-
-*See also* [defaultInitialsColor](qml-org-kde-kirigamiaddons-components-avatar.md#defaultInitialsColor-prop)
 
 ### initialsMode : int {#initialsMode-prop}
 

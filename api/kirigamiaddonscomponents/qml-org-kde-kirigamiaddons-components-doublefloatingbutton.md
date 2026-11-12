@@ -1,13 +1,14 @@
 ---
 title: "DoubleFloatingButton QML Type"
-description: "This component allows to display two buttons at the bottom of a page."
+description: "This component allows one to display two buttons at the bottom of a page."
 ---
 
 # DoubleFloatingButton QML Type
 
-This component allows to display two buttons at the bottom of a page. [More...](#details)
+This component allows one to display two buttons at the bottom of a page. [More...](#details)
 
 - Import Statement: import org.kde.kirigamiaddons.components
+- Inherits: [DoubleFloatingButton](qml-org-kde-kirigamiaddons-components-templates-doublefloatingbutton.md)
 
 ## Detailed Description {#details}
 
@@ -42,33 +43,3 @@ Kirigami.ScrollablePage {
     }
 }
 ```
-
-## Property Documentation {#property-documentation}
-
-### \[default: 0\] bottomMargin : real {#bottomMargin-prop}
-
-Extra clickable area that adjusts both paddings and insets.
-
-### leadingAction : Kirigami.Action {#leadingAction-prop}
-
-This property holds the leading action.
-
-### \[default: 0\] leftMargin : real {#leftMargin-prop}
-
-Extra clickable area that adjusts both paddings and insets.
-
-### \[default: 0\] margins : real {#margins-prop}
-
-Extra clickable area that adjusts both paddings and insets.
-
-### \[default: 0\] rightMargin : real {#rightMargin-prop}
-
-Extra clickable area that adjusts both paddings and insets.
-
-### \[default: 0\] topMargin : real {#topMargin-prop}
-
-Extra clickable area that adjusts both paddings and insets.
-
-### trailingAction : Kirigami.Action {#trailingAction-prop}
-
-This property holds the trailing action.

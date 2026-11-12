@@ -8,8 +8,8 @@ description: "Helper to set up the process to properly run a Kirigami app. This 
 Helper to set up the process to properly run a Kirigami app. **This class is deprecated since 1.11. We strongly advise against using it in new code.** [More...](#details)
 
 - **Header:** `#include <KirigamiApp>`
-- **CMake:** `find_package(KF6 REQUIRED COMPONENTS KirigamiAddons)`  
-  `target_link_libraries(mytarget PRIVATE KF6::KirigamiAddons)`
+- **CMake:** `find_package(KF6KirigamiAddons REQUIRED)`  
+  `target_link_libraries(mytarget PRIVATE KirigamiApp)`
 - **Inherits:** [QObject](https://doc.qt.io/qt-6/qobject.html)
 - **Status:** Deprecated since 1.11
 

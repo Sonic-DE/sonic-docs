@@ -14,7 +14,7 @@ An [AboutPage](qml-org-kde-kirigamiaddons-formcard-aboutpage.md) that displays t
 
 This component consists of an internationalized "About" page with the metadata of your program.
 
-It allows to show the copyright notice of the application together with the contributors and some information of which platform it's running on.
+It allows one to show the copyright notice of the application together with the contributors and some information of which platform it's running on.
 
 ## Property Documentation {#property-documentation}
 

@@ -14,7 +14,7 @@ description: "StatefulWindow takes care of providing standard functionalities fo
 
 This includes:
 
-- Restoration of the window size accross restarts
+- Restoration of the window size across restarts
 - Handling some of the standard actions defined in your [AbstractKirigamiApplication](abstractkirigamiapplication.md) (AboutKDE and AboutApp)
 - A command bar to access all the defined actions
 - A shortcut editor

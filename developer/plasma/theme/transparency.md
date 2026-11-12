@@ -1,14 +1,14 @@
 ---
 title: Transparency and the unified header
-description: How a desktop style follows the transparency set in Desktop Style settings, and how popup headings and window decorations form one see-through header.
-checked_against: "sonic-frameworks-svg (ImageSetPrivate::readDesktopThemeOpacity), sonic-interface-libraries (default and Silver desktop themes), sonic-workspace (kcms/desktoptheme), sonic-win (DecorationBridge), sonic-frameworks-color-scheme (src/ktoolsarea.h, src/ktoolsarea.cpp), Qt 6.11.3"
+description: How a desktop style follows the transparency set in the Transparency settings, how popup headings and window decorations form one see-through header, and how widget styles follow the menu transparency.
+checked_against: "sonic-frameworks-svg (ImageSetPrivate::readDesktopThemeOpacity), sonic-interface-libraries (default and Silver desktop themes), sonic-workspace (kcms/transparency), sonic-silver and sonic-breeze (kstyle/breezestyle.cpp), sonic-win (DecorationBridge), sonic-frameworks-color-scheme (src/ktoolsarea.h, src/ktoolsarea.cpp), Qt 6.11.3"
 ---
 
 # Transparency and the unified header
 
 ## Following the transparency settings {#follow}
 
-The Transparency section of **System Settings → Desktop Style → Configure Desktop Style…** sets how
+The Desktop section of **System Settings → Colors & Themes → Transparency** sets how
 see-through panels, pop-ups, tooltips and desktop widgets are. It works like [accent colors](colors.md): one desktop-wide setting,
 applied to every desktop style that asks for it. Styles that don't ask keep their own transparency.
 
@@ -80,8 +80,8 @@ and margins stay the same. Any fill there would stack on the pop-up's own and lo
 ### Window decorations
 
 The titlebar and the toolbars and menu bars under it can be one see-through surface, the tools area.
-Its settings are shared desktop-wide in the `[ToolsArea]` group of `kdeglobals`, set in **Window
-Decorations → Configure Titlebar…**, and read through `KToolsArea` in sonic-frameworks-color-scheme by
+Its settings are shared desktop-wide in the `[ToolsArea]` group of `kdeglobals`, set in the Titlebars
+section of **Transparency**, and read through `KToolsArea` in sonic-frameworks-color-scheme by
 the decoration, the app style and the Qt Quick platform integration.
 
 A window decoration that draws a see-through titlebar from these settings says so in its plugin
@@ -133,3 +133,22 @@ if (settings.enabled) {
 - `followDecoration(scheme, supported)` is what SonicWin calls with the `X-SonicDE-ToolsArea` marker, as
   described above. `migrateFromSilver()` moves the settings the Silver theme kept in `silverrc` before
   the tools area existed, once.
+
+## Menus {#menus}
+
+How see-through menus are is one desktop-wide value, `[Menus] Opacity` in `kdeglobals` (percent, 100 by
+default), set in the Menus section of **Transparency**. A widget style that draws see-through menus
+reads it through `KToolsArea` and reloads on `KGlobalSettings.notifyChange`, as the Silver and Breeze
+styles do in `loadConfiguration()`:
+
+```cpp
+const KSharedConfigPtr kdeglobals = KSharedConfig::openConfig(QStringLiteral("kdeglobals"));
+kdeglobals->reparseConfiguration();
+KToolsArea::migrateMenuOpacity(kdeglobals);
+const int menuOpacity = KToolsArea::menuOpacity(kdeglobals);
+```
+
+- `menuOpacity(scheme)` returns the value, clamped to 0–100.
+- `writeMenuOpacity(scheme, opacity)` writes it with KConfig's Notify flag.
+- `migrateMenuOpacity(scheme)` runs once, while `[Menus]` has no `Opacity` key: it moves `MenuOpacity`
+  from Silver's `silverrc` (`[Style]`), or else Breeze's `breezerc`, and deletes it from both.

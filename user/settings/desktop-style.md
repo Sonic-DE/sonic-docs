@@ -27,20 +27,7 @@ For more technical information, see [Understanding desktop themes](../../develop
 
 ![Getting new styles](images/desktop-style/get-new-theme.png)
 
-## Configuring the desktop style
+## Transparency
 
-**Configure Desktop Style…** has settings for styles that support them, such as Silver Light and Silver
-Dark. Other styles keep their own look, and the page says so when one of them is selected.
-
-### Transparency
-
-How see-through the desktop is.
-
-- **Use these settings instead of the desktop style's own:** Turns the settings below on. Moving a
-  slider turns it on for you.
-- **Panels**, **Pop-ups**, **Tooltips** and **Desktop widgets:** How transparent each one is, from
-  **Transparent** to **Opaque**. Pop-ups include their top and bottom bars, such as the search field
-  and buttons in the application launcher. Desktop widgets are only see-through while the Blur desktop
-  effect is on.
-
-Changes show straight away when you click **Apply**.
+How see-through panels, pop-ups, tooltips and desktop widgets are is set in [Transparency](transparency.md#desktop),
+for desktop styles that support it, such as Silver Light and Silver Dark.

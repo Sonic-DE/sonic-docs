@@ -69,7 +69,7 @@ The modules you see depend on what's installed and on your hardware.
 
 ### Appearance & Style
 
-- **Colors & Themes:** [Global Theme](global-theme.md), [Colors](colors.md), [Application Style](application-style.md), [Desktop Style](desktop-style.md), [Window Decorations](window-decorations.md), [Icons](icons.md), [Pointers](pointers.md), [System Sounds](system-sounds.md), [Splash Screen](splash-screen.md). The Silver, Breeze and Oxygen styles have their own settings, opened from Application Style and Window Decorations: [Silver Settings](silver-settings.md), [Breeze settings](breeze-settings.md) and [Oxygen settings](oxygen-settings.md).
+- **Colors & Themes:** [Global Theme](global-theme.md), [Colors](colors.md), [Transparency](transparency.md), [Application Style](application-style.md), [Desktop Style](desktop-style.md), [Window Decorations](window-decorations.md), [Icons](icons.md), [Pointers](pointers.md), [System Sounds](system-sounds.md), [Splash Screen](splash-screen.md). The Silver, Breeze and Oxygen styles have their own settings, opened from Application Style and Window Decorations: [Silver Settings](silver-settings.md), [Breeze settings](breeze-settings.md) and [Oxygen settings](oxygen-settings.md).
 - **Text & Fonts:** [Fonts](fonts.md), [Font Management](font-management.md)
 - [Animations](animations.md), [Wallpaper](wallpaper.md)
 

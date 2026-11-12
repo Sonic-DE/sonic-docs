@@ -12,7 +12,7 @@ checked_against: "sonic-win (src/kcms/rules, src/kcms/scripts, src/plugins/blur/
 
 ## Window decorations only
 
-To get translucent titlebars, you need window decorations that are translucent, and the blur effect turned on in the [Desktop Effects](../settings/desktop-effects.md) module. The [Window Decorations](../settings/window-decorations.md) module has a **Titlebar opacity** setting.
+To get translucent titlebars, you need window decorations that are translucent, and the blur effect turned on in the [Desktop Effects](../settings/desktop-effects.md) module. The [Transparency](../settings/transparency.md#titlebars) module sets how see-through titlebars are.
 
 ## Window body transparency
 

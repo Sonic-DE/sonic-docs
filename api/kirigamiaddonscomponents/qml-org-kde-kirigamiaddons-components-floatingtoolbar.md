@@ -8,7 +8,7 @@ description: "A floating toolbar to use for example in a canvas."
 A floating toolbar to use for example in a canvas. [More...](#details)
 
 - Import Statement: import org.kde.kirigamiaddons.components
-- Inherits: [ToolBar](https://doc.qt.io/qt-6/qml-qtquick-controls-toolbar.html)
+- Inherits: [FloatingToolBar](qml-org-kde-kirigamiaddons-components-templates-floatingtoolbar.md)
 
 ## Detailed Description {#details}
 

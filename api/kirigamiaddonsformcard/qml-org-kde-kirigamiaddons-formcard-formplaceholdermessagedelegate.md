@@ -5,7 +5,7 @@ description: "A placeholder message indicating that a FormCard is empty. This ty
 
 # FormPlaceholderMessageDelegate QML Type
 
-A placeholder message indicating that a [FormCard](qml-org-kde-kirigamiaddons-formcard-formcard.md) is empty. This type was introduced in Qt 6.9. [More...](#details)
+A placeholder message indicating that a [FormCard](qml-org-kde-kirigamiaddons-formcard-templates-formcard.md) is empty. This type was introduced in Qt 6.9. [More...](#details)
 
 - Import Statement: import org.kde.kirigamiaddons.formcard
 - Since: Qt 6.9

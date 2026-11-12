@@ -20,7 +20,6 @@ Demonstrates how onboarding overlays can highlight controls on demand.
 
 #include <utility>
 
-#include <KLocalizedContext>
 #include <KLocalizedQmlContext>
 #include <KLocalizedString>
 

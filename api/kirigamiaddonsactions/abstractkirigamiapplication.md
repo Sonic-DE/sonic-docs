@@ -42,7 +42,7 @@ The main container for your actions. [More...](#details)
 
 [AbstractKirigamiApplication](abstractkirigamiapplication.md) is a class that needs to be inherited in your application.
 
-It allows to expose the various actions of your application to the QML frontend. Depending on the complexitiy of the application, you can either reimplement [setupActions](abstractkirigamiapplication.md#setupActions) only and put all your actions inside the [mainCollection](abstractkirigamiapplication.md#mainCollection), or, if you want to organize your actions in multiple collections, you can also expose the custom collections by overwriting [actionCollections](abstractkirigamiapplication.md#actionCollections).
+It allows one to expose the various actions of your application to the QML frontend. Depending on the complexitiy of the application, you can either reimplement [setupActions](abstractkirigamiapplication.md#setupActions) only and put all your actions inside the [mainCollection](abstractkirigamiapplication.md#mainCollection), or, if you want to organize your actions in multiple collections, you can also expose the custom collections by overwriting [actionCollections](abstractkirigamiapplication.md#actionCollections).
 
 ```cpp
 class MyKoolApp : public AbstractKirigamiApplication

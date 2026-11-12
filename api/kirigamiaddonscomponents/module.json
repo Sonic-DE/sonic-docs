@@ -12,6 +12,10 @@
                     "Kirigami Addons"
                 ],
                 [
+                    "kirigamiaddonscomponents/org-kde-kirigamiaddons-components-templates-qmlmodule",
+                    "Kirigami Addons Components Templates"
+                ],
+                [
                     "kirigamiaddonscomponents/org-kde-kirigamiaddons-labs-components-qmlmodule",
                     "Kirigami Addons Components (Labs) QML Types"
                 ]
@@ -73,6 +77,34 @@
                 ],
                 [
                     "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-segmentedbutton",
+                    "SegmentedButton"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-templates-bottomdrawer",
+                    "BottomDrawer"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-templates-doublefloatingbutton",
+                    "DoubleFloatingButton"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-templates-floatingbutton",
+                    "FloatingButton"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-templates-floatingtoolbar",
+                    "FloatingToolBar"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-templates-messagedialog",
+                    "MessageDialog"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-templates-radioselector",
+                    "RadioSelector"
+                ],
+                [
+                    "kirigamiaddonscomponents/qml-org-kde-kirigamiaddons-components-templates-segmentedbutton",
                     "SegmentedButton"
                 ],
                 [

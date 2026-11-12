@@ -33,7 +33,7 @@ This provides additional information shown in a faint gray color.
 
 ### descriptionItem : Label {#descriptionItem-prop}
 
-This property allows to override the internal description item with a custom component.
+This property allows one to override the internal description item with a custom component.
 
 ### \[default: null\] leading : Item {#leading-prop}
 

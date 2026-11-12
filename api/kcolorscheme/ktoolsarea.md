@@ -18,10 +18,13 @@ The window's tools area: the titlebar and the toolbars and main menu bar under i
 - [KToolsArea::Colors colors(const KSharedConfigPtr &scheme, const KToolsArea::Settings &settings)](#colors)
 - [QList\<KToolsArea::Exception\> exceptions(const KSharedConfigPtr &scheme)](#exceptions)
 - [bool followDecoration(const KSharedConfigPtr &scheme, bool supported)](#followDecoration)
+- [int menuOpacity(const KSharedConfigPtr &scheme)](#menuOpacity)
 - [bool migrateFromSilver(const KSharedConfigPtr &scheme)](#migrateFromSilver)
+- [bool migrateMenuOpacity(const KSharedConfigPtr &scheme)](#migrateMenuOpacity)
 - [KToolsArea::Settings settings(const KSharedConfigPtr &scheme, const QString &name = QString())](#settings)
 - [QString snapshot(const KSharedConfigPtr &scheme)](#snapshot)
 - [void writeExceptions(const KSharedConfigPtr &scheme, const QList\<KToolsArea::Exception\> &exceptions)](#writeExceptions)
+- [void writeMenuOpacity(const KSharedConfigPtr &scheme, int opacity)](#writeMenuOpacity)
 - [void writeSettings(const KSharedConfigPtr &scheme, const KToolsArea::Settings &settings)](#writeSettings)
 
 ## Detailed Description {#details}
@@ -44,9 +47,17 @@ The exceptions, the built-in default ones first.
 
 Follows the window decoration: one that doesn't draw a translucent tools area (`supported` false) turns the tools area off, recording that it did (`DisabledByDecoration`); a supporting one turns a tools area turned off that way back on. Returns whether it changed anything.
 
+### \[static\] int KToolsArea::menuOpacity(const KSharedConfigPtr &*scheme*) {#menuOpacity}
+
+The opacity of menus, 0–100 (100: opaque), from \[Menus\] `Opacity`. Widget styles that draw see-through menus follow it, whichever style is in use.
+
 ### \[static\] bool KToolsArea::migrateFromSilver(const KSharedConfigPtr &*scheme*) {#migrateFromSilver}
 
 Once: when \[ToolsArea\] has no Enabled key yet, moves the Silver theme's earlier titlebar transparency settings and exceptions from silver/silverrc here and deletes them there. Returns whether it did.
+
+### \[static\] bool KToolsArea::migrateMenuOpacity(const KSharedConfigPtr &*scheme*) {#migrateMenuOpacity}
+
+Once: when \[Menus\] has no `Opacity` key yet, moves the Silver style's earlier menu opacity (silver/silverrc), or else the Breeze style's (breezerc), here and deletes it from both. Returns whether it wrote anything.
 
 ### \[static\] KToolsArea::Settings KToolsArea::settings(const KSharedConfigPtr &*scheme*, const QString &*name* = QString()) {#settings}
 
@@ -59,6 +70,10 @@ Every \[ToolsArea\] entry as text, to tell whether anything changed.
 ### \[static\] void KToolsArea::writeExceptions(const KSharedConfigPtr &*scheme*, const QList\<KToolsArea::Exception\> &*exceptions*) {#writeExceptions}
 
 Replaces the exceptions with `exceptions` (default ones: only their Enabled).
+
+### \[static\] void KToolsArea::writeMenuOpacity(const KSharedConfigPtr &*scheme*, int *opacity*) {#writeMenuOpacity}
+
+Writes `opacity` as \[Menus\] `Opacity`, notifying watchers.
 
 ### \[static\] void KToolsArea::writeSettings(const KSharedConfigPtr &*scheme*, const KToolsArea::Settings &*settings*) {#writeSettings}
 

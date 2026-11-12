@@ -8,7 +8,7 @@ description: "A Component that allows switching between multiple options."
 A Component that allows switching between multiple options. [More...](#details)
 
 - Import Statement: import org.kde.kirigamiaddons.components
-- Inherits: [Item](https://doc.qt.io/qt-6/qml-qtquick-item.html)
+- Inherits: [RadioSelector](qml-org-kde-kirigamiaddons-components-templates-radioselector.md)
 
 ## Detailed Description {#details}
 
@@ -33,19 +33,3 @@ Components.RadioSelector {
   ]
 }
 ```
-
-## Property Documentation {#property-documentation}
-
-### actions : list\<Action\> {#actions-prop}
-
-This property holds a list of actions, each holding one of the options.
-
-### \[default: false\] consistentWidth : bool {#consistentWidth-prop}
-
-This property holds whether all the items should have the same width.
-
-### selectedIndex : int {#selectedIndex-prop}
-
-This property holds the currently selected option.
-
-By default, it's the first actions or -1 if no actions is set.

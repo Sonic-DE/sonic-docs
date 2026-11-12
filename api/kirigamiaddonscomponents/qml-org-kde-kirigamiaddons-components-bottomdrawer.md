@@ -8,14 +8,14 @@ description: "A bottom drawer component with a drag indicator."
 A bottom drawer component with a drag indicator. [More...](#details)
 
 - Import Statement: import org.kde.kirigamiaddons.components
-- Inherits: [Drawer](https://doc.qt.io/qt-6/qml-qtquick-controls-drawer.html)
+- Inherits: [BottomDrawer](qml-org-kde-kirigamiaddons-components-templates-bottomdrawer.md)
 
 ## Detailed Description {#details}
 
 Example:
 
 ```qml
-import org.kde.kirigamiaddons.delegates as Delegates
+import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.kirigamiaddons.components as Components
 
 Components.BottomDrawer {
@@ -25,34 +25,75 @@ Components.BottomDrawer {
         text: "Drawer"
     }
 
-    Delegates.RoundedItemDelegate {
-        text: "Action 1"
-        icon.name: "list-add"
-        onClicked: {
-            doSomething()
-            drawer.close()
-        }
-    }
+    ColumnLayout {
+        spacing: 0
 
-    Delegates.RoundedItemDelegate {
-        text: "Action 1"
-        icon.name: "list-add"
-        onClicked: {
-            doSomething()
-            drawer.close()
+        FormCard.FormButtonDelegate {
+            text: "Action 1"
+            icon.name: "list-add-symbolic"
+            onClicked: {
+                doSomething()
+                drawer.close()
+            }
+        }
+
+        FormCard.FormButtonDelegate {
+            text: "Action 2"
+            icon.name: "list-remove-symbolic"
+            onClicked: {
+                doSomething()
+                drawer.close()
+            }
         }
     }
 }
 ```
 
-## Property Documentation {#property-documentation}
+A drawer with a profile header and a scrollable list:
 
-### \[default\] drawerContentItem : Item {#drawerContentItem-prop}
+```qml
+Components.BottomDrawer {
+    id: drawer
+    width: QQC2.ApplicationWindow.window.width
 
-This property holds the content item of the drawer.
+    headerContentItem: RowLayout {
+        spacing: Kirigami.Units.smallSpacing
 
-### headerContentItem : Item {#headerContentItem-prop}
+        Components.Avatar {
+            name: "World"
+        }
 
-This property holds the content item of the drawer header.
+        ColumnLayout {
+            Layout.leftMargin: Kirigami.Units.largeSpacing
+            Layout.fillWidth: true
+            spacing: Kirigami.Units.smallSpacing
 
-When no headerContentItem is set, the header will not be displayed.
+            Kirigami.Heading {
+                text: "John Doe"
+                Layout.fillWidth: true
+            }
+            QQC2.Label {
+                text: "Last connection: 20.04.2042"
+                Layout.fillWidth: true
+            }
+        }
+    }
+
+    QQC2.ScrollView {
+        implicitHeight: Math.max(view.implicitHeight, QQC2.ApplicationWindow.window.height * 0.8)
+
+        ListView {
+            id: view
+
+            model: 40
+            clip: true
+
+            delegate: Delegates.RoundedItemDelegate {
+                required property int index
+
+                text: "Item " + index
+            }
+        }
+    }
+}
+```

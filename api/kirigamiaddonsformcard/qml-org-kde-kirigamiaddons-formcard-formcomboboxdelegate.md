@@ -64,7 +64,7 @@ This is supposed to be a short text and the API user should avoid making it long
 
 The dialog component used for the [ComboBox](https://doc.qt.io/qt-6/qml-qtquick-controls-combobox.html).
 
-This property allows to override the internal dialog with a custom component.
+This property allows one to override the internal dialog with a custom component.
 
 ### dialogDelegate : Component {#dialogDelegate-prop}
 
@@ -116,7 +116,7 @@ This property holds the [model](https://doc.qt.io/qt-6/qml-qtquick-controls-comb
 
 The page component used for the [ComboBox](https://doc.qt.io/qt-6/qml-qtquick-controls-combobox.html), if applicable.
 
-This property allows to override the internal [Kirigami.ScrollablePage](../kirigami/qml-org-kde-kirigami-scrollablepage.md) with a custom component.
+This property allows one to override the internal [Kirigami.ScrollablePage](../kirigami/qml-org-kde-kirigami-scrollablepage.md) with a custom component.
 
 ### status : var {#status-prop}
 
