@@ -83,10 +83,9 @@ The **Terminal** widget is the same terminal as the Terminal Panel, in a popup f
 - Your color scheme's transparency and blur apply behind the terminal text.
 - As with the Terminal Panel, only one Terminal Panel or Terminal widget can exist, and cloning a panel doesn't copy the widget.
 
-Right-click the tab bar or a toolbar for **Configure Terminal…**, which opens Terminal's own settings. Right-click the widget's button and choose **Configure Terminal...** for the widget's settings:
+Right-click the tab bar or a toolbar for **Configure Terminal…**, which opens Terminal's own settings. Right-click the widget's button and choose **Configure Terminal...** for the widget's settings: **Profile:**, the name of the Terminal profile to start with. Leave it empty to use your default profile.
 
-- **General:** **Profile:**, the name of the Terminal profile to start with. Leave it empty to use your default profile.
-- **Keyboard Shortcuts:** A shortcut that opens and closes the popup from anywhere. There is none until you set one; clear it to turn it off again.
+Neither terminal widget has a keyboard shortcut of its own; use your panel's [Focus shortcut](panels.md#using-a-panel-with-the-keyboard).
 
 ## The world outside
 

@@ -78,11 +78,12 @@ Widgets installed by the user (without root), for example from the widget explor
 
 ### Where a widget can be placed
 
-Three optional keys at the top level of `metadata.json` limit where a widget goes. SonicDE's Terminal Panel and Terminal widgets use all three.
+Optional keys at the top level of `metadata.json` limit where a widget goes and how it opens. SonicDE's Terminal Panel and Terminal widgets use them all.
 
 - `"NoDisplay": true` keeps the widget out of the Add Widgets list. A layout template can still add it by its `Id`.
 - `"X-SonicDE-AloneInContainment": true` keeps the widget's panel or desktop to itself. While it is there, that panel offers no **Add Widgets** and no **Clone Panel**, and widgets can't be dropped onto it. Layout scripts can still add widgets.
 - `"X-SonicDE-HiddenWhilePlaced"` is a list of widget `Id`s. While any of them is placed anywhere, on any screen or activity, the widget isn't offered in Add Widgets and isn't copied when its panel is cloned. List the widget's own `Id` for "one at a time"; give every member of a group the same list for "one of the group at a time". The key works the same way on layout templates (see [Layout templates](../scripting/templates.md)).
+- `"X-SonicDE-NoGlobalShortcut": true` leaves shortcuts to the widget's panel. The widget gets no **Keyboard Shortcuts** page and no global shortcut, also not from layout scripts, and a shortcut it had before is removed when it loads.
 
 ```json
 {
