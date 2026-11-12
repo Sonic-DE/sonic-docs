@@ -4,7 +4,7 @@ description: The screen that asks whether to log out, restart, shut down or put 
 source_authors: [SonicDE contributors]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "sonic-silver (look-and-feel/org.kde.silver.desktop/contents/logout/Logout.qml), sonic-workspace (startkde/session-shortcuts/main.cpp, containmentactions/contextmenu/menu.cpp); written from the code, not clicked through"
+checked_against: "sonic-silver (look-and-feel/org.kde.silverlightbottompanel.desktop/contents/logout/Logout.qml), sonic-workspace (startkde/session-shortcuts/main.cpp, containmentactions/contextmenu/menu.cpp); written from the code, not clicked through"
 ---
 
 # Logout screen

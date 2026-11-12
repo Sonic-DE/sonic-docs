@@ -33,7 +33,6 @@ SonicDE's own look is Silver, and **Silver Light - Bottom Panel** is the default
 - **Silver Light - Left Panel:** Light theme with the panel on the left.
 - **Silver Dark - Bottom Panel:** Dark theme with a traditional panel at the bottom and labelled tasks.
 - **Silver Dark - Left Panel:** Dark theme with the panel on the left.
-- **Silver:** The light Silver look with the Silver wallpaper.
 
 The light themes use the Silver Light colors, Silver icons, Silver Light pointers and the Silver Light desktop style; the dark themes use Silver Dark, Silver Dark icons, Silver pointers and the Silver Dark desktop style. All of them use the Silver application style, Silver window borders and the Silver splash screen.
 
