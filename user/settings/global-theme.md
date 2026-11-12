@@ -5,7 +5,7 @@ source_url: https://invent.kde.org/plasma/plasma-workspace/-/blob/master/doc/kco
 source_authors: [Natalie Clarius]
 license: GFDL 1.2 or later
 license_url: https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
-checked_against: "sonic-workspace (kcms/lookandfeel), sonic-silver (look-and-feel, layout-templates), sonic-tv-interface (lookandfeel, lookandfeel-dark); read from code, not clicked through"
+checked_against: "sonic-workspace (kcms/lookandfeel), sonic-silver (look-and-feel, layout-templates), sonic-tv-interface and sonic-mobile-interface (lookandfeel, lookandfeel-dark); read from code, not clicked through"
 ---
 
 # Global Theme
@@ -36,6 +36,7 @@ SonicDE's own look is Silver, and **Silver Light - Bottom Panel** is the default
 - **Silver Light - Apple Pie:** Light theme with a top bar for the global menu and a centered dock at the bottom.
 - **Silver Dark - Apple Pie:** Dark theme with the same top bar and dock.
 - **Silver Light - TV** and **Silver Dark - TV:** The Silver look for the TV session, without a desktop layout of their own; they come with the TV session.
+- **Silver Light - Mobile** and **Silver Dark - Mobile:** The Silver look for the mobile session, with its touch-friendly logout screen; they come with the mobile session.
 
 The Apple Pie themes' top bar holds the Sonic menu, the global menu, the system tray, the clock and **Show Desktop**; the dock holds the application launcher, the pager, an icons-only task manager and the trash. Both are see-through. Their window titlebars have the close, maximize, minimize and help buttons on the left, drawn in the Ark style, and the window menu and **On All Desktops** on the right. They also set see-through panels, pop-ups, desktop widgets, menus and titlebars, as you can change them in [Transparency](transparency.md).
 
