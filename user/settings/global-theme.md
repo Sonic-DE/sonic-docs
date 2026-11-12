@@ -33,8 +33,12 @@ SonicDE's own look is Silver, and **Silver Light - Bottom Panel** is the default
 - **Silver Light - Left Panel:** Light theme with the panel on the left.
 - **Silver Dark - Bottom Panel:** Dark theme with a traditional panel at the bottom and labelled tasks.
 - **Silver Dark - Left Panel:** Dark theme with the panel on the left.
+- **Silver Light - Apple Pie:** Light theme with a top bar for the global menu and a centered dock at the bottom.
+- **Silver Dark - Apple Pie:** Dark theme with the same top bar and dock.
 
-The light themes use the Silver Light colors, Silver icons, Silver Light pointers and the Silver Light desktop style; the dark themes use Silver Dark, Silver Dark icons, Silver pointers and the Silver Dark desktop style. All of them use the Silver application style, Silver window borders and the Silver splash screen.
+The Apple Pie themes' top bar holds the Sonic menu, the global menu, the system tray, the clock and **Show Desktop**; the dock holds the application launcher, the pager, an icons-only task manager and the trash. Both are see-through. Their window titlebars have the close, maximize, minimize and help buttons on the left, drawn in the Ark style, and the window menu and **On All Desktops** on the right. They also set see-through panels, pop-ups, desktop widgets, menus and titlebars, as you can change them in [Transparency](transparency.md).
+
+The light themes use the Silver Light colors, Silver icons, Silver Light pointers and the Silver Light desktop style; the dark themes use Silver Dark, Silver Dark icons, Silver pointers and the Silver Dark desktop style. All of them use the Silver application style, Silver window borders and the Silver splash screen. The Bottom Panel and Left Panel themes put the window menu and the application's menus on the left of the titlebar, with the menus always shown, and the help, minimize, maximize and close buttons on the right, drawn in the Fluent style.
 
 The panel layouts of these themes are also available on their own, as **Silver Bottom Panel** and **Silver Left Panel**, when you add a panel to the desktop. Each has an application launcher, a task manager and a system tray.
 

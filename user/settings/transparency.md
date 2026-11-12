@@ -4,7 +4,7 @@ description: Set how see-through panels, pop-ups, menus and titlebars are, and g
 source_authors: [SonicDE contributors]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "sonic-workspace (kcms/transparency), sonic-frameworks-color-scheme (src/ktoolsarea.h, src/ktoolsarea.cpp), sonic-silver and sonic-breeze (kstyle/breezestyle.cpp); written from the code and checked in a private test session"
+checked_against: "sonic-workspace (kcms/transparency, libklookandfeel/klookandfeelmanager.cpp), sonic-frameworks-color-scheme (src/ktoolsarea.h, src/ktoolsarea.cpp), sonic-silver and sonic-breeze (kstyle/breezestyle.cpp); written from the code and checked in a private test session"
 ---
 
 # Transparency
@@ -16,6 +16,10 @@ percentage box. Open applications and the desktop follow your changes as soon as
 Some themes draw their own look and don't use these settings. While one of those is selected, its section is
 greyed out with a note saying why. Your values are kept, and apply again once you choose a theme that uses
 them, even while the page is open.
+
+A [global theme](global-theme.md) can set these values too, as the Silver Apple Pie themes do. Applying a
+global theme that sets them replaces your values with the theme's. Applying one that doesn't removes the
+earlier theme's values and keeps any you set yourself here.
 
 ## Desktop
 
