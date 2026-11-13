@@ -5,7 +5,7 @@ source_url: https://userbase.kde.org/Plasma_Bigscreen
 source_authors: [KDE UserBase contributors]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "sonic-tv-interface (bin/, containments/homescreen/, settingsapp/, uvcviewer/, RELEASE-NOTES.md); the application recommendations come from https://userbase.kde.org/Plasma_Bigscreen/Third_Party_Apps and weren't retested; Flatpak links left out"
+checked_against: "sonic-tv-interface (bin/, envmanager/, containments/homescreen/, settingsapp/, uvcviewer/, RELEASE-NOTES.md); the application recommendations come from https://userbase.kde.org/Plasma_Bigscreen/Third_Party_Apps and weren't retested; Flatpak links left out"
 ---
 
 # TV interface
@@ -18,6 +18,10 @@ checked_against: "sonic-tv-interface (bin/, containments/homescreen/, settingsap
 ## Current status
 
 The TV interface runs on X11, like the rest of SonicDE.
+
+## Look
+
+The TV session has its own look, **Silver Light - TV** or **Silver Dark - TV**, kept apart from your desktop's global theme: changing one never changes the other. The first time you start the session, it matches your desktop's light or dark colours. After that, **Dark Mode** in [TV settings](tv-settings.md#system) switches between the two.
 
 ## Getting around
 

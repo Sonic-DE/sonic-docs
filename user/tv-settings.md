@@ -19,7 +19,7 @@ The sidebar also offers the desktop System Settings, which has more settings. Be
 
 - **Colored tiles:** Colors the background of each application tile to match the application's icon.
 - **Wallpaper blur:** Blurs the wallpaper behind the home screen.
-- **Global theme:** Chooses the system theme.
+- **Dark Mode:** Switches the TV session between **Silver Light - TV** and **Silver Dark - TV**. This only changes the TV session; your desktop keeps its own global theme.
 
 **System:**
 

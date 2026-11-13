@@ -5,7 +5,7 @@ source_url: https://userbase.kde.org/Plasma_Mobile
 source_authors: [KDE UserBase contributors]
 license: CC BY-SA 4.0
 license_url: https://creativecommons.org/licenses/by-sa/4.0/
-checked_against: "sonic-mobile-interface (bin/, containments/homescreens/, quicksettings/, initialstart/, shell/contents/configuration/, kcms/navigation) and the developer/mobile pages in sonic-docs; the device table comes from a report on KDE's Plasma Mobile test image and hasn't been retested with SonicDE"
+checked_against: "sonic-mobile-interface (bin/, envmanager/, containments/homescreens/, quicksettings/, initialstart/, shell/contents/configuration/, kcms/navigation) and the developer/mobile pages in sonic-docs; the device table comes from a report on KDE's Plasma Mobile test image and hasn't been retested with SonicDE"
 ---
 
 # Mobile interface
@@ -22,11 +22,15 @@ The mobile interface runs on X11, like the rest of SonicDE. It hasn't been tried
 - **You move around with the buttons on the navigation panel** at the bottom of the screen. Swiping gestures, such as swiping up to see your open applications, don't work yet.
 - **The on-screen keyboard is Sonic Keyboard.** It opens by itself when you tap a text field.
 
+## Look
+
+The mobile session has its own look, **Silver Light - Mobile** or **Silver Dark - Mobile**, kept apart from your desktop's global theme: changing one never changes the other. The first time you start the session, it matches your desktop's light or dark colours. After that, the **Dark Mode** quick setting switches between the two.
+
 ## First start
 
 The first time you start the mobile session, a setup wizard walks you through the basics:
 
-- **Before we get started…:** the screen brightness, **Display Scaling** for the size of things on the screen, and **Dark Theme**.
+- **Before we get started…:** the screen brightness, **Display Scaling** for the size of things on the screen, and **Dark Theme**, the same as the **Dark Mode** quick setting.
 - **Time and Date:** your time zone and **24-Hour Format**.
 - **System Navigation:** for now there's nothing to choose here. You move around with the buttons on the navigation panel, because gestures don't work yet.
 - **Network:** connect to a Wi-Fi network.
@@ -50,7 +54,7 @@ The settings window also has **Change Homescreen**, where **Select Homescreen** 
 
 ## Quick settings
 
-Pull down from the top of the screen for the action drawer with your quick settings: **Wi-Fi**, **Mobile Data**, **Hotspot**, **Bluetooth**, **Airplane Mode**, **Sound**, **Battery**, **Flashlight**, **Night Color**, **Do Not Disturb**, **Caffeine** (stops the device going to sleep), **Auto-rotate**, **Display Config**, **Screenshot**, **Record Screen**, **Docked Mode**, **Auto Hide Panels**, **Virtual Keyboard**, **Settings** and **Shut Down**.
+Pull down from the top of the screen for the action drawer with your quick settings: **Wi-Fi**, **Mobile Data**, **Hotspot**, **Bluetooth**, **Airplane Mode**, **Sound**, **Battery**, **Flashlight**, **Night Color**, **Dark Mode**, **Do Not Disturb**, **Caffeine** (stops the device going to sleep), **Auto-rotate**, **Display Config**, **Screenshot**, **Record Screen**, **Docked Mode**, **Auto Hide Panels**, **Virtual Keyboard**, **Settings** and **Shut Down**.
 
 **Record Screen** records the screen as a video, without sound or the mouse pointer. Tap it to start; the drawer closes so you can show what you want. Open the drawer and tap it again to stop. A notification tells you where the video was saved, in your Videos folder.
 
